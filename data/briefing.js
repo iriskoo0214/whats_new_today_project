@@ -1,14 +1,14 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-08-08 18:54:54 KST",
+  "generated_at": "2026-08-09 08:04:06 KST",
   "refreshed": [
-    "kr"
+    "us"
   ],
-  "default": "kr",
+  "default": "us",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
-      "label": "미국 증시 요약 2026. 8. 8. 5:25PM",
+      "label": "미국 증시 요약 2026. 8. 9. 8:04AM",
       "chips": [
         "전체",
         "IBM",
@@ -26,8 +26,8 @@ window.NOTEFOLIO_BRIEFING = {
         {
           "stock": "IBM",
           "ticker": "IBM",
-          "title": "IBM - AI 인증·컨설팅 협업 확대",
-          "body": "Databricks 및 보안·거버넌스 인증 획득에 액센츄어 제휴, 앱티오 AI 지출 관리까지 사업 확장세. +1.65% 오른 <b>237.28달러</b> 마감.",
+          "title": "IBM - 클라우드·AI 인증 확대",
+          "body": "오라클 클라우드 최적화와 데이터브릭스 AI·보안 인증 획득 등 사업 확장 소식이 이어짐. +1.65% 오른 <b>237.28달러</b> 마감.",
           "pct": 1.65,
           "price": 237.27999877929688,
           "currency": "USD",
@@ -38,63 +38,63 @@ window.NOTEFOLIO_BRIEFING = {
               "price": 234.32000732421875,
               "pct": 0.38,
               "is_close": false,
-              "title": "장 초반 완만한 상승",
-              "text": "장 초반부터 꾸준한 매수세가 유입되며 소폭 오름세로 출발한 모습"
+              "title": "장 초반 상승 출발",
+              "text": "클라우드 최적화 관련 소식이 전해진 가운데 완만한 오름세로 거래를 시작함"
             },
             {
               "time": "12:30AM",
               "price": 235.375,
               "pct": 0.83,
               "is_close": false,
-              "title": "오름세 지속",
-              "text": "Databricks 관련 인증 소식이 전해진 이후에도 상승세가 이어지며 오전 고점을 새로 씀"
+              "title": "오름폭 확대",
+              "text": "Databricks 관련 AI 및 보안 인증 획득 소식이 전해지며 상승폭이 한층 커짐"
             },
             {
               "time": "2:30AM",
               "price": 236.3300018310547,
               "pct": 1.24,
               "is_close": false,
-              "title": "상승폭 확대",
-              "text": "액센츄어와의 제휴 관련 밸류에이션 논의가 나온 뒤에도 매수세가 유지되며 상승세 지속"
+              "title": "상승세 유지",
+              "text": "오전 대비 오름폭이 다소 줄었으나 상승 흐름 자체는 꺾이지 않고 이어짐"
             },
             {
               "time": "마감",
               "price": 237.27999877929688,
               "pct": 1.65,
               "is_close": true,
-              "title": "장중 최고치로 마감",
-              "text": "오후 들어서도 상승 흐름이 꺾이지 않고 이어지며 하루 중 가장 높은 수준에서 거래를 마침"
+              "title": "장중 최고 상승률 마감",
+              "text": "오후 들어 재차 힘을 받으며 하루 중 가장 높은 상승률로 거래를 마침"
             }
           ],
           "news": [
+            {
+              "title": "IBM Turbonomic의 수요 기반 자동화를 통한 Oracle Cloud Infrastructure 최적화",
+              "original": "IBM Turbonomic의 수요 기반 자동화를 통한 Oracle Cloud Infrastructure 최적화",
+              "source": "IBM",
+              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcHk4Ul9IQ3FacWRteS1HUEdXREFTLS1FcGJVNGkzRlhESGZDbW1yQS1EWkFuVGdfMno0dG9Ic29wNDVpUXdmLUNQaktKa00wbWxnakwxQUFILWlSOEtISzJla2ZBcnBxakoxaWF5RzNILXZhSFJuRm9kelNLdzNuT2FsNlVFSFRONmw3elJuenV2c0FzQWVWMXJMWXh5WVBSQm1iVjJTQTBJelBIUGhBV3k3TXhXdDA1a3VVMTRPazA0X0FQdDZ3a2tB?oc=5",
+              "published": "2026-08-09T02:30:03+09:00"
+            },
+            {
+              "title": "Biconomy, 2026년 8월 8일 IBM/USDT 무기한 선물 계약 출시 예정",
+              "original": "Biconomy, 2026년 8월 8일 IBM/USDT 무기한 선물 계약 출시 예정",
+              "source": "tradersunion.com",
+              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeEd4STgzaFBRR1o0Tmw2bXJhcHo4WDJWZFQ2d0lhV0Nsakc1VWEtRVJSUC03LWVQM0ZsUXJMT1M3ZzBETnRwZ3JsWXhQQzdJU3c4Y0xfa0kzT3Z0dTFxTjc5a3JNWnoyWU5WcHVmTGktVkRlU1VvZWI3MFBDWkFQZDk1bnBRekhOZzJfSnBEenFTSlptX2g2TjRudw?oc=5",
+              "published": "2026-08-08T19:04:08+09:00"
+            },
             {
               "title": "IBM, Databricks Brickbuilder AI 및 보안/거버넌스 분야 전문 인증 획득",
               "original": "IBM, Databricks Brickbuilder AI 및 보안/거버넌스 분야 전문 인증 획득",
               "source": "IBM",
               "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPb3JkU3BfVkFzZDRYVG10ckMyR0Rqd1BvN2M5WWh3SzdHTXI2TDE3TnkzOWhlSkdZMTlpZjlfWEMxYkdqWG1KdlQ0UjhyMmVKWm15LS1maGRleV9VNmp3SVNoVDY2N1FVa3ZkQncxMWVCQ3ZVcUMyY21ib1VXS2lnNWI3ZGpwUDg3NG5fU3pVMk9aazU0NnZ2cFZLei15Smdla3d5b0NPTUpDcTNSNlhpSXBhRkhOb1B5eVpqNFE5ZGpBNmZxU2c?oc=5",
               "published": "2026-08-08T10:32:36+09:00"
-            },
-            {
-              "title": "액센츄어(ACN), 유니크레디트 딜과 IBM 제휴 이후 밸류에이션 엇갈려",
-              "original": "Accenture (ACN) Following UniCredit Deal And IBM Tie Up Has A Valuation Split",
-              "source": "Simply Wall St.",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/accenture-acn-following-unicredit-deal-001553844.html",
-              "published": "2026-08-08T09:15:53+09:00"
-            },
-            {
-              "title": "IBM 앱티오, CFO의 AI 지출을 비즈니스 가치와 연결하는 데 도움",
-              "original": "IBM Apptio helps CFOs connect AI spend to business value",
-              "source": "CFO Dive",
-              "url": "https://www.cfodive.com/news/ibm-apptio-helps-cfos-connect-ai-spend-business-value-uber/827376/",
-              "published": "2026-08-08T00:24:19+09:00"
             }
           ]
         },
         {
           "stock": "마이크로소프트",
           "ticker": "MSFT",
-          "title": "마이크로소프트 - 보안 경고 속 실적 대기",
-          "body": "BNB 체인·AitM 피싱 등 보안 위협 경고가 이어지는 가운데 4분기 실적발표를 앞두고 주가는 보합권. +0.03% 오른 <b>499.99달러</b> 마감.",
+          "title": "마이크로소프트 - 보안 경고 속 강보합",
+          "body": "빅테크 AI 투자 모범 사례로 꼽혔으나 호텔 와이파이 계정 탈취 경고도 함께 나오며 주가는 보합권. +0.03% 오른 <b>499.99달러</b> 마감.",
           "pct": 0.03,
           "price": 499.989990234375,
           "currency": "USD",
@@ -105,24 +105,24 @@ window.NOTEFOLIO_BRIEFING = {
               "price": 501.7699890136719,
               "pct": 0.38,
               "is_close": false,
-              "title": "장 초반 강세 출발",
-              "text": "장 초반부터 매수세가 붙으며 완만한 상승 흐름으로 하루를 시작한 모습"
+              "title": "소폭 상승 출발",
+              "text": "AI 투자 관련 긍정적 평가가 나온 가운데 완만한 오름세로 하루를 시작함"
             },
             {
               "time": "12:30AM",
               "price": 503.5799865722656,
               "pct": 0.74,
               "is_close": false,
-              "title": "상승폭 확대",
-              "text": "실적발표 대본이 공개된 뒤 오전 상승 흐름이 이어지며 하루 중 최고 수준까지 올라섬"
+              "title": "오름폭 확대",
+              "text": "코파일럿 통합 등 우호적 소식이 이어지며 상승폭이 하루 중 가장 크게 벌어짐"
             },
             {
               "time": "2:30AM",
               "price": 500.3500061035156,
               "pct": 0.1,
               "is_close": false,
-              "title": "오름폭 축소",
-              "text": "피싱 공격 및 신종 위협 경고 기사가 나온 이후 상승분을 대부분 반납하며 보합권으로 후퇴"
+              "title": "상승폭 대부분 반납",
+              "text": "보안 경고 이슈가 부각된 이후 오전에 쌓았던 오름폭 대부분을 반납함"
             },
             {
               "time": "마감",
@@ -130,38 +130,38 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.03,
               "is_close": true,
               "title": "보합권 마감",
-              "text": "오후 내내 하락 압력이 이어지며 오전 상승분을 거의 다 내주고 강보합 수준에서 장을 마감"
+              "text": "낙폭을 소폭 만회했지만 오전의 강한 상승세는 이어가지 못하고 약보합 수준에서 마감함"
             }
           ],
           "news": [
             {
-              "title": "마이크로소프트, BNB 스마트 체인 이용한 신종 공격 경고",
-              "original": "마이크로소프트, BNB 스마트 체인 이용한 신종 공격 경고",
-              "source": "블루밍비트",
-              "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE12enRKSlp5c3JKSFh3MGlUenhpRERzd2ZVNENjRjQ4YXdQbDA4aWw3cWNFeFpOeXVCQ251ZWpJcEI4VFUtTFFaSEowcm5tWTRn?oc=5",
-              "published": "2026-08-08T11:09:58+09:00"
-            },
-            {
-              "title": "Microsoft 365 AitM 악용 피싱 공격으로 계정 탈취... 급여 관련 이메일 수집",
-              "original": "Microsoft 365 AitM 악용 피싱 공격으로 계정 탈취... 급여 관련 이메일 수집",
-              "source": "v.daum.net",
-              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE45bEtJaXplZk1xMGxtSElMTkdKaDRWc0R2Y1hQU3M3a29YYVdyczJoWFk2MGJfbEJaclh2aWF6TjllSEc2R2o1QzVkVXd2cTA?oc=5",
-              "published": "2026-08-08T11:00:05+09:00"
-            },
-            {
-              "title": "마이크로소프트(MSFT) 2026 회계연도 4분기 실적발표 대본",
-              "original": "Microsoft (MSFT) Q4 2026 Earnings Call Transcript",
+              "title": "마이크로소프트, '매그니피센트 세븐'에 AI 투자의 정석을 보여주다",
+              "original": "Microsoft Shows the \"Magnificent Seven\" What AI Investment Looks Like",
               "source": "Motley Fool",
-              "url": "https://www.fool.com/earnings/call-transcripts/2026/08/07/microsoft-msft-q4-2026-earnings-call-transcript/",
-              "published": "2026-08-08T08:58:47+09:00"
+              "url": "https://www.fool.com/investing/2026/08/08/microsoft-shows-the-magnificent-seven-what-ai-investment-looks-like/",
+              "published": "2026-08-09T06:01:02+09:00"
+            },
+            {
+              "title": "호텔 와이파이 썼다가 계정 털린다…마이크로소프트 긴급 경고",
+              "original": "호텔 와이파이 썼다가 계정 털린다…마이크로소프트 긴급 경고",
+              "source": "RadioKorea",
+              "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82LXlIMlY3SWUyYUFlbUxENkQ2aUU0MG1TV1d0a081QlpINHJna25vV0dhLUp0VFgxaTBaT2pZZi02bzdlaERGcnRoR2F2cEJocUNPYWQwU2gtLWY4Tmlv?oc=5",
+              "published": "2026-08-09T04:01:59+09:00"
+            },
+            {
+              "title": "리걸줌(LZ), 성장 전환 속 마이크로소프트 코파일럿 통합",
+              "original": "LegalZoom (LZ) Integrates Microsoft Copilot Amid Growth Shifts",
+              "source": "Insider Monkey",
+              "url": "https://finance.yahoo.com/small-business/articles/legalzoom-lz-integrates-microsoft-copilot-183004346.html",
+              "published": "2026-08-09T03:30:04+09:00"
             }
           ]
         },
         {
           "stock": "아이온큐",
           "ticker": "IONQ",
-          "title": "아이온큐 - 샌디아 MOU·합병 완료 겹호재",
-          "body": "샌디아 연구소와 MOU 체결로 플랫폼 전략 기대감 확산, 스카이워터 합병 완료 소식도 매수세 자극. +11.86% 오른 <b>44.43달러</b> 마감.",
+          "title": "아이온큐 - 사상 최대 실적에 급등",
+          "body": "2분기 사상 최대 실적 발표 후 양자컴퓨터株 전반이 강세를 보이며 매수세가 몰림. +11.86% 오른 <b>44.43달러</b> 마감.",
           "pct": 11.86,
           "price": 44.43000030517578,
           "currency": "USD",
@@ -172,63 +172,63 @@ window.NOTEFOLIO_BRIEFING = {
               "price": 42.29499816894531,
               "pct": 6.48,
               "is_close": false,
-              "title": "강한 상승 출발",
-              "text": "장 초반부터 강한 매수세가 몰리며 큰 폭의 오름세로 하루를 시작한 모습"
+              "title": "실적 훈풍에 급등 출발",
+              "text": "2분기 실적발표 콜 이후 사상 최대 실적 기대감이 반영되며 큰 폭으로 뛰며 시작함"
             },
             {
               "time": "12:30AM",
               "price": 43.54999923706055,
               "pct": 9.64,
               "is_close": false,
-              "title": "상승폭 더 커짐",
-              "text": "스카이워터와의 합병 완료 및 매출 급증 소식이 전해진 뒤 오름폭이 한층 확대됨"
+              "title": "상승폭 더 확대",
+              "text": "실적 호조 평가가 이어지며 오전보다 상승폭이 한층 커짐"
             },
             {
               "time": "2:30AM",
               "price": 43.150001525878906,
               "pct": 8.64,
               "is_close": false,
-              "title": "오름폭 소폭 축소",
-              "text": "샌디아 연구소와의 MOU 체결 소식이 나온 직후 상승 흐름은 이어졌으나 오전 대비 다소 주춤"
+              "title": "상승폭 일부 축소",
+              "text": "양자컴퓨터주 전반의 급등 흐름 속에서도 오전 고점 대비 오름폭이 다소 줄어듦"
             },
             {
               "time": "마감",
               "price": 44.43000030517578,
               "pct": 11.86,
               "is_close": true,
-              "title": "장중 최고치 마감",
-              "text": "오후 들어 다시 매수세가 강해지며 하루 중 가장 큰 오름폭을 기록한 채 거래를 마감"
+              "title": "하루 중 최고 상승률 마감",
+              "text": "양자컴퓨터주 동반 강세가 이어지며 하루 중 가장 높은 상승률로 거래를 마침"
             }
           ],
           "news": [
             {
-              "title": "IonQ(아이온큐) 또 올랐다! 샌디아 연구소와 MOU 체결... 플랫폼 전략이 현실이 된다. Astros - Reds (ry8ekj7Zvk)",
-              "original": "IonQ(아이온큐) 또 올랐다! 샌디아 연구소와 MOU 체결... 플랫폼 전략이 현실이 된다. Astros - Reds (ry8ekj7Zvk)",
-              "source": "Mshale",
-              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBwc3lldVgyYUpHWDc2c0FOQzhjTWttaENINUpVODhBOU9Qek5haEpFLUp6dHdaZnpJYU1NamZLZWdVUGVXN3haeldOVURxZkg2Z1Noa3hxcnhaZ0U?oc=5",
-              "published": "2026-08-08T11:06:47+09:00"
+              "title": "아이온큐·리게티 컴퓨팅 등 주가 껑충…미국 양자컴퓨터주 일부 급등",
+              "original": "아이온큐·리게티 컴퓨팅 등 주가 껑충…미국 양자컴퓨터주 일부 급등",
+              "source": "네이트",
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ZVDlJSjBCM1JLWVUxdFF5ZFR1UThqa0ZPcktISUV4T1Vmc0lfNm1wWnl6a0VMRW9CSEVKWk83dzlBeDN5dEtrN2tlbW5ieEhZWmhkOHBOa0hSRUgzazdlcg?oc=5",
+              "published": "2026-08-09T07:56:00+09:00"
             },
             {
-              "title": "IONQ Inc(IONQ) 실적 예측: 미래 EPS 및 수익 성장 추정치",
-              "original": "IONQ Inc(IONQ) 실적 예측: 미래 EPS 및 수익 성장 추정치",
-              "source": "TradingKey",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1lc0lwZWo3NnNLMGJSYndZTVBLZGhDd1hoOU94SGMzOUdXVk9fU1pJRmhvTDFUZllwOVl2ZkpTMTloRVg2V2t0YzlzRExYcUZ2ZHdCT2lLNWJ3Mm5wLVJsVm9kVF9hRzByTkE?oc=5",
-              "published": "2026-08-08T06:42:54+09:00"
+              "title": "아이온큐, 사상 최대 실적 후 12% 급등...2026년 주가는 어디로",
+              "original": "IonQ Jumped 12% After Its Record Quarter. Here’s Where the Stock Could Go in 2026",
+              "source": "TIKR.com",
+              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSkFtZEt0Y3ZoWmJkOVZJcWR5Nm84MEdsYUxDSEpPczh2NHBjZF9lSGZNdUROWHdNZHY3VHlDS3oxdU1jSmZoTHhYWnBLM0VBUE1vZk5OVFBhUFBlcXpiOGtXRW9iX1VVNEpsNHNVRXJnNTFCQm8tanJHeFQxRGVEeHVOTHJJRHlaQ2FvMTVidnJvdDM0NFRtenFRdHMzVVdFdXo5RmxSNnJRQTFF?oc=5",
+              "published": "2026-08-09T03:44:20+09:00"
             },
             {
-              "title": "스카이워터, 2분기 매출 156M달러로 급증…아이온큐와 합병 완료",
-              "original": "스카이워터, 2분기 매출 156M달러로 급증…아이온큐와 합병 완료",
-              "source": "데이터투자",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE80ZEExM2hVSUtJdERmX0dtdHdFaGtPTlNXbWZiLTl3ZDU4RmNKNVZfRjJQMFpJSERPcWEzcFhmM1VCWlEtUnJPQVFSY1RMeHRHVlRROVBSOTRkVjctWjBGdjMwdmdMN3dxVXZLcGJidTR5emM?oc=5",
-              "published": "2026-08-08T04:36:15+09:00"
+              "title": "아이온큐 2분기 실적발표 콜 하이라이트",
+              "original": "IonQ Q2 Earnings Call Highlights",
+              "source": "MarketBeat",
+              "url": "https://www.marketbeat.com/instant-alerts/ionq-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&utm_medium=yahoofinance",
+              "published": "2026-08-08T23:04:00+09:00"
             }
           ]
         },
         {
           "stock": "엔비디아",
           "ticker": "NVDA",
-          "title": "엔비디아 - 통신 진출·구광모 회동 겹호재",
-          "body": "무선 통신장비 시장 진출 기대에 구광모 회동 소식 더해지며 모건스탠리도 AI 승자로 지목. +2.27% 오른 <b>223.96달러</b> 마감.",
+          "title": "엔비디아 - 랜시엄 베팅에 강세",
+          "body": "HBM 수급 경쟁 속 램시엄에 30억 달러 투자하며 전력 인프라까지 사업 확장 기대감 부각. +2.27% 오른 <b>223.96달러</b> 마감.",
           "pct": 2.27,
           "price": 223.9600067138672,
           "currency": "USD",
@@ -239,63 +239,63 @@ window.NOTEFOLIO_BRIEFING = {
               "price": 222.5,
               "pct": 1.6,
               "is_close": false,
-              "title": "장 초반 강세 출발",
-              "text": "장 초반부터 견조한 매수세가 유입되며 뚜렷한 상승 흐름으로 하루를 시작한 모습"
+              "title": "완만한 상승 출발",
+              "text": "경쟁사 관련 소식이 나온 가운데 완만한 오름세로 거래를 시작함"
             },
             {
               "time": "12:30AM",
               "price": 223.82000732421875,
               "pct": 2.21,
               "is_close": false,
-              "title": "상승폭 확대",
-              "text": "오전 내내 상승 탄력이 이어지며 오름폭이 한층 더 커지는 흐름을 보임"
+              "title": "오름폭 확대",
+              "text": "HBM 공급 경쟁과 전력 인프라 투자 소식이 겹치며 상승폭이 하루 중 가장 크게 벌어짐"
             },
             {
               "time": "2:30AM",
               "price": 222.08999633789062,
               "pct": 1.42,
               "is_close": false,
-              "title": "오름폭 일부 축소",
-              "text": "모건스탠리의 낙관적 전망 기사가 나온 이후에도 상승세는 유지됐으나 오전 고점보다는 소폭 낮아짐"
+              "title": "상승폭 다소 축소",
+              "text": "오전 고점 대비 오름폭이 줄었지만 상승 흐름 자체는 유지됨"
             },
             {
               "time": "마감",
               "price": 223.9600067138672,
               "pct": 2.27,
               "is_close": true,
-              "title": "장중 최고치 마감",
-              "text": "구광모 회장과의 회동, 통신 시장 진출 기대감 등 우호적 소식이 이어지며 하루 중 최고치로 마감"
+              "title": "장중 최고가권 마감",
+              "text": "오후 들어 재차 매수세가 유입되며 하루 중 가장 높은 상승률로 마감함"
             }
           ],
           "news": [
             {
-              "title": "\"엔비디아 통신 시장 진출, 무선 통신장비 업체 수혜\"[주末머니]",
-              "original": "\"엔비디아 통신 시장 진출, 무선 통신장비 업체 수혜\"[주末머니]",
-              "source": "아시아경제",
-              "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5pMzgzTGtDck1HWjZyZGx2RzBVWG5nMkQ0d0ZxVVlKdE1ZOGlQNS1ReEQxWGNuX21fdVJPMUlpV0lFVThvbU1PTkEwLTBZbVlpSDM3c0hCY0lENXBuWU1hb3JB?oc=5",
-              "published": "2026-08-08T15:15:00+09:00"
+              "title": "AMD, 엔비디아에 도전하는 대담한 행보 단행",
+              "original": "AMD just made bold move to challenge Nvidia",
+              "source": "TheStreet",
+              "url": "https://www.thestreet.com/investing/stocks/amd-acquires-taalas-ai-inference-chips-nvidia-amd",
+              "published": "2026-08-09T07:07:00+09:00"
             },
             {
-              "title": "구광모, 실리콘밸리서 엔비디아 CEO와 재회…로봇·AI 협력 본격화",
-              "original": "구광모, 실리콘밸리서 엔비디아 CEO와 재회…로봇·AI 협력 본격화",
-              "source": "CBC뉴스",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Ubng3dndYRm80VDhoZElxcDQyMks1MVVTdDk3SzFsTGd6NVRLSlYzc1FHY2FFWmUyOTdSTVpHRjVvOXZWNFp6V09BbWJnTVEyd1lHZVlPWDRJYlp2eGtyOXZRMGlBaWRm?oc=5",
-              "published": "2026-08-08T14:55:00+09:00"
+              "title": "HBM 대란에 엔비디아·AMD \"사양 낮춰서라도…\" 삼성·SK, 공급전 더 뜨거워진다 [칩칩팹팹]",
+              "original": "HBM 대란에 엔비디아·AMD \"사양 낮춰서라도…\" 삼성·SK, 공급전 더 뜨거워진다 [칩칩팹팹]",
+              "source": "네이트",
+              "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1RdGJkdG84UEJaenBGeWVSYS1id3lMRzJua2dHekZlR3Vaa2FCYmxFRmtpQ21aZEtwUzJRUzJqMVVHWHFwdHlOaDhkYmYtWnA0MkVWa0w5ZE9XYjQ0WFdJcWwxeTNxcWlmY2RhRTNlb2NoLVdEQS1JVw?oc=5",
+              "published": "2026-08-09T06:31:00+09:00"
             },
             {
-              "title": "“AI 시장, 어떻게 전개되든 승자는 엔비디아” 모건스탠리",
-              "original": "“AI 시장, 어떻게 전개되든 승자는 엔비디아” 모건스탠리",
-              "source": "문화일보",
-              "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5RYS1oV1k0dkx5VzYzclFQd2lHd1hRUkItaUdWZl9CRHZySjFDRUU4MGdZYlgyM0k2R2ZEWDJxdmJUNE9qb0Y0Ym8wa1ozT3U2?oc=5",
-              "published": "2026-08-08T14:01:55+09:00"
+              "title": "엔비디아의 랜시엄 30억 달러 베팅, '컴퓨트 랜드로드' 테제가 전력 계층까지 확장됐음을 시사",
+              "original": "Nvidia’s $3 Billion Bet on Lancium Signals the Compute Landlord Thesis Has Reached the Power Layer",
+              "source": "Forkast News",
+              "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-3-billion-bet-lancium-211209280.html",
+              "published": "2026-08-09T06:12:09+09:00"
             }
           ]
         },
         {
           "stock": "소파이테크놀로지",
           "ticker": "SOFI",
-          "title": "소파이테크놀로지 - 저평가·고평가 엇갈린 시각",
-          "body": "기록적 성장과 안정적 가이던스로 저평가 분석 나온 반면 고평가 논란도 공존, 실적발표 앞두고 소폭 상승. +1.55% 오른 <b>18.38달러</b> 마감.",
+          "title": "소파이테크놀로지 - 실적 호조에도 저평가론",
+          "body": "사상 최대 성장과 안정적 가이던스 발표에도 여전히 20% 저평가됐다는 분석이 나옴. +1.55% 오른 <b>18.38달러</b> 마감.",
           "pct": 1.55,
           "price": 18.3799991607666,
           "currency": "USD",
@@ -306,61 +306,54 @@ window.NOTEFOLIO_BRIEFING = {
               "price": 18.485000610351562,
               "pct": 2.13,
               "is_close": false,
-              "title": "장 초반 강세 출발",
-              "text": "장 초반부터 매수세가 유입되며 뚜렷한 상승 흐름으로 하루를 시작한 모습"
+              "title": "상승 출발",
+              "text": "2분기 실적발표 콜 공개를 앞두고 완만한 오름세로 하루를 시작함"
             },
             {
               "time": "12:30AM",
               "price": 18.21500015258789,
               "pct": 0.64,
               "is_close": false,
-              "title": "오름폭 축소",
-              "text": "고평가 우려를 제기한 기사가 나온 이후 상승 탄력이 다소 둔화되며 오름폭이 줄어듦"
+              "title": "상승폭 축소",
+              "text": "실적발표 콜 내용이 공개된 이후 오전 대비 오름폭이 다소 줄어듦"
             },
             {
               "time": "2:30AM",
               "price": 18.184999465942383,
               "pct": 0.47,
               "is_close": false,
-              "title": "상승폭 추가 축소",
-              "text": "실적발표 대본이 공개된 뒤에도 매수세가 강해지지 못하며 오름폭이 하루 중 가장 작은 수준까지 줄어듦"
+              "title": "오름폭 추가 축소",
+              "text": "저평가 매력을 언급한 분석이 나온 뒤에도 상승폭은 계속 줄어드는 흐름을 보임"
             },
             {
               "time": "마감",
               "price": 18.3799991607666,
               "pct": 1.55,
               "is_close": true,
-              "title": "오후 들어 반등",
-              "text": "저평가 가능성을 제기한 분석 기사가 나온 이후 오후 들어 매수세가 다시 유입되며 오름폭을 일부 회복"
+              "title": "낙폭 일부 만회 마감",
+              "text": "장 후반 들어 매수세가 다소 붙으며 오후 한때의 낙폭을 일부 만회하고 마감함"
             }
           ],
           "news": [
             {
-              "title": "소파이 테크놀로지스(SOFI), 기록적 성장과 안정적 가이던스에도 20% 저평가 가능성",
+              "title": "소파이 테크놀로지스(SOFI), 사상 최대 성장과 안정적 가이던스에도 20% 저평가 가능성",
               "original": "SoFi Technologies (SOFI) Could Be 20% Undervalued On Record Growth And Steady Guidance",
               "source": "Simply Wall St.",
               "url": "https://finance.yahoo.com/markets/stocks/articles/sofi-technologies-sofi-could-20-031734559.html",
               "published": "2026-08-08T12:17:34+09:00"
             },
             {
-              "title": "소파이(SOFI) 2026 회계연도 2분기 실적발표 대본",
+              "title": "소파이(SOFI) 2026년 2분기 실적발표 콜 녹취록",
               "original": "SoFi (SOFI) Q2 2026 Earnings Call Transcript",
               "source": "Motley Fool",
               "url": "https://www.fool.com/earnings/call-transcripts/2026/08/07/sofi-sofi-q2-2026-earnings-call-transcript/",
               "published": "2026-08-08T09:16:06+09:00"
-            },
-            {
-              "title": "SoFi(SOFI) 주가는 공정 가치와 실적 측면에서 고평가된 것으로 보인다",
-              "original": "SoFi(SOFI) 주가는 공정 가치와 실적 측면에서 고평가된 것으로 보인다",
-              "source": "simplywall.st",
-              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSi1VOUctNF9CZENlUDllRmlLNlE2dDE4Yi1uUm1ZMXYxdWJtMVdXWXNIX1pxUzI0akhST1FMWnhiY2dnTy1ROU9kUnlqWlJBaHpyTGxpVU9uTlQ4b19JRnU1b0ZENXJCUjl4U0duVUpHOTNJSXlNQ1hXTENIUlhTRmdDYm9BdUgxWjQ1emJQemk4S3laRWFDeE5VeC1qenM1V3VtOS1JOG5rekZFMlNDRkdyMNIBswFBVV95cUxQSi1VOUctNF9CZENlUDllRmlLNlE2dDE4Yi1uUm1ZMXYxdWJtMVdXWXNIX1pxUzI0akhST1FMWnhiY2dnTy1ROU9kUnlqWlJBaHpyTGxpVU9uTlQ4b19JRnU1b0ZENXJCUjl4U0duVUpHOTNJSXlNQ1hXTENIUlhTRmdDYm9BdUgxWjQ1emJQemk4S3laRWFDeE5VeC1qenM1V3VtOS1JOG5rekZFMlNDRkdyMA?oc=5",
-              "published": "2026-08-08T07:32:42+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-08-08-us-kr.md",
-      "refreshed_at": "2026-08-08 17:25:54 KST"
+      "markdown": "briefings/2026-08-09-us.md",
+      "refreshed_at": "2026-08-09 08:04:06 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
