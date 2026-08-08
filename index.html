@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+<title>노트폴리오 — 오전 요약 스와이프 프로토타입</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="device" id="device" data-tab="home">
+
+  <!-- ============ Home 탭 ============ -->
+  <section class="screen screen--home" id="screenHome">
+  <div class="blob"></div>
+
+  <!-- App Bar -->
+  <div class="app-bar">
+    <img class="logo" src="assets/logo.svg" alt="노트폴리오" />
+    <span class="bell icon24"><img class="i-bell" src="assets/notification.svg" alt="알림" /></span>
+  </div>
+
+  <!-- Summary title -->
+  <button class="summary-title" id="summaryTitle" title="다른 시장 브리핑 보기(프로토타입 전환용)">
+    <img id="summaryIcon" src="assets/sun-horizon.svg" alt="" />
+    <span id="summaryLabel">미국 증시 요약 2026. 7. 31. 7:00AM</span>
+  </button>
+
+  <!-- Filters -->
+  <div class="filters">
+    <div class="chip-scroll" id="chips"></div>
+    <button class="chip-more" aria-label="다음 종목 보기">
+      <img src="assets/chip-more.svg" alt="" />
+    </button>
+  </div>
+
+  <!-- Card list -->
+  <div class="list-viewport" id="viewport">
+    <ul class="list" id="list"></ul>
+  </div>
+
+  <!-- 모두 읽음 상태 -->
+  <div class="all-read" id="allRead">
+    <div class="all-read__badge">
+      <img class="all-read__star" src="assets/star-badge.svg" alt="" />
+      <img class="all-read__check" src="assets/check.svg" alt="" />
+    </div>
+    <div class="all-read__body">
+      <div class="all-read__text">
+        <div class="all-read__title">오늘의 브리핑을 모두 확인했어요.</div>
+        <div class="all-read__sub" id="allReadSub"></div>
+      </div>
+      <button class="all-read__btn" id="reset">브리핑 다시 불러오기</button>
+    </div>
+  </div>
+
+  <div class="scrollbar" id="scrollbar"><div class="scrollbar__thumb" id="thumb"></div></div>
+  </section>
+
+  <!-- ============ Portfolios 탭 (155:6443) ============ -->
+  <section class="screen screen--pf" id="screenPf" data-trend="up">
+    <!-- 상단 파랑 영역 + 장중 진행 컬럼 -->
+    <div class="pf-top">
+      <div class="pf-col pf-col--head" id="pfColHead"></div>
+      <div class="pf-header">Portfolios</div>
+      <div class="pf-datepicker">
+        <button class="pf-nav pf-nav--prev" id="pfPrev" aria-label="이전 시간대">
+          <img src="assets/chevron-right.svg" alt="" />
+        </button>
+        <span class="pf-date" id="pfDate">2026년 7월 31일</span>
+        <button class="pf-nav pf-nav--next" id="pfNext" aria-label="다음 시간대">
+          <img src="assets/chevron-right.svg" alt="" />
+        </button>
+      </div>
+    </div>
+
+    <!-- 중단: 그라데이션 + 종목탭 + 종목정보 + 가격 -->
+    <div class="pf-middle">
+      <div class="pf-middle__sky"></div>
+      <div class="pf-col pf-col--mid" id="pfColMid"></div>
+
+      <div class="pf-tabs">
+        <div class="pf-tabs__scroll" id="pfChips"></div>
+        <button class="pf-tabs__more" aria-label="다음 종목 보기"><img src="assets/chip-more.svg" alt="" /></button>
+      </div>
+
+      <div class="pf-stock">
+        <div class="pf-stock__name" id="pfStock">SK하이닉스</div>
+        <div class="pf-stock__desc" id="pfHeadline"></div>
+      </div>
+
+      <button class="pf-time" id="pfTime" title="급등/급락 상태 전환(프로토타입 확인용)">
+        <div class="pf-time__band" id="pfBand"></div>
+        <div class="pf-time__label" id="pfTimeLabel"></div>
+        <div class="pf-price">
+          <p class="pf-price__value"><span id="pfPrice"></span><em>원</em></p>
+          <div class="pf-price__info">
+            <div class="pf-price__change">
+              <img id="pfTriangle" src="assets/triangle-up.svg" alt="" />
+              <span id="pfPct"></span>
+            </div>
+            <p class="pf-price__yday">어제보다</p>
+          </div>
+        </div>
+      </button>
+    </div>
+
+    <!-- 시간대별 브리핑 -->
+    <div class="pf-section-title">시간대별 브리핑</div>
+    <div class="pf-briefs" id="pfBriefs"><div class="pf-briefs__row" id="pfBriefRow"></div></div>
+  </section>
+
+  <!-- Status Bar (두 탭 공용) -->
+  <div class="status-bar">
+    <div class="status-time">9:41</div>
+    <div class="status-icons">
+      <img class="ico-cellular" src="assets/celluar.svg" alt="" data-w="assets/celluar-w.svg" data-b="assets/celluar.svg" />
+      <img class="ico-wifi" src="assets/wifi.svg" alt="" data-w="assets/wifi-w.svg" data-b="assets/wifi.svg" />
+      <span class="ico-battery"><img src="assets/battery.svg" alt="" data-w="assets/battery-w.svg" data-b="assets/battery.svg" /></span>
+    </div>
+  </div>
+
+  <!-- Tab bar (두 탭 공용) -->
+  <nav class="tab-bar">
+    <div class="tab-indicator" id="tabIndicator"></div>
+    <button class="tab is-active" data-tab="home">
+      <span class="icon24">
+        <img class="i-home tab-ico--on"  src="assets/tab-home.svg" alt="" />
+        <img class="i-home-l tab-ico--off" src="assets/tab-home-light.svg" alt="" />
+      </span><span class="tab__label">Home</span>
+    </button>
+    <button class="tab" data-tab="portfolio">
+      <span class="icon24">
+        <img class="i-graph-b tab-ico--on"  src="assets/tab-graph-bold.svg" alt="" />
+        <img class="i-graph tab-ico--off" src="assets/tab-graph.svg" alt="" />
+      </span><span class="tab__label">Portfolios</span>
+    </button>
+    <button class="tab" data-tab="settings">
+      <span class="icon24"><img class="i-setting tab-ico--off" src="assets/tab-setting.svg" alt="" /></span><span class="tab__label">Settings</span>
+    </button>
+  </nav>
+
+  <!-- Home bar -->
+  <div class="home-bar"><img src="assets/home-indicator.svg" alt="" /></div>
+</div>
+
+<!-- 매일 아침 pipeline/run_daily.py가 덮어쓰는 실제 브리핑 데이터.
+     없으면 app.js의 SAMPLE_MARKETS로 자동으로 떨어진다.
+
+     파일 이름이 매번 같아서 브라우저가 어제 것을 계속 쓰는 일이 있었다.
+     쿼리를 붙여 캐시를 우회한다. app.js보다 먼저 동기적으로 실행돼야 해서
+     document.write를 쓴다(fetch로 바꾸면 file://에서 CORS로 막힌다). -->
+<script>
+document.write('<script src="data/briefing.js?t=' + Date.now() + '"><\/script>');
+</script>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,556 @@
+  :root{
+    --label-strong:#000000;      /* Semantic/Label/Strong */
+    --bg:#e7f3ff;
+    --card-bg:rgba(255,255,255,0.6);
+    --action-bg:rgba(0,255,128,0.4);
+    --muted:#6f737d;
+    --tab-inactive:#979ba3;
+    --frame-w:375px;
+    --frame-h:812px;
+    --card-w:343px;
+    --action-w:44px;
+  }
+
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent;}
+
+  html,body{height:100%;}
+  body{
+    display:flex;align-items:center;justify-content:center;
+    background:#c9d4e2;
+    font-family:'Pretendard','Pretendard Variable',-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Segoe UI',sans-serif;
+    color:var(--label-strong);
+    overflow:hidden;
+  }
+
+  /* ---------- device frame ----------
+     프레임은 항상 Figma와 동일한 375×812로 두고, 화면이 작으면 통째로 축소만 한다.
+     (늘리면 top:702px 탭바·bottom:0 홈바처럼 절대좌표로 배치된 요소가 전부 어긋난다) */
+  .device{
+    position:relative;
+    width:var(--frame-w);height:var(--frame-h);
+    flex:0 0 auto;
+    background:var(--bg);
+    overflow:hidden;
+    border-radius:44px;
+    box-shadow:0 40px 90px rgba(23,39,61,.35), 0 0 0 11px #10141a, 0 0 0 12px #2b323c;
+    isolation:isolate;
+    user-select:none;
+    transform:scale(var(--scale,1));
+    transform-origin:center center;
+  }
+  /* 프레임을 꽉 채워 볼 때(모바일 등)는 폰 껍데기를 감춘다 */
+  .device.is-fullbleed{border-radius:0;box-shadow:none;}
+
+  /* blurred warm gradient blob (92:1881) */
+  .blob{
+    position:absolute;left:50%;top:541px;transform:translateX(-50%);
+    width:393px;height:393px;
+    background:linear-gradient(180deg,
+      rgba(255,40,2,.4) 0%,
+      rgba(254,128,4,.4) 50%,
+      rgba(239,187,2,.4) 100%);
+    filter:blur(50px);
+    pointer-events:none;z-index:0;
+    transition:background .45s ease;
+  }
+  /* 한국(오후 요약) 그라데이션 — Figma 92:1960 */
+  .device[data-market="kr"] .blob{
+    background:linear-gradient(180deg,
+      rgba(91,161,251,.4) 0%,
+      rgba(179,139,158,.4) 36.543%,
+      rgba(249,111,39,.4) 75%);
+  }
+
+  /* ---------- status bar ---------- */
+  .status-bar{position:absolute;inset:0 0 auto 0;height:44px;display:flex;align-items:center;z-index:5;}
+  .status-time{
+    position:absolute;left:0;top:0;bottom:0;width:93px;
+    display:flex;align-items:center;justify-content:center;
+    font-size:15px;font-weight:600;letter-spacing:-.237px;color:var(--label-strong);
+  }
+  .status-icons{
+    position:absolute;right:0;top:0;bottom:0;width:95px;
+    display:flex;align-items:center;justify-content:center;gap:4px;
+  }
+  .status-icons img{display:block;}
+  .ico-cellular{width:18px;height:12px;}
+  .ico-wifi{width:16px;height:12px;}
+  /* 25×12 박스 안에 24.328×11.333 leaf (I66:563;417:8326;287:7338) */
+  .ico-battery{position:relative;width:25px;height:12px;}
+  .ico-battery img{position:absolute;left:.34px;top:.33px;width:24.328px;height:11.333px;}
+
+  /* 24px 아이콘 박스 — leaf는 Figma inset 그대로 박스보다 작다 */
+  .icon24{position:relative;display:block;width:24px;height:24px;overflow:hidden;flex:0 0 auto;}
+  .icon24 img{position:absolute;display:block;}
+  .i-bell   {left:3.5px;  top:2px;    width:17px;      height:20px;}      /* inset 8.33% / 14.58% */
+  .i-home   {left:2.5px;  top:2px;    width:19px;      height:20px;}      /* inset 8.33% / 10.42% */
+  .i-graph  {left:1.553px;top:1.35px; width:20.893px;  height:21.343px;}  /* leaf + 스트로크 여백 */
+  .i-setting{left:2.527px;top:1.528px;width:19.287px;  height:20.722px;}
+
+  /* ---------- app bar (92:1929) ---------- */
+  .app-bar{position:absolute;left:0;top:44px;width:100%;height:60px;z-index:5;}
+  .app-bar .logo{position:absolute;left:16px;top:50%;transform:translateY(-50%);width:40px;height:40px;display:block;}
+  .app-bar .bell{position:absolute;right:16px;top:50%;transform:translateY(-50%);}
+
+  /* ---------- summary title (92:1938) ---------- */
+  .summary-title{
+    position:absolute;left:16px;top:120px;z-index:4;
+    display:flex;align-items:center;gap:3px;
+    padding:0;border:none;background:none;font-family:inherit;
+    font-size:16px;font-weight:600;letter-spacing:-.4px;color:var(--muted);line-height:1.4;
+    white-space:nowrap;cursor:pointer;
+  }
+  .summary-title:active{opacity:.6;}
+  .summary-title img{width:20px;height:20px;display:block;}
+
+  /* ---------- filter chips (92:1942) ---------- */
+  .filters{
+    position:absolute;left:0;top:149px;width:100%;
+    padding:10px 16px;z-index:4;
+    display:flex;align-items:center;justify-content:space-between;gap:7px;
+  }
+  /* 칩 그룹: 내용만큼 차지하되 셰브론 자리를 남기고 최대 314px (미국 92:1944 / 한국 94:5862 공통) */
+  .chip-scroll{
+    flex:0 1 auto;max-width:314px;
+    display:flex;align-items:center;gap:6px;overflow-x:auto;scrollbar-width:none;
+  }
+  .chip-scroll::-webkit-scrollbar{display:none;}
+  .chip{
+    flex:0 0 auto;
+    display:flex;align-items:center;justify-content:center;
+    padding:12px 10px;border-radius:4px;
+    border:1px solid rgba(0,0,0,.2);
+    font-size:12px;font-weight:600;letter-spacing:-.3px;line-height:normal;
+    color:rgba(0,0,0,.6);background:transparent;
+    white-space:nowrap;cursor:pointer;transition:background .18s,color .18s,border-color .18s;
+  }
+  .chip.is-active{background:#000;border-color:#000;color:#fff;}
+  /* 테두리가 SVG 안에 들어 있어 CSS 테두리는 걷어낸다(이중선 방지) */
+  .chip-more{
+    flex:0 0 auto;height:38px;width:22px;
+    display:flex;align-items:center;justify-content:center;
+    border:0;padding:0;background:transparent;cursor:pointer;
+  }
+  /* 아이콘이 흰색이라 밝은 배경인 홈에서는 검정으로 뒤집는다.
+     stroke-opacity .2 는 그대로 남아 기존 테두리 톤과 같아진다. */
+  .chip-more img{width:22px;height:38px;display:block;filter:brightness(0);}
+
+  /* ---------- 칩 가로 스크롤 (홈 필터 · 포트폴리오 종목 공통) ----------
+     칩이 화면 밖으로 넘칠 때 "옆에 더 있다"를 알려야 한다. 배경이 화면마다 달라서
+     (홈은 밝은 하늘색, 포트폴리오는 남색) 덮는 그라데이션 대신 mask로 내용 자체를
+     흐린다 — 어느 배경 위에서도 맞는다.
+     scroll-behavior:smooth는 쓰지 않는다. 드래그 중 scrollLeft 대입까지 애니메이션이
+     걸려 손가락을 따라오지 못한다. 부드러운 이동이 필요한 곳에서만 scrollTo로 준다. */
+  .chip-scroll, .pf-tabs__scroll{
+    -webkit-overflow-scrolling:touch;
+    overscroll-behavior-x:contain;
+    touch-action:pan-x;
+    cursor:grab;
+    -webkit-mask-image:var(--edge-mask, none);
+            mask-image:var(--edge-mask, none);
+  }
+  .chip-scroll.is-grabbing, .pf-tabs__scroll.is-grabbing{cursor:grabbing;}
+  /* 흐릴 가장자리 — fade-r: 오른쪽에 더 있음 / fade-l: 왼쪽 / fade-lr: 양쪽 */
+  .fade-r  { --edge-mask:linear-gradient(90deg,#000 0,#000 calc(100% - 22px),transparent 100%); }
+  .fade-l  { --edge-mask:linear-gradient(90deg,transparent 0,#000 22px,#000 100%); }
+  .fade-lr { --edge-mask:linear-gradient(90deg,transparent 0,#000 22px,#000 calc(100% - 22px),transparent 100%); }
+
+  /* 화살표는 남은 방향을 가리킨다 — 끝까지 갔으면 뒤집혀 처음으로 되감는다 */
+  .chip-more img, .pf-tabs__more img{transition:transform .24s cubic-bezier(.22,.8,.28,1);}
+  .chip-more.is-rewind img, .pf-tabs__more.is-rewind img{transform:rotate(180deg);}
+  .chip-more[disabled], .pf-tabs__more[disabled]{opacity:.35;pointer-events:none;}
+
+  /* ---------- card list ---------- */
+  .list-viewport{
+    position:absolute;left:0;top:206px;width:100%;bottom:0;
+    overflow-y:auto;overflow-x:hidden;
+    -webkit-overflow-scrolling:touch;scrollbar-width:none;
+    z-index:3;
+    overscroll-behavior:contain;
+  }
+  .list-viewport::-webkit-scrollbar{display:none;}
+  .list{
+    display:flex;flex-direction:column;gap:4px;
+    width:var(--card-w);margin:9px auto 0;
+    padding-bottom:150px;
+  }
+
+  .row{
+    position:relative;
+    width:var(--card-w);
+    overflow:hidden;
+    touch-action:pan-y;
+    will-change:height,opacity;
+  }
+
+  /* green reveal panel behind the card (92:1889) */
+  .row__action{
+    position:absolute;top:0;right:0;bottom:0;
+    width:0;
+    background:var(--action-bg);
+    display:flex;align-items:center;justify-content:center;
+    overflow:hidden;
+    cursor:pointer;
+  }
+  .row__action-inner{
+    width:var(--action-w);flex:0 0 auto;
+    display:flex;align-items:center;justify-content:center;
+    transform:scale(.4);opacity:0;
+    transition:transform .18s cubic-bezier(.2,.8,.3,1),opacity .15s linear;
+  }
+  .row.is-revealing .row__action-inner{transform:scale(1);opacity:1;}
+  .row__action-inner img{width:24px;height:24px;display:block;}
+
+  /* card content (92:1884 / 92:1891 …) */
+  .row__card{
+    position:relative;
+    width:var(--card-w);
+    height:122px;              /* Figma 92:1903 등 contents 높이 */
+    overflow:hidden;           /* 내용이 하단 패딩을 침범하지 못하게 */
+    background:var(--card-bg);
+    padding:16px 12px;
+    transform:translate3d(0,0,0);
+    will-change:transform,width;
+  }
+  .row.is-animating .row__card{
+    transition:transform .3s cubic-bezier(.22,.8,.28,1),
+               width .3s cubic-bezier(.22,.8,.28,1);
+  }
+  .row.is-animating .row__action{transition:width .3s cubic-bezier(.22,.8,.28,1);}
+
+  /* 스와이프로 카드 폭이 299px까지 줄어도 내용이 카드 안쪽 패딩(16px)을 넘지 않도록
+     제목 1줄 / 본문 3줄에서 각각 말줄임(…) 처리 — Figma의 overflow-hidden + text-ellipsis */
+  .card-title{
+    font-size:15px;font-weight:600;letter-spacing:-.375px;line-height:1.4;color:var(--label-strong);
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  }
+  .card-body{
+    margin-top:6px;
+    font-size:14px;font-weight:400;letter-spacing:-.35px;line-height:1.5;color:var(--label-strong);
+    word-break:break-word;
+    display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;
+  }
+  .card-body b{font-weight:600;}
+
+  /* dismiss animation */
+  .row.is-collapsing{
+    transition:height .26s cubic-bezier(.4,0,.2,1),
+               opacity .2s linear,
+               margin-top .26s cubic-bezier(.4,0,.2,1);
+    overflow:hidden;
+  }
+  .row.is-collapsing.collapse-run{height:0!important;opacity:0;margin-top:-4px;}
+
+  /* 칩 필터로 걸러진 카드 — 지우는 게 아니라 감춘다(확인 상태를 잃지 않는다) */
+  .row.is-filtered-out{display:none;}
+
+  /* hint pill on the first undismissed card */
+  .swipe-hint{
+    position:absolute;right:10px;top:14px;
+    display:flex;align-items:center;gap:4px;
+    padding:3px 7px;border-radius:100px;background:rgba(255,255,255,.75);
+    font-size:10px;font-weight:600;letter-spacing:-.25px;color:rgba(0,0,0,.4);
+    pointer-events:none;
+    animation:hintNudge 2.2s ease-in-out 3;   /* 무한 반복 금지 — 3회 안내 후 정지 */
+  }
+  .row.is-touched .swipe-hint{display:none;}
+  @keyframes hintNudge{
+    0%,60%,100%{transform:translateX(0);opacity:.9;}
+    75%{transform:translateX(-6px);opacity:1;}
+  }
+
+  /* ---------- 모두 읽음 상태 (136:2919) ---------- */
+  .all-read{position:absolute;inset:0;z-index:4;display:none;pointer-events:none;}
+  .all-read.is-shown{display:block;}
+
+  .all-read__badge{
+    position:absolute;left:50%;top:255px;transform:translateX(-50%);
+    width:128px;height:128px;
+  }
+  .all-read__star{position:absolute;left:-8.064px;top:-8.064px;width:152.138px;height:152.138px;display:block;}
+  .all-read__check{position:absolute;left:34px;top:34px;width:60px;height:60px;display:block;}
+
+  /* 143:3188 — 문구 그룹 + 버튼을 한 덩어리로 (top 419, w304, gap 24) */
+  .all-read__body{
+    position:absolute;left:50%;top:419px;transform:translateX(-50%);
+    width:304px;
+    display:flex;flex-direction:column;align-items:center;gap:24px;
+  }
+  .all-read__text{
+    width:100%;
+    display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center;
+  }
+  .all-read__title{
+    width:304px;
+    font-size:24px;font-weight:600;letter-spacing:-.6px;line-height:1.4;color:var(--label-strong);
+  }
+  .all-read__sub{
+    font-size:15px;font-weight:500;letter-spacing:-.375px;line-height:1.5;color:var(--muted);
+    white-space:nowrap;   /* 줄바꿈은 디자인대로 문구를 나눠서 넣는다 */
+  }
+  /* 94:8690 — 브리핑 다시 불러오기 버튼 */
+  .all-read__btn{
+    padding:12px 10px;border:none;border-radius:4px;background:#000;
+    font-family:inherit;font-size:14px;font-weight:600;letter-spacing:-.35px;line-height:1.5;
+    color:#fff;text-align:center;white-space:nowrap;
+    cursor:pointer;pointer-events:auto;
+    transition:transform .12s ease, opacity .12s ease;
+  }
+  .all-read__btn:active{transform:scale(.96);opacity:.85;}
+
+  /* 마지막 카드를 지운 뒤 등장하는 모션 */
+  .all-read.is-shown .all-read__badge{animation:badgePop .5s cubic-bezier(.18,.9,.32,1.2) both;}
+  .all-read.is-shown .all-read__text{animation:riseIn .45s cubic-bezier(.2,.8,.3,1) .08s both;}
+  .all-read.is-shown .all-read__btn{animation:riseIn .45s cubic-bezier(.2,.8,.3,1) .16s both;}
+  @keyframes badgePop{
+    0%{opacity:0;transform:translateX(-50%) scale(.5) rotate(-25deg);}
+    60%{opacity:1;transform:translateX(-50%) scale(1.06) rotate(4deg);}
+    100%{opacity:1;transform:translateX(-50%) scale(1) rotate(0);}
+  }
+  @keyframes riseIn{
+    from{opacity:0;transform:translateY(12px);}
+    to{opacity:1;transform:translateY(0);}
+  }
+
+  /* custom scrollbar (92:1957) */
+  .scrollbar{position:absolute;right:0;top:206px;width:16px;bottom:0;z-index:4;pointer-events:none;}
+  .scrollbar__thumb{
+    position:absolute;left:50%;transform:translateX(-50%);
+    width:4px;border-radius:100px;background:#979da7;
+    top:7px;height:125px;opacity:0;transition:opacity .3s ease;
+  }
+  .scrollbar.is-visible .scrollbar__thumb{opacity:1;}
+
+  /* ---------- tab bar (92:1908) ---------- */
+  .tab-bar{
+    position:absolute;left:50%;transform:translateX(-50%);
+    top:702px;width:343px;height:68px;
+    display:flex;align-items:center;padding:0 8px;
+    background:rgba(255,255,255,.2);
+    -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
+    border-radius:8px;z-index:6;
+  }
+  .tab{
+    width:112px;height:64px;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;
+    background:transparent;border:none;font-family:inherit;cursor:pointer;
+  }
+  .tab__label{
+    font-size:12px;font-weight:500;line-height:1.4;color:var(--tab-inactive);text-align:center;
+    transition:color .2s ease;
+  }
+  .tab.is-active .tab__label{color:var(--label-strong);}
+
+  /* 선택 알약(155:6498) — 버튼 배경이 아니라 독립 요소로 두고 미끄러지게 한다 */
+  .tab-indicator{
+    position:absolute;top:50%;left:0;width:0;height:52px;
+    transform:translateY(-50%);
+    background:#fff;border-radius:5px;
+    filter:drop-shadow(0 0 10px #e7f3ff);
+    transition:left .42s cubic-bezier(.32,1.28,.44,1),
+               width .42s cubic-bezier(.32,1.28,.44,1);
+    pointer-events:none;
+  }
+  .tab{position:relative;z-index:1;}
+
+  /* ================= 화면 전환 ================= */
+  .screen{position:absolute;inset:0;overflow:hidden;}
+  .screen--pf{display:none;background:#d5e8ff;touch-action:pan-y;}
+  .device[data-tab="portfolio"] .screen--home{display:none;}
+  .device[data-tab="portfolio"] .screen--pf{display:block;}
+  /* 포트폴리오 탭은 상태바 글자가 흰색 */
+  .device[data-tab="portfolio"] .status-time{color:#fff;}
+
+  /* 탭 아이콘: 활성=Bold(면), 비활성=Light(선).
+     display 대신 opacity 로 겹쳐 두고 크로스페이드한다. */
+  .icon24 img{
+    transition:opacity .2s ease, transform .36s cubic-bezier(.34,1.4,.4,1);
+  }
+  .tab .tab-ico--on {opacity:0;transform:scale(.82);}
+  .tab .tab-ico--off{opacity:1;transform:scale(1);}
+  .tab.is-active .tab-ico--on {opacity:1;transform:scale(1);}
+  .tab.is-active .tab-ico--off{opacity:0;transform:scale(1.12);}
+  .i-home-l {left:1.75px;top:1.25px;width:20.5px;  height:21.5px;}   /* Iconly/Light/Home  */
+  .i-graph-b{left:2px;   top:2px;   width:20px;    height:20px;}     /* Iconly/Bold/Graph  */
+
+  /* ================= Portfolios 탭 ================= */
+
+  /* 장중 진행 컬럼 — 시간대에 따라 폭이 90→180→272→359px (155:6447 / 155:6460) */
+  .pf-col{
+    position:absolute;left:0;top:0;
+    transition:width .3s cubic-bezier(.22,.8,.28,1),
+               transform .28s cubic-bezier(.22,.8,.28,1);
+  }
+  /* 스와이프 중에는 손가락을 1:1로 따라가야 하므로 트랜지션을 끈다 */
+  .screen--pf.is-dragging .pf-col,
+  .screen--pf.is-dragging .pf-time,
+  .screen--pf.is-dragging .pf-stock{transition:none;}
+
+  /* 종목 칩을 바꿀 때 — middle_back 프레임(155:6458)이 통째로 한 덩어리로 밀려 들어온다 */
+  /* 칩은 종목을 바꿔가며 비교하는 탐색 컨트롤이라 짧고 얕게.
+     내용이 사라지지 않도록 opacity 는 0 이 아니라 .55 에서 시작한다. */
+  @keyframes pfSwitchIn{
+    from{opacity:.55;transform:translate3d(20px,0,0);}
+    to  {opacity:1;  transform:translate3d(0,0,0);}
+  }
+  .screen--pf.is-switching .pf-middle{animation:pfSwitchIn .24s cubic-bezier(.22,.9,.28,1) both;}
+  .pf-col--head{height:160px;background:#00234a;}
+  .pf-col--mid{
+    height:363px;
+    background:linear-gradient(179.858deg,
+      #00234a 39.089%, #1c90ff 52.077%, #d3e8ff 99.969%);
+  }
+
+  .pf-top{position:absolute;left:0;top:0;width:375px;height:160px;background:#1c90ff;overflow:hidden;}
+  .pf-header{
+    position:absolute;left:16px;top:44px;height:60px;display:flex;align-items:center;
+    font-size:16px;font-weight:600;line-height:1.4;color:#fff;
+  }
+  /* 155:6451 — w180 중앙, gap 20, 오른쪽 정렬 */
+  .pf-datepicker{
+    position:absolute;left:50%;top:120px;transform:translateX(-50%);
+    width:180px;height:24px;
+    display:flex;align-items:center;justify-content:flex-end;gap:20px;
+  }
+  .pf-date{font-size:16px;font-weight:600;line-height:1.4;color:#fff;white-space:nowrap;}
+  .pf-nav{
+    width:12px;height:24px;padding:0;border:none;background:none;cursor:pointer;
+    flex:0 0 auto;
+  }
+  .pf-nav img{width:12px;height:24px;display:block;}
+  .pf-nav--prev{order:-1;transform:rotate(180deg);}
+  .pf-nav:disabled{visibility:hidden;}
+  .pf-nav:active{opacity:.5;}
+
+  .pf-middle{position:absolute;left:0;top:157px;width:375px;height:363px;background:#d5e8ff;overflow:hidden;}
+  .pf-middle__sky{
+    position:absolute;left:0;top:0;width:375px;height:181px;
+    background:linear-gradient(180deg,#1c90ff 0%,#339bff 84.86%,#8ec8ff 100%);
+  }
+
+  /* 종목 탭 (155:6464) */
+  .pf-tabs{
+    position:absolute;left:0;right:0;top:3px;padding:10px 16px;
+    display:flex;align-items:center;justify-content:space-between;gap:7px;
+  }
+  .pf-tabs__scroll{
+    flex:0 1 auto;max-width:314px;
+    display:flex;align-items:center;gap:6px;overflow-x:auto;scrollbar-width:none;
+  }
+  .pf-tabs__scroll::-webkit-scrollbar{display:none;}
+  .pf-chip{
+    flex:0 0 auto;display:flex;align-items:center;justify-content:center;
+    padding:12px 10px;border-radius:4px;
+    border:1px solid rgba(255,255,255,.2);background:transparent;
+    font-family:inherit;font-size:12px;font-weight:600;letter-spacing:-.3px;line-height:normal;
+    color:rgba(255,255,255,.6);white-space:nowrap;cursor:pointer;
+    transition:border-color .18s,color .18s;
+  }
+  .pf-chip.is-active{border-color:#fff;color:#fff;}
+  .pf-tabs__more{
+    flex:0 0 auto;height:38px;width:22px;
+    display:flex;align-items:center;justify-content:center;
+    border:0;padding:0;background:transparent;cursor:pointer;
+  }
+  /* SVG가 이미 흰색이라 여기서는 색을 건드리지 않는다 */
+  .pf-tabs__more img{width:22px;height:38px;display:block;}
+
+  /* 종목 정보 (155:6461) */
+  .pf-stock{
+    position:absolute;left:16px;top:90px;width:320px;
+    display:flex;flex-direction:column;gap:12px;
+    color:#fff;text-shadow:0 2px 4px rgba(0,0,0,.1);
+    transition:transform .28s cubic-bezier(.22,.8,.28,1), opacity .28s ease;
+  }
+  .pf-stock__name{font-size:24px;font-weight:600;letter-spacing:-.6px;line-height:1.4;}
+  .pf-stock__desc{font-size:18px;font-weight:600;letter-spacing:-.45px;line-height:1.4;}
+
+  /* 가격 영역 (155:6479) */
+  .pf-time{
+    position:absolute;left:0;top:181px;width:375px;height:142px;
+    padding:0;border:none;background:#d5e8ff;overflow:hidden;
+    text-align:left;font-family:inherit;cursor:pointer;
+    transition:transform .28s cubic-bezier(.22,.8,.28,1), opacity .28s ease;
+  }
+  .pf-time__band{
+    position:absolute;left:0;top:0;height:142px;opacity:.7;
+    transition:width .3s cubic-bezier(.22,.8,.28,1);   /* 진행 컬럼과 같은 속도로 */
+  }
+  .screen--pf[data-trend="up"]   .pf-time__band{background:linear-gradient(to left,#ff2522,#ffc1c2);}
+  .screen--pf[data-trend="down"] .pf-time__band{background:linear-gradient(to left,#0064fc,#cddfff);}
+
+  .pf-time__label{
+    position:absolute;left:16px;top:26.5px;transform:translateY(-50%);
+    font-size:15px;font-weight:600;letter-spacing:-.375px;line-height:1.4;color:var(--muted);
+    white-space:nowrap;
+  }
+  .pf-price{position:absolute;left:16px;top:82px;display:flex;align-items:center;gap:9px;}
+  .pf-price__value{
+    font-weight:600;letter-spacing:-1.05px;color:#fff;white-space:nowrap;
+    font-size:42px;line-height:normal;
+  }
+  .pf-price__value em{font-style:normal;font-size:24px;letter-spacing:-.6px;}
+  .pf-price__info{width:49px;height:34px;display:flex;flex-direction:column;gap:4px;}
+  .pf-price__change{display:flex;align-items:center;gap:2px;}
+  .pf-price__change img{width:12px;height:12px;display:block;flex:0 0 auto;}
+  .pf-price__change span{
+    font-size:13px;font-weight:500;letter-spacing:-.325px;line-height:1.4;white-space:nowrap;
+  }
+  .screen--pf[data-trend="up"]   .pf-price__change span{color:#f00;}
+  .screen--pf[data-trend="down"] .pf-price__change span{color:#0069ff;}
+  .pf-price__yday{
+    font-size:14px;font-weight:600;letter-spacing:-.35px;line-height:normal;color:#fff;
+  }
+  .screen--pf[data-trend="up"]   .pf-price__value,
+  .screen--pf[data-trend="up"]   .pf-price__yday{text-shadow:0 4px 4px rgba(255,121,121,.25);}
+  .screen--pf[data-trend="down"] .pf-price__value,
+  .screen--pf[data-trend="down"] .pf-price__yday{text-shadow:0 4px 4px rgba(75,147,255,.25);}
+
+  /* 시간대별 브리핑 (155:6456 / row) */
+  .pf-section-title{
+    position:absolute;left:16px;top:523px;height:20px;display:flex;align-items:center;
+    font-size:14px;font-weight:600;letter-spacing:-.35px;line-height:1.4;color:var(--muted);
+  }
+  .pf-briefs{
+    position:absolute;left:0;top:550px;width:375px;height:122px;
+    overflow-x:auto;overflow-y:hidden;scrollbar-width:none;
+    -webkit-overflow-scrolling:touch;
+  }
+  .pf-briefs::-webkit-scrollbar{display:none;}
+  .pf-briefs__row{display:flex;align-items:stretch;gap:4px;padding:0 16px;width:max-content;}
+  .pf-brief{
+    flex:0 0 auto;width:343px;height:122px;   /* 홈 카드와 같은 높이 */
+    display:flex;flex-direction:column;gap:8px;
+    padding:12px;background:rgba(255,255,255,.8);
+    box-shadow:0 4px 4px 0 rgba(174,210,254,.25);
+  }
+  .pf-brief__stamp{font-size:10px;font-weight:400;letter-spacing:-.25px;line-height:1.4;color:#979ba3;white-space:nowrap;}
+  .pf-brief__body{display:flex;flex-direction:column;gap:6px;color:var(--label-strong);}
+  .pf-brief__title{font-size:15px;font-weight:600;letter-spacing:-.375px;line-height:1.4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  /* 홈 카드(122px)와 높이를 맞추면 스탬프 줄(14px + 간격 8px)만큼 본문 자리가 줄어
+     3줄이 아니라 2줄까지만 들어간다. 파이썬의 문구 길이 예산도 여기에 맞춰져 있다. */
+  .pf-brief__text{
+    font-size:14px;font-weight:400;letter-spacing:-.35px;line-height:1.5;
+    display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;
+  }
+
+  /* ================= 모션 최소화 설정 대응 =================
+     장식성·대면적 이동은 없애고 페이드만 남긴다.
+     손가락을 직접 따라오는 스와이프 피드백은 조작의 일부이므로 유지한다. */
+  @keyframes softFade{from{opacity:.55;}to{opacity:1;}}
+  @media (prefers-reduced-motion: reduce){
+    .swipe-hint{animation:none;}                       /* 반복 움직임 제거 */
+    .blob{transition:none;}
+    .pf-col,.pf-time__band{transition:none;}           /* 폭이 늘어나는 이동 제거 */
+    .screen--pf.is-switching .pf-middle{animation:softFade .2s ease both;}
+    .tab-indicator{transition:none;}                   /* 알약 미끄러짐 제거, 위치만 변경 */
+    .icon24 img{transition:opacity .15s ease;transform:none;}  /* 크기 변화 없이 크로스페이드만 */
+    .all-read.is-shown .all-read__badge{animation:none;}
+    .all-read.is-shown .all-read__text,
+    .all-read.is-shown .all-read__btn{animation:softFade .2s ease both;}
+  }
+
+
+  /* ---------- home bar (66:564) ---------- */
+  .home-bar{position:absolute;left:0;right:0;bottom:0;height:34px;z-index:7;pointer-events:none;}
+  .home-bar img{position:absolute;left:50%;transform:translateX(-50%);bottom:8px;width:134px;height:5px;display:block;}

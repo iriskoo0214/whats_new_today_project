@@ -1,0 +1,724 @@
+/* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
+window.NOTEFOLIO_BRIEFING = {
+  "generated_at": "2026-08-08 17:25:54 KST",
+  "refreshed": [
+    "us",
+    "kr"
+  ],
+  "default": "us",
+  "markets": {
+    "us": {
+      "icon": "assets/sun-horizon.svg",
+      "label": "미국 증시 요약 2026. 8. 8. 5:25PM",
+      "chips": [
+        "전체",
+        "IBM",
+        "MSFT",
+        "IONQ",
+        "NVDA",
+        "SOFI"
+      ],
+      "allReadSub": [
+        "오후 6시, 국내 시장을 움직인 이유를 확인하세요."
+      ],
+      "next": "kr",
+      "headline": "해외 5종목 중 5종목 상승 — 아이온큐가 +11.86%로 가장 많이 올랐고 마이크로소프트가 +0.03%로 상승폭이 가장 작았습니다.",
+      "cards": [
+        {
+          "stock": "IBM",
+          "ticker": "IBM",
+          "title": "IBM - AI 인증·컨설팅 협업 확대",
+          "body": "Databricks 및 보안·거버넌스 인증 획득에 액센츄어 제휴, 앱티오 AI 지출 관리까지 사업 확장세. +1.65% 오른 <b>237.28달러</b> 마감.",
+          "pct": 1.65,
+          "price": 237.27999877929688,
+          "currency": "USD",
+          "as_of": "2026-08-07",
+          "slots": [
+            {
+              "time": "10:30PM",
+              "price": 234.32000732421875,
+              "pct": 0.38,
+              "is_close": false,
+              "title": "장 초반 완만한 상승",
+              "text": "장 초반부터 꾸준한 매수세가 유입되며 소폭 오름세로 출발한 모습"
+            },
+            {
+              "time": "12:30AM",
+              "price": 235.375,
+              "pct": 0.83,
+              "is_close": false,
+              "title": "오름세 지속",
+              "text": "Databricks 관련 인증 소식이 전해진 이후에도 상승세가 이어지며 오전 고점을 새로 씀"
+            },
+            {
+              "time": "2:30AM",
+              "price": 236.3300018310547,
+              "pct": 1.24,
+              "is_close": false,
+              "title": "상승폭 확대",
+              "text": "액센츄어와의 제휴 관련 밸류에이션 논의가 나온 뒤에도 매수세가 유지되며 상승세 지속"
+            },
+            {
+              "time": "마감",
+              "price": 237.27999877929688,
+              "pct": 1.65,
+              "is_close": true,
+              "title": "장중 최고치로 마감",
+              "text": "오후 들어서도 상승 흐름이 꺾이지 않고 이어지며 하루 중 가장 높은 수준에서 거래를 마침"
+            }
+          ],
+          "news": [
+            {
+              "title": "IBM, Databricks Brickbuilder AI 및 보안/거버넌스 분야 전문 인증 획득",
+              "original": "IBM, Databricks Brickbuilder AI 및 보안/거버넌스 분야 전문 인증 획득",
+              "source": "IBM",
+              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPb3JkU3BfVkFzZDRYVG10ckMyR0Rqd1BvN2M5WWh3SzdHTXI2TDE3TnkzOWhlSkdZMTlpZjlfWEMxYkdqWG1KdlQ0UjhyMmVKWm15LS1maGRleV9VNmp3SVNoVDY2N1FVa3ZkQncxMWVCQ3ZVcUMyY21ib1VXS2lnNWI3ZGpwUDg3NG5fU3pVMk9aazU0NnZ2cFZLei15Smdla3d5b0NPTUpDcTNSNlhpSXBhRkhOb1B5eVpqNFE5ZGpBNmZxU2c?oc=5",
+              "published": "2026-08-08T10:32:36+09:00"
+            },
+            {
+              "title": "액센츄어(ACN), 유니크레디트 딜과 IBM 제휴 이후 밸류에이션 엇갈려",
+              "original": "Accenture (ACN) Following UniCredit Deal And IBM Tie Up Has A Valuation Split",
+              "source": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/accenture-acn-following-unicredit-deal-001553844.html",
+              "published": "2026-08-08T09:15:53+09:00"
+            },
+            {
+              "title": "IBM 앱티오, CFO의 AI 지출을 비즈니스 가치와 연결하는 데 도움",
+              "original": "IBM Apptio helps CFOs connect AI spend to business value",
+              "source": "CFO Dive",
+              "url": "https://www.cfodive.com/news/ibm-apptio-helps-cfos-connect-ai-spend-business-value-uber/827376/",
+              "published": "2026-08-08T00:24:19+09:00"
+            }
+          ]
+        },
+        {
+          "stock": "마이크로소프트",
+          "ticker": "MSFT",
+          "title": "마이크로소프트 - 보안 경고 속 실적 대기",
+          "body": "BNB 체인·AitM 피싱 등 보안 위협 경고가 이어지는 가운데 4분기 실적발표를 앞두고 주가는 보합권. +0.03% 오른 <b>499.99달러</b> 마감.",
+          "pct": 0.03,
+          "price": 499.989990234375,
+          "currency": "USD",
+          "as_of": "2026-08-07",
+          "slots": [
+            {
+              "time": "10:30PM",
+              "price": 501.7699890136719,
+              "pct": 0.38,
+              "is_close": false,
+              "title": "장 초반 강세 출발",
+              "text": "장 초반부터 매수세가 붙으며 완만한 상승 흐름으로 하루를 시작한 모습"
+            },
+            {
+              "time": "12:30AM",
+              "price": 503.5799865722656,
+              "pct": 0.74,
+              "is_close": false,
+              "title": "상승폭 확대",
+              "text": "실적발표 대본이 공개된 뒤 오전 상승 흐름이 이어지며 하루 중 최고 수준까지 올라섬"
+            },
+            {
+              "time": "2:30AM",
+              "price": 500.3500061035156,
+              "pct": 0.1,
+              "is_close": false,
+              "title": "오름폭 축소",
+              "text": "피싱 공격 및 신종 위협 경고 기사가 나온 이후 상승분을 대부분 반납하며 보합권으로 후퇴"
+            },
+            {
+              "time": "마감",
+              "price": 499.989990234375,
+              "pct": 0.03,
+              "is_close": true,
+              "title": "보합권 마감",
+              "text": "오후 내내 하락 압력이 이어지며 오전 상승분을 거의 다 내주고 강보합 수준에서 장을 마감"
+            }
+          ],
+          "news": [
+            {
+              "title": "마이크로소프트, BNB 스마트 체인 이용한 신종 공격 경고",
+              "original": "마이크로소프트, BNB 스마트 체인 이용한 신종 공격 경고",
+              "source": "블루밍비트",
+              "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE12enRKSlp5c3JKSFh3MGlUenhpRERzd2ZVNENjRjQ4YXdQbDA4aWw3cWNFeFpOeXVCQ251ZWpJcEI4VFUtTFFaSEowcm5tWTRn?oc=5",
+              "published": "2026-08-08T11:09:58+09:00"
+            },
+            {
+              "title": "Microsoft 365 AitM 악용 피싱 공격으로 계정 탈취... 급여 관련 이메일 수집",
+              "original": "Microsoft 365 AitM 악용 피싱 공격으로 계정 탈취... 급여 관련 이메일 수집",
+              "source": "v.daum.net",
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE45bEtJaXplZk1xMGxtSElMTkdKaDRWc0R2Y1hQU3M3a29YYVdyczJoWFk2MGJfbEJaclh2aWF6TjllSEc2R2o1QzVkVXd2cTA?oc=5",
+              "published": "2026-08-08T11:00:05+09:00"
+            },
+            {
+              "title": "마이크로소프트(MSFT) 2026 회계연도 4분기 실적발표 대본",
+              "original": "Microsoft (MSFT) Q4 2026 Earnings Call Transcript",
+              "source": "Motley Fool",
+              "url": "https://www.fool.com/earnings/call-transcripts/2026/08/07/microsoft-msft-q4-2026-earnings-call-transcript/",
+              "published": "2026-08-08T08:58:47+09:00"
+            }
+          ]
+        },
+        {
+          "stock": "아이온큐",
+          "ticker": "IONQ",
+          "title": "아이온큐 - 샌디아 MOU·합병 완료 겹호재",
+          "body": "샌디아 연구소와 MOU 체결로 플랫폼 전략 기대감 확산, 스카이워터 합병 완료 소식도 매수세 자극. +11.86% 오른 <b>44.43달러</b> 마감.",
+          "pct": 11.86,
+          "price": 44.43000030517578,
+          "currency": "USD",
+          "as_of": "2026-08-07",
+          "slots": [
+            {
+              "time": "10:30PM",
+              "price": 42.29499816894531,
+              "pct": 6.48,
+              "is_close": false,
+              "title": "강한 상승 출발",
+              "text": "장 초반부터 강한 매수세가 몰리며 큰 폭의 오름세로 하루를 시작한 모습"
+            },
+            {
+              "time": "12:30AM",
+              "price": 43.54999923706055,
+              "pct": 9.64,
+              "is_close": false,
+              "title": "상승폭 더 커짐",
+              "text": "스카이워터와의 합병 완료 및 매출 급증 소식이 전해진 뒤 오름폭이 한층 확대됨"
+            },
+            {
+              "time": "2:30AM",
+              "price": 43.150001525878906,
+              "pct": 8.64,
+              "is_close": false,
+              "title": "오름폭 소폭 축소",
+              "text": "샌디아 연구소와의 MOU 체결 소식이 나온 직후 상승 흐름은 이어졌으나 오전 대비 다소 주춤"
+            },
+            {
+              "time": "마감",
+              "price": 44.43000030517578,
+              "pct": 11.86,
+              "is_close": true,
+              "title": "장중 최고치 마감",
+              "text": "오후 들어 다시 매수세가 강해지며 하루 중 가장 큰 오름폭을 기록한 채 거래를 마감"
+            }
+          ],
+          "news": [
+            {
+              "title": "IonQ(아이온큐) 또 올랐다! 샌디아 연구소와 MOU 체결... 플랫폼 전략이 현실이 된다. Astros - Reds (ry8ekj7Zvk)",
+              "original": "IonQ(아이온큐) 또 올랐다! 샌디아 연구소와 MOU 체결... 플랫폼 전략이 현실이 된다. Astros - Reds (ry8ekj7Zvk)",
+              "source": "Mshale",
+              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBwc3lldVgyYUpHWDc2c0FOQzhjTWttaENINUpVODhBOU9Qek5haEpFLUp6dHdaZnpJYU1NamZLZWdVUGVXN3haeldOVURxZkg2Z1Noa3hxcnhaZ0U?oc=5",
+              "published": "2026-08-08T11:06:47+09:00"
+            },
+            {
+              "title": "IONQ Inc(IONQ) 실적 예측: 미래 EPS 및 수익 성장 추정치",
+              "original": "IONQ Inc(IONQ) 실적 예측: 미래 EPS 및 수익 성장 추정치",
+              "source": "TradingKey",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1lc0lwZWo3NnNLMGJSYndZTVBLZGhDd1hoOU94SGMzOUdXVk9fU1pJRmhvTDFUZllwOVl2ZkpTMTloRVg2V2t0YzlzRExYcUZ2ZHdCT2lLNWJ3Mm5wLVJsVm9kVF9hRzByTkE?oc=5",
+              "published": "2026-08-08T06:42:54+09:00"
+            },
+            {
+              "title": "스카이워터, 2분기 매출 156M달러로 급증…아이온큐와 합병 완료",
+              "original": "스카이워터, 2분기 매출 156M달러로 급증…아이온큐와 합병 완료",
+              "source": "데이터투자",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE80ZEExM2hVSUtJdERmX0dtdHdFaGtPTlNXbWZiLTl3ZDU4RmNKNVZfRjJQMFpJSERPcWEzcFhmM1VCWlEtUnJPQVFSY1RMeHRHVlRROVBSOTRkVjctWjBGdjMwdmdMN3dxVXZLcGJidTR5emM?oc=5",
+              "published": "2026-08-08T04:36:15+09:00"
+            }
+          ]
+        },
+        {
+          "stock": "엔비디아",
+          "ticker": "NVDA",
+          "title": "엔비디아 - 통신 진출·구광모 회동 겹호재",
+          "body": "무선 통신장비 시장 진출 기대에 구광모 회동 소식 더해지며 모건스탠리도 AI 승자로 지목. +2.27% 오른 <b>223.96달러</b> 마감.",
+          "pct": 2.27,
+          "price": 223.9600067138672,
+          "currency": "USD",
+          "as_of": "2026-08-07",
+          "slots": [
+            {
+              "time": "10:30PM",
+              "price": 222.5,
+              "pct": 1.6,
+              "is_close": false,
+              "title": "장 초반 강세 출발",
+              "text": "장 초반부터 견조한 매수세가 유입되며 뚜렷한 상승 흐름으로 하루를 시작한 모습"
+            },
+            {
+              "time": "12:30AM",
+              "price": 223.82000732421875,
+              "pct": 2.21,
+              "is_close": false,
+              "title": "상승폭 확대",
+              "text": "오전 내내 상승 탄력이 이어지며 오름폭이 한층 더 커지는 흐름을 보임"
+            },
+            {
+              "time": "2:30AM",
+              "price": 222.08999633789062,
+              "pct": 1.42,
+              "is_close": false,
+              "title": "오름폭 일부 축소",
+              "text": "모건스탠리의 낙관적 전망 기사가 나온 이후에도 상승세는 유지됐으나 오전 고점보다는 소폭 낮아짐"
+            },
+            {
+              "time": "마감",
+              "price": 223.9600067138672,
+              "pct": 2.27,
+              "is_close": true,
+              "title": "장중 최고치 마감",
+              "text": "구광모 회장과의 회동, 통신 시장 진출 기대감 등 우호적 소식이 이어지며 하루 중 최고치로 마감"
+            }
+          ],
+          "news": [
+            {
+              "title": "\"엔비디아 통신 시장 진출, 무선 통신장비 업체 수혜\"[주末머니]",
+              "original": "\"엔비디아 통신 시장 진출, 무선 통신장비 업체 수혜\"[주末머니]",
+              "source": "아시아경제",
+              "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5pMzgzTGtDck1HWjZyZGx2RzBVWG5nMkQ0d0ZxVVlKdE1ZOGlQNS1ReEQxWGNuX21fdVJPMUlpV0lFVThvbU1PTkEwLTBZbVlpSDM3c0hCY0lENXBuWU1hb3JB?oc=5",
+              "published": "2026-08-08T15:15:00+09:00"
+            },
+            {
+              "title": "구광모, 실리콘밸리서 엔비디아 CEO와 재회…로봇·AI 협력 본격화",
+              "original": "구광모, 실리콘밸리서 엔비디아 CEO와 재회…로봇·AI 협력 본격화",
+              "source": "CBC뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Ubng3dndYRm80VDhoZElxcDQyMks1MVVTdDk3SzFsTGd6NVRLSlYzc1FHY2FFWmUyOTdSTVpHRjVvOXZWNFp6V09BbWJnTVEyd1lHZVlPWDRJYlp2eGtyOXZRMGlBaWRm?oc=5",
+              "published": "2026-08-08T14:55:00+09:00"
+            },
+            {
+              "title": "“AI 시장, 어떻게 전개되든 승자는 엔비디아” 모건스탠리",
+              "original": "“AI 시장, 어떻게 전개되든 승자는 엔비디아” 모건스탠리",
+              "source": "문화일보",
+              "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5RYS1oV1k0dkx5VzYzclFQd2lHd1hRUkItaUdWZl9CRHZySjFDRUU4MGdZYlgyM0k2R2ZEWDJxdmJUNE9qb0Y0Ym8wa1ozT3U2?oc=5",
+              "published": "2026-08-08T14:01:55+09:00"
+            }
+          ]
+        },
+        {
+          "stock": "소파이테크놀로지",
+          "ticker": "SOFI",
+          "title": "소파이테크놀로지 - 저평가·고평가 엇갈린 시각",
+          "body": "기록적 성장과 안정적 가이던스로 저평가 분석 나온 반면 고평가 논란도 공존, 실적발표 앞두고 소폭 상승. +1.55% 오른 <b>18.38달러</b> 마감.",
+          "pct": 1.55,
+          "price": 18.3799991607666,
+          "currency": "USD",
+          "as_of": "2026-08-07",
+          "slots": [
+            {
+              "time": "10:30PM",
+              "price": 18.485000610351562,
+              "pct": 2.13,
+              "is_close": false,
+              "title": "장 초반 강세 출발",
+              "text": "장 초반부터 매수세가 유입되며 뚜렷한 상승 흐름으로 하루를 시작한 모습"
+            },
+            {
+              "time": "12:30AM",
+              "price": 18.21500015258789,
+              "pct": 0.64,
+              "is_close": false,
+              "title": "오름폭 축소",
+              "text": "고평가 우려를 제기한 기사가 나온 이후 상승 탄력이 다소 둔화되며 오름폭이 줄어듦"
+            },
+            {
+              "time": "2:30AM",
+              "price": 18.184999465942383,
+              "pct": 0.47,
+              "is_close": false,
+              "title": "상승폭 추가 축소",
+              "text": "실적발표 대본이 공개된 뒤에도 매수세가 강해지지 못하며 오름폭이 하루 중 가장 작은 수준까지 줄어듦"
+            },
+            {
+              "time": "마감",
+              "price": 18.3799991607666,
+              "pct": 1.55,
+              "is_close": true,
+              "title": "오후 들어 반등",
+              "text": "저평가 가능성을 제기한 분석 기사가 나온 이후 오후 들어 매수세가 다시 유입되며 오름폭을 일부 회복"
+            }
+          ],
+          "news": [
+            {
+              "title": "소파이 테크놀로지스(SOFI), 기록적 성장과 안정적 가이던스에도 20% 저평가 가능성",
+              "original": "SoFi Technologies (SOFI) Could Be 20% Undervalued On Record Growth And Steady Guidance",
+              "source": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/sofi-technologies-sofi-could-20-031734559.html",
+              "published": "2026-08-08T12:17:34+09:00"
+            },
+            {
+              "title": "소파이(SOFI) 2026 회계연도 2분기 실적발표 대본",
+              "original": "SoFi (SOFI) Q2 2026 Earnings Call Transcript",
+              "source": "Motley Fool",
+              "url": "https://www.fool.com/earnings/call-transcripts/2026/08/07/sofi-sofi-q2-2026-earnings-call-transcript/",
+              "published": "2026-08-08T09:16:06+09:00"
+            },
+            {
+              "title": "SoFi(SOFI) 주가는 공정 가치와 실적 측면에서 고평가된 것으로 보인다",
+              "original": "SoFi(SOFI) 주가는 공정 가치와 실적 측면에서 고평가된 것으로 보인다",
+              "source": "simplywall.st",
+              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSi1VOUctNF9CZENlUDllRmlLNlE2dDE4Yi1uUm1ZMXYxdWJtMVdXWXNIX1pxUzI0akhST1FMWnhiY2dnTy1ROU9kUnlqWlJBaHpyTGxpVU9uTlQ4b19JRnU1b0ZENXJCUjl4U0duVUpHOTNJSXlNQ1hXTENIUlhTRmdDYm9BdUgxWjQ1emJQemk4S3laRWFDeE5VeC1qenM1V3VtOS1JOG5rekZFMlNDRkdyMNIBswFBVV95cUxQSi1VOUctNF9CZENlUDllRmlLNlE2dDE4Yi1uUm1ZMXYxdWJtMVdXWXNIX1pxUzI0akhST1FMWnhiY2dnTy1ROU9kUnlqWlJBaHpyTGxpVU9uTlQ4b19JRnU1b0ZENXJCUjl4U0duVUpHOTNJSXlNQ1hXTENIUlhTRmdDYm9BdUgxWjQ1emJQemk4S3laRWFDeE5VeC1qenM1V3VtOS1JOG5rekZFMlNDRkdyMA?oc=5",
+              "published": "2026-08-08T07:32:42+09:00"
+            }
+          ]
+        }
+      ],
+      "markdown": "briefings/2026-08-08-us-kr.md",
+      "refreshed_at": "2026-08-08 17:25:54 KST"
+    },
+    "kr": {
+      "icon": "assets/moon.svg",
+      "label": "한국 증시 요약 2026. 8. 8. 5:25PM",
+      "chips": [
+        "전체",
+        "SK하이닉스",
+        "삼성전자",
+        "한화에어로스페이스",
+        "LG전자",
+        "현대차"
+      ],
+      "allReadSub": [
+        "내일 오전 7시, 미국 시장 브리핑으로",
+        "다시 찾아올게요."
+      ],
+      "next": "us",
+      "headline": "국내 5종목 중 3종목 상승, 2종목 하락 — LG전자가 +5.59%로 가장 많이 올랐고 SK하이닉스가 -4.88%로 가장 부진했습니다.",
+      "cards": [
+        {
+          "stock": "SK하이닉스",
+          "ticker": "000660",
+          "title": "SK하이닉스 - 저평가 시각에도 급락",
+          "body": "월가에서 목표가 320달러 저평가 의견과 54조원 증설 계획 부각됐음에도 주가는 큰 폭 하락. -4.88% 내린 <b>1,422,000원</b> 마감.",
+          "pct": -4.88,
+          "price": 1422000.0,
+          "currency": "KRW",
+          "as_of": "2026-08-07",
+          "slots": [
+            {
+              "time": "9:00AM",
+              "price": 1486000.0,
+              "pct": -0.6,
+              "is_close": false,
+              "title": "장 초반 약세 출발",
+              "text": "장 시작과 함께 매도세가 유입되며 하락 흐름으로 하루를 시작한 모습"
+            },
+            {
+              "time": "11:00AM",
+              "price": 1432000.0,
+              "pct": -4.21,
+              "is_close": false,
+              "title": "낙폭 크게 확대",
+              "text": "오전 들어 매도 압력이 강해지며 하락폭이 큰 폭으로 벌어지는 흐름을 보임"
+            },
+            {
+              "time": "12:30PM",
+              "price": 1416000.0,
+              "pct": -5.28,
+              "is_close": false,
+              "title": "낙폭 하루 중 최대",
+              "text": "용인·청주 대규모 투자 소식이 전해진 이후에도 하락세가 지속되며 하루 중 가장 큰 낙폭을 기록"
+            },
+            {
+              "time": "마감",
+              "price": 1422000.0,
+              "pct": -4.88,
+              "is_close": true,
+              "title": "낙폭 소폭 회복",
+              "text": "오후 들어 저평가 논란과 목표가 상향 기사가 이어지며 낙폭을 일부 줄이는 모습으로 마감"
+            }
+          ],
+          "news": [
+            {
+              "title": "SK하이닉스, 언제 다시 오를까? 팔란티어를 보자.",
+              "original": "SK하이닉스, 언제 다시 오를까? 팔란티어를 보자.",
+              "source": "네이버 프리미엄콘텐츠",
+              "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOREJCNXNpMUVKYzM0VVpiM0JtS2xBbVhVQ2ViMzB3OEhJVWxGZUNkSkppRlVReUpuLWxzRzMwd3IwenI4S25MVlZfTWNGaXZVLVBXYkJIMWwxUW9VRWhGMHlhSktUVUxoam15cFktWEx0QjE2cGRZemtOSkJZR0hGZWhrQ1BLTWcwQnFr?oc=5",
+              "published": "2026-08-08T17:07:58+09:00"
+            },
+            {
+              "title": "월가 'SK하이닉스 저평가'… 목표가 최고 320달러 제시, 왜?",
+              "original": "월가 'SK하이닉스 저평가'… 목표가 최고 320달러 제시, 왜?",
+              "source": "금강일보",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBTaW4tMk5weUY4ekU3d1NDMzJiUlFSaHJNZDdQeWJXaVItSENCQ0dWeHp5NXdrNFJBYWQzR29mckcwSDdBUk9FSGFHcEJ5MFZYb21HeGwzZlNoQmd2THFCRjRKWk1xQnAwenc?oc=5",
+              "published": "2026-08-08T16:25:00+09:00"
+            },
+            {
+              "title": "SK하이닉스 54조 투자, 용인 Y2·청주 M17이 여는 AI 메모리 증설 전쟁 [해설]",
+              "original": "SK하이닉스 54조 투자, 용인 Y2·청주 M17이 여는 AI 메모리 증설 전쟁 [해설]",
+              "source": "솔루션뉴스",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA4enI1ajhNaC1wbkYzaFBJU3prLXFMRUNqVUtSVUR2NnNaSWM0bl9VQllScUlVSC1EQ0lWa0NVQ1BpcmpYTHBlQmZEMFliYW9uM0JWaFNIQThkeHZfOWluR2QxM1AzcmF5MEw0?oc=5",
+              "published": "2026-08-08T15:52:58+09:00"
+            }
+          ]
+        },
+        {
+          "stock": "삼성전자",
+          "ticker": "005930",
+          "title": "삼성전자 - 폴드8 사전판매 역대 최다",
+          "body": "갤럭시Z폴드8 사전판매 144만대로 역대 신기록을 세우며 MZ세대 인기몰이, 주가는 보합권 유지. +0.22% 오른 <b>231,000원</b> 마감.",
+          "pct": 0.22,
+          "price": 231000.0,
+          "currency": "KRW",
+          "as_of": "2026-08-07",
+          "slots": [
+            {
+              "time": "9:00AM",
+              "price": 235000.0,
+              "pct": 1.95,
+              "is_close": false,
+              "title": "장 초반 강세 출발",
+              "text": "장 시작과 함께 매수세가 몰리며 뚜렷한 상승 흐름으로 하루를 시작한 모습"
+            },
+            {
+              "time": "11:00AM",
+              "price": 233000.0,
+              "pct": 1.08,
+              "is_close": false,
+              "title": "오름폭 축소",
+              "text": "오전 상승분을 지키지 못하고 오름폭이 점차 줄어드는 흐름을 보임"
+            },
+            {
+              "time": "12:30PM",
+              "price": 231000.0,
+              "pct": 0.22,
+              "is_close": false,
+              "title": "강세 대부분 반납",
+              "text": "갤럭시 Z 폴드8 사전 판매 신기록 소식이 전해졌음에도 상승분이 계속 줄어들며 강보합권까지 후퇴"
+            },
+            {
+              "time": "마감",
+              "price": 231000.0,
+              "pct": 0.22,
+              "is_close": true,
+              "title": "강보합 마감",
+              "text": "오후 내내 상승분이 계속 줄어들며 결국 소폭 강보합 수준에서 장을 마감"
+            }
+          ],
+          "news": [
+            {
+              "title": "'아재폰' 꼬리표 뗀 갤럭시 폴드…MZ세대 사로잡은 이유 : 기업·산업",
+              "original": "'아재폰' 꼬리표 뗀 갤럭시 폴드…MZ세대 사로잡은 이유 : 기업·산업",
+              "source": "재경일보",
+              "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1ob0NFVGxrdXpFZTFsVVdVVElSc1ZSMV85Q2RySDVReDRjT1FUN3NUNEg4SDNCZ3Y4WUh1VXpiZTVldldtM1Q5dUJn?oc=5",
+              "published": "2026-08-08T16:40:00+09:00"
+            },
+            {
+              "title": "삼성 갤럭시 Z 폴드8 시리즈, 사전 판매 144만대…역대 신기록",
+              "original": "삼성 갤럭시 Z 폴드8 시리즈, 사전 판매 144만대…역대 신기록",
+              "source": "시사신문",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9IcC1ET0NBRU41VFg1b2R5ZmhSMS0tLVpocmJOYXFRTWdFRDFhVXR5Rng4b2VEa0ZOSTRTOXVGbVF5bmFMZ01rb1N6bXVjNkpSQkg2b3JzLXB3T3JKeHVHcWxGdHA2Mi1ZSDFqUQ?oc=5",
+              "published": "2026-08-08T16:26:59+09:00"
+            },
+            {
+              "title": "LG·삼성 가전, 같은 업황에도 희비 엇갈려…미래 승부처는 ‘로봇’",
+              "original": "LG·삼성 가전, 같은 업황에도 희비 엇갈려…미래 승부처는 ‘로봇’",
+              "source": "v.daum.net",
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3Tzl0VXZ5ZEFzNFd0b185b2prZlJZQTNoRklFcDNoaUQ5LTlNX0p5NnNXYzFLMzdLbUxFcGU2LUN5cEV3QmlYZGdPY3Q3T0k?oc=5",
+              "published": "2026-08-08T16:03:40+09:00"
+            }
+          ]
+        },
+        {
+          "stock": "한화에어로스페이스",
+          "ticker": "012450",
+          "title": "한화에어로스페이스 - 우주·로봇 신사업 부각",
+          "body": "한화시스템 우주 AI 인재 영입에 군 로봇 지휘통제시스템 구축 기대감까지 겹치며 매수세 유입. +4.08% 오른 <b>1,097,000원</b> 마감.",
+          "pct": 4.08,
+          "price": 1097000.0,
+          "currency": "KRW",
+          "as_of": "2026-08-07",
+          "slots": [
+            {
+              "time": "9:00AM",
+              "price": 1068000.0,
+              "pct": 1.33,
+              "is_close": false,
+              "title": "장 초반 강세 출발",
+              "text": "장 시작과 함께 매수세가 유입되며 완만한 상승 흐름으로 하루를 시작한 모습"
+            },
+            {
+              "time": "11:00AM",
+              "price": 1072000.0,
+              "pct": 1.71,
+              "is_close": false,
+              "title": "상승폭 점차 확대",
+              "text": "오전 내내 매수세가 이어지며 상승폭이 조금씩 커지는 흐름을 보임"
+            },
+            {
+              "time": "12:30PM",
+              "price": 1076000.0,
+              "pct": 2.09,
+              "is_close": false,
+              "title": "오름세 계속 강화",
+              "text": "한화시스템의 우주 AI 인재 영입 및 대규모 투자 소식이 전해진 뒤 상승 탄력이 한층 더 강해짐"
+            },
+            {
+              "time": "마감",
+              "price": 1097000.0,
+              "pct": 4.08,
+              "is_close": true,
+              "title": "장중 최고치 마감",
+              "text": "오후 들어 로봇 지휘통제시스템 등 방산 관련 기대감이 이어지며 하루 중 가장 큰 오름폭으로 마감"
+            }
+          ],
+          "news": [
+            {
+              "title": "한화시스템, '우주 AI' 인재 영입…20조 투자 본격화",
+              "original": "한화시스템, '우주 AI' 인재 영입…20조 투자 본격화",
+              "source": "v.daum.net",
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE54NFZGdnlCcEVVUm1yaUFTWXJBVTBmXzkwNHk3ejdiWkFDUXpNUVJpU3NOWUtKcjdTOVdFVU5qbE5mZHVlS29aSzhiOWE5MGc?oc=5",
+              "published": "2026-08-08T14:00:03+09:00"
+            },
+            {
+              "title": "군인 대신 로봇 싸우는 시대 오나... 軍 로봇 지휘통제시스템 구축 [로보 인사이트]",
+              "original": "군인 대신 로봇 싸우는 시대 오나... 軍 로봇 지휘통제시스템 구축 [로보 인사이트]",
+              "source": "서울경제",
+              "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE04bmlfSmtoVGJQcTlCVDNMc01DS2twX1JnbXR4U0czUDJKMXRjLUVpOUVQSUxhTFc3NEtxbjVOclRjZ3Z4Q25hTXhFUVdBaXpSUVHSAVNBVV95cUxPeHdqb0FkcWpMX09JQUVoeHpXQTY4ak9UUTd6bDF0c0I4MFJRV2Z3cE1VSllBZkw4LUIwbVhab253dndMOFNoamlrR2JXNHVQY3BSbw?oc=5",
+              "published": "2026-08-08T14:00:00+09:00"
+            },
+            {
+              "title": "황제주 '우후죽순' 늘자…카카오페이증권도 소수점 거래 합류",
+              "original": "황제주 '우후죽순' 늘자…카카오페이증권도 소수점 거래 합류",
+              "source": "센머니",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42RUpkd0F6Q1MzbjE4dTJIb0dfQXRCbFB1cUdIbGVfdFh4UDlmSWg0M1cya0FzMk5KZGJHZnRnU3ZreDdWem1XcG5LN2hvTXB6RS1NaXAxLVRZZEoxNS1MMkF5NkQ0eHNPUTVPQw?oc=5",
+              "published": "2026-08-08T13:51:00+09:00"
+            }
+          ]
+        },
+        {
+          "stock": "LG전자",
+          "ticker": "066570",
+          "title": "LG전자 - 유망주 선정·로봇 승부처 부각",
+          "body": "증권가 유망주로 콕 찍힌 데다 로봇을 미래 승부처로 지목하는 분석까지 나오며 강한 상승세. +5.59% 오른 <b>185,000원</b> 마감.",
+          "pct": 5.59,
+          "price": 185000.0,
+          "currency": "KRW",
+          "as_of": "2026-08-07",
+          "slots": [
+            {
+              "time": "9:00AM",
+              "price": 180000.0,
+              "pct": 2.74,
+              "is_close": false,
+              "title": "장 초반 강세 출발",
+              "text": "장 시작과 함께 매수세가 강하게 유입되며 큰 폭의 상승 흐름으로 하루를 시작한 모습"
+            },
+            {
+              "time": "11:00AM",
+              "price": 181700.0,
+              "pct": 3.71,
+              "is_close": false,
+              "title": "상승폭 추가 확대",
+              "text": "오전 내내 매수세가 이어지며 오름폭이 한층 더 커지는 흐름을 보임"
+            },
+            {
+              "time": "12:30PM",
+              "price": 181200.0,
+              "pct": 3.42,
+              "is_close": false,
+              "title": "오름폭 소폭 축소",
+              "text": "가전 업황 관련 기사가 전해진 이후에도 상승세는 유지됐으나 오전 고점보다는 다소 낮아짐"
+            },
+            {
+              "time": "마감",
+              "price": 185000.0,
+              "pct": 5.59,
+              "is_close": true,
+              "title": "장중 최고치 마감",
+              "text": "오후 들어 유망주로 꼽히는 분석 기사가 나온 뒤 매수세가 다시 강해지며 하루 중 최고치로 마감"
+            }
+          ],
+          "news": [
+            {
+              "title": "\"지금 사두면 돈 된다\"…증권가가 콕 찍은 9개 유망주 [한경우의 케이스스터디]",
+              "original": "\"지금 사두면 돈 된다\"…증권가가 콕 찍은 9개 유망주 [한경우의 케이스스터디]",
+              "source": "한국경제",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkSDB2M2d0ajNZcXFRQ3pJRHdPaVJoUDVmajhWRjdKRl9UR0dBYTR4X181YVpMbFh4M0Nra2I2d21CZGdhVVItOTVCR2lsbWo5Nzk2Rjlvc1dwdw?oc=5",
+              "published": "2026-08-08T17:00:02+09:00"
+            },
+            {
+              "title": "LG·삼성 가전, 같은 업황에도 희비 엇갈려…미래 승부처는 ‘로봇’",
+              "original": "LG·삼성 가전, 같은 업황에도 희비 엇갈려…미래 승부처는 ‘로봇’",
+              "source": "v.daum.net",
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3Tzl0VXZ5ZEFzNFd0b185b2prZlJZQTNoRklFcDNoaUQ5LTlNX0p5NnNXYzFLMzdLbUxFcGU2LUN5cEV3QmlYZGdPY3Q3T0k?oc=5",
+              "published": "2026-08-08T16:03:40+09:00"
+            },
+            {
+              "title": "스마트홈 패권 전쟁, 전장은 아파트",
+              "original": "스마트홈 패권 전쟁, 전장은 아파트",
+              "source": "한국아파트신문",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52TDJWdm1PVTlEd1dWekVSZ2t2bi1CYWQxdzFqNVpMdzdwNVpScW1qbTJjSGNoeDh0b040UlZuQ0RuTnlNSU1NcnJMSW44OVRSa0p2dmxsNHpSNFpZRF9GQ2NMTUtHc2JP?oc=5",
+              "published": "2026-08-08T16:00:00+09:00"
+            }
+          ]
+        },
+        {
+          "stock": "현대차",
+          "ticker": "005380",
+          "title": "현대차 - 中 전기차 공세에도 신차 대응",
+          "body": "중국 전기차의 유럽 공세 속 신차·인센티브로 맞대응하고 코나 풀체인지도 출시했으나 주가는 소폭 하락. -1.12% 내린 <b>395,500원</b> 마감.",
+          "pct": -1.12,
+          "price": 395500.0,
+          "currency": "KRW",
+          "as_of": "2026-08-07",
+          "slots": [
+            {
+              "time": "9:00AM",
+              "price": 391000.0,
+              "pct": -2.25,
+              "is_close": false,
+              "title": "장 초반 약세 출발",
+              "text": "장 시작과 함께 매도세가 유입되며 하락 흐름으로 하루를 시작한 모습"
+            },
+            {
+              "time": "11:00AM",
+              "price": 390000.0,
+              "pct": -2.5,
+              "is_close": false,
+              "title": "낙폭 하루 중 최대",
+              "text": "오전 중반 매도 압력이 이어지며 하락폭이 하루 중 가장 크게 벌어지는 모습을 보임"
+            },
+            {
+              "time": "12:30PM",
+              "price": 391000.0,
+              "pct": -2.25,
+              "is_close": false,
+              "title": "낙폭 소폭 유지",
+              "text": "마키나락스와의 AI 협력 소식이 전해졌음에도 하락 흐름이 크게 바뀌지 않고 비슷한 수준을 유지"
+            },
+            {
+              "time": "마감",
+              "price": 395500.0,
+              "pct": -1.12,
+              "is_close": true,
+              "title": "오후 들어 낙폭 축소",
+              "text": "코나 풀체인지 등 신차 관련 소식이 이어지며 오후 들어 낙폭을 상당 부분 줄이는 모습으로 마감"
+            }
+          ],
+          "news": [
+            {
+              "title": "中 전기차 유럽서 세 자릿수 질주…현대차·기아, 신차·인센티브로 맞불[車이나 머니 몰려온다③]",
+              "original": "中 전기차 유럽서 세 자릿수 질주…현대차·기아, 신차·인센티브로 맞불[車이나 머니 몰려온다③]",
+              "source": "파이낸셜뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1SMzdaUmtVejYtbWtPT2J2WFYtMnh3UWJzeXBJcWtuRVlBWjZsb2tLMmtTc1FmWnNCcmNPMnI3ZVR4SjJ3blhVRWplcS0wZVhWQk5IbFh1VlhRQQ?oc=5",
+              "published": "2026-08-08T17:01:17+09:00"
+            },
+            {
+              "title": "“이게 진짜 현대차?” 셀토스 잡으러 각 잡고 돌아온 코나 풀체인지",
+              "original": "“이게 진짜 현대차?” 셀토스 잡으러 각 잡고 돌아온 코나 풀체인지",
+              "source": "뉴스와",
+              "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTnREUFE5cWlxWVdiVWZiSHF5cXlHTFJUdzU5S2NIRDd2ajNFM3ZIWUl5WGpCTG1nbldIY3hRV05LZmtHbWpUWG9IN21GZDZHcXAxdzNOM29hcUVrYllnb1c3ZDVIX0YwdjgwRnVUV2pLenIxMWh1MDcwcTJ1Y3otZGtFRQ?oc=5",
+              "published": "2026-08-08T15:43:38+09:00"
+            },
+            {
+              "title": "현대차·글로벌 기업이 찾은 AI…마키나락스의 승부수",
+              "original": "현대차·글로벌 기업이 찾은 AI…마키나락스의 승부수",
+              "source": "핀포인트뉴스",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE53bVhpMFlad0NXcGVIZjlUQW9OU216OUFhcFBnNXBiajZYODBZeExvUHFWMXY1OHE5NmpQOUY5WTV4SkNBMFkzLUVacHdIZjF4TlBzV2NrTURVamlVTmNrSmdiTGdkRGNqX0t4UFlRTlIxb0XSAXdBVV95cUxQS3JMaXVvZkNRZGFBRXJybHFLTWktNGFXSnlCYldOV2ppSmVZNmFIQVJjaVhUd0NtNGkzMGUtNHBySFVlNG5KQ0stQ1gxRUhyWlpQWGlZSFRnc2JMaDU3QWJpcHA5ekxOanh1MzliWWJvbnoxeDc2QQ?oc=5",
+              "published": "2026-08-08T15:17:13+09:00"
+            }
+          ]
+        }
+      ],
+      "markdown": "briefings/2026-08-08-us-kr.md",
+      "refreshed_at": "2026-08-08 17:25:54 KST"
+    }
+  }
+};

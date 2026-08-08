@@ -1,0 +1,17 @@
+{
+  "_comment": "보유 종목 목록. source가 'manual'이면 이 파일이 곧 원본이고, 'toss'면 pipeline/brokers/toss.py가 이 파일을 덮어쓴다.",
+  "source": "manual",
+  "updated_at": "2026-08-07",
+  "holdings": [
+    { "market": "KR", "ticker": "000660", "name": "SK하이닉스" },
+    { "market": "KR", "ticker": "005930", "name": "삼성전자" },
+    { "market": "KR", "ticker": "012450", "name": "한화에어로스페이스" },
+    { "market": "KR", "ticker": "066570", "name": "LG전자" },
+    { "market": "KR", "ticker": "005380", "name": "현대차" },
+    { "market": "US", "ticker": "IBM",  "name": "IBM",          "en_name": "IBM" },
+    { "market": "US", "ticker": "MSFT", "name": "마이크로소프트", "en_name": "Microsoft" },
+    { "market": "US", "ticker": "IONQ", "name": "아이온큐",      "en_name": "IonQ" },
+    { "market": "US", "ticker": "NVDA", "name": "엔비디아",      "en_name": "Nvidia" },
+    { "market": "US", "ticker": "SOFI", "name": "소파이테크놀로지", "en_name": "SoFi" }
+  ]
+}

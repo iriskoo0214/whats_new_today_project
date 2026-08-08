@@ -1,0 +1,19 @@
+# 파이썬 가상환경 — 164MB. 각자 requirements.txt로 다시 만든다.
+.venv/
+__pycache__/
+*.pyc
+
+# 실행 로그
+logs/
+
+# 비밀값. 키는 ~/.config/notefolio/env 에 두지만, 실수로 프로젝트 안에
+# 만들어지는 경우를 대비해 막아둔다.
+.env
+*.env
+!.env.example
+
+# macOS
+.DS_Store
+
+# 로컬 전용 설정 (권한 허용 목록 등)
+.claude/settings.local.json

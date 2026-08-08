@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.notefolio.dailybrief.morning</string>
+
+  <!-- 오전 7시 — 미국 증시 마감 브리핑.
+       미국 마감(현지 16:00)은 서머타임 KST 05:00 / 표준시 KST 06:00이라
+       7시면 어느 계절에도 일봉이 확정된 뒤다. -->
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string>
+    <string>/Users/gugaon/노트폴리오/프로토타입/pipeline/run_daily.sh</string>
+    <string>us</string>
+  </array>
+
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key><integer>7</integer>
+    <key>Minute</key><integer>0</integer>
+  </dict>
+
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/gugaon/노트폴리오/프로토타입/logs/launchd.morning.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/gugaon/노트폴리오/프로토타입/logs/launchd.morning.err.log</string>
+
+  <key>ProcessType</key>
+  <string>Background</string>
+</dict>
+</plist>

@@ -1,0 +1,68 @@
+name: 데일리 브리핑
+
+# 맥이 꺼져 있어도 돌게 하려고 launchd 대신 여기서 돌린다.
+# GitHub Actions의 cron은 UTC 기준이고, 실행이 수 분~수십 분 늦어질 수 있다.
+#   22:00 UTC = 07:00 KST  미국 증시 마감
+#   09:00 UTC = 18:00 KST  한국 증시 마감
+on:
+  schedule:
+    - cron: '0 22 * * *'
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+    inputs:
+      market:
+        description: '갱신할 시장'
+        type: choice
+        options: [auto, us, kr, all]
+        default: auto
+
+# 결과를 저장소에 되커밋해야 해서 쓰기 권한이 필요하다
+permissions:
+  contents: write
+
+concurrency:
+  group: briefing
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: 의존성 설치
+        run: pip install -r pipeline/requirements.txt
+
+      - name: 어느 시장을 갱신할지 정한다
+        id: pick
+        run: |
+          if [ -n "${{ inputs.market }}" ]; then
+            echo "market=${{ inputs.market }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "0 22 * * *" ]; then
+            echo "market=us" >> "$GITHUB_OUTPUT"
+          else
+            echo "market=kr" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 브리핑 생성
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python pipeline/run_daily.py --market ${{ steps.pick.outputs.market }}
+
+      - name: 결과 커밋
+        run: |
+          git config user.name  'notefolio-bot'
+          git config user.email 'notefolio-bot@users.noreply.github.com'
+          git add data/briefing.js data/briefing.json briefings/
+          # 내용이 그대로면 커밋하지 않는다(빈 커밋 방지)
+          if git diff --staged --quiet; then
+            echo "변경 없음 — 커밋 생략"
+          else
+            git commit -m "브리핑 갱신 (${{ steps.pick.outputs.market }}) [skip ci]"
+            git push
+          fi
