@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08 18:00:05 KST",
+  "generated_at": "2026-08-08 18:54:54 KST",
   "refreshed": [
     "kr"
   ],
@@ -363,7 +363,7 @@
     },
     "kr": {
       "icon": "assets/moon.svg",
-      "label": "한국 증시 요약 2026. 8. 8. 6:00PM",
+      "label": "한국 증시 요약 2026. 8. 8. 6:54PM",
       "chips": [
         "전체",
         "SK하이닉스",
@@ -382,8 +382,8 @@
         {
           "stock": "SK하이닉스",
           "ticker": "000660",
-          "title": "SK하이닉스 - 저평가 부각에도 조정",
-          "body": "월가에서 목표가 320달러까지 제시하며 저평가 부각됐으나 주가는 하락 마감. -4.88% 내린 <b>1,422,000원</b> 마감.",
+          "title": "SK하이닉스 - 충칭 후공정 공장 지분 매각 검토",
+          "body": "중국 충칭 후공정 공장 지분 매각 검토설이 4조원대 거래로 거론되며 투자심리 위축, 주가 급락. -4.88% 내린 <b>1,422,000원</b> 마감.",
           "pct": -4.88,
           "price": 1422000.0,
           "currency": "KRW",
@@ -395,7 +395,7 @@
               "pct": -0.6,
               "is_close": false,
               "title": "장 초반 소폭 약세",
-              "text": "전 거래일 대비 소폭 하락 출발하며 장 초반부터 매도 우위 흐름이 이어짐"
+              "text": "개장 직후부터 매도세가 유입되며 전 거래일 대비 소폭 하락한 채 출발함"
             },
             {
               "time": "11:00AM",
@@ -403,54 +403,54 @@
               "pct": -4.21,
               "is_close": false,
               "title": "낙폭 급격히 확대",
-              "text": "오전 사이 하락폭이 크게 벌어지며 4%대 급락으로 전환, 이날 저점권에 근접"
+              "text": "오전 들어 하락폭이 크게 벌어지며 장 초반 대비 낙폭이 급속도로 커짐"
             },
             {
               "time": "12:30PM",
               "price": 1416000.0,
               "pct": -5.28,
               "is_close": false,
-              "title": "낙폭 하루 중 최대",
-              "text": "낮 12시대까지 하락세가 멈추지 않고 심화되며 장중 최대 낙폭을 기록함"
+              "title": "저가권 부근 하락",
+              "text": "오전 약세가 정오까지 이어지며 하루 중 가장 낮은 수준까지 가격이 밀림"
             },
             {
               "time": "마감",
               "price": 1422000.0,
               "pct": -4.88,
               "is_close": true,
-              "title": "저점서 소폭 반등 마감",
-              "text": "오후 들어 저점 대비 일부 반등했으나 장중 급락분을 되돌리지 못한 채 마감"
+              "title": "낙폭 소폭 회복 마감",
+              "text": "장 후반 저점에서 일부 반등하며 낙폭을 소폭 줄인 채 거래를 마감함"
             }
           ],
           "news": [
             {
-              "title": "[AI 이슈 트렌드] 갤럭시 Z8 흥행 속 차가원 사기·하이닉스 HBF·스페이스X 달 충돌 눈길",
-              "original": "[AI 이슈 트렌드] 갤럭시 Z8 흥행 속 차가원 사기·하이닉스 HBF·스페이스X 달 충돌 눈길",
-              "source": "AI타임스",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBUbnZwaHFLTmZ0dE16ZTlKU0ZCOG9mcU9QcUVnZmxUbm1KSWVseEhLSHY5a1phMkt3SDJxckNtS1VhYTd6WnJUMFM4LXUzTTJhQUxSc19hUTMyVzE0VlltWFhXaFlFWnZMN1E?oc=5",
-              "published": "2026-08-08T17:32:35+09:00"
+              "title": "“SK하이닉스, 中 충칭공장 지분 매각 검토”…4조원대 거래 가능성",
+              "original": "“SK하이닉스, 中 충칭공장 지분 매각 검토”…4조원대 거래 가능성",
+              "source": "쿠키뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE84Si1iX21WMnNEOGJjSFpqQXZsNTFpbHUweVBhbVB6R3M0d3JVaEUwRkRkQng2VHR1ZHdtYnFYWjFuSWstMVU0VXlvSERCNTl1MHZjQ3BkamRMRno1OGlsMXpYUQ?oc=5",
+              "published": "2026-08-08T18:49:16+09:00"
             },
             {
-              "title": "SK하이닉스, 언제 다시 오를까? 팔란티어를 보자.",
-              "original": "SK하이닉스, 언제 다시 오를까? 팔란티어를 보자.",
-              "source": "네이버 프리미엄콘텐츠",
-              "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOREJCNXNpMUVKYzM0VVpiM0JtS2xBbVhVQ2ViMzB3OEhJVWxGZUNkSkppRlVReUpuLWxzRzMwd3IwenI4S25MVlZfTWNGaXZVLVBXYkJIMWwxUW9VRWhGMHlhSktUVUxoam15cFktWEx0QjE2cGRZemtOSkJZR0hGZWhrQ1BLTWcwQnFr?oc=5",
-              "published": "2026-08-08T17:07:58+09:00"
+              "title": "“SK하이닉스, 中 충칭 후공정 공장 지분 매각 검토”… 지분 가치 4조원 거론",
+              "original": "“SK하이닉스, 中 충칭 후공정 공장 지분 매각 검토”… 지분 가치 4조원 거론",
+              "source": "천지일보",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80NVV5NGw3T0VKbW9QZWQ1aVg3V2NsRmtweHpQa0lGVTdLeURfQVVCYlRQQkFRZHFDR0hnR01uZTFvRWN3Vl9JY2ZhWF80clVxWU1YdkY3TG9MdmxhWXVpZFNDaXBBV3ZUSUE?oc=5",
+              "published": "2026-08-08T18:46:26+09:00"
             },
             {
-              "title": "월가 'SK하이닉스 저평가'… 목표가 최고 320달러 제시, 왜?",
-              "original": "월가 'SK하이닉스 저평가'… 목표가 최고 320달러 제시, 왜?",
-              "source": "금강일보",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBTaW4tMk5weUY4ekU3d1NDMzJiUlFSaHJNZDdQeWJXaVItSENCQ0dWeHp5NXdrNFJBYWQzR29mckcwSDdBUk9FSGFHcEJ5MFZYb21HeGwzZlNoQmd2THFCRjRKWk1xQnAwenc?oc=5",
-              "published": "2026-08-08T16:25:00+09:00"
+              "title": "블룸버그 \"SK하이닉스, 中 패키징공장 지분매각 등 검토\"",
+              "original": "블룸버그 \"SK하이닉스, 中 패키징공장 지분매각 등 검토\"",
+              "source": "매일신문",
+              "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBYMHZONTkzbk9OQk1NeU5Rd2FpaEVWY1E2STBLUW50RkJETHltQWoxWl9UVmlSYm5oSDdsRF9odXJobHBkc3JPd1pSaTNPVUV5QUJJQTZaREFhTUNfV3BfRFJn?oc=5",
+              "published": "2026-08-08T18:39:34+09:00"
             }
           ]
         },
         {
           "stock": "삼성전자",
           "ticker": "005930",
-          "title": "삼성전자 - 폴드8 사전판매 역대급",
-          "body": "갤럭시 Z폴드8 사전판매 144만대로 역대 최고 기록에도 중국 추격 우려 속 소폭 상승. +0.22% 오른 <b>231,000원</b> 마감.",
+          "title": "삼성전자 - 소폭 상승, 특허·부호 이슈 부각",
+          "body": "삼전닉스 급락에 개미들 미국 증시로 이탈한다는 소식 속에도 반도체·AI 특허 확대 소식이 균형을 이루며 소폭 상승. +0.22% 오른 <b>231,000원</b> 마감.",
           "pct": 0.22,
           "price": 231000.0,
           "currency": "KRW",
@@ -462,62 +462,62 @@
               "pct": 1.95,
               "is_close": false,
               "title": "장 초반 강세 출발",
-              "text": "장 시작과 함께 오름세로 출발하며 1%대 상승률을 기록하며 순조롭게 시작"
+              "text": "개장과 함께 매수세가 유입되며 전 거래일 대비 오름세로 거래를 시작함"
             },
             {
               "time": "11:00AM",
               "price": 233000.0,
               "pct": 1.08,
               "is_close": false,
-              "title": "상승폭 점차 둔화",
-              "text": "오전 중반 들어 초반 상승분이 줄어들며 오름세가 다소 약해지는 모습을 보임"
+              "title": "오전 상승폭 축소",
+              "text": "장 초반 강세가 다소 누그러지며 오전 중반 들어 상승폭이 절반 가까이 줄어듦"
             },
             {
               "time": "12:30PM",
               "price": 231000.0,
               "pct": 0.22,
               "is_close": false,
-              "title": "상승세 거의 소멸",
-              "text": "낮 시간대로 접어들며 상승폭이 거의 사라져 보합권 근처까지 밀려 내려옴"
+              "title": "상승폭 대부분 반납",
+              "text": "정오 무렵까지 상승세가 계속 약해지며 오전 대비 오름폭이 크게 줄어든 상태로 유지됨"
             },
             {
               "time": "마감",
               "price": 231000.0,
               "pct": 0.22,
               "is_close": true,
-              "title": "약보합권서 마감",
-              "text": "오후 내내 등락 없이 보합권을 유지한 채 초반 상승분을 대부분 반납하고 장을 마침"
+              "title": "약보합 수준 마감",
+              "text": "오후 들어서도 추가 반등 없이 상승분을 대부분 반납한 채 강보합 수준으로 마감함"
             }
           ],
           "news": [
             {
-              "title": "中 반도체, 韓 턱밑 추격…CXMT D램 美 플랫폼서 최고속도 기록",
-              "original": "中 반도체, 韓 턱밑 추격…CXMT D램 美 플랫폼서 최고속도 기록",
-              "source": "서울경제",
-              "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1WeGZhSG12R19OMnBMTWt2SW12eHVUTUxLcDFSSnlvTkdIblQ4bjdxZGNlcVlQT3pzTTBncmNDbXh1N3BoeS0tdFJJWXlXNkNSVUHSAVNBVV95cUxQZUpsWUJjQmt2ZVJCeFNHRzkxTzlRRW5MVnhPSDVLOFFvTnVKa09VbVpaWm5Wa3B6eEF0MVVpRHBIN3N3OFQxOU1ZSTdmaEF4WDFFSQ?oc=5",
-              "published": "2026-08-08T17:06:29+09:00"
+              "title": "삼전닉스 급락에 개미들 美 증시로…월가는 \"과열 경고\"",
+              "original": "삼전닉스 급락에 개미들 美 증시로…월가는 \"과열 경고\"",
+              "source": "네이트",
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBYSEpGeWt1M1NnbEo3d1NyaGd5SUdNdHdHa1RVR09Xd3J2cHY5bk11WV8yMnVoNDQtMFJVdWRXSDhpbkxlS3RtUTFTS3ZGdFM0R1ZZ?oc=5",
+              "published": "2026-08-08T18:26:20+09:00"
             },
             {
-              "title": "'아재폰' 꼬리표 뗀 갤럭시 폴드…MZ세대 사로잡은 이유 : 기업·산업",
-              "original": "'아재폰' 꼬리표 뗀 갤럭시 폴드…MZ세대 사로잡은 이유 : 기업·산업",
-              "source": "재경일보",
-              "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1ob0NFVGxrdXpFZTFsVVdVVElSc1ZSMV85Q2RySDVReDRjT1FUN3NUNEg4SDNCZ3Y4WUh1VXpiZTVldldtM1Q5dUJn?oc=5",
-              "published": "2026-08-08T16:40:00+09:00"
+              "title": "[친절한 경제] 이재용 46조·삼성가 100조…AI가 바꾼 주식부자 지도",
+              "original": "[친절한 경제] 이재용 46조·삼성가 100조…AI가 바꾼 주식부자 지도",
+              "source": "standingout.kr",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1PdVZua1dacFh2LXhORXdsdVVxY3QxWE95Y0liQkJHWVVFVmJRaU5nSTlmREJySW1IZ0RBQXktblU3NzJGaXo4cjktanFMaEZGOW5JY1kxMk03UnJmWURxOEFVc21qTE1qaGZV?oc=5",
+              "published": "2026-08-08T18:20:46+09:00"
             },
             {
-              "title": "삼성 갤럭시 Z 폴드8 시리즈, 사전 판매 144만대…역대 신기록",
-              "original": "삼성 갤럭시 Z 폴드8 시리즈, 사전 판매 144만대…역대 신기록",
-              "source": "시사신문",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9IcC1ET0NBRU41VFg1b2R5ZmhSMS0tLVpocmJOYXFRTWdFRDFhVXR5Rng4b2VEa0ZOSTRTOXVGbVF5bmFMZ01rb1N6bXVjNkpSQkg2b3JzLXB3T3JKeHVHcWxGdHA2Mi1ZSDFqUQ?oc=5",
-              "published": "2026-08-08T16:26:59+09:00"
+              "title": "\"AI 시대 특허가 경쟁력\"…삼성전자, 올해 30만건 특허 시대 연다",
+              "original": "\"AI 시대 특허가 경쟁력\"…삼성전자, 올해 30만건 특허 시대 연다",
+              "source": "네이트",
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5LNnBWbEhRZXVKSW1qX25oTThUY285ZkFLTzJRNzBheUVVdHgzb1Q2YW1SMUJWUG1ERkFRZDJnYWlQRldLTmdTbjJsZ01ybVB0QlVV?oc=5",
+              "published": "2026-08-08T18:01:00+09:00"
             }
           ]
         },
         {
           "stock": "한화에어로스페이스",
           "ticker": "012450",
-          "title": "한화에어로스페이스 - 우주·로봇 사업 확장 기대",
-          "body": "한화시스템 우주 AI 인재 영입과 군 로봇 지휘체계 구축 소식에 방산·우주 사업 확장 기대감 부각. +4.08% 오른 <b>1,097,000원</b> 마감.",
+          "title": "한화에어로스페이스 - 우주·로봇 사업 확대 기대감",
+          "body": "한화시스템의 우주 AI 인재 영입과 로봇 지휘통제시스템 구축 소식에 방산·우주 사업 확장 기대감이 부각되며 매수세… +4.08% 오른 <b>1,097,000원</b> 마감.",
           "pct": 4.08,
           "price": 1097000.0,
           "currency": "KRW",
@@ -528,8 +528,8 @@
               "price": 1068000.0,
               "pct": 1.33,
               "is_close": false,
-              "title": "장 초반 완만한 상승",
-              "text": "장 시작부터 완만한 오름세를 보이며 1%대 초반 상승률로 순조롭게 출발함"
+              "title": "장 초반 소폭 강세",
+              "text": "개장 직후 완만한 매수세가 유입되며 전 거래일 대비 오름세로 출발함"
             },
             {
               "time": "11:00AM",
@@ -537,23 +537,23 @@
               "pct": 1.71,
               "is_close": false,
               "title": "오전 내내 상승세 유지",
-              "text": "오전 중반까지 상승 흐름이 꾸준히 이어지며 1%대 후반까지 오름폭이 커짐"
+              "text": "오전 중반까지 상승폭이 조금씩 커지며 견조한 오름세가 이어짐"
             },
             {
               "time": "12:30PM",
               "price": 1076000.0,
               "pct": 2.09,
               "is_close": false,
-              "title": "상승폭 점진적 확대",
-              "text": "낮 시간대에도 매수세가 유지되며 상승률이 2%를 넘어서는 등 강세가 지속됨"
+              "title": "오후 들어 상승 지속",
+              "text": "정오를 지나면서도 상승세가 꺾이지 않고 오름폭이 꾸준히 확대됨"
             },
             {
               "time": "마감",
               "price": 1097000.0,
               "pct": 4.08,
               "is_close": true,
-              "title": "오후 들어 상승 가속",
-              "text": "오후 들어 상승폭이 크게 확대되며 하루 중 가장 높은 수준으로 강하게 마감함"
+              "title": "장 후반 급등 마감",
+              "text": "장 마감을 앞두고 매수세가 강하게 몰리며 하루 중 최고 상승폭으로 거래를 마감함"
             }
           ],
           "news": [
@@ -583,8 +583,8 @@
         {
           "stock": "LG전자",
           "ticker": "066570",
-          "title": "LG전자 - 유망주 부각에 강세",
-          "body": "증권가가 유망주로 콕 찍으며 관심 확대, 로봇 등 미래 가전 승부처 부각 속 강세 마감. +5.59% 오른 <b>185,000원</b> 마감.",
+          "title": "LG전자 - 저가 매수세 유입, 반등",
+          "body": "주가 40% 급락 이후 저점 인식한 개인 매수세가 유입되며 반등, 로봇 등 미래 가전 승부처 기대감도 더해짐. +5.59% 오른 <b>185,000원</b> 마감.",
           "pct": 5.59,
           "price": 185000.0,
           "currency": "KRW",
@@ -596,7 +596,7 @@
               "pct": 2.74,
               "is_close": false,
               "title": "장 초반 강한 상승",
-              "text": "장 시작부터 2%대 후반 상승률을 기록하며 강한 매수세와 함께 출발함"
+              "text": "개장 직후부터 매수세가 몰리며 전 거래일 대비 큰 폭의 오름세로 출발함"
             },
             {
               "time": "11:00AM",
@@ -604,39 +604,39 @@
               "pct": 3.71,
               "is_close": false,
               "title": "오전 상승폭 확대",
-              "text": "오전 중반까지 오름세가 이어지며 상승률이 3%대 후반까지 확대되는 흐름을 보임"
+              "text": "오전 중반까지 매수세가 이어지며 개장 초보다 상승폭이 한층 더 커짐"
             },
             {
               "time": "12:30PM",
               "price": 181200.0,
               "pct": 3.42,
               "is_close": false,
-              "title": "상승세 소폭 진정",
-              "text": "낮 시간대 들어 상승폭이 약간 줄었지만 여전히 3%대 강세를 유지하는 모습"
+              "title": "소폭 밀리며 유지",
+              "text": "정오 무렵 상승폭이 다소 줄었으나 여전히 큰 오름세를 유지한 채 이어짐"
             },
             {
               "time": "마감",
               "price": 185000.0,
               "pct": 5.59,
               "is_close": true,
-              "title": "장중 최고치로 마감",
-              "text": "오후 들어 다시 상승폭이 커지며 하루 중 가장 높은 수준에서 거래를 마침"
+              "title": "장 후반 재차 급등",
+              "text": "장 마감을 앞두고 매수세가 다시 강해지며 하루 중 가장 높은 수준으로 마감함"
             }
           ],
           "news": [
             {
-              "title": "추억의 탈착식 배터리폰, 다시 주목…왜?",
-              "original": "추억의 탈착식 배터리폰, 다시 주목…왜?",
-              "source": "지디넷코리아",
-              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBBeXlfLXdWVnZ6T2NSbFg0TXk3aUIzNDhyLVJ3VHRaalNDbGY0WDZHWUNwN2NOWVpMb1lZNFJlZGNrWkN3ek1CNl9IQmJTZWpfWHFzXzdn?oc=5",
-              "published": "2026-08-08T17:01:59+09:00"
-            },
-            {
-              "title": "\"지금 사두면 돈 된다\"…증권가가 콕 찍은 9개 유망주 [한경우의 케이스스터디]",
-              "original": "\"지금 사두면 돈 된다\"…증권가가 콕 찍은 9개 유망주 [한경우의 케이스스터디]",
+              "title": "주가 40% 빠졌는데…'다시 올라타야 하나' 개미들 들썩 [한경우의 케이스스터디]",
+              "original": "주가 40% 빠졌는데…'다시 올라타야 하나' 개미들 들썩 [한경우의 케이스스터디]",
               "source": "한국경제",
               "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkSDB2M2d0ajNZcXFRQ3pJRHdPaVJoUDVmajhWRjdKRl9UR0dBYTR4X181YVpMbFh4M0Nra2I2d21CZGdhVVItOTVCR2lsbWo5Nzk2Rjlvc1dwdw?oc=5",
               "published": "2026-08-08T17:00:02+09:00"
+            },
+            {
+              "title": "반세기 금형 기술의 변신…나라엠앤디, ESS 시장 정조준",
+              "original": "반세기 금형 기술의 변신…나라엠앤디, ESS 시장 정조준",
+              "source": "핀포인트뉴스",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9rYWhhSjBKeXRlcmRId3FnSktmUW1Xdjh4TkpQeXZaSC1ObVpUMVJtQUo2UlFhQXZYNWFYQjB0TUVuc2JGS0c5RkJCSnJCOS1FSGRrWXFLTHh6S1B2bFM5dVNuU0FXZGN1LVBUZ0VIakVjX3fSAXdBVV95cUxNTVJKOVMzX3p3OUF3VHRBS3RHY01uQTRUcFYzNl9nemFGSjNVdGtNZVloVnZpTUtNdi1uR0dIdlcyQjNNd0ktRzlJRkFpWTFkLWZFNlB2NnJYYkpHSmd6SWFrOFkwQi1hS3lMbEZxQXVXZWNEVXdnRQ?oc=5",
+              "published": "2026-08-08T16:31:30+09:00"
             },
             {
               "title": "LG·삼성 가전, 같은 업황에도 희비 엇갈려…미래 승부처는 ‘로봇’",
@@ -650,8 +650,8 @@
         {
           "stock": "현대차",
           "ticker": "005380",
-          "title": "현대차 - 코나 풀체인지 출시",
-          "body": "중국 전기차의 유럽 공세 속 신차·인센티브로 맞대응 나섰지만 주가는 하락. -1.12% 내린 <b>395,500원</b> 마감.",
+          "title": "현대차 - 中 전기차 유럽 공세에 하락",
+          "body": "중국 전기차의 유럽 시장 세 자릿수 성장에 신차·인센티브로 대응해야 하는 부담이 부각되며 주가 하락. -1.12% 내린 <b>395,500원</b> 마감.",
           "pct": -1.12,
           "price": 395500.0,
           "currency": "KRW",
@@ -663,60 +663,60 @@
               "pct": -2.25,
               "is_close": false,
               "title": "장 초반 약세 출발",
-              "text": "장 시작과 함께 2%대 하락으로 출발하며 매도 우위 흐름을 보이며 시작함"
+              "text": "개장 직후 매도세가 유입되며 전 거래일 대비 하락한 채 거래를 시작함"
             },
             {
               "time": "11:00AM",
               "price": 390000.0,
               "pct": -2.5,
               "is_close": false,
-              "title": "낙폭 소폭 확대",
-              "text": "오전 중반 들어 하락폭이 조금 더 벌어지며 이날 최대 약세 구간에 근접함"
+              "title": "낙폭 소폭 더 커짐",
+              "text": "오전 중반까지 약세가 이어지며 개장 초보다 하락폭이 조금 더 벌어짐"
             },
             {
               "time": "12:30PM",
               "price": 391000.0,
               "pct": -2.25,
               "is_close": false,
-              "title": "낙폭 다시 축소",
-              "text": "낮 시간대로 접어들며 하락폭이 오전보다 다소 줄어드는 흐름을 보임"
+              "title": "낙폭 그대로 유지",
+              "text": "정오 무렵까지도 별다른 반등 없이 오전과 비슷한 수준의 하락세가 지속됨"
             },
             {
               "time": "마감",
               "price": 395500.0,
               "pct": -1.12,
               "is_close": true,
-              "title": "낙폭 크게 줄이며 마감",
-              "text": "오후 들어 매수세가 유입되며 하락폭을 큰 폭으로 줄인 채 장을 마감함"
+              "title": "낙폭 일부 만회 마감",
+              "text": "장 후반 들어 매수세가 다소 유입되며 낙폭을 일부 되돌린 채 거래를 마감함"
             }
           ],
           "news": [
             {
               "title": "中 전기차 유럽서 세 자릿수 질주…현대차·기아, 신차·인센티브로 맞불[車이나 머니 몰려온다③]",
               "original": "中 전기차 유럽서 세 자릿수 질주…현대차·기아, 신차·인센티브로 맞불[車이나 머니 몰려온다③]",
-              "source": "파이낸셜뉴스",
-              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1SMzdaUmtVejYtbWtPT2J2WFYtMnh3UWJzeXBJcWtuRVlBWjZsb2tLMmtTc1FmWnNCcmNPMnI3ZVR4SjJ3blhVRWplcS0wZVhWQk5IbFh1VlhRQQ?oc=5",
-              "published": "2026-08-08T17:01:17+09:00"
+              "source": "뉴시스",
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE53ZXc4dEQyLXhVMkdJdnY3Rld1MFdZaWJPV2JRX2sxNkFSSG41WFcwLUIyQjlSZHJ0MUp4aWRqRE1KNk1iTjhaazh2WXN0NkVZRF9OMzFuRWtSN2dyNG9OedIBeEFVX3lxTE1UTVl5dWUya2RZYVNrMXVXSTQxSVdzTjBCNEZ4cXloRGFYNTBUVGx1ZnR1LWJKUGlwT3hpN3V1dEZwNWZDRm5yM04zcTJDc05SeDQ5UktuaEYtSmpoamo0cGw5eVVqOUNhN1BaR3NPMW5vT0c1dUxhYQ?oc=5",
+              "published": "2026-08-08T17:00:00+09:00"
+            },
+            {
+              "title": "현대차 정몽구 재단, 과학기술로 인류 난제 푼다…글로벌 혁신 연대 구축",
+              "original": "현대차 정몽구 재단, 과학기술로 인류 난제 푼다…글로벌 혁신 연대 구축",
+              "source": "중앙뉴스",
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4tMDBndkptdVBrek5ldFNDaFpobHZ3Rk02SXI3dXBYRkRubERydTBtWE9LdHY4ZzJKT0wyQXpaRzh3TWo3V2VrVFZ4WG5TNnZlMURMRHhJSGQ1dGkyMjVzc0t6OUNNYnZRS1lVN0FVa9IBb0FVX3lxTE4tMDBndkptdVBrek5ldFNDaFpobHZ3Rk02SXI3dXBYRkRubERydTBtWE9LdHY4ZzJKT0wyQXpaRzh3TWo3V2VrVFZ4WG5TNnZlMURMRHhJSGQ1dGkyMjVzc0t6OUNNYnZRS1lVN0FVaw?oc=5",
+              "published": "2026-08-08T15:58:58+09:00"
             },
             {
               "title": "“이게 진짜 현대차?” 셀토스 잡으러 각 잡고 돌아온 코나 풀체인지",
               "original": "“이게 진짜 현대차?” 셀토스 잡으러 각 잡고 돌아온 코나 풀체인지",
-              "source": "뉴스와",
+              "source": "news-wa.com",
               "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTnREUFE5cWlxWVdiVWZiSHF5cXlHTFJUdzU5S2NIRDd2ajNFM3ZIWUl5WGpCTG1nbldIY3hRV05LZmtHbWpUWG9IN21GZDZHcXAxdzNOM29hcUVrYllnb1c3ZDVIX0YwdjgwRnVUV2pLenIxMWh1MDcwcTJ1Y3otZGtFRQ?oc=5",
               "published": "2026-08-08T15:43:38+09:00"
-            },
-            {
-              "title": "현대차·글로벌 기업이 찾은 AI…마키나락스의 승부수",
-              "original": "현대차·글로벌 기업이 찾은 AI…마키나락스의 승부수",
-              "source": "핀포인트뉴스",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE53bVhpMFlad0NXcGVIZjlUQW9OU216OUFhcFBnNXBiajZYODBZeExvUHFWMXY1OHE5NmpQOUY5WTV4SkNBMFkzLUVacHdIZjF4TlBzV2NrTURVamlVTmNrSmdiTGdkRGNqX0t4UFlRTlIxb0XSAXdBVV95cUxQS3JMaXVvZkNRZGFBRXJybHFLTWktNGFXSnlCYldOV2ppSmVZNmFIQVJjaVhUd0NtNGkzMGUtNHBySFVlNG5KQ0stQ1gxRUhyWlpQWGlZSFRnc2JMaDU3QWJpcHA5ekxOanh1MzliWWJvbnoxeDc2QQ?oc=5",
-              "published": "2026-08-08T15:17:13+09:00"
             }
           ]
         }
       ],
       "markdown": "briefings/2026-08-08-kr.md",
-      "refreshed_at": "2026-08-08 18:00:05 KST"
+      "refreshed_at": "2026-08-08 18:54:54 KST"
     }
   }
 }
