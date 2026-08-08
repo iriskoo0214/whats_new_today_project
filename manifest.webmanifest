@@ -1,6 +1,6 @@
 {
-  "name": "노트폴리오 — 데일리 브리핑",
-  "short_name": "노트폴리오",
+  "name": "오늘머니 — 오늘의 증시 브리핑",
+  "short_name": "오늘머니",
   "description": "보유 종목의 가격과 뉴스를 하루 두 번 정리해 보여주는 브리핑",
   "start_url": "./index.html",
   "scope": "./",
@@ -9,6 +9,11 @@
   "background_color": "#e7f3ff",
   "theme_color": "#e7f3ff",
   "icons": [
-    { "src": "assets/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+    {
+      "src": "assets/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
   ]
 }
