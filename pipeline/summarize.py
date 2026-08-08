@@ -124,9 +124,11 @@ def summarize(briefs: List[StockBrief]) -> Dict[str, dict]:
         print("  [요약] ANTHROPIC_API_KEY 없음 → 규칙 기반(헤드라인 나열)으로 진행")
         return {}
 
-    import anthropic
-
     try:
+        # import까지 try 안에 둔다 — 라이브러리가 없다고 브리핑 전체가 죽으면 안 된다.
+        # 요약은 부가 기능이라 실패하면 규칙 기반으로 물러나는 것이 맞다.
+        import anthropic
+
         resp = anthropic.Anthropic().messages.create(
             model=SUMMARY_MODEL,
             max_tokens=SUMMARY_MAX_TOKENS,

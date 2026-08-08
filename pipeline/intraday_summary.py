@@ -109,11 +109,14 @@ def summarize(briefs, slots_by_ticker: Dict[str, list]) -> Dict[str, List[dict]]
         print("  [시간대별] ANTHROPIC_API_KEY 없음 → 문구 없이 가격만 표시")
         return {}
 
-    import anthropic
-
-    blocks = [_block(b.name, b.quote.ticker, slots_by_ticker[b.quote.ticker], b.news)
-              for b in targets]
     try:
+        # 프롬프트 조립과 import까지 try 안에 둔다 — 여기서 무슨 일이 나든
+        # 가격만 있는 시간대별 카드로 넘어가야지 브리핑 전체가 죽으면 안 된다.
+        import anthropic
+
+        blocks = [_block(b.name, b.quote.ticker, slots_by_ticker[b.quote.ticker], b.news)
+                  for b in targets]
+
         resp = anthropic.Anthropic().messages.create(
             model=SUMMARY_MODEL,
             max_tokens=INTRADAY_MAX_TOKENS,
