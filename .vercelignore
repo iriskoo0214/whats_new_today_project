@@ -1,0 +1,21 @@
+# 배포 대상에서 뺄 것.
+# 저장소는 비공개여도 배포된 사이트는 링크만 알면 접근되므로,
+# 화면을 그리는 데 필요 없는 파일은 아예 올리지 않는다.
+
+# 파이프라인 소스 — 브라우저는 결과 파일만 읽으면 된다
+pipeline/
+.github/
+logs/
+.claude/
+
+# 브리핑 원문 기록 — 저장소에는 남기되 웹에는 올리지 않는다
+briefings/
+
+# 보유 종목 목록. 파이썬만 읽는 파일이라 사이트에는 불필요하다.
+data/portfolio.json
+
+# briefing.js와 내용이 같다. 화면은 .js만 읽으므로 중복 노출을 피한다.
+data/briefing.json
+
+README.md
+LICENSE
