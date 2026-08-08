@@ -883,8 +883,8 @@
     if (!vw || !vh) return;
     var mobile = vw <= 520;
     var pad = mobile ? 0 : 28;                       // 폰 껍데기 여백
-    // 모바일에서는 가짜 상태바(44px)를 감춘 만큼 프레임이 낮아진다
-    var frameH = mobile ? 768 : 812;
+    // 모바일에서는 가짜 상태바(44px)와 홈바(34px)를 감춘 만큼 프레임이 낮아진다
+    var frameH = mobile ? 734 : 812;
     var scale = Math.min((vw - pad * 2) / 375, (vh - pad * 2) / frameH);
     if (!mobile) scale = Math.min(scale, 1);         // 데스크톱에선 확대하지 않는다
     frameScale = Math.max(scale, 0.2);
