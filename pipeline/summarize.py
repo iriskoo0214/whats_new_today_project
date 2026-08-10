@@ -104,8 +104,11 @@ def _block(sb: StockBrief) -> str:
         "[{}] {} · {} · {}".format(
             sb.quote.ticker, sb.name, pct, sb.quote.format_price()),
         # 상한만 주면 한참 못 미치게 쓴다. 하한을 함께 줘서 카드를 채우게 한다.
+        # 하한이 0.85면 실제로는 79%쯤 쓰는데, 그러면 넓은 폰(430px)에서 본문이
+        # 2줄에 들어가 카드 아래가 빈다. 좁은 폰에서 넘치지 않으면서 넓은 폰에서도
+        # 3줄이 되는 구간이 예산의 90~100%라 하한을 그 위로 올린다.
         "제목 꼬리 최대 {}자 / 본문 원인절 {}~{}자(가능한 한 끝까지 채울 것)".format(
-            title_room, int(body_room * 0.85), body_room),
+            title_room, int(body_room * 0.95), body_room),
     ]
     if sb.news:
         lines.append("오늘 헤드라인:")
