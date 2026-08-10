@@ -660,6 +660,12 @@
   }
 
   var pfSlot = 0;                                   // 현재 시간대
+
+  /* 가장 최근에 갱신된 시간대. 국내는 4번째(마감), 해외는 2번째(마감)이고,
+     장중에 돌린 브리핑이면 아직 채워지지 않은 시각이 있어 그보다 앞일 수 있다.
+     탭을 열면 여기서 시작한다 — 9:10AM부터 보여주면 방금 무슨 일이 있었는지
+     알려고 들어온 사람이 매번 끝까지 넘겨야 한다. */
+  function latestSlot() { return Math.max(PF.slots.length - 1, 0); }
   var screenPf   = document.getElementById('screenPf');
   var pfBriefRow = document.getElementById('pfBriefRow');
   var pfBriefs   = document.getElementById('pfBriefs');
@@ -699,7 +705,7 @@
         pfStock.textContent = card ? card.stock : label;
         if (card) {
           applyPfCard(card);
-          pfSlot = 0;
+          pfSlot = latestSlot();      // 종목을 바꿔도 최신 시간대부터
           renderPf(false);
         }
         playPfSwitch();
@@ -858,7 +864,9 @@
       document.querySelectorAll('.status-icons img').forEach(function (img) {
         img.src = img.dataset[key === 'portfolio' ? 'w' : 'b'];
       });
-      if (key === 'portfolio') renderPf(false);
+      // 탭을 열 때마다 최신 시간대로 되돌린다. 지난번에 9:10AM을 보다 나갔다고
+      // 다음에 들어올 때도 9:10AM으로 맞아줄 이유는 없다.
+      if (key === 'portfolio') { pfSlot = latestSlot(); renderPf(false); }
       // 이제야 폭을 잴 수 있다 — 화살표·가장자리를 다시 계산한다
       refreshChipControls();
       if (key === 'portfolio' && !pfChipHinted) {
@@ -901,6 +909,7 @@
   fitFrame();
 
   renderPfChips();
+  pfSlot = latestSlot();
   renderPf(false);
   moveIndicator(false);
 
