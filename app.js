@@ -923,6 +923,9 @@
   }
   window.addEventListener('resize', fitFrame);
   window.addEventListener("resize", refreshChipControls);
+  // 탭 폭이 화면 따라 변하므로(유동 레이아웃) 알약도 다시 재야 한다.
+  // 폭이 112px 고정일 때는 필요 없었지만 이제는 회전 한 번에 어긋난다.
+  window.addEventListener('resize', function () { moveIndicator(false); });
   fitFrame();
 
   renderPfChips();

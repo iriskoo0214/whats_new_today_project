@@ -599,6 +599,10 @@
       top:auto;
       bottom:calc(8px + env(safe-area-inset-bottom,0px));
     }
+    /* 탭 3개가 112px 고정이라 합쳐 336px. 시안 폭(343)에서는 꽉 찼지만 화면이
+       넓어지면 늘어나지 않고 왼쪽으로 몰려 Settings 오른쪽이 빈다
+       (화면폭 - 384 만큼. Pro Max 430에서 46px). 폭을 균등하게 나눠 갖는다. */
+    .tab{flex:1 1 0;width:auto;}
 
     /* ---------- Portfolios: 세로 스택을 흐름으로 ---------- */
     .device[data-tab="portfolio"] .screen--pf{
