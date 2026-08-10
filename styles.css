@@ -630,6 +630,11 @@
     .pf-stock{
       left:auto;top:auto;width:auto;padding:0 16px;
       flex:1 1 auto;justify-content:center;    /* 남는 세로를 여기서 흡수 */
+      /* 시안(155:6461)에서 그대로 옮긴 간격. 절대좌표일 때는 top 값이 알아서
+         만들어주던 여백이라, 흐름으로 바꾸면 0이 되어 종목명이 가격 띠에 붙는다.
+           칩 줄 바닥 63.5 → 종목명 90     = 26.5
+           종목명 바닥 160.8 → 가격 띠 181 = 20.2 */
+      margin:26.5px 0 20.2px;
     }
     .pf-time{top:auto;flex:0 0 142px;}
     .pf-time__band{height:100%;}
