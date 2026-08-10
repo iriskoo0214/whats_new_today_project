@@ -44,23 +44,6 @@
     transform:scale(var(--scale,1));
     transform-origin:center center;
   }
-  /* 프레임을 꽉 채워 볼 때(모바일 등)는 폰 껍데기를 감춘다 */
-  .device.is-fullbleed{border-radius:0;box-shadow:none;}
-
-  /* 진짜 폰에서 볼 때는 OS 상태바(시계·배터리·와이파이)가 이미 화면 위에 있다.
-     시안 재현용 가짜 상태바가 그 아래 또 나오면 시계가 두 번 보인다.
-     데스크톱에서 폰 껍데기를 씌워 볼 때만 남긴다. */
-  /* 홈 인디케이터도 OS가 이미 그려준다. 시안 재현용 가짜 막대는 감춘다. */
-  .device.is-fullbleed .status-bar,
-  .device.is-fullbleed .home-bar{display:none;}
-
-  /* 감춘 44px을 그냥 비워두면 위에 빈 띠가 남는다. 그만큼 끌어올려 회수한다.
-     .screen은 inset:0이라 top만 -44px로 두면 bottom:0이 높이를 812px로 유지해줘서,
-     내부 좌표(앱바 44px, 카드 206px …)를 하나도 건드리지 않고 통째로 올라간다.
-     아래쪽 홈바 자리(34px)도 함께 덜어낸다. */
-  .device.is-fullbleed{height:734px;}          /* 812 - 44(상태바) - 34(홈바) */
-  .device.is-fullbleed .screen{top:-44px;}
-  .device.is-fullbleed .tab-bar{top:658px;}    /* 702 - 44 */
 
   /* blurred warm gradient blob (92:1881) */
   .blob{
@@ -132,7 +115,7 @@
   }
   /* 칩 그룹: 내용만큼 차지하되 셰브론 자리를 남기고 최대 314px (미국 92:1944 / 한국 94:5862 공통) */
   .chip-scroll{
-    flex:0 1 auto;max-width:314px;
+    flex:0 1 auto;max-width:calc(100% - 29px);
     display:flex;align-items:center;gap:6px;overflow-x:auto;scrollbar-width:none;
   }
   .chip-scroll::-webkit-scrollbar{display:none;}
@@ -345,7 +328,7 @@
   /* ---------- tab bar (92:1908) ---------- */
   .tab-bar{
     position:absolute;left:50%;transform:translateX(-50%);
-    top:702px;width:343px;height:68px;
+    top:702px;width:var(--card-w);height:68px;
     display:flex;align-items:center;padding:0 8px;
     background:rgba(255,255,255,.2);
     -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
@@ -422,7 +405,7 @@
       #00234a 39.089%, #1c90ff 52.077%, #d3e8ff 99.969%);
   }
 
-  .pf-top{position:absolute;left:0;top:0;width:375px;height:160px;background:#1c90ff;overflow:hidden;}
+  .pf-top{position:absolute;left:0;top:0;width:100%;height:160px;background:#1c90ff;overflow:hidden;}
   .pf-header{
     position:absolute;left:16px;top:44px;height:60px;display:flex;align-items:center;
     font-size:16px;font-weight:600;line-height:1.4;color:#fff;
@@ -443,9 +426,9 @@
   .pf-nav:disabled{visibility:hidden;}
   .pf-nav:active{opacity:.5;}
 
-  .pf-middle{position:absolute;left:0;top:157px;width:375px;height:363px;background:#d5e8ff;overflow:hidden;}
+  .pf-middle{position:absolute;left:0;top:157px;width:100%;height:363px;background:#d5e8ff;overflow:hidden;}
   .pf-middle__sky{
-    position:absolute;left:0;top:0;width:375px;height:181px;
+    position:absolute;left:0;top:0;width:100%;height:181px;
     background:linear-gradient(180deg,#1c90ff 0%,#339bff 84.86%,#8ec8ff 100%);
   }
 
@@ -455,7 +438,7 @@
     display:flex;align-items:center;justify-content:space-between;gap:7px;
   }
   .pf-tabs__scroll{
-    flex:0 1 auto;max-width:314px;
+    flex:0 1 auto;max-width:calc(100% - 29px);
     display:flex;align-items:center;gap:6px;overflow-x:auto;scrollbar-width:none;
   }
   .pf-tabs__scroll::-webkit-scrollbar{display:none;}
@@ -488,7 +471,7 @@
 
   /* 가격 영역 (155:6479) */
   .pf-time{
-    position:absolute;left:0;top:181px;width:375px;height:142px;
+    position:absolute;left:0;top:181px;width:100%;height:142px;
     padding:0;border:none;background:#d5e8ff;overflow:hidden;
     text-align:left;font-family:inherit;
     transition:transform .28s cubic-bezier(.22,.8,.28,1), opacity .28s ease;
@@ -535,14 +518,15 @@
     font-size:14px;font-weight:600;letter-spacing:-.35px;line-height:1.4;color:var(--muted);
   }
   .pf-briefs{
-    position:absolute;left:0;top:550px;width:375px;height:122px;
+    position:absolute;left:0;top:550px;width:100%;height:122px;
     overflow-x:auto;overflow-y:hidden;scrollbar-width:none;
     -webkit-overflow-scrolling:touch;
   }
   .pf-briefs::-webkit-scrollbar{display:none;}
   .pf-briefs__row{display:flex;align-items:stretch;gap:4px;padding:0 16px;width:max-content;}
   .pf-brief{
-    flex:0 0 auto;width:343px;height:122px;   /* 홈 카드와 같은 높이 */
+    /* 폭은 홈 카드와 같게. 부모가 width:max-content라 %는 못 쓰고 실제 폭이 필요하다 */
+    flex:0 0 auto;width:var(--card-w);height:122px;   /* 홈 카드와 같은 높이 */
     display:flex;flex-direction:column;gap:8px;
     padding:12px;background:rgba(255,255,255,.8);
     box-shadow:0 4px 4px 0 rgba(174,210,254,.25);
@@ -577,3 +561,76 @@
   /* ---------- home bar (66:564) ---------- */
   .home-bar{position:absolute;left:0;right:0;bottom:0;height:34px;z-index:7;pointer-events:none;}
   .home-bar img{position:absolute;left:50%;transform:translateX(-50%);bottom:8px;width:134px;height:5px;display:block;}
+
+  /* ================= 폰 화면: 유동 레이아웃 =================
+     주소를 직접 치고 들어와도 앱처럼 보이게 한다.
+
+     데스크톱은 위 규칙 그대로 375×812 폰 목업을 축소해 보여주고, 폰 폭에서는
+     축소를 걷어내고 화면을 실제로 채운다. 축소해서 채우면 시안 14px 본문이
+     12.6px로 줄어든다 — 상대 단위로 채우면 14px이 14px로 남는다.
+
+     가로는 %/calc 으로 늘어난다. 세로는 %가 답이 아니다. top:550px 을 top:67%
+     로 바꾸면 화면마다 요소 사이가 제멋대로 벌어진다. 세로는 "고정 높이 머리 +
+     늘어나는 가운데" 구조여야 해서 flex 로 쌓는다. */
+  @media (max-width:520px){
+    .device{
+      width:100%;height:100%;
+      transform:none;border-radius:0;box-shadow:none;
+      --card-w:calc(100vw - 32px);
+    }
+
+    /* 진짜 폰에는 OS가 이미 시계·배터리와 홈 인디케이터를 그려준다 */
+    .status-bar,.home-bar{display:none;}
+
+    /* 홈은 이미 세로가 유동이다 — .list-viewport 가 top:206px/bottom:0 으로
+       남는 세로를 다 먹는다. 감춘 상태바 44px 만큼 통째로 끌어올리면 끝이고,
+       내부 좌표는 하나도 건드리지 않는다. */
+    .screen--home{top:-44px;}
+
+    /* 탭바는 화면 아래에 붙인다. 홈 인디케이터와 겹치지 않게 안전영역을 더한다 */
+    .tab-bar{
+      top:auto;
+      bottom:calc(8px + env(safe-area-inset-bottom,0px));
+    }
+
+    /* ---------- Portfolios: 세로 스택을 흐름으로 ---------- */
+    .device[data-tab="portfolio"] .screen--pf{
+      display:flex;flex-direction:column;
+      overflow-y:auto;overflow-x:hidden;
+      /* 마지막 카드가 탭바 밑에 깔리지 않게 자리를 비워둔다 */
+      padding-bottom:calc(84px + env(safe-area-inset-bottom,0px));
+    }
+
+    .pf-top{position:relative;flex:0 0 116px;height:116px;}  /* 160 - 상태바 44 */
+    .pf-col--head{height:100%;}
+    .pf-header{top:0;}
+    .pf-datepicker{top:76px;}                                /* 120 - 44 */
+
+    .pf-middle{
+      position:relative;top:auto;height:auto;
+      /* 늘어나되 줄어들지는 않는다(shrink 0). min-height로 최소치를 못박으면
+         칩·종목명이 몇 줄이 되느냐에 따라 넘쳐서 가격이 잘린다 — 실제 내용
+         높이를 바닥으로 삼고, 모자라면 화면이 스크롤되게 둔다. */
+      flex:1 0 auto;
+      display:flex;flex-direction:column;
+    }
+    .pf-middle__sky{height:calc(100% - 142px);}   /* 가격 블록 위까지만 파랑 */
+    .pf-col--mid{height:100%;}
+
+    /* 배경 두 장(.pf-middle__sky/.pf-col--mid)이 절대배치라, 흐름에 놓인 내용이
+       그 아래로 깔린다. positioned 로 만들어 위로 올린다. */
+    .pf-tabs,.pf-stock,.pf-time{position:relative;z-index:1;}
+    .pf-tabs{top:auto;padding:13px 16px 10px;}
+    .pf-stock{
+      left:auto;top:auto;width:auto;padding:0 16px;
+      flex:1 1 auto;justify-content:center;    /* 남는 세로를 여기서 흡수 */
+    }
+    .pf-time{top:auto;flex:0 0 142px;}
+    .pf-time__band{height:100%;}
+
+    .pf-section-title{
+      position:relative;left:auto;top:auto;
+      flex:0 0 auto;margin:3px 0 7px;padding:0 16px;
+    }
+    .pf-briefs{position:relative;top:auto;flex:0 0 122px;}
+  }

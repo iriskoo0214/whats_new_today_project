@@ -2,7 +2,8 @@
   'use strict';
 
   var ACTION_W   = 44;   // 열린 상태에서 드러나는 체크 영역 너비 (Figma 92:1889)
-  var CARD_W     = 343;
+  var CARD_W     = 343;  // 시안 폭. 유동 레이아웃에서는 rowWidth()로 실측한다
+  var BAND_FULL  = 95.7; // 진행 바가 다 찼을 때의 화면 폭 대비 비율 (시안 359/375)
   var OPEN_AT    = 14;   // 이 이상 끌면 열린 상태로 스냅
   var FULL_AT    = 150;  // 이 이상 끌면 완전 스와이프 = 카드 삭제
   var AXIS_LOCK  = 6;    // 가로/세로 판정 임계값
@@ -344,11 +345,14 @@
 
   // 0 ~ 44px 구간에서는 카드 폭이 줄면서 체크 영역이 열리고(= Figma 오픈 상태),
   // 그 이상 끌면 줄어든 카드가 그대로 왼쪽으로 밀려나간다.
+  // 카드 폭은 화면마다 다르다(유동 레이아웃). 시안값은 마지막 보루로만 쓴다.
+  function rowWidth(row) { return row.offsetWidth || CARD_W; }
+
   function setOffset(row, px) {
     row._offset = px;
     var shrink = Math.min(Math.max(px, 0), ACTION_W);
     var slide  = px < 0 ? px : Math.max(px - ACTION_W, 0);
-    row._card.style.width = (CARD_W - shrink) + 'px';
+    row._card.style.width = (rowWidth(row) - shrink) + 'px';
     row._card.style.transform = 'translate3d(' + (-slide) + 'px,0,0)';
     row._action.style.width = Math.max(px, 0) + 'px';
     row.classList.toggle('is-revealing', px > 4);
@@ -391,7 +395,7 @@
     if (openRow === row) openRow = null;
 
     // 1) 카드가 왼쪽으로 완전히 빠져나감
-    animateTo(row, CARD_W, function () {
+    animateTo(row, rowWidth(row), function () {
       // 2) 자리를 접으면서 사라짐
       row.style.height = row.offsetHeight + 'px';
       row.classList.add('is-collapsing');
@@ -448,7 +452,8 @@
       e.preventDefault();
       var next = baseOffset - dx;
       if (next < 0) next = next * 0.25;              // 오른쪽으로 당기면 고무줄
-      if (next > CARD_W) next = CARD_W;
+      var max = rowWidth(row);
+      if (next > max) next = max;
       setOffset(row, Math.max(next, -20));
     }
 
@@ -505,28 +510,28 @@
     chips: ['SK하이닉스', '삼성전자', 'IBM', 'MSFT', 'GOOGL'],
     slots: [
       {
-        time: '9:10AM', band: 90, price: '1,590,000', pct: '20.3 %',
+        time: '9:10AM', band: 24.0, price: '1,590,000', pct: '20.3 %',
         headline: '1,590,000원으로 20%대 급등 중입니다.',
         stamp: '2026. 7. 31. (금) 9:10AM',
         title: '외국인 매수세 유입, 20%대 급등',
         text: '미국 빅테크 실적 호조와 AI 반도체 수요 확대에 개장 직후부터 외국인 매수세 유입되며 20% 넘게 폭등. 낙폭 과대 인식과 디레버리징 마무리 기대감이 매수 심리 자극.'
       },
       {
-        time: '10:30AM', band: 180, price: '1,660,000', pct: '25.6 %',
+        time: '10:30AM', band: 48.0, price: '1,660,000', pct: '25.6 %',
         headline: '1,660,000원까지 상승폭을 키우고 있습니다.',
         stamp: '2026. 7. 31. (금) 10:30AM',
         title: '상승폭 확대, 매수세 가속',
         text: '오전 들어 외국인 순매수 확대되며 상승폭 더 커짐. 반도체 업종 전반 매수세 확산에 코스피도 동반 강세, 추가 상승 기대감 고조.'
       },
       {
-        time: '1:00PM', band: 272, price: '1,700,000', pct: '28.6 %',
+        time: '1:00PM', band: 72.5, price: '1,700,000', pct: '28.6 %',
         headline: '1,700,000원, 상한가 근접까지 치솟았습니다.',
         stamp: '2026. 7. 31. (금) 1:00PM',
         title: '상한가 근접, 시장 촉각',
         text: '오후 들어 상승폭이 28%대까지 치솟으며 가격제한폭(상한가) 도달이 임박. 외국인 순매수가 코스피 현물시장 전반으로 확산되며 매수 강도 유지.'
       },
       {
-        time: '3:40PM 마감', band: 359, price: '1,718,000', pct: '29.95 %',
+        time: '3:40PM 마감', band: BAND_FULL, price: '1,718,000', pct: '29.95 %',
         headline: '1,718,000원으로 오늘 상하가를 기록했습니다.',
         stamp: '2026. 7. 31. (금) 3:40PM',
         title: '17년 만의 상한가 달성',
@@ -590,7 +595,7 @@
     if (!src) {
       var p = pfPriceText(card);
       return [{
-        time: '마감', band: 359, price: p,
+        time: '마감', band: BAND_FULL, price: p,
         pct: card.pct == null ? '-' : Math.abs(card.pct).toFixed(2) + ' %',
         pctRaw: card.pct,
         headline: pfHeadlineText(p, unit, card.pct, true),
@@ -605,8 +610,9 @@
       var p = pfPriceText(card, s.price);
       return {
         time: s.time,
-        // 남색 진행 바는 시간이 갈수록 길어지고 마지막이 359px(시안 기준)
-        band: Math.round((i + 1) / src.length * 359),
+        // 남색 진행 바는 시간이 갈수록 길어지고 마지막이 화면 폭의 95.7%
+        // (시안 359/375). 유동 레이아웃이라 px이 아니라 비율로 둔다.
+        band: (i + 1) / src.length * BAND_FULL,
         price: p,
         pct: s.pct == null ? '-' : Math.abs(s.pct).toFixed(2) + ' %',
         pctRaw: s.pct,
@@ -669,7 +675,13 @@
   var screenPf   = document.getElementById('screenPf');
   var pfBriefRow = document.getElementById('pfBriefRow');
   var pfBriefs   = document.getElementById('pfBriefs');
-  var BRIEF_PITCH = 347;                            // 카드 343 + gap 4
+  /* 카드 한 장 + gap. 유동 레이아웃에서는 카드 폭이 화면마다 달라서 실측한다
+     (343px로 박아두면 넓은 폰에서 카드가 반쯤 걸친 채 멈춘다) */
+  function briefPitch() {
+    var c = pfBriefRow.children;
+    if (c.length > 1) return c[1].offsetLeft - c[0].offsetLeft;
+    return (c.length ? c[0].offsetWidth : 343) + 4;
+  }
 
   // 전환 애니메이션 재생 — 클래스를 껐다 켜서 매번 처음부터 돌린다
   var pfSwitchTimer;
@@ -733,7 +745,7 @@
       pfBriefRow.appendChild(card);
     });
     void pfBriefRow.offsetWidth;          // 새 카드 레이아웃 강제 반영 후에 스크롤
-    var left = pfSlot * BRIEF_PITCH;
+    var left = pfSlot * briefPitch();
     // 문서가 숨겨져 있으면 smooth 스크롤이 조용히 무시되므로 그때는 즉시 이동
     var smooth = animate && !document.hidden;
     if (pfBriefs.scrollTo) pfBriefs.scrollTo({ left: left, behavior: smooth ? 'smooth' : 'auto' });
@@ -747,9 +759,9 @@
     document.getElementById('pfTimeLabel').textContent = s.time;
     document.getElementById('pfPrice').textContent = s.price;
     document.getElementById('pfPct').textContent = s.pct;
-    document.getElementById('pfColHead').style.width = s.band + 'px';
-    document.getElementById('pfColMid').style.width  = s.band + 'px';
-    document.getElementById('pfBand').style.width    = s.band + 'px';
+    document.getElementById('pfColHead').style.width = s.band + '%';
+    document.getElementById('pfColMid').style.width  = s.band + '%';
+    document.getElementById('pfBand').style.width    = s.band + '%';
     document.getElementById('pfPrev').disabled = (pfSlot === 0);
     document.getElementById('pfNext').disabled = (pfSlot === PF.slots.length - 1);
     applySlotTrend(s);
@@ -889,19 +901,24 @@
     switchMarket(MARKETS[marketKey].next);
   });
 
-  /* ---------- 375×812 프레임을 화면에 맞춰 축소 ---------- */
+  /* ---------- 프레임 크기 ----------
+     폰 폭(≤520px)에서는 유동 레이아웃이라 축소하지 않는다. CSS가 화면을 그대로
+     채우고 글자도 시안 크기(14px)를 지킨다. 축소해서 채우면 같은 폰에서 12.6px로
+     줄어든다.
+     데스크톱에서는 예전처럼 375×812 폰 목업을 통째로 축소해 보여준다. */
 
   function fitFrame() {
     var vw = window.innerWidth, vh = window.innerHeight;
     if (!vw || !vh) return;
-    var mobile = vw <= 520;
-    var pad = mobile ? 0 : 28;                       // 폰 껍데기 여백
-    // 모바일에서는 가짜 상태바(44px)와 홈바(34px)를 감춘 만큼 프레임이 낮아진다
-    var frameH = mobile ? 734 : 812;
-    var scale = Math.min((vw - pad * 2) / 375, (vh - pad * 2) / frameH);
-    if (!mobile) scale = Math.min(scale, 1);         // 데스크톱에선 확대하지 않는다
+    if (vw <= 520) {
+      // 배율 1 — 스와이프 거리 계산(clientX ÷ frameScale)이 어긋나면 안 된다
+      frameScale = 1;
+      device.style.removeProperty('--scale');
+      return;
+    }
+    var pad = 28;                                    // 폰 껍데기 여백
+    var scale = Math.min((vw - pad * 2) / 375, (vh - pad * 2) / 812, 1);
     frameScale = Math.max(scale, 0.2);
-    device.classList.toggle('is-fullbleed', mobile);
     device.style.setProperty('--scale', frameScale);
   }
   window.addEventListener('resize', fitFrame);
