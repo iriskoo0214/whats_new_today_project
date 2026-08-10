@@ -81,8 +81,19 @@ SUMMARY_MAX_TOKENS = 8000   # 종목이 늘어도 잘리지 않게 여유를 둔
 # ---- 시간대별 브리핑 (Portfolios 탭 전용) ----
 # 홈 탭은 하루 두 번 마감 브리핑만 쓰고, 장중 흐름은 여기서만 보여준다.
 INTRADAY_ENABLED = True
-INTRADAY_SLOTS = 4            # 시안과 같은 4개 시점
-INTRADAY_INTERVAL = "30m"     # yfinance 봉 간격
+# 시간대별 브리핑을 찍을 시점. (시, 분) 모두 KST 기준이고, "마감"은 언제나
+# 마지막에 자동으로 붙으므로 여기 적지 않는다.
+#
+# 국내는 장중 네 토막(개장 직후·오전·오후·마감)으로 나눈다.
+# 해외는 KST 한밤중에 열려서 중간 시점을 여러 개 둬도 볼 사람이 없다.
+# 밤 11시(서머타임 기준 개장 30분 뒤) 하나와 마감이면 충분하다.
+INTRADAY_TIMES_KR = [(9, 10), (10, 30), (13, 0)]
+INTRADAY_TIMES_US = [(23, 0)]
+
+# 봉 간격. 위 시점을 정확히 집으려면 5분봉이어야 한다 — 30분봉으로는 9:10을 못 집는다.
+INTRADAY_INTERVAL = "5m"
+# 목표 시각에 해당하는 봉이 없을 때(개장 전·거래 정지) 허용할 오차.
+INTRADAY_TOLERANCE_MIN = 30
 INTRADAY_MAX_TOKENS = 8000
 
 HTTP_TIMEOUT = 15

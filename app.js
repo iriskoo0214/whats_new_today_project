@@ -579,11 +579,12 @@
   function pfSlotsFromCard(card) {
     var unit = card.currency === 'USD' ? '달러' : '원';
     // '2026. 8. 7.' — 앞자리 0을 붙이지 않는다(2026. 08. 07. 아님)
-    var date = '';
-    if (card.as_of) {
-      var d = new Date(card.as_of + 'T00:00:00');
-      date = d.getFullYear() + '. ' + (d.getMonth() + 1) + '. ' + d.getDate() + '.';
+    function stampDate(iso) {
+      if (!iso) return '';
+      var d = new Date(iso + 'T00:00:00');
+      return d.getFullYear() + '. ' + (d.getMonth() + 1) + '. ' + d.getDate() + '.';
     }
+    var date = stampDate(card.as_of);
     var src  = (card.slots && card.slots.length) ? card.slots : null;
 
     if (!src) {
@@ -610,7 +611,8 @@
         pct: s.pct == null ? '-' : Math.abs(s.pct).toFixed(2) + ' %',
         pctRaw: s.pct,
         headline: pfHeadlineText(p, unit, s.pct, s.is_close),
-        stamp: (date + ' ' + s.time).trim(),
+        // 장중에 돌린 브리핑은 슬롯이 직전 거래일 것이라 카드 날짜와 다를 수 있다
+        stamp: ((s.date ? stampDate(s.date) : date) + ' ' + s.time).trim(),
         title: s.title || (s.is_close ? '마감' : s.time),
         text: s.text || ''
       };
@@ -621,17 +623,33 @@
     PF.slots = pfSlotsFromCard(card);
     document.querySelector('.pf-price__value em').textContent =
       card.currency === 'USD' ? '달러' : '원';
-    if (card.as_of) {
-      var d = new Date(card.as_of + 'T00:00:00');
+    // 헤더 날짜는 슬롯이 실제로 어느 거래일 것인지를 따른다
+    var slotDay = (card.slots && card.slots.length && card.slots[0].date) || card.as_of;
+    if (slotDay) {
+      var d = new Date(slotDay + 'T00:00:00');
       PF.date = d.getFullYear() + '년 ' + (d.getMonth() + 1) + '월 ' + d.getDate() + '일';
     }
-    // 급등/급락 팔레트는 시간대마다 달라질 수 있어 renderPf에서 슬롯별로 정한다
+    // 화면 색은 '지금 이 화면이 보여주는 거래일'의 마감 등락을 따른다.
+    // card.pct는 실시간 시세라, 장중에 돌린 브리핑에서는 슬롯의 거래일과 어긋난다
+    // (8/7에 -6% 마감한 종목이 8/10 오전에 올랐다고 빨갛게 나오던 문제).
+    var last = PF.slots.length ? PF.slots[PF.slots.length - 1] : null;
+    PF.dayPct = (last && last.pctRaw != null) ? last.pctRaw : card.pct;
+    applyPfTrend();
   }
 
-  // 그 시점의 등락 방향에 맞춰 색과 삼각형을 맞춘다
-  function applyPfTrend(slot) {
-    var down = slot && slot.pctRaw != null && slot.pctRaw < 0;
+  /* 화면 팔레트(파랑/빨강 띠와 그림자)는 그날 종목의 등락 방향 하나로 고정한다.
+     시점마다 바꾸면 넘기는 동안 색이 뒤집혀서 오늘 오른 종목인지 내린 종목인지가
+     읽히지 않는다. 색은 종목당 하루에 한 번만 정해진다. */
+  function applyPfTrend() {
+    var down = PF.dayPct != null && PF.dayPct < 0;
     document.getElementById('screenPf').dataset.trend = down ? 'down' : 'up';
+  }
+
+  /* 반면 삼각형과 % 색은 그 시점 값을 따라간다. 바로 옆 숫자의 부호라서
+     화면 색에 맞춰 뒤집으면 +0.76%에 ▼가 붙는 거짓말이 된다. */
+  function applySlotTrend(slot) {
+    var down = slot && slot.pctRaw != null && slot.pctRaw < 0;
+    document.getElementById('screenPf').dataset.slotTrend = down ? 'down' : 'up';
     document.getElementById('pfTriangle').src =
       down ? 'assets/triangle-down.svg' : 'assets/triangle-up.svg';
   }
@@ -728,7 +746,7 @@
     document.getElementById('pfBand').style.width    = s.band + 'px';
     document.getElementById('pfPrev').disabled = (pfSlot === 0);
     document.getElementById('pfNext').disabled = (pfSlot === PF.slots.length - 1);
-    applyPfTrend(s);
+    applySlotTrend(s);
     renderPfBriefs(animate);
   }
 
@@ -743,8 +761,6 @@
   document.getElementById('pfNext').addEventListener('click', function () { stepSlot(1); });
 
   /* ---------- 가로 스와이프로 시간대 이동 ---------- */
-
-  var pfDragged = false;          // 스와이프 직후의 click 억제용
 
   (function attachPfSwipe() {
     var PF_THRESH = 45;           // 디자인 기준 px
@@ -775,7 +791,6 @@
       if (axis !== 'x') return;
 
       e.preventDefault();
-      pfDragged = true;
       // 양 끝에서는 고무줄처럼 덜 끌린다
       var atEnd = (dx > 0 && pfSlot === 0) || (dx < 0 && pfSlot === PF.slots.length - 1);
       follow(dx * (atEnd ? 0.12 : 0.32), false);
@@ -794,7 +809,6 @@
       var wasX = axis === 'x';
       var dx = (e.clientX - startX) / frameScale;
       follow(0, true);
-      setTimeout(function () { pfDragged = false; }, 0);
       if (!wasX) return;
 
       if (dx <= -PF_THRESH)      stepSlot(1);     // 왼쪽으로 밀면 다음 시간대
@@ -817,15 +831,6 @@
       window.addEventListener('pointercancel', onUp);
     });
   })();
-
-  // 프로토타입 확인용 — 가격 영역을 탭하면 급등/급락 팔레트 전환
-  document.getElementById('pfTime').addEventListener('click', function () {
-    if (pfDragged) return;                       // 스와이프로 끝난 제스처는 탭이 아니다
-    var down = screenPf.dataset.trend === 'down';
-    screenPf.dataset.trend = down ? 'up' : 'down';
-    document.getElementById('pfTriangle').src =
-      down ? 'assets/triangle-up.svg' : 'assets/triangle-down.svg';
-  });
 
   /* ---------- 탭 전환 ---------- */
 

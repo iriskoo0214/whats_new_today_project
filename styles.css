@@ -490,7 +490,7 @@
   .pf-time{
     position:absolute;left:0;top:181px;width:375px;height:142px;
     padding:0;border:none;background:#d5e8ff;overflow:hidden;
-    text-align:left;font-family:inherit;cursor:pointer;
+    text-align:left;font-family:inherit;
     transition:transform .28s cubic-bezier(.22,.8,.28,1), opacity .28s ease;
   }
   .pf-time__band{
@@ -517,8 +517,10 @@
   .pf-price__change span{
     font-size:13px;font-weight:500;letter-spacing:-.325px;line-height:1.4;white-space:nowrap;
   }
-  .screen--pf[data-trend="up"]   .pf-price__change span{color:#f00;}
-  .screen--pf[data-trend="down"] .pf-price__change span{color:#0069ff;}
+  /* 숫자 옆 색은 그 시점의 등락을 따른다 — 화면 전체 색(data-trend)은 그날 방향으로
+     고정돼 있어서, 여기까지 묶으면 +0.76%에 파란 ▼가 붙는 일이 생긴다 */
+  .screen--pf[data-slot-trend="up"]   .pf-price__change span{color:#f00;}
+  .screen--pf[data-slot-trend="down"] .pf-price__change span{color:#0069ff;}
   .pf-price__yday{
     font-size:14px;font-weight:600;letter-spacing:-.35px;line-height:normal;color:#fff;
   }

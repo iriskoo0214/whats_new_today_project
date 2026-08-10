@@ -51,6 +51,8 @@ def _slots_payload(sb: StockBrief) -> list:
             "price": s.price,
             "pct": None if s.pct is None else round(s.pct, 2),
             "is_close": s.is_close,
+            # 장중에 돌리면 슬롯은 직전 거래일 것이라 카드 as_of와 다를 수 있다
+            "date": s.day.isoformat() if getattr(s, "day", None) else None,
             "title": t.get("title", ""),
             "text": t.get("text", ""),
         })
