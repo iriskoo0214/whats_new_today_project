@@ -10,6 +10,8 @@ from dataclasses import dataclass
 from datetime import datetime
 from typing import Dict, List, Optional
 
+from zoneinfo import ZoneInfo
+
 from config import KST
 from news import NewsItem
 from portfolio import Holding
@@ -132,22 +134,46 @@ class StockBrief:
 
 # ------------------------------------------------------------------ 문장 조립
 
-def price_sentence(q: Quote, html_bold: bool = True) -> str:
-    """'+3.21% 오른 171,800원 마감.' 꼴의 한 문장."""
+# 거래소 현지 정규장 시간 (개장, 마감)
+_SESSION = {
+    "KR": (ZoneInfo("Asia/Seoul"), (9, 0), (15, 30)),
+    "US": (ZoneInfo("America/New_York"), (9, 30), (16, 0)),
+}
+
+
+def market_open(is_kr: bool, now: Optional[datetime] = None) -> bool:
+    """지금 그 시장의 정규장이 열려 있는지.
+
+    주말은 걸러내지만 공휴일까지는 모른다. 틀려도 문구가 '거래 중'/'마감'으로
+    갈릴 뿐이라, 달력을 따로 두는 비용을 들일 만큼은 아니다.
+    """
+    tz, open_, close_ = _SESSION["KR" if is_kr else "US"]
+    t = (now or datetime.now(tz)).astimezone(tz)
+    if t.weekday() >= 5:
+        return False
+    return open_ <= (t.hour, t.minute) < close_
+
+
+def price_sentence(q: Quote, html_bold: bool = True, closed: bool = True) -> str:
+    """'+3.21% 오른 171,800원 마감.' 꼴의 한 문장.
+
+    장이 열려 있는 동안 돌리면 '마감'이 거짓말이 된다. 그때는 '거래 중'으로 쓴다.
+    """
     if not q.ok:
         return "시세를 가져오지 못했습니다."
 
     price = q.format_price()
     if html_bold:
         price = "<b>{}</b>".format(price)
+    tail = "마감" if closed else "거래 중"
 
     pct = q.change_pct
     if pct is None:
-        return "{} 마감.".format(price)
+        return "{} {}.".format(price, tail)
     if abs(pct) < 0.005:
-        return "보합인 {} 마감.".format(price)
+        return "보합인 {} {}.".format(price, tail)
     verb = "오른" if pct > 0 else "내린"
-    return "{:+.2f}% {} {} 마감.".format(pct, verb, price)
+    return "{:+.2f}% {} {} {}.".format(pct, verb, price, tail)
 
 
 def _shorten(text: str, limit: int) -> str:
@@ -189,7 +215,7 @@ def card_body(sb: StockBrief) -> str:
     헤드라인은 원문이라 문장 중간에서 끊길 수 있다 — 대신 카드가 고르게 찬다.
     뉴스가 짧으면 3줄을 못 채우고 그대로 끝난다(빈 칸을 지어내지 않는다).
     """
-    price = price_sentence(sb.quote)
+    price = price_sentence(sb.quote, closed=not market_open(sb.holding.is_kr))
     room = CARD_BODY_UNITS - text_units(visible(price)) - char_units(" ")
     if room <= 0:
         return price

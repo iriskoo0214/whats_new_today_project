@@ -21,7 +21,7 @@ import os
 from typing import Dict, List
 
 from brief import (CARD_BODY_UNITS, CARD_TITLE_UNITS, StockBrief, char_units,
-                   price_sentence, text_units, visible)
+                   market_open, price_sentence, text_units, visible)
 from config import SUMMARY_MAX_TOKENS, SUMMARY_MODEL
 
 SYSTEM = """당신은 개인 투자자용 데일리 브리핑 카드를 쓰는 편집자입니다.
@@ -92,7 +92,8 @@ def _budget(sb: StockBrief):
     """이 종목에 남는 제목/본문 예산을 한글 글자 수로 환산해 돌려준다."""
     title_room = CARD_TITLE_UNITS - text_units("{} - ".format(sb.name))
     body_room = (CARD_BODY_UNITS
-                 - text_units(visible(price_sentence(sb.quote)))
+                 - text_units(visible(price_sentence(
+                     sb.quote, closed=not market_open(sb.holding.is_kr))))
                  - char_units(" "))
     return max(int(title_room), 0), max(int(body_room), 0)
 

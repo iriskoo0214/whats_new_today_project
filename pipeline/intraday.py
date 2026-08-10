@@ -198,6 +198,9 @@ def fetch_all(holdings: List[Holding], quotes) -> dict:
         if not q or not q.ok:
             continue
         slots = fetch_slots(h, q.prev_close, q.close, q.as_of)
-        if len(slots) >= 2:          # 슬롯이 하나뿐이면 굳이 시간대별로 보여줄 게 없다
+        # 슬롯 하나라도 그 시각이 지났으면 보여준다. 예전엔 2개를 요구했는데,
+        # 해외는 슬롯이 11:00PM·마감 둘뿐이라 장중에는 11:00PM 하나만 잡히고
+        # 그대로 버려져서 어제 것이 계속 떠 있었다.
+        if slots:
             out[h.ticker] = slots
     return out
