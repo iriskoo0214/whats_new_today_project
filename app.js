@@ -612,7 +612,11 @@
         time: s.time,
         // 남색 진행 바는 시간이 갈수록 길어지고 마지막이 화면 폭의 95.7%
         // (시안 359/375). 유동 레이아웃이라 px이 아니라 비율로 둔다.
-        band: (i + 1) / src.length * BAND_FULL,
+        //
+        // 나누는 값은 '있는 슬롯 수'가 아니라 그 시장의 하루 슬롯 수(국내 4·해외 2)다.
+        // 장중에 돌린 브리핑은 지나간 시점만 들어 있어서, 있는 수로 나누면
+        // 11:00PM 하나뿐일 때 1/1이 되어 하루가 다 간 것처럼 꽉 찬다.
+        band: (i + 1) / (card.slot_total || src.length) * BAND_FULL,
         price: p,
         pct: s.pct == null ? '-' : Math.abs(s.pct).toFixed(2) + ' %',
         pctRaw: s.pct,

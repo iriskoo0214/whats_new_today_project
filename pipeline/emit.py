@@ -11,7 +11,8 @@ from datetime import datetime
 from typing import Dict, List
 
 from brief import StockBrief, card_body, card_title, headline_line
-from config import BRIEFING_JS, BRIEFING_JSON, KST
+from config import (BRIEFING_JS, BRIEFING_JSON, INTRADAY_TIMES_KR,
+                    INTRADAY_TIMES_US, KST)
 
 MARKET_META = {
     "us": {
@@ -37,6 +38,12 @@ def _label(key: str, now: datetime) -> str:
     return "{} {}. {}. {}. {}:{:02d}{}".format(
         MARKET_META[key]["title"], now.year, now.month, now.day, hour12, now.minute, ampm
     )
+
+
+def _slot_total(holding) -> int:
+    """그 시장의 하루 슬롯 수 — 지정한 시각들 + 마감."""
+    times = INTRADAY_TIMES_KR if holding.is_kr else INTRADAY_TIMES_US
+    return len(times) + 1
 
 
 def _slots_payload(sb: StockBrief) -> list:
@@ -82,6 +89,10 @@ def _market_payload(key: str, briefs: List[StockBrief], now: datetime) -> dict:
                 "currency": b.quote.currency,
                 "as_of": b.quote.as_of.isoformat() if b.quote.as_of else None,
                 "slots": _slots_payload(b),
+                # 그 시장에 원래 있는 슬롯 수(국내 4 · 해외 2). 진행 바는 이걸로
+                # 나눠야 한다 — 있는 슬롯 수로 나누면 장중에 11:00PM 하나뿐일 때
+                # 1/1이 되어 하루가 다 간 것처럼 꽉 찬다.
+                "slot_total": _slot_total(b.holding),
                 "news": [
                     {"title": n.title, "original": n.original_title,
                      "source": n.source, "url": n.url,
