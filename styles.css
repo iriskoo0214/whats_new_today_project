@@ -644,9 +644,11 @@
     .pf-tabs{top:auto;padding:13px 16px 10px;}
     .pf-stock{
       left:auto;top:auto;width:auto;padding:0 16px;
-      /* 남는 세로를 여기서 흡수하되 max-height까지만. 그 위는 가격 띠 아래
-         꼬리로 넘어간다 — 한 곳이 3배로 부푸는 것보다 나눠 받는 편이 낫다. */
-      flex:1 1 auto;justify-content:center;max-height:110px;   /* 시안 71 + 여유 39 */
+      /* 남는 세로를 받지 않는다. 박스가 커지면 justify-content:center가 그 차이를
+         위아래로 갈라서, 글자와 가격 띠 사이가 시안 20.2px보다 벌어진다
+         (박스 110 / 내용 71이면 아래로만 19.5px이 더 붙어 40px이 됐다).
+         여유는 가격 띠 아래 꼬리가 대신 받는다. */
+      flex:0 0 auto;
       /* 시안(155:6461)에서 그대로 옮긴 간격. 절대좌표일 때는 top 값이 알아서
          만들어주던 여백이라, 흐름으로 바꾸면 0이 되어 종목명이 가격 띠에 붙는다.
            칩 줄 바닥 63.5 → 종목명 90     = 26.5
