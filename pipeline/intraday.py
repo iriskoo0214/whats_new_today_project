@@ -99,16 +99,16 @@ def _gap(a: int, b: int) -> int:
     return min(d, 1440 - d)
 
 
-def _last_closed_day(holding: Holding, df):
-    """장이 끝난 마지막 거래일의 봉만 골라낸다. (날짜, 그날 봉들)
+def _pick_day(holding: Holding, df):
+    """가장 최근 거래일의 봉만 골라낸다. (날짜, 그날 봉들)
 
-    가장 최근 날을 그냥 쓰면 안 된다. 장중에 손으로 돌리면 오늘 봉이 반쪽만 있어서
-    9:10과 10:30만 있고 1:00PM·마감이 비어버린다. 그런 날은 건너뛰고 직전 거래일을
-    쓴다 — 시간대별 브리핑은 하루가 끝난 뒤에 그날 전체를 보여주는 화면이다.
+    장중이면 그날 봉이 반쪽만 있다. 그래도 그 날을 쓴다 — 화면 날짜는 언제나
+    '가장 최근 거래일'이어야 하고, 아직 오지 않은 시각(1:00PM·마감)은 그 시각이
+    지나면 다음 실행에서 채워진다.
     """
     for d in sorted({ts.date() for ts in df.index}, reverse=True):
         day = df[[ts.date() == d for ts in df.index]]
-        if not day.empty and _session_over(holding, day.index[-1], d):
+        if not day.empty:
             return d, day
     return None, None
 
@@ -116,10 +116,11 @@ def _last_closed_day(holding: Holding, df):
 def fetch_slots(holding: Holding, prev_close: Optional[float],
                 close_price: Optional[float] = None,
                 quote_day: Optional[date] = None) -> List[Slot]:
-    """장이 끝난 마지막 거래일의 정해진 시각(KST) 시세를 뽑는다.
+    """가장 최근 거래일의 정해진 시각(KST) 시세를 뽑는다.
 
     시점은 시장마다 다르다 — 국내는 9:10 / 10:30 / 1:00 / 마감,
     해외는 11:00PM / 마감. config.INTRADAY_TIMES_* 에서 고친다.
+    아직 오지 않은 시각은 빠진 채로 나오고, 그 시각이 지나면 다음 실행에서 채워진다.
 
     값은 그 시각 봉의 **시가**를 쓴다. 5분봉의 종가는 5분 뒤 가격이라
     '9:10의 주가'로 내걸기에 맞지 않는다.
@@ -147,7 +148,7 @@ def fetch_slots(holding: Holding, prev_close: Optional[float],
     if df.empty:
         return []
 
-    last_day, day = _last_closed_day(holding, df)
+    last_day, day = _pick_day(holding, df)
     if day is None:
         return []
 
@@ -178,12 +179,14 @@ def fetch_slots(holding: Holding, prev_close: Optional[float],
         slots.append(Slot(label=_label(day.index[i], False), price=price,
                           pct=pct_of(price), day=last_day))
 
-    # 마감은 언제나 마지막에. 시각은 봉 시각이 아니라 '마감'으로만 쓴다
+    # 마감은 마지막에. 시각은 봉 시각이 아니라 '마감'으로만 쓴다
     # (정확한 마감 시각을 알 수 없어 틀린 시각을 적느니 생략하는 편이 낫다)
-    close = close_price if (close_price is not None and same_day) \
-        else float(day["Close"].iloc[-1])
-    slots.append(Slot(label="마감", price=close, pct=pct_of(close),
-                      is_close=True, day=last_day))
+    # 아직 장이 열려 있으면 붙이지 않는다 — 나오지도 않은 종가를 적을 수는 없다
+    if _session_over(holding, day.index[-1], last_day):
+        close = close_price if (close_price is not None and same_day) \
+            else float(day["Close"].iloc[-1])
+        slots.append(Slot(label="마감", price=close, pct=pct_of(close),
+                          is_close=True, day=last_day))
     return slots
 
 

@@ -1,10 +1,9 @@
 {
-  "generated_at": "2026-08-10 11:39:28 KST",
+  "generated_at": "2026-08-10 18:20:59 KST",
   "refreshed": [
-    "us",
     "kr"
   ],
-  "default": "us",
+  "default": "kr",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
@@ -280,7 +279,7 @@
     },
     "kr": {
       "icon": "assets/moon.svg",
-      "label": "한국 증시 요약 2026. 8. 10. 11:39AM",
+      "label": "한국 증시 요약 2026. 8. 10. 6:20PM",
       "chips": [
         "전체",
         "SK하이닉스",
@@ -294,84 +293,84 @@
         "다시 찾아올게요."
       ],
       "next": "us",
-      "headline": "국내 5종목 중 4종목 상승, 1종목 하락 — 한화에어로스페이스가 +5.93%로 가장 많이 올랐고 삼성전자가 -0.43%로 가장 부진했습니다.",
+      "headline": "국내 5종목 중 3종목 상승, 2종목 하락 — 한화에어로스페이스가 +5.01%로 가장 많이 올랐고 삼성전자가 -0.43%로 가장 부진했습니다.",
       "cards": [
         {
           "stock": "SK하이닉스",
           "ticker": "000660",
-          "title": "SK하이닉스 - 폐수 감소 행정지도 압박",
-          "body": "추미애 의원이 삼성·SK하이닉스에 폐수 감소 노력 부족을 지적하며 재차 행정지도 지시. +0.84% 오른 <b>1,434,000원</b> 마감.",
-          "pct": 0.84,
-          "price": 1434000.0,
+          "title": "SK하이닉스 - 충칭공장 매각설 부각",
+          "body": "중국 충칭공장 지분 매각 가능성과 패키지 사업 재편설이 제기됐으나 주가는 약보합. -0.14% 내린 <b>1,420,000원</b> 마감.",
+          "pct": -0.14,
+          "price": 1420000.0,
           "currency": "KRW",
           "as_of": "2026-08-10",
           "slots": [
             {
               "time": "9:10AM",
-              "price": 1519000.0,
-              "pct": 0.8,
+              "price": 1472000.0,
+              "pct": 3.52,
               "is_close": false,
-              "date": "2026-08-07",
+              "date": "2026-08-10",
               "title": "장 초반 강세 출발",
-              "text": "개장 직후 강세로 출발하며 전일 상승 흐름이 이어지는 모습을 보임"
+              "text": "개장 직후 큰 폭으로 뛰어오르며 하루 중 가장 높은 상승률을 기록함"
             },
             {
               "time": "10:30AM",
-              "price": 1429000.0,
-              "pct": -5.18,
+              "price": 1446000.0,
+              "pct": 1.69,
               "is_close": false,
-              "date": "2026-08-07",
-              "title": "급락 전환",
-              "text": "추미애 의원의 폐수 감소 노력 부족 지적과 행정지도 재지시 소식이 나오며 급락 전환됨"
+              "date": "2026-08-10",
+              "title": "오전 중 상승폭 둔화",
+              "text": "오전 들어 초반 급등세가 꺾이며 상승분을 상당 부분 반납하는 흐름을 보임"
             },
             {
               "time": "1:00PM",
-              "price": 1416000.0,
-              "pct": -6.04,
+              "price": 1438000.0,
+              "pct": 1.13,
               "is_close": false,
-              "date": "2026-08-07",
-              "title": "낙폭 유지",
-              "text": "환경 관련 정치권 압박 이슈가 부각된 이후 낙폭이 좀처럼 줄지 않고 유지됨"
+              "date": "2026-08-10",
+              "title": "상승세 지속 약화",
+              "text": "점심 무렵까지 상승 흐름은 유지했으나 오름폭이 계속 줄어드는 모습이 이어짐"
             },
             {
               "time": "마감",
-              "price": 1416000.0,
-              "pct": -6.04,
+              "price": 1420000.0,
+              "pct": -0.14,
               "is_close": true,
-              "date": "2026-08-07",
-              "title": "낙폭 그대로 마감",
-              "text": "오후 들어서도 반등하지 못하고 하루 중 저점 부근에서 그대로 장을 마감함"
+              "date": "2026-08-10",
+              "title": "결국 하락 마감",
+              "text": "오후 들어 상승분을 모두 내주고 장 막판 결국 소폭 하락으로 하루를 마감함"
             }
           ],
           "news": [
             {
-              "title": "\"값싸게 물 대줬더니…\" 추미애, 삼성·SK하이닉스에 \"폐수 줄여라\"",
-              "original": "\"값싸게 물 대줬더니…\" 추미애, 삼성·SK하이닉스에 \"폐수 줄여라\"",
-              "source": "주간조선",
-              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA2NWxFVjFacE0tajVlU04wVkhjSFpXWHoxLTFRbWJuV2w3Vl9JSmp5cl9SbEJOVEJjMkxVZEZGUi11d0RKZ0ViLUYtS0JkNF8xWlhNaFFJMm5HRHNQYTgzQ1dscFZfSVp0bEZz?oc=5",
-              "published": "2026-08-10T11:35:00+09:00"
+              "title": "SK하이닉스, 中 충칭공장 매각설에 \"다양한 방안 검토\"",
+              "original": "SK하이닉스, 中 충칭공장 매각설에 \"다양한 방안 검토\"",
+              "source": "아이뉴스24",
+              "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE50WEpfUWtiU2tWdjRCTXdqdG1VS043ekZ1LV95LU5lVjFfSlQ3QkxjUkRfdWpsM19xZWJNWFVEei0zZUtuc29HSlVzUQ?oc=5",
+              "published": "2026-08-10T18:05:44+09:00"
             },
             {
-              "title": "[위클리 ETF] 8月 1주차, ‘SOL SK하이닉스선물단일종목인버스2X’ 수익률 43%...코스닥 ETF로 머니무브",
-              "original": "[위클리 ETF] 8月 1주차, ‘SOL SK하이닉스선물단일종목인버스2X’ 수익률 43%...코스닥 ETF로 머니무브",
-              "source": "더밸류뉴스",
-              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9QUGhTU2F4UVd5QTVmVXR1dUFZUGhRVHU1OTlxNjNGMlhYdmpOUGxQOW1TODI5NlA4eDFhS2xETGR5WlFzNUZRN3R2Smk4dFZNZTZv?oc=5",
-              "published": "2026-08-10T11:34:50+09:00"
+              "title": "‘영업익 10% PS’ 1년 만 흔들…SK하이닉스, 통합노조 속도",
+              "original": "‘영업익 10% PS’ 1년 만 흔들…SK하이닉스, 통합노조 속도",
+              "source": "서울경제TV",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE83Z1E1YzdVTzhNOVFPWW0zT2pVOWk1T3J3SFJvaXBGeEtOeUxrWU5BVWh1cHBQV1dhUmtlRzd6dzluV3l3WnQyeUFQMF80YkFsZkJyZW5rQU1qVXNVVTlScWZ1VjA?oc=5",
+              "published": "2026-08-10T18:01:48+09:00"
             },
             {
-              "title": "추미애 “삼성·SK하닉 폐수 감소 노력 안 해”…다시 행정지도 지시",
-              "original": "추미애 “삼성·SK하닉 폐수 감소 노력 안 해”…다시 행정지도 지시",
-              "source": "KBS 뉴스",
-              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Pckd3YWZGMS0tdWUzSUpaZGhWdlBCTkVORTNOT2dDX01lZU95R194Q1NwYW9nbFRtNFQ4YmNjX0FTUHktampMOFQ0REJFTjBVZHN2akNsNmszLUU?oc=5",
-              "published": "2026-08-10T11:31:00+09:00"
+              "title": "SK하이닉스 충칭공장 지분 매각 가능성 제기…패키지 사업 재편 여부 주목",
+              "original": "SK하이닉스 충칭공장 지분 매각 가능성 제기…패키지 사업 재편 여부 주목",
+              "source": "ngetnews.com",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5RZTF1SVBHR05WSmFfdEJHcnkwVHZJLWxkTG5XaGNwaWF4MUhncTZ1YWhvWXcxQkwyTDBmdVBucVZDclRKYUZCMV9kNVR3bXRTcFVsQXhHSmNKSWxLX2I4S2xodUlnTWhaeUxv?oc=5",
+              "published": "2026-08-10T17:55:25+09:00"
             }
           ]
         },
         {
           "stock": "삼성전자",
           "ticker": "005930",
-          "title": "삼성전자 - 中서 폴드8로 승부수",
-          "body": "화웨이 텃밭인 중국에서 폴드8로 점유율 확대를 노리는 가운데 주가는 소폭 하락. -0.43% 내린 <b>230,000원</b> 마감.",
+          "title": "삼성전자 - 주주환원 200조 언급에도 하락",
+          "body": "갤럭시Z 흥행과 최대 200조 주주환원 계획 소식에도 주가는 소폭 하락 마감. -0.43% 내린 <b>230,000원</b> 마감.",
           "pct": -0.43,
           "price": 230000.0,
           "currency": "KRW",
@@ -380,280 +379,280 @@
             {
               "time": "9:10AM",
               "price": 237000.0,
-              "pct": 2.93,
+              "pct": 2.6,
               "is_close": false,
-              "date": "2026-08-07",
-              "title": "장 초반 강세 출발",
-              "text": "개장 직후 삼성월렛 모바일 탑승권 서비스 소식 등이 나오며 강한 상승세로 출발함"
+              "date": "2026-08-10",
+              "title": "장 초반 강한 상승",
+              "text": "개장 직후 큰 폭으로 오르며 하루 중 가장 높은 상승률로 출발한 모습을 보임"
             },
             {
               "time": "10:30AM",
-              "price": 233250.0,
-              "pct": 1.3,
+              "price": 232750.0,
+              "pct": 0.76,
               "is_close": false,
-              "date": "2026-08-07",
-              "title": "상승폭 줄어듦",
-              "text": "중국 시장 점유율 부진 지적이 나오며 초반 상승폭이 상당 부분 축소됨"
+              "date": "2026-08-10",
+              "title": "상승폭 크게 줄어",
+              "text": "오전 중반 들어 초반 상승세가 눈에 띄게 꺾이며 오름폭이 절반 이하로 줄어듦"
             },
             {
               "time": "1:00PM",
               "price": 231000.0,
-              "pct": 0.33,
+              "pct": 0.0,
               "is_close": false,
-              "date": "2026-08-07",
-              "title": "강세 대부분 반납",
-              "text": "화웨이 텃밭에서의 점유율 부진 언급 이후 오전 강세가 거의 사라지며 상승폭이 줄어듦"
+              "date": "2026-08-10",
+              "title": "보합권 근접",
+              "text": "점심 무렵에는 상승분을 거의 다 내주며 전 거래일 수준까지 근접한 상태로 이동"
             },
             {
               "time": "마감",
-              "price": 231000.0,
-              "pct": 0.33,
+              "price": 230000.0,
+              "pct": -0.43,
               "is_close": true,
-              "date": "2026-08-07",
-              "title": "보합권 마감",
-              "text": "오후 들어서도 반등하지 못하고 소폭 상승에 그친 채 하루를 마무리함"
+              "date": "2026-08-10",
+              "title": "결국 소폭 하락 마감",
+              "text": "오후 들어 약세로 전환돼 장 마감까지 하락세를 유지하며 하루를 마무리함"
             }
           ],
           "news": [
             {
-              "title": "삼성전자·코레일, 삼성 월렛으로 '종이 없는' 모바일 탑승권 서비스 시작",
-              "original": "삼성전자·코레일, 삼성 월렛으로 '종이 없는' 모바일 탑승권 서비스 시작",
-              "source": "비즈니스포스트",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5yaVNuU3A0OHg2dWVmRG1yLVZJTE5KVnYtQW1PYVoyWnhTcXRVRERyVmNoX1Q0VjVmU21pYl90dnZXRUZoLWk3MldiZ2g3WjQtb0hzSmdIT1B6cWpBTmlSMEI3UVFCellMWDFUWm1IRUcydWM?oc=5",
-              "published": "2026-08-10T11:21:19+09:00"
+              "title": "'아재폰' 벗어던진 삼성전자 '갤럭시 Z 시리즈'…1030 고객 잡고 흥행 돌풍",
+              "original": "'아재폰' 벗어던진 삼성전자 '갤럭시 Z 시리즈'…1030 고객 잡고 흥행 돌풍",
+              "source": "파이낸셜포스트",
+              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1HWWFtc0tQS2pEUnZsd0FJUFRCcGViVE1Vd1ZMYml5N0dkTTFBelhsa0hfWGViOGdUbXZnMjc5VTdGMS14MjJQLXNHOGxRMzlOM2JYbWg4QmJmbWJhQm0yX3pyNFZ1Zk9BRlNoS2ZWa0JvVk50?oc=5",
+              "published": "2026-08-10T17:55:51+09:00"
             },
             {
-              "title": "中 점유율 0.1% 삼성전자, '화웨이 텃밭'서 폴드8 승부수",
-              "original": "中 점유율 0.1% 삼성전자, '화웨이 텃밭'서 폴드8 승부수",
-              "source": "v.daum.net",
-              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1kQk5rdVRuSm1wbXdxU1dsLWVnNGFwUUEtM200ajRrNExsMDFjS3Y4bXNOeTNORG9vT2xQOFBORUhkY20yWHFCVEU0SlVHT00?oc=5",
-              "published": "2026-08-10T11:13:30+09:00"
+              "title": "\"삼성전자 주주환원 최대 200조\"",
+              "original": "\"삼성전자 주주환원 최대 200조\"",
+              "source": "매일경제 마켓",
+              "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8zRWFkMTFkWTZ4Uktody0tQ0tKTTducFlwUEc1dThnWkdmcTF6MERnV19rby1hMm04dk1KMS03R3RvQmlKUk0zTHJPdl91WkhZc0E?oc=5",
+              "published": "2026-08-10T17:55:45+09:00"
             },
             {
-              "title": "삼성전자-NTT 도코모, AI-RAN 기반통신 서비스 품질 최적화 기술 검증",
-              "original": "삼성전자-NTT 도코모, AI-RAN 기반통신 서비스 품질 최적화 기술 검증",
-              "source": "기호일보",
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9mWjNad1ZSNlR0MkdEMEUwaUp4djlsY29mbnlfTDBFNl92YWJNOGhqUHpCSmdmU0pGR3phaHQyeXFGVFFXcU5SY0ZhZnNGdEZ1MDBDcUViOEFRMk5IMUM2WFlCWFFpdE41YzNScURYaw?oc=5",
-              "published": "2026-08-10T11:08:00+09:00"
+              "title": "“천 원만 있어도, 삼성전자 산다”…국내 주식 '새로운' 투자 등장",
+              "original": "“천 원만 있어도, 삼성전자 산다”…국내 주식 '새로운' 투자 등장",
+              "source": "위키트리",
+              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iMTVJLTFQXzZkNWNUaFdKRjdLcUJBVXlfbHQ1M19qd2VwMEFnOEstbm42eF9tWC1RZ2E0elYta0o1dGRyM0w0Vm1nYW8zNlFreWRPZUN3?oc=5",
+              "published": "2026-08-10T17:37:00+09:00"
             }
           ]
         },
         {
           "stock": "한화에어로스페이스",
           "ticker": "012450",
-          "title": "한화에어로스페이스 - 방산 수출 기대에 급등",
-          "body": "지정학적 리스크 지속에 따른 방산 소부장 수출 기대감이 부각되며 주가 강세. +5.93% 오른 <b>1,162,000원</b> 마감.",
-          "pct": 5.93,
-          "price": 1162000.0,
+          "title": "한화에어로스페이스 - KAI 2대 주주 등극",
+          "body": "KAI 지분 15.89% 확보로 우주·방산 시너지 기대감이 부각되며 매수세 유입. +5.01% 오른 <b>1,152,000원</b> 마감.",
+          "pct": 5.01,
+          "price": 1152000.0,
           "currency": "KRW",
           "as_of": "2026-08-10",
           "slots": [
             {
               "time": "9:10AM",
-              "price": 1078000.0,
-              "pct": 1.99,
+              "price": 1142000.0,
+              "pct": 4.1,
               "is_close": false,
-              "date": "2026-08-07",
-              "title": "장 초반 상승 출발",
-              "text": "우주항공·방산 인재양성과 수출 기대감 관련 소식이 겹치며 상승 흐름으로 출발함"
+              "date": "2026-08-10",
+              "title": "장 초반 강세 출발",
+              "text": "개장 직후부터 큰 폭으로 오르며 강한 상승 흐름으로 하루를 시작한 모습을 보임"
             },
             {
               "time": "10:30AM",
-              "price": 1075000.0,
-              "pct": 1.7,
+              "price": 1162000.0,
+              "pct": 5.93,
               "is_close": false,
-              "date": "2026-08-07",
-              "title": "상승폭 소폭 축소",
-              "text": "지정학적 리스크에 따른 수출 기대감이 이어졌으나 초반 대비 상승폭은 다소 줄어듦"
+              "date": "2026-08-10",
+              "title": "오전 중 상승폭 확대",
+              "text": "한화가 KAI 지분을 15% 넘게 확보했다는 소식이 전해지며 상승폭이 더 커짐"
             },
             {
               "time": "1:00PM",
-              "price": 1075000.0,
-              "pct": 1.7,
+              "price": 1153000.0,
+              "pct": 5.1,
               "is_close": false,
-              "date": "2026-08-07",
-              "title": "상승세 유지",
-              "text": "방산 소부장주 전반의 강세 분위기 속에서 비슷한 수준의 상승세가 이어짐"
+              "date": "2026-08-10",
+              "title": "고점 대비 소폭 후퇴",
+              "text": "우주·방산 통합 전략 관련 소식이 이어졌으나 오전 고점 대비 상승폭이 다소 줄어듦"
             },
             {
               "time": "마감",
-              "price": 1096000.0,
-              "pct": 3.69,
+              "price": 1152000.0,
+              "pct": 5.01,
               "is_close": true,
-              "date": "2026-08-07",
-              "title": "상승폭 확대 마감",
-              "text": "오후 들어 방산 관련 기대감이 재부각되며 상승폭을 키운 채 하루를 마감함"
+              "date": "2026-08-10",
+              "title": "상승세 유지하며 마감",
+              "text": "KAI 2대 주주 등극 소식이 재확인되는 가운데 오후에도 견조한 상승세를 유지하며 마감함"
             }
           ],
           "news": [
             {
-              "title": "경상국립대, ‘나라의 명운’ 건 우주항공·방산 인재양성 나선다 \"제2의 서울대\" 향한 도전 시작",
-              "original": "경상국립대, ‘나라의 명운’ 건 우주항공·방산 인재양성 나선다 \"제2의 서울대\" 향한 도전 시작",
-              "source": "내외일보",
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9sOFRZLU5ZbV9KTjlfWkYyQ2lRNlNlX2NtQk1sWFA2SHlyc1J2aGxsUXpHUG16SVhxVk5qNnd1eml4NHh6dzgyLTJiMnhMeFpQSkRCNFlEMnhleFNCV0FNQy1Hd0tDRmJWbmZPcDRVWQ?oc=5",
-              "published": "2026-08-10T11:18:39+09:00"
+              "title": "한화, KAI 지분 15.89% 확보…우주·방산 통합 전략 속도",
+              "original": "한화, KAI 지분 15.89% 확보…우주·방산 통합 전략 속도",
+              "source": "ngetnews.com",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5tY01VWXE0d0ZVSWUtbnlOd2RwU1o3akgxN0xWN3djcFhydlppN2FDc0ZOUG9PeGtxeXBjNzkwSl91azRRNjRlRHZvTlFUdHVpTjhNc1plOEdDbHJKMFpjeDg2bWxlMU9pc3pB?oc=5",
+              "published": "2026-08-10T18:09:26+09:00"
             },
             {
-              "title": "지정학적 리스크 지속에 따른 수출 기대감… 방산 소부장주 불기둥",
-              "original": "지정학적 리스크 지속에 따른 수출 기대감… 방산 소부장주 불기둥",
-              "source": "핀포인트뉴스",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5lYVNXbVpyU2hYWjd6b0hZM1RIRjNMYnhMQ28zS01JWE5DSUZhMElFZzJzdXBXN1BjQkNLaVhTQXBRVUFvVGs1WVdpRGtmQkwwREtXSVNOZVF5d29YSGtpV0loaFN5bGRhOHM3enRHOEVXbnPSAXdBVV95cUxPTG93SVNObE5CR1JTNlRld1RFQUk5ZXVKOFBhLVhWci1aOFE1LUZSWWtycjlISHExN0RpRUI4VTdXWm5Ma1JCZVhfOXNqY0VVM0tvNTV4amNYTHVIWnhKZ2QxY2tBVVRlRnR6WXF0eUFPT3RBMjA0Yw?oc=5",
-              "published": "2026-08-10T11:18:19+09:00"
+              "title": "\"우주·방산 시너지\" 한화, KAI 지분 15% 돌파…M&A 포석 해석도(종합)",
+              "original": "\"우주·방산 시너지\" 한화, KAI 지분 15% 돌파…M&A 포석 해석도(종합)",
+              "source": "뉴스1",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9raXlMWjU4NDdxdnVfSUFqNHo1NlpITENXUDJmWXhrM1otR2kzSHFxLWFWR2ZmVV9xRWtORGJHSzNoM3dQNndORmxUSE01a01LeDRwTzhveS0wNGFsSUhKdjNKVE4?oc=5",
+              "published": "2026-08-10T18:06:52+09:00"
             },
             {
-              "title": "경남도-경상대, 우주항공·방산 특화 '2천900억 국책사업' 도전",
-              "original": "경남도-경상대, 우주항공·방산 특화 '2천900억 국책사업' 도전",
-              "source": "연합뉴스",
-              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0Uy1HUEpmanBMR2w1VTJHcEVZdUZiRnQ0TkhBMVR5NnhEemZaNnVLbUEtNjJlWktaaW5PY0d2MEFvTElEUEZIbmFRRWdlX2phRGFhUFRnTEpMNVHSAWBBVV95cUxQM1gzc2hLcW1CZF9kM0F6Q0ZTaE9jZ21UVVVSTmhlTU4xTnpMWHIyMEQwOFhMOXFpaGN4bi11TmRrdGJZU1RSS1EyRi1yR0hRRHBiMVY2cWU0Q05fVTFValc?oc=5",
-              "published": "2026-08-10T11:12:58+09:00"
+              "title": "한화, KAI 2대 주주로..우주·항공 동맹 힘준다",
+              "original": "한화, KAI 2대 주주로..우주·항공 동맹 힘준다",
+              "source": "아시아투데이",
+              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1lQU9BdHVOSk9UU2xlMDJMcDk4cUdPNFl0Q0xpMVBOaUE1STZvbml1MF9XMC1NOHl4ZXhzXzY3dFhmRDRaOXFibGFqa1dDbm9FWmRXQUdkZmJxbDg1dVkyVEYwWUJJeW0zS2Z1Um5n?oc=5",
+              "published": "2026-08-10T18:00:09+09:00"
             }
           ]
         },
         {
           "stock": "LG전자",
           "ticker": "066570",
-          "title": "LG전자 - 英 명품백화점 TV 전시",
-          "body": "해러즈 쇼윈도에 무선 월페이퍼 TV를 전시하며 브랜드 노출 확대, 주가도 상승. +1.51% 오른 <b>187,800원</b> 마감.",
-          "pct": 1.51,
-          "price": 187800.0,
+          "title": "LG전자 - 英 백화점서 무선 TV 전시",
+          "body": "무선 올레드 TV와 히트펌프 유럽 공략 소식이 이어지며 투자심리 개선. +2.70% 오른 <b>190,000원</b> 마감.",
+          "pct": 2.7,
+          "price": 190000.0,
           "currency": "KRW",
           "as_of": "2026-08-10",
           "slots": [
             {
               "time": "9:10AM",
-              "price": 183500.0,
-              "pct": 4.56,
+              "price": 186500.0,
+              "pct": 0.81,
               "is_close": false,
-              "date": "2026-08-07",
-              "title": "장 초반 강한 상승",
-              "text": "영국 해러즈 백화점에 무선 월페이퍼 TV를 전시한다는 소식이 부각되며 강세로 출발함"
+              "date": "2026-08-10",
+              "title": "장 초반 완만한 상승",
+              "text": "개장 직후 소폭 오름세로 시작하며 무난한 흐름으로 하루를 출발한 모습을 보임"
             },
             {
               "time": "10:30AM",
-              "price": 180100.0,
-              "pct": 2.62,
+              "price": 187500.0,
+              "pct": 1.35,
               "is_close": false,
-              "date": "2026-08-07",
-              "title": "상승폭 다소 축소",
-              "text": "명품 백화점 전시 소식이 이어졌으나 초반 대비 상승폭은 일부 줄어드는 모습을 보임"
+              "date": "2026-08-10",
+              "title": "오전 상승폭 확대",
+              "text": "오전 중반 들어 상승폭이 점차 커지며 초반보다 한층 강해진 흐름을 이어감"
             },
             {
               "time": "1:00PM",
-              "price": 181200.0,
-              "pct": 3.25,
+              "price": 188700.0,
+              "pct": 2.0,
               "is_close": false,
-              "date": "2026-08-07",
-              "title": "상승폭 일부 회복",
-              "text": "브랜드평판 1위 소식이 더해지며 오전보다 상승폭을 다소 회복함"
+              "date": "2026-08-10",
+              "title": "오후 들어 강세 지속",
+              "text": "영국 백화점 TV 전시 등 소식이 전해지는 가운데 오후 들어서도 상승폭이 계속 커짐"
             },
             {
               "time": "마감",
-              "price": 184300.0,
-              "pct": 5.01,
+              "price": 190000.0,
+              "pct": 2.7,
               "is_close": true,
-              "date": "2026-08-07",
-              "title": "상승폭 확대 마감",
-              "text": "각종 호재성 소식이 이어지며 오후 들어 상승폭을 더 키운 채 장을 마감함"
+              "date": "2026-08-10",
+              "title": "하루 중 최고치 마감",
+              "text": "장 마감까지 상승세가 이어지며 하루 중 가장 높은 상승률로 거래를 마침"
             }
           ],
           "news": [
             {
-              "title": "롯데하이마트, 8월 전자유통점 브랜드평판 1위…전자랜드 2위·LG전자베스트샵 3위",
-              "original": "롯데하이마트, 8월 전자유통점 브랜드평판 1위…전자랜드 2위·LG전자베스트샵 3위",
-              "source": "네이트",
-              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBsZFpjQVU0X3BCNUwxRXVjMDNmdmJic3BzTkFYTHdYeGlxbGlsdVF2QlN2dlR1RFhybzRZMGlPUEdFbzV6WjJyV0hjbzJKYVNTbXdZ?oc=5",
-              "published": "2026-08-10T11:29:00+09:00"
+              "title": "LG전자, 英 백화점서 차세대 무선 월페이퍼 TV 특별 전시",
+              "original": "LG전자, 英 백화점서 차세대 무선 월페이퍼 TV 특별 전시",
+              "source": "abckr.net",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5oVkRVQm9qQ3h3LV9QeTVEcnZoeEdYUTlBZUFkY2xjamdtU1p6M3JzcW1nR3ZXUU9uLWFycTJtNGhIZUdNdEphdjlkN1p2cHVvN2phUWwtWU9ZLS1uMzdNY2ZWYkI?oc=5",
+              "published": "2026-08-10T17:22:59+09:00"
             },
             {
-              "title": "LG전자, 英 해러즈 쇼윈도에 ‘무선 월페이퍼 TV’ 띄운다",
-              "original": "LG전자, 英 해러즈 쇼윈도에 ‘무선 월페이퍼 TV’ 띄운다",
-              "source": "디지틀조선TV",
-              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQc0doblF5djFtR2FNcGJWSWFNaHM0eFJYUW1KcWNFWEE5bmh2MG5pRkk3QzB0TVB6RC1TX25oZko4VXplUlVnMnBrUEk3MTY5aTBRQ1RTcXloNkNoMlpUU3VhQ2VPbEdSalpkVWdPV0c1TDJKLUNkTFY3QXlGempzVFk4WnNDUQ?oc=5",
-              "published": "2026-08-10T11:20:00+09:00"
+              "title": "LG전자 다양한 히트펌프로 글로벌 공략, 유럽·국내·산업용 시장 동시 확대",
+              "original": "LG전자 다양한 히트펌프로 글로벌 공략, 유럽·국내·산업용 시장 동시 확대",
+              "source": "비즈니스포스트",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5EM2wxU296U2tKZmloWWd4U1NWb0pPeEgtVkFuQW94NkFBTGVKVXhlS1l4ZVNKQzV5VkNQQXFjXzZKd2VrYUdEcWkySHdwb1VtS0V2RmI4eGd2aU0yc2ZkU2NxTDR2OGM5cW5SaERnTzlmLTQ?oc=5",
+              "published": "2026-08-10T17:22:44+09:00"
             },
             {
-              "title": "LG전자, 英 명품 백화점에서 '무선 월페이퍼 TV' 특별 전시",
-              "original": "LG전자, 英 명품 백화점에서 '무선 월페이퍼 TV' 특별 전시",
-              "source": "네이트",
-              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5GSEs1QVBSY3VkWXM3OC1nOEcxekR6SUdxSXdKOVZ3dWkxNDdwLWIya19FQUVZamxpUGQ5dloxVHhja1JqNFVKTDF1eEZaaHR0OWdj?oc=5",
-              "published": "2026-08-10T11:18:00+09:00"
+              "title": "LG전자, 영국 럭셔리 백화점서 무선 TV ‘시그니처 올레드 W’ 전시",
+              "original": "LG전자, 영국 럭셔리 백화점서 무선 TV ‘시그니처 올레드 W’ 전시",
+              "source": "주간한국",
+              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8zZG5ESURGWDI0cFFyV005ZDdWblgzMFVENW14Rm9PdDBiWUJ3Q3paZEJnTXlEY25OZ2Q4dFVIMUVmemJ2d0lINGpWNVBXUXNJSkVoZmtndHlwTGx1UGJ5TzMxazd1MS1pZVY3RHUyRGhxT2Zt0gF0QVVfeXFMTzNkbkRJREZYMjRwUXJXTTlkN1ZuWDMwVUQ1bXhGb090MGJZQndDelpkQmdNeURjbk5nZDh0VUgxRWZ6YnZ3SUg0alY1UFdRc0lKRWhma2d0eXBMbHVQYnlPMzFrN3UxLWllVjdEdTJEaHFPZm0?oc=5",
+              "published": "2026-08-10T17:11:49+09:00"
             }
           ]
         },
         {
           "stock": "현대차",
           "ticker": "005380",
-          "title": "현대차 - 주차로봇 아파트 실증",
-          "body": "아파트 주차공간을 최대 50% 늘리는 주차로봇 실증에 나서며 신사업 기대감에 상승. +2.15% 오른 <b>404,000원</b> 마감.",
-          "pct": 2.15,
-          "price": 404000.0,
+          "title": "현대차 - 美서 품질 경쟁력 인정",
+          "body": "미국 소비자 품질 선호 조사와 주차로봇 실증 등 사업 확장 소식에 매수세 유입. +3.16% 오른 <b>408,000원</b> 마감.",
+          "pct": 3.16,
+          "price": 408000.0,
           "currency": "KRW",
           "as_of": "2026-08-10",
           "slots": [
             {
               "time": "9:10AM",
-              "price": 400000.0,
-              "pct": 0.38,
+              "price": 399500.0,
+              "pct": 1.01,
               "is_close": false,
-              "date": "2026-08-07",
-              "title": "장 초반 강세 출발",
-              "text": "주차로봇 아파트 실증 소식이 전해지며 소폭 상승세로 개장함"
+              "date": "2026-08-10",
+              "title": "장 초반 완만한 상승",
+              "text": "개장 직후 소폭 오름세로 출발하며 안정적인 흐름으로 하루를 시작한 모습을 보임"
             },
             {
               "time": "10:30AM",
-              "price": 392500.0,
-              "pct": -1.51,
+              "price": 404500.0,
+              "pct": 2.28,
               "is_close": false,
-              "date": "2026-08-07",
-              "title": "약세로 전환",
-              "text": "주차로봇 관련 소식이 이어졌음에도 매수세가 붙지 않으며 하락 전환됨"
+              "date": "2026-08-10",
+              "title": "오전 상승폭 확대",
+              "text": "오전 중반 들어 상승폭이 눈에 띄게 커지며 초반보다 강한 흐름으로 이어짐"
             },
             {
               "time": "1:00PM",
-              "price": 391000.0,
-              "pct": -1.88,
+              "price": 404500.0,
+              "pct": 2.28,
               "is_close": false,
-              "date": "2026-08-07",
-              "title": "낙폭 유지",
-              "text": "오전 하락 흐름이 오후 들어서도 크게 개선되지 않고 이어짐"
+              "date": "2026-08-10",
+              "title": "상승세 유지",
+              "text": "점심 무렵까지 오전에 형성된 상승폭을 그대로 유지하며 견조한 흐름을 보임"
             },
             {
               "time": "마감",
-              "price": 394000.0,
-              "pct": -1.13,
+              "price": 408000.0,
+              "pct": 3.16,
               "is_close": true,
-              "date": "2026-08-07",
-              "title": "낙폭 일부 축소 마감",
-              "text": "장 마감을 앞두고 낙폭을 다소 줄이긴 했으나 전일 대비 하락한 채 마무리됨"
+              "date": "2026-08-10",
+              "title": "하루 중 최고치 마감",
+              "text": "오후 들어 상승폭이 한층 더 커지며 하루 중 가장 높은 수준에서 거래를 마감함"
             }
           ],
           "news": [
             {
-              "title": "“공동주택, 로봇이 발레파킹”…현대차그룹의 주차 실험",
-              "original": "“공동주택, 로봇이 발레파킹”…현대차그룹의 주차 실험",
-              "source": "뉴스토마토",
-              "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9pS0dRU1puSGtrNlprbGdXc2J1SmY3OVlkT1NvMlVpTVpxQjZZTFBTcGtMeVU3SG9zeDY2UDdCOGNJY3NpTDJKMldubzlaMzRnVS1vRGZKRk94dzNIb2RV?oc=5",
-              "published": "2026-08-10T11:33:53+09:00"
+              "title": "현대차그룹, 공동주택 주차로봇 실증 착수… 시흥 힐스테이트에서 시험 운영",
+              "original": "현대차그룹, 공동주택 주차로봇 실증 착수… 시흥 힐스테이트에서 시험 운영",
+              "source": "데일리스포츠한국",
+              "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBPWjNRck9rdG51RV9YYzFlSFNxY2xVVFBoZVBSb185aDVGTU1vd09iUTFHSG9WNlF4aDJjQ0JDUzRvSzAwemxNNDZRanBjWXMyV1ZaUXV0MDdWdkVQNGVDeXJaZi1Jdk5Ma3gxbnp2MzVFZVF2VGJKekMzUdIBf0FVX3lxTE0zdS1JUVlqc1ZibGlnVXdhQXpUV1RVVGNRcVNhTVFiSnI3NXFjRy1yNXdvX0FhR2FvT2JlYVZvMU1VaFVmWnFKTWhuNWRESEN1b0JfTFVfeHExOXRfamNFQjNYLThrdjNaMHAxSXVNeldJeEx5Ujloanhud19BU2c?oc=5",
+              "published": "2026-08-10T18:16:28+09:00"
             },
             {
-              "title": "현대차그룹, ‘주차로봇’ 아파트에 투입…주차 공간 최대 50% 늘린다",
-              "original": "현대차그룹, ‘주차로봇’ 아파트에 투입…주차 공간 최대 50% 늘린다",
-              "source": "디지틀조선TV",
-              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbWNIMDIyU0F1YWpXWlRuTVhmbTR0NG9aek5OMGI0MnBmMFNmUVRGYzJKcy1BdWM5cmRVVGFwUkJPNmVwWE5DdlRlLVI5Sm9SSG45NDN3cGxPQjZtUTdiTFFTTU8tdzVyUHNmWTZQcVBudXZpZTA5U3NoS1FtSng3SWwxUlloQQ?oc=5",
-              "published": "2026-08-10T11:30:00+09:00"
+              "title": "美 소비자 \"비싼 車보다 잘 만든 車\"…현대차·기아, '가격보다 품질' 통했다",
+              "original": "美 소비자 \"비싼 車보다 잘 만든 車\"…현대차·기아, '가격보다 품질' 통했다",
+              "source": "네이트",
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE91MG1DZFVvcEE0a3VVcUNyejRZN1FqZVBlOXZOdlRZemxpaXg0WWpHM0FsbU93bFVrbzFFYUNhenNhLTQzM2JCQWtGVDNaOW1GR0ZR?oc=5",
+              "published": "2026-08-10T18:14:00+09:00"
             },
             {
-              "title": "\"아파트 주차 대신 해줘\"…현대차그룹, 주차로봇 실증 나서",
-              "original": "\"아파트 주차 대신 해줘\"…현대차그룹, 주차로봇 실증 나서",
-              "source": "연합인포맥스",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE03X1JCVUFUV19EUFZHcmRBdVNHWWViYzNTbTJNQmY1Q3p2TlJXeUU2SFN2cHA1Nk41bmlLZF9XTUdKRVZfYUJWczhrNnFyeC1aSEFPNDBkZl91eWxoRkZzZ01WaXdVVVZ3d00zblR3WEQ?oc=5",
-              "published": "2026-08-10T11:19:45+09:00"
+              "title": "현대차 N·제네시스 전략 담당 바텐베르크 전 상무, BYD 유럽 브랜드 구축 맡는다",
+              "original": "현대차 N·제네시스 전략 담당 바텐베르크 전 상무, BYD 유럽 브랜드 구축 맡는다",
+              "source": "SR타임스",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtTTBRVUFzTVdzaXRtT1ZhWnhmUHhwdjZ3dl8xV0EyeklIU2RRS0YwYkVmdUpEZTZpbHFMWHkzNVVLcVFTdWtUZTB2ZEpEalVVNUhKREpjUUNJZkkzQVRFZy1hYXRpbUJS0gFrQVVfeXFMTUdXQXFHdnQ1UGh6VnVUd3o3MHFQUXBQSWtiSmRYYjZ4dXpjNkdOd1lLdFJFTVNYSVc2aHQwdFQ4WjJlZkF5N1NtdXZKNm1PUWo2elNPR2NBYTVaUm16OWR2eW92d1MxMDhBekE?oc=5",
+              "published": "2026-08-10T18:09:47+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-08-10-us-kr.md",
-      "refreshed_at": "2026-08-10 11:39:28 KST"
+      "markdown": "briefings/2026-08-10-kr.md",
+      "refreshed_at": "2026-08-10 18:20:59 KST"
     }
   }
 }
