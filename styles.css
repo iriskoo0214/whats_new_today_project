@@ -613,8 +613,14 @@
          높이를 바닥으로 삼고, 모자라면 화면이 스크롤되게 둔다. */
       flex:1 0 auto;
       display:flex;flex-direction:column;
+      /* 시안(155:6458)에서 가운데 판은 가격 블록보다 40px 더 내려간다. 그 꼬리에
+         진행 컬럼 그라데이션의 끝(#d3e8ff)이 깔리고, '시간대별 브리핑' 제목과의
+         간격도 여기서 나온다. flex로 쌓으면 가격 블록이 마지막이라 그냥 두면
+         꼬리가 통째로 없어진다. */
+      padding-bottom:40px;
     }
-    .pf-middle__sky{height:calc(100% - 142px);}   /* 가격 블록 위까지만 파랑 */
+    /* 100%는 패딩 박스 기준 — 꼬리 40px과 가격 블록 142px을 뺀 만큼이 파랑이다 */
+    .pf-middle__sky{height:calc(100% - 182px);}
     .pf-col--mid{height:100%;}
 
     /* 배경 두 장(.pf-middle__sky/.pf-col--mid)이 절대배치라, 흐름에 놓인 내용이
