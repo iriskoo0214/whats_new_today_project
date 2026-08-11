@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-08-11 19:30:06 KST",
+  "generated_at": "2026-08-11 21:13:44 KST",
   "refreshed": [
     "kr"
   ],
@@ -278,7 +278,7 @@ window.NOTEFOLIO_BRIEFING = {
     },
     "kr": {
       "icon": "assets/moon.svg",
-      "label": "한국 증시 요약 2026. 8. 11. 7:30PM",
+      "label": "한국 증시 요약 2026. 8. 11. 9:13PM",
       "chips": [
         "전체",
         "SK하이닉스",
@@ -298,7 +298,7 @@ window.NOTEFOLIO_BRIEFING = {
           "stock": "SK하이닉스",
           "ticker": "000660",
           "title": "SK하이닉스 - 키옥시아 최대주주 등극",
-          "body": "투자 SPC가 키옥시아 최대주주에 오르고 주주환원 규모가 40조원에 달할 것이란 전망이 나오며 강세. +0.35% 오른 <b>1,425,000원</b> 마감.",
+          "body": "일본 키옥시아 단일 최대주주 지위에 오르며 낸드 사업 영향력 확대 기대감이 부각, 소폭 상승 마감. +0.35% 오른 <b>1,425,000원</b> 마감.",
           "pct": 0.35,
           "price": 1425000.0,
           "currency": "KRW",
@@ -311,7 +311,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-11",
               "title": "장 초반 약세 출발",
-              "text": "개장 직후 매물이 나오며 하락 출발했고 낙폭이 하루 중 가장 큰 구간에 머묾"
+              "text": "개장 직후 하락 출발하며 전 거래일 대비 낮은 가격대에서 거래가 시작됨"
             },
             {
               "time": "10:30AM",
@@ -320,7 +320,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-11",
               "title": "낙폭 소폭 축소",
-              "text": "오전 내내 이어지던 약세에서 하락폭을 조금씩 줄이며 저점을 서서히 벗어나는 모습"
+              "text": "오전 내내 이어지던 하락세가 조금씩 완화되며 저가권에서 벗어나려는 움직임이 나타남"
             },
             {
               "time": "1:00PM",
@@ -328,8 +328,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.2,
               "is_close": false,
               "date": "2026-08-11",
-              "title": "오후 들어 상승 전환",
-              "text": "점심 지나며 매수세가 유입돼 하락에서 상승으로 방향을 완전히 틀어 하루 고점권 형성"
+              "title": "상승 전환 성공",
+              "text": "오후 들어 매수세가 유입되며 하락분을 모두 되돌리고 상승 전환에 성공하는 흐름을 보임"
             },
             {
               "time": "마감",
@@ -337,40 +337,40 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.35,
               "is_close": true,
               "date": "2026-08-11",
-              "title": "상승폭 일부 반납 마감",
-              "text": "오후 고점 대비 상승폭을 다소 줄였으나 결국 전일 대비 오름세를 지키며 하루를 마감"
+              "title": "상승세 유지 마감",
+              "text": "오후 강세를 대부분 지켜내며 하루 중 고점 부근에서 상승 마감으로 하루를 마무리함"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "SK하이닉스 투자 SPC, 키옥시아 최대주주로",
-              "original": "SK하이닉스 투자 SPC, 키옥시아 최대주주로",
-              "source": "아이뉴스24",
-              "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE80em1femhIVEx1aTZTcFhzaWtZODB3Y1lrenRjRklidjdBaWlZc04ycDc2XzJtcVptRDgzS2NtMVI4VUVlX18wS1VPR00?oc=5",
-              "published": "2026-08-11T19:01:43+09:00"
+              "title": "SK하이닉스, 일본 키옥시아 단일 최대주주 지위 올라섰다",
+              "original": "SK하이닉스, 일본 키옥시아 단일 최대주주 지위 올라섰다",
+              "source": "세계일보",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB6YVpRTW1pYXJoR3FvN0U2dE9oSU01Rjc3MklqM1pZemw4RkEySlluXzlfTFVMSU5GUHNaT1pZZWpoa3hvdUhwbHlySVhrUW9zc095Q3VsZ2ZqWmlqWGF6Y0kzVGJVLW54SnJN0gFUQVVfeXFMT1J2TzNfQ3JITG5QWjF2cVNSa0RlbUE3UUFsOUFPTzlXTXc0dW42dTZ3TjN1RkQ2NWV1WDZ2WVBlY2RucF9rdzlFeXI0eWJENW5HLXl4?oc=5",
+              "published": "2026-08-11T20:00:00+09:00"
             },
             {
-              "title": "\"SK하이닉스, 추가 주주환원 규모 40조 달할 것\"-미래에셋證",
-              "original": "\"SK하이닉스, 추가 주주환원 규모 40조 달할 것\"-미래에셋證",
-              "source": "베타뉴스",
-              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAtWGdHLWt5RTBzOXZRTUZHTHJlQXZaemNuMmozSzJ3R213LTFMOHVyMEd6MjdzejJzRktvX09ObnhFMlE3dmdGQ1BVZ2R2andTWnJtTE1nUnVCOTZhNU0zeFpTbEM?oc=5",
-              "published": "2026-08-11T19:00:05+09:00"
+              "title": "SK하이닉스 담보대출 1년 새 5배 '껑충'...절반 이상이 60대",
+              "original": "SK하이닉스 담보대출 1년 새 5배 '껑충'...절반 이상이 60대",
+              "source": "딜라이트닷넷",
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mR3c0bEs4Q0lWNXVWVlFvMDg3MTJadVZkU1hFWllfaUoyMnA5Vzl5aWxLUmtpdDQ1Q3lRX21rYmZJb2djVlptd2plRElRMl9rOXFfWTVFY2NJNWl5blpPR3FwU2J2Vlp3WFl1cjlfbHVPZ9IBckFVX3lxTE5mR3c0bEs4Q0lWNXVWVlFvMDg3MTJadVZkU1hFWllfaUoyMnA5Vzl5aWxLUmtpdDQ1Q3lRX21rYmZJb2djVlptd2plRElRMl9rOXFfWTVFY2NJNWl5blpPR3FwU2J2Vlp3WFl1cjlfbHVPZw?oc=5",
+              "published": "2026-08-11T19:49:18+09:00"
             },
             {
-              "title": "인사말하는 곽노정 SK하이닉스 CEO",
-              "original": "인사말하는 곽노정 SK하이닉스 CEO",
-              "source": "데일리안",
-              "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQNVhjcm1jZkZfeWR1VlNVS3pCa0NSRnNDWDUwWm5PX1FlYk1SblF0aU5nN0xJc1BaLXRNNksxYlZfRXFQY0FjSjcwSUUzY2JWbDBQR0U4S3VYclhyWXFSRnpwX3VmNWpOSWlGWm5nOFdTUll1N2ZSZmNjZW1zOFlBeDdiOG8wcEJMVy10VW5Fb1VFU1JQMl95Z0JQNmlKNGRjWG9OdFFicG1uNWZ6ZGxleDVhY1ZzV29ZUS11T2c3VkpCR2tkdWI1VHNRRWxpbWFBaGZBOVVNRlU4aUUxcmdpaEJIYk5HNGxPYk5mb2E2NzgxOFQ4ZU5uRA?oc=5",
-              "published": "2026-08-11T18:34:00+09:00"
+              "title": "용인 SK하이닉스 반도체 팹 건설현장",
+              "original": "용인 SK하이닉스 반도체 팹 건설현장",
+              "source": "뉴스1",
+              "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9NQm5JaEFLckJaZ0oySjduRk45eUdXaDVwa1RSZmxCMzY3ZE5UNlAzU3hWclB3NHlDa1pMODZPQ3E5aGJRZGk1X2V6QQ?oc=5",
+              "published": "2026-08-11T19:08:57+09:00"
             }
           ]
         },
         {
           "stock": "삼성전자",
           "ticker": "005930",
-          "title": "삼성전자 - 코스피 강세 속 4%대 급등",
-          "body": "TSMC 독주 속 인텔과 파운드리 2위 다툼이 부각된 가운데 코스피·코스닥 동반 상승에 힘입어 급등. +4.13% 오른 <b>239,500원</b> 마감.",
+          "title": "삼성전자 - 장중 4%대 급등, 24만원 눈앞",
+          "body": "폴더블 헤리티지 공개로 신제품 기대감이 커진 가운데 오전 10시 이후 매수세가 몰리며 급등, 임원 자사주 매도는 부담 요인으로 거론. +4.13% 오른 <b>239,500원</b> 마감.",
           "pct": 4.13,
           "price": 239500.0,
           "currency": "KRW",
@@ -383,7 +383,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-11",
               "title": "장 초반 소폭 약세",
-              "text": "개장 직후 잠시 밀리며 약보합으로 출발했으나 낙폭은 크지 않은 수준에 머묾"
+              "text": "개장 초 소폭 하락하며 전 거래일 수준을 밑도는 가격대에서 거래가 이어짐"
             },
             {
               "time": "10:30AM",
@@ -391,8 +391,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 3.04,
               "is_close": false,
               "date": "2026-08-11",
-              "title": "오전 급등 전환",
-              "text": "코스피 동반 상승 흐름 속에 매수세가 강하게 유입되며 상승 전환에 성공함"
+              "title": "급등세로 전환",
+              "text": "오전 10시를 넘기며 갑작스러운 매수세가 붙어 큰 폭으로 상승 전환하는 모습을 보임"
             },
             {
               "time": "1:00PM",
@@ -400,8 +400,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 4.89,
               "is_close": false,
               "date": "2026-08-11",
-              "title": "오후 들어 상승폭 확대",
-              "text": "점심 이후 파운드리 경쟁 관련 소식이 전해지는 가운데 상승폭을 더 키우며 하루 고점 형성"
+              "title": "상승폭 확대 지속",
+              "text": "오전의 급등 흐름이 오후까지 이어지며 상승폭을 더 키워 하루 중 최고 수준에 근접함"
             },
             {
               "time": "마감",
@@ -409,40 +409,40 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 4.13,
               "is_close": true,
               "date": "2026-08-11",
-              "title": "상승폭 일부 반납 마감",
-              "text": "장중 고점보다는 낮아졌지만 4%대 강세를 유지하며 이틀째 상승 흐름으로 마무리"
+              "title": "강세 유지 마감",
+              "text": "오후 한때의 고점보다는 낮아졌지만 큰 상승폭을 그대로 유지하며 거래를 마감함"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "TSMC 독주 속… 삼성-인텔, 파운드리 ‘2위 다툼’",
-              "original": "TSMC 독주 속… 삼성-인텔, 파운드리 ‘2위 다툼’",
-              "source": "v.daum.net",
-              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBNeUFUaVJ3YWRIZ0VERkhxTkQ3S3JPYWxBbnpjelN1bGdZbFE1cjBPTV9fclhWcWppcHB0bW5nbWJoYkZNUGJQNl9CNnhqbFU?oc=5",
-              "published": "2026-08-11T18:45:30+09:00"
+              "title": "삼성전자, 7년 폴더블 혁신 담은 ‘폴더블 헤리티지’ 공개",
+              "original": "삼성전자, 7년 폴더블 혁신 담은 ‘폴더블 헤리티지’ 공개",
+              "source": "데일리안",
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBnTWlxMkIySjVhYnAwS043aVdJWmtLTS1HdXRqU0lZTUVKdUJBQkdFR1RhdWxVMVV3QTh5S2pjcDRZY2E2Y0JmNmpfV2pKX21aOHVN?oc=5",
+              "published": "2026-08-11T19:54:00+09:00"
             },
             {
-              "title": "실외기 하나로 냉·난방… 삼성, 제주서 히트펌프 시대 연다 [르포]",
-              "original": "실외기 하나로 냉·난방… 삼성, 제주서 히트펌프 시대 연다 [르포]",
+              "title": "[집중진단] 10시 넘어 급등한 삼성전자 주가…4% 올라 24만원 코앞, 갑자기 왜?",
+              "original": "[집중진단] 10시 넘어 급등한 삼성전자 주가…4% 올라 24만원 코앞, 갑자기 왜?",
               "source": "v.daum.net",
-              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jUVgzelRRT19NWnk5Ym1GTjUzVDVDdlNKS0R1bG5ZOXBHdEl5bTVnYnlCbDlOLVZZZmVjSXFZUGl0MGQtRFp6MnFKWlV4V1k?oc=5",
-              "published": "2026-08-11T18:11:11+09:00"
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8wQWJkOThnTDVIN3Y3OTVLRGgxSU5zMWJPT1ZKT1EzSkxsOXhCYUdYNnlrZW9xV05qNnFkbWdOek5fd05LV20wcWxQRWdDckk?oc=5",
+              "published": "2026-08-11T19:10:11+09:00"
             },
             {
-              "title": "코스피·코스닥 이틀째 동반 상승…삼성전자 4%대 급등",
-              "original": "코스피·코스닥 이틀째 동반 상승…삼성전자 4%대 급등",
-              "source": "v.daum.net",
-              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5hYnZpMzVBa2ZiRHNJeGJMelVIODNTOXlLQnltcF9IZHVDUDJwTkQyZlZSN1ZwSmx2M2xqcDhqZGI1VHdxcjVuX3FMWGRKb2s?oc=5",
-              "published": "2026-08-11T18:10:11+09:00"
+              "title": "“주가 전망 나빠서?”…삼성전자 임원 자사주 매도 급증한 이유",
+              "original": "“주가 전망 나빠서?”…삼성전자 임원 자사주 매도 급증한 이유",
+              "source": "더퍼블릭",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1MVzVRZFBtUUQ2aWctdl9TeFh2Nzlid01sQzFhdnBPbXczR0dzWFJ4QjVSOU5yMDlSWnN4NHJSRFM1MEZ4eXpReVJiSF9xeldfNkgtcG1uQ0FmbGZlMjViZkFxQVRJRVpzVld30gFvQVVfeXFMTnl6MVpmRkdOQWlkVDE5LWpBRVNQclRyQUpfTnVtdFczZl9XR01yY1RmV1BwMENlQ0wyQTJGTjhXWmx5NExwZWhGMklvWm5fWmNoYnZfZUJvV2xheGFQSXowZGRJQmh1NmRCbE9hSTRZ?oc=5",
+              "published": "2026-08-11T19:03:53+09:00"
             }
           ]
         },
         {
           "stock": "한화에어로스페이스",
           "ticker": "012450",
-          "title": "한화에어로스페이스 - 차익실현 속 4%대 하락",
-          "body": "한화그룹이 KAI 지분 15%를 넘기며 우주항공 영향력을 확대했으나 보은 화약사업장 안전점검 이슈 속 하락. -4.69% 내린 <b>1,098,000원</b> 마감.",
+          "title": "한화에어로스페이스 - 美 미사일 부족 부각에도…",
+          "body": "미국 미사일 부족 상황을 K방산이 메울 수 있다는 기대가 나왔음에도 주가는 하락, 한화그룹의 KAI 지분 15% 돌파 소식도 반등으로 이… -4.69% 내린 <b>1,098,000원</b> 마감.",
           "pct": -4.69,
           "price": 1098000.0,
           "currency": "KRW",
@@ -454,8 +454,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.65,
               "is_close": false,
               "date": "2026-08-11",
-              "title": "장 초반 큰 폭 약세",
-              "text": "개장부터 매도세가 몰리며 큰 폭의 하락으로 출발해 약세 흐름이 뚜렷하게 나타남"
+              "title": "장 초반 약세 출발",
+              "text": "개장과 함께 큰 폭으로 하락하며 전 거래일보다 낮은 가격대에서 거래가 시작됨"
             },
             {
               "time": "10:30AM",
@@ -463,8 +463,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.3,
               "is_close": false,
               "date": "2026-08-11",
-              "title": "낙폭 유지 흐름",
-              "text": "오전 중반까지도 하락세가 이어지며 좀처럼 낙폭을 줄이지 못하는 모습이 계속됨"
+              "title": "약세 흐름 지속",
+              "text": "오전 내내 하락세가 이어지며 저가권에서 크게 벗어나지 못하는 부진한 흐름을 보임"
             },
             {
               "time": "1:00PM",
@@ -472,8 +472,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -5.99,
               "is_close": false,
               "date": "2026-08-11",
-              "title": "오후 낙폭 확대",
-              "text": "점심 이후 매도 압력이 더 거세지며 하루 중 가장 큰 하락폭을 기록하는 국면 진입"
+              "title": "낙폭 큰 폭 확대",
+              "text": "오후 들어 매도세가 강해지며 하루 중 가장 큰 낙폭을 기록하는 국면으로 접어듦"
             },
             {
               "time": "마감",
@@ -481,12 +481,19 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -4.69,
               "is_close": true,
               "date": "2026-08-11",
-              "title": "낙폭 일부 축소 마감",
-              "text": "장중 최저점보다는 다소 반등했으나 여전히 큰 폭의 하락세로 하루를 마무리함"
+              "title": "낙폭 일부 회복",
+              "text": "장 후반 저점에서 일부 반등하며 낙폭을 줄였지만 여전히 큰 하락세로 거래를 마감함"
             }
           ],
           "slot_total": 4,
           "news": [
+            {
+              "title": "美 미사일 부족, K방산 메울 수 있을까?",
+              "original": "美 미사일 부족, K방산 메울 수 있을까?",
+              "source": "ER 이코노믹리뷰",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6eHRDQU9lUmhYZWZTRVVEenhiYjFsSzRtM3FQRXNrX1VLbkZmazA2RVhyMENxcUV4LTQ4RGg4SVhBbGtBNVFLSG1rQ0dyWXBaOGFYLU43OGRGV01uNk9oME1yTFpudWtvTnVBRA?oc=5",
+              "published": "2026-08-11T19:38:41+09:00"
+            },
             {
               "title": "한화그룹, KAI 지분 15% 돌파",
               "original": "한화그룹, KAI 지분 15% 돌파",
@@ -500,21 +507,14 @@ window.NOTEFOLIO_BRIEFING = {
               "source": "매일일보",
               "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBWLTJkbHliZ1BiSzlKM2RSSFFkOUR1RHctUDNqajV4RVcteGczV2xMS1NMZlF6aXZIN015YTFDZFkxdnhJZUticFd3OTRpRVJDc0NveDFiSVN0dWNFQzRRUktsQVY?oc=5",
               "published": "2026-08-11T18:44:02+09:00"
-            },
-            {
-              "title": "보은 군용화약류 사업장 66곳 긴급 안전점검",
-              "original": "보은 군용화약류 사업장 66곳 긴급 안전점검",
-              "source": "충청매일",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1nUmFlNDdEXzRpY0NKUXBVT3lpMkdSRkVOcnFxQWo2Z1hSamdRa1BnRHhNX2JBSXdKRW9rTldkNlJsX1VZd3I5dnJqTWxNZEJEUlA4RlVkTHhneWNzYUttWE4xclI5b19oWmc?oc=5",
-              "published": "2026-08-11T18:35:07+09:00"
             }
           ]
         },
         {
           "stock": "LG전자",
           "ticker": "066570",
-          "title": "LG전자 - 브라질 신공장 가동에도 하락",
-          "body": "4100억원 투입한 브라질 냉장고 신공장 양산 돌입과 유럽 보안인증 획득 소식에도 주가는 4%대 하락. -4.37% 내린 <b>181,700원</b> 마감.",
+          "title": "LG전자 - 차량용 신기술 공개에도 하락",
+          "body": "운전자 시선 이탈을 줄이는 울트라뷰 윈드실드 디스플레이 개발과 시제품 국내 인증 전환 소식이 전해졌으나 주가는 하락 마감. -4.37% 내린 <b>181,700원</b> 마감.",
           "pct": -4.37,
           "price": 181700.0,
           "currency": "KRW",
@@ -527,7 +527,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-11",
               "title": "장 초반 약세 출발",
-              "text": "개장과 동시에 매물이 쏟아지며 하락 출발했고 약세 흐름이 곧바로 이어짐"
+              "text": "개장 직후부터 하락하며 전 거래일보다 낮은 가격대에서 거래를 시작하는 모습을 보임"
             },
             {
               "time": "10:30AM",
@@ -535,8 +535,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.74,
               "is_close": false,
               "date": "2026-08-11",
-              "title": "낙폭 확대 흐름",
-              "text": "오전 중반 들어 하락폭이 더 커지며 하루 중 가장 낮은 수준까지 밀리는 모습"
+              "title": "낙폭 소폭 확대",
+              "text": "오전 중반 들어 하락폭이 더 커지며 저가권에서 벗어나지 못하는 흐름이 이어짐"
             },
             {
               "time": "1:00PM",
@@ -544,8 +544,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.58,
               "is_close": false,
               "date": "2026-08-11",
-              "title": "소폭 반등 시도",
-              "text": "점심 무렵 낙폭을 살짝 줄이며 저점 대비 반등을 시도했으나 회복은 제한적이었음"
+              "title": "낙폭 소폭 축소",
+              "text": "오후 들어 낙폭을 다소 줄였지만 여전히 저가권에 머무르며 뚜렷한 반등은 없었음"
             },
             {
               "time": "마감",
@@ -553,40 +553,40 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -4.37,
               "is_close": true,
               "date": "2026-08-11",
-              "title": "낙폭 재확대 마감",
-              "text": "오후 들어 다시 매도세가 커지며 하루 중 가장 큰 하락폭으로 거래를 마감함"
+              "title": "낙폭 다시 확대 마감",
+              "text": "장 후반 매도세가 다시 강해지며 하루 중 가장 큰 낙폭으로 거래를 마감하는 흐름을 보임"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "[단독] LG전자, 4100억 들인 브라질 신공장서 냉장고 양산 돌입…이번 주 개장식",
-              "original": "[단독] LG전자, 4100억 들인 브라질 신공장서 냉장고 양산 돌입…이번 주 개장식",
+              "title": "2초 시선 이탈 줄인다…LG전자, 앞유리 전체 쓰는 '울트라뷰 윈드실드 디스플레이' 개발",
+              "original": "2초 시선 이탈 줄인다…LG전자, 앞유리 전체 쓰는 '울트라뷰 윈드실드 디스플레이' 개발",
               "source": "네이트",
-              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vVmJCeTF0WXZTeG9mN0duTnRuVllfbm1fLV9SR2JnWVZvUk12WW4wTEpZRzJOejVuVGxSVDFBQkJwUGdUTXc0ZFRZYWtfNUYxWGVF?oc=5",
-              "published": "2026-08-11T18:53:00+09:00"
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YS1pNVTVhSmphZHdtSm9fWWFRQ1NMVThMQWFucDNIVkZpeXZEQU55S3djeUNsYzBpMnJWXzk1NUQ4bDJXV3ByYlloNUhYb1YxRktr?oc=5",
+              "published": "2026-08-11T21:00:13+09:00"
             },
             {
-              "title": "LG전자 함평점, 취약계층에 에어컨 기부… 지역사회와 상생 실천",
-              "original": "LG전자 함평점, 취약계층에 에어컨 기부… 지역사회와 상생 실천",
-              "source": "뉴스21 통신",
-              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1lQWZvM0pJMVBtZHpMVlBLck1CX283eWFhSERNSEZwVDJBVFdHYktZM2psOHpiRmdaX09GelNENVVpYndHNFl5SXp1X1hial85azRROE53?oc=5",
-              "published": "2026-08-11T18:32:26+09:00"
+              "title": "LG전자 \"시제품 해외 보내지 않고 국내 인증\"",
+              "original": "LG전자 \"시제품 해외 보내지 않고 국내 인증\"",
+              "source": "네이트",
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5TWG5ON3JZUkVDSUNUa0FfRk1pX2JzX0lMbzcyVXlWX1gxZHZPYUFTQnJJMU1va050bU51Mi1GTTFsSmVCemF6RTlsLTBmZUpGWVhj?oc=5",
+              "published": "2026-08-11T19:55:00+09:00"
             },
             {
-              "title": "LG전자, 유럽 사이버보안 인증시험 자체 수행 자격 획득…제품 개발 속도 높인다",
-              "original": "LG전자, 유럽 사이버보안 인증시험 자체 수행 자격 획득…제품 개발 속도 높인다",
-              "source": "소비자가 만드는 신문",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yOHlEZHJOYkJJR3MtYTkyUDNjYmctWWh5cTdic2l4aUFmbW8yV1BKelFXY2hES1J3aVJOb0hZamxXYjE1ZzFfa0V0QUdfSTVhekRoQ2RoTlZ1RDUzZWZTd2RJblAxTXhJS2FpdG56Sm1qVUU?oc=5",
-              "published": "2026-08-11T18:07:27+09:00"
+              "title": "LG전자 “시제품 해외 보내지 않고 국내 인증”",
+              "original": "LG전자 “시제품 해외 보내지 않고 국내 인증”",
+              "source": "세계일보",
+              "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9uUUdKU0VUVjRJTnNzQThBaE5MNlpoWHdrT3JxLTlkTXVHVzBBQXRoaG9pSUpKWjYwZmxnY3NHeGRVLWdKOTg5U2ZIZVFiNzVlMXJMaVdmcEXSAVRBVV95cUxQUUYxUFRRY0NQcnNRT0czQXZYTkd4TUd3dzVCTmtJUVNsQW1uSTJDdHM4dzlTbHRiY3U1ZWdZRHhPNFZmZnQxYmVFYjZsTEhQT3J6RXU?oc=5",
+              "published": "2026-08-11T19:54:29+09:00"
             }
           ]
         },
         {
           "stock": "현대차",
           "ticker": "005380",
-          "title": "현대차 - 노조 4차 파업 예고",
-          "body": "현대차 노조가 12일부터 나흘간 부분파업을 예고하며 파업 손실이 4만2500대를 넘어서자 하락. -1.23% 내린 <b>403,000원</b> 마감.",
+          "title": "현대차 - 노조 12일부터 파업 재개",
+          "body": "현대차 노조가 12일부터 파업 수위를 높이기로 하면서 생산 차질 우려가 부각, 울산공장 안전대책 발표에도 주가는 하락. -1.23% 내린 <b>403,000원</b> 마감.",
           "pct": -1.23,
           "price": 403000.0,
           "currency": "KRW",
@@ -599,7 +599,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-11",
               "title": "장 초반 약세 출발",
-              "text": "개장 직후 노조 파업 우려 속에 하락하며 약세로 하루를 시작하는 모습을 보임"
+              "text": "개장과 함께 소폭 하락하며 전 거래일보다 낮은 가격대에서 거래가 시작됨"
             },
             {
               "time": "10:30AM",
@@ -607,8 +607,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.61,
               "is_close": false,
               "date": "2026-08-11",
-              "title": "오전 낙폭 축소",
-              "text": "오전 중반 들어 낙폭을 다소 줄이며 저점 대비 완만한 회복 흐름을 나타냄"
+              "title": "낙폭 일부 회복",
+              "text": "오전 중반 들어 낙폭을 줄이며 하락세가 다소 완화되는 모습을 보임"
             },
             {
               "time": "1:00PM",
@@ -616,8 +616,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.67,
               "is_close": false,
               "date": "2026-08-11",
-              "title": "오후 약보합 유지",
-              "text": "점심 이후 큰 방향성 없이 낙폭을 줄인 수준에서 등락하며 흐름을 이어감"
+              "title": "약세 흐름 지속",
+              "text": "오후 들어서도 비슷한 수준의 약세가 이어지며 뚜렷한 방향 전환은 나타나지 않음"
             },
             {
               "time": "마감",
@@ -625,38 +625,38 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.23,
               "is_close": true,
               "date": "2026-08-11",
-              "title": "낙폭 재확대 마감",
-              "text": "장 후반 파업 확대 소식이 부각되며 다시 낙폭이 커진 채로 하루를 마감함"
+              "title": "낙폭 다시 확대 마감",
+              "text": "장 후반 낙폭이 다시 커지며 오전 저점 수준으로 되돌아가 거래를 마감함"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "휴가 끝나자 또 파업… 현대차 노조, 12일부터 4차례 파업",
-              "original": "휴가 끝나자 또 파업… 현대차 노조, 12일부터 4차례 파업",
-              "source": "IT조선",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0talR6Y1JqLUEzcFJvYTNyWXNqVVg1a05hVVE4SHY4cUNPYVY4Q0NLamk4VlE1T0FGbWpoaHotb3F6ZlJ2a3dEeHg2X0tjNlBvRk54aFU2RkFPYUR2S2R1UVRGTnFjWHdfcE9Pd2VCOVXSAXRBVV95cUxOa1FIVXV0UFdNcGRiWnFZVW43MmlXcDhtRlpQQnRSSzZMcGFERHk1TWJjekZUMUl6SHF4R1FtSlNsN1cweUVIZkl2Tml6cTRfc0ZIQ0tNUGxkUmx6UW9kTFQzVzVwcUUwZDd5RjFQWTFlUnlfSA?oc=5",
-              "published": "2026-08-11T18:54:33+09:00"
+              "title": "\"협력사 중대재해 철저 예방\"…현대차 울산공장, '이동식 안전트럭' 제공",
+              "original": "\"협력사 중대재해 철저 예방\"…현대차 울산공장, '이동식 안전트럭' 제공",
+              "source": "파이낸셜포스트",
+              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBQenlQSWg5WnpsbE1uYXR6bTFjRmJyRXpwd1R6dWZMVEN3VDAyTnBQZ3pwTG56UUpkYkxSYmxZQVMxSkViRzhXYTJpNnN3WHBPV0EtVGZtT0hDdVFyaEtVRUxnaGo3VVgtbzlMTFgyeGFwcTl2?oc=5",
+              "published": "2026-08-11T20:49:12+09:00"
             },
             {
-              "title": "현대차 노조, 12일부터 나흘간 추가 부분파업...파업 손실 4만2천500대 넘어",
-              "original": "현대차 노조, 12일부터 나흘간 추가 부분파업...파업 손실 4만2천500대 넘어",
-              "source": "생생비즈플러스",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9feFNZOW5TOElQXzZobFZITGxrQUpTbUxtdk8xY052UkZOZEl3YlN1UDNNVzBJM21KU1VzQ1N2elM1c2Judmc0UER6cUxCUi1RV1FkSDRJU0tSeHctNThBS1lSRU5DOGZYT09PRw?oc=5",
-              "published": "2026-08-11T18:42:38+09:00"
+              "title": "현대차를 깨운 기아의 반란…'집안싸움'이 자동차 산업 경쟁력 키운다[박동흠의 생활 속 회계이야기]",
+              "original": "현대차를 깨운 기아의 반란…'집안싸움'이 자동차 산업 경쟁력 키운다[박동흠의 생활 속 회계이야기]",
+              "source": "네이트",
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA4NER4TmJaQ2gxTHMxNEduN0RmYmdpTDFUMUNNUnAzZzJVdXhIYlNvLXctTDVraFdnbEZfMmQycTBPUTcyaDRieG1kLVh4aGNyT2sw?oc=5",
+              "published": "2026-08-11T20:31:00+09:00"
             },
             {
-              "title": "현대차 노조, 휴가 후 파업 수위 높인다…12일부터 부분파업",
-              "original": "현대차 노조, 휴가 후 파업 수위 높인다…12일부터 부분파업",
-              "source": "4th.kr",
-              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ubjVDeXJIVV9KMkpYSWJVNl92Yy1vU0V0WVBWMm5qdE9VYlZUalE1WUlMNDQ2R1VPSURldXl3OGpTa0Y5WGZINU5wYzVEbDVLQWlOUklQWTF5RXhUQ1dPU180MEQ?oc=5",
-              "published": "2026-08-11T18:25:20+09:00"
+              "title": "현대차 노조, 12일부터 다시 파업…수위 높인다",
+              "original": "현대차 노조, 12일부터 다시 파업…수위 높인다",
+              "source": "연합뉴스TV",
+              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE94UUZMS2llTmFVU1Rsby1NZXZDVlBiV0FGejZiUVlPSXBUZldGanR5NlNRVzgya1lnM0NUS2dKeERLaWpuc2VtczItdXZrS1NBQ3ZqQVczUlhJbjMtNmltNl9kaEFvWmM?oc=5",
+              "published": "2026-08-11T20:06:00+09:00"
             }
           ]
         }
       ],
       "markdown": "briefings/2026-08-11-kr.md",
-      "refreshed_at": "2026-08-11 19:30:06 KST"
+      "refreshed_at": "2026-08-11 21:13:44 KST"
     }
   }
 };
