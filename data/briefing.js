@@ -1,8 +1,9 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-08-11 08:54:44 KST",
-  "refreshed": [
-    "us"
+  "generated_at": "2026-08-11 13:40:24 KST",
+  "refreshed": [],
+  "slots_refreshed": [
+    "kr"
   ],
   "default": "us",
   "markets": {
@@ -305,39 +306,30 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "9:10AM",
-              "price": 1472000.0,
-              "pct": 3.52,
+              "price": 1395000.0,
+              "pct": -1.76,
               "is_close": false,
-              "date": "2026-08-10",
-              "title": "장 초반 강세 출발",
-              "text": "AI 패키징 전략 강화 소식이 전해지며 장 시작과 함께 큰 폭의 상승세로 출발함"
+              "date": "2026-08-11",
+              "title": "장 초반 약세 출발",
+              "text": "개장 직후 하락세로 시작하며 전일 대비 약세권에서 거래가 이어짐"
             },
             {
               "time": "10:30AM",
-              "price": 1446000.0,
-              "pct": 1.69,
+              "price": 1403000.0,
+              "pct": -1.2,
               "is_close": false,
-              "date": "2026-08-10",
-              "title": "오전 상승폭 축소",
-              "text": "장 초반 강했던 오름세가 시간이 지나며 점차 힘을 잃고 상승폭이 눈에 띄게 줄어듦"
+              "date": "2026-08-11",
+              "title": "약세 흐름 지속",
+              "text": "소폭 반등했지만 여전히 하락권에서 벗어나지 못하며 지지부진한 흐름을 이어감"
             },
             {
               "time": "1:00PM",
-              "price": 1438000.0,
-              "pct": 1.13,
+              "price": 1437000.0,
+              "pct": 1.2,
               "is_close": false,
-              "date": "2026-08-10",
-              "title": "오후 들어 상승폭 더 줄어",
-              "text": "주주환원 관련 논란이 부각된 가운데 오후 들어서도 오름폭이 계속 축소되는 흐름"
-            },
-            {
-              "time": "마감",
-              "price": 1420000.0,
-              "pct": -0.14,
-              "is_close": true,
-              "date": "2026-08-10",
-              "title": "약보합 전환 마감",
-              "text": "장중 이어지던 상승세가 결국 꺾이며 전일 대비 소폭 하락한 채 거래를 마감함"
+              "date": "2026-08-11",
+              "title": "오후 들어 반등 성공",
+              "text": "낸드 공장 매각을 통한 HBM 투자 재원 확보 소식이 전해진 뒤 매수세가 유입되며 하락분을 만회하고 상승 전환"
             }
           ],
           "news": [
@@ -362,7 +354,8 @@ window.NOTEFOLIO_BRIEFING = {
               "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5hdGhVSndzUTd6NnRBaFRXdHlTVUVZZ1BMR3pURmh2el9kSXJ0c2Fmdk94SzJONDBZR015dXBQaWJXRTVPTHR3d0RzNjJtUGpOZVJoSi02b1g2aFVTQlkxam9Hb2x3SW8?oc=5",
               "published": "2026-08-10T18:38:48+09:00"
             }
-          ]
+          ],
+          "slot_total": 4
         },
         {
           "stock": "삼성전자",
@@ -376,39 +369,30 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "9:10AM",
-              "price": 237000.0,
-              "pct": 2.6,
+              "price": 229000.0,
+              "pct": -0.43,
               "is_close": false,
-              "date": "2026-08-10",
-              "title": "장 초반 강세 출발",
-              "text": "외국인 수급 관련 관심이 쏠린 가운데 장 시작과 함께 뚜렷한 상승세로 출발함"
+              "date": "2026-08-11",
+              "title": "장 초반 소폭 약세",
+              "text": "개장 직후 전일 대비 소폭 하락한 채로 출발하며 조심스러운 움직임을 보임"
             },
             {
               "time": "10:30AM",
-              "price": 232750.0,
-              "pct": 0.76,
+              "price": 237000.0,
+              "pct": 3.04,
               "is_close": false,
-              "date": "2026-08-10",
-              "title": "오전 상승폭 급격 축소",
-              "text": "장 초반의 강한 오름세가 오전 중 빠르게 힘을 잃으며 상승폭이 크게 줄어듦"
+              "date": "2026-08-11",
+              "title": "상승 전환 성공",
+              "text": "오전 중반 들어 매수세가 유입되며 약세를 딛고 상승세로 방향을 돌림"
             },
             {
               "time": "1:00PM",
-              "price": 231000.0,
-              "pct": 0.0,
+              "price": 241250.0,
+              "pct": 4.89,
               "is_close": false,
-              "date": "2026-08-10",
-              "title": "보합권 진입",
-              "text": "주주환원 확대 기대감에도 불구하고 상승분을 대부분 반납하며 보합 수준에 머묾"
-            },
-            {
-              "time": "마감",
-              "price": 230000.0,
-              "pct": -0.43,
-              "is_close": true,
-              "date": "2026-08-10",
-              "title": "약보합 마감",
-              "text": "오후 들어서도 반등하지 못하고 결국 전일 대비 소폭 하락한 채 거래를 마감함"
+              "date": "2026-08-11",
+              "title": "오후 강세 확대",
+              "text": "폴더블 헤리티지 전시와 게임스컴 참가 소식이 이어지며 상승폭을 하루 중 가장 크게 늘려가는 모습"
             }
           ],
           "news": [
@@ -433,7 +417,8 @@ window.NOTEFOLIO_BRIEFING = {
               "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RVlcwZF9Pc0MxTTFnMUdTQ1lXY3ZJNDBFc0lJYU11U2g2ZzFqUU85WGxlQUJDaFlOOV9Uak00cHNlQlRteTVCazZyNTRpS3lWNkpzN2RPTHVKQjEycDEzWlB3YWY?oc=5",
               "published": "2026-08-10T18:53:06+09:00"
             }
-          ]
+          ],
+          "slot_total": 4
         },
         {
           "stock": "한화에어로스페이스",
@@ -447,39 +432,30 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "9:10AM",
-              "price": 1142000.0,
-              "pct": 4.1,
+              "price": 1110000.0,
+              "pct": -3.65,
               "is_close": false,
-              "date": "2026-08-10",
-              "title": "장 초반 강세 출발",
-              "text": "방산·우주 사업 확장 기대감 속에 장 시작과 함께 큰 폭의 상승세로 출발함"
+              "date": "2026-08-11",
+              "title": "장 초반 큰 약세",
+              "text": "개장과 동시에 큰 폭으로 하락 출발하며 부담스러운 흐름을 보임"
             },
             {
               "time": "10:30AM",
-              "price": 1162000.0,
-              "pct": 5.93,
+              "price": 1114000.0,
+              "pct": -3.3,
               "is_close": false,
-              "date": "2026-08-10",
-              "title": "오전 상승폭 확대",
-              "text": "KAI 지분 확보 소식이 전해지며 오전 중 상승폭이 더욱 커지는 강세 흐름을 보임"
+              "date": "2026-08-11",
+              "title": "약세 소폭 진정",
+              "text": "낙폭을 소폭 줄였으나 여전히 큰 하락세를 벗어나지 못하는 모습을 이어감"
             },
             {
               "time": "1:00PM",
-              "price": 1153000.0,
-              "pct": 5.1,
+              "price": 1083000.0,
+              "pct": -5.99,
               "is_close": false,
-              "date": "2026-08-10",
-              "title": "오후 상승폭 소폭 축소",
-              "text": "오전 고점 대비로는 오름폭이 다소 줄었지만 여전히 강한 상승세를 유지하는 모습"
-            },
-            {
-              "time": "마감",
-              "price": 1152000.0,
-              "pct": 5.01,
-              "is_close": true,
-              "date": "2026-08-10",
-              "title": "강세 흐름 유지 마감",
-              "text": "우주·항공·방산 시너지 기대감이 이어지며 하루 종일 견조한 상승세로 거래를 마감함"
+              "date": "2026-08-11",
+              "title": "낙폭 하루 중 최대",
+              "text": "오스탈USA 인수 추진 등 대형 투자 소식에도 매수세가 붙지 않으며 낙폭이 오히려 더 커짐"
             }
           ],
           "news": [
@@ -504,7 +480,8 @@ window.NOTEFOLIO_BRIEFING = {
               "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9reXcyMjRBRm9FRGVRWVpicVFfTDFlUWFQZFhLU040ZTV4el81dU9LZk1BV2llRWlNbWtPN09acVdYZGxTOEVhZFkzYTY4V3FyTHdTOU1HMkJUb0Y2eGhqbUJhdGZmREU?oc=5",
               "published": "2026-08-10T19:08:48+09:00"
             }
-          ]
+          ],
+          "slot_total": 4
         },
         {
           "stock": "LG전자",
@@ -518,39 +495,30 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "9:10AM",
-              "price": 186500.0,
-              "pct": 0.81,
+              "price": 184100.0,
+              "pct": -3.11,
               "is_close": false,
-              "date": "2026-08-10",
-              "title": "완만한 상승 출발",
-              "text": "런던 프리미엄 TV 전시 소식이 전해진 가운데 장 초반 완만한 오름세로 출발함"
+              "date": "2026-08-11",
+              "title": "장 초반 하락 출발",
+              "text": "개장 직후 전일보다 낮은 가격에서 시작하며 약세로 하루를 열었음"
             },
             {
               "time": "10:30AM",
-              "price": 187500.0,
-              "pct": 1.35,
+              "price": 182900.0,
+              "pct": -3.74,
               "is_close": false,
-              "date": "2026-08-10",
-              "title": "오전 상승폭 확대",
-              "text": "해외 시장 공략 소식이 이어지며 오전 중 상승폭이 점차 커지는 흐름을 보임"
+              "date": "2026-08-11",
+              "title": "낙폭 소폭 확대",
+              "text": "오전 중반 들어 하락폭이 다소 커지며 저점권에서 거래가 이어짐"
             },
             {
               "time": "1:00PM",
-              "price": 188700.0,
-              "pct": 2.0,
+              "price": 183200.0,
+              "pct": -3.58,
               "is_close": false,
-              "date": "2026-08-10",
-              "title": "오후 들어 오름폭 더 커져",
-              "text": "히트펌프 등 글로벌 사업 확대 소식이 더해지며 오후 들어 상승세가 한층 강해짐"
-            },
-            {
-              "time": "마감",
-              "price": 190000.0,
-              "pct": 2.7,
-              "is_close": true,
-              "date": "2026-08-10",
-              "title": "상승폭 최대로 마감",
-              "text": "장 후반까지 매수세가 이어지며 하루 중 가장 큰 상승폭으로 거래를 마감함"
+              "date": "2026-08-11",
+              "title": "낙폭 소폭 회복",
+              "text": "보안 시험기관 자격 획득 소식이 전해진 뒤 낙폭을 조금 줄였지만 여전히 하락권을 벗어나지 못함"
             }
           ],
           "news": [
@@ -575,7 +543,8 @@ window.NOTEFOLIO_BRIEFING = {
               "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5EM2wxU296U2tKZmloWWd4U1NWb0pPeEgtVkFuQW94NkFBTGVKVXhlS1l4ZVNKQzV5VkNQQXFjXzZKd2VrYUdEcWkySHdwb1VtS0V2RmI4eGd2aU0yc2ZkU2NxTDR2OGM5cW5SaERnTzlmLTQ?oc=5",
               "published": "2026-08-10T17:22:44+09:00"
             }
-          ]
+          ],
+          "slot_total": 4
         },
         {
           "stock": "현대차",
@@ -589,39 +558,30 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "9:10AM",
-              "price": 399500.0,
-              "pct": 1.01,
+              "price": 403000.0,
+              "pct": -1.23,
               "is_close": false,
-              "date": "2026-08-10",
-              "title": "장 초반 강세 출발",
-              "text": "뚜렷한 재료 없이도 장 시작과 함께 완만한 오름세를 보이며 거래를 시작함"
+              "date": "2026-08-11",
+              "title": "장 초반 약세 출발",
+              "text": "개장 직후 전일 대비 하락한 채로 거래를 시작하며 약세를 보임"
             },
             {
               "time": "10:30AM",
-              "price": 404500.0,
-              "pct": 2.28,
+              "price": 405500.0,
+              "pct": -0.61,
               "is_close": false,
-              "date": "2026-08-10",
-              "title": "오전 상승폭 확대",
-              "text": "주차 로봇 실증 등 소식이 전해지며 오전 중 상승폭이 눈에 띄게 커지는 흐름을 보임"
+              "date": "2026-08-11",
+              "title": "낙폭 축소",
+              "text": "오전 중반 들어 하락폭을 상당 부분 줄이며 보합권에 가까운 수준까지 올라섬"
             },
             {
               "time": "1:00PM",
-              "price": 404500.0,
-              "pct": 2.28,
+              "price": 405250.0,
+              "pct": -0.67,
               "is_close": false,
-              "date": "2026-08-10",
-              "title": "오후 상승세 유지",
-              "text": "오전에 형성된 상승폭을 오후까지 그대로 유지하며 안정적인 흐름을 이어감"
-            },
-            {
-              "time": "마감",
-              "price": 408000.0,
-              "pct": 3.16,
-              "is_close": true,
-              "date": "2026-08-10",
-              "title": "상승폭 확대 마감",
-              "text": "파업 우려 등 부정적 소식에도 불구하고 장 후반 들어 오름폭이 더 커지며 마감함"
+              "date": "2026-08-11",
+              "title": "약세권서 등락",
+              "text": "인도 커넥티드카 확대와 e스포츠 대회 개최 소식이 나온 가운데 소폭 약세권에서 등락을 이어가는 중"
             }
           ],
           "news": [
@@ -646,11 +606,13 @@ window.NOTEFOLIO_BRIEFING = {
               "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5NMTdkRUdyV1EtU080ZTF1eXVLSndZV3FpemRFbHJzRUZ4TDcyOXFVdjQ4OHZKM21xcFFhUXRLSEhnU0wyTGtKUFFMallXdFE0SlQxZl9RVnpvWWkxRmNBR2RfWVQyQTVTeGlGU053?oc=5",
               "published": "2026-08-10T18:21:56+09:00"
             }
-          ]
+          ],
+          "slot_total": 4
         }
       ],
       "markdown": "briefings/2026-08-10-us-kr.md",
-      "refreshed_at": "2026-08-10 19:40:15 KST"
+      "refreshed_at": "2026-08-10 19:40:15 KST",
+      "slots_refreshed_at": "2026-08-11 13:40:24 KST"
     }
   }
 };
