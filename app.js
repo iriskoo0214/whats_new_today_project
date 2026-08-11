@@ -766,6 +766,9 @@
     document.getElementById('pfColHead').style.width = s.band + '%';
     document.getElementById('pfColMid').style.width  = s.band + '%';
     document.getElementById('pfBand').style.width    = s.band + '%';
+    // 칩 줄을 맨 위에 고정하면 뒤의 배경 두 장이 함께 따라오지 못해 밑이 비친다.
+    // 그래서 칩 줄이 같은 그림을 직접 그리는데, 그러려면 진행 컬럼 폭을 알아야 한다.
+    screenPf.style.setProperty('--band', s.band + '%');
     document.getElementById('pfPrev').disabled = (pfSlot === 0);
     document.getElementById('pfNext').disabled = (pfSlot === PF.slots.length - 1);
     applySlotTrend(s);

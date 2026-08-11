@@ -714,4 +714,30 @@
     html.doc-scroll .device[data-tab="portfolio"] .pf-top{
       position:sticky;top:0;z-index:5;
     }
+
+    /* 종목 칩 줄도 헤더 바로 밑에 붙인다 — 굴린 상태에서도 종목을 바꿀 수 있어야 한다.
+       top은 헤더 높이(116)와 같아야 딱 이어 붙는다.
+
+       칩 줄은 배경이 없다. 남색은 뒤의 .pf-col--mid(진행 컬럼), 하늘색은
+       .pf-middle__sky가 그리는데 둘 다 .pf-middle 안에 절대배치돼 있어서 함께
+       따라오지 못한다. 그래서 같은 그림을 칩 줄이 직접 그린다.
+         첫 장 — 진행 컬럼: 왼쪽부터 --band 만큼 남색, 그 뒤는 투명
+         둘째 장 — 하늘: .pf-middle__sky와 같은 그라데이션. 그 높이(181px)로
+                   늘려 깔아야 칩 줄 구간의 색이 원래와 어긋나지 않는다.
+       --band 는 app.js 의 renderPf 가 슬롯마다 갱신한다. */
+    /* .pf-middle의 overflow:hidden을 푼다. 그게 남아 있으면 칩의 sticky 기준이
+       문서가 아니라 .pf-middle이 되고(overflow가 스크롤 컨테이너를 만든다),
+       그 안에서는 굴러갈 것이 없어서 top:116px이 그냥 116px 아래로 미는 값이 된다.
+       배경 두 장은 .pf-middle 크기에 맞춰 잘려 있어 넘칠 것이 없으므로 안전하다. */
+    html.doc-scroll .device[data-tab="portfolio"] .pf-middle{overflow:visible;}
+
+    html.doc-scroll .device[data-tab="portfolio"] .pf-tabs{
+      position:sticky;top:116px;z-index:4;
+      background:
+        linear-gradient(to right,#00234a 0,#00234a var(--band,0%),
+                                 rgba(28,144,255,0) var(--band,0%)),
+        linear-gradient(180deg,#1c90ff 0%,#339bff 84.86%,#8ec8ff 100%);
+      background-size:100% 100%, 100% 181px;
+      background-repeat:no-repeat;
+    }
   }
