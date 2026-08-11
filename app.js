@@ -868,6 +868,21 @@
     if (!animate) { void tabIndicator.offsetWidth; tabIndicator.style.transition = ''; }
   }
 
+  /* 포트폴리오 탭에서는 문서 자체가 스크롤되게 한다(CSS는 .doc-scroll 로 받는다).
+
+     원래는 .screen--pf 안쪽에 overflow-y:auto 를 줘서 굴렸는데, 아이폰 사파리에서
+     그 스크롤이 아예 생기지 않았다. 화면 높이를 svh로 잡아도 마찬가지였다.
+     문서 스크롤은 브라우저가 직접 굴리는 것이라 그런 사정을 타지 않고, 굴리는
+     동안 주소창이 접히면서 세로가 60~100px 더 생기는 덤도 있다.
+
+     홈 탭은 .list-viewport 가 top/bottom 절대좌표로 자리를 잡고 있어서, 문서가
+     늘어나면 그 좌표가 무너진다. 그래서 포트폴리오일 때만 켠다. */
+  function setDocScroll(key) {
+    document.documentElement.classList.toggle('doc-scroll', key === 'portfolio');
+    // 탭을 바꿀 때 이전 탭에서 내려둔 스크롤이 남아 있으면 새 화면이 잘려 보인다
+    if (key !== 'portfolio') window.scrollTo(0, 0);
+  }
+
   document.querySelectorAll('.tab').forEach(function (tab) {
     tab.addEventListener('click', function () {
       var key = tab.dataset.tab;
@@ -876,6 +891,7 @@
       tab.classList.add('is-active');
       moveIndicator(true);
       device.dataset.tab = key;
+      setDocScroll(key);
       // 상태바 아이콘 흑/백 교체
       document.querySelectorAll('.status-icons img').forEach(function (img) {
         img.src = img.dataset[key === 'portfolio' ? 'w' : 'b'];
