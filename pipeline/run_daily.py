@@ -154,6 +154,13 @@ def main() -> int:
     for title, briefs, label in sections:
         log("핵심: " + brief.headline_line(briefs, label))
 
+    # 홈 카드가 방금 완성됐을 때만 알린다. 장중 실행(--slots-only)은 위에서
+    # 이미 돌아갔으므로 여기 오지 않는다 — 슬롯만 채운 걸로 알림을 보내면
+    # 열어봐야 어제 브리핑이 그대로 있다.
+    import notify
+    for m in payload["refreshed"]:
+        notify.send(m)
+
     return 0
 
 

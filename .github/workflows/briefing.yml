@@ -91,6 +91,10 @@ jobs:
       - name: 브리핑 생성
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # 카카오톡 알림용. 없으면 발송만 조용히 건너뛰고 브리핑은 그대로 만든다.
+          KAKAO_REST_API_KEY:  ${{ secrets.KAKAO_REST_API_KEY }}
+          KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
+          KAKAO_CLIENT_SECRET: ${{ secrets.KAKAO_CLIENT_SECRET }}
         run: |
           python pipeline/run_daily.py \
             --market ${{ steps.pick.outputs.market }} ${{ steps.pick.outputs.slots }}
