@@ -608,8 +608,15 @@
     .device[data-tab="portfolio"] .screen--pf{
       display:flex;flex-direction:column;
       overflow-y:auto;overflow-x:hidden;
-      /* 마지막 카드가 탭바 밑에 깔리지 않게 자리를 비워둔다 */
-      padding-bottom:calc(84px + env(safe-area-inset-bottom,0px));
+      -webkit-overflow-scrolling:touch;
+      /* 세로 스크롤이 끝에 닿아도 사파리 페이지 전체로 넘어가지 않게. 넘어가면
+         고무줄만 늘어나고 정작 카드는 안 올라온다. */
+      overscroll-behavior-y:contain;
+      /* 마지막 카드가 탭바 밑에 깔리지 않게 자리를 비워둔다.
+         탭바 실측에서 뽑는다 — 바닥에서 8px 띄운 68px짜리라 76px을 먹고,
+         거기에 카드와의 간격 16px을 더한다. 84px일 때는 여유가 8px뿐이라
+         카드가 탭바에 닿아 잘린 것처럼 보였다. */
+      padding-bottom:calc(8px + 68px + 16px + env(safe-area-inset-bottom,0px));
     }
 
     .pf-top{position:relative;flex:0 0 116px;height:116px;}  /* 160 - 상태바 44 */
