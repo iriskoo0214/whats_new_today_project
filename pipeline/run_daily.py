@@ -51,13 +51,20 @@ def main() -> int:
                         help="갱신할 시장 (기본 auto: 오전이면 us, 오후면 kr)")
     parser.add_argument("--summarizer", choices=["auto", "llm", "rule"], default="auto",
                         help="카드 문구 생성 방식 (기본 auto: API 키가 있으면 llm)")
+    parser.add_argument("--slots-only", action="store_true",
+                        help="장중 실행. 마감 브리핑은 그대로 두고 시간대별 슬롯만 갱신한다")
     args = parser.parse_args()
 
     ensure_dirs()
     now = datetime.now(KST)
     targets = resolve_markets(args.market, now)
-    log("브리핑 생성 시작 — {} / 대상 시장: {}".format(
-        now.strftime("%Y-%m-%d %H:%M:%S %Z"), ", ".join(targets)))
+    log("브리핑 생성 시작 — {} / 대상 시장: {}{}".format(
+        now.strftime("%Y-%m-%d %H:%M:%S %Z"), ", ".join(targets),
+        " / 슬롯만 갱신" if args.slots_only else ""))
+
+    if args.slots_only and not INTRADAY_ENABLED:
+        log("INTRADAY_ENABLED가 꺼져 있습니다. 갱신할 슬롯이 없어 종료합니다.")
+        return 0
 
     holdings = load_holdings()
     kr_h, us_h = split_by_market(holdings)
@@ -87,7 +94,9 @@ def main() -> int:
 
     all_briefs = [b for m in targets for b in briefs_by_market[m]]
 
-    if args.summarizer != "rule":
+    # 장중 실행은 홈 카드 문구를 건드리지 않는다. 어차피 emit에서 버려질 문구를
+    # 만드느라 실행마다 API를 부르는 셈이 된다.
+    if args.summarizer != "rule" and not args.slots_only:
         import summarize
         log("카드 문구 요약 중…")
         done = summarize.apply(all_briefs)
@@ -114,16 +123,30 @@ def main() -> int:
     sections = [(SECTION_TITLE[m], briefs_by_market[m], SECTION_LABEL[m])
                 for m in targets if briefs_by_market[m]]
 
-    md = brief.build_markdown(sections, now)
-    md_path = BRIEFINGS_DIR / "{}-{}.md".format(
-        now.strftime("%Y-%m-%d"), "-".join(targets))
-    md_path.write_text(md, encoding="utf-8")
-    log("마크다운 브리핑 저장 — {}".format(md_path))
+    # 장중 실행은 마크다운을 쓰지 않는다. 반쪽짜리 하루로 그날 브리핑 문서를
+    # 덮어쓰면, 저녁 마감 실행 전까지 남는 기록이 장중 스냅샷이 된다.
+    markdown_path = ""
+    if not args.slots_only:
+        md = brief.build_markdown(sections, now)
+        md_path = BRIEFINGS_DIR / "{}-{}.md".format(
+            now.strftime("%Y-%m-%d"), "-".join(targets))
+        md_path.write_text(md, encoding="utf-8")
+        markdown_path = "briefings/{}".format(md_path.name)
+        log("마크다운 브리핑 저장 — {}".format(md_path))
 
     payload = emit.build_payload(
         briefs_by_market, now,
-        markdown_path="briefings/{}".format(md_path.name))
+        markdown_path=markdown_path, slots_only=args.slots_only)
     emit.write(payload)
+
+    if args.slots_only:
+        log("프로토타입 데이터 저장 — 슬롯 갱신 {} / 마감 브리핑은 그대로".format(
+            payload["slots_refreshed"]))
+        for m in payload["slots_refreshed"]:
+            counts = [len(c.get("slots") or []) for c in payload["markets"][m]["cards"]]
+            log("{} 시점 수 — 종목당 {}".format(SECTION_LABEL[m], counts))
+        return 0
+
     log("프로토타입 데이터 저장 — 갱신 {} / 보존 {}".format(
         payload["refreshed"],
         [k for k in payload["markets"] if k not in payload["refreshed"]]))

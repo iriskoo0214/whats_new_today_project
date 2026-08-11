@@ -114,19 +114,59 @@ def _load_previous() -> dict:
         return {}
 
 
+def _merge_slots(prev_market: dict, briefs: List[StockBrief], now: datetime) -> dict:
+    """직전 마감 브리핑은 그대로 두고 시간대별 슬롯만 갈아끼운다.
+
+    장중 실행이 쓰는 길이다. 홈 탭은 하루 두 번 마감 브리핑만 보여주기로 돼 있어서
+    (config.INTRADAY_ENABLED 옆 설명) 장중에 카드 제목·본문·헤드라인·라벨까지
+    덮어쓰면 오전 10시에 '한국 증시 요약 10:40AM'이 마감 요약 자리에 앉는다.
+    그래서 여기서는 Portfolios 탭이 읽는 slots만 건드린다.
+
+    슬롯을 못 받은 종목은 직전 것을 남긴다 — 비우는 것보다 낫다.
+    """
+    fresh = {b.quote.ticker: b for b in briefs if getattr(b, "slots", None)}
+    if not fresh:
+        return prev_market
+
+    market = dict(prev_market)
+    cards = []
+    for card in market.get("cards") or []:
+        b = fresh.get(card.get("ticker"))
+        if b is None:
+            cards.append(card)
+            continue
+        card = dict(card)
+        card["slots"] = _slots_payload(b)
+        card["slot_total"] = _slot_total(b.holding)
+        cards.append(card)
+    market["cards"] = cards
+    market["slots_refreshed_at"] = now.strftime("%Y-%m-%d %H:%M:%S %Z")
+    return market
+
+
 def build_payload(briefs_by_market: Dict[str, List[StockBrief]],
-                  now: datetime, markdown_path: str = "") -> dict:
+                  now: datetime, markdown_path: str = "",
+                  slots_only: bool = False) -> dict:
     """이번 실행이 맡은 시장만 새로 쓰고, 나머지 시장은 직전 것을 그대로 둔다.
 
     오전 7시 실행은 미국만, 오후 6시 실행은 한국만 갱신한다. 그래도 프로토타입의
     시장 전환 버튼이 살아 있어야 하므로 반대편 시장은 지우지 않고 남긴다.
+
+    slots_only면 마감 브리핑은 손대지 않고 시간대별 슬롯만 갱신한다. 장중에 도는
+    실행이 여기에 해당한다. refreshed에도 넣지 않는다 — 그 목록이 default 시장을
+    정하는데, 장중 슬롯 갱신 때문에 홈 탭이 국내로 뒤집히면 안 된다.
     """
     previous = _load_previous()
     markets = dict(previous.get("markets") or {})
 
-    refreshed = []
+    refreshed, slots_refreshed = [], []
     for key, briefs in briefs_by_market.items():
         if not briefs:
+            continue
+        # 직전 산출물이 없으면 슬롯만 갈아끼울 대상도 없다. 통째로 쓴다.
+        if slots_only and markets.get(key):
+            markets[key] = _merge_slots(markets[key], briefs, now)
+            slots_refreshed.append(key)
             continue
         payload = _market_payload(key, briefs, now)
         payload["markdown"] = markdown_path
@@ -142,6 +182,7 @@ def build_payload(briefs_by_market: Dict[str, List[StockBrief]],
     return {
         "generated_at": now.strftime("%Y-%m-%d %H:%M:%S %Z"),
         "refreshed": refreshed,
+        "slots_refreshed": slots_refreshed,
         "default": default,
         "markets": markets,
     }

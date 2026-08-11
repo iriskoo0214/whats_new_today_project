@@ -10,6 +10,9 @@
 | 오전 7:00 | `--market us` | 밤사이 끝난 미국 증시 마감 + 해외 종목 뉴스 |
 | 오후 6:00 | `--market kr` | 그날 끝난 한국 증시 마감 + 국내 종목 뉴스 |
 
+여기에 더해 국내 장중에는 `--market kr --slots-only`가 세 번 더 돈다. 마감 브리핑은
+건드리지 않고 Portfolios 탭의 시간대별 슬롯만 채운다 → [장중 갱신](#장중-갱신)
+
 ```
 보유 종목 (data/portfolio.json)
       ↓
@@ -55,20 +58,47 @@ index.html + styles.css + app.js
 
 ## 자동 실행
 
-**GitHub Actions**가 하루 두 번 돌린다 (`.github/workflows/briefing.yml`).
+**GitHub Actions**가 돌린다 (`.github/workflows/briefing.yml`).
 결과를 저장소에 커밋하면 Vercel이 감지해 자동 재배포한다. 맥이 꺼져 있어도 돌아간다.
 
 ```
-22:00 UTC = 07:00 KST → --market us
-09:00 UTC = 18:00 KST → --market kr
+마감 브리핑 — 홈 탭 + 포트폴리오 탭 전체
+  22:00 UTC = 07:00 KST → --market us
+  09:00 UTC = 18:00 KST → --market kr
+
+장중 갱신 — 포트폴리오 탭 슬롯만 (평일)
+  00:20 UTC = 09:20 KST → --market kr --slots-only
+  01:40 UTC = 10:40 KST → --market kr --slots-only
+  04:10 UTC = 13:10 KST → --market kr --slots-only
 ```
 
 - **API 키**는 저장소 Settings → Secrets and variables → Actions 의 `ANTHROPIC_API_KEY`
-- Actions 탭에서 **Run workflow**로 즉시 실행할 수 있다
-- cron은 정시를 보장하지 않는다. 수 분~수십 분 늦게 도는 일이 흔하다
+- Actions 탭에서 **Run workflow**로 즉시 실행할 수 있다 (슬롯만 갱신하는 체크박스도 있다)
+- cron은 정시를 보장하지 않는다. **실측으로 1~2시간 반까지 밀린다.**
+  위 시각은 "이보다 이르지는 않다"는 뜻으로 읽어야 한다
 
 로컬 launchd 스케줄은 Actions로 옮기면서 해제했다. 되돌리려면
 `~/Library/LaunchAgents/disabled-notefolio/`의 plist를 원래 자리로 옮기고 `bootstrap` 한다.
+
+### 장중 갱신
+
+국내 슬롯은 9:10 / 10:30 / 1:00 / 마감 네 개인데, 마감 실행 한 번으로는 저녁까지
+포트폴리오 탭이 전 거래일에 머문다. 그래서 장중에도 세 번 돌려 지나간 시점을 채운다.
+
+**`--slots-only`는 마감 브리핑을 건드리지 않는다.** 홈 탭은 하루 두 번 마감 브리핑만
+쓰기로 돼 있어서(`config.INTRADAY_ENABLED` 옆 설명), 장중 실행이 카드 제목·본문·헤드라인
+까지 덮어쓰면 오전 10시에 "한국 증시 요약 10:40AM"이 마감 요약 자리에 앉는다.
+`emit._merge_slots`가 직전 산출물의 카드에서 `slots`만 갈아끼우고 나머지는 그대로 둔다.
+`refreshed`에도 넣지 않는다 — 그 목록이 `default` 시장을 정하는데, 슬롯 갱신 때문에
+홈 탭이 국내로 뒤집히면 안 된다.
+
+같은 이유로 마크다운 브리핑도 쓰지 않는다. 반쪽짜리 하루로 그날 문서를 덮어쓰면
+저녁 마감 실행 전까지 남는 기록이 장중 스냅샷이 된다.
+
+**실행이 밀리거나 하나 걸러 실패해도 된다.** 각 실행이 그날 5분봉을 통째로 받아
+지나간 시점을 처음부터 다시 다 뽑기 때문에, 다음 실행이 빠진 슬롯을 알아서 메운다.
+아직 오지 않은 시각은 빠진 채로 나오고, 진행 바는 있는 슬롯 수가 아니라 그 시장의
+하루 슬롯 수(`slot_total`, 국내 4)로 나눠서 3/4까지만 찬다.
 
 ## 직접 실행
 
@@ -80,6 +110,9 @@ bash pipeline/setup_key.sh                      # API 키 저장 (~/.config/note
 .venv/bin/python pipeline/run_daily.py --market kr    # 한국만
 .venv/bin/python pipeline/run_daily.py --market all   # 둘 다
 .venv/bin/python pipeline/run_daily.py                # auto — 정오 전이면 us, 후면 kr
+
+# 장중 — 마감 브리핑은 그대로 두고 시간대별 슬롯만 갱신
+.venv/bin/python pipeline/run_daily.py --market kr --slots-only
 ```
 
 `--summarizer rule`을 붙이면 API를 쓰지 않고 규칙 기반(헤드라인 나열)으로만 만든다.
