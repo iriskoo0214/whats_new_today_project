@@ -1,11 +1,11 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-08-11 13:40:24 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-08-11 19:30:06 KST",
+  "refreshed": [
     "kr"
   ],
-  "default": "us",
+  "slots_refreshed": [],
+  "default": "kr",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
@@ -278,7 +278,7 @@ window.NOTEFOLIO_BRIEFING = {
     },
     "kr": {
       "icon": "assets/moon.svg",
-      "label": "한국 증시 요약 2026. 8. 10. 7:40PM",
+      "label": "한국 증시 요약 2026. 8. 11. 7:30PM",
       "chips": [
         "전체",
         "SK하이닉스",
@@ -292,17 +292,17 @@ window.NOTEFOLIO_BRIEFING = {
         "다시 찾아올게요."
       ],
       "next": "us",
-      "headline": "국내 5종목 중 3종목 상승, 2종목 하락 — 한화에어로스페이스가 +5.01%로 가장 많이 올랐고 삼성전자가 -0.43%로 가장 부진했습니다.",
+      "headline": "국내 5종목 중 2종목 상승, 3종목 하락 — 삼성전자가 +4.13%로 가장 많이 올랐고 한화에어로스페이스가 -4.69%로 가장 부진했습니다.",
       "cards": [
         {
           "stock": "SK하이닉스",
           "ticker": "000660",
-          "title": "SK하이닉스 - 中공장 매각 검토 속 보합",
-          "body": "중국 공장 매각 등 다각도 검토로 AI 패키징 전략 강화 속도를 내는 가운데, 배당 규모를 둘러싼 주주 불만도 함께 제기. -0.14% 내린 <b>1,420,000원</b> 마감.",
-          "pct": -0.14,
-          "price": 1420000.0,
+          "title": "SK하이닉스 - 키옥시아 최대주주 등극",
+          "body": "투자 SPC가 키옥시아 최대주주에 오르고 주주환원 규모가 40조원에 달할 것이란 전망이 나오며 강세. +0.35% 오른 <b>1,425,000원</b> 마감.",
+          "pct": 0.35,
+          "price": 1425000.0,
           "currency": "KRW",
-          "as_of": "2026-08-10",
+          "as_of": "2026-08-11",
           "slots": [
             {
               "time": "9:10AM",
@@ -311,7 +311,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-11",
               "title": "장 초반 약세 출발",
-              "text": "개장 직후 하락세로 시작하며 전일 대비 약세권에서 거래가 이어짐"
+              "text": "개장 직후 매물이 나오며 하락 출발했고 낙폭이 하루 중 가장 큰 구간에 머묾"
             },
             {
               "time": "10:30AM",
@@ -319,8 +319,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.2,
               "is_close": false,
               "date": "2026-08-11",
-              "title": "약세 흐름 지속",
-              "text": "소폭 반등했지만 여전히 하락권에서 벗어나지 못하며 지지부진한 흐름을 이어감"
+              "title": "낙폭 소폭 축소",
+              "text": "오전 내내 이어지던 약세에서 하락폭을 조금씩 줄이며 저점을 서서히 벗어나는 모습"
             },
             {
               "time": "1:00PM",
@@ -328,44 +328,53 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.2,
               "is_close": false,
               "date": "2026-08-11",
-              "title": "오후 들어 반등 성공",
-              "text": "낸드 공장 매각을 통한 HBM 투자 재원 확보 소식이 전해진 뒤 매수세가 유입되며 하락분을 만회하고 상승 전환"
+              "title": "오후 들어 상승 전환",
+              "text": "점심 지나며 매수세가 유입돼 하락에서 상승으로 방향을 완전히 틀어 하루 고점권 형성"
+            },
+            {
+              "time": "마감",
+              "price": 1425000.0,
+              "pct": 0.35,
+              "is_close": true,
+              "date": "2026-08-11",
+              "title": "상승폭 일부 반납 마감",
+              "text": "오후 고점 대비 상승폭을 다소 줄였으나 결국 전일 대비 오름세를 지키며 하루를 마감"
             }
           ],
+          "slot_total": 4,
           "news": [
             {
-              "title": "SK하닉 \"中공장 매각 등 다각도 검토\"… AI 패키징 전략 강화 속도",
-              "original": "SK하닉 \"中공장 매각 등 다각도 검토\"… AI 패키징 전략 강화 속도",
-              "source": "v.daum.net",
-              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9TNG9ZVlpSR1JFTnhjQnNuQ1hnd0tzTjJkNVZzSVhlSVk1al80NzR4d1hyU005R192WHY2R01aRlBjc1pJeElPRU9oM09jREE?oc=5",
-              "published": "2026-08-10T18:48:09+09:00"
+              "title": "SK하이닉스 투자 SPC, 키옥시아 최대주주로",
+              "original": "SK하이닉스 투자 SPC, 키옥시아 최대주주로",
+              "source": "아이뉴스24",
+              "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE80em1femhIVEx1aTZTcFhzaWtZODB3Y1lrenRjRklidjdBaWlZc04ycDc2XzJtcVptRDgzS2NtMVI4VUVlX18wS1VPR00?oc=5",
+              "published": "2026-08-11T19:01:43+09:00"
             },
             {
-              "title": "[집중진단] '쥐꼬리 배당'에 뿔난 SK하이닉스 주주들…삼전닉스 역대급 주주환원 터지나?",
-              "original": "[집중진단] '쥐꼬리 배당'에 뿔난 SK하이닉스 주주들…삼전닉스 역대급 주주환원 터지나?",
-              "source": "v.daum.net",
-              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1HMDUyRXpIb3IxWnE5SmlpYWZfUkNGOXlDcHFZTy1nS2o3Y19vNEtJeU9jbVdlMnZjN1hiTktmczVyY3BTQlFjai05S25rcmM?oc=5",
-              "published": "2026-08-10T18:40:10+09:00"
+              "title": "\"SK하이닉스, 추가 주주환원 규모 40조 달할 것\"-미래에셋證",
+              "original": "\"SK하이닉스, 추가 주주환원 규모 40조 달할 것\"-미래에셋證",
+              "source": "베타뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAtWGdHLWt5RTBzOXZRTUZHTHJlQXZaemNuMmozSzJ3R213LTFMOHVyMEd6MjdzejJzRktvX09ObnhFMlE3dmdGQ1BVZ2R2andTWnJtTE1nUnVCOTZhNU0zeFpTbEM?oc=5",
+              "published": "2026-08-11T19:00:05+09:00"
             },
             {
-              "title": "충북도·충북교육청·SK하이닉스 등 6개 기관, ‘청소년 AI 심리상담 사업’ 추진 위해 맞손",
-              "original": "충북도·충북교육청·SK하이닉스 등 6개 기관, ‘청소년 AI 심리상담 사업’ 추진 위해 맞손",
-              "source": "hkilbo.kr",
-              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5hdGhVSndzUTd6NnRBaFRXdHlTVUVZZ1BMR3pURmh2el9kSXJ0c2Fmdk94SzJONDBZR015dXBQaWJXRTVPTHR3d0RzNjJtUGpOZVJoSi02b1g2aFVTQlkxam9Hb2x3SW8?oc=5",
-              "published": "2026-08-10T18:38:48+09:00"
+              "title": "인사말하는 곽노정 SK하이닉스 CEO",
+              "original": "인사말하는 곽노정 SK하이닉스 CEO",
+              "source": "데일리안",
+              "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQNVhjcm1jZkZfeWR1VlNVS3pCa0NSRnNDWDUwWm5PX1FlYk1SblF0aU5nN0xJc1BaLXRNNksxYlZfRXFQY0FjSjcwSUUzY2JWbDBQR0U4S3VYclhyWXFSRnpwX3VmNWpOSWlGWm5nOFdTUll1N2ZSZmNjZW1zOFlBeDdiOG8wcEJMVy10VW5Fb1VFU1JQMl95Z0JQNmlKNGRjWG9OdFFicG1uNWZ6ZGxleDVhY1ZzV29ZUS11T2c3VkpCR2tkdWI1VHNRRWxpbWFBaGZBOVVNRlU4aUUxcmdpaEJIYk5HNGxPYk5mb2E2NzgxOFQ4ZU5uRA?oc=5",
+              "published": "2026-08-11T18:34:00+09:00"
             }
-          ],
-          "slot_total": 4
+          ]
         },
         {
           "stock": "삼성전자",
           "ticker": "005930",
-          "title": "삼성전자 - 200조 주주환원 기대 부각",
-          "body": "외국인 1조원대 순매도가 나온 가운데도 최대 200조원 규모 주주환원 기대감이 재평가 신호로 부각되며 증권가 긍정 평가 제시. -0.43% 내린 <b>230,000원</b> 마감.",
-          "pct": -0.43,
-          "price": 230000.0,
+          "title": "삼성전자 - 코스피 강세 속 4%대 급등",
+          "body": "TSMC 독주 속 인텔과 파운드리 2위 다툼이 부각된 가운데 코스피·코스닥 동반 상승에 힘입어 급등. +4.13% 오른 <b>239,500원</b> 마감.",
+          "pct": 4.13,
+          "price": 239500.0,
           "currency": "KRW",
-          "as_of": "2026-08-10",
+          "as_of": "2026-08-11",
           "slots": [
             {
               "time": "9:10AM",
@@ -374,7 +383,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-11",
               "title": "장 초반 소폭 약세",
-              "text": "개장 직후 전일 대비 소폭 하락한 채로 출발하며 조심스러운 움직임을 보임"
+              "text": "개장 직후 잠시 밀리며 약보합으로 출발했으나 낙폭은 크지 않은 수준에 머묾"
             },
             {
               "time": "10:30AM",
@@ -382,8 +391,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 3.04,
               "is_close": false,
               "date": "2026-08-11",
-              "title": "상승 전환 성공",
-              "text": "오전 중반 들어 매수세가 유입되며 약세를 딛고 상승세로 방향을 돌림"
+              "title": "오전 급등 전환",
+              "text": "코스피 동반 상승 흐름 속에 매수세가 강하게 유입되며 상승 전환에 성공함"
             },
             {
               "time": "1:00PM",
@@ -391,44 +400,53 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 4.89,
               "is_close": false,
               "date": "2026-08-11",
-              "title": "오후 강세 확대",
-              "text": "폴더블 헤리티지 전시와 게임스컴 참가 소식이 이어지며 상승폭을 하루 중 가장 크게 늘려가는 모습"
+              "title": "오후 들어 상승폭 확대",
+              "text": "점심 이후 파운드리 경쟁 관련 소식이 전해지는 가운데 상승폭을 더 키우며 하루 고점 형성"
+            },
+            {
+              "time": "마감",
+              "price": 239500.0,
+              "pct": 4.13,
+              "is_close": true,
+              "date": "2026-08-11",
+              "title": "상승폭 일부 반납 마감",
+              "text": "장중 고점보다는 낮아졌지만 4%대 강세를 유지하며 이틀째 상승 흐름으로 마무리"
             }
           ],
+          "slot_total": 4,
           "news": [
             {
-              "title": "[수급분석] 삼성전자 1조 던진 외국인… 그들이 몰래 쓸어 담은 '이 종목'은? (2026.08.10)",
-              "original": "[수급분석] 삼성전자 1조 던진 외국인… 그들이 몰래 쓸어 담은 '이 종목'은? (2026.08.10)",
-              "source": "네이버 프리미엄콘텐츠",
-              "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQ3dUTU00R0ZDQTkzWEFIZjFjZGtvTUs1MEpmSmRtcXBJLXlYOHZyMHRxeF95UVRXTm1yWUduT2ZIRTNRN0tKNklfWHpDdTZlcVRicHpuMmhhb3RHWkNiSXA1TVhKNU1DaG85Rlo5V0dBeUZNV1F6NFV5dXFtTUxqT1liYXJJanJNOVE?oc=5",
-              "published": "2026-08-10T19:27:00+09:00"
+              "title": "TSMC 독주 속… 삼성-인텔, 파운드리 ‘2위 다툼’",
+              "original": "TSMC 독주 속… 삼성-인텔, 파운드리 ‘2위 다툼’",
+              "source": "v.daum.net",
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBNeUFUaVJ3YWRIZ0VERkhxTkQ3S3JPYWxBbnpjelN1bGdZbFE1cjBPTV9fclhWcWppcHB0bW5nbWJoYkZNUGJQNl9CNnhqbFU?oc=5",
+              "published": "2026-08-11T18:45:30+09:00"
             },
             {
-              "title": "반도체 특수 누린 삼성E&A…첨단산업 수주 늘고 추가 확대 기대",
-              "original": "반도체 특수 누린 삼성E&A…첨단산업 수주 늘고 추가 확대 기대",
-              "source": "아시아투데이",
-              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBwdVVNa3ZVRFpXQkJSNUNWblhQQUxjQ2VpSWRpa1Y0QzlpMWZGT1JtUmFNUlBkTkMwX050emd2QmFmRjE2aFFqYUs0ekNjLUlySlo0U2w3ZEtTdzVuZG1RYkU3SGhERmJ6cWwzbDRR?oc=5",
-              "published": "2026-08-10T19:15:31+09:00"
+              "title": "실외기 하나로 냉·난방… 삼성, 제주서 히트펌프 시대 연다 [르포]",
+              "original": "실외기 하나로 냉·난방… 삼성, 제주서 히트펌프 시대 연다 [르포]",
+              "source": "v.daum.net",
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jUVgzelRRT19NWnk5Ym1GTjUzVDVDdlNKS0R1bG5ZOXBHdEl5bTVnYnlCbDlOLVZZZmVjSXFZUGl0MGQtRFp6MnFKWlV4V1k?oc=5",
+              "published": "2026-08-11T18:11:11+09:00"
             },
             {
-              "title": "\"삼성전자, 주주환원 규모 최대 200조...주가 재평가 강력한 신호탄\"-KB證",
-              "original": "\"삼성전자, 주주환원 규모 최대 200조...주가 재평가 강력한 신호탄\"-KB證",
-              "source": "베타뉴스",
-              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RVlcwZF9Pc0MxTTFnMUdTQ1lXY3ZJNDBFc0lJYU11U2g2ZzFqUU85WGxlQUJDaFlOOV9Uak00cHNlQlRteTVCazZyNTRpS3lWNkpzN2RPTHVKQjEycDEzWlB3YWY?oc=5",
-              "published": "2026-08-10T18:53:06+09:00"
+              "title": "코스피·코스닥 이틀째 동반 상승…삼성전자 4%대 급등",
+              "original": "코스피·코스닥 이틀째 동반 상승…삼성전자 4%대 급등",
+              "source": "v.daum.net",
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5hYnZpMzVBa2ZiRHNJeGJMelVIODNTOXlLQnltcF9IZHVDUDJwTkQyZlZSN1ZwSmx2M2xqcDhqZGI1VHdxcjVuX3FMWGRKb2s?oc=5",
+              "published": "2026-08-11T18:10:11+09:00"
             }
-          ],
-          "slot_total": 4
+          ]
         },
         {
           "stock": "한화에어로스페이스",
           "ticker": "012450",
-          "title": "한화에어로스페이스 - KAI 지분 15% 확보",
-          "body": "KAI 지분 15.89% 확보로 우주·항공·방산 시너지 극대화를 겨냥한 기업결합심사 신청 소식에 투자심리 개선, 통합 전략 속도감 부각. +5.01% 오른 <b>1,152,000원</b> 마감.",
-          "pct": 5.01,
-          "price": 1152000.0,
+          "title": "한화에어로스페이스 - 차익실현 속 4%대 하락",
+          "body": "한화그룹이 KAI 지분 15%를 넘기며 우주항공 영향력을 확대했으나 보은 화약사업장 안전점검 이슈 속 하락. -4.69% 내린 <b>1,098,000원</b> 마감.",
+          "pct": -4.69,
+          "price": 1098000.0,
           "currency": "KRW",
-          "as_of": "2026-08-10",
+          "as_of": "2026-08-11",
           "slots": [
             {
               "time": "9:10AM",
@@ -436,8 +454,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.65,
               "is_close": false,
               "date": "2026-08-11",
-              "title": "장 초반 큰 약세",
-              "text": "개장과 동시에 큰 폭으로 하락 출발하며 부담스러운 흐름을 보임"
+              "title": "장 초반 큰 폭 약세",
+              "text": "개장부터 매도세가 몰리며 큰 폭의 하락으로 출발해 약세 흐름이 뚜렷하게 나타남"
             },
             {
               "time": "10:30AM",
@@ -445,8 +463,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.3,
               "is_close": false,
               "date": "2026-08-11",
-              "title": "약세 소폭 진정",
-              "text": "낙폭을 소폭 줄였으나 여전히 큰 하락세를 벗어나지 못하는 모습을 이어감"
+              "title": "낙폭 유지 흐름",
+              "text": "오전 중반까지도 하락세가 이어지며 좀처럼 낙폭을 줄이지 못하는 모습이 계속됨"
             },
             {
               "time": "1:00PM",
@@ -454,44 +472,53 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -5.99,
               "is_close": false,
               "date": "2026-08-11",
-              "title": "낙폭 하루 중 최대",
-              "text": "오스탈USA 인수 추진 등 대형 투자 소식에도 매수세가 붙지 않으며 낙폭이 오히려 더 커짐"
+              "title": "오후 낙폭 확대",
+              "text": "점심 이후 매도 압력이 더 거세지며 하루 중 가장 큰 하락폭을 기록하는 국면 진입"
+            },
+            {
+              "time": "마감",
+              "price": 1098000.0,
+              "pct": -4.69,
+              "is_close": true,
+              "date": "2026-08-11",
+              "title": "낙폭 일부 축소 마감",
+              "text": "장중 최저점보다는 다소 반등했으나 여전히 큰 폭의 하락세로 하루를 마무리함"
             }
           ],
+          "slot_total": 4,
           "news": [
             {
-              "title": "한화, 투자넘어 사업적 결합… ‘육·해·공·우주’ 통합 전략 속도",
-              "original": "한화, 투자넘어 사업적 결합… ‘육·해·공·우주’ 통합 전략 속도",
-              "source": "아시아투데이",
-              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAxTUUtbnNMRVZuenF0Qmw3RmxpQVRETTNuNU91NVlnc2FMRFBqSnVZUWZTbDhQRjVEQjBReGlDcmU4OURUWW9ZS29lNVg4MTNSZ0hNWVNzc3NlZ1F6b2dxWmQ2YlFIbG9NRVE3NnV3?oc=5",
-              "published": "2026-08-10T19:26:09+09:00"
+              "title": "한화그룹, KAI 지분 15% 돌파",
+              "original": "한화그룹, KAI 지분 15% 돌파",
+              "source": "v.daum.net",
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1EY3lKZmNDTm9aenR5LUxuYnVheV9ZdFp6azNkRlBUN3pZQ1F2VlMxc1A4ZTAyMTlqYzlob1dIalBMM2dDWEotSjYzOEppbTQ?oc=5",
+              "published": "2026-08-11T19:00:16+09:00"
             },
             {
-              "title": "김동관의 한화, KAI 지분 15% 넘기며 '우주·항공·방산 시너지' 극대화 정조준",
-              "original": "김동관의 한화, KAI 지분 15% 넘기며 '우주·항공·방산 시너지' 극대화 정조준",
-              "source": "파이낸셜포스트",
-              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9MdDZvWVFaYlBKT3kyS0pyaEhMaTF3Szktc2R4QlNTQzY1SzVNNG9WR01Ic1Jzd0h6RVo3aDNyWURUeDFSa2JnR2Z3UmxJeVEyVTVtQXh5dWt3UkJaeUtwV2tUWXZsR3FXTnB4YWc3NlIzVDFf?oc=5",
-              "published": "2026-08-10T19:20:16+09:00"
+              "title": "한양대 우주공학과, 우주 분야 30여 기관 잇는 ‘ERICA-SPACE’ 출범",
+              "original": "한양대 우주공학과, 우주 분야 30여 기관 잇는 ‘ERICA-SPACE’ 출범",
+              "source": "매일일보",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBWLTJkbHliZ1BiSzlKM2RSSFFkOUR1RHctUDNqajV4RVcteGczV2xMS1NMZlF6aXZIN015YTFDZFkxdnhJZUticFd3OTRpRVJDc0NveDFiSVN0dWNFQzRRUktsQVY?oc=5",
+              "published": "2026-08-11T18:44:02+09:00"
             },
             {
-              "title": "한화, KAI 지분 15.89% 확보…기업결합심사 신청 예정",
-              "original": "한화, KAI 지분 15.89% 확보…기업결합심사 신청 예정",
-              "source": "서울STV뉴스",
-              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9reXcyMjRBRm9FRGVRWVpicVFfTDFlUWFQZFhLU040ZTV4el81dU9LZk1BV2llRWlNbWtPN09acVdYZGxTOEVhZFkzYTY4V3FyTHdTOU1HMkJUb0Y2eGhqbUJhdGZmREU?oc=5",
-              "published": "2026-08-10T19:08:48+09:00"
+              "title": "보은 군용화약류 사업장 66곳 긴급 안전점검",
+              "original": "보은 군용화약류 사업장 66곳 긴급 안전점검",
+              "source": "충청매일",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1nUmFlNDdEXzRpY0NKUXBVT3lpMkdSRkVOcnFxQWo2Z1hSamdRa1BnRHhNX2JBSXdKRW9rTldkNlJsX1VZd3I5dnJqTWxNZEJEUlA4RlVkTHhneWNzYUttWE4xclI5b19oWmc?oc=5",
+              "published": "2026-08-11T18:35:07+09:00"
             }
-          ],
-          "slot_total": 4
+          ]
         },
         {
           "stock": "LG전자",
           "ticker": "066570",
-          "title": "LG전자 - 英 프리미엄 시장 공략",
-          "body": "런던 해러즈에서 올레드 W6와 무선 월페이퍼 TV를 공개해 영국 프리미엄 TV 시장 공략에 나섰고, 히트펌프로 유럽 시장도 동시 확대. +2.70% 오른 <b>190,000원</b> 마감.",
-          "pct": 2.7,
-          "price": 190000.0,
+          "title": "LG전자 - 브라질 신공장 가동에도 하락",
+          "body": "4100억원 투입한 브라질 냉장고 신공장 양산 돌입과 유럽 보안인증 획득 소식에도 주가는 4%대 하락. -4.37% 내린 <b>181,700원</b> 마감.",
+          "pct": -4.37,
+          "price": 181700.0,
           "currency": "KRW",
-          "as_of": "2026-08-10",
+          "as_of": "2026-08-11",
           "slots": [
             {
               "time": "9:10AM",
@@ -499,8 +526,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.11,
               "is_close": false,
               "date": "2026-08-11",
-              "title": "장 초반 하락 출발",
-              "text": "개장 직후 전일보다 낮은 가격에서 시작하며 약세로 하루를 열었음"
+              "title": "장 초반 약세 출발",
+              "text": "개장과 동시에 매물이 쏟아지며 하락 출발했고 약세 흐름이 곧바로 이어짐"
             },
             {
               "time": "10:30AM",
@@ -508,8 +535,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.74,
               "is_close": false,
               "date": "2026-08-11",
-              "title": "낙폭 소폭 확대",
-              "text": "오전 중반 들어 하락폭이 다소 커지며 저점권에서 거래가 이어짐"
+              "title": "낙폭 확대 흐름",
+              "text": "오전 중반 들어 하락폭이 더 커지며 하루 중 가장 낮은 수준까지 밀리는 모습"
             },
             {
               "time": "1:00PM",
@@ -517,44 +544,53 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.58,
               "is_close": false,
               "date": "2026-08-11",
-              "title": "낙폭 소폭 회복",
-              "text": "보안 시험기관 자격 획득 소식이 전해진 뒤 낙폭을 조금 줄였지만 여전히 하락권을 벗어나지 못함"
+              "title": "소폭 반등 시도",
+              "text": "점심 무렵 낙폭을 살짝 줄이며 저점 대비 반등을 시도했으나 회복은 제한적이었음"
+            },
+            {
+              "time": "마감",
+              "price": 181700.0,
+              "pct": -4.37,
+              "is_close": true,
+              "date": "2026-08-11",
+              "title": "낙폭 재확대 마감",
+              "text": "오후 들어 다시 매도세가 커지며 하루 중 가장 큰 하락폭으로 거래를 마감함"
             }
           ],
+          "slot_total": 4,
           "news": [
             {
-              "title": "LG전자, 런던 해러즈서 ‘올레드 W6’ 공개… 英 프리미엄 TV 시장 공략",
-              "original": "LG전자, 런던 해러즈서 ‘올레드 W6’ 공개… 英 프리미엄 TV 시장 공략",
-              "source": "dt.co.kr",
-              "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1OY1lkU0N3eW5yc0RxWDZ4cExvRFg5R2NVczRpOGxtNWZMRjJEVlIzMXVvZ2t2d2VCOFd0UUNrZEc5SnRhZjNPaE9PcWFKQQ?oc=5",
-              "published": "2026-08-10T18:47:29+09:00"
+              "title": "[단독] LG전자, 4100억 들인 브라질 신공장서 냉장고 양산 돌입…이번 주 개장식",
+              "original": "[단독] LG전자, 4100억 들인 브라질 신공장서 냉장고 양산 돌입…이번 주 개장식",
+              "source": "네이트",
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vVmJCeTF0WXZTeG9mN0duTnRuVllfbm1fLV9SR2JnWVZvUk12WW4wTEpZRzJOejVuVGxSVDFBQkJwUGdUTXc0ZFRZYWtfNUYxWGVF?oc=5",
+              "published": "2026-08-11T18:53:00+09:00"
             },
             {
-              "title": "LG전자, 英 백화점서 차세대 무선 월페이퍼 TV 특별 전시",
-              "original": "LG전자, 英 백화점서 차세대 무선 월페이퍼 TV 특별 전시",
-              "source": "abckr.net",
-              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5oVkRVQm9qQ3h3LV9QeTVEcnZoeEdYUTlBZUFkY2xjamdtU1p6M3JzcW1nR3ZXUU9uLWFycTJtNGhIZUdNdEphdjlkN1p2cHVvN2phUWwtWU9ZLS1uMzdNY2ZWYkI?oc=5",
-              "published": "2026-08-10T17:22:59+09:00"
+              "title": "LG전자 함평점, 취약계층에 에어컨 기부… 지역사회와 상생 실천",
+              "original": "LG전자 함평점, 취약계층에 에어컨 기부… 지역사회와 상생 실천",
+              "source": "뉴스21 통신",
+              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1lQWZvM0pJMVBtZHpMVlBLck1CX283eWFhSERNSEZwVDJBVFdHYktZM2psOHpiRmdaX09GelNENVVpYndHNFl5SXp1X1hial85azRROE53?oc=5",
+              "published": "2026-08-11T18:32:26+09:00"
             },
             {
-              "title": "LG전자 다양한 히트펌프로 글로벌 공략, 유럽·국내·산업용 시장 동시 확대",
-              "original": "LG전자 다양한 히트펌프로 글로벌 공략, 유럽·국내·산업용 시장 동시 확대",
-              "source": "businesspost.co.kr",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5EM2wxU296U2tKZmloWWd4U1NWb0pPeEgtVkFuQW94NkFBTGVKVXhlS1l4ZVNKQzV5VkNQQXFjXzZKd2VrYUdEcWkySHdwb1VtS0V2RmI4eGd2aU0yc2ZkU2NxTDR2OGM5cW5SaERnTzlmLTQ?oc=5",
-              "published": "2026-08-10T17:22:44+09:00"
+              "title": "LG전자, 유럽 사이버보안 인증시험 자체 수행 자격 획득…제품 개발 속도 높인다",
+              "original": "LG전자, 유럽 사이버보안 인증시험 자체 수행 자격 획득…제품 개발 속도 높인다",
+              "source": "소비자가 만드는 신문",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yOHlEZHJOYkJJR3MtYTkyUDNjYmctWWh5cTdic2l4aUFmbW8yV1BKelFXY2hES1J3aVJOb0hZamxXYjE1ZzFfa0V0QUdfSTVhekRoQ2RoTlZ1RDUzZWZTd2RJblAxTXhJS2FpdG56Sm1qVUU?oc=5",
+              "published": "2026-08-11T18:07:27+09:00"
             }
-          ],
-          "slot_total": 4
+          ]
         },
         {
           "stock": "현대차",
           "ticker": "005380",
-          "title": "현대차 - 주차 로봇 실증에 파업 우려",
-          "body": "아파트 첫 주차 로봇 실증으로 최대 50% 더 수용 가능해졌지만, 생산 차질 속 추가 파업 가능성도 함께 제기되며 우려 공존. +3.16% 오른 <b>408,000원</b> 마감.",
-          "pct": 3.16,
-          "price": 408000.0,
+          "title": "현대차 - 노조 4차 파업 예고",
+          "body": "현대차 노조가 12일부터 나흘간 부분파업을 예고하며 파업 손실이 4만2500대를 넘어서자 하락. -1.23% 내린 <b>403,000원</b> 마감.",
+          "pct": -1.23,
+          "price": 403000.0,
           "currency": "KRW",
-          "as_of": "2026-08-10",
+          "as_of": "2026-08-11",
           "slots": [
             {
               "time": "9:10AM",
@@ -563,7 +599,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-11",
               "title": "장 초반 약세 출발",
-              "text": "개장 직후 전일 대비 하락한 채로 거래를 시작하며 약세를 보임"
+              "text": "개장 직후 노조 파업 우려 속에 하락하며 약세로 하루를 시작하는 모습을 보임"
             },
             {
               "time": "10:30AM",
@@ -571,8 +607,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.61,
               "is_close": false,
               "date": "2026-08-11",
-              "title": "낙폭 축소",
-              "text": "오전 중반 들어 하락폭을 상당 부분 줄이며 보합권에 가까운 수준까지 올라섬"
+              "title": "오전 낙폭 축소",
+              "text": "오전 중반 들어 낙폭을 다소 줄이며 저점 대비 완만한 회복 흐름을 나타냄"
             },
             {
               "time": "1:00PM",
@@ -580,39 +616,47 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.67,
               "is_close": false,
               "date": "2026-08-11",
-              "title": "약세권서 등락",
-              "text": "인도 커넥티드카 확대와 e스포츠 대회 개최 소식이 나온 가운데 소폭 약세권에서 등락을 이어가는 중"
+              "title": "오후 약보합 유지",
+              "text": "점심 이후 큰 방향성 없이 낙폭을 줄인 수준에서 등락하며 흐름을 이어감"
+            },
+            {
+              "time": "마감",
+              "price": 403000.0,
+              "pct": -1.23,
+              "is_close": true,
+              "date": "2026-08-11",
+              "title": "낙폭 재확대 마감",
+              "text": "장 후반 파업 확대 소식이 부각되며 다시 낙폭이 커진 채로 하루를 마감함"
             }
           ],
+          "slot_total": 4,
           "news": [
             {
-              "title": "현대차 N·마그마 이끈 틸 바텐베르크, BYD 합류",
-              "original": "현대차 N·마그마 이끈 틸 바텐베르크, BYD 합류",
-              "source": "it.chosun.com",
-              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBfNXVVcnpoNk5tblZNT3UxVDBtV1JwZ0dBUUpzU1RNOTNEbXFtOEVjeVVTSW15Y085LWlOLXlsWERQRVBsT1R0amt1SGs3elRic2tELUVOUHVHNVVPcEQwdXYzcnlacW1SNTBPT3lQM2pxNHR40gF0QVVfeXFMUF81dVVyemg2Tm1uVk1PdTFUMG1XUnBnR0FRSnNTVE05M0RtcW04RWN5VVNJbXljTzktaU4teWxYRFBFUGxPVHRqa3VIazd6VGJza0QtRU5QdUc1VU9wRDB1djNyeVpxbVI1ME9PeVAzanE0dHg?oc=5",
-              "published": "2026-08-10T18:37:25+09:00"
+              "title": "휴가 끝나자 또 파업… 현대차 노조, 12일부터 4차례 파업",
+              "original": "휴가 끝나자 또 파업… 현대차 노조, 12일부터 4차례 파업",
+              "source": "IT조선",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0talR6Y1JqLUEzcFJvYTNyWXNqVVg1a05hVVE4SHY4cUNPYVY4Q0NLamk4VlE1T0FGbWpoaHotb3F6ZlJ2a3dEeHg2X0tjNlBvRk54aFU2RkFPYUR2S2R1UVRGTnFjWHdfcE9Pd2VCOVXSAXRBVV95cUxOa1FIVXV0UFdNcGRiWnFZVW43MmlXcDhtRlpQQnRSSzZMcGFERHk1TWJjekZUMUl6SHF4R1FtSlNsN1cweUVIZkl2Tml6cTRfc0ZIQ0tNUGxkUmx6UW9kTFQzVzVwcUUwZDd5RjFQWTFlUnlfSA?oc=5",
+              "published": "2026-08-11T18:54:33+09:00"
             },
             {
-              "title": "현대차 ‘주차 로봇’ 아파트 첫 실증…최대 50% 더 수용",
-              "original": "현대차 ‘주차 로봇’ 아파트 첫 실증…최대 50% 더 수용",
-              "source": "서울신문",
-              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9rbVJnSXZPUXl3dlYzcFdnQXh3VGNpSnFZdktHTl9ubEpHdWc3R1g4ZzhLZ3ZhRjdpYm1sbUN6NHJueFlGOEIyVE1zaWE5dzhYdHpzLVB1aWR0QXE2UVdDMjd2LXJYdDRycm5pWjRTZTVqMWU3?oc=5",
-              "published": "2026-08-10T18:31:03+09:00"
+              "title": "현대차 노조, 12일부터 나흘간 추가 부분파업...파업 손실 4만2천500대 넘어",
+              "original": "현대차 노조, 12일부터 나흘간 추가 부분파업...파업 손실 4만2천500대 넘어",
+              "source": "생생비즈플러스",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9feFNZOW5TOElQXzZobFZITGxrQUpTbUxtdk8xY052UkZOZEl3YlN1UDNNVzBJM21KU1VzQ1N2elM1c2Judmc0UER6cUxCUi1RV1FkSDRJU0tSeHctNThBS1lSRU5DOGZYT09PRw?oc=5",
+              "published": "2026-08-11T18:42:38+09:00"
             },
             {
-              "title": "현대차, 4.2만대 생산 차질에도 또 파업하나…기아는 집중교섭",
-              "original": "현대차, 4.2만대 생산 차질에도 또 파업하나…기아는 집중교섭",
-              "source": "아시아투데이",
-              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5NMTdkRUdyV1EtU080ZTF1eXVLSndZV3FpemRFbHJzRUZ4TDcyOXFVdjQ4OHZKM21xcFFhUXRLSEhnU0wyTGtKUFFMallXdFE0SlQxZl9RVnpvWWkxRmNBR2RfWVQyQTVTeGlGU053?oc=5",
-              "published": "2026-08-10T18:21:56+09:00"
+              "title": "현대차 노조, 휴가 후 파업 수위 높인다…12일부터 부분파업",
+              "original": "현대차 노조, 휴가 후 파업 수위 높인다…12일부터 부분파업",
+              "source": "4th.kr",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ubjVDeXJIVV9KMkpYSWJVNl92Yy1vU0V0WVBWMm5qdE9VYlZUalE1WUlMNDQ2R1VPSURldXl3OGpTa0Y5WGZINU5wYzVEbDVLQWlOUklQWTF5RXhUQ1dPU180MEQ?oc=5",
+              "published": "2026-08-11T18:25:20+09:00"
             }
-          ],
-          "slot_total": 4
+          ]
         }
       ],
-      "markdown": "briefings/2026-08-10-us-kr.md",
-      "refreshed_at": "2026-08-10 19:40:15 KST",
-      "slots_refreshed_at": "2026-08-11 13:40:24 KST"
+      "markdown": "briefings/2026-08-11-kr.md",
+      "refreshed_at": "2026-08-11 19:30:06 KST"
     }
   }
 };
