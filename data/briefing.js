@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-08-12 14:50:33 KST",
+  "generated_at": "2026-08-12 15:06:22 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -332,8 +332,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.79,
               "is_close": false,
               "date": "2026-08-12",
-              "title": "장 초반 상승 출발",
-              "text": "오전 장 시작과 함께 매수세가 유입되며 상승세로 거래를 시작함"
+              "title": "장 초반 강세 출발",
+              "text": "개장 직후부터 매수세가 유입되며 상승 흐름을 타기 시작함"
             },
             {
               "time": "10:30AM",
@@ -341,8 +341,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.67,
               "is_close": false,
               "date": "2026-08-12",
-              "title": "오전 내내 강세 지속",
-              "text": "오전 상승분을 지키며 완만하게 상승폭을 키워가는 흐름이 이어짐"
+              "title": "오전 내내 상승폭 확대",
+              "text": "오전 초반 오름세를 유지하며 상승폭을 조금씩 더 키워나가는 모습"
             },
             {
               "time": "1:00PM",
@@ -350,8 +350,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 6.74,
               "is_close": false,
               "date": "2026-08-12",
-              "title": "상승폭 급격히 확대",
-              "text": "코스피 매수 사이드카 발동 소식과 함께 삼성전자 동반 급등하며 상승폭이 크게 확대됨"
+              "title": "오후 들어 급등세 가속",
+              "text": "노조 통합과 성과급 연대 움직임이 전해진 가운데 오후 들어 상승폭이 크게 확대됨"
             }
           ],
           "slot_total": 4,
@@ -396,7 +396,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-12",
               "title": "장 초반 완만한 상승",
-              "text": "오전 개장 직후부터 매수세가 유입되며 상승 흐름으로 출발함"
+              "text": "개장 직후 소폭 오름세로 출발하며 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -404,8 +404,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 5.01,
               "is_close": false,
               "date": "2026-08-12",
-              "title": "상승폭 뚜렷하게 확대",
-              "text": "오전 중반 들어 상승세가 가팔라지며 장중 상승폭이 두 배 가까이 커짐"
+              "title": "오전 중 상승폭 두 배로",
+              "text": "오전 들어 매수세가 강해지며 상승폭이 눈에 띄게 커짐"
             },
             {
               "time": "1:00PM",
@@ -413,8 +413,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 7.1,
               "is_close": false,
               "date": "2026-08-12",
-              "title": "오후에도 상승세 지속",
-              "text": "인텔 대규모 투자 소식에도 파운드리 반등 기대감 속 상승세가 하루 중 가장 강하게 이어지는 중"
+              "title": "오후 상승세 더욱 뚜렷",
+              "text": "반도체 기업가치 고공행진 소식과 호남 클러스터 기대감 속에 오후 들어 오름폭이 하루 중 가장 크게 벌어짐"
             }
           ],
           "slot_total": 4,
@@ -458,8 +458,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.73,
               "is_close": false,
               "date": "2026-08-12",
-              "title": "약세로 장 시작",
-              "text": "오전 초반에는 전일 대비 소폭 밀리며 약세로 거래를 시작함"
+              "title": "약보합 출발 후 반전",
+              "text": "장 초반 소폭 약세로 출발했으나 이내 방향을 바꾸며 상승 전환함"
             },
             {
               "time": "10:30AM",
@@ -467,8 +467,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 3.64,
               "is_close": false,
               "date": "2026-08-12",
-              "title": "상승 전환 후 반등",
-              "text": "오전 중반 들어 낙폭을 만회하고 상승 전환하며 반등세를 이어감"
+              "title": "오전 중 상승폭 확대",
+              "text": "오전 들어 오름세가 이어지며 상승폭이 빠르게 커지는 흐름을 보임"
             },
             {
               "time": "1:00PM",
@@ -476,8 +476,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 6.28,
               "is_close": false,
               "date": "2026-08-12",
-              "title": "오후 들어 상승폭 확대",
-              "text": "KAI 노조의 기업결합 반발 소식이 나온 가운데도 오후 들어 상승폭을 더 키우는 흐름이 이어지는 중"
+              "title": "오후 들어 상승 가속",
+              "text": "KAI 지분 확대와 국산화 사업 참여 소식이 이어지며 오후 들어 상승폭이 하루 중 가장 크게 벌어짐"
             }
           ],
           "slot_total": 4,
@@ -521,8 +521,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 6.88,
               "is_close": false,
               "date": "2026-08-12",
-              "title": "장 초반부터 강세 출발",
-              "text": "개장 직후부터 매수세가 강하게 유입되며 큰 폭의 상승세로 출발함"
+              "title": "장 초반부터 급등 출발",
+              "text": "개장 직후부터 강한 매수세가 몰리며 큰 폭의 상승으로 출발함"
             },
             {
               "time": "10:30AM",
@@ -530,8 +530,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 12.0,
               "is_close": false,
               "date": "2026-08-12",
-              "title": "급등 폭 두 자릿수로 확대",
-              "text": "구광모·젠슨 황 회동 기대감이 부각되며 상승폭이 오전 중 두 자릿수로 크게 확대됨"
+              "title": "오전 중 상승폭 두 배 확대",
+              "text": "구광모 회장과 젠슨 황 CEO 회동 기대감 속에 오전 들어 상승폭이 크게 불어나며 급등세를 이어감"
             },
             {
               "time": "1:00PM",
@@ -539,8 +539,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 12.27,
               "is_close": false,
               "date": "2026-08-12",
-              "title": "고점권에서 강세 유지",
-              "text": "FDA 승인 소식 등 호재가 이어지는 가운데 오전 급등세를 오후까지 큰 흔들림 없이 유지 중"
+              "title": "오후에도 강세 유지 중",
+              "text": "FDA 승인 의료용 모니터 출시 소식이 더해지며 오후에도 큰 폭의 오름세를 그대로 유지 중"
             }
           ],
           "slot_total": 4,
@@ -584,8 +584,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.62,
               "is_close": false,
               "date": "2026-08-12",
-              "title": "약보합으로 출발",
-              "text": "오전 개장 초반에는 전일 대비 소폭 하락하며 약세로 거래를 시작함"
+              "title": "장 초반 약세로 출발",
+              "text": "개장 직후 소폭 하락하며 부진한 흐름으로 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -593,8 +593,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.24,
               "is_close": false,
               "date": "2026-08-12",
-              "title": "상승 전환에 성공",
-              "text": "오전 중반 들어 낙폭을 만회하고 상승 전환하며 완만한 오름세로 돌아섬"
+              "title": "오전 중 상승 전환 성공",
+              "text": "오전 들어 낙폭을 만회하고 오름세로 돌아서는 모습을 보임"
             },
             {
               "time": "1:00PM",
@@ -602,8 +602,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.49,
               "is_close": false,
               "date": "2026-08-12",
-              "title": "소폭 상승세 유지 중",
-              "text": "정의선 회장의 AI 전환 발언이 전해진 가운데 오전의 상승 흐름을 오후까지 유지하는 중"
+              "title": "오후에도 완만한 상승 지속",
+              "text": "피지컬 AI 사업 강화 소식이 전해진 가운데 오후 들어서도 소폭의 상승 흐름을 이어가는 중"
             }
           ],
           "slot_total": 4,
@@ -634,7 +634,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-08-11-kr.md",
       "refreshed_at": "2026-08-11 21:32:21 KST",
-      "slots_refreshed_at": "2026-08-12 14:50:33 KST"
+      "slots_refreshed_at": "2026-08-12 15:06:22 KST"
     }
   }
 };
