@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-08-13 15:09:01 KST",
+  "generated_at": "2026-08-13 17:53:18 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -318,8 +318,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 7.31,
               "is_close": false,
               "date": "2026-08-13",
-              "title": "장 초반 강한 상승",
-              "text": "개장 직후부터 큰 폭으로 오르며 강세 흐름으로 하루를 시작함"
+              "title": "장 초반 급등 출발",
+              "text": "개장 직후부터 매수세가 강하게 유입되며 큰 폭의 상승세로 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -327,8 +327,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 6.91,
               "is_close": false,
               "date": "2026-08-13",
-              "title": "오전 상승폭 축소",
-              "text": "오전 들어 상승분을 일부 반납하며 장 초반보다 오름폭이 줄어듦"
+              "title": "상승폭 다소 축소",
+              "text": "오전 상승 흐름이 한 차례 꺾이며 초반 오름폭을 일부 반납하는 모습을 보임"
             },
             {
               "time": "1:00PM",
@@ -336,8 +336,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 7.91,
               "is_close": false,
               "date": "2026-08-13",
-              "title": "오후 들어 재상승",
-              "text": "낮 들어 상승폭을 다시 키우며 하루 중 가장 높은 수준까지 올라섬"
+              "title": "오후 들어 재차 반등",
+              "text": "점심 무렵 매수세가 다시 살아나며 이날 가장 높은 수준까지 오름폭을 확대함"
+            },
+            {
+              "time": "마감",
+              "price": 1593000.0,
+              "pct": 5.92,
+              "is_close": true,
+              "date": "2026-08-13",
+              "title": "강세 흐름 유지 마감",
+              "text": "오후 고점에서 다소 밀리긴 했으나 큰 폭의 상승세를 유지한 채 하루를 마감함"
             }
           ],
           "slot_total": 4,
@@ -381,8 +390,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 5.48,
               "is_close": false,
               "date": "2026-08-13",
-              "title": "장 초반 급등 출발",
-              "text": "개장과 동시에 큰 폭으로 오르며 강한 상승 흐름으로 장을 시작함"
+              "title": "장 초반 강세 출발",
+              "text": "개장과 함께 매수세가 몰리며 큰 폭의 오름세로 하루 거래를 시작하는 모습을 보임"
             },
             {
               "time": "10:30AM",
@@ -391,7 +400,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-13",
               "title": "오전 상승폭 축소",
-              "text": "오전 중 오름폭이 줄어들며 장 초반 대비 상승세가 다소 주춤해짐"
+              "text": "장 초반 강한 오름세가 다소 꺾이며 상승폭을 상당 부분 반납하는 흐름이 나타남"
             },
             {
               "time": "1:00PM",
@@ -399,8 +408,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 5.38,
               "is_close": false,
               "date": "2026-08-13",
-              "title": "오후 들어 재차 반등",
-              "text": "낮 들어 다시 오름폭을 키우며 장 초반 수준의 강세를 회복해 감"
+              "title": "오후 들어 되돌림 강세",
+              "text": "점심 무렵 다시 매수세가 붙으며 오전 대비 오름폭을 크게 회복하는 흐름을 보임"
+            },
+            {
+              "time": "마감",
+              "price": 268000.0,
+              "pct": 4.89,
+              "is_close": true,
+              "date": "2026-08-13",
+              "title": "강세 유지하며 마감",
+              "text": "오후 고점에서 일부 물러났지만 하루 종일 견고한 오름세를 유지하며 거래를 마침"
             }
           ],
           "slot_total": 4,
@@ -444,8 +462,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 4.76,
               "is_close": false,
               "date": "2026-08-13",
-              "title": "장 초반 강세 출발",
-              "text": "개장 직후 큰 폭으로 오르며 강한 상승세로 하루 거래를 시작함"
+              "title": "장 초반 강한 출발",
+              "text": "개장 직후 매수세가 몰리며 큰 폭의 오름세로 하루 거래가 시작되는 모습을 보임"
             },
             {
               "time": "10:30AM",
@@ -453,8 +471,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.47,
               "is_close": false,
               "date": "2026-08-13",
-              "title": "상승폭 크게 줄어",
-              "text": "오전 들어 오름폭이 큰 폭으로 줄어들며 장 초반 대비 상승세가 눌림"
+              "title": "오전 상승폭 크게 축소",
+              "text": "장 초반 강했던 오름세가 빠르게 꺾이며 상승분을 대부분 되돌리는 흐름이 나타남"
             },
             {
               "time": "1:00PM",
@@ -462,8 +480,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.6,
               "is_close": false,
               "date": "2026-08-13",
-              "title": "오후 들어 소폭 회복",
-              "text": "낮 들어 오름폭을 다소 회복했으나 장 초반 수준에는 미치지 못함"
+              "title": "오후 소폭 반등 시도",
+              "text": "점심 무렵 다소 회복세를 보이며 오전 저점 대비 오름폭을 조금 늘리는 모습을 보임"
+            },
+            {
+              "time": "마감",
+              "price": 1185000.0,
+              "pct": 2.51,
+              "is_close": true,
+              "date": "2026-08-13",
+              "title": "완만한 상승세 유지",
+              "text": "오후 흐름을 거의 그대로 유지하며 완만한 오름세로 하루 거래를 마무리하는 모습을 보임"
             }
           ],
           "slot_total": 4,
@@ -507,8 +534,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.71,
               "is_close": false,
               "date": "2026-08-13",
-              "title": "장 초반 소폭 상승",
-              "text": "개장 직후 완만한 오름세로 출발하며 전날 급등 흐름을 이어감"
+              "title": "장 초반 소폭 강세",
+              "text": "개장 직후 완만한 오름세로 출발하며 하루 거래가 시작되는 모습을 보임"
             },
             {
               "time": "10:30AM",
@@ -516,8 +543,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.24,
               "is_close": false,
               "date": "2026-08-13",
-              "title": "오전 중 상승폭 둔화",
-              "text": "오전 들어 오름폭이 크게 줄며 20만원선 부근에서 숨고르기 흐름"
+              "title": "오전 상승폭 반납",
+              "text": "장 초반의 오름세가 대부분 사라지며 보합권 수준까지 밀리는 흐름이 나타남"
             },
             {
               "time": "1:00PM",
@@ -525,8 +552,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.98,
               "is_close": false,
               "date": "2026-08-13",
-              "title": "오후 들어 재차 반등",
-              "text": "낮 들어 상승폭을 다시 키우며 20만원선 위에서 상승세를 이어감"
+              "title": "오후 들어 다시 회복",
+              "text": "점심 무렵 매수세가 다소 살아나며 오전 저점 대비 오름폭을 조금 늘리는 모습을 보임"
+            },
+            {
+              "time": "마감",
+              "price": 206500.0,
+              "pct": 0.73,
+              "is_close": true,
+              "date": "2026-08-13",
+              "title": "강세 소폭 축소 마감",
+              "text": "오후 흐름에서 소폭 밀리며 완만한 오름세를 유지한 채 하루 거래를 마무리함"
             }
           ],
           "slot_total": 4,
@@ -571,7 +607,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-13",
               "title": "장 초반 강세 출발",
-              "text": "개장 직후 큰 폭으로 오르며 강한 상승 흐름으로 하루를 시작함"
+              "text": "개장과 함께 매수세가 몰리며 큰 폭의 오름세로 하루 거래를 시작하는 모습을 보임"
             },
             {
               "time": "10:30AM",
@@ -579,8 +615,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.93,
               "is_close": false,
               "date": "2026-08-13",
-              "title": "상승폭 다소 축소",
-              "text": "오전 들어 오름폭이 줄어들며 장 초반보다 상승세가 다소 누그러짐"
+              "title": "오전 상승폭 축소",
+              "text": "장 초반 강했던 오름세가 빠르게 꺾이며 상승분을 상당 부분 반납하는 흐름이 나타남"
             },
             {
               "time": "1:00PM",
@@ -588,8 +624,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.93,
               "is_close": false,
               "date": "2026-08-13",
-              "title": "오후까지 상승 유지",
-              "text": "낮 들어서도 오전 수준의 오름폭을 유지하며 상승 흐름을 이어가는 중"
+              "title": "오후까지 흐름 유지",
+              "text": "오전 되돌림 이후 별다른 변화 없이 비슷한 수준의 오름세가 오후까지 이어짐"
+            },
+            {
+              "time": "마감",
+              "price": 418500.0,
+              "pct": 2.2,
+              "is_close": true,
+              "date": "2026-08-13",
+              "title": "완만한 강세로 마감",
+              "text": "오후 들어 오름폭이 다소 줄어들며 완만한 상승세를 유지한 채 하루 거래를 마침"
             }
           ],
           "slot_total": 4,
@@ -620,7 +665,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-08-12-kr.md",
       "refreshed_at": "2026-08-12 19:45:55 KST",
-      "slots_refreshed_at": "2026-08-13 15:09:01 KST"
+      "slots_refreshed_at": "2026-08-13 17:53:18 KST"
     }
   }
 };
