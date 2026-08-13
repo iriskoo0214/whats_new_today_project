@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-08-13 14:52:52 KST",
+  "generated_at": "2026-08-13 15:09:01 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -318,8 +318,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 7.31,
               "is_close": false,
               "date": "2026-08-13",
-              "title": "장 초반 강한 상승 출발",
-              "text": "개장 직후부터 큰 폭의 오름세로 출발하며 투자심리가 강하게 살아난 모습을 보임"
+              "title": "장 초반 강한 상승",
+              "text": "개장 직후부터 큰 폭으로 오르며 강세 흐름으로 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -327,8 +327,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 6.91,
               "is_close": false,
               "date": "2026-08-13",
-              "title": "상승폭 다소 둔화",
-              "text": "오전 초반의 강세가 한풀 꺾이며 상승폭이 줄었으나 여전히 큰 오름세는 유지하는 중"
+              "title": "오전 상승폭 축소",
+              "text": "오전 들어 상승분을 일부 반납하며 장 초반보다 오름폭이 줄어듦"
             },
             {
               "time": "1:00PM",
@@ -336,8 +336,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 7.91,
               "is_close": false,
               "date": "2026-08-13",
-              "title": "오후 들어 상승폭 재확대",
-              "text": "美 인디애나 팹 착공 소식과 주주환원 관련 언급이 나온 가운데 오후 들어 오름폭을 다시 키우며 하루 중 최고 수준을 이어가는 중"
+              "title": "오후 들어 재상승",
+              "text": "낮 들어 상승폭을 다시 키우며 하루 중 가장 높은 수준까지 올라섬"
             }
           ],
           "slot_total": 4,
@@ -381,8 +381,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 5.48,
               "is_close": false,
               "date": "2026-08-13",
-              "title": "장 초반 강세 출발",
-              "text": "개장과 동시에 큰 폭으로 오르며 강한 상승 흐름을 타기 시작함"
+              "title": "장 초반 급등 출발",
+              "text": "개장과 동시에 큰 폭으로 오르며 강한 상승 흐름으로 장을 시작함"
             },
             {
               "time": "10:30AM",
@@ -390,8 +390,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 4.11,
               "is_close": false,
               "date": "2026-08-13",
-              "title": "오전 중 상승폭 축소",
-              "text": "장 초반의 가파른 오름세가 다소 진정되며 상승폭이 눈에 띄게 줄어드는 흐름을 보임"
+              "title": "오전 상승폭 축소",
+              "text": "오전 중 오름폭이 줄어들며 장 초반 대비 상승세가 다소 주춤해짐"
             },
             {
               "time": "1:00PM",
@@ -400,7 +400,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-13",
               "title": "오후 들어 재차 반등",
-              "text": "반도체 업종 동반 강세 소식이 전해진 가운데 오후 들어 다시 오름폭을 키우며 장중 고점권을 회복하는 흐름"
+              "text": "낮 들어 다시 오름폭을 키우며 장 초반 수준의 강세를 회복해 감"
             }
           ],
           "slot_total": 4,
@@ -445,7 +445,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-13",
               "title": "장 초반 강세 출발",
-              "text": "개장 직후 큰 폭의 상승세로 시작하며 강한 매수세가 유입되는 모습을 보임"
+              "text": "개장 직후 큰 폭으로 오르며 강한 상승세로 하루 거래를 시작함"
             },
             {
               "time": "10:30AM",
@@ -453,8 +453,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.47,
               "is_close": false,
               "date": "2026-08-13",
-              "title": "상승폭 급격히 축소",
-              "text": "오전 들어 초반의 강한 오름세가 크게 꺾이며 상승폭이 눈에 띄게 줄어드는 흐름으로 전환됨"
+              "title": "상승폭 크게 줄어",
+              "text": "오전 들어 오름폭이 큰 폭으로 줄어들며 장 초반 대비 상승세가 눌림"
             },
             {
               "time": "1:00PM",
@@ -462,8 +462,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.6,
               "is_close": false,
               "date": "2026-08-13",
-              "title": "오후 들어 낙폭 일부 만회",
-              "text": "한전과의 에너지 절감 상생모델 소식이 전해진 가운데 오후 들어 오름폭을 다소 회복하며 낙폭을 줄이는 중"
+              "title": "오후 들어 소폭 회복",
+              "text": "낮 들어 오름폭을 다소 회복했으나 장 초반 수준에는 미치지 못함"
             }
           ],
           "slot_total": 4,
@@ -507,8 +507,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.71,
               "is_close": false,
               "date": "2026-08-13",
-              "title": "장 초반 소폭 상승 출발",
-              "text": "개장 직후 완만한 오름세로 출발하며 큰 변동 없이 거래가 시작됨"
+              "title": "장 초반 소폭 상승",
+              "text": "개장 직후 완만한 오름세로 출발하며 전날 급등 흐름을 이어감"
             },
             {
               "time": "10:30AM",
@@ -516,8 +516,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.24,
               "is_close": false,
               "date": "2026-08-13",
-              "title": "상승폭 크게 줄어듦",
-              "text": "오전 중 오름세가 거의 사라질 정도로 상승폭이 크게 줄어들며 보합권에 근접하는 흐름을 보임"
+              "title": "오전 중 상승폭 둔화",
+              "text": "오전 들어 오름폭이 크게 줄며 20만원선 부근에서 숨고르기 흐름"
             },
             {
               "time": "1:00PM",
@@ -525,8 +525,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.98,
               "is_close": false,
               "date": "2026-08-13",
-              "title": "오후 들어 소폭 반등",
-              "text": "라이프집 페어 개최 소식이 전해진 가운데 오후 들어 오름폭을 다소 회복하며 완만한 상승세를 이어가는 중"
+              "title": "오후 들어 재차 반등",
+              "text": "낮 들어 상승폭을 다시 키우며 20만원선 위에서 상승세를 이어감"
             }
           ],
           "slot_total": 4,
@@ -571,7 +571,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-13",
               "title": "장 초반 강세 출발",
-              "text": "개장과 함께 큰 폭으로 오르며 강한 상승 흐름으로 하루를 시작함"
+              "text": "개장 직후 큰 폭으로 오르며 강한 상승 흐름으로 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -579,8 +579,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.93,
               "is_close": false,
               "date": "2026-08-13",
-              "title": "상승폭 절반 가까이 축소",
-              "text": "오전 들어 초반의 강한 오름세가 상당 부분 줄어들며 상승폭이 크게 축소되는 모습을 보임"
+              "title": "상승폭 다소 축소",
+              "text": "오전 들어 오름폭이 줄어들며 장 초반보다 상승세가 다소 누그러짐"
             },
             {
               "time": "1:00PM",
@@ -588,8 +588,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.93,
               "is_close": false,
               "date": "2026-08-13",
-              "title": "오후에도 상승폭 유지 중",
-              "text": "아이오닉 V 중국 계약 소식 등이 전해진 가운데 오전 수준의 상승폭을 그대로 유지하며 흐름을 이어가는 중"
+              "title": "오후까지 상승 유지",
+              "text": "낮 들어서도 오전 수준의 오름폭을 유지하며 상승 흐름을 이어가는 중"
             }
           ],
           "slot_total": 4,
@@ -620,7 +620,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-08-12-kr.md",
       "refreshed_at": "2026-08-12 19:45:55 KST",
-      "slots_refreshed_at": "2026-08-13 14:52:52 KST"
+      "slots_refreshed_at": "2026-08-13 15:09:01 KST"
     }
   }
 };
