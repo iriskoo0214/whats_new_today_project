@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-08-14 15:06:14 KST",
+  "generated_at": "2026-08-14 17:46:45 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -310,8 +310,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 6.03,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "급등 출발",
-              "text": "장 초반부터 강한 매수세가 유입되며 큰 폭의 상승률로 거래를 시작함"
+              "title": "장 초반 급등 출발",
+              "text": "개장 직후 강한 매수세가 유입되며 장중 상승폭이 하루 중 가장 크게 벌어짐"
             },
             {
               "time": "10:30AM",
@@ -319,8 +319,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 3.64,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "상승폭 축소",
-              "text": "장 초반 급등분을 상당 부분 반납하며 오전 중 오름폭이 눈에 띄게 줄어드는 흐름"
+              "title": "상승폭 대폭 축소",
+              "text": "오전 들어 초반 급등분이 빠르게 반납되며 상승률이 절반 수준으로 줄어듦"
             },
             {
               "time": "1:00PM",
@@ -328,8 +328,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.95,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "오름세 둔화 지속",
-              "text": "오후 들어서도 상승폭이 계속 줄어드는 가운데 최태원 회장의 메모리 시황 발언과 미국 팹 검토 소식이 전해짐"
+              "title": "오후에도 조정 지속",
+              "text": "낙폭이 이어지며 오전보다 상승폭이 더 줄었으나 여전히 플러스권은 유지 중"
+            },
+            {
+              "time": "마감",
+              "price": 1645000.0,
+              "pct": 3.26,
+              "is_close": true,
+              "date": "2026-08-14",
+              "title": "막판 소폭 반등 마감",
+              "text": "장 후반 들어 낙폭을 일부 만회하며 오전보다는 높은 수준에서 상승 마감"
             }
           ],
           "slot_total": 4,
@@ -373,8 +382,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.05,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "강세 출발 후 반납",
-              "text": "장 초반 큰 폭으로 오른 뒤 오전 중 상승분을 대부분 반납하며 보합권까지 밀림"
+              "title": "장 초반 상승 출발",
+              "text": "개장 직후 매수세가 유입되며 상승 출발했으나 이후 상승폭이 빠르게 줄어드는 흐름"
             },
             {
               "time": "10:30AM",
@@ -382,8 +391,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.0,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "보합권 횡보",
-              "text": "오전 상승분을 반납한 이후 별다른 반등 없이 보합 수준에서 등락을 이어감"
+              "title": "상승분 반납, 보합권",
+              "text": "오전 중 초반 상승폭을 대부분 반납하며 전일 종가 수준까지 밀려남"
             },
             {
               "time": "1:00PM",
@@ -391,8 +400,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.47,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "낙폭 일부 회복",
-              "text": "보합권에 머물던 주가가 오후 들어 소폭 반등하며 기흥 파운드리 R&D팹 활용 추진 소식이 나옴"
+              "title": "낙폭 딛고 소폭 반등",
+              "text": "오후 들어 저점을 다지고 반등하며 보합권을 넘어서는 흐름으로 전환됨"
+            },
+            {
+              "time": "마감",
+              "price": 274500.0,
+              "pct": 2.43,
+              "is_close": true,
+              "date": "2026-08-14",
+              "title": "오후 강세로 재상승",
+              "text": "오후 들어 매수세가 다시 강해지며 하루 중 최고 상승폭으로 마감을 이어감"
             }
           ],
           "slot_total": 4,
@@ -436,8 +454,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.77,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "약세 출발",
-              "text": "장 시작부터 매도세가 우위를 보이며 하락세로 하루를 시작하는 모습"
+              "title": "장 초반 약세 출발",
+              "text": "개장부터 매도세가 우세하며 하락 출발, 낙폭이 점차 커지는 모습을 보임"
             },
             {
               "time": "10:30AM",
@@ -445,8 +463,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.12,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "낙폭 확대",
-              "text": "오전 하락세가 오전 중반 들어 더욱 커지며 낙폭이 점차 벌어지는 흐름을 보임"
+              "title": "낙폭 확대 지속",
+              "text": "오전 내내 하락세가 이어지며 낙폭이 장중 가장 크게 벌어지는 흐름을 보임"
             },
             {
               "time": "1:00PM",
@@ -454,8 +472,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.88,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "낙폭 확대 지속",
-              "text": "오후 들어서도 하락폭이 더 커지는 가운데 방사청과의 탄도수정신관 개발 착수 소식이 전해짐"
+              "title": "오후 낙폭 더 커짐",
+              "text": "오후 들어서도 하락 압력이 이어지며 하루 중 최대 낙폭을 기록하는 구간"
+            },
+            {
+              "time": "마감",
+              "price": 1160000.0,
+              "pct": -2.11,
+              "is_close": true,
+              "date": "2026-08-14",
+              "title": "막판 낙폭 축소 마감",
+              "text": "장 후반 들어 저가 매수세가 유입되며 낙폭을 상당 부분 되돌려 마감을 이어감"
             }
           ],
           "slot_total": 4,
@@ -499,8 +526,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 5.33,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "급등 출발",
-              "text": "장 초반 큰 폭으로 오르며 강한 상승 흐름으로 거래를 시작함"
+              "title": "장 초반 급등 출발",
+              "text": "개장 직후 강한 매수세로 상승 출발하며 장중 최고 상승폭을 기록함"
             },
             {
               "time": "10:30AM",
@@ -508,8 +535,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.21,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "상승폭 대폭 축소",
-              "text": "장 초반 급등분을 오전 중 대부분 반납하며 상승률이 크게 줄어드는 모습"
+              "title": "상승폭 큰 폭 축소",
+              "text": "오전 들어 매수세가 약화되며 초반 급등분이 크게 줄어드는 흐름을 보임"
             },
             {
               "time": "1:00PM",
@@ -517,8 +544,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 3.39,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "오름세 재확대",
-              "text": "오전 중 줄었던 상승폭이 오후 들어 다시 커지는 가운데 바이낸스 선물 상장 및 엔비디아와의 협력 MOU 소식이 전해짐"
+              "title": "오후 들어 반등 재개",
+              "text": "오후 들어 매수세가 다시 유입되며 상승폭을 상당 부분 회복하는 모습을 보임"
+            },
+            {
+              "time": "마감",
+              "price": 215000.0,
+              "pct": 4.12,
+              "is_close": true,
+              "date": "2026-08-14",
+              "title": "강세 흐름 이어가는 중",
+              "text": "장 막판까지 반등세가 이어지며 오전 저점 대비 높은 수준에서 강세를 유지 중"
             }
           ],
           "slot_total": 4,
@@ -562,8 +598,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 5.85,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "강세 출발",
-              "text": "장 초반부터 큰 폭의 상승세를 보이며 거래를 시작하는 모습"
+              "title": "장 초반 강세 출발",
+              "text": "개장부터 매수세가 유입되며 상승 출발, 이후로도 오름세가 꾸준히 이어짐"
             },
             {
               "time": "10:30AM",
@@ -571,8 +607,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 6.33,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "오름세 유지",
-              "text": "오전 중 상승폭을 그대로 유지하며 견조한 강세 흐름이 이어짐"
+              "title": "상승폭 완만히 확대",
+              "text": "오전 중반까지도 매수세가 이어지며 상승폭이 점진적으로 커지는 흐름을 보임"
             },
             {
               "time": "1:00PM",
@@ -580,8 +616,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 7.65,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "상승폭 확대",
-              "text": "오후 들어 상승폭이 더욱 커지는 가운데 제네시스 하이브리드 출시 기대감이 부각됨"
+              "title": "오후 들어 상승 가속",
+              "text": "오후 들어 상승폭이 더욱 확대되며 하루 중 최고 상승률을 새로 경신함"
+            },
+            {
+              "time": "마감",
+              "price": 453000.0,
+              "pct": 8.24,
+              "is_close": true,
+              "date": "2026-08-14",
+              "title": "강세 이어가며 마감",
+              "text": "장 막판까지 매수세가 이어지며 하루 중 가장 높은 상승률로 거래를 마침"
             }
           ],
           "slot_total": 4,
@@ -612,7 +657,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-08-13-kr.md",
       "refreshed_at": "2026-08-13 19:47:32 KST",
-      "slots_refreshed_at": "2026-08-14 15:06:14 KST"
+      "slots_refreshed_at": "2026-08-14 17:46:45 KST"
     }
   }
 };
