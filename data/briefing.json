@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-15 07:55:19 KST",
+  "generated_at": "2026-08-15 17:02:37 KST",
   "refreshed": [
-    "us"
+    "kr"
   ],
   "slots_refreshed": [],
-  "default": "us",
+  "default": "kr",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
@@ -299,7 +299,7 @@
     },
     "kr": {
       "icon": "assets/moon.svg",
-      "label": "한국 증시 요약 2026. 8. 14. 7:42PM",
+      "label": "한국 증시 요약 2026. 8. 15. 5:02PM",
       "chips": [
         "전체",
         "SK하이닉스",
@@ -318,8 +318,8 @@
         {
           "stock": "SK하이닉스",
           "ticker": "000660",
-          "title": "SK하이닉스 - 실적 호조에 곽노정 사장 260억 보수",
-          "body": "SK스퀘어 2분기 영업이익 19조원이 SK하이닉스 실적 호조 반영으로 확인되며 호실적 기대감 부각. +3.26% 오른 <b>1,645,000원</b> 마감.",
+          "title": "SK하이닉스 - 반도체 열풍에 개미 몰려",
+          "body": "삼전닉스로 불리는 반도체 열풍에 개인 투자자 1100만명 돌파 소식이 겹치며 매수세가 유입, 주가 강세. +3.26% 오른 <b>1,645,000원</b> 마감.",
           "pct": 3.26,
           "price": 1645000.0,
           "currency": "KRW",
@@ -332,7 +332,7 @@
               "is_close": false,
               "date": "2026-08-14",
               "title": "장 초반 급등 출발",
-              "text": "개장과 함께 강한 매수세가 몰리며 장중 상승폭이 크게 확대된 채 출발함"
+              "text": "개장 직후부터 반도체 업종 전반에 매수세가 몰리며 큰 폭으로 뛰어오르며 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -340,8 +340,8 @@
               "pct": 3.64,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "상승폭 큰 폭 축소",
-              "text": "오전 중 나타났던 급등세가 빠르게 꺾이며 상승분 상당 부분을 반납하는 흐름으로 전환됨"
+              "title": "상승폭 대거 반납",
+              "text": "오전 한때의 강한 오름세가 꺾이며 상승분을 절반 가까이 반납하는 흐름으로 전환됨"
             },
             {
               "time": "1:00PM",
@@ -349,8 +349,8 @@
               "pct": 2.95,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "오름폭 추가 둔화",
-              "text": "점심 무렵까지 상승세는 유지했으나 오전보다 오름폭이 더 줄어들며 상승 탄력이 약해짐"
+              "title": "오후에도 상승폭 축소",
+              "text": "낙폭이 오전보다 더 줄어들며 오름폭이 계속 작아지는 흐름이 점심 무렵까지 이어짐"
             },
             {
               "time": "마감",
@@ -358,40 +358,40 @@
               "pct": 3.26,
               "is_close": true,
               "date": "2026-08-14",
-              "title": "상승폭 소폭 회복",
-              "text": "오후 들어 낙폭을 일부 만회하며 저점보다 오른 채 상승세를 이어가는 중으로 유지됨"
+              "title": "상승폭 일부 회복 마감",
+              "text": "장 후반 개미 투자자 유입과 반도체주 열풍 소식이 전해지며 오름폭을 다소 되살리고 마감함"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "상반기 임원 보수 보니…SK하닉 곽노정 260억, 삼전 이재용 ‘0원’",
-              "original": "상반기 임원 보수 보니…SK하닉 곽노정 260억, 삼전 이재용 ‘0원’",
-              "source": "경기일보",
-              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBGV09aOWVZME5UbzFhT0JoMHNqRXRxR2xXcm1PSG9DNk5IbXhXZDFBSld4NWM3aG13S2I3SXVCQ1RDMGtNNG9JZWlKZ1RiaktNYmJhRjFSbHB6WjA?oc=5",
-              "published": "2026-08-14T19:37:32+09:00"
+              "title": "\"이 정도면 국민주 맞네\"…반도체株 열풍에 '삼전닉스' 개미 1100만명 넘었다",
+              "original": "\"이 정도면 국민주 맞네\"…반도체株 열풍에 '삼전닉스' 개미 1100만명 넘었다",
+              "source": "네이트",
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5SRE43WWNIRGF3cF9SOWZ4TlpYb2RCVGVTem5NOUdXXzFVME1fNmJOXzY1ckF2X0ZXdy0tWUtHajF3d3ZGTWV5cXJvTUxZMXNnaUNj?oc=5",
+              "published": "2026-08-15T16:43:00+09:00"
             },
             {
-              "title": "곽노정 SK하닉 사장, 상반기 보수 '주식 장기성과 보상' 포함 261억(종합)",
-              "original": "곽노정 SK하닉 사장, 상반기 보수 '주식 장기성과 보상' 포함 261억(종합)",
-              "source": "뉴스1",
-              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9GM0FQYWt0MG1TdDJPbVlsejB2Vll5MkpELWdiemZhQ2Q1THRxakxSRjNJWHZZN3MzUjlxai1QQ240RWVvelB5VVZTeGwxXzhtb0pWazYxajlpTEVyNzRySzhBNGnSAWpBVV95cUxOSTFiaGVFUVU1LUlIOWFYRUNpYzJxclRpZE9oM0MzQ0dweU5IRkZPXy1aWXFxVEx5RUs5Z1Awb0lOcGd5OGpObml2eVNlbWF1UHV5cnYzOEpydmRNRUJuUlhpRHJ1aU5uZnhR?oc=5",
-              "published": "2026-08-14T19:27:40+09:00"
+              "title": "\"인수하면 다 죽는다\" 결사 반대하더니…SK 반도체 신화에 '숟가락 얹기' 논란",
+              "original": "\"인수하면 다 죽는다\" 결사 반대하더니…SK 반도체 신화에 '숟가락 얹기' 논란",
+              "source": "파이낸셜포스트",
+              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0zcVJzcFFEMUdDYkM1NTVydWFvemF2MlZWd3NOR3FtQWZ4TWVJeUxrczA5aUhleWt0RFA1YURJZUxrTHBiUENvX1FHWWRCQ0xWNl9wWENYTEtMX1VfR2NyYWtQNDN6azROOHBuQk1SbFhqNVJZ?oc=5",
+              "published": "2026-08-15T16:31:32+09:00"
             },
             {
-              "title": "SK스퀘어, 2분기 영업이익 19조원… \"SK하이닉스 실적 호조 반영\"",
-              "original": "SK스퀘어, 2분기 영업이익 19조원… \"SK하이닉스 실적 호조 반영\"",
-              "source": "비즈트리뷴",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NMTJMYUZOTldUVnY0dkNUYktGSVd0RU82RXdpTkNRZVdOVmlqSzd6UGdHMDRjRGFtN0tjSUVIV1BURlZicGVEd3ZpUEtiVXJVTlVrM3RkVmFuUHZiWmRnMkotZUZibTVyM0xVT3pyTk4?oc=5",
-              "published": "2026-08-14T19:24:43+09:00"
+              "title": "오너도 아닌데 260억...월급쟁이가 두산·한화 회장 제쳤다",
+              "original": "오너도 아닌데 260억...월급쟁이가 두산·한화 회장 제쳤다",
+              "source": "콕스뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Qd2hqOXNFak5UUkZyREpCa3ZGckRqTmJEdkIweU96cnJEWUcyTmtRMHRGZXhzTVNqYjNvNExqNTdFSVpzSkdIVmxOWXI4T09ZZ296T3pHUk52Nm84ZUExZ29hTG5xTWJONFE?oc=5",
+              "published": "2026-08-15T16:21:12+09:00"
             }
           ]
         },
         {
           "stock": "삼성전자",
           "ticker": "005930",
-          "title": "삼성전자 - AI 훈풍에 미국 수출 두 배",
-          "body": "AI 수요 호조로 상반기 미국 수출이 두 배로 늘며 실적 개선 기대감이 부각, 소액주주도 800만명으로 역대 최고 수준. +2.43% 오른 <b>274,500원</b> 마감.",
+          "title": "삼성전자 - 국민주 열풍 지속",
+          "body": "반도체 열풍에 삼전닉스 주주 1100만명 돌파 소식과 폴더블 신제품 흥행 기대감이 겹치며 매수세 유입. +2.43% 오른 <b>274,500원</b> 마감.",
           "pct": 2.43,
           "price": 274500.0,
           "currency": "KRW",
@@ -403,8 +403,8 @@
               "pct": 2.05,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "장 초반 상승 출발",
-              "text": "개장 직후 매수세가 유입되며 상승 출발했고 소액주주 800만명 육박 소식이 뒤늦게 전해짐"
+              "title": "장 초반 강세 출발",
+              "text": "개장과 동시에 매수세가 유입되며 상승 출발하고 반도체 업종 훈풍이 함께 감지됨"
             },
             {
               "time": "10:30AM",
@@ -412,8 +412,8 @@
               "pct": 0.0,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "오전 상승분 반납",
-              "text": "오전 들어 상승폭이 빠르게 줄어들며 전 거래일 수준까지 내려와 보합권에 머무름"
+              "title": "오전 중 상승폭 반납",
+              "text": "장 초반 오름세를 지키지 못하고 전날 수준까지 밀리며 보합권으로 되돌아옴"
             },
             {
               "time": "1:00PM",
@@ -421,8 +421,8 @@
               "pct": 0.47,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "낙폭 소폭 만회",
-              "text": "점심 무렵 들어 소폭 반등하며 오전 저점보다는 다소 오른 수준을 회복하는 모습을 보임"
+              "title": "오후 들어 반등 시도",
+              "text": "점심 무렵부터 매수세가 다시 붙으며 낙폭을 만회하고 소폭 상승권으로 올라섬"
             },
             {
               "time": "마감",
@@ -430,40 +430,40 @@
               "pct": 2.43,
               "is_close": true,
               "date": "2026-08-14",
-              "title": "오후 들어 재상승",
-              "text": "오후 늦게 매수세가 다시 강해지며 하루 중 가장 높은 수준으로 올라선 채 상승세를 이어가는 중"
+              "title": "상승폭 확대 마감",
+              "text": "오후 들어 반도체주 개미 투자자 1100만명 돌파 소식 등이 전해지며 상승폭을 키우고 마감함"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "삼성전자, AI 호조로 상반기 미국 수출 두 배…원가 부담은 4.9조 늘어",
-              "original": "삼성전자, AI 호조로 상반기 미국 수출 두 배…원가 부담은 4.9조 늘어",
-              "source": "g-enews.com",
-              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVnB5a1lta0FCQ2dzZ2ZJNUFSRkhtOUtPYTlIQmp4Y1NTbTUzUDdNYXg5TmNkYXJ5c1ZpY3FvT2tscEVrZTNyQVE3R1hmYzNqTVZReEE3UlMydVc5ejl2UGwzalA5dVNjNV9VMUhPUDlRVWxzbk50ODhtRkpjUEVzZXF2V0Nsdw?oc=5",
-              "published": "2026-08-14T19:26:08+09:00"
+              "title": "\"이 정도면 국민주 맞네\"…반도체株 열풍에 '삼전닉스' 개미 1100만명 넘었다",
+              "original": "\"이 정도면 국민주 맞네\"…반도체株 열풍에 '삼전닉스' 개미 1100만명 넘었다",
+              "source": "네이트",
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5SRE43WWNIRGF3cF9SOWZ4TlpYb2RCVGVTem5NOUdXXzFVME1fNmJOXzY1ckF2X0ZXdy0tWUtHajF3d3ZGTWV5cXJvTUxZMXNnaUNj?oc=5",
+              "published": "2026-08-15T16:43:00+09:00"
             },
             {
-              "title": "삼성전자 소액주주 800만명 육박…성인 5명 중 1명 '삼성전자 주주'",
-              "original": "삼성전자 소액주주 800만명 육박…성인 5명 중 1명 '삼성전자 주주'",
-              "source": "ER 이코노믹리뷰",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QRmJ2WWlzX1lkM29hbFZBS2JselZDNWdzNUJsem9TNFNzZk5WRzV2bThEdFEwSHpRM2JBUTllclJsVFNSNy02ajZPRlIzdk1TLWtMeEZLTlRhVGpWMndvMXAzc3dOakJuOXltag?oc=5",
-              "published": "2026-08-14T19:24:17+09:00"
+              "title": "리센느 원이도 '야호~'...'아재폰'의 대반전",
+              "original": "리센느 원이도 '야호~'...'아재폰'의 대반전",
+              "source": "v.daum.net",
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE83bGZsc0hxOGh2ZThEbFd6X3JMTHJ4WU1URFFvVTF3Q1g0NmhpYm1Rc2lIVUlDVXRXOWRGVUVydDU1cGRscHRfYUpxVEFYQ28?oc=5",
+              "published": "2026-08-15T16:13:00+09:00"
             },
             {
-              "title": "삼성전자 개미주주 800만명 역대 최고 수준…1년 전보다 300만명 늘었다",
-              "original": "삼성전자 개미주주 800만명 역대 최고 수준…1년 전보다 300만명 늘었다",
-              "source": "연합인포맥스",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5NmF1OWQ5VGZqeHdtQVBnU3hfbkFTVEItSnVUSU1QZEVDaDY1VDREOGVuc0xvbm40ME00RmRFRmtrY1dydTVURkM5ZzdnMVFCaUFqLTdiWHM1WFh4YWRMbFZLQWVROVo5VktqVEhXNVE?oc=5",
-              "published": "2026-08-14T19:16:33+09:00"
+              "title": "리센느 원이도 '야호~'...'아재폰'의 대반전",
+              "original": "리센느 원이도 '야호~'...'아재폰'의 대반전",
+              "source": "한경매거진&북",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KVUNXdGpzMURCelYtOUt2eWp1T1JjVjllQnB5b2VhR0VLR3UxbUd5M0tOLW55RTBQZ2xzb1dQNVdNWUZwaGFEbzVMZ3BEUVdSRmQ3SzFRR2lQbFA5RmpKbmFBNjM4ekhNQ3ktdw?oc=5",
+              "published": "2026-08-15T16:11:00+09:00"
             }
           ]
         },
         {
           "stock": "한화에어로스페이스",
           "ticker": "012450",
-          "title": "한화에어로스페이스 - 우주·AI 협력 확대에도 하락",
-          "body": "한양대 우주 협의체 출범과 서울대 AI 프런티어관 건립 소식에도 주가는 하락, 경영진 상반기 보수도 공개. -2.11% 내린 <b>1,160,000원</b> 마감.",
+          "title": "한화에어로스페이스 - 5일만에 고점서 조정",
+          "body": "최근 5거래일 새 121만원을 터치한 뒤 조정에 들어가며 차익 매물 속 주가 약세 흐름을 보임. -2.11% 내린 <b>1,160,000원</b> 마감.",
           "pct": -2.11,
           "price": 1160000.0,
           "currency": "KRW",
@@ -476,7 +476,7 @@
               "is_close": false,
               "date": "2026-08-14",
               "title": "장 초반 약세 출발",
-              "text": "개장과 함께 매도세가 우위를 보이며 하락한 채 거래를 시작하는 흐름이 나타남"
+              "text": "개장 직후부터 매도세가 이어지며 하락 출발하고 방산 업종 전반이 조정 흐름을 보임"
             },
             {
               "time": "10:30AM",
@@ -484,8 +484,8 @@
               "pct": -3.12,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "낙폭 더욱 확대",
-              "text": "오전 중반 들어 하락폭이 커지며 장중 저점 부근까지 밀리는 약세 흐름이 이어짐"
+              "title": "낙폭 확대 지속",
+              "text": "최근 5거래일간 고점을 찍은 뒤 조정을 받고 있다는 분석과 함께 낙폭이 더 커짐"
             },
             {
               "time": "1:00PM",
@@ -493,8 +493,8 @@
               "pct": -3.88,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "하루 중 낙폭 최대",
-              "text": "점심 무렵까지도 매도 우위가 지속되며 하루 중 가장 큰 낙폭을 기록하는 상황이 이어짐"
+              "title": "장중 낙폭 최대치",
+              "text": "점심 무렵까지 하락세가 이어지며 하루 중 가장 큰 낙폭을 기록하는 흐름이 지속됨"
             },
             {
               "time": "마감",
@@ -502,40 +502,40 @@
               "pct": -2.11,
               "is_close": true,
               "date": "2026-08-14",
-              "title": "오후 낙폭 일부 회복",
-              "text": "오후 들어 저가 매수세가 유입되며 낙폭을 상당 부분 만회하는 모습으로 흐름이 이어지는 중"
+              "title": "낙폭 일부 만회 마감",
+              "text": "오후 들어 저가 매수세가 유입되며 장중 최대 낙폭에서 상당 부분을 만회하고 마감함"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "한양대, 우주분야 산학연 협의체 ‘에리카-스페이스’ 출범",
-              "original": "한양대, 우주분야 산학연 협의체 ‘에리카-스페이스’ 출범",
-              "source": "에너지경제신문",
-              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBmT1diWG16RmRXRkNqc0Z2cGVaNWMxZGlhSGIyTzM3Sm11M0pOU0RzWjVsQVRPbElaUHg2U21JY01NdnNMZ2duYmhNU1JSRWlqaVYzaWlzYV9DV1U?oc=5",
-              "published": "2026-08-14T18:41:11+09:00"
+              "title": "한화에어로스페이스 주가 최근 5거래일 121만원 터치 후 조정",
+              "original": "한화에어로스페이스 주가 최근 5거래일 121만원 터치 후 조정",
+              "source": "중앙이코노미뉴스",
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE54UFVBVXl0cVItdnV4UVE3M3o2MnpVRnRqYnFtMjdya3BkVk5YQjd5Wk51d2ZXWGtWOUtiQU9LZ093bEI1MzlEVUxXaHdVc0JNeTVReTRWeXJENGpDdTV0MHBLQ2xTOWFVNEQxQ2hpaU5xQQ?oc=5",
+              "published": "2026-08-15T13:00:58+09:00"
             },
             {
-              "title": "한화에어로, 서울대에 'AI 프런티어관' 짓는다",
-              "original": "한화에어로, 서울대에 'AI 프런티어관' 짓는다",
-              "source": "네이트",
-              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBHVTA2QzZxcE5aR2NEZlk3OG4yaFVaakRuWlhhRkowSnRqSERRWmpXN2IxYUs1Sy0wZjljMnh2QTJGNDdqN1kxTTdveWJUY1UwQkd3?oc=5",
-              "published": "2026-08-14T18:34:00+09:00"
+              "title": "[특집/ 향후 10년 한국의 수출을 이끌 차세대 산업 시리즈 No.3 방산] \"K9에서 KF-21·AI 드론까지\"…K-방산, 향후 10년 한국 수출 이끌 핵심 산업으로 부상",
+              "original": "[특집/ 향후 10년 한국의 수출을 이끌 차세대 산업 시리즈 No.3 방산] \"K9에서 KF-21·AI 드론까지\"…K-방산, 향후 10년 한국 수출 이끌 핵심 산업으로 부상",
+              "source": "코리아포스트 한글판",
+              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8tbjdlVWQzcXotS1YwbzVad2h0S3V6Sm1IVXVTc1Y1cVJVR1h5OXZiWVB0eG0tMnNfWDR4QVVGVlQ0NGx6R3ptZFMyZ3ZxTVZQSzV5MHlvb2Z4WVp5eThEQlRZcmQ2Vm5OT0RET3R3?oc=5",
+              "published": "2026-08-15T10:00:00+09:00"
             },
             {
-              "title": "한화 방산 계열사 상반기 보수…김승연 50억·김동관 12억 받아",
-              "original": "한화 방산 계열사 상반기 보수…김승연 50억·김동관 12억 받아",
-              "source": "네이트",
-              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5FV3hpTWhNMHZvV044bE96VnNaNkhxWWZTUzMtSFJIR1Z6WVlLMlZUY2JiLXFMZC15RHhnNHNmaFRzNlBMRTJSczNLeXJEMVVZQ19R?oc=5",
-              "published": "2026-08-14T18:27:00+09:00"
+              "title": "‘AI·우주항공 생태계’ 위한 지역인재 양성 나선다",
+              "original": "‘AI·우주항공 생태계’ 위한 지역인재 양성 나선다",
+              "source": "kcemedia.com",
+              "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE0yRkdsU2p0TzZLR1czeXVuajQwV2dRNEhPR213R2hlRWNCOHpYM1paRzdlc0s5bVRjdGQ4TmUtRFJYWjdtYkl4Wi13?oc=5",
+              "published": "2026-08-15T08:27:08+09:00"
             }
           ]
         },
         {
           "stock": "LG전자",
           "ticker": "066570",
-          "title": "LG전자 - 바이낸스 선물 상장에 강세",
-          "body": "바이낸스가 LG전자 무기한 선물을 상장한다는 소식에 관심이 몰리며 매수세 유입, 2026 캠페인 발표도 겹쳐. +4.12% 오른 <b>215,000원</b> 마감.",
+          "title": "LG전자 - 엔비디아 협업 기대감",
+          "body": "엔비디아와 내년 휴머노이드 공개 소식에 신사업 기대감이 부각되며 매수세 유입, 주간 상승세 지속. +4.12% 오른 <b>215,000원</b> 마감.",
           "pct": 4.12,
           "price": 215000.0,
           "currency": "KRW",
@@ -547,8 +547,8 @@
               "pct": 5.33,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "장 초반 강세 출발",
-              "text": "개장 직후 매수세가 강하게 유입되며 큰 폭의 상승세로 거래를 시작하는 흐름이 나타남"
+              "title": "장 초반 큰 폭 상승",
+              "text": "개장 직후 강한 매수세가 유입되며 큰 폭으로 오르며 하루 거래를 시작함"
             },
             {
               "time": "10:30AM",
@@ -556,8 +556,8 @@
               "pct": 1.21,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "상승폭 큰 폭 축소",
-              "text": "오전 중반 들어 초반 급등세가 빠르게 꺾이며 상승폭이 크게 줄어드는 흐름으로 전환됨"
+              "title": "상승폭 대거 축소",
+              "text": "오전 한때의 급등세가 진정되며 상승폭이 크게 줄어드는 흐름으로 전환됨"
             },
             {
               "time": "1:00PM",
@@ -565,8 +565,8 @@
               "pct": 3.39,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "상승폭 다시 확대",
-              "text": "점심 무렵 들어 매수세가 재차 유입되며 오전보다 상승폭을 상당 부분 회복하는 모습을 보임"
+              "title": "오후 들어 반등",
+              "text": "점심 이후 매수세가 다시 유입되며 상승폭을 상당 부분 되찾는 흐름을 보임"
             },
             {
               "time": "마감",
@@ -574,40 +574,40 @@
               "pct": 4.12,
               "is_close": true,
               "date": "2026-08-14",
-              "title": "강세 흐름 이어가는 중",
-              "text": "오후 들어서도 상승세가 이어지며 하루 중 높은 수준에서 오름세를 유지하고 있는 상황"
+              "title": "상승폭 재확대 마감",
+              "text": "엔비디아와의 협업 소식이 전해진 뒤 상승폭을 더욱 키우며 오름세를 이어가는 중"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "LG전자, 소중한 것에 마음을 쓸 수 있도록 돕는 2026 라이프스 굿 캠페인 발표",
-              "original": "LG전자, 소중한 것에 마음을 쓸 수 있도록 돕는 2026 라이프스 굿 캠페인 발표",
-              "source": "이슈투데이",
-              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBlQUU4dGJnaXRMR213aWlyNTg1TVd3TllMWnBWdFNlOTZQNU8yQzIxY1EyalJmdXFUWlRKT3JmdXkwVDhCOFExWF9LYmFUWURLd1UzMVhWYklqMFgwNWRnVUdlQ1otdw?oc=5",
-              "published": "2026-08-14T19:32:12+09:00"
+              "title": "LG, 엔비디아와 내년 휴머노이드 공개한다",
+              "original": "LG, 엔비디아와 내년 휴머노이드 공개한다",
+              "source": "라이센스뉴스",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54WHhXZ2ZiRFJVc0RLZDBtZDFkYjVrNlAyY2RyU1Q0RGlCQVZITTBHS3NoMU5EcW9neUdIeDlZQ0psNlBuRUNnVEhoYlRBZlFIZWJFVmp3bVRTbUdpV2U3T0V0OWY4ZzJrZWxr?oc=5",
+              "published": "2026-08-15T16:25:09+09:00"
             },
             {
-              "title": "바이낸스, 네이버·LG전자 무기한 선물 상장…한국인 계좌 거래 차단",
-              "original": "바이낸스, 네이버·LG전자 무기한 선물 상장…한국인 계좌 거래 차단",
-              "source": "스페셜타임스",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8wR016M3RlY0RqTTNtNXRRdGZLdno4cG1IUkdHTmQ1VVhqRmxhRnlxY1lYS2JmdXBDQkNLbHg2cC1rbHotZWE3RTlRMk9NZHlyNWZaY3BJNl9xMV9kc2hwQlZvZ0RxWDBaMkpWREp6OGFZT2M?oc=5",
-              "published": "2026-08-14T19:04:56+09:00"
+              "title": "[삼성-LG 음향 전쟁② ] 하만 인수에 홀로선 LG전자···오디오 시장 승부",
+              "original": "[삼성-LG 음향 전쟁② ] 하만 인수에 홀로선 LG전자···오디오 시장 승부",
+              "source": "서울파이낸스",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBlTXFHbDRhQzJGVzVtWE40WkZyZTZuTlN0T1VERmoxR3BiSHpYcUdPalV2cVhQMENDNmw1OTd1d21vYUZzLThCMW5EYkIwUXh2MVJ6NVBCWDhaZ0dtbG9SREEyNUJVdFY4Q2c?oc=5",
+              "published": "2026-08-15T14:00:00+09:00"
             },
             {
-              "title": "바이낸스, 네이버 등 무기한 선물 출시…한국인 거래는 차단(종합)",
-              "original": "바이낸스, 네이버 등 무기한 선물 출시…한국인 거래는 차단(종합)",
-              "source": "연합뉴스",
-              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1pUnNMcFhmWVY1NUZHRlJvV0otc1hWZnp3YkdkZkZKdVF0WmhGeXN6bDJlZ2c2WnRYeTdOQTQyUW9uc3JlbEpjbjNkM0pnTzNNWXdiY3B2cHZMZVnSAWBBVV95cUxNbzJTcjZwZFh3alVvZGpfR2I0RGptajlFOVlVWUl1TGs5N3VFVWlZbDFubXJQOFV0SEwyazFiNUtBaUdWdmNSTEw4cTFyYlNVdjRzRm15TEpYZjgwTmhsSEI?oc=5",
-              "published": "2026-08-14T18:54:15+09:00"
+              "title": "LG전자 주가 8월 2주차 주간 상승세 이어가",
+              "original": "LG전자 주가 8월 2주차 주간 상승세 이어가",
+              "source": "톱스타뉴스",
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBmd2RaVjZwQkJQUnc3c3NjbmUtX1JrVW0zWDdpWVJUd2F6UmtlZEZCanFLd0NTdElQMEJDWm9USEtpeTZkTmwxS1RBZ2V1ZEZUZUhTZjVFY21RYXoxNEdsRVFCTC13a2JXajdfWmhQR0d4Zw?oc=5",
+              "published": "2026-08-15T11:25:13+09:00"
             }
           ]
         },
         {
           "stock": "현대차",
           "ticker": "005380",
-          "title": "현대차 - 승용 평균가 5700만원 돌파",
-          "body": "국내 승용 평균 판매가가 5700만원을 넘어서고 육군과 피지컬 AI 국방 협력에 나서며 투자심리 개선. +8.24% 오른 <b>453,000원</b> 마감.",
+          "title": "현대차 - AI 실행력·美 판매 호조 부각",
+          "body": "AI 전환 실행력과 투싼 등 인기 차종의 미국 판매 호조가 부각되며 투자심리가 개선, 강한 상승세. +8.24% 오른 <b>453,000원</b> 마감.",
           "pct": 8.24,
           "price": 453000.0,
           "currency": "KRW",
@@ -620,7 +620,7 @@
               "is_close": false,
               "date": "2026-08-14",
               "title": "장 초반 강세 출발",
-              "text": "개장 직후부터 매수세가 몰리며 큰 폭의 상승세로 거래를 시작하는 강한 흐름을 보임"
+              "text": "개장 직후부터 큰 폭의 매수세가 유입되며 상승 출발해 강한 흐름을 보임"
             },
             {
               "time": "10:30AM",
@@ -628,8 +628,8 @@
               "pct": 6.33,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "오전 내내 상승 지속",
-              "text": "오전 중반에도 상승세가 꺾이지 않고 이어지며 오히려 오름폭이 소폭 더 커지는 흐름을 보임"
+              "title": "상승세 꾸준히 이어감",
+              "text": "오전 상승분을 지키는 데 그치지 않고 오히려 오름폭을 더 키워가는 흐름이 이어짐"
             },
             {
               "time": "1:00PM",
@@ -637,8 +637,8 @@
               "pct": 7.65,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "오후 들어 상승 가속",
-              "text": "점심 무렵 들어 상승폭이 한층 확대되며 하루 중 가장 높은 수준으로 올라서는 흐름이 이어짐"
+              "title": "오후 들어 상승폭 확대",
+              "text": "점심 이후에도 매수세가 이어지며 하루 중 가장 큰 상승폭을 새로 경신함"
             },
             {
               "time": "마감",
@@ -646,38 +646,38 @@
               "pct": 8.24,
               "is_close": true,
               "date": "2026-08-14",
-              "title": "강세 흐름 이어가는 중",
-              "text": "오후 늦게까지 매수세가 이어지며 하루 중 최고 수준의 상승폭을 유지하고 있는 상황"
+              "title": "상승폭 극대화 마감",
+              "text": "AI 실행력 관련 소식과 정의선 회장 보수 공개 등이 전해진 뒤에도 오름세를 이어가며 마감함"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "현대차그룹-육군-산업부, 피지컬 AI 국방 도입 '맞손'",
-              "original": "현대차그룹-육군-산업부, 피지컬 AI 국방 도입 '맞손'",
-              "source": "전자신문",
-              "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5hcklLVVc0eWlWTHN1dThNVXFkdXlVQjBHcEphbVNNeDNTa3ZnVE9BZjlqQk5KQ0RrX3Z3dHg3UHV2WWFSZTQydWt3T0M?oc=5",
-              "published": "2026-08-14T19:26:28+09:00"
+              "title": "\"빨리빨리 DNA가 AI도 바꿔\"…현대차 AX의 힘은 '실행력' : 네이버 블로그",
+              "original": "\"빨리빨리 DNA가 AI도 바꿔\"…현대차 AX의 힘은 '실행력' : 네이버 블로그",
+              "source": "Naver Blog",
+              "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVFBVNjRmdk5hZGsyakNKN002RkFxTHJrZ25PU1RTb0Q0emdjNUZzZGJiVFVieTdZaXkyUGFNR1N4NGZtVkVPMzVaalRPRXI5OG1GMlRGSV9BMDJuUk84WG5qZmY4alBna2I4TXV3VzRER2N3eTNLV0R2M2xNSy1XZHBGaldzQWlpU2lEbTlHZw?oc=5",
+              "published": "2026-08-15T16:41:59+09:00"
             },
             {
-              "title": "정의선 현대차 회장, 상반기 보수 45억…호세 무뇨스 대표는 24억",
-              "original": "정의선 현대차 회장, 상반기 보수 45억…호세 무뇨스 대표는 24억",
-              "source": "뉴스웍스",
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA5Sko2R1FjaEdickFyUGlpY2dmSUY0eVphTmhJbzFYendRTkRxSnNxSVUwTmJWbWdXRjYtbzVzSHprUmQ4V0U0Sl8xelV5OGRVa0U2LTl1YWFyZTdkclVKRFB0cThZclY1Q0VwQlVRWdIBc0FVX3lxTE1nZDVpTXR0VDZDa1dLSFJISDlLNXhRNkFtZjB3V0VkSWVObmpnOW1nZ3VsUjRjcURlZDVtemVnN2VlcGlNTy11X2xlTUtrQWFXcXNqUVV1a3ZNdnJlZ012VVF3Q2ViaERHQmlpTXhXM0dib0k?oc=5",
-              "published": "2026-08-14T19:04:21+09:00"
+              "title": "정의선 회장, 상반기 보수 45억원…현대차·기아·현대모비스서 각각 수령",
+              "original": "정의선 회장, 상반기 보수 45억원…현대차·기아·현대모비스서 각각 수령",
+              "source": "인더스트리뉴스",
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwcUpRUDVuTk5JVDR3UDFWOWVTMG43MXJXaGxZanRiZHJCT3BNM0U1MUo1ZDVhWjA1RXA1WUxzNGlUTjhwSmVreWFWVkI3cjdkWTZLQW1OcW95Zlh2U2tJdnk0UUVxWmlMTVEzSUxMNDhaZw?oc=5",
+              "published": "2026-08-15T15:52:12+09:00"
             },
             {
-              "title": "현대차, 국내 승용 평균 판매가 5700만원 돌파…해외는 8191만원",
-              "original": "현대차, 국내 승용 평균 판매가 5700만원 돌파…해외는 8191만원",
-              "source": "뉴스1",
-              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5INy1xVnBlVzdmT3AxMmZvX2FLZjR4VU9xcGdKM0laMmI1Q2kwTEgySUh1TG5GY053M2R3WjRreUxLbVJqeFhuelp0Vy1kVE5jZi1tTWZnWlZlUXRJMGFhWtIBZkFVX3lxTE1PRDZEVnQ0N0dFRjMzVmlhSjBtemthMUIxTlV3VHFSOG42MW5RZ0ctWjlPOGlGMlNvTkdxU2xYcU9qYWxjMGtSVUhCOVd0aU8tamJZNXVDcWIzdjJfVkcycEg2TFFPQQ?oc=5",
-              "published": "2026-08-14T19:02:07+09:00"
+              "title": "“투싼은 美서 14배 팔려”... 현대·기아 인기차, 한국과 미국서 이렇게 달랐다",
+              "original": "“투싼은 美서 14배 팔려”... 현대·기아 인기차, 한국과 미국서 이렇게 달랐다",
+              "source": "오토트리뷴",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE52aDRoeWlsZDkyRjRZVHpjS2RQNndndmVtU0QwY1hXVzVUNmZtUExCSkp1cHJGQklVWkM5SWFLUEFNand0eF9QazE1WVdYT0tqNm9TNThWNEVzMDV3TjBxMlRHdDl1VURGSzl0SW1NbnA?oc=5",
+              "published": "2026-08-15T15:45:00+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-08-14-kr.md",
-      "refreshed_at": "2026-08-14 19:42:46 KST"
+      "markdown": "briefings/2026-08-15-kr.md",
+      "refreshed_at": "2026-08-15 17:02:37 KST"
     }
   }
 }
