@@ -1,10 +1,10 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-08-17 07:50:34 KST",
-  "refreshed": [
-    "us"
+  "generated_at": "2026-08-17 12:30:11 KST",
+  "refreshed": [],
+  "slots_refreshed": [
+    "kr"
   ],
-  "slots_refreshed": [],
   "default": "us",
   "markets": {
     "us": {
@@ -305,7 +305,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-14",
               "title": "장 초반 급등 출발",
-              "text": "장 시작과 함께 매수세가 몰리며 하루 중 가장 큰 폭의 오름세로 출발함"
+              "text": "장이 열리자마자 큰 폭으로 뛰어오르며 하루 중 가장 높은 상승률을 기록함"
             },
             {
               "time": "10:30AM",
@@ -313,8 +313,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 3.64,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "상승폭 큰 폭 축소",
-              "text": "오전 들어 상승분을 상당 부분 반납하며 초반 기세가 눈에 띄게 꺾임"
+              "title": "상승폭 절반 반납",
+              "text": "오전 강세가 꺾이며 상승폭이 크게 줄었고 상승세가 이어가지 못하는 모습"
             },
             {
               "time": "1:00PM",
@@ -322,8 +322,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.95,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "오름세 추가 둔화",
-              "text": "점심 무렵까지 상승폭이 계속 줄어들며 약세 흐름이 이어지는 모습"
+              "title": "오름폭 추가 축소",
+              "text": "성과급 갈등 관련 소식이 전해진 가운데 상승 탄력이 계속 약해지는 흐름 이어감"
             },
             {
               "time": "마감",
@@ -331,8 +331,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 3.26,
               "is_close": true,
               "date": "2026-08-14",
-              "title": "상승폭 일부 회복",
-              "text": "오후 들어 낙폭을 만회하며 마감 무렵 상승폭을 다시 끌어올리는 데 성공함"
+              "title": "오후 낙폭 일부 회복",
+              "text": "거버넌스 관련 지적이 나온 뒤에도 오후 들어 상승폭을 다소 되찾으며 마감"
             }
           ],
           "slot_total": 4,
@@ -376,8 +376,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.05,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "장 초반 상승 출발",
-              "text": "개장 직후 매수세가 유입되며 상승세로 하루를 시작하는 모습을 보임"
+              "title": "장 초반 강세 출발",
+              "text": "장 시작과 함께 상승세로 출발하며 이날 첫 흐름을 양호하게 이어감"
             },
             {
               "time": "10:30AM",
@@ -385,8 +385,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.0,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "상승분 대부분 반납",
-              "text": "오전 중 상승폭을 모두 내주며 전일 수준까지 밀려나는 흐름을 보임"
+              "title": "상승분 모두 반납",
+              "text": "오전 상승세가 완전히 꺾이며 전일 수준까지 되돌아가는 흐름을 보임"
             },
             {
               "time": "1:00PM",
@@ -394,8 +394,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.47,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "낙폭 딛고 반등 시도",
-              "text": "오후 들어 저가 매수세가 붙으며 오전의 부진을 조금씩 만회하는 중"
+              "title": "낙폭 소폭 회복",
+              "text": "이공계 인재 육성과 장학금 수여 소식이 전해진 가운데 낙폭을 조금씩 만회하는 중"
             },
             {
               "time": "마감",
@@ -403,8 +403,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.43,
               "is_close": true,
               "date": "2026-08-14",
-              "title": "오후 들어 강세 전환",
-              "text": "장 막판 매수세가 강해지며 하루 중 가장 높은 수준으로 상승폭을 키움"
+              "title": "오후 반등 성공",
+              "text": "오후 들어 매수세가 붙으며 하루 중 가장 높은 수준으로 올라서 마감"
             }
           ],
           "slot_total": 4,
@@ -449,7 +449,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-14",
               "title": "장 초반 약세 출발",
-              "text": "개장과 함께 매물이 나오며 하락세로 하루를 시작하는 모습을 보임"
+              "text": "장 시작부터 하락세를 보이며 전일 대비 약세로 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -457,8 +457,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.12,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "낙폭 확대되는 흐름",
-              "text": "오전 중 하락폭이 커지며 장 초반보다 더 부진한 흐름이 이어짐"
+              "title": "낙폭 확대",
+              "text": "오전 내내 약세가 이어지며 하락폭이 점차 커지는 모습을 보임"
             },
             {
               "time": "1:00PM",
@@ -467,7 +467,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-14",
               "title": "하루 중 낙폭 최대",
-              "text": "점심 무렵까지 내림세가 이어지며 하루 중 가장 큰 낙폭을 기록함"
+              "text": "김동관 부회장 보상 규모 관련 소식이 전해진 가운데 낙폭이 가장 크게 벌어짐"
             },
             {
               "time": "마감",
@@ -475,8 +475,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -2.11,
               "is_close": true,
               "date": "2026-08-14",
-              "title": "낙폭 상당폭 만회",
-              "text": "탄도수정신관 개발 소식이 알려진 뒤 매수세가 붙으며 낙폭을 크게 줄임"
+              "title": "오후 낙폭 축소",
+              "text": "오후 들어 저가 매수세가 유입되며 낙폭을 상당 부분 줄이는 흐름으로 마감"
             }
           ],
           "slot_total": 4,
@@ -520,8 +520,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 5.33,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "장 초반 강세 출발",
-              "text": "개장 직후 매수세가 몰리며 하루 중 가장 큰 상승폭으로 출발함"
+              "title": "장 초반 급등 출발",
+              "text": "장이 열리자마자 큰 폭으로 상승하며 강한 흐름으로 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -529,8 +529,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.21,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "상승폭 크게 줄어듦",
-              "text": "오전 들어 초반 상승분이 상당 부분 반납되며 오름폭이 크게 줄어듦"
+              "title": "상승폭 크게 축소",
+              "text": "오전 강세가 꺾이며 상승폭이 눈에 띄게 줄어드는 모습을 보임"
             },
             {
               "time": "1:00PM",
@@ -538,8 +538,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 3.39,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "오후 들어 반등 시도",
-              "text": "점심 이후 매수세가 다시 붙으며 오전보다 상승폭을 키우는 흐름을 보임"
+              "title": "오후 들어 반등",
+              "text": "젠슨 황 장녀의 로보틱스 거점 방문 소식이 전해지며 상승폭을 다시 키움"
             },
             {
               "time": "마감",
@@ -547,8 +547,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 4.12,
               "is_close": true,
               "date": "2026-08-14",
-              "title": "강세 흐름 이어가는 중",
-              "text": "브라질 신공장 가동 소식이 전해진 뒤 상승폭을 추가로 늘리며 마감 향해 감"
+              "title": "강세 흐름 이어가",
+              "text": "오후 늦게까지 회복세를 유지하며 하루 중 상단권에서 흐름을 마무리"
             }
           ],
           "slot_total": 4,
@@ -592,8 +592,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 5.85,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "장 초반 강세 출발",
-              "text": "개장과 함께 매수세가 유입되며 큰 폭의 상승세로 하루를 시작함"
+              "title": "장 초반 강한 상승",
+              "text": "장 시작과 함께 큰 폭으로 오르며 강세 흐름을 뚜렷하게 나타냄"
             },
             {
               "time": "10:30AM",
@@ -601,8 +601,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 6.33,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "오전 내내 상승 유지",
-              "text": "오전 중반까지 상승폭을 지키며 견조한 오름세를 이어가는 모습을 보임"
+              "title": "상승세 꾸준히 유지",
+              "text": "오전 강세를 그대로 이어가며 상승폭을 소폭 더 키우는 모습을 보임"
             },
             {
               "time": "1:00PM",
@@ -610,8 +610,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 7.65,
               "is_close": false,
               "date": "2026-08-14",
-              "title": "오후 들어 상승폭 확대",
-              "text": "점심 이후 매수세가 더 강해지며 오전보다 높은 수준으로 올라섬"
+              "title": "오후 상승폭 확대",
+              "text": "육군·산업부와의 업무협약 소식이 전해진 뒤 상승폭이 한층 더 커짐"
             },
             {
               "time": "마감",
@@ -619,8 +619,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 8.24,
               "is_close": true,
               "date": "2026-08-14",
-              "title": "하루 중 최고 상승폭",
-              "text": "로봇 군 실증 협약 소식 등이 전해진 뒤 상승폭을 계속 키우며 강세 이어가는 중"
+              "title": "하루 중 최고치 마감",
+              "text": "국방 혁신 협력 소식까지 더해지며 상승세를 이어가 하루 중 최고 수준으로 마감"
             }
           ],
           "slot_total": 4,
@@ -650,7 +650,8 @@ window.NOTEFOLIO_BRIEFING = {
         }
       ],
       "markdown": "briefings/2026-08-16-kr.md",
-      "refreshed_at": "2026-08-16 17:03:47 KST"
+      "refreshed_at": "2026-08-16 17:03:47 KST",
+      "slots_refreshed_at": "2026-08-17 12:30:11 KST"
     }
   }
 };
