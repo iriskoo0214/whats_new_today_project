@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-17 18:25:37 KST",
+  "generated_at": "2026-08-18 07:55:24 KST",
   "refreshed": [
-    "kr"
+    "us"
   ],
   "slots_refreshed": [],
-  "default": "kr",
+  "default": "us",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
-      "label": "미국 증시 요약 2026. 8. 17. 7:50AM",
+      "label": "미국 증시 요약 2026. 8. 18. 7:55AM",
       "chips": [
         "전체",
         "IBM",
@@ -21,253 +21,281 @@
         "오후 6시, 국내 시장을 움직인 이유를 확인하세요."
       ],
       "next": "kr",
-      "headline": "해외 5종목 중 1종목 상승, 4종목 하락 — 아이온큐가 +2.85%로 가장 많이 올랐고 IBM이 -1.19%로 가장 부진했습니다.",
+      "headline": "해외 5종목 중 2종목 상승, 3종목 하락 — 아이온큐가 +1.25%로 가장 많이 올랐고 마이크로소프트가 -3.04%로 가장 부진했습니다.",
       "cards": [
         {
           "stock": "IBM",
           "ticker": "IBM",
-          "title": "IBM - 오픈AI와 손잡고 AI 전환 가속",
-          "body": "오픈AI와 협력해 GPT-5.6·코덱스 기반 기업 핵심업무 AI 전환에 나섰다는 소식에도 주가는 하락 마감. -1.19% 내린 <b>234.32달러</b> 마감.",
-          "pct": -1.19,
-          "price": 234.32000732421875,
+          "title": "IBM - 맥시모 SaaS 정부 인증 획득",
+          "body": "맥시모 정부용 SaaS의 FedRAMP 인증 소식에도 가치주 비교 논쟁 속 주가는 하락 마감. -2.33% 내린 <b>228.85달러</b> 마감.",
+          "pct": -2.33,
+          "price": 228.85000610351562,
           "currency": "USD",
-          "as_of": "2026-08-14",
+          "as_of": "2026-08-17",
           "slots": [
             {
               "time": "11:00PM",
-              "price": 236.19500732421875,
-              "pct": -0.4,
+              "price": 230.6199951171875,
+              "pct": -1.58,
               "is_close": false,
-              "date": "2026-08-14",
-              "title": "장중 약보합권",
-              "text": "오픈AI와의 협업 소식이 나온 뒤에도 매수세가 붙지 않으며 하락세로 흘러감"
+              "date": "2026-08-17",
+              "title": "장 후반 약세 지속",
+              "text": "FedRAMP 인증 소식과 가치주 비교 기사가 나왔지만 매수세로 이어지지 못하며 하락세가 이어짐"
             },
             {
               "time": "마감",
-              "price": 234.32000732421875,
-              "pct": -1.19,
+              "price": 228.85000610351562,
+              "pct": -2.33,
               "is_close": true,
-              "date": "2026-08-14",
-              "title": "낙폭 소폭 확대",
-              "text": "오후 제휴 발표에도 불구하고 반등하지 못하고 하루 중 저점 부근에서 흐름을 이어가는 중"
+              "date": "2026-08-17",
+              "title": "낙폭 확대 마감",
+              "text": "장중 약세가 이어지다가 마감 무렵 낙폭이 더 커지며 하루 중 가장 부진한 흐름으로 끝남"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "IBM·오픈AI 맞손…GPT-5.6·코덱스로 기업 핵심업무 AI 전환 가속",
-              "original": "IBM·오픈AI 맞손…GPT-5.6·코덱스로 기업 핵심업무 AI 전환 가속",
-              "source": "aitimes.kr",
-              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12dFdVRTB6RmVmY0Y2LVQ1LUZOc1hlN3Z3RFYtSmczMzFfQzh0SWJJM0JhTFpVR3Z5ZnZUNTZPZC1ZVXR4d094c19vdHJYTEVMQUtuMXB1dEJDZ1dyT1lHN2tvS3pnYW8?oc=5",
-              "published": "2026-08-16T15:29:20+09:00"
+              "title": "IBM(IBM), 맥시모 정부용 SaaS에 대해 FedRAMP 모더레이트 인증 획득",
+              "original": "IBM (IBM) Secures FedRAMP Moderate Authorization For Maximo Government SaaS",
+              "source": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/technology/articles/ibm-ibm-secures-fedramp-moderate-221001967.html",
+              "published": "2026-08-18T07:10:01+09:00"
+            },
+            {
+              "title": "HPE 대 IBM: 가치투자자가 지금 사야 할 주식은?",
+              "original": "HPE vs. IBM: Which Stock Should Value Investors Buy Now?",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-vs-ibm-stock-value-154002312.html",
+              "published": "2026-08-18T00:40:02+09:00"
+            },
+            {
+              "title": "글로벌 게임 서밋에서 IBM 임원, AI가 스포츠 시청 경험을 바꾸고 있다고 언급",
+              "original": "IBM Exec at Global Game Summit AI Changing Sports Viewing Experience",
+              "source": "NYSE",
+              "url": "https://finance.yahoo.com/video/ibm-exec-global-game-summit-143154279.html",
+              "published": "2026-08-17T23:31:54+09:00"
             }
           ]
         },
         {
           "stock": "마이크로소프트",
           "ticker": "MSFT",
-          "title": "마이크로소프트 - 애저 1000억달러 돌파 후 숨고…",
-          "body": "애저 연매출 1000억달러 돌파로 일주일간 18% 급등한 뒤 설비투자 경쟁 속 소폭 하락, 옵션시장선 매도 선호. -0.30% 내린 <b>495.40달러</b> 마감.",
-          "pct": -0.3,
-          "price": 495.3999938964844,
+          "title": "마이크로소프트 - 직원 피살 소식에 하락",
+          "body": "IREN과 97억달러 AI 클라우드 계약이라는 대형 호재에도 매니저 피살 소식 겹치며 주가 하락. -3.04% 내린 <b>480.35달러</b> 마감.",
+          "pct": -3.04,
+          "price": 480.3500061035156,
           "currency": "USD",
-          "as_of": "2026-08-14",
+          "as_of": "2026-08-17",
           "slots": [
             {
               "time": "11:00PM",
-              "price": 498.4800109863281,
-              "pct": 0.32,
+              "price": 484.9100036621094,
+              "pct": -2.12,
               "is_close": false,
-              "date": "2026-08-14",
-              "title": "강세 흐름 유지",
-              "text": "애저 매출 호조와 대규모 설비투자 관련 소식이 잇따르며 상승세를 유지하는 중"
+              "date": "2026-08-17",
+              "title": "약세 흐름 지속",
+              "text": "IREN과의 대형 클라우드 계약 소식에도 불구하고 하락 원인을 짚는 기사가 나오며 약세가 이어짐"
             },
             {
               "time": "마감",
-              "price": 495.3999938964844,
-              "pct": -0.3,
+              "price": 480.3500061035156,
+              "pct": -3.04,
               "is_close": true,
-              "date": "2026-08-14",
-              "title": "오후 들어 상승분 반납",
-              "text": "장 초반 오름세를 지키지 못하고 오후 들어 소폭 하락 전환하며 약세로 마무리"
+              "date": "2026-08-17",
+              "title": "낙폭 더 커져 마감",
+              "text": "장 후반 들어 하락폭이 확대되며 하루 중 가장 낮은 수준에서 거래를 마무리함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "아마존, 알파벳, 마이크로소프트가 설비투자에 약 6000억 달러를 쏟아붓다: 뚜렷한 승자 한 곳이 부상하다",
-              "original": "Amazon, Alphabet, and Microsoft Are Dropping Nearly $600 Billion on Capital Expenditures: 1 Clear Winner Emerges",
-              "source": "Motley Fool",
-              "url": "https://www.fool.com/investing/2026/08/16/amazon-alphabet-and-microsoft-are-dropping-nearly/",
-              "published": "2026-08-17T07:27:00+09:00"
+              "title": "IREN, 마이크로소프트와 97억달러 AI 클라우드 계약 첫 물량 공급… 9조원대 ‘역대급 딜’ 현실화",
+              "original": "IREN, 마이크로소프트와 97억달러 AI 클라우드 계약 첫 물량 공급… 9조원대 ‘역대급 딜’ 현실화",
+              "source": "Yellow.com",
+              "url": "https://news.google.com/rss/articles/CBMigARBVV95cUxPZ1NKUEEtdGlFU0YxRGhDb2U4X19IM0ozQUc3eERpbFZjcVU2RnRHdHVyWnFWVldnbEVWQjF5akJnaHBHbWJpZG91c29BanpVTGFsT2kzMFo1VV9YX19rdnFpcURqOXB1STg3YXdVeXVHcUR3U3JDX1JQRzBoZ3I0LWJ2VDdZMUpOc0FNbUpBZWg3SlNFSnMwdkJIVWZMQzlPUFYxZ3pkNlpJQTVPcE4tbDViWHhUMWZxaTNkTG5hS1pfOEtTOFdlUFVDV0E3SElIQnlNdG5GSk1wU0FBRDdJZlhOWjBWOXIzQ0syZEN2cWRlX3NpSU15SUNJb1hVazNNZktpZnJmWWtjQmppMzlEZ0N4a0hVYmEtdlRMbDVHUGd4STkzU1ZGeEZEOHdEa1dzUnNUek5hZHRJSDdadTNrREoxXzJuS3B3d0NXUWRxMkVBbXg3Ql9IMU9VQ0xTWHdMeHRfcWZNdFpOR0dNRFFKRnVkQjBfTXhhRjRNVFFhRHdXbVItNmI1WU9fMHZtNzloN2tncVhiU2drb1hrN1EyaDdHVExSYm1jQVZReHlqTXNqOGxzdmZCRGtvVVdWLXk3Q2NPLWpCZUIxc25tc1l4em5mQ1pFRXRaM205N3lmOGVrNFhocWF5bzBHRG1VTnFfVDN4RFVTRUF3N0NWN0dYWA?oc=5",
+              "published": "2026-08-18T07:46:25+09:00"
             },
             {
-              "title": "사티아 나델라의 마이크로소프트 주가, 애저 연매출 사상 첫 1000억 달러 돌파 후 일주일 만에 18% 급등... 여전히 매수할 만한가?",
-              "original": "Satya Nadella's Microsoft Stock Jumped 18% in a Week After Azure's Annual Revenue Topped $100 Billion for the First Time. Is It Still a Buy?",
-              "source": "Motley Fool",
-              "url": "https://www.fool.com/investing/2026/08/16/satya-nadellas-microsoft-stock-jumped-18-in-a-week/",
-              "published": "2026-08-17T03:50:00+09:00"
+              "title": "마이크로소프트 매니저 피살",
+              "original": "Microsoft Manager Killed",
+              "source": "네이트",
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Gd2thZkxZNjNGMUxEc3AwNTh4bUF5NTg5czByY3RiM01qR05oZTQzS3pXQWFZNElGOVh4ejdORnZmeVVrU1RGRnpfU1N4VjhWNzM0a2NNYWRrMG5yS2VpcQ?oc=5",
+              "published": "2026-08-18T06:40:00+09:00"
             },
             {
-              "title": "마이크로소프트 투자자들, 외가격 MSFT 풋 매도를 선호하다",
-              "original": "Investors in Microsoft Love Shorting Out-of-the-Money MSFT Puts",
-              "source": "Barchart",
-              "url": "https://www.barchart.com/story/news/3875820/investors-in-microsoft-love-shorting-out-of-the-money-msft-puts",
-              "published": "2026-08-16T22:15:02+09:00"
+              "title": "마이크로소프트 주가, 오늘 하락한 이유",
+              "original": "Why Microsoft Stock Dropped Today",
+              "source": "Motley Fool",
+              "url": "https://www.fool.com/investing/2026/08/17/why-microsoft-stock-dropped-today/",
+              "published": "2026-08-18T04:48:52+09:00"
             }
           ]
         },
         {
           "stock": "아이온큐",
           "ticker": "IONQ",
-          "title": "아이온큐 - 파운드리에 18억달러 투입",
-          "body": "반도체 파운드리에 18억달러를 지불한 소식과 33억달러 현금 보유가 부각되며 내부자 매도 우려 속에도 상승. +2.85% 오른 <b>46.26달러</b> 마감.",
-          "pct": 2.85,
-          "price": 46.2599983215332,
+          "title": "아이온큐 - 2분기 실적 후 상승세 지속",
+          "body": "실적 발표 후 급등에 이어 양자 네트워킹·보안 사업 확장 기대감이 더해지며 상승세 이어감. +1.25% 오른 <b>46.84달러</b> 마감.",
+          "pct": 1.25,
+          "price": 46.84000015258789,
           "currency": "USD",
-          "as_of": "2026-08-14",
+          "as_of": "2026-08-17",
           "slots": [
             {
               "time": "11:00PM",
-              "price": 46.31999969482422,
-              "pct": 2.98,
+              "price": 46.130001068115234,
+              "pct": -0.28,
               "is_close": false,
-              "date": "2026-08-14",
-              "title": "강세 흐름 이어감",
-              "text": "파운드리 투자 및 현금 보유 관련 소식이 나오며 상승세가 오후까지 이어지는 중"
+              "date": "2026-08-17",
+              "title": "상승세로 방향 전환",
+              "text": "실적 발표 이후 상승 흐름을 짚는 기사와 양자 보안 확장 소식이 겹치며 하락에서 상승으로 돌아섬"
             },
             {
               "time": "마감",
-              "price": 46.2599983215332,
-              "pct": 2.85,
+              "price": 46.84000015258789,
+              "pct": 1.25,
               "is_close": true,
-              "date": "2026-08-14",
-              "title": "장중 고점권 유지",
-              "text": "오후 내내 오름세를 지키며 하루 중 가장 높은 수준에서 상승세를 마무리"
+              "date": "2026-08-17",
+              "title": "오름폭 소폭 축소",
+              "text": "장 후반 들어 상승폭이 다소 줄었으나 전일 대비로는 여전히 오름세를 유지한 채 마감함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "아이온큐, 반도체 파운드리에 18억 달러 지불... 투자자가 알아야 할 사항",
-              "original": "IonQ Paid $1.8 Billion for a Chip Foundry. Here's What Investors Should Know.",
-              "source": "Motley Fool",
-              "url": "https://www.fool.com/investing/2026/08/16/ionq-paid-18-billion-for-a-chip-foundry-heres-what/",
-              "published": "2026-08-16T17:01:00+09:00"
+              "title": "아이온큐 주가, 2분기 실적 발표 이후 16% 상승: 매수해야 할까 차익실현해야 할까?",
+              "original": "IonQ Stock Up 16% Since Q2 Earnings: Should You Buy or Book Profits?",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-stock-16-since-q2-190000075.html",
+              "published": "2026-08-18T04:00:00+09:00"
             },
             {
-              "title": "아이온큐 IONQ, 33억달러 현금 Vs 내부자 매도 3.3억달러 [틈트미 미국 주식] Alex Caruso (7MyiHCYotT)",
-              "original": "아이온큐 IONQ, 33억달러 현금 Vs 내부자 매도 3.3억달러 [틈트미 미국 주식] Alex Caruso (7MyiHCYotT)",
-              "source": "mshale.com",
-              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1saFJpalRkLU1LVlIwamhIVEIydU9tVjMxNUJYYWNocmhaMW9OX25JaHNzcmRWV2xPSWpsbzFYemZJSGt3dTlqbGYyRko2T1o5N1BfSktaQXdDZXowQ3NhMA?oc=5",
-              "published": "2026-08-16T15:13:02+09:00"
+              "title": "[아이온큐 전망] 바닥에서 세력 물량 꽉 잠궜습니다. 무조건 홀딩입니다. Chevrolet Camaro (YWCq2OtxV0)",
+              "original": "[아이온큐 전망] 바닥에서 세력 물량 꽉 잠궜습니다. 무조건 홀딩입니다. Chevrolet Camaro (YWCq2OtxV0)",
+              "source": "Mshale",
+              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9yLUFnSG95QnB0NmNYYko2dWo0VTltZlMxXzBUUkl0NTlrd0g0VE8yTG1QUHhVN3pRZHp2UkM3eFhvSmZobnctQWJLUWMtSFVlMlh3TzA5Y01tUWs?oc=5",
+              "published": "2026-08-18T03:19:33+09:00"
             },
             {
-              "title": "[주식 테마특강]인덱스펀드 Vs 헤지펀드 / 워렌버핏의 성공하는 거북이 투자법 Ionq Stock (qWyCPQ1gZt)",
-              "original": "[주식 테마특강]인덱스펀드 Vs 헤지펀드 / 워렌버핏의 성공하는 거북이 투자법 Ionq Stock (qWyCPQ1gZt)",
-              "source": "mshale.com",
-              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TOV9qQzhaU1h0U2JYbEN0UGtZZHEzN0VxaGU2T2dwUEwxc2Vmc2NlNGJTem5YYXU5OUdVUkF1MkFOU09jd2prTFF6LXh3Rk0wNHNWTGNwbHRjSU0?oc=5",
-              "published": "2026-08-16T14:08:09+09:00"
+              "title": "아이온큐(IONQ), 양자 네트워킹과 보안 분야로 더 깊이 파고드는 이유는?",
+              "original": "Why Is IonQ (IONQ) Pushing Deeper Into Quantum Networking And Security?",
+              "source": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/technology/ai/articles/why-ionq-ionq-pushing-deeper-131104911.html",
+              "published": "2026-08-17T22:11:04+09:00"
             }
           ]
         },
         {
           "stock": "엔비디아",
           "ticker": "NVDA",
-          "title": "엔비디아 - SB에너지 투자 검토 부각",
-          "body": "소프트뱅크 자회사 SB에너지에 4.26조원 투자를 검토한다는 소식과 매수 구간 평가 속 주가는 거의 보합. -0.06% 내린 <b>225.16달러</b> 마감.",
-          "pct": -0.06,
-          "price": 225.16000366210938,
+          "title": "엔비디아 - 오픈AI에 150조원 보증",
+          "body": "오픈AI 데이터센터에 1000억달러 규모 금융보증을 제공했으나 순환출자 우려도 함께 제기돼 보합권 마감. -0.07% 내린 <b>225.01달러</b> 마감.",
+          "pct": -0.07,
+          "price": 225.00999450683594,
           "currency": "USD",
-          "as_of": "2026-08-14",
+          "as_of": "2026-08-17",
           "slots": [
             {
               "time": "11:00PM",
-              "price": 225.65499877929688,
-              "pct": 0.16,
+              "price": 226.1540069580078,
+              "pct": 0.44,
               "is_close": false,
-              "date": "2026-08-14",
+              "date": "2026-08-17",
               "title": "보합권 등락 지속",
-              "text": "SB에너지 투자 검토와 금융망 관련 headline이 겹치며 방향성 없이 등락을 이어감"
+              "text": "오픈AI 데이터센터에 대한 대규모 금융보증과 임대 계약 소식이 잇따랐으나 주가는 큰 변화 없이 횡보함"
             },
             {
               "time": "마감",
-              "price": 225.16000366210938,
-              "pct": -0.06,
+              "price": 225.00999450683594,
+              "pct": -0.07,
               "is_close": true,
-              "date": "2026-08-14",
-              "title": "소폭 하락 마감",
-              "text": "장중 오름세를 유지하다 막판 힘이 빠지며 약보합으로 하루를 마무리"
+              "date": "2026-08-17",
+              "title": "강보합서 소폭 반락",
+              "text": "장 후반 상승세가 약해지며 보합 부근에서 등락을 반복하다 소폭 하락한 채 거래를 마침"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "백악관 자문이 엔비디아의 700조 금융망을 경고한 이유",
-              "original": "백악관 자문이 엔비디아의 700조 금융망을 경고한 이유",
-              "source": "글로벌이코노믹",
-              "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNT3F3Z2VjNVhaWHNNcGFROXppdG40cGJqanZlLXlxRnJDeTNuaVJ3V3lIZnFkdlNKOTdjSG0xZ1Zya1dlRF9HVWNtX01pUXhLSXAtY0E5RG84c2FMVUNFR2N5U3U2OHNCeFlwWHlzdHlyZFhlVEN0b29ITkFuMmRfdVVxMjRsYTA?oc=5",
-              "published": "2026-08-17T07:40:16+09:00"
+              "title": "엔비디아, 오픈AI 데이터센터에 150조원 금융보증",
+              "original": "엔비디아, 오픈AI 데이터센터에 150조원 금융보증",
+              "source": "오피니언뉴스",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4ycng2Wmg3NFQ4LWtmaDdaZm5rUVdOSVZpTVhaX3hWTG5GUDE1ZzEtUzk4a29yY2RzRFFwQ3VUdzNNbU4xSm5ud2dEYU5pRVdkUkYtVWcxSDJ1UjNUalBfUkd3dGUwd21mTWgyVWZVWXU?oc=5",
+              "published": "2026-08-18T07:46:25+09:00"
             },
             {
-              "title": "다우존스 선물: 엔비디아가 매수 구간에 있는 5개 종목 이끌어, 샌디스크는 이것이 필요, 월마트가 다가온다",
-              "original": "Dow Jones Futures: Nvidia Leads 5 Stocks In Buy Areas, Sandisk Needs This; Walmart Looms",
-              "source": "Investor's Business Daily",
-              "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-run-sandisk-soars-nvidia-buy-walmart-target/?src=A00220&yptr=yahoo",
-              "published": "2026-08-17T07:14:56+09:00"
-            },
-            {
-              "title": "엔비디아, 소뱅 자회사 'SB에너지'에 4.26조원 투자 검토",
-              "original": "엔비디아, 소뱅 자회사 'SB에너지'에 4.26조원 투자 검토",
+              "title": "엔비디아, 오픈AI 데이터센터에 1000억달러 보증…‘도돌이표’ 지적도",
+              "original": "엔비디아, 오픈AI 데이터센터에 1000억달러 보증…‘도돌이표’ 지적도",
               "source": "v.daum.net",
-              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA5cm96bVB5b0pyLW00Njl6dGt6R0xXVlI1UW9GMWhXY1draW1ibTlDcXZBZzlVZ29rdlMtNTZ6TGV6MXR0bWhYSTQ3NHlZREU?oc=5",
-              "published": "2026-08-17T07:01:50+09:00"
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAzVndZLUlFYmlwWDhGRG1XNXRWeDdtc1BLY3JfNDFXME1ZSk1JNWNFd2pET0RNZy04bVNVM3JFMW9ZSWZWNHU4TlNreUVzbkU?oc=5",
+              "published": "2026-08-18T07:40:09+09:00"
+            },
+            {
+              "title": "오픈AI, 엔비디아 지원에 10GW 오하이오 데이터센터 임대",
+              "original": "오픈AI, 엔비디아 지원에 10GW 오하이오 데이터센터 임대",
+              "source": "전자신문",
+              "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9acWVldmVWT3JuYTY3RW9HN2JrSUtrZU96dnhLcHpHY0JZMVg1X0tTbnVPc2NWR0h1VzZXVG5EcHZsVHpuUGpFcVZjMnh3Zw?oc=5",
+              "published": "2026-08-18T07:39:43+09:00"
             }
           ]
         },
         {
           "stock": "소파이테크놀로지",
           "ticker": "SOFI",
-          "title": "소파이테크놀로지 - 경쟁사 해펀뱅크에 밀려",
-          "body": "올해 수익률에서 해펀뱅크에 뒤처졌다는 비교 기사가 나오며 투자 매력 논쟁 속 주가는 소폭 하락. -0.76% 내린 <b>18.29달러</b> 마감.",
-          "pct": -0.76,
-          "price": 18.290000915527344,
+          "title": "소파이테크놀로지 - 파이퍼 샌들러 강세 개시",
+          "body": "파이퍼 샌들러가 강력한 교차판매 기반을 근거로 강세 커버리지를 개시하며 투자심리 개선. +0.11% 오른 <b>18.31달러</b> 마감.",
+          "pct": 0.11,
+          "price": 18.309999465942383,
           "currency": "USD",
-          "as_of": "2026-08-14",
+          "as_of": "2026-08-17",
           "slots": [
             {
               "time": "11:00PM",
-              "price": 18.42340087890625,
-              "pct": -0.04,
+              "price": 18.440000534057617,
+              "pct": 0.82,
               "is_close": false,
-              "date": "2026-08-14",
-              "title": "약세 흐름 지속",
-              "text": "경쟁사 대비 부진하다는 평가가 나온 가운데 하락세를 벗어나지 못하는 모습"
+              "date": "2026-08-17",
+              "title": "강세 전망에 상승",
+              "text": "목표가 상향과 강세 커버리지 개시 소식이 이어지며 완만한 오름세를 유지함"
             },
             {
               "time": "마감",
-              "price": 18.290000915527344,
-              "pct": -0.76,
+              "price": 18.309999465942383,
+              "pct": 0.11,
               "is_close": true,
-              "date": "2026-08-14",
-              "title": "낙폭 유지한 채 마감",
-              "text": "저녁 비교 기사 이후에도 반등 없이 하루 중 약세 흐름을 그대로 이어가며 마무리"
+              "date": "2026-08-17",
+              "title": "상승폭 다소 둔화",
+              "text": "장 후반 들어 오름세가 약해졌으나 강세 의견들에 힘입어 소폭이나마 상승 마감함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "해펀뱅크, 올해 소파이를 압도하다... 여전히 더 나은 매수처인 이유",
-              "original": "Happen Bank Is Crushing SoFi This Year. Here's the Reason Why It's Still the Better Buy.",
-              "source": "Motley Fool",
-              "url": "https://www.fool.com/investing/2026/08/16/happen-bank-is-crushing-sofi-this-year-heres-the-r/",
-              "published": "2026-08-16T20:20:00+09:00"
+              "title": "소파이, 월가를 양분시키다... 이 강세론자는 주가가 20% 오를 수 있다고 주장",
+              "original": "SoFi Is Dividing Wall Street. This Bull Case Says the Stock Could Rise 20%.",
+              "source": "Barrons.com",
+              "url": "https://www.barrons.com/articles/sofi-stock-buy-bullish-case-fintech-27801263?siteid=yhoof2&yptr=yahoo",
+              "published": "2026-08-18T03:40:00+09:00"
+            },
+            {
+              "title": "파이퍼 샌들러가 신중한 월가 분위기 속에서 소파이를 '강력한 제품 플라이휠'을 갖춘 '고성장' 스토리로 평가하자 소파이(SOFI) 주가 상승",
+              "original": "SOFI Stock Gains After Piper Sandler Calls It A 'High-Growth' Story With A ‘Powerful Product Flywheel’ Against Cautious Wall Street Backdrop",
+              "source": "Stocktwits",
+              "url": "https://stocktwits.com/news-articles/markets/equity/sofi-stock-gains-piper-sandler-initiates-22-target-wall-street-cautious/cZYGbQ6RJ1b",
+              "published": "2026-08-17T20:19:43+09:00"
+            },
+            {
+              "title": "Piper Sandler, 강력한 교차 판매 기반으로 SoFi Technologies 강세 커버리지 개시",
+              "original": "Piper Sandler, 강력한 교차 판매 기반으로 SoFi Technologies 강세 커버리지 개시",
+              "source": "Investing.com 한국어",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1OZjRyeE9kZTQ0ajRoMDJCUUh1ZDVTME9SQWNrcHNLci16ZFhoY2FfTFo5LVZGLWdXQ1BOWGJxNTJ3a3lwY0VNYXdyNi0wZ2xxcTlmSUxta3dSM0d5OWFNeXRyTjNYc3hqeXNnOTEtNWQ?oc=5",
+              "published": "2026-08-17T19:13:00+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-08-17-us.md",
-      "refreshed_at": "2026-08-17 07:50:34 KST"
+      "markdown": "briefings/2026-08-18-us.md",
+      "refreshed_at": "2026-08-18 07:55:24 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
