@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-19 14:50:52 KST",
-  "refreshed": [],
-  "slots_refreshed": [
-    "kr"
+  "generated_at": "2026-08-20 07:56:39 KST",
+  "refreshed": [
+    "us"
   ],
+  "slots_refreshed": [],
   "default": "us",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
-      "label": "미국 증시 요약 2026. 8. 19. 7:56AM",
+      "label": "미국 증시 요약 2026. 8. 20. 7:56AM",
       "chips": [
         "전체",
         "IBM",
@@ -21,281 +21,281 @@
         "오후 6시, 국내 시장을 움직인 이유를 확인하세요."
       ],
       "next": "kr",
-      "headline": "해외 5종목 중 2종목 상승, 3종목 하락 — IBM이 +1.67%로 가장 많이 올랐고 아이온큐가 -5.81%로 가장 부진했습니다.",
+      "headline": "해외 5종목 중 3종목 상승, 2종목 하락 — 소파이테크놀로지가 +4.30%로 가장 많이 올랐고 아이온큐가 -1.72%로 가장 부진했습니다.",
       "cards": [
         {
           "stock": "IBM",
           "ticker": "IBM",
-          "title": "IBM - 기업 AI 제휴 확대에 승부수",
-          "body": "오픈AI 인력을 앞세운 기업 AI 전환 지원과 포괄적 AI 제휴 소식이 부각되며 매수세 유입. +1.67% 오른 <b>232.67달러</b> 마감.",
-          "pct": 1.67,
-          "price": 232.6699981689453,
+          "title": "IBM - 양자컴·토큰화 기대감 부각",
+          "body": "오류 내성 양자컴 냉각시스템 연결과 기관 연합의 토큰화 프레임워크 참여 소식이 겹치며 매수세 유입. +1.93% 오른 <b>237.16달러</b> 마감.",
+          "pct": 1.93,
+          "price": 237.16000366210938,
           "currency": "USD",
-          "as_of": "2026-08-18",
+          "as_of": "2026-08-19",
           "slots": [
             {
               "time": "11:00PM",
-              "price": 231.4600067138672,
-              "pct": 1.14,
+              "price": 234.80999755859375,
+              "pct": 0.92,
               "is_close": false,
-              "date": "2026-08-18",
-              "title": "강보합권 상승",
-              "text": "기업 AI 확대를 위한 오픈AI 제휴 소식이 나온 뒤 완만한 오름세를 이어가는 중"
+              "date": "2026-08-19",
+              "title": "완만한 강세 유지",
+              "text": "양자컴퓨터 관련 기술 발전 소식이 전해진 가운데 완만한 오름세를 이어가는 중"
             },
             {
               "time": "마감",
-              "price": 232.6699981689453,
-              "pct": 1.67,
+              "price": 237.16000366210938,
+              "pct": 1.93,
               "is_close": true,
-              "date": "2026-08-18",
-              "title": "장중 상승폭 확대",
-              "text": "AI 협업 관련 소식이 이어진 가운데 오후 들어 오름폭을 더 키우며 하루 중 가장 높은 수준으로 마감"
+              "date": "2026-08-19",
+              "title": "강세 폭 확대 마감",
+              "text": "토큰화 프레임워크 참여 소식까지 더해지며 상승폭을 키운 채 하루를 마무리"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "애로우 일렉트로닉스(ARW), IBM 유통 확장 이후 이미 완전히 밸류에이션된 것으로 보여",
-              "original": "Arrow Electronics (ARW) Looks Fully Valued After IBM Distribution Expansion",
-              "source": "Simply Wall St.",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/arrow-electronics-arw-looks-fully-151223650.html",
-              "published": "2026-08-19T00:12:23+09:00"
+              "title": "IBM 주식은 인기가 없지만, 마진 공약은 결코 낮아지지 않았다",
+              "original": "IBM Stock Is Out Of Favor, But The Margin Commitment Never Came Down",
+              "source": "Trefis",
+              "url": "https://www.trefis.com/articles/612014/ibm-stock-is-out-of-favor-but-the-margin-commitment-never-came-down/2026-08-19",
+              "published": "2026-08-20T05:01:07+09:00"
             },
             {
-              "title": "IBM(NYSE: IBM), 기업 AI 확대 겨냥한 포괄적 제휴로 승부수",
-              "original": "IBM(NYSE: IBM), 기업 AI 확대 겨냥한 포괄적 제휴로 승부수",
-              "source": "simplywall.st",
-              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQXlaQ01FVkpWbk1KRTZGamFkUU9xRE54V005b0NzdjJDMms4dTBubzdadldmQWNaUGIydnRIOUJRanpmcENPcFFRb09ibS1lZVJhZ19lT0hCbU1hRzNId2V1YmRDdTR6ZVdsMG02YlZIeHlPUDdGZ1RBT0E3MVY5VzhBc1BBWjRWNkRBemQ2NVVpUkRwdGJMS01DcXdrMFRuOG9tWGNwYlZxb3Jva2FN0gGvAUFVX3lxTE1BeVpDTUVWSlZuTUpFNkZqYWRRT3FETnhXTTlvQ3N2MkMyazh1MG5vN1p2V2ZBY1pQYjJ2dEg5QlFqemZwQ09wUVFvT2JtLWVlUmFnX2VPSEJtTWFHM0h3ZXViZEN1NHplV2wwbTZiVkh4eU9QN0ZnVEFPQTcxVjlXOEFzUEFaNFY2REF6ZDY1VWlSRHB0YkxLTUNxd2swVG44b21YY3BiVnFvcm9rYU0?oc=5",
-              "published": "2026-08-18T11:49:12+09:00"
+              "title": "IBM, 오류 내성 양자컴퓨터 위한 모듈형 극저온 시스템 첫 연결",
+              "original": "IBM, 오류 내성 양자컴퓨터 위한 모듈형 극저온 시스템 첫 연결",
+              "source": "전자신문",
+              "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNa1VENnlucjgwOVV4SXNRQUVsendnU3RjeUZJODN0Z0k1WmlEV05xMkd0VjNRMkhxbDFldmpIaXFCUGxBUlhJS3lrX19XeGN2VENsWlFscWNaMXhxbVBPc0xKMVhSd0Q3V0h5TTZDOTJEMGw2UUg2VHBXWE52S3Z5SXZnNk41dE00X2xrT0hpRHd1TFpNZzFwcC1UWFRldW50MTJ5eEFPY25iM3BNMFJubjBwbDJFbmNDZ0hXZ2wtN2lvZTRUZUNFUi1FSVJIVzhYZVdqODNMdw?oc=5",
+              "published": "2026-08-19T23:19:49+09:00"
             },
             {
-              "title": "IBM, 오픈AI FDE 앞세워 기업 AI 전환 지원 나서",
-              "original": "IBM, 오픈AI FDE 앞세워 기업 AI 전환 지원 나서",
-              "source": "cio.com",
-              "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNQy1XNHdpa2MwTUw5VXBZTXFrSVpNY1ZrbXZzLVhMSm5LdG9vN2V0bXdTSmZ6cVNjd01UQUJVQXF0Y3F6NkpOS2o0NWVxbWEyV1BpLWhaWXdwMDdCNzZzYWliaTVXaHFELWo4WnFkMzNlQVRrYzlBS3daZ3VzNWM0bWJDZTJ2dmVGZHpDdU9fZUJtVXQzMjJORlNVaE1Nd1BISUZFN3FzZ0F0RnVmWExoYjZjUVN6TlpRd29Sb2pWQTRzdVpvUE9yZEdjTEFyZlVnRGVnZC1OUUFwTk56SWhGczNoOUlBalgxZk9DUER3TE11aXlENkRscnpMTV96dV9TbzNtck1fUQ?oc=5",
-              "published": "2026-08-18T11:09:39+09:00"
+              "title": "기관 연합, 판루스 합류…토큰화 프레임워크 구축 기대 (+BTC, Panurus, IBM Research, 프랑스 은행)",
+              "original": "기관 연합, 판루스 합류…토큰화 프레임워크 구축 기대 (+BTC, Panurus, IBM Research, 프랑스 은행)",
+              "source": "민심뉴스",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1aQ2xhbVNKR2dJcHdldnJ2dURxcndDM1dna2ZXbnFxb0h4c1RFR3pVUU5oRWZ5bG40NXpYWEkwY3AwMUZSc2FNWTB2Mkpub1JkbnhMZHd4WXZfSjl1NmdUaDNUeUF2U0hOR3N2YQ?oc=5",
+              "published": "2026-08-19T22:46:35+09:00"
             }
           ]
         },
         {
           "stock": "마이크로소프트",
           "ticker": "MSFT",
-          "title": "마이크로소프트 - 애저 성장에 매도세 속 선방",
-          "body": "애저 성장세가 기술주 전반 매도세 속에서도 주가를 지지, 2029년 5조달러 전망도 긍정적으로 작용. +0.27% 오른 <b>481.63달러</b> 마감.",
-          "pct": 0.27,
-          "price": 481.6300048828125,
+          "title": "마이크로소프트 - AI 수익화 가속",
+          "body": "AI 유료 계정 급증과 크로노스케일과의 50MW AI 컴퓨팅 파트너십 소식이 겹치며 투자심리 개선. +0.56% 오른 <b>484.31달러</b> 마감.",
+          "pct": 0.56,
+          "price": 484.30999755859375,
           "currency": "USD",
-          "as_of": "2026-08-18",
+          "as_of": "2026-08-19",
           "slots": [
             {
               "time": "11:00PM",
-              "price": 479.9700012207031,
-              "pct": -0.08,
+              "price": 482.6499938964844,
+              "pct": 0.21,
               "is_close": false,
-              "date": "2026-08-18",
-              "title": "보합권 등락",
-              "text": "애저 성장세가 부각되며 기술주 매도세 속에서도 견조한 흐름을 유지하다 소폭 약세로 전환"
+              "date": "2026-08-19",
+              "title": "완만한 상승 지속",
+              "text": "AI 수익화 가속과 파트너십 소식이 잇따르며 완만한 오름세를 유지하는 중"
             },
             {
               "time": "마감",
-              "price": 481.6300048828125,
-              "pct": 0.27,
+              "price": 484.30999755859375,
+              "pct": 0.56,
               "is_close": true,
-              "date": "2026-08-18",
-              "title": "막판 반등 성공",
-              "text": "장중 약세를 보이다 후반 들어 반등에 성공하며 플러스권으로 마감을 완성"
+              "date": "2026-08-19",
+              "title": "오름세 유지 마감",
+              "text": "장중 상승분을 지키며 소폭 더 오른 채로 하루 거래를 마무리하는 모습"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "전망: 마이크로소프트, 2029년까지 시가총액 5조 달러 도달할 것. 계산해보니 이렇다",
-              "original": "Prediction: Microsoft Will Be Worth $5 Trillion by 2029. Here's the Math.",
-              "source": "Motley Fool",
-              "url": "https://www.fool.com/investing/2026/08/18/prediction-microsoft-will-be-worth-usd5-trillion-by-2029-here-s-the-math/",
-              "published": "2026-08-19T06:32:01+09:00"
+              "title": "\"마이크로소프트, AI 수익화 가속…유료 계정 급증\"[클릭 e종목]",
+              "original": "\"마이크로소프트, AI 수익화 가속…유료 계정 급증\"[클릭 e종목]",
+              "source": "아시아경제",
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBQcjc4UFc1X25KS1NZYlR2ZEZwSElleFRaSkxfSDFtS09nUnB2TzI1UEl2N1d6djlWNF81NERDWjJBUm5TbGNRbVdJZ0ZyZGxreDhuLWdvMWZHNWg2T3RZOQ?oc=5",
+              "published": "2026-08-20T07:55:00+09:00"
             },
             {
-              "title": "마이크로소프트 주가, 애저 성장세에 힘입어 기술주 매도세 속에서도 선방",
-              "original": "Microsoft Stock Defies Tech Selloff as Azure Growth Holds the Line",
-              "source": "GuruFocus.com",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-defies-tech-selloff-205301064.html",
-              "published": "2026-08-19T05:53:01+09:00"
+              "title": "마이크로소프트, 도메인 대신 행동 추적으로 맥 악성코드 차단",
+              "original": "마이크로소프트, 도메인 대신 행동 추적으로 맥 악성코드 차단",
+              "source": "디지털포커스",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5oY3YtNUhmQXJ1Nzk0em1mNjZvZmRpQ001UURWSHZWYjZFV09aLW5DaHlzQldHSE1WMGdLTVNGS0VUTi13ckYyR0doUlVOU1gzSGExcTVZd1RiR3ZsSy05S2ZvcWU2OElZWEc0NXhTaDE?oc=5",
+              "published": "2026-08-20T07:22:49+09:00"
             },
             {
-              "title": "마이크로소프트, 윈도우 관련 중국발 새로운 악재 직면",
-              "original": "Microsoft Faces Fresh China Blow Over Windows",
-              "source": "GuruFocus.com",
-              "url": "https://finance.yahoo.com/technology/articles/microsoft-faces-fresh-china-blow-204842615.html",
-              "published": "2026-08-19T05:48:42+09:00"
+              "title": "크로노스케일, 마이크로소프트와 50MW 규모 AI 컴퓨팅 파트너십 체결…엑소 바이오닉스 사업 매각 추진",
+              "original": "크로노스케일, 마이크로소프트와 50MW 규모 AI 컴퓨팅 파트너십 체결…엑소 바이오닉스 사업 매각 추진",
+              "source": "데이터투자",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9oT1h6MnhQb29IbGhqQ3BTSmFMc2w4ME1XN2NKVDQwa0pjV2s5ZGRrSWpYOWRrSV9aQThSR1JFRjNwMTc4TFhHeGw0YUtuZjh2a1NHblhfZkNzeUhfVURZT3g0Z05Ba1VDdHRUbnAwLU9KYmc?oc=5",
+              "published": "2026-08-20T06:18:37+09:00"
             }
           ]
         },
         {
           "stock": "아이온큐",
           "ticker": "IONQ",
-          "title": "아이온큐 - 양자컴퓨터주 동반 급락",
-          "body": "캐나다 양자 샌드박스 참여 소식에도 양자컴퓨터주 전반의 동반 약세 흐름에 동반 하락. -5.81% 내린 <b>44.12달러</b> 마감.",
-          "pct": -5.81,
-          "price": 44.119998931884766,
+          "title": "아이온큐 - 실적 후 밸류에이션 논쟁",
+          "body": "2분기 실적과 신규 계약 발표 후 밸류에이션 논쟁이 이어지는 가운데 퀀텀 협력 기대에도 주가는 하락. -1.72% 내린 <b>43.36달러</b> 마감.",
+          "pct": -1.72,
+          "price": 43.36000061035156,
           "currency": "USD",
-          "as_of": "2026-08-18",
+          "as_of": "2026-08-19",
           "slots": [
             {
               "time": "11:00PM",
-              "price": 45.18000030517578,
-              "pct": -3.54,
+              "price": 42.60499954223633,
+              "pct": -3.43,
               "is_close": false,
-              "date": "2026-08-18",
-              "title": "낙폭 확대 지속",
-              "text": "양자컴퓨터주 전반의 동반 약세 속에서 하락폭이 점차 커지는 흐름을 이어가는 중"
+              "date": "2026-08-19",
+              "title": "약세 흐름 지속",
+              "text": "실적 발표 후 밸류에이션 논쟁이 이어지는 가운데 내림세를 이어가는 중"
             },
             {
               "time": "마감",
-              "price": 44.119998931884766,
-              "pct": -5.81,
+              "price": 43.36000061035156,
+              "pct": -1.72,
               "is_close": true,
-              "date": "2026-08-18",
-              "title": "하루 중 최대 낙폭",
-              "text": "동종 업종 전반의 약세 흐름이 이어진 가운데 하락폭을 더 키우며 하루 중 가장 낮은 수준으로 마감"
+              "date": "2026-08-19",
+              "title": "낙폭 일부 축소 마감",
+              "text": "장중 한때 낙폭이 더 커졌으나 막판 들어 하락폭을 다소 줄이며 마무리"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "IONQ, 캐나다 양자 컴퓨팅 샌드박스 프로그램 참여",
-              "original": "IONQ, 캐나다 양자 컴퓨팅 샌드박스 프로그램 참여",
-              "source": "Investing.com 한국어",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ESExWYWZhNFpWTmpKcUd4Uzh0UGhiMTJBS3YxclZ1S01VVXo2c3g5QVFhcnhSZEl4LWhYcU1QM0puQ3VleUhhOVdZcUVDRVYtaUNuMEszQ3JXOU9lR1hvUk5YZHBKVENPOXBqbS1ldHM?oc=5",
-              "published": "2026-08-19T05:09:00+09:00"
+              "title": "아이온큐(IONQ), 2분기 실적과 신규 계약 발표 후 밸류에이션 논쟁 속 관심 집중",
+              "original": "IonQ (IONQ) Gains Attention After Q2 Results And New Deals As Valuation Debate Builds",
+              "source": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-ionq-gains-attention-q2-211223228.html",
+              "published": "2026-08-20T06:12:23+09:00"
             },
             {
-              "title": "[속보] 아이온큐·퀀티넘 등 주가 동반 하락…미국 양자컴퓨터주 장초반 일제히 약세",
-              "original": "[속보] 아이온큐·퀀티넘 등 주가 동반 하락…미국 양자컴퓨터주 장초반 일제히 약세",
-              "source": "CBC뉴스",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1sT055ZU5paXloUVphWkZSdnhRNndma1N1LVZ4N1dIbndZazZ5QWw3RlUxaXV5b0stLWNKdmVmN2FtYXY0OFM2LVNZSFZDdjZVc3FxNHN0QzlNd1FFNTZTbHp1Z0J1NzVY?oc=5",
-              "published": "2026-08-18T22:51:06+09:00"
+              "title": "네가 있기에 내가 있다. 김윤환의 빈자리를 채우기 위해 한마음이 된 사람들 【K중만컵 A조 1경기 캄몬스타즈vs엠비대 :: 26.08.08 #1 풀영상】 Ionq Stock (gIBeRA5Wtx)",
+              "original": "네가 있기에 내가 있다. 김윤환의 빈자리를 채우기 위해 한마음이 된 사람들 【K중만컵 A조 1경기 캄몬스타즈vs엠비대 :: 26.08.08 #1 풀영상】 Ionq Stock (gIBeRA5Wtx)",
+              "source": "Mshale",
+              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MYVA2QWFOWjNDdzVKandjMUtMNnBNcUNNSXFDQzlsa3VURlpyNG9lN0M0aDR3X3FyWDJLUmxKam1zd3hKdWI1MEJfeW9OanB1c3ZoWHF1SEtBbk0?oc=5",
+              "published": "2026-08-20T01:48:33+09:00"
             },
             {
-              "title": "IonQ(IONQ) 주가 전망: 강세 시나리오 $82 vs 약세 시나리오 $26",
-              "original": "IonQ(IONQ) 주가 전망: 강세 시나리오 $82 vs 약세 시나리오 $26",
-              "source": "FinanceFeeds",
-              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE41Tk1ZRzdsQTVkdUhjRmNWX25jaGotY0JtQlZmQkJyRDJGLVY1YUVPMk1SdHZERUcwNjc0b0NSbnE4LXl3cnpLQ3NjN1lrZ2p0Y1NLaTVpMWp5eEtXUFZYWm5xTi1EZw?oc=5",
-              "published": "2026-08-18T18:10:20+09:00"
+              "title": "아이온큐, 최신 퀀텀 협력으로 어떻게 수혜 볼 수 있나",
+              "original": "How IonQ Could Benefit From Its Latest Quantum Collaborations",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/technology/ai/articles/ionq-could-benefit-latest-quantum-135200731.html",
+              "published": "2026-08-19T22:52:00+09:00"
             }
           ]
         },
         {
           "stock": "엔비디아",
           "ticker": "NVDA",
-          "title": "엔비디아 - 금리 급등 속 반도체주 약세",
-          "body": "국채금리 급등 여파로 뉴욕증시 하락, 마이크론·SK하이닉스 급락 속 엔비디아도 동반 약세. -2.34% 내린 <b>219.74달러</b> 마감.",
-          "pct": -2.34,
-          "price": 219.74000549316406,
+          "title": "엔비디아 - 오픈AI 실적 부진 여파",
+          "body": "오픈AI 실적 부진 소식에 전망 불안감이 커지며 매도세 유입, 실적 발표를 앞두고 투자자 경계감도 확대. -0.99% 내린 <b>217.56달러</b> 마감.",
+          "pct": -0.99,
+          "price": 217.55999755859375,
           "currency": "USD",
-          "as_of": "2026-08-18",
+          "as_of": "2026-08-19",
           "slots": [
             {
               "time": "11:00PM",
-              "price": 220.17999267578125,
-              "pct": -2.15,
+              "price": 218.68499755859375,
+              "pct": -0.48,
               "is_close": false,
-              "date": "2026-08-18",
-              "title": "약세 흐름 지속",
-              "text": "국채금리 급등에 따른 뉴욕증시 하락 속에서 반도체주 전반과 함께 낙폭을 유지하는 중"
+              "date": "2026-08-19",
+              "title": "약세 흐름 이어가",
+              "text": "오픈AI 실적 부진 소식 여파로 투자자 우려가 커지며 하락세를 유지하는 중"
             },
             {
               "time": "마감",
-              "price": 219.74000549316406,
-              "pct": -2.34,
+              "price": 217.55999755859375,
+              "pct": -0.99,
               "is_close": true,
-              "date": "2026-08-18",
-              "title": "낙폭 소폭 확대",
-              "text": "금리 부담에 따른 증시 전반의 조정 흐름 속에서 하락폭을 더 키우며 마감"
+              "date": "2026-08-19",
+              "title": "낙폭 소폭 확대 마감",
+              "text": "실적 발표를 앞둔 경계감 속에 하락폭을 다소 키운 채 하루를 마무리"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "LG전자, 엔비디아 손잡은 이유 있네…1년 만에 12년치 데이터 확보",
-              "original": "LG전자, 엔비디아 손잡은 이유 있네…1년 만에 12년치 데이터 확보",
+              "title": "엔비디아 주가 0.99% 하락…오픈AI 실적 부진에 전망 흔들",
+              "original": "엔비디아 주가 0.99% 하락…오픈AI 실적 부진에 전망 흔들",
               "source": "v.daum.net",
-              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1UVEw5LTk2aG9KOGIxeEhDb194Wk9xUVlWbzlfYjVEb3Ntemc0X1pvYXVRY0NoVnBtTmJqanlkd3YxNVpzREZsOU0wZk9HSTA?oc=5",
-              "published": "2026-08-19T07:31:54+09:00"
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9hTy1UQzhJLTVIUGduSEJuVFpfVG1SVDBnU2N3dl9EM2VrV0V3dS12cmtXUFBNeDhUVTcyVC1wbXVDVkwzaXJtSnJfV3pxMEE?oc=5",
+              "published": "2026-08-20T07:02:43+09:00"
             },
             {
-              "title": "뉴욕증시, 미국 국채금리 급등 등 영향 하락⋯엔비디아 2%대 하락-마이크론 6%대, SK하이닉스 9%대 급락-애플 1%대 상승",
-              "original": "뉴욕증시, 미국 국채금리 급등 등 영향 하락⋯엔비디아 2%대 하락-마이크론 6%대, SK하이닉스 9%대 급락-애플 1%대 상승",
-              "source": "이코노뉴스",
-              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9MeXZ1M0Z5MFc0akpabXlEbmhnZ1AyZjZkTDVnQjkwUTNwa0ZYVUZJUnE2aWs4YWdibng4TXdoTUFFcDcwZDFYcE9ZQmtOTmRLYkpKNy1wLTdUVVozUFk2RlJGX29xcWZURFlWT3lB?oc=5",
-              "published": "2026-08-19T07:01:40+09:00"
+              "title": "[손재철 인사이트] LG전자·엔비디아, 자율주행 전장 부문 협력 가속화 하는 이유",
+              "original": "[손재철 인사이트] LG전자·엔비디아, 자율주행 전장 부문 협력 가속화 하는 이유",
+              "source": "스포츠경향",
+              "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0tdk5HV0NWWXcyM3B1YWUtZ1hfM3FuWjBoZWhLMG1tZ0RESzZSWDdCdHhjc2dtY0c4Z3hkX1VsZ0dnemd1NGV1dUZaU0dpQVBfeldpUUQ3a1RrWWN6eUHSAWNBVV95cUxQZjVFVGFOU2g1STEzOTRZc0VyU2xZOEpDVkZjYVFVOUl0aVNmRmFxQ3NqVDN1clhGbVpFdFI0c1I2VS03NHdvMVVCb2czZkc2YlR0MGVKbXd3VXc0WWpUU09MMUk?oc=5",
+              "published": "2026-08-20T07:00:00+09:00"
             },
             {
-              "title": "'LG 로봇 훈련장' 찾은 엔비디아…데이터 확보 전쟁",
-              "original": "'LG 로봇 훈련장' 찾은 엔비디아…데이터 확보 전쟁",
-              "source": "news.sbs.co.kr",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1nR2hpRHhrWG1TamNsN3NYdGVSTHY1bnlvRng2SlJEelB2djUzNTBYQmdEWVdERjhIZlpPZXZJVlROUTIxbGNiNVhmbTRUOTM2dUZDSjFBQTNFYTNuakxzdTMzb3NxcU5lWmfSAWZBVV95cUxQVHpGSXVzMlRjMTBFbVEyekZSRERKX0U5MjNHTGw4TnZrd29iWS16ZUpCREtzRXRGbkMyZ09hQjJQVFZuNnRpRHo5bUZJUnlCOHE2VGxXTUp2YTcyU3kzbjQ1TzlzQkE?oc=5",
-              "published": "2026-08-19T06:52:00+09:00"
+              "title": "스티펠, 실적 발표 앞둔 엔비디아 투자자들에게 메시지 전해",
+              "original": "Stifel Has Message For Nvidia Investors Before Earnings",
+              "source": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/stifel-message-nvidia-investors-earnings-215114118.html",
+              "published": "2026-08-20T06:51:14+09:00"
             }
           ]
         },
         {
           "stock": "소파이테크놀로지",
           "ticker": "SOFI",
-          "title": "소파이테크놀로지 - 고평가 우려 속 하락",
-          "body": "공정가치 대비 고평가 지적이 나오는 가운데 회원 성장 대비 제품 성장 속도 부각에도 주가는 하락. -3.55% 내린 <b>17.66달러</b> 마감.",
-          "pct": -3.55,
-          "price": 17.65999984741211,
+          "title": "소파이테크놀로지 - 파이퍼 샌들러 커버리지 개시",
+          "body": "파이퍼 샌들러의 비중확대 커버리지 개시와 채권시장 촉매로 핀테크주 전반이 동반 반등. +4.30% 오른 <b>18.42달러</b> 마감.",
+          "pct": 4.3,
+          "price": 18.420000076293945,
           "currency": "USD",
-          "as_of": "2026-08-18",
+          "as_of": "2026-08-19",
           "slots": [
             {
               "time": "11:00PM",
-              "price": 18.045000076293945,
-              "pct": -1.45,
+              "price": 18.079999923706055,
+              "pct": 2.38,
               "is_close": false,
-              "date": "2026-08-18",
-              "title": "약세 흐름 지속",
-              "text": "고평가 논란이 제기된 가운데 낙폭을 유지하며 하락세를 이어가는 중"
+              "date": "2026-08-19",
+              "title": "강세 흐름 지속",
+              "text": "파이퍼 샌들러의 긍정적 커버리지 소식에 힘입어 강한 오름세를 이어가는 중"
             },
             {
               "time": "마감",
-              "price": 17.65999984741211,
-              "pct": -3.55,
+              "price": 18.420000076293945,
+              "pct": 4.3,
               "is_close": true,
-              "date": "2026-08-18",
-              "title": "낙폭 확대 마감",
-              "text": "밸류에이션 부담 지적이 나온 뒤 매수세가 붙지 못하며 하락폭을 키운 채 마감"
+              "date": "2026-08-19",
+              "title": "상승폭 키워 마감",
+              "text": "핀테크주 전반의 반등 흐름 속에 장중 오름세를 더 키운 채로 마무리"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "SoFi(SOFI) 주가는 공정 가치와 실적 측면에서 고평가된 것으로 보인다",
-              "original": "SoFi(SOFI) 주가는 공정 가치와 실적 측면에서 고평가된 것으로 보인다",
-              "source": "simplywall.st",
-              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdno0cEFxVi1BMnpQeURZNTFoOHRGQXRsemhKR0JHUEhqc2h3MnZQaV94VDd0Y3kwSWVtdjJsbG1NUEJ3SnRZWURnLUREZXQxeFpwRDhjUFlwc0gtejdSZVNBU053akljUl9UWmtHdnp3UnYtS0JsR0ZZdjQtWEl6cnVMbzEweXRXTTRyY1FjRk1OcFBqRkR6RHdzUjVmVXY3d0NkWW92UGJyWXk0bXfSAbMBQVVfeXFMT0FBVmZSQnZFSlU4cHllZnMtN2VDOGdqUTBzNmt1dDdHaXdSdm9lQlFiRzczaDZ6V3ZlSHdmcF95dS1sZnRpbXhUU0VWMFNPazBBYmFBSEZSa05oZFgxbkFuS080Wk50a3FBbzZLWmVGYjBtdWh1b3drVWN2WmZiMlh0SlRsUElpWG1KNzhTNmxfVGdjcTVycW5ROGhURHlSWHJUbzRXSnQ0X3RteEtWS1N4ejA?oc=5",
-              "published": "2026-08-19T04:51:01+09:00"
+              "title": "소파이(SOFI) 주식, 공정가치 대비 비싸지만 수익률은 강세",
+              "original": "SoFi (SOFI) Stock Looks Rich On Fair Value Yet Strong On Returns",
+              "source": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/sofi-sofi-stock-looks-rich-181038696.html",
+              "published": "2026-08-20T03:10:38+09:00"
             },
             {
-              "title": "소파이 테크놀로지스, 소파이 코치로 회원 참여도 높일 수 있을까",
-              "original": "Can SoFi Technologies Use SoFi Coach to Deepen Member Engagement?",
-              "source": "Zacks",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/sofi-technologies-sofi-coach-deepen-155600942.html",
-              "published": "2026-08-19T00:56:00+09:00"
+              "title": "소파이 테크놀로지스 주가 상승, 파이퍼 샌들러 '비중확대' 커버리지 개시",
+              "original": "SoFi Technologies Stock Gains as Piper Sandler Initiates Coverage With Overweight Rating",
+              "source": "TIKR.com",
+              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdXBjcmVsRzRaeHowOTE3R1otTVJjQUlPRURIUk56NEFUTTJ5U0tSS1ZrRmo2X09BcHJRbEl3ZHVEM1VqdXIyRzRwU0Q2ZVZuMlhlV2tQYTk3TzRZNENkX2lNX041RUpWZjRoaXhlcWZibkhkMDFKcWJGdlRCNGxFMHZxT2VESHZQaFdUWA?oc=5",
+              "published": "2026-08-20T01:52:30+09:00"
             },
             {
-              "title": "소파이, 회원 수보다 제품 성장 속도가 더 빨라",
-              "original": "SoFi's Products Are Growing Faster Than Its Members",
-              "source": "GuruFocus.com",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/sofis-products-growing-faster-members-115311661.html",
-              "published": "2026-08-18T20:53:11+09:00"
+              "title": "소파이 6% 상승, 업스타트 8% 급등, 어펌 7% 상승... 채권시장 촉매로 핀테크주 반등",
+              "original": "SoFi Climbs 6%, Upstart Jumps 8%, Affirm Rises 7% as Fintech Names Rebound With Bond Market Catalyst",
+              "source": "24/7 Wall St.",
+              "url": "https://247wallst.com/investing/2026/08/19/sofi-climbs-6-upstart-jumps-8-affirm-rises-7-as-fintech-names-rebound-with-bond-market-catalyst/",
+              "published": "2026-08-20T01:25:33+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-08-19-us.md",
-      "refreshed_at": "2026-08-19 07:56:41 KST"
+      "markdown": "briefings/2026-08-20-us.md",
+      "refreshed_at": "2026-08-20 07:56:39 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
