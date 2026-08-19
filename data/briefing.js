@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-08-19 12:26:15 KST",
+  "generated_at": "2026-08-19 13:04:18 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -332,8 +332,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -8.42,
               "is_close": false,
               "date": "2026-08-19",
-              "title": "장 초반 큰 폭 하락",
-              "text": "개장 직후부터 매도세가 강하게 유입되며 낙폭이 크게 벌어진 채로 출발함"
+              "title": "장 초반 급락 출발",
+              "text": "개장 직후부터 낙폭이 크게 벌어지며 8%대 하락 구간에서 거래를 시작함"
             },
             {
               "time": "10:30AM",
@@ -341,8 +341,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -7.1,
               "is_close": false,
               "date": "2026-08-19",
-              "title": "낙폭 다소 줄어",
-              "text": "중동 리스크 재점화와 국제유가 상승 소식 속에서도 오전 저점 대비 낙폭을 일부 만회함"
+              "title": "낙폭 일부 축소",
+              "text": "장 초반 급락분을 일부 만회하며 하락폭이 줄었으나 여전히 큰 폭의 내림세 유지"
+            },
+            {
+              "time": "12:40PM",
+              "price": 1516000.0,
+              "pct": -8.78,
+              "is_close": false,
+              "date": "2026-08-19",
+              "title": "재차 낙폭 확대",
+              "text": "오전 중 회복 흐름이 꺾이며 하락폭이 다시 커져 이날 최저 수준까지 밀려 내려감"
             }
           ],
           "slot_total": 4,
@@ -386,8 +395,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -7.17,
               "is_close": false,
               "date": "2026-08-19",
-              "title": "장 초반 급락 출발",
-              "text": "개장과 함께 매물이 쏟아지며 큰 폭의 하락세로 하루를 시작함"
+              "title": "장 초반 큰 폭 하락",
+              "text": "개장 초부터 큰 폭의 하락세로 출발하며 7%대 약세권에서 거래가 시작됨"
             },
             {
               "time": "10:30AM",
@@ -395,8 +404,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -5.59,
               "is_close": false,
               "date": "2026-08-19",
-              "title": "낙폭 축소 흐름",
-              "text": "상반기 실적 호조 소식이 전해진 가운데 오전 저점을 찍은 뒤 낙폭을 상당 부분 줄여나감"
+              "title": "낙폭 다소 축소",
+              "text": "오전 중 하락폭이 줄어들며 낙폭을 일부 만회했으나 약세 흐름 자체는 지속됨"
+            },
+            {
+              "time": "12:40PM",
+              "price": 248750.0,
+              "pct": -7.36,
+              "is_close": false,
+              "date": "2026-08-19",
+              "title": "낙폭 다시 확대",
+              "text": "오전 중 회복세가 이어지지 못하고 재차 밀리며 하락폭이 이날 가장 크게 벌어짐"
             }
           ],
           "slot_total": 4,
@@ -436,12 +454,12 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "9:10AM",
-              "price": 1241000.0,
-              "pct": 8.29,
+              "price": 1240000.0,
+              "pct": 8.2,
               "is_close": false,
               "date": "2026-08-19",
-              "title": "장 초반 강세 출발",
-              "text": "개장 직후부터 큰 폭의 상승세를 보이며 강한 매수세 속에 출발함"
+              "title": "강한 상승 출발",
+              "text": "K9 자주포 미국 공급 소식과 맞물려 장 초반부터 큰 폭의 상승세로 출발함"
             },
             {
               "time": "10:30AM",
@@ -449,8 +467,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 7.33,
               "is_close": false,
               "date": "2026-08-19",
-              "title": "상승폭 소폭 조정",
-              "text": "K9 자주포 미 육군 공급 계약 소식이 이어졌으나 오전 고점 대비 상승폭이 다소 줄어듦"
+              "title": "상승폭 소폭 둔화",
+              "text": "자주포 관련 훈풍이 이어졌으나 초반 급등 기세는 다소 누그러지며 상승폭 줄어듦"
+            },
+            {
+              "time": "12:40PM",
+              "price": 1166000.0,
+              "pct": 1.75,
+              "is_close": false,
+              "date": "2026-08-19",
+              "title": "오름폭 크게 축소",
+              "text": "방산 확장 기대 보도가 이어졌음에도 오전 상승분 대부분을 반납하며 상승폭이 크게 줄어듦"
             }
           ],
           "slot_total": 4,
@@ -494,8 +521,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -2.88,
               "is_close": false,
               "date": "2026-08-19",
-              "title": "장 초반 약세 출발",
-              "text": "개장 초반 매도세에 눌리며 하락한 채로 거래를 시작함"
+              "title": "약세로 장 시작",
+              "text": "개장 초부터 하락세로 출발하며 약보합권 아래에서 거래가 시작됨"
             },
             {
               "time": "10:30AM",
@@ -503,8 +530,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.48,
               "is_close": false,
               "date": "2026-08-19",
-              "title": "약세에서 강세 전환",
-              "text": "전장 기술력 관련 소식이 전해진 가운데 오전 중 낙폭을 만회하고 상승 전환에 성공함"
+              "title": "강세로 전환",
+              "text": "유럽 완성차향 5G 공급 소식이 알려지며 낙폭을 만회하고 상승 전환에 성공함"
+            },
+            {
+              "time": "12:40PM",
+              "price": 202000.0,
+              "pct": -2.88,
+              "is_close": false,
+              "date": "2026-08-19",
+              "title": "상승분 모두 반납",
+              "text": "5G 텔레매틱스 공급 소식에도 오전 상승분을 고스란히 반납하며 다시 약세로 돌아섬"
             }
           ],
           "slot_total": 4,
@@ -548,8 +584,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -5.63,
               "is_close": false,
               "date": "2026-08-19",
-              "title": "장 초반 급락 출발",
-              "text": "개장과 동시에 매물이 쏟아지며 큰 폭의 하락세로 하루를 시작함"
+              "title": "장 초반 약세 출발",
+              "text": "개장 직후부터 하락세로 출발하며 5%대 약세권에서 거래가 시작됨"
             },
             {
               "time": "10:30AM",
@@ -557,8 +593,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.1,
               "is_close": false,
               "date": "2026-08-19",
-              "title": "낙폭 상당폭 축소",
-              "text": "포르쉐 관련 훈훈한 화제성 기사가 이어진 가운데 오전 저점 대비 낙폭을 크게 줄여나감"
+              "title": "낙폭 일부 회복",
+              "text": "포르쉐 전기차 관련 화제성 보도가 나오는 가운데 하락폭이 다소 줄어드는 모습을 보임"
+            },
+            {
+              "time": "12:40PM",
+              "price": 413500.0,
+              "pct": -4.94,
+              "is_close": false,
+              "date": "2026-08-19",
+              "title": "하락폭 다시 확대",
+              "text": "오전 중 회복세가 오래가지 못하고 재차 밀리며 하락폭이 다시 커지는 흐름을 보임"
             }
           ],
           "slot_total": 4,
@@ -589,7 +634,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-08-18-kr.md",
       "refreshed_at": "2026-08-18 18:06:49 KST",
-      "slots_refreshed_at": "2026-08-19 12:26:15 KST"
+      "slots_refreshed_at": "2026-08-19 13:04:18 KST"
     }
   }
 };
