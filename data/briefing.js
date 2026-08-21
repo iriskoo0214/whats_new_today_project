@@ -1,11 +1,11 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-08-21 14:52:57 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-08-21 18:20:33 KST",
+  "refreshed": [
     "kr"
   ],
-  "default": "us",
+  "slots_refreshed": [],
+  "default": "kr",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
@@ -286,7 +286,7 @@ window.NOTEFOLIO_BRIEFING = {
     },
     "kr": {
       "icon": "assets/moon.svg",
-      "label": "한국 증시 요약 2026. 8. 20. 6:09PM",
+      "label": "한국 증시 요약 2026. 8. 21. 6:20PM",
       "chips": [
         "전체",
         "SK하이닉스",
@@ -300,17 +300,17 @@ window.NOTEFOLIO_BRIEFING = {
         "다시 찾아올게요."
       ],
       "next": "us",
-      "headline": "국내 5종목 중 4종목 상승, 1종목 하락 — SK하이닉스가 +12.73%로 가장 많이 올랐고 한화에어로스페이스가 -0.85%로 가장 부진했습니다.",
+      "headline": "국내 5종목 중 2종목 상승, 3종목 하락 — 삼성전자가 +3.87%로 가장 많이 올랐고 한화에어로스페이스가 -7.03%로 가장 부진했습니다.",
       "cards": [
         {
           "stock": "SK하이닉스",
           "ticker": "000660",
-          "title": "SK하이닉스 - 40조 주주환원에 급등",
-          "body": "자사주 매입과 미 국채 매입을 포함한 40조원 규모 주주환원책 발표에 매수세 집중, 코스피 전체 급반등을 견인. +12.73% 오른 <b>1,691,000원</b> 마감.",
-          "pct": 12.73,
-          "price": 1691000.0,
+          "title": "SK하이닉스 - 40조 소각 vs 30조 배당 경쟁",
+          "body": "삼성전자와 역대급 주주환원 경쟁에 나섰다는 소식과 노사관계 모범 사례로 평가받으며 투자심리 개선, 매수세 유입. +2.31% 오른 <b>1,730,000원</b> 마감.",
+          "pct": 2.31,
+          "price": 1730000.0,
           "currency": "KRW",
-          "as_of": "2026-08-20",
+          "as_of": "2026-08-21",
           "slots": [
             {
               "time": "9:10AM",
@@ -318,8 +318,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.35,
               "is_close": false,
               "date": "2026-08-21",
-              "title": "장 초반 보합권 출발",
-              "text": "오전 초반에는 강보합 수준에서 움직이며 큰 변동 없이 거래가 시작됨"
+              "title": "장 초반 보합 출발",
+              "text": "전 거래일 대비 소폭 오른 채로 거래를 시작하며 하루를 조용히 열었음"
             },
             {
               "time": "10:30AM",
@@ -327,8 +327,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 4.2,
               "is_close": false,
               "date": "2026-08-21",
-              "title": "상승폭 급격히 확대",
-              "text": "오전 중반 들어 상승폭이 크게 확대되며 하루 중 가장 높은 상승률을 기록함"
+              "title": "오전 급등세 전환",
+              "text": "오전 들어 상승폭이 크게 확대되며 장중 강한 매수세가 유입되는 모습을 보임"
             },
             {
               "time": "1:00PM",
@@ -337,43 +337,52 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-21",
               "title": "오후 들어 상승폭 축소",
-              "text": "오전 고점 대비 상승폭이 다소 줄었으나 주주환원 기대감 속에 강세 흐름은 이어가는 중"
+              "text": "정오를 지나며 오전 고점 대비 오름폭이 다소 줄었으나 상승 흐름은 유지하는 중"
+            },
+            {
+              "time": "마감",
+              "price": 1730000.0,
+              "pct": 2.31,
+              "is_close": true,
+              "date": "2026-08-21",
+              "title": "주주환원 기대 속 상승 마감",
+              "text": "삼성전자와 함께 대규모 주주환원 경쟁 소식이 전해진 가운데 오전 상승분을 상당 부분 지키며 마감"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "SK하이닉스 40조 주주환원에 코스피 5.9% 급등",
-              "original": "SK하이닉스 40조 주주환원에 코스피 5.9% 급등",
-              "source": "뉴스토마토",
-              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XaFcxdVJNT1dzbDFTR3N5S1BKSnhvR3l6akZ4SXgwdW9HOUI1cjU3TTh5dDdpZkFPcXlhM2dHOGtOV3NXUnVUN3VkU1FZclZod05hTGE3X2I3TGRHM1FXbg?oc=5",
-              "published": "2026-08-20T17:54:45+09:00"
+              "title": "삼성전자·SK하이닉스, 역대급 주주환원 경쟁…‘40조 소각’ vs ‘30조 배당’[종합]",
+              "original": "삼성전자·SK하이닉스, 역대급 주주환원 경쟁…‘40조 소각’ vs ‘30조 배당’[종합]",
+              "source": "v.daum.net",
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ob0s4YnluUlRpY0tobmNpQU5WNmdUVUd3TFBlY0swR1FwUzAwblVjdUZ4ZEt0ejM5TTNXRHVTM0lSeW44MDBRT211S2tUZEE?oc=5",
+              "published": "2026-08-21T18:12:41+09:00"
             },
             {
-              "title": "'하이닉스 자사주·美재무부 국채' 매입에…코스피 급반등",
-              "original": "'하이닉스 자사주·美재무부 국채' 매입에…코스피 급반등",
-              "source": "매일경제 마켓",
-              "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBMbmVRRDdLX280eDJGd0gxc1dpampVX19vSmNDR1ZiSGFNTGkzME5IZlptR0MyRmtWQ1lVNG5OVy1SWkZyMHFPV25ZU2NTMi1zcFE?oc=5",
-              "published": "2026-08-20T17:51:44+09:00"
+              "title": "“위기 때마다 함께 버텼다”…노사관계 모범된 SK하이닉스",
+              "original": "“위기 때마다 함께 버텼다”…노사관계 모범된 SK하이닉스",
+              "source": "매일일보",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBMYWdNMVRfRjRYc3hUbWdUTXZpTGdlS1FtUW5ydUJ4V2xGM3B2MFpaYkViRjF5WVZXbEs3UDJOSTBIM2htUG9iSWVpZWsxd0lBdy1EbVhxVFBUX3NmLVJSdFFoa0Q?oc=5",
+              "published": "2026-08-21T17:59:19+09:00"
             },
             {
-              "title": "SK하이닉스 노사, 성과급 60% 자사주 지급 잠정 합의",
-              "original": "SK하이닉스 노사, 성과급 60% 자사주 지급 잠정 합의",
-              "source": "경향신문",
-              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XT1FvaGhKbUxxcmJ2RkdNSHRBYUtfeHJOUFMtTF9taVhrZjFvR3ZBLXVpNHp4SVI2Yjk3LURBQ1NMTzB0WTROVktYT3A5b0Q4OER3TzZ3SEZFQdIBX0FVX3lxTFBYRG9zX2ZheXgtelRmc3l1VmRnaDNVOERmSFFNR1ZkZ0xER01kYVpvcExhZk93Z1Yxc05pWXFmZ21UdG1za1ZZdFlvd3huaUZmd011NjVwV0kwbmFJSmhF?oc=5",
-              "published": "2026-08-20T17:51:00+09:00"
+              "title": "삼성전자도 ‘AI 현금’ 푼다…올해 최대 110조 주주환원",
+              "original": "삼성전자도 ‘AI 현금’ 푼다…올해 최대 110조 주주환원",
+              "source": "재외동포신문",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TNm82TnNzR3MzZ284WTNBRmhfZ2NsVjhGaDVXYUtZcmx6Nk4zZG15S3QyWXpnelp0dWx6Z09KbGViLWhJWVM3T1RTeFVVZUk2dWNwZmVGZzF1ZHcyb3AzSDBOMG1MWGNyNHBzYQ?oc=5",
+              "published": "2026-08-21T17:38:09+09:00"
             }
           ]
         },
         {
           "stock": "삼성전자",
           "ticker": "005930",
-          "title": "삼성전자 - 150조 주주환원에 급등",
-          "body": "150조원 규모 주주환원 발표로 투자심리 크게 개선되며 매수세 유입, 반도체 노조는 DX와 공동교섭단 미구성 방침 확인. +9.49% 오른 <b>271,000원</b> 마감.",
-          "pct": 9.49,
-          "price": 271000.0,
+          "title": "삼성전자 - 올해 최대 110조 주주환원",
+          "body": "국내 기업 첫 100조 돌파하는 역대 최대 규모 주주환원 계획 발표에 투자심리 크게 개선되며 매수세 강하게 유입. +3.87% 오른 <b>281,500원</b> 마감.",
+          "pct": 3.87,
+          "price": 281500.0,
           "currency": "KRW",
-          "as_of": "2026-08-20",
+          "as_of": "2026-08-21",
           "slots": [
             {
               "time": "9:10AM",
@@ -381,8 +390,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.74,
               "is_close": false,
               "date": "2026-08-21",
-              "title": "장 초반 소폭 약세",
-              "text": "개장 직후에는 소폭 하락하며 약세로 출발해 관망세가 짙게 나타남"
+              "title": "장 초반 약세 출발",
+              "text": "전 거래일보다 낮은 가격에서 출발하며 하루를 소폭 하락세로 시작함"
             },
             {
               "time": "10:30AM",
@@ -391,7 +400,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-21",
               "title": "오전 중 상승 전환",
-              "text": "오전 중반 이후 하락분을 만회하고 상승세로 돌아서며 분위기가 반전됨"
+              "text": "오전 들어 낙폭을 만회하고 상승세로 돌아서며 분위기가 반전됨"
             },
             {
               "time": "1:00PM",
@@ -399,44 +408,53 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.86,
               "is_close": false,
               "date": "2026-08-21",
-              "title": "주주환원 기대에 강세",
-              "text": "주주환원 기대감이 부각되며 상승폭을 더 키워 하루 중 최고 상승률을 이어가는 중"
+              "title": "오후 들어 상승폭 확대",
+              "text": "110조 규모 주주환원 소식이 전해지기 전부터 오후 들어 오름폭이 꾸준히 커지는 흐름을 보임"
+            },
+            {
+              "time": "마감",
+              "price": 281500.0,
+              "pct": 3.87,
+              "is_close": true,
+              "date": "2026-08-21",
+              "title": "주주환원 발표에 강세 마감",
+              "text": "역대 최대 규모 주주환원 계획이 발표되며 상승폭을 하루 중 가장 크게 키우며 거래를 마침"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "삼성전자 150조 주주환원",
-              "original": "삼성전자 150조 주주환원",
-              "source": "블루밍비트",
-              "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xWVViaHI4bEttcTJJR0I0UVhfZDNBOHJGRFdZSENuRWNvQ1BObFpvNnp0anlEbWtOUEFzQW1wWjE3akNlZUN0cDFpSWlqYlRP?oc=5",
-              "published": "2026-08-20T17:59:26+09:00"
+              "title": "삼성전자, 최대 110조 주주환원 나선다…국내기업 역대 최대",
+              "original": "삼성전자, 최대 110조 주주환원 나선다…국내기업 역대 최대",
+              "source": "신아일보",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1wWV90TXlNOWZJUjVHbE5xc0hscGNhdlMzX2kwSzJ6b0VzVmVveG9kZWJsRHB1WlNLbXFEVDdzbU9saWV1TkxxTV8xZE1TbF9QNEhNd2gtUDZRN3pHaU5VQVl0UGZ0SDNoY1dkcVlsYS0?oc=5",
+              "published": "2026-08-21T18:14:40+09:00"
             },
             {
-              "title": "삼성전자 반도체 중심 초기업노조 \"DX와 공동교섭단 구성 안 한다\"",
-              "original": "삼성전자 반도체 중심 초기업노조 \"DX와 공동교섭단 구성 안 한다\"",
+              "title": "삼성전자·SK하이닉스, 역대급 주주환원 경쟁…‘40조 소각’ vs ‘30조 배당’[종합]",
+              "original": "삼성전자·SK하이닉스, 역대급 주주환원 경쟁…‘40조 소각’ vs ‘30조 배당’[종합]",
               "source": "v.daum.net",
-              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE43SDA3UjVFT2s4WXI2Y29FcU9jUDdzaEx5c215LVVCMW9Ob1JTQkhRTjNfWXRmWHNLVE5WdlAwV2ZBY0tCX0lvSkdhb0IxRlU?oc=5",
-              "published": "2026-08-20T17:52:00+09:00"
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ob0s4YnluUlRpY0tobmNpQU5WNmdUVUd3TFBlY0swR1FwUzAwblVjdUZ4ZEt0ejM5TTNXRHVTM0lSeW44MDBRT211S2tUZEE?oc=5",
+              "published": "2026-08-21T18:12:41+09:00"
             },
             {
-              "title": "삼성전자 150조 주주환원",
-              "original": "삼성전자 150조 주주환원",
-              "source": "한국경제",
-              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5XM3ZOWnFZUjVUVnAyNnBGSnZfWlp5T0FFVXQ2LWZrcEtEbmY0ZEpWRUFaa21rRUNRSjBRckN3S2J5ZDZqakg2dE1xSDQxTWZWdGNrak1kalhuQQ?oc=5",
-              "published": "2026-08-20T17:43:43+09:00"
+              "title": "삼성전자, 올해 최대 110조원 주주환원...국내 기업 첫 100조 돌파",
+              "original": "삼성전자, 올해 최대 110조원 주주환원...국내 기업 첫 100조 돌파",
+              "source": "디일렉",
+              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE54TDRoaHdFRUtEN05JSTF3a2xYWElCQ3hZLWZDallkN0JlTk54NDRHRVNNNmtzNkk4RkJtTXVWZkg1Q25JMjRKYnUzTUZ6d292cmY4eEJjaU5tWk94eTdXMGpSOFhEQQ?oc=5",
+              "published": "2026-08-21T18:08:15+09:00"
             }
           ]
         },
         {
           "stock": "한화에어로스페이스",
           "ticker": "012450",
-          "title": "한화에어로스페이스 - AI GPU 팜 구축",
-          "body": "400억원 투입한 AI GPU 팜 구축으로 방산 AI화 기대감 있었으나 KAI 노조의 한화 경영참여 반발 속 소폭 하락 마감. -0.85% 내린 <b>1,167,000원</b> 마감.",
-          "pct": -0.85,
-          "price": 1167000.0,
+          "title": "한화에어로스페이스 - K9MH 美 조달 첫 관문 통과",
+          "body": "K9MH가 미국 조달체계 첫 관문을 통과했다는 소식에도 주가는 급락, LIG D&A 임직원 뇌물 혐의 기소 여파도 부담. -7.03% 내린 <b>1,085,000원</b> 마감.",
+          "pct": -7.03,
+          "price": 1085000.0,
           "currency": "KRW",
-          "as_of": "2026-08-20",
+          "as_of": "2026-08-21",
           "slots": [
             {
               "time": "9:10AM",
@@ -444,8 +462,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -6.34,
               "is_close": false,
               "date": "2026-08-21",
-              "title": "장 초반 낙폭 확대",
-              "text": "개장 직후부터 큰 폭으로 하락하며 부진한 흐름으로 하루를 시작함"
+              "title": "장 초반 큰 폭 하락 출발",
+              "text": "전 거래일 대비 크게 낮은 가격으로 출발하며 하루를 약세로 시작함"
             },
             {
               "time": "10:30AM",
@@ -453,8 +471,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -6.6,
               "is_close": false,
               "date": "2026-08-21",
-              "title": "낙폭 소폭 더 커짐",
-              "text": "오전 내내 하락세가 이어지며 낙폭이 소폭 더 확대된 채 거래가 지속됨"
+              "title": "낙폭 소폭 확대",
+              "text": "오전 하락폭이 소폭 더 벌어지며 약세 흐름에서 벗어나지 못하는 모습"
             },
             {
               "time": "1:00PM",
@@ -463,43 +481,52 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-21",
               "title": "오후에도 약세 지속",
-              "text": "기업결합을 둘러싼 노조 반박 소식이 나온 가운데 낙폭이 하루 중 가장 큰 수준을 유지 중"
+              "text": "오후 들어서도 낙폭이 줄어들지 않고 하루 중 저점 부근에서 등락을 이어감"
+            },
+            {
+              "time": "마감",
+              "price": 1085000.0,
+              "pct": -7.03,
+              "is_close": true,
+              "date": "2026-08-21",
+              "title": "낙폭 확대되며 마감",
+              "text": "장중 내내 이어진 약세가 마감까지 지속되며 하루 중 가장 큰 하락폭을 기록"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "한화에어로스페이스, 400억 투입해 ‘AI GPU 팜’ 구축…방산 AI화 본격화",
-              "original": "한화에어로스페이스, 400억 투입해 ‘AI GPU 팜’ 구축…방산 AI화 본격화",
-              "source": "뉴스퀘스트",
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5hSXpLeXVQX05nM3F3MEIwRjB6dXg5ei03XzhxU2U0M0lUQklyWG5CRDg0NmZpZUZ0bTVtRmgzSjZQeWsxVGRHNEVCdjdlR2xhejJ3U2NOYTc2S2R2dEd3b2FlbWFFSFZ5Z2pPM3A0QdIBc0FVX3lxTE1GRUpsUjZ1VGNCbV9mY3Y4S3ZXcktXS29JUUNTOHhVdnNSMkdJZzU3emxCaXJtenlRRGlpbDVPN2JSQV9IQlJEOW53Wm5JY1c1Z1QyUnVxQzU2OWxQSkFGcmtELTJoa1NOOF9tRlo1OVQxcDA?oc=5",
-              "published": "2026-08-20T17:55:40+09:00"
+              "title": "[주간브리핑] PF 연체율 10년래 최고…한화 K9MH, 美 조달체계 첫 관문 통과",
+              "original": "[주간브리핑] PF 연체율 10년래 최고…한화 K9MH, 美 조달체계 첫 관문 통과",
+              "source": "SR타임스",
+              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0xOWxJOWdiWjdtWklEQUdvTXZYUC11YS1GbzVkVktmeXpYRkNTTXNTdllJRnJTNDEwb2JBeXduZkt3d3Fja21yYXFKYWN1R3lqTjg0TUVPUXp3WENvdW1nX2E4SmcwcGfSAWtBVV95cUxQOWpua0Q0cnVZbkVLbkxlVnF5WHZodGI5M251VUE1cEIzRFh4SXFhQkRQTnM4dUpUQzczTHNpRE1fdzBJdW5GY3g2SjFLOFJzanR3Q25fNm1oV2ljWU16MkVWNnZLd3dSZDJpSQ?oc=5",
+              "published": "2026-08-21T16:48:00+09:00"
             },
             {
-              "title": "KAI 노조 한화 경영참여에 또 반발, \"방산 대형화 주체가 반드시 한화일 이유 없어\"",
-              "original": "KAI 노조 한화 경영참여에 또 반발, \"방산 대형화 주체가 반드시 한화일 이유 없어\"",
-              "source": "비즈니스포스트",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ULXhpTjZ2M0c5ZjhlSHEyZ0NhXy1WN3kzdFMxS3Qzd2pGTTQweHN5ZjI4MXhmd3g1UTRxTHBJcDFoYnpRc3pxbEtuWERBMEtPRE1aZko2ZXVnazk0YVJ5bGw0Wk45ZFFRMGhUTklsUWdleWc?oc=5",
-              "published": "2026-08-20T17:14:41+09:00"
+              "title": "LIG D&A, 임직원 뇌물 혐의 기소에 유감…전자전기 사업 연관성은 부인",
+              "original": "LIG D&A, 임직원 뇌물 혐의 기소에 유감…전자전기 사업 연관성은 부인",
+              "source": "MTN 머니투데이방송",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAyYXZ1dVZsUmx0bjFrVXZhZnJFdWlPUktwNE51WUNJV0RwRHdVZG13S3dITHY1aTV5SWdfOFRpb2FUem9tVG91ejhqdjVxcG1DLUpZRVJZOWxmekF6Y3Z0NWM4aEU?oc=5",
+              "published": "2026-08-21T16:45:41+09:00"
             },
             {
-              "title": "방산 4사, 인재 폭풍 영입으로 수주·미래 대응…1년새 1700여명↑[비즈360]",
-              "original": "방산 4사, 인재 폭풍 영입으로 수주·미래 대응…1년새 1700여명↑[비즈360]",
-              "source": "헤럴드경제",
-              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvSTRfZHJ0ZjByWHUwTFB5dHp1dFk5UHJOZzFOcjZzUGxYTlJMNVdUUnc3SldWdGpiNDRmc1FoaElXem10RUt3ZE9KWkxZVWJqT1pDMm13?oc=5",
-              "published": "2026-08-20T17:00:00+09:00"
+              "title": "[코스피 지수선물 옵션] 삼성전자·SK하이닉스 상승...삼성전기·한미반도체 하락",
+              "original": "[코스피 지수선물 옵션] 삼성전자·SK하이닉스 상승...삼성전기·한미반도체 하락",
+              "source": "핀포인트뉴스",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB1cjNzd3U2ZEVPMUJTTUl3YkVybktWUFJYZFBUMkFOdmlURE40OVNlaGtWS2dKazhDU0RDel9EaWd1VmE2UlQzRE5aREJiUDBBZlNmSlU3NlQ0bmZfNHpNRTNfSTdxUF9QMi16UXVHMzJvQ3PSAXdBVV95cUxOc1F0NmdWeW1SQ3JadThvdnREdXVqOEhObDNwNTNYaGMwSkFGbG9wbTVyNlVCN2xGaFlSZHVqSlRXOWR3N3QtWWNVeFZuMTRscGk1UHpWazJHRVNienlCMGJlSnVpQnBqSlBCbkFoa25KUFZxQ0xyYw?oc=5",
+              "published": "2026-08-21T16:44:41+09:00"
             }
           ]
         },
         {
           "stock": "LG전자",
           "ticker": "066570",
-          "title": "LG전자 - 고성 해역 바다숲 조성",
-          "body": "경남 고성 앞바다에 축구장 200개 크기 바다숲을 만드는 'LG 마린 밸런스' 적용 소식이 전해지며 주가는 소폭 상승. +0.50% 오른 <b>202,500원</b> 마감.",
-          "pct": 0.5,
-          "price": 202500.0,
+          "title": "LG전자 - 씽큐에 챗GPT 탑재, 로봇 확대",
+          "body": "디자인상 수상과 씽큐 챗GPT 탑재, 로봇·프리미엄 가전 확대 소식에도 불구하고 주가는 하락. -3.95% 내린 <b>194,500원</b> 마감.",
+          "pct": -3.95,
+          "price": 194500.0,
           "currency": "KRW",
-          "as_of": "2026-08-20",
+          "as_of": "2026-08-21",
           "slots": [
             {
               "time": "9:10AM",
@@ -508,7 +535,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-21",
               "title": "장 초반 약세 출발",
-              "text": "개장 직후 큰 폭으로 하락하며 부진한 흐름으로 거래를 시작함"
+              "text": "전 거래일 대비 크게 낮은 가격에서 시작하며 하루를 약세로 열었음"
             },
             {
               "time": "10:30AM",
@@ -517,7 +544,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-21",
               "title": "오전 중 낙폭 확대",
-              "text": "오전 중반 들어 하락폭이 더 커지며 하루 중 가장 낮은 수준까지 밀림"
+              "text": "오전 들어 하락폭이 더 커지며 하루 중 가장 낮은 수준까지 밀리는 모습을 보임"
             },
             {
               "time": "1:00PM",
@@ -526,43 +553,52 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-21",
               "title": "오후 들어 낙폭 축소",
-              "text": "베스트샵 관련 소식이 잇따라 나온 가운데 오전 저점 대비 낙폭을 상당폭 만회하는 중"
+              "text": "정오를 지나며 낙폭을 상당 부분 만회해 오전 저점 대비 반등하는 흐름을 보임"
+            },
+            {
+              "time": "마감",
+              "price": 194500.0,
+              "pct": -3.95,
+              "is_close": true,
+              "date": "2026-08-21",
+              "title": "소폭 반등 후 약세 마감",
+              "text": "디자인상 수상과 신기술 탑재 소식 속에서도 낙폭을 완전히 만회하지 못한 채 하락 마감"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "LG전자, 경남 고성 해역에 ‘LG 마린 밸런스’ 적용",
-              "original": "LG전자, 경남 고성 해역에 ‘LG 마린 밸런스’ 적용",
-              "source": "NSP통신",
-              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1veTBXNklUM1REOEFxWHU1T3NWelBJTXIzTllWZ3p4NlgwZjhmZE1XR1EwRzFzSGl4U1lvZTdwNXdXQ1FCQ3ZNdGVjdnVUWDB6REliblJCNVhzaGVLSFFPMQ?oc=5",
-              "published": "2026-08-20T17:34:55+09:00"
-            },
-            {
-              "title": "고성 앞다바에 축구장 200개 크기 바다숲 만든다",
-              "original": "고성 앞다바에 축구장 200개 크기 바다숲 만든다",
-              "source": "v.daum.net",
-              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9TU0JVYmtNWVd1QjJfYmZhWkZwQ0ZFeUZWemRSaVlQb3pxdUNhR2dfNUUySmdLWmlVeTFTUG1lejQwM0FvdnhBckh3OENwZ0E?oc=5",
-              "published": "2026-08-20T17:21:09+09:00"
-            },
-            {
-              "title": "LG전자, ‘미네랄 뿜는 소재’로 경남 고성 바다숲 만든다",
-              "original": "LG전자, ‘미네랄 뿜는 소재’로 경남 고성 바다숲 만든다",
+              "title": "삼성·LG, 세계 3대 디자인상 휩쓸었다…“디자인 경쟁력 입증”",
+              "original": "삼성·LG, 세계 3대 디자인상 휩쓸었다…“디자인 경쟁력 입증”",
               "source": "디지틀조선TV",
-              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeHJxanNoWHJNYlYwaUxoWDFsQTllRFFpcExTMU5IbTVERTJlUHYyamltclJvNHMxQy1uYlhSZ1g3Y0VFYVJnMjJlUll3QVVjYlRrckpITGs4RXQyOHpTQlRMUm80NTJxWFhYSkZDNkN0UXhfZEw0NmtSRmY2QnRfNGRMNHpWQQ?oc=5",
-              "published": "2026-08-20T17:19:00+09:00"
+              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNS2RtOE0yR0FseVpkYjUyNFVpVjdPc2VKWkQtLWZUcDkwYjZQSjdVeFdib3VFaGZLUTQyU1hUSkQ0dUZPYUdGb0R1ak5JdmdCR09ZUDlIdkxRcXRuWHZULUdZT1Fhd2p6eXdoX3IwZWlfRkdyZG5yOTdpcVJ0TlpYTHgxZTRYdw?oc=5",
+              "published": "2026-08-21T17:48:00+09:00"
+            },
+            {
+              "title": "LG전자, 스마트홈 '씽큐'에 챗GPT 탑재",
+              "original": "LG전자, 스마트홈 '씽큐'에 챗GPT 탑재",
+              "source": "네이트",
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1mSVpHTzNtNm5PZmZySU1TUjBhQTF3N3VtcTNuN3FwY3g1MmNOd2xUdDg3VFh0M3JWSmU0akFWWElucG81YkY1UE9vUGtMU3JuclRR?oc=5",
+              "published": "2026-08-21T17:38:00+09:00"
+            },
+            {
+              "title": "로봇 키우는 LG전자…가전은 '프리미엄'으로 질주",
+              "original": "로봇 키우는 LG전자…가전은 '프리미엄'으로 질주",
+              "source": "MTN 머니투데이방송",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4zbl9EVE0ycVdDaktMeWpaQkh0dmZjWUdPVEstUTNqRUNreHhGbkVhcEZMZldJcVlMT0ZKNUwwVDhjQTE5aG95eW82eDVyMGZESWNSVnBjam13VGJMU0lmMm5RdFo?oc=5",
+              "published": "2026-08-21T17:37:07+09:00"
             }
           ]
         },
         {
           "stock": "현대차",
           "ticker": "005380",
-          "title": "현대차 - GV90 공개, 파업 여파 지속",
-          "body": "제네시스 GV90 최초 공개로 관심 모았으나 파업으로 매출 2.6조원 증발 여파도 함께 부각되며 주가는 소폭 상승에 그침. +0.85% 오른 <b>417,500원</b> 마감.",
-          "pct": 0.85,
-          "price": 417500.0,
+          "title": "현대차 - 파업 여파에 사옥서 투쟁 목소리",
+          "body": "성과급 갈등에 따른 파업이 이어지며 노동자들이 구호를 외치는 등 노사 갈등 지속, 주가는 소폭 하락. -0.60% 내린 <b>415,000원</b> 마감.",
+          "pct": -0.6,
+          "price": 415000.0,
           "currency": "KRW",
-          "as_of": "2026-08-20",
+          "as_of": "2026-08-21",
           "slots": [
             {
               "time": "9:10AM",
@@ -571,7 +607,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-21",
               "title": "장 초반 약세 출발",
-              "text": "개장 직후 하락하며 약세로 하루를 시작해 부진한 흐름을 보임"
+              "text": "전 거래일보다 낮은 가격에서 출발하며 하루를 하락세로 시작함"
             },
             {
               "time": "10:30AM",
@@ -579,8 +615,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.8,
               "is_close": false,
               "date": "2026-08-21",
-              "title": "낙폭 소폭 줄어듦",
-              "text": "오전 중반 들어 하락폭이 다소 줄어들며 낙폭 축소 흐름이 나타남"
+              "title": "오전 중 낙폭 축소",
+              "text": "오전 들어 하락폭이 다소 줄어들며 낙폭을 조금씩 만회하는 흐름을 보임"
             },
             {
               "time": "1:00PM",
@@ -588,39 +624,47 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.12,
               "is_close": false,
               "date": "2026-08-21",
-              "title": "파업 우려 속 낙폭 만회",
-              "text": "노사 갈등과 파업 예고 소식이 전해진 가운데도 낙폭을 대부분 만회하며 강세로 이어가는 중"
+              "title": "낙폭 대부분 만회",
+              "text": "정오를 지나며 하락폭이 거의 사라질 정도로 낙폭을 크게 줄이는 모습을 보임"
+            },
+            {
+              "time": "마감",
+              "price": 415000.0,
+              "pct": -0.6,
+              "is_close": true,
+              "date": "2026-08-21",
+              "title": "파업 소식 속 약보합 마감",
+              "text": "노동자 파업 관련 소식이 잇따라 전해진 가운데 낙폭을 대부분 만회한 채 거래를 마침"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "[포토] ‘럭셔리 끝판왕’ 제네시스 GV90 첫 공개",
-              "original": "[포토] ‘럭셔리 끝판왕’ 제네시스 GV90 첫 공개",
+              "title": "[포토] 현대차 파업에 구호 외치는 노동자들",
+              "original": "[포토] 현대차 파업에 구호 외치는 노동자들",
+              "source": "이뉴스투데이",
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1VOWNTOE9BTWU2WTgzQ3FIaF9ocjNtVEZUUmdGWFVrOFpmMENSTFZPV2lKQWNGcHRuZzlzNGVxSUZhek1qTjRXX09ZSkZ6Nl9xTUllQVpDYXQ3cEFoQVltWGxfaTZvVl96WFRoZ1ZNb3VlQdIBdEFVX3lxTE5sVG5mSjZNZVVLVUs3SFF1aTFUOTdNQ2k0RDJBeFJVV0JtVGlKWFI1TFo0dWdERnhNZzdramFka0haS2FjbFlMVXZFbFROTTZ5Z2FWVTNacEU2dTEwVGtyR3REUktVSFc2SFY0MjMzM0VUQ1Rw?oc=5",
+              "published": "2026-08-21T18:10:00+09:00"
+            },
+            {
+              "title": "'N% 성과급' 후폭풍…車·조선·철강, 모두 파업 깃발",
+              "original": "'N% 성과급' 후폭풍…車·조선·철강, 모두 파업 깃발",
               "source": "한국경제",
-              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlb2FvZHVRSG5hX2IxcGxrajhqNjR4ZlpQMGVoRFRmVzFmYzJIZDB1MWtMVm8yOHEyekt5TXA5aU0xVHFpZll1WkZsc2xsalA4OVNqLVlIX1JzQQ?oc=5",
-              "published": "2026-08-20T17:49:04+09:00"
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1KQjJRLXFweU5PeDlpbEFZMTA4RHpxbUJ5TmlORk1JN3JfZWtwR3lKVXRZc2pUN3hpNGYwQVVsSXpaLWVOdXQ2QWRuWTZ5NjVIbkdQaF9yM0xTQQ?oc=5",
+              "published": "2026-08-21T18:09:37+09:00"
             },
             {
-              "title": "현대차 파업에 매출만 2.6조원 증발…아반떼·투싼 반등 ‘발목’",
-              "original": "현대차 파업에 매출만 2.6조원 증발…아반떼·투싼 반등 ‘발목’",
-              "source": "CEO스코어데일리",
-              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE93dTZnemQteHVNWUZiUmdjY19rT0d1ZTQ3VmJlRGxJbEczS3d5V2FJLUNmVC1oV0lPdEx6bW5mT2ZETXBRU0xFekxjX09rX3MyUEcxdGlTMVlwdHFUTlRsM2EzZGd0WUVLSl9z?oc=5",
-              "published": "2026-08-20T17:40:00+09:00"
-            },
-            {
-              "title": "모태펀드·현대차 참여… 1000억 규모 ‘전북 지역성장펀드’ 출범",
-              "original": "모태펀드·현대차 참여… 1000억 규모 ‘전북 지역성장펀드’ 출범",
-              "source": "서울경제",
-              "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tbS1ES3pjTmRFTGNWY0tsWE5PbXF4QWNzOXl0bmU2Tjk5TFRfSTA1dUo0ckJ1M1JsLUZoLTRNUjFkTXd2c2FlU1g4QmdmdFhSYVE?oc=5",
-              "published": "2026-08-20T17:33:20+09:00"
+              "title": "[포토] 투쟁의 목소리 울리는 현대차 사옥",
+              "original": "[포토] 투쟁의 목소리 울리는 현대차 사옥",
+              "source": "이뉴스투데이",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NN2liX3NiUGx5QUduMjJPcUhlN0phX2RxTDJjTl9NbVo4RGwtTkFTZlNrOWljTFM3VWN0M2VKM3lCaExQa3hGaldkQVNmQS1qSXZYY2FZcG5UTDZNVjY2cVYxQTZHYUd5VXZObF9CamHSAXRBVV95cUxQdjBsaEZYYUNkRXliNGJ2ODhTTEpaTHp2Ym9SSUtqd1ZaUkp4UUFmenBHb2NVVGpOaU5XZXBqM0wzbVA1ZVd4TjVob1NRbGUxbTNFcUhEckVudmtDNnlTUVNmTWt4YXVYNk1GU01vSkxRVjhWMA?oc=5",
+              "published": "2026-08-21T18:00:00+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-08-20-kr.md",
-      "refreshed_at": "2026-08-20 18:09:00 KST",
-      "slots_refreshed_at": "2026-08-21 14:52:57 KST"
+      "markdown": "briefings/2026-08-21-kr.md",
+      "refreshed_at": "2026-08-21 18:20:33 KST"
     }
   }
 };
