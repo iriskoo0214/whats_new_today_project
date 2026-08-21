@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-08-21 12:33:50 KST",
+  "generated_at": "2026-08-21 13:06:47 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -318,8 +318,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.35,
               "is_close": false,
               "date": "2026-08-21",
-              "title": "장 초반 보합권 출발",
-              "text": "오전 개장 직후 소폭 상승에 그치며 눈치보기 장세로 하루를 시작함"
+              "title": "장 초반 강보합 출발",
+              "text": "소폭 상승으로 출발하며 관망세 속에서도 매수 우위 흐름이 유지되는 모습이 나타남"
             },
             {
               "time": "10:30AM",
@@ -327,8 +327,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 4.2,
               "is_close": false,
               "date": "2026-08-21",
-              "title": "오전 중 상승폭 확대",
-              "text": "일본 팹 건설 추진 소식과 주주환원 관련 기대감이 겹치며 오전 중 오름폭이 크게 커짐"
+              "title": "급등세로 전환",
+              "text": "장 초반 흐름을 뒤엎고 오전 중반 들어 큰 폭으로 뛰어오르며 오늘 고점권까지 치솟음"
+            },
+            {
+              "time": "12:45PM",
+              "price": 1753500.0,
+              "pct": 3.7,
+              "is_close": false,
+              "date": "2026-08-21",
+              "title": "상승폭 소폭 축소",
+              "text": "일본 반도체 공장 건설 보도에 조회공시 요구가 나오고 상위 투자자 매도 소식까지 겹치며 오전 고점보다 상승폭이 다소 줄어듦"
             }
           ],
           "slot_total": 4,
@@ -372,8 +381,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.74,
               "is_close": false,
               "date": "2026-08-21",
-              "title": "장 초반 약보합 출발",
-              "text": "개장 직후 소폭 하락하며 부진하게 출발한 뒤 매수세가 유입되기 시작함"
+              "title": "약보합 출발",
+              "text": "장 초반 소폭 하락하며 시작해 매수세가 아직 붙지 않은 모습을 보임"
             },
             {
               "time": "10:30AM",
@@ -382,7 +391,16 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-21",
               "title": "오전 중 상승 전환",
-              "text": "파운드리 가격 인상과 흑자전환 기대 소식이 전해지며 오전 중 하락분을 만회하고 상승 전환함"
+              "text": "장 초반 약세를 딛고 오전 들어 반등에 성공하며 상승세로 돌아섬"
+            },
+            {
+              "time": "12:45PM",
+              "price": 278750.0,
+              "pct": 2.86,
+              "is_close": false,
+              "date": "2026-08-21",
+              "title": "상승폭 확대 지속",
+              "text": "파운드리 가격 인상과 주주환원 기대감이 겹친 가운데 상위 투자자 매수세까지 더해지며 오전보다 오름폭이 한층 커짐"
             }
           ],
           "slot_total": 4,
@@ -426,8 +444,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -6.34,
               "is_close": false,
               "date": "2026-08-21",
-              "title": "장 초반 낙폭 확대",
-              "text": "개장과 동시에 큰 폭으로 밀리며 하루 중 저점 부근에서 거래가 이어짐"
+              "title": "장 초반 큰 폭 하락",
+              "text": "장 시작부터 낙폭이 크게 벌어지며 약세로 출발한 뒤 좀처럼 반등 기미를 보이지 못함"
             },
             {
               "time": "10:30AM",
@@ -435,8 +453,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -6.6,
               "is_close": false,
               "date": "2026-08-21",
-              "title": "낙폭 소폭 더 벌어짐",
-              "text": "KAI 노조와의 기업결합 갈등 소식이 이어지며 오전 내내 큰 폭의 하락세를 벗어나지 못함"
+              "title": "낙폭 소폭 확대",
+              "text": "오전 중반 들어서도 하락세가 이어지며 장 초반보다 낙폭이 다소 더 커진 채 거래됨"
+            },
+            {
+              "time": "12:45PM",
+              "price": 1090000.0,
+              "pct": -6.6,
+              "is_close": false,
+              "date": "2026-08-21",
+              "title": "저가권 등락 지속",
+              "text": "기업결합을 둘러싼 노조 간 공방이 이어지는 가운데 낙폭을 좁히지 못하고 오전 저점권에서 등락을 이어가는 중"
             }
           ],
           "slot_total": 4,
@@ -481,7 +508,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-21",
               "title": "장 초반 약세 출발",
-              "text": "개장 직후부터 매도세가 우위를 보이며 뚜렷한 하락 흐름으로 하루를 시작함"
+              "text": "장 시작과 함께 하락세로 출발하며 매도 우위 흐름 속에 거래가 진행됨"
             },
             {
               "time": "10:30AM",
@@ -489,8 +516,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -4.89,
               "is_close": false,
               "date": "2026-08-21",
-              "title": "오전 중 낙폭 확대",
-              "text": "디자인상 수상 등 우호적 소식에도 매수세가 붙지 않으며 오전 중 하락폭이 더 커짐"
+              "title": "낙폭 확대",
+              "text": "오전 중반 들어 하락폭이 한층 더 커지며 장 초반보다 부진한 흐름이 이어짐"
+            },
+            {
+              "time": "12:45PM",
+              "price": 195600.0,
+              "pct": -3.41,
+              "is_close": false,
+              "date": "2026-08-21",
+              "title": "낙폭 일부 만회",
+              "text": "오전 중 벌어졌던 낙폭을 점심 무렵 들어 일부 되돌리며 하락폭을 줄여가는 중"
             }
           ],
           "slot_total": 4,
@@ -535,7 +571,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-21",
               "title": "장 초반 하락 출발",
-              "text": "개장 직후 하락세로 시작하며 노조 파업 우려가 부담으로 작용하는 모습"
+              "text": "노조 파업 우려 속에 장 초반부터 약세로 출발하며 매도 압력을 받는 모습"
             },
             {
               "time": "10:30AM",
@@ -543,8 +579,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.8,
               "is_close": false,
               "date": "2026-08-21",
-              "title": "낙폭 소폭 줄어듦",
-              "text": "전면 파업 소식이 잇따라 전해졌지만 오전 중 하락폭은 개장 초보다 다소 줄어듦"
+              "title": "낙폭 소폭 축소",
+              "text": "오전 중반 들어서도 약세는 이어졌으나 장 초반보다는 하락폭이 다소 줄어드는 흐름"
+            },
+            {
+              "time": "12:45PM",
+              "price": 419000.0,
+              "pct": 0.36,
+              "is_close": false,
+              "date": "2026-08-21",
+              "title": "약세 딛고 반등",
+              "text": "노조 전면 파업과 생산라인 중단 소식이 전해졌음에도 낙폭을 모두 만회하며 상승 전환에 성공함"
             }
           ],
           "slot_total": 4,
@@ -575,7 +620,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-08-20-kr.md",
       "refreshed_at": "2026-08-20 18:09:00 KST",
-      "slots_refreshed_at": "2026-08-21 12:33:50 KST"
+      "slots_refreshed_at": "2026-08-21 13:06:47 KST"
     }
   }
 };
