@@ -1,15 +1,15 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-08-23 17:57:59 KST",
+  "generated_at": "2026-08-24 07:52:43 KST",
   "refreshed": [
-    "kr"
+    "us"
   ],
   "slots_refreshed": [],
-  "default": "kr",
+  "default": "us",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
-      "label": "미국 증시 요약 2026. 8. 23. 7:53AM",
+      "label": "미국 증시 요약 2026. 8. 24. 7:52AM",
       "chips": [
         "전체",
         "IBM",
@@ -27,8 +27,8 @@ window.NOTEFOLIO_BRIEFING = {
         {
           "stock": "IBM",
           "ticker": "IBM",
-          "title": "IBM - TD시넥스와 사업 확장 부각",
-          "body": "TD시넥스가 IBM 관련 사업을 확장한다는 소식에 저평가 여부 논의가 부각되며 매수세 유입. +0.85% 오른 <b>235.68달러</b> 마감.",
+          "title": "IBM - 美中 공급망 분리, 中 R&D 철수",
+          "body": "미중 공급망 분리 가속화로 중국 R&D 거점 철수 및 인력 감원에 나섰다는 소식에도 주가는 소폭 상승 마감. +0.85% 오른 <b>235.68달러</b> 마감.",
           "pct": 0.85,
           "price": 235.67999267578125,
           "currency": "USD",
@@ -40,8 +40,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.02,
               "is_close": false,
               "date": "2026-08-21",
-              "title": "완만한 강세 유지",
-              "text": "장 후반까지 소폭 오름세를 유지하며 큰 변동 없이 안정적인 흐름을 이어감"
+              "title": "장 막판 강보합권",
+              "text": "미중 공급망 분리와 빅테크 차이나 엑소더스 소식이 전해진 가운데 소폭 오름세로 장 후반을 이어감"
             },
             {
               "time": "마감",
@@ -50,25 +50,39 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-08-21",
               "title": "오름폭 확대 마감",
-              "text": "사업 확장 소식이 전해진 이후 매수세가 붙으며 상승폭을 키운 채 하루를 마무리함"
+              "text": "장중 강세를 유지하다 마감 무렵 상승폭을 더 키우며 하루 중 가장 높은 수준에서 거래를 마침"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "TD시넥스(SNX), IBM 사업 확장…여전히 저평가 상태일까?",
-              "original": "TD SYNNEX (SNX) Expands IBM Footprint, Is It Still A Bargain?",
-              "source": "Simply Wall St.",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/td-synnex-snx-expands-ibm-032051853.html",
-              "published": "2026-08-22T12:20:51+09:00"
+              "title": "IBM, 10일 3시 올쇼TV서 '하이브리드 서버 접근관리 법 제시'",
+              "original": "IBM, 10일 3시 올쇼TV서 '하이브리드 서버 접근관리 법 제시'",
+              "source": "전자신문",
+              "url": "https://news.google.com/rss/articles/CBMilgVBVV95cUxNT1hGellfV01WQ2xyUHJhRnRiWnBsMjZFZWhvM1F6ak1FUERiSHU2Y1liZTFscDFzSEVmcWRTaDRuSFhxOTZHOTJtb1U0bFloVTI5NzBEUHRCMWd3U1RkLU41ai1VaHk2a21sSG9EUVJYdEliNlIwVEkwRUt6c014U3hybFAwTDQyVTFPZVFQOUsxRjEyWEdOTFhVOWFXNUZ5X0gtR3M2N201UUIwT09ZNHpJaEVUX25RN1piaTFiNXRSbHZzYzZheUFvbVFFd05RdnVuaFBmaEl6d3pZejhUMjNtaUFKTFVFdTZSeGFFbG1OYmVta1lWNlVXenBsUGNhdGNvbWp0RFBhUzN6c3R6Y2xhdk5GcFJqR3Nmckgwc3RDMHJjVFNKTlVvd2xOWTJuMWhFVDc4REt3RzRoRWE3dlBQb1ZoQnROVkhCWGRIWXlWWkZpNDRJX1A5ODBYN2kyYTBrN0NCVFdzY01QMkJhaUpRcmtZTjhLOGhCTVF0VmZfVzNBQjVySkZWeU44VlpiWFJSSC1DMElQNk1SbHlNRVVLMHE2VzJiOWtqcjFGcHl4Y2kwTVM2UnhIRkZkWl9xa2IxMXg1dUJnSExIZUptajlrUVNiV1F3V3ctdnU2UGw3NUxwRmdKMjgycU5BYkZyWTFTT2NacFA4NXFkWTJ1VUxvbG9Ha0R6VlFFb1lmLUZYNjkyczlWWUVMYlRMdW95WW1QeWEwOTBwTHVpRHBHdmtiYzBOb2loLXhpNlZ2ZWVMZlFkNXVGSnoyd0NWN3FqcEFhd2VtUDVja2Q1bkVfVVpOWXJya21pbHJJQXVfNTJuOHQ5NnBNSzFhbE5vaVRfN2VtY05LVjl6SHVfOVVEMHZFcVhKZw?oc=5",
+              "published": "2026-08-23T23:44:24+09:00"
+            },
+            {
+              "title": "IBM 주가보다 더 눈길 가는 미국 대형 소프트웨어 주식 3선",
+              "original": "IBM 주가보다 더 눈길 가는 미국 대형 소프트웨어 주식 3선",
+              "source": "simplywall.st",
+              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPd1BhZk0zbUNFX2hBNmlIYWhMeWNXNXl3U2VuQVFHbHJCQ2hZLS1XSFBNdmFROE8yLXVZTXplc1ZhdHhBY3AwSGRMLUN3UUszMFNHUnNMTF9XZE5iTkVlVnZHWk12NFFhd0FCSlFERjdfc0IwbElvckRhUjBPMWRzeEpKWWxRVGVlSVVJRXh1X3Z2dlp0T3hyUlBQQW9oUWd1ZWFqSklYekkwaUd3ZGI00gGvAUFVX3lxTE93UGFmTTNtQ0VfaEE2aUhhaEx5Y1c1eXdTZW5BUUdsckJDaFktLVdIUE12YVE4TzItdVlNemVzVmF0eEFjcDBIZEwtQ3dRSzMwU0dSc0xMX1dkTmJORWVWdkdaTXY0UWF3QUJKUURGN19zQjBsSW9yRGFSME8xZHN4SkpZbFFUZWVJVUlFeHVfdnZ2WnRPeHJSUFBBb2hRZ3VlYWpKSVh6STBpR3dkYjQ?oc=5",
+              "published": "2026-08-23T22:51:25+09:00"
+            },
+            {
+              "title": "미·중 공급망 분리 가속화 -> 글로벌 빅테크 ‘차이나 엑소더스’ 본격화 => IBM+노키아+아마존 등 R&D 거점 전격 철수 및 대규모 인력 감원 >> 중국 정부의 ‘신창’ 국산화 드라이브와 토종 빅테크의 내수 시장 장악 |",
+              "original": "미·중 공급망 분리 가속화 -> 글로벌 빅테크 ‘차이나 엑소더스’ 본격화 => IBM+노키아+아마존 등 R&D 거점 전격 철수 및 대규모 인력 감원 >> 중국 정부의 ‘신창’ 국산화 드라이브와 토종 빅테크의 내수 시장 장악 |",
+              "source": "경제투데이",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9kRl9DRnU0TEJoTEtyMlZNMFphSE1INER3M0VmamdRUGhacjNTangzZXNjbFB6Q1hlRlpGMHhCSzFDbVRCd1VoMVdSUzcyTG1TYTZVd2dxblFnMGY5dTVWMFFEUDVJWTM3bTJR?oc=5",
+              "published": "2026-08-23T12:55:37+09:00"
             }
           ]
         },
         {
           "stock": "마이크로소프트",
           "ticker": "MSFT",
-          "title": "마이크로소프트 - AI 성과·소환장 승인 겹쳐",
-          "body": "AI 투자 성과에 따른 적정주가 논의와 장기 보유 사례가 부각됐고, GTA6 유출 관련 소환장 승인 소식도 전해짐. +0.43% 오른 <b>483.24달러</b> 마감.",
+          "title": "마이크로소프트 - 호주 뉴스 규정 적용",
+          "body": "AI 커머스 확장 속 호주 새 뉴스 규정을 적용받게 됐으며, GTA6 유출자 추적을 위한 디스코드 협력 소식도 전해짐. +0.43% 오른 <b>483.24달러</b> 마감.",
           "pct": 0.43,
           "price": 483.239990234375,
           "currency": "USD",
@@ -80,8 +94,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.13,
               "is_close": false,
               "date": "2026-08-21",
-              "title": "소폭 상승 흐름",
-              "text": "AI 투자 성과와 관련한 주가 적정성 논의가 나온 가운데 완만한 오름세를 유지함"
+              "title": "",
+              "text": ""
             },
             {
               "time": "마감",
@@ -89,40 +103,40 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.43,
               "is_close": true,
               "date": "2026-08-21",
-              "title": "오름폭 키우며 마감",
-              "text": "장기 보유 관련 기사가 나온 뒤에도 매수세가 유지되며 상승폭을 늘려 마감함"
+              "title": "",
+              "text": ""
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "AI 투자 성과가 나타나면 마이크로소프트(MSFT) 주가는 적정한가?",
-              "original": "AI 투자 성과가 나타나면 마이크로소프트(MSFT) 주가는 적정한가?",
-              "source": "simplywall.st",
-              "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYjYtN3hKTl9XZjZTWXJFRTg2c1RLRWxoMkhmN3psbGpLV2xtX0dpSS1qbVpWdFdtMDdHZ3RkTnRlTlptT2dYZXZGaHpQbGZGLW1hX0Vna21KaGoxUlJYZ3ZyS1hpNlo2SnFxUjMtZkpxb2o1Z0YyYk05MGJnRWRpX1RpNjd3TWdfV0hFQnZuYTXSAZYBQVVfeXFMUDJpUnk0d3BTa29hT0ZDQ1pDNWU5TFowbDBBWTJVeTE5Zmlzc0VNQnhhZXVGbXNWZDJsazVqLXhmRG9hNXJCLTIzR3NOT3AyVmZ5Nm93c1B0Tm1Wa3U4UUhNMjNQNDB0R3h5NDlWSTROcVRlbzBEbzZINTBDNG9BVUdlM3k2bzNoa3B1WTltVXppS2FYb3Rn?oc=5",
-              "published": "2026-08-23T04:50:42+09:00"
+              "title": "마이크로소프트(MSFT), AI 커머스 확장 속 호주 새 뉴스 규정 적용받아",
+              "original": "Microsoft (MSFT) Gets New Australia News Rules As AI Commerce Push Deepens",
+              "source": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-gets-australia-news-170738761.html",
+              "published": "2026-08-24T02:07:38+09:00"
             },
             {
-              "title": "뉴욕 법원, GTA 6 유출 관련 Take-Two의 Microsoft 및 Discord 소환장 승인",
-              "original": "뉴욕 법원, GTA 6 유출 관련 Take-Two의 Microsoft 및 Discord 소환장 승인",
+              "title": "Take-Two, Microsoft와 Discord 협력해 GTA 6 유출자 추적",
+              "original": "Take-Two, Microsoft와 Discord 협력해 GTA 6 유출자 추적",
               "source": "games.gg",
-              "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOb2xnSXBBUFlvOWxKYlJGZG13a0pJTm9XdmFHUEkwT1FQTTJ0QXU0dzV4SGxEUmczWTBWWFhKdlZPZkNxT1F6TktfOV9YY1Z5UmNKa3ZrZ0VITXdFYTJ3YTV1QjZLeXdrRkRHT3JlQnlZeS03cm1ZR1d0WUhLOUFwWm9zRDlFNTZ6Ty1MT1g4bVNQWjI2b3NfUUROOUI1cTgtR3ZRaVNCWkNRMlNHMGtidHZ5NFdyRmFWczZYZWUtck4xS2RnVnBsX2Nfem4wMEY4bkRqc3h4MVVzSHNPT0VhVW9TUkZzVWp6UlotQU5YVkVUb2llVXhSWml0ZV9mSnhMM3IzUjdPY1ZXVkowRlNPdDVWOVoteEFRZ1p0M3VDM0Jpd3A5V2Jz?oc=5",
-              "published": "2026-08-23T04:28:28+09:00"
+              "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPT2ZJVnRCZmFtelVjdlozZkI4ZDUyenBtek5jdWFNRWdTMC1XY0lNb1JtSWJsdGNQMUVrNGZadWpRMFN4ZFdoNXRla0ZmSVE1dm5iRkVLcXZ4MlNiMWo1UVkwckdfMDRUOURHVFMxa3ZiM0hiWHc1SldqSHFOeFJhWVBWTDZuTVVZQjFsMmVacHd3Q3dsZUM5bHVDbUc1ZzNfcU1Xdlp3MHdjOElvMnBkR3J6ckpnb1NlZTVleHAxV3lJUVRGUTB1QmUzdm9Jb0NVNk1fOWJNMnpkQQ?oc=5",
+              "published": "2026-08-23T23:35:25+09:00"
             },
             {
-              "title": "나는 마이크로소프트를 10년간 보유했다. 단 한 주도 팔지 않는 이유",
-              "original": "I've Held Microsoft for 10 Years. Here's Why I'm Not Selling a Single Share.",
-              "source": "Motley Fool",
-              "url": "https://www.fool.com/investing/2026/08/22/ive-held-microsoft-for-10-years-and-im-not-selling/",
-              "published": "2026-08-23T03:33:00+09:00"
+              "title": "[마이크로소프트 \"AI 시대, 코딩 학습이 오히려 더 중요해졌다\"] AI 코딩 도구가 보편화될수록 시스템에 대한 깊은 이해와 창의적 문제 해결 능력이 개발자의 핵심 가치로 부상하고 있다",
+              "original": "[마이크로소프트 \"AI 시대, 코딩 학습이 오히려 더 중요해졌다\"] AI 코딩 도구가 보편화될수록 시스템에 대한 깊은 이해와 창의적 문제 해결 능력이 개발자의 핵심 가치로 부상하고 있다",
+              "source": "AI넷",
+              "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1SU2dzX0p6RFV2UnllSVdWQ2ZjQlNIcEo5RWl5a2RVMU9XVHU1N2dtWC1CNWRCR0JSVkhTSDRBNWs?oc=5",
+              "published": "2026-08-23T21:56:56+09:00"
             }
           ]
         },
         {
           "stock": "아이온큐",
           "ticker": "IONQ",
-          "title": "아이온큐 - 양자주 추천에 급등",
-          "body": "양자컴퓨팅 유망주로 재조명되고 교차검증 체계 편입 소식까지 겹치며 매수세가 몰려 급등. +8.02% 오른 <b>44.86달러</b> 마감.",
+          "title": "아이온큐 - 양자컴퓨터株 급등 동참",
+          "body": "리게티 등 양자컴퓨터 관련주가 일제히 강세를 보이는 가운데 섹터 전반 매수세가 유입되며 동반 급등. +8.02% 오른 <b>44.86달러</b> 마감.",
           "pct": 8.02,
           "price": 44.86000061035156,
           "currency": "USD",
@@ -134,8 +148,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 3.52,
               "is_close": false,
               "date": "2026-08-21",
-              "title": "강한 상승세 지속",
-              "text": "양자 컴퓨팅 관련주 부각 소식 이후 상승폭이 꾸준히 유지되며 강세가 이어짐"
+              "title": "양자주 강세 지속",
+              "text": "양자컴퓨터 관련주 전반의 강세 속에 국내 종목 편입 소식까지 더해지며 상승폭을 크게 키움"
             },
             {
               "time": "마감",
@@ -143,40 +157,40 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 8.02,
               "is_close": true,
               "date": "2026-08-21",
-              "title": "급등폭 확대 마감",
-              "text": "실적 발표를 앞둔 관심 속에 매수세가 강하게 유입되며 상승폭을 크게 키운 채 마감함"
+              "title": "급등세 마감 유지",
+              "text": "장 초반부터 이어진 양자컴퓨터 섹터 강세가 오후까지 이어지며 하루 종일 큰 폭 오름세를 유지"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "아이온큐 포함 지금 볼 만한 미국 양자 컴퓨팅 주식 3선",
-              "original": "아이온큐 포함 지금 볼 만한 미국 양자 컴퓨팅 주식 3선",
-              "source": "simplywall.st",
-              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSzZ5T3dXNTI4MUdiOTJvanQwNXFpRUdrZjRxS1NYQlBFbmMwbnN5eHQ3TDhjZm10Z0lTcU9saF9oRFBTV3BXQVhrWHdiZzVfOUNmSmJYMFB4azZ4OFpObEhGSDFpek9iWTU3OHg0cVZpVUZzdTVWR29KRVpqLWxvNlNNaVhuUnZtVDF4N05EaGRqODZB0gGUAUFVX3lxTFBLNnlPd1c1MjgxR2I5Mm9qdDA1cWlFR2tmNHFLU1hCUEVuYzBuc3l4dDdMOGNmbXRnSVNxT2xoX2hEUFNXcFdBWGtYd2JnNV85Q2ZKYlgwUHhrNng4Wk5sSEZIMWl6T2JZNTc4eDRxVmlVRnN1NVZHb0pFWmotbG82U01pWG5Sdm1UMXg3TkRoZGo4NkE?oc=5",
-              "published": "2026-08-23T03:04:19+09:00"
+              "title": "아이온큐, 퀀텀 섹터 전반 강세 속 8% 급등...다음은?",
+              "original": "IonQ Jumped 8% With the Whole Quantum Sector. Here’s What Comes Next",
+              "source": "TIKR.com",
+              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOa3c1cUpMZmlNTEhLclVRa3FkbUp3dWVNYjNfQVBjNFozX2xreEZtOG5QMU1iaHVrWndWb1JuckxfQXd2alp2RWFqQjhXa285Sno0U1N3c0d1NWdxLUpiRlk0cDBOVDN5ZU5BYmE2Tk92SlJucGRTOU1OZ1ZUcFYtZDdKMGVweEduMlJZOFVENkVDMWJVenVYWUdR?oc=5",
+              "published": "2026-08-24T02:15:00+09:00"
+            },
+            {
+              "title": "아이온큐·리게티컴퓨팅 등 급등…美 양자컴퓨터주 주가 일제히 강세",
+              "original": "아이온큐·리게티컴퓨팅 등 급등…美 양자컴퓨터주 주가 일제히 강세",
+              "source": "CBC뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UM3hsRXNpZTFQNUVKX1IzekdVWmNqYnFPOVJ0VmdfOGFKQmNrQTVMQllKUmdRN2NmdTZOT0w5dWh6d0duMzlrUUhKa3BualBXaU1jLVlJM1BfQlg4Ni1EaS1UOEhmU2lV?oc=5",
+              "published": "2026-08-23T10:05:23+09:00"
             },
             {
               "title": "한국첨단소재, 코리아퀀텀에 아이온큐 추가…교차검증 체계 구축 : 네이버 블로그",
               "original": "한국첨단소재, 코리아퀀텀에 아이온큐 추가…교차검증 체계 구축 : 네이버 블로그",
               "source": "Naver Blog",
               "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeXItX1cyUXV1UWZPRkhKdDl3NF9Yc0VGcWxRV1JRSExiZU8zNmQ4MWVLYXJNSGNRYV9taVh6V2xuVHRXVEpLSGJ3Y1g1TTc0NEJzbFJ5UWZPSTB2YTlaQkJfTUltM3U3WkNwUFVWNEtqMWtqbFc2ZEpabXRKbkpSVF9ka1BjV2Fib0I4SWxMZw?oc=5",
-              "published": "2026-08-22T21:56:22+09:00"
-            },
-            {
-              "title": "[🔴08/06 #당잠사] 샌디스크·아이온큐·피그마 실적발표 | 구글, ‘AI 거장’ 제프 딘 퇴사 소식에 하락 | #알파벳 #메타 #엔비디아 Pep Guardiola (9LTUKEmuL1)",
-              "original": "[🔴08/06 #당잠사] 샌디스크·아이온큐·피그마 실적발표 | 구글, ‘AI 거장’ 제프 딘 퇴사 소식에 하락 | #알파벳 #메타 #엔비디아 Pep Guardiola (9LTUKEmuL1)",
-              "source": "Mshale",
-              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBiRGNPZ1NfT2NIZVYtQzhJdGRzZlI3MXE2SDlva1lsN2tYZ3FneXdyblFyd3NtV3hEVzJfZmxWU00xRjZmQjJxRzQtZ193UkxpU0M4LWp4eUdPTnM?oc=5",
-              "published": "2026-08-22T16:55:18+09:00"
+              "published": "2026-08-23T09:50:22+09:00"
             }
           ]
         },
         {
           "stock": "엔비디아",
           "ticker": "NVDA",
-          "title": "엔비디아 - 실적·잭슨홀 앞두고 하락",
-          "body": "이번 주 실적 발표와 잭슨홀 회의를 앞두고 국채금리 변동성 우려가 커지며 경계심에 소폭 하락. -0.98% 내린 <b>214.72달러</b> 마감.",
+          "title": "엔비디아 - 서버 가격 15% 인상 예고",
+          "body": "서버 가격 15% 인상 예고와 AI 개발사 우회 인수 소식에도 관세 이슈 부각 속 소폭 하락 마감. -0.98% 내린 <b>214.72달러</b> 마감.",
           "pct": -0.98,
           "price": 214.72000122070312,
           "currency": "USD",
@@ -188,8 +202,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.15,
               "is_close": false,
               "date": "2026-08-21",
-              "title": "약보합 흐름 지속",
-              "text": "실적 발표와 잭슨홀 회의를 앞두고 관망 심리가 짙어지며 약세 흐름이 이어짐"
+              "title": "장 초반 호재 불구 약세",
+              "text": "서버 가격 인상과 AI 개발사 인수 소식에도 관세 이슈 부담이 겹치며 하락 흐름으로 하루를 시작"
             },
             {
               "time": "마감",
@@ -197,40 +211,40 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.98,
               "is_close": true,
               "date": "2026-08-21",
-              "title": "낙폭 다소 확대",
-              "text": "슈퍼 위크를 앞둔 경계감이 커지면서 하락폭이 소폭 늘어난 채 마감함"
+              "title": "낙폭 유지하며 마감",
+              "text": "오전 관세 우려로 시작된 약세가 반등 없이 이어지며 하루 내내 소폭 하락한 채로 거래를 마침"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "이번주 뉴욕증시 ‘3대 분수령’…엔비디아·PCE·워시 잭슨홀",
-              "original": "이번주 뉴욕증시 ‘3대 분수령’…엔비디아·PCE·워시 잭슨홀",
-              "source": "경북매일",
-              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBFbHc3bElTNmZud2w5ZkpQVkdVM2t3dkV2RTNFTjRKXzNXX3NaMi1felZESENQSktRMWNieEo1NUxWeE4zRzFrT2FMSmpfVndMNERpRE9xNXJxQQ?oc=5",
-              "published": "2026-08-23T07:46:00+09:00"
+              "title": "엔비디아, 서버 가격 15% 인상 예고 AI 생태계 전방위 확장",
+              "original": "엔비디아, 서버 가격 15% 인상 예고 AI 생태계 전방위 확장",
+              "source": "미디어데일",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1CdkhCRHE2MEZONXFsd1JiTkxkQTdBbDZjaktDSkx3alAyQ3lwSWJoM0pZN1JqNDJlRDRHRmRIS3pZa1M1aV9TbjBxMEwtbzRKbGVCZEh3clhlSzdJM3JQcGZPSndGdmdOWU5B?oc=5",
+              "published": "2026-08-24T07:46:02+09:00"
             },
             {
-              "title": "이란 제재·엔비디아 실적·잭슨홀까지… 미 국채금리 흔들 '슈퍼 위크' 도래",
-              "original": "이란 제재·엔비디아 실적·잭슨홀까지… 미 국채금리 흔들 '슈퍼 위크' 도래",
-              "source": "theconnectmoney.com",
-              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82QnFTcXJqcXA0dnZFRHVwU1dxVk1zSXVyeS12VDc4bmJmV0ItdzByYjJnSEFFbHAxNVlKenEyMEFrZ01LMVVQbHRqOWNuVG16QXdjbF9PTDlCNkRzSHhtcQ?oc=5",
-              "published": "2026-08-23T07:20:00+09:00"
+              "title": "엔비디아, AI 개발사 우회 인수…첨단 오픈소스 AI 개발",
+              "original": "엔비디아, AI 개발사 우회 인수…첨단 오픈소스 AI 개발",
+              "source": "네이트",
+              "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5IbHVVblUxNllNa3ROTUduSGFMYi1MWEZuNjdpS3M4ZFRvanpLdThOanBFNTB5THVTb3NVSTFJaUJuS2FKQmYtTmZINHdHWDJITlJSRHhJcjhtTWlnTzVQeUltZS1aelB5V2taNTctNnNLMm1qeHR0cQ?oc=5",
+              "published": "2026-08-24T07:45:00+09:00"
             },
             {
-              "title": "삼성전자·SK하이닉스가 받친 코스피 6900선…이번 주 엔비디아·잭슨홀에 '7천피' 달렸다",
-              "original": "삼성전자·SK하이닉스가 받친 코스피 6900선…이번 주 엔비디아·잭슨홀에 '7천피' 달렸다",
-              "source": "중앙이코노미뉴스",
-              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5wcm5pQVgxLXcwWGltdFNyc1dVQ0tSdllMWm5hT3FsRHpheXEwekJUbHFuVlZJM0RlbFRkY0lnYTJUYmZ1SE5Tb29XX2hkaDhKNWpoNmp6MUJ5Zi1xNW5JamZ4WmtXQjI4Vk1jdGdzRG5udw?oc=5",
-              "published": "2026-08-23T07:15:00+09:00"
+              "title": "다우존스 선물, 관세 이슈에 하락...엔비디아·워시 발언 주목",
+              "original": "Dow Jones Futures Fall With Tariffs In Focus; Nvidia, Warsh Ahead",
+              "source": "Investor's Business Daily",
+              "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rally-nvidia-crowdstrike-warsh/?src=A00220&yptr=yahoo",
+              "published": "2026-08-24T07:40:21+09:00"
             }
           ]
         },
         {
           "stock": "소파이테크놀로지",
           "ticker": "SOFI",
-          "title": "소파이테크놀로지 - 암호화폐·회원증가 부각",
-          "body": "암호화폐 사업 상승세와 기록적인 회원 증가 소식이 부각되며 투자심리가 개선돼 매수세 유입. +5.52% 오른 <b>18.91달러</b> 마감.",
+          "title": "소파이테크놀로지 - 전일 대비 +5.52%",
+          "body": "+5.52% 오른 <b>18.91달러</b> 마감. 오늘 새로 올라온 뉴스는 없습니다.",
           "pct": 5.52,
           "price": 18.90999984741211,
           "currency": "USD",
@@ -243,7 +257,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-21",
               "title": "강한 상승세 지속",
-              "text": "암호화폐 관련 훈풍 속에 매수세가 유입되며 큰 폭의 오름세가 이어짐"
+              "text": "별다른 소식 없이도 장중 내내 강한 매수세가 유입되며 큰 폭의 오름세를 꾸준히 이어감"
             },
             {
               "time": "마감",
@@ -251,24 +265,16 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 5.52,
               "is_close": true,
               "date": "2026-08-21",
-              "title": "상승폭 다소 축소",
-              "text": "회원 증가 소식에 힘입은 급등세가 이어졌으나 장 후반 들어 상승폭이 소폭 줄어듦"
+              "title": "큰 폭 오름세 마감",
+              "text": "장 후반 들어 상승폭이 다소 줄었지만 여전히 하루 종일 두드러진 강세를 유지한 채 마감"
             }
           ],
           "slot_total": 2,
-          "news": [
-            {
-              "title": "SoFi의 암호화폐 상승세와 기록적인 회원 증가가 SoFi Technologies(SOFI) 투자자들에게 어떤 변화를 가져올 수 있을까",
-              "original": "SoFi의 암호화폐 상승세와 기록적인 회원 증가가 SoFi Technologies(SOFI) 투자자들에게 어떤 변화를 가져올 수 있을까",
-              "source": "simplywall.st",
-              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSWV3Q3dZSXVaZEtybDc4U3FkeDUwQm96RXJ4RjFHcUQtLXhNVWs4OGZpSXZleTlhWXlONUZxRDQxWlRvTDVzc2dlNjNhU2lkbnI3Y0FyVTVTRW1oV0l3XzhhNmt2RTg1a3hNRGFOWERad2N1OGNNb0RFcXg4OU5XS2ZNRzhwUlk4UFE4OHNNSXhOckJBZUtLQWY3SV9oem53SEF1ZnhpUzNQa2pCYVdyWHpzTdIBswFBVV95cUxQSWV3Q3dZSXVaZEtybDc4U3FkeDUwQm96RXJ4RjFHcUQtLXhNVWs4OGZpSXZleTlhWXlONUZxRDQxWlRvTDVzc2dlNjNhU2lkbnI3Y0FyVTVTRW1oV0l3XzhhNmt2RTg1a3hNRGFOWERad2N1OGNNb0RFcXg4OU5XS2ZNRzhwUlk4UFE4OHNNSXhOckJBZUtLQWY3SV9oem53SEF1ZnhpUzNQa2pCYVdyWHpzTQ?oc=5",
-              "published": "2026-08-22T16:14:39+09:00"
-            }
-          ]
+          "news": []
         }
       ],
-      "markdown": "briefings/2026-08-23-us.md",
-      "refreshed_at": "2026-08-23 07:53:02 KST"
+      "markdown": "briefings/2026-08-24-us.md",
+      "refreshed_at": "2026-08-24 07:52:43 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
