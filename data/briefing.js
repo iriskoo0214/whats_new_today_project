@@ -1,11 +1,11 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-08-29 06:17:21 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-08-29 06:48:18 KST",
+  "refreshed": [
     "kr"
   ],
-  "default": "us",
+  "slots_refreshed": [],
+  "default": "kr",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
@@ -300,7 +300,7 @@ window.NOTEFOLIO_BRIEFING = {
     },
     "kr": {
       "icon": "assets/moon.svg",
-      "label": "한국 증시 요약 2026. 8. 26. 6:26PM",
+      "label": "한국 증시 요약 2026. 8. 29. 6:48AM",
       "chips": [
         "전체",
         "SK하이닉스",
@@ -314,17 +314,17 @@ window.NOTEFOLIO_BRIEFING = {
         "다시 찾아올게요."
       ],
       "next": "us",
-      "headline": "국내 5종목 중 2종목 상승, 2종목 하락 — 삼성전자가 +1.75%로 가장 많이 올랐고 현대차가 -3.09%로 가장 부진했습니다.",
+      "headline": "국내 5종목 중 3종목 상승, 2종목 하락 — LG전자가 +1.61%로 가장 많이 올랐고 SK하이닉스가 -4.45%로 가장 부진했습니다.",
       "cards": [
         {
           "stock": "SK하이닉스",
           "ticker": "000660",
-          "title": "SK하이닉스 - 핫칩스서 HBM 기술 경쟁",
-          "body": "삼성과 발열 관리 HBM 및 PIM 방식을 두고 핫칩스에서 기술 경쟁을 벌였고 수원 패키징 행사도 병행. +0.60% 오른 <b>1,688,000원</b> 마감.",
-          "pct": 0.6,
-          "price": 1688000.0,
+          "title": "SK하이닉스 - 자사주 매입 효과에도 하락",
+          "body": "삼성전자와 함께 46조원 규모 자사주 매입 소식이 전해졌음에도 주가는 하락, 미국 정치인들은 팹 기공식에서 미국 기여 압박도 제기. -4.45% 내린 <b>1,653,000원</b> 마감.",
+          "pct": -4.45,
+          "price": 1653000.0,
           "currency": "KRW",
-          "as_of": "2026-08-26",
+          "as_of": "2026-08-28",
           "slots": [
             {
               "time": "9:10AM",
@@ -333,7 +333,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-28",
               "title": "장 초반 약세 출발",
-              "text": "자사주 매입 소식에도 불구하고 개장초부터 약세로 시작하며 하락폭을 키움"
+              "text": "자사주 매입 소식에도 불구하고 개장과 함께 하락 출발하며 약세 흐름을 나타냄"
             },
             {
               "time": "10:30AM",
@@ -341,8 +341,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.56,
               "is_close": false,
               "date": "2026-08-28",
-              "title": "낙폭 소폭 축소",
-              "text": "오전 저점에서 다소 반등하며 낙폭을 줄였으나 여전히 전일 대비 약세권에 머무름"
+              "title": "낙폭 축소 시도",
+              "text": "오전 중 저가 매수세가 유입되며 개장 초 낙폭을 다소 줄이는 모습을 보임"
             },
             {
               "time": "1:00PM",
@@ -350,8 +350,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -2.14,
               "is_close": false,
               "date": "2026-08-28",
-              "title": "오후 들어 재차 밀림",
-              "text": "오전 반등분을 반납하며 오후 들어 다시 낙폭이 확대되는 흐름으로 전환됨"
+              "title": "오후 들어 재차 하락",
+              "text": "오전 회복분을 반납하며 낙폭이 다시 커지고 하루 중 약세 흐름이 이어지는 중"
             },
             {
               "time": "마감",
@@ -360,43 +360,43 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-08-28",
               "title": "낙폭 확대 마감",
-              "text": "외국인 매도세가 부각된 가운데 장 후반 낙폭이 크게 확대되며 하루 중 최저 수준으로 마감"
+              "text": "오후 들어 매물이 늘며 낙폭이 더욱 커졌고 하루 중 가장 큰 하락폭으로 거래를 마감함"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "레버리지 출시후 ‘거래 가뭄’… 왜곡된 증시 유동성 부족 우려",
-              "original": "레버리지 출시후 ‘거래 가뭄’… 왜곡된 증시 유동성 부족 우려",
-              "source": "아시아투데이",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZcFJLd2ZHY0hqeTh6d1RoQmpBU1pFOEpiaGd3aG53ZkY3OUhqVHF4bi1uZE41NWhoUlpib09tN3ZtRE9xcWMwd2h1a1BYYnRKUjJLRW9fQ3FnbDAycE0tbWo1N2RBT2k0UnJ4Zw?oc=5",
-              "published": "2026-08-26T18:02:40+09:00"
-            },
-            {
-              "title": "삼성 ‘HBM 대신 PIM’ VS 하이닉스 ‘발열 관리 HBM’…반도체 맞수, ‘핫칩스’서 뜨거운 경쟁",
-              "original": "삼성 ‘HBM 대신 PIM’ VS 하이닉스 ‘발열 관리 HBM’…반도체 맞수, ‘핫칩스’서 뜨거운 경쟁",
-              "source": "중앙일보",
-              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tNWprdDdmQnBRa0d1SEpidUFKVUJiWEY0d29oMS03dTJUbnF5bGY2Z2dVUWZhUG5GQkQ1aGs4bS04T3ZRNHdzemlKSS1DQVNkMTk1WVF3?oc=5",
-              "published": "2026-08-26T17:58:03+09:00"
-            },
-            {
-              "title": "삼성·SK하이닉스, 수원서 첨단 패키징 기술 뽐낸다",
-              "original": "삼성·SK하이닉스, 수원서 첨단 패키징 기술 뽐낸다",
+              "title": "삼성전자·하이닉스 '자사주 매입' 효과…46조원 더 산다",
+              "original": "삼성전자·하이닉스 '자사주 매입' 효과…46조원 더 산다",
               "source": "네이트",
-              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5OZzFGdW9rc1FCZVFGS1hlbi1VaDZXbGVjdjJuMUF3MGRnTEtiWGR5MGRsYjd2REwtR0xDNkxYZzdvdVZGcmxuTUd1NmlPdTdubkFn?oc=5",
-              "published": "2026-08-26T17:45:00+09:00"
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0yemxWOHYzNmJ0WUlfNlNhRnNHLTFiOXl0RTZsTHpyakRqZjFMaEhBN0V6endfS2dBenByQi1BVXpiaHR2WmVwMTdHVUowclB5amJR?oc=5",
+              "published": "2026-08-29T06:01:06+09:00"
+            },
+            {
+              "title": "돈 잘버는 SK하이닉스보다 적자 스페이스X가 비싼 이유 [B급기자의 B급리포트]",
+              "original": "돈 잘버는 SK하이닉스보다 적자 스페이스X가 비싼 이유 [B급기자의 B급리포트]",
+              "source": "네이트",
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1WcVBTSTg4V2pzYWtPVWhEbEZ0OTFoVUl2TDhLbDFiMmpJci1sU3NZb2VRanlJLXRNaFNUSmxkMGFRajdMS1lJSHExMEt2eHpKcUVF?oc=5",
+              "published": "2026-08-29T06:01:00+09:00"
+            },
+            {
+              "title": "AI 반발에...美 정치인들, SK 팹 기공식서 “미국에 기여하라”[김창영의 실리콘밸리 룩]",
+              "original": "AI 반발에...美 정치인들, SK 팹 기공식서 “미국에 기여하라”[김창영의 실리콘밸리 룩]",
+              "source": "서울경제",
+              "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ETk1tR0hBZ01QaEVuRTJ2ei04S1E1MXFSUlVDT2FDVWhKR2lGSDJpU3hVM1lzSkRtbWhsSG9NMzIxVWZZQlJlZ3drOEpEbkJkZ0E?oc=5",
+              "published": "2026-08-29T05:18:45+09:00"
             }
           ]
         },
         {
           "stock": "삼성전자",
           "ticker": "005930",
-          "title": "삼성전자 - 오픈AI에 HBM4 공급",
-          "body": "오픈AI 자체 칩에 HBM4 공급을 확정하며 AI 공급망 확보 소식이 부각, 신제품 SSD 공개도 이어지며 투자심리 개선. +1.75% 오른 <b>261,500원</b> 마감.",
-          "pct": 1.75,
-          "price": 261500.0,
+          "title": "삼성전자 - 자사주 매입에도 급락",
+          "body": "하이닉스와 함께 46조원 추가 자사주 매입 계획과 3분기 30조원 현금배당 소식이 나왔으나 주가는 오히려 하락세를 보임. -3.38% 내린 <b>257,000원</b> 마감.",
+          "pct": -3.38,
+          "price": 257000.0,
           "currency": "KRW",
-          "as_of": "2026-08-26",
+          "as_of": "2026-08-28",
           "slots": [
             {
               "time": "9:10AM",
@@ -404,8 +404,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.88,
               "is_close": false,
               "date": "2026-08-28",
-              "title": "장 초반 약세 출발",
-              "text": "자사주 매입과 배당 관련 소식에도 개장 초반부터 하락세로 출발함"
+              "title": "장 초반 하락 출발",
+              "text": "자사주 매입과 배당 관련 소식에도 개장과 함께 약세로 출발하는 모습을 보임"
             },
             {
               "time": "10:30AM",
@@ -414,7 +414,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-28",
               "title": "낙폭 소폭 확대",
-              "text": "오전 내내 하락폭이 조금씩 커지며 전일 대비 약세 흐름이 이어짐"
+              "text": "오전 내내 매수세가 붙지 못하며 개장 초보다 낙폭이 조금씩 커지는 흐름이 이어짐"
             },
             {
               "time": "1:00PM",
@@ -422,8 +422,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -2.44,
               "is_close": false,
               "date": "2026-08-28",
-              "title": "오후에도 하락세 지속",
-              "text": "오전의 약세 흐름이 오후까지 이어지며 낙폭이 하루 중 가장 크게 벌어짐"
+              "title": "약세 흐름 지속",
+              "text": "오후 들어서도 반등 시도 없이 낙폭이 점차 커지며 하루 중 약세가 이어지는 중"
             },
             {
               "time": "마감",
@@ -431,44 +431,44 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.38,
               "is_close": true,
               "date": "2026-08-28",
-              "title": "낙폭 확대 마감",
-              "text": "장 후반으로 갈수록 매도세가 강해지며 하루 중 최저 수준에서 거래를 마침"
+              "title": "낙폭 키우며 마감",
+              "text": "장 후반 들어 매도세가 강해지며 하루 중 가장 큰 낙폭을 기록한 채 거래를 마감함"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "삼성전자, 오픈AI 자체 칩에 HBM4 공급…공급망 확보 총력",
-              "original": "삼성전자, 오픈AI 자체 칩에 HBM4 공급…공급망 확보 총력",
-              "source": "v.daum.net",
-              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4yRkhMenVRaWlNSUFHMEk5Y09kUEhGRDUyN3dKR1htYXJyN1lVOHJrQjhNMGJXWk1sVldCZFBZelpXMGVMZDBFU1dwMEN0d3M?oc=5",
-              "published": "2026-08-26T18:19:04+09:00"
+              "title": "삼성전자·하이닉스 '자사주 매입' 효과…46조원 더 산다",
+              "original": "삼성전자·하이닉스 '자사주 매입' 효과…46조원 더 산다",
+              "source": "네이트",
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0yemxWOHYzNmJ0WUlfNlNhRnNHLTFiOXl0RTZsTHpyakRqZjFMaEhBN0V6endfS2dBenByQi1BVXpiaHR2WmVwMTdHVUowclB5amJR?oc=5",
+              "published": "2026-08-29T06:01:06+09:00"
             },
             {
-              "title": "HVAC·로보틱스에 3조… 삼성 미래 좌우 핵심은 결국 DX",
-              "original": "HVAC·로보틱스에 3조… 삼성 미래 좌우 핵심은 결국 DX",
-              "source": "아시아투데이",
-              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4tV05jOEZhbnUtYWF5YWxoMU53em44R3lKWE10NlJveWpSTHo4MVJKM3ZJRlFIY2lvdDY0VW5PZ3lSVmlpX1NYelFvWDYybTNkaXRXTjdqTUxPOS1PdVJwWHJvc1RUazV1NTRfY3JB?oc=5",
-              "published": "2026-08-26T17:51:11+09:00"
+              "title": "[사이드B] 삼성전자에 실망한 시장? 3분기 30조원 현금배당 뜯어보니",
+              "original": "[사이드B] 삼성전자에 실망한 시장? 3분기 30조원 현금배당 뜯어보니",
+              "source": "네이트",
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9UenZBYkdFdTh0ZTYyb0p6b3JWam9yaWZ3ZVdveXJieWFGM2JmNFZjOElqZ3hlN2ZjMmdqbmM2UGYwSUFITG93elJfd2tGeGZJSzJz?oc=5",
+              "published": "2026-08-29T06:01:00+09:00"
             },
             {
-              "title": "[삼성전자 포커스] USB4 탑재 포터블 SSD ‘P9·P7’ 공개…9월 순차 출시",
-              "original": "[삼성전자 포커스] USB4 탑재 포터블 SSD ‘P9·P7’ 공개…9월 순차 출시",
-              "source": "더밸류뉴스",
-              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9IekhrZ3lMWURGZ3NJR0RqZzhWZDlDdmdlUTBNMXFUVl96ZmtXOHJ5bldQRFhkSEFuYUdSNWNuWGJuTEJPY05QcjU0WUQ4ZXJLNjZj?oc=5",
-              "published": "2026-08-26T17:45:42+09:00"
+              "title": "삼성전자, 256메가 D램 세계 최초 개발 [김정한의 역사&오늘]",
+              "original": "삼성전자, 256메가 D램 세계 최초 개발 [김정한의 역사&오늘]",
+              "source": "뉴스1",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1jeTRoQzVpTlk2aU1pSFJ0YnFHVWhZUDNYSExJbG1oNUstaHVjV2NWUFoyN1Zveml0NUNGUGctRUJkWXpaaW1UWUNmMC1UdU16UDBKX2txaVFKaHJBQVRaZFZsRTJPM3FGb0HSAW9BVV95cUxOanlHMGg4Y2F1ZVRwRDRwWDFaQXNvYW5zSEw0R1RYdVZoY2NMaG14dUZSWUkzbW96NkE0Mmo0MWNGV2lZcS1iV0ktUU1HelhlS0pEdFlBdEFPaVNWbUI3TTNnWmNKM1ptajlLaElxaVE?oc=5",
+              "published": "2026-08-29T06:00:00+09:00"
             }
           ]
         },
         {
           "stock": "한화에어로스페이스",
           "ticker": "012450",
-          "title": "한화에어로스페이스 - K9 美 진출에도 하락",
-          "body": "K9 자주포의 미국 방산시장 진출 소식과 UGV 사업 선점 부각에도 불구하고 주가는 하락 마감. -1.36% 내린 <b>1,087,000원</b> 마감.",
-          "pct": -1.36,
-          "price": 1087000.0,
+          "title": "한화에어로스페이스 - 무인기 엔진 확장 '원 스카…",
+          "body": "47년간 축적한 전투기 엔진 기술을 무인기용으로 확장하는 '원 스카이' 구상을 제시하며 방산 사업 영역 확대 기대감이 부각. +0.61% 오른 <b>1,157,000원</b> 마감.",
+          "pct": 0.61,
+          "price": 1157000.0,
           "currency": "KRW",
-          "as_of": "2026-08-26",
+          "as_of": "2026-08-28",
           "slots": [
             {
               "time": "9:10AM",
@@ -477,7 +477,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-28",
               "title": "장 초반 약세 출발",
-              "text": "전투기 엔진 기술 관련 소식에도 개장 초반부터 하락세로 시작함"
+              "text": "전투기 엔진 기술을 무인기로 확장한다는 소식에도 개장과 함께 하락하며 시작함"
             },
             {
               "time": "10:30AM",
@@ -485,8 +485,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -2.17,
               "is_close": false,
               "date": "2026-08-28",
-              "title": "오전 낙폭 확대",
-              "text": "오전 중반 들어 하락폭이 더 커지며 하루 중 저점에 가까운 수준까지 밀림"
+              "title": "낙폭 확대",
+              "text": "오전 중 매도세가 이어지며 개장 초보다 낙폭이 더 커지는 흐름을 보임"
             },
             {
               "time": "1:00PM",
@@ -494,8 +494,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.83,
               "is_close": false,
               "date": "2026-08-28",
-              "title": "낙폭 일부 회복",
-              "text": "오전 저점에서 다소 반등하며 낙폭을 줄이는 모습을 보임"
+              "title": "낙폭 다소 회복",
+              "text": "오후 들어 저가 매수세가 유입되며 오전보다 낙폭을 일부 줄이는 모습을 나타냄"
             },
             {
               "time": "마감",
@@ -504,43 +504,43 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-08-28",
               "title": "상승 전환 마감",
-              "text": "오후 들어 강한 반등이 나오며 하락세를 뒤집고 상승 전환에 성공함"
+              "text": "장 후반 매수세가 강하게 유입되며 하락분을 모두 만회하고 상승 반전에 성공함"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "한화, K9 美 방산 뚫었지만…양산까지는 아직 4년 '관문'",
-              "original": "한화, K9 美 방산 뚫었지만…양산까지는 아직 4년 '관문'",
-              "source": "딜사이트",
-              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9iUURzUjJqZkgxSEVvT2k2c2hoODFqOVo2eHdxOURSc1AtNGVqUnJwanpmVzVpUWpLOXR4ZzJUOUhWaGwzTWJzM2R1MDR5aFE?oc=5",
-              "published": "2026-08-26T18:21:20+09:00"
+              "title": "토토 걸릴 확률 놀이터 벳 에 대한 완벽한 가이드: 초보자부터 전문가까지",
+              "original": "토토 걸릴 확률 놀이터 벳 에 대한 완벽한 가이드: 초보자부터 전문가까지",
+              "source": "Platea Magazine",
+              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeUhsbEM3WkNaR2ZaSDBhTkpQSHlwV3FvaV9weVItV0hXNlFnYXMyUGtqcVdLNHZEa2twbi1ieDY2TGZwNjk4Rm1iamQ2SGNXX0tQVFE4eHAzZFFDYmlTeFNGT3JuNmt0N2p5emJEbG5May1vSVJhNW9kcmN5aXh3NUJKN0RvRVUzY1Job3c2amwtSDJWQWtMM0xFaFZqQlNGY2VVRzNqZHFJQ1pfdTNfTkJR?oc=5",
+              "published": "2026-08-29T01:54:59+09:00"
             },
             {
-              "title": "한화에어로, 아리온스멧·그런트 ‘UWC X CIMEX 2026’서 선보여",
-              "original": "한화에어로, 아리온스멧·그런트 ‘UWC X CIMEX 2026’서 선보여",
-              "source": "산업일보",
-              "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5mQkNyRkFBZzRoelgtQ0hYaW84NWUyeEFsTTBlcGZrTC1mdnlLa1AyRnJtS1hDclB5QVFaMWpMVkQ2YVhN?oc=5",
-              "published": "2026-08-26T18:18:31+09:00"
+              "title": "블루카지노 의 모든 것: 기본 개념부터 고급 기술까지",
+              "original": "블루카지노 의 모든 것: 기본 개념부터 고급 기술까지",
+              "source": "Platea Magazine",
+              "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1iZWltbWJ0S21tS2NVSGlmTmVOTXNOY2tDWXJBTG5KVC1WMmJJdFdlNkIwLVd4VEdFUnJQM1VnT09YekpxQkJoTkVJaWxRNXZMTDYxTFhCZlM?oc=5",
+              "published": "2026-08-28T22:17:52+09:00"
             },
             {
-              "title": "[WIKI 현장] 한화에어로, UGV 첫 사업 쥐고 '유무인 복합체계' 시장 선점…\"변화맞설 유일한 키\"",
-              "original": "[WIKI 현장] 한화에어로, UGV 첫 사업 쥐고 '유무인 복합체계' 시장 선점…\"변화맞설 유일한 키\"",
-              "source": "위키리크스한국",
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1FZDE4T0VFb2Z5MDJlQ1h0STA3SHduRWwzNlJxYmFsM2JicFFvdVp5YlQ3M2xrLUdaSE5tNUdaeUpoSGpWNXdIcFBmV0Z1M05jWDlVNFJWNUsxVktHdW1IVGZsTzdtel8xUGdBLS1vTQ?oc=5",
-              "published": "2026-08-26T18:02:58+09:00"
+              "title": "전투기 엔진 47년 기술, 무인기용으로 확장… 한화 ‘원 스카이’ 제시",
+              "original": "전투기 엔진 47년 기술, 무인기용으로 확장… 한화 ‘원 스카이’ 제시",
+              "source": "뉴스로드",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5YR3pTNzVWMF94Z0hZeUc3WmZCalU3WjVMZWQwdnBKM1A5RVVLd2p6UmFlSzlTblV3ZVlwaXEwNjg1aWhYV183bWJmcDF1LVdZbFVYOWZtd0RxNTZUWTlpVWlweDFUY2FBWTg40gFvQVVfeXFMTURNalRna1JqczNIMW9yRGVCdUFlTGhuckZjWlo0WXZ0X2RFMzhpYnJiS00xSi0zNUR3QkpQMkFObGZ1ajRXQmlZM2RWVS03allQbmFnRG1ab28zNi1fcWlIT09oblMxUThXVGRwYjMw?oc=5",
+              "published": "2026-08-28T19:48:28+09:00"
             }
           ]
         },
         {
           "stock": "LG전자",
           "ticker": "066570",
-          "title": "LG전자 - 세계 최초 모니터 공개",
-          "body": "세계 최초 FHD·1000Hz 게이밍 모니터를 출시하며 AI 반도체·데이터센터 공략 의지를 밝혔으나 주가는 보합. 보합인 <b>200,500원</b> 마감.",
-          "pct": 0.0,
-          "price": 200500.0,
+          "title": "LG전자 - 액체냉각·해양생태 사업 부각",
+          "body": "AI 데이터센터 고밀도화로 액체냉각 필요성이 커지는 가운데 현대차와 해양 생태계 복원 사업 참여, 수해 성금 10억원 기부도 발표. +1.61% 오른 <b>201,500원</b> 마감.",
+          "pct": 1.61,
+          "price": 201500.0,
           "currency": "KRW",
-          "as_of": "2026-08-26",
+          "as_of": "2026-08-28",
           "slots": [
             {
               "time": "9:10AM",
@@ -549,7 +549,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-28",
               "title": "장 초반 상승 출발",
-              "text": "개장 초반부터 매수세가 유입되며 소폭 상승한 채로 거래를 시작함"
+              "text": "액체냉각 관련 수요 확대 기대 속에 개장과 함께 소폭 상승하며 거래를 시작함"
             },
             {
               "time": "10:30AM",
@@ -557,8 +557,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.0,
               "is_close": false,
               "date": "2026-08-28",
-              "title": "상승분 반납",
-              "text": "오전 중 상승폭을 모두 반납하며 전일 수준까지 밀리는 흐름을 보임"
+              "title": "상승폭 반납",
+              "text": "오전 중 매수세가 약해지며 개장 초 상승분을 대부분 반납하고 보합권에 머무름"
             },
             {
               "time": "1:00PM",
@@ -566,8 +566,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.61,
               "is_close": false,
               "date": "2026-08-28",
-              "title": "재차 상승 전환",
-              "text": "오후 들어 다시 매수세가 유입되며 상승폭을 오전보다 더 키움"
+              "title": "오후 들어 반등",
+              "text": "오후 들어 매수세가 다시 유입되며 오전 부진을 딛고 상승폭을 키우는 흐름을 보임"
             },
             {
               "time": "마감",
@@ -576,43 +576,43 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-08-28",
               "title": "상승폭 유지 중",
-              "text": "오후 상승세가 이어지며 하루 중 최고 수준의 상승폭을 그대로 유지 중"
+              "text": "장 후반까지 매수 우위가 이어지며 하루 중 가장 높은 상승폭을 유지하고 있는 중"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "LG전자, 세계 최초 FHD·1000Hz 게이밍 모니터 출시",
-              "original": "LG전자, 세계 최초 FHD·1000Hz 게이밍 모니터 출시",
-              "source": "한국면세뉴스",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBuVUtzQjcydG9nOHFvNjk4emc4R1QzTDJzeWFCd2RlYTlqcE4tcjMzRHpVbGMySU9zYUY5VGcwOTE5S3VNQ2ZRNlM5LTlXMDQ5b09QNWd1LXdOX2JJZEVBUHJKdjQydEtIVkE?oc=5",
-              "published": "2026-08-26T18:21:24+09:00"
+              "title": "물고기 집 짓는데 현대차·LG가 돈 내는 이유…바닷속 '푸른 숲'의 거대한 비밀 [세모금]",
+              "original": "물고기 집 짓는데 현대차·LG가 돈 내는 이유…바닷속 '푸른 숲'의 거대한 비밀 [세모금]",
+              "source": "네이트",
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE01Qk9HeVJwSEpDUWQyYUtFb1hMZFFlaG5WTk42Y2tMZm5LOENYUklXeUFJWkVKR0hvZ3ExVS1OZXljWllmc3ZZQUJwTUtmMk5sMnJF?oc=5",
+              "published": "2026-08-29T06:01:00+09:00"
             },
             {
-              "title": "[군산24시]군산시-구세군-LG전자, 취약계층 주거·돌봄 환경 개선 맞손",
-              "original": "[군산24시]군산시-구세군-LG전자, 취약계층 주거·돌봄 환경 개선 맞손",
-              "source": "v.daum.net",
-              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE85c2Y0Q0NQeHd2V285LWh4UVl1dHVBVFVBVlQ0R29oZXZKQ1JfTjh1MWxxX0R6MHhtMzI1QzNxYU5HMm91ckhtYU00QVdNNHc?oc=5",
-              "published": "2026-08-26T17:51:07+09:00"
+              "title": "LG, 집중호우 피해 성금 10억원 기부 … 계열사도 구호 지원 총력",
+              "original": "LG, 집중호우 피해 성금 10억원 기부 … 계열사도 구호 지원 총력",
+              "source": "워크투데이",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE11WkFJbG5UX1JxckV5OE5tdmZYc0JIX2ZESV9DR1dvNU1raXFrTVhYcTA5MFVNTjBkeFRSdHdoMklGTUl4OHZsNTVOYllhenN5U3A3Mm0zZm9iTmdBdWhnTjRZTnREMzdwNzRKNA?oc=5",
+              "published": "2026-08-28T21:55:03+09:00"
             },
             {
-              "title": "[LG그룹 포커스] LG전자, 세계 첫 ‘FHD·1000Hz’ 모니터 출시…AI 반도체·데이터센터 공략",
-              "original": "[LG그룹 포커스] LG전자, 세계 첫 ‘FHD·1000Hz’ 모니터 출시…AI 반도체·데이터센터 공략",
-              "source": "더밸류뉴스",
-              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5tQURWcHhTQzZCck5EREJ1VWhXYXVBN1prZzVOR1RLTnJHeWR0NktRT0d3NVh6Zkc5MlBBZ2RBak5lTjVxNk10ejRtME9rZmZpTEow?oc=5",
-              "published": "2026-08-26T17:14:48+09:00"
+              "title": "[이슈] AI 데이터센터 고밀도화에 공랭 한계…\"30kW 넘어가면 액체냉각 필요\"",
+              "original": "[이슈] AI 데이터센터 고밀도화에 공랭 한계…\"30kW 넘어가면 액체냉각 필요\"",
+              "source": "팍스경제TV",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB5TEhucG5UUWNVVTJVdkEybUZvb1kyRTBXWnVhNFNDS25sRUt2ek91VXNDTGpxZkE5azVPaTI1bV91aFhua3ludHZwdkJRLUNxZG40ek40Z2J4eXVfLUJwUTMxdlBGMWdI?oc=5",
+              "published": "2026-08-28T21:03:22+09:00"
             }
           ]
         },
         {
           "stock": "현대차",
           "ticker": "005380",
-          "title": "현대차 - 무뇨스 캐즘 종료 발언에도 하락",
-          "body": "무뇨스 사장이 전기차 캐즘 종료와 아반떼 가격 조정 가능성을 언급했음에도 주가는 큰 폭으로 하락. -3.09% 내린 <b>408,000원</b> 마감.",
-          "pct": -3.09,
-          "price": 408000.0,
+          "title": "현대차 - 디젤 철수·투싼 변속기 호평",
+          "body": "쏘렌토 단종으로 디젤차 사업에서 완전히 철수했으며, 신형 투싼은 8단 변속기 탑재로 상품성 개선 평가를 받음. +0.38% 오른 <b>399,500원</b> 마감.",
+          "pct": 0.38,
+          "price": 399500.0,
           "currency": "KRW",
-          "as_of": "2026-08-26",
+          "as_of": "2026-08-28",
           "slots": [
             {
               "time": "9:10AM",
@@ -620,8 +620,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.88,
               "is_close": false,
               "date": "2026-08-28",
-              "title": "장 초반 강세 출발",
-              "text": "자율주행 관련 소식이 이어지는 가운데 개장 초반 상승세로 출발함"
+              "title": "장 초반 상승 출발",
+              "text": "디젤차 사업 철수 소식이 전해진 가운데 개장과 함께 완만한 상승세로 시작함"
             },
             {
               "time": "10:30AM",
@@ -630,7 +630,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-08-28",
               "title": "상승폭 축소",
-              "text": "오전 중 상승폭이 크게 줄어들며 보합권에 근접한 수준까지 내려옴"
+              "text": "오전 중 매수세가 약해지며 개장 초보다 상승폭이 줄어드는 흐름을 보임"
             },
             {
               "time": "1:00PM",
@@ -638,8 +638,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.5,
               "is_close": false,
               "date": "2026-08-28",
-              "title": "상승폭 일부 회복",
-              "text": "오전 저점에서 다소 반등하며 상승폭을 다시 소폭 넓힘"
+              "title": "상승폭 소폭 회복",
+              "text": "오후 들어 다시 매수세가 유입되며 오전보다 상승폭을 조금 회복하는 모습을 나타냄"
             },
             {
               "time": "마감",
@@ -648,38 +648,37 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-08-28",
               "title": "상승세 유지 중",
-              "text": "오후 들어 상승폭이 약간 줄었으나 완만한 오름세를 그대로 이어가는 중"
+              "text": "장 후반까지 완만한 상승 흐름을 이어가며 소폭 오른 채 거래를 지속하고 있는 중"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "현대차, 아반떼 가격 조정 가능성 열어…무뇨스 \"시장이 결정\"",
-              "original": "현대차, 아반떼 가격 조정 가능성 열어…무뇨스 \"시장이 결정\"",
-              "source": "지디넷코리아",
-              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WRUtzb2JCX3d2bWVKQWNlemlkLXBLWVJYUU51TmU4SDlHN2lqc3JXbGhVa3BYd1hMMWFrcUppQzJ0SFVwcVZIRXRUdUtMRC12bk52M1pR?oc=5",
-              "published": "2026-08-26T18:21:21+09:00"
+              "title": "현대차·기아, 디젤차 사업 철수…마지막 '쏘렌토'마저 단종 [biz-플러스]",
+              "original": "현대차·기아, 디젤차 사업 철수…마지막 '쏘렌토'마저 단종 [biz-플러스]",
+              "source": "네이트",
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9MUlRSUFdYb3ZkVEdDVld2VEcza251MHRDOTdWMl9Xd1FLTTBEbHItcVMxc3duM1RfSkM2bHpzNkpJbWJNQko1ZVpfSXdFSkZ3eVdn?oc=5",
+              "published": "2026-08-29T06:32:00+09:00"
             },
             {
-              "title": "현대차 무뇨스 \"더이상 전기차 캐즘 없어…중국은 현실적 타깃\"",
-              "original": "현대차 무뇨스 \"더이상 전기차 캐즘 없어…중국은 현실적 타깃\"",
-              "source": "연합뉴스 한민족센터",
-              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1BTGRLOHk2a0lnZ0tGcHV4N3lTU3lVRW1YQV9zLVhHb0ZuR3NtUm9LdjdMMHk1NEhxU1Y0QVY2TngwX1Y2eEc4VWdzOWJCX0dVOWhmSXhYcUZRNW10RFR4dUYwYkFIX25MOXF0eVI5UFh5bXpq?oc=5",
-              "published": "2026-08-26T18:19:13+09:00"
+              "title": "물고기 집 짓는데 현대차·LG가 돈 내는 이유…바닷속 '푸른 숲'의 거대한 비밀 [세모금]",
+              "original": "물고기 집 짓는데 현대차·LG가 돈 내는 이유…바닷속 '푸른 숲'의 거대한 비밀 [세모금]",
+              "source": "네이트",
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE01Qk9HeVJwSEpDUWQyYUtFb1hMZFFlaG5WTk42Y2tMZm5LOENYUklXeUFJWkVKR0hvZ3ExVS1OZXljWllmc3ZZQUJwTUtmMk5sMnJF?oc=5",
+              "published": "2026-08-29T06:01:00+09:00"
             },
             {
-              "title": "무뇨스 현대차 사장 “전기차 캐즘 끝났다… 시장 속도 차이일 뿐” - 조선비즈",
-              "original": "무뇨스 현대차 사장 “전기차 캐즘 끝났다… 시장 속도 차이일 뿐” - 조선비즈",
-              "source": "Chosunbiz",
-              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1scW0tTXh3TExrc2VlQUUwNmk0a1FSRkdJbHNCVXlFWlFHaERuS2duSWM4cFpYVjd2emtuR2szMV9QWkhyYVJzQUhGRTUxT2FaQlNGVURYUHN2X2VhYnN2TDhtdnB2by1qblNOZ3VSdVV1aEttaU05bTU5bzVsQTDSAZMBQVVfeXFMTXI4d0RGd0YzYXpzS0dnYkdwSW5nanM0ZUpZLWU0MzkxcUVWVEFCRDFvbENWRGkwc19ZVDBmYkVXTElMUVlBeGVvYUwzUWNuUzZXaUE1UGlmVVJLOUxvd0tLY2Q0ellsOEhJTVFIQ0RLYThPcVJJZ1BoQXZmcmFKcEUwZHB2VTcycFBkbEQybnlGTFJj?oc=5",
-              "published": "2026-08-26T18:12:00+09:00"
+              "title": "\"현대차, 일 제대로 했네\"... 신형 투싼, 디자인 보다 8단 변속기가 더 반가운 이유",
+              "original": "\"현대차, 일 제대로 했네\"... 신형 투싼, 디자인 보다 8단 변속기가 더 반가운 이유",
+              "source": "오토트리뷴",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1xUmtodkdBamJyZ0lBblNzQXdxN2ZIQUV5MFpXTUU2elZrV1B1aVpVYUxHUHhHSXVXVlNCaUhHWUNjV2xZYVMwUkk5ZkwwclZ1cl96RVViXzZkY1lOT1p1VzhsZFBRb3ZhbjdCRlQybFU?oc=5",
+              "published": "2026-08-29T04:55:00+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-08-26-kr.md",
-      "refreshed_at": "2026-08-26 18:26:48 KST",
-      "slots_refreshed_at": "2026-08-29 06:17:21 KST"
+      "markdown": "briefings/2026-08-29-kr.md",
+      "refreshed_at": "2026-08-29 06:48:18 KST"
     }
   }
 };
