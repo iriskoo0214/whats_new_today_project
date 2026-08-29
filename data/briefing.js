@@ -1,15 +1,15 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-08-29 16:33:40 KST",
+  "generated_at": "2026-08-30 07:07:56 KST",
   "refreshed": [
-    "kr"
+    "us"
   ],
   "slots_refreshed": [],
-  "default": "kr",
+  "default": "us",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
-      "label": "미국 증시 요약 2026. 8. 29. 7:07AM",
+      "label": "미국 증시 요약 2026. 8. 30. 7:07AM",
       "chips": [
         "전체",
         "IBM",
@@ -27,8 +27,8 @@ window.NOTEFOLIO_BRIEFING = {
         {
           "stock": "IBM",
           "ticker": "IBM",
-          "title": "IBM - 2나노 메인프레임 부각",
-          "body": "듀얼 아키텍처 2나노 메인프레임이 투자 논리를 바꿀지 주목받고 에이전시 AI 활용 사례도 조명되며 관심 지속. -1.34% 내린 <b>235.59달러</b> 마감.",
+          "title": "IBM - Arm 결합 신형 메인프레임 출시",
+          "body": "자체 기술과 Arm 아키텍처를 결합한 신형 메인프레임 프로세서를 출시했으나 주가는 하락 마감. -1.34% 내린 <b>235.59달러</b> 마감.",
           "pct": -1.34,
           "price": 235.58999633789062,
           "currency": "USD",
@@ -40,8 +40,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.17,
               "is_close": false,
               "date": "2026-08-28",
-              "title": "장 후반 약보합",
-              "text": "2나노 메인프레임 투자 논리 관련 소식이 나온 가운데 소폭 약세 흐름을 이어감"
+              "title": "약세 흐름 지속",
+              "text": "신형 메인프레임 프로세서 출시 소식에도 매수세가 붙지 못하며 하락세가 이어짐"
             },
             {
               "time": "마감",
@@ -50,39 +50,25 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-08-28",
               "title": "낙폭 소폭 확대",
-              "text": "오후 내내 이어진 약세 흐름이 마감까지 유지되며 하루 중 낙폭이 다소 커진 채로 마무리"
+              "text": "장 후반까지 하락 압력이 이어지며 전 거래일 대비 낙폭이 오히려 더 커진 채로 마무리"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "IBM 주식의 리스크 밴드는 얼마나 넓은가?",
-              "original": "How Wide Is The Risk Band On IBM Stock?",
-              "source": "Trefis",
-              "url": "https://www.trefis.com/articles/613534/how-wide-is-the-risk-band-on-ibm-stock/2026-08-28",
-              "published": "2026-08-29T02:49:41+09:00"
-            },
-            {
-              "title": "IBM의 듀얼 아키텍처 2나노 메인프레임이 인터내셔널 비즈니스 머신즈(IBM)에 대한 투자 논리를 바꾸고 있는가?",
-              "original": "Is IBM’s Dual-Architecture 2nm Mainframe Reshaping The Investment Case For International Business Machines (IBM)?",
-              "source": "Simply Wall St.",
-              "url": "https://finance.yahoo.com/technology/articles/ibm-dual-architecture-2nm-mainframe-142652602.html",
-              "published": "2026-08-28T23:26:52+09:00"
-            },
-            {
-              "title": "IBM은 에이전시 AI가 어떻게 저널리스트가 콘텐츠를 연구하고 생산하는 데 도움을 줄 수 있는지 보여줍니다.",
-              "original": "IBM은 에이전시 AI가 어떻게 저널리스트가 콘텐츠를 연구하고 생산하는 데 도움을 줄 수 있는지 보여줍니다.",
-              "source": "VOI.ID",
-              "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9BZlRBV2JSalpSNkhZZXI4ejZKX2RBelNxSmFnTWk5UktENEs1WWNjald0MTBraWNySzFha1FoVWlfd9IBQkFVX3lxTE9BZlRBV2JSalpSNkhZZXI4ejZKX2RBelNxSmFnTWk5UktENEs1WWNjald0MTBraWNySzFha1FoVWlfdw?oc=5",
-              "published": "2026-08-28T13:16:47+09:00"
+              "title": "IBM, 자체 기술과 Arm 아키텍처를 결합한 신형 메인프레임 프로세서 출시",
+              "original": "IBM Introduces New Mainframe Processor Combining Its Own Tech With Arm Architecture",
+              "source": "Insider Monkey",
+              "url": "https://finance.yahoo.com/technology/articles/ibm-introduces-mainframe-processor-combining-030048930.html",
+              "published": "2026-08-29T12:00:48+09:00"
             }
           ]
         },
         {
           "stock": "마이크로소프트",
           "ticker": "MSFT",
-          "title": "마이크로소프트 - AI 데이터센터 확장 주목",
-          "body": "대형주 강세 속 50MW AI 컴퓨트 설비 구축이 부각됐으나 데이터센터 환경 영향에 대한 내부 우려도 제기. +1.68% 오른 <b>513.53달러</b> 마감.",
+          "title": "마이크로소프트 - 셰브론 데이터센터 계약 부각",
+          "body": "셰브론과의 데이터센터 계약이 실적보다 큰 뉴스로 부각되며 대형 기술주 강세 속 매수세가 유입. +1.68% 오른 <b>513.53달러</b> 마감.",
           "pct": 1.68,
           "price": 513.530029296875,
           "currency": "USD",
@@ -94,8 +80,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.99,
               "is_close": false,
               "date": "2026-08-28",
-              "title": "장중 상승세 유지",
-              "text": "데이터센터 관련 이슈에도 불구하고 대형주 강세 흐름 속에서 상승세를 꾸준히 이어감"
+              "title": "상승세 유지 중",
+              "text": "셰브론과의 데이터센터 계약 소식이 부각되며 대형주 강세 속에서 오름세를 이어가는 중"
             },
             {
               "time": "마감",
@@ -104,39 +90,39 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-08-28",
               "title": "상승폭 확대 마감",
-              "text": "장 후반 들어 오름폭이 더 커지며 하루 중 고점 부근에서 상승 흐름을 마무리"
+              "text": "장 후반 들어 매수세가 더욱 강해지며 하루 중 가장 높은 수준으로 상승폭을 키우며 마감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "다우존스 선물: 마이크로소프트, 대형주들이 시장 약세를 가리다. 대응 전략은?",
+              "title": "[인터뷰] 김태수 마이크로소프트 부사장 “AI 발전할수록 방어자가 우위… 韓, 인재 뒷받침할 보안산업 키워야” - 조선비즈",
+              "original": "[인터뷰] 김태수 마이크로소프트 부사장 “AI 발전할수록 방어자가 우위… 韓, 인재 뒷받침할 보안산업 키워야” - 조선비즈",
+              "source": "Chosunbiz",
+              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaGJiZ3I0MlJEV2tKdHBjUGFsOE02NFpXTkU5SUxVVTIzMGktRVFNWGhsN2hnQklPUWYwVGw5T2hYM041ZFFZQXlkYXg4RXRsSEp5RW1nclhDMUl6MzZ5ZzNhN1F2MF9xWnVHenl4S1dDQzR1R3hnR1dfRFk0YWRMM0l30gGWAUFVX3lxTE1MUzM4QUJEVGdpRy0wM1VCcVY2WE9reUF4NHh3V1JNZlJFVjVPRXdfYWdjZ29xVDdRa1V4UUhfcExVUTBlVWVVSTY4QTctTE1pMzF0WFRqdm9uRDdBaVJOd3F5Sm5qaVlDQVZaeEMwaDBvOXNlbmVLSTJmU3gxV2I5RVZCUVhpaU43REtKeDM0RUkxRmpVQQ?oc=5",
+              "published": "2026-08-30T06:03:54+09:00"
+            },
+            {
+              "title": "셰브론의 마이크로소프트 데이터센터 계약, 실적보다 더 큰 뉴스였다. 이유는 이렇다.",
+              "original": "Chevron's Microsoft Data Center Deal Was a Bigger Story Than Its Earnings. Here's Why.",
+              "source": "Motley Fool",
+              "url": "https://www.fool.com/investing/2026/08/29/chevron-microsoft-data-center-deal-big-earning/",
+              "published": "2026-08-30T00:05:00+09:00"
+            },
+            {
+              "title": "다우존스 선물: 마이크로소프트 등 대형주가 시장 약세 가려. 지금 해야 할 일은.",
               "original": "Dow Jones Futures: Microsoft, Titans Mask Market Weakness. Here's What To Do.",
               "source": "Investor's Business Daily",
               "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-microsoft-titans-mask-market-weakness/?src=A00220&yptr=yahoo",
-              "published": "2026-08-29T05:35:10+09:00"
-            },
-            {
-              "title": "왜 마이크로소프트(MSFT)는 50MW AI 컴퓨트 설비 구축에 나섰나?",
-              "original": "왜 마이크로소프트(MSFT)는 50MW AI 컴퓨트 설비 구축에 나섰나?",
-              "source": "simplywall.st",
-              "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTUVuV2dNU21KMXd5NTNKSjN5WHJ2ZG9KU01sY0o1R280bnltT0dRcVd6Z3F5TElPYXEwdTNOcGlodE1YMkhXb3JfeS1zNzgxcHA0OUJNcFRHTU83bzl6bnBrMWhoaDBGYjJnd0p2SUgxcHFoNU1WeTlzMFg5MnZxMm52TUVwMklKOFUxdmdNMGh1eFd5NmfSAZYBQVVfeXFMUE1FbldnTVNtSjF3eTUzSkozeVhydmRvSlNNbGNKNUdvNG55bU9HUXFXemdxeUxJT2FxMHUzTnBpaHRNWDJIV29yX3ktczc4MXBwNDlCTXBUR01PN285em5wazFoaGgwRmIyZ3dKdklIMXBxaDVNVnk5czBYOTJ2cTJudk1FcDJJSjhVMXZnTTBodXhXeTZn?oc=5",
-              "published": "2026-08-29T01:42:54+09:00"
-            },
-            {
-              "title": "마이크로소프트, 데이터센터 환경 영향 내부 질문 직면 - 블룸버그",
-              "original": "마이크로소프트, 데이터센터 환경 영향 내부 질문 직면 - 블룸버그",
-              "source": "Investing.com 한국어",
-              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE85Wk1jQTZrekRIRGRkbi1jVzR5S05sRjNTNFFVMDNDVU9wSFEyZl8zdU1FOFR6eHI5RzR1MUVmeXZWQUlpZGRVMjBzLTUxZEM0VHBubzE0Y19zOE1lX0ptelZMTDVBSEFGMTN1RmVpRXV6QWRLaWhN?oc=5",
-              "published": "2026-08-29T01:31:00+09:00"
+              "published": "2026-08-29T20:56:31+09:00"
             }
           ]
         },
         {
           "stock": "아이온큐",
           "ticker": "IONQ",
-          "title": "아이온큐 - 신규 이사진 선임",
-          "body": "에릭 볼·팀 백스터를 신임 이사로 선임하며 제조·플랫폼 확장 의지를 밝혔으나 주가는 하락. -7.68% 내린 <b>39.20달러</b> 마감.",
+          "title": "아이온큐 - 양자컴퓨터주 일제히 급락",
+          "body": "18억달러 규모 스카이워터 인수를 마무리했음에도 양자컴퓨터 관련주 전반의 동반 급락에 휩쓸려 하락. -7.68% 내린 <b>39.20달러</b> 마감.",
           "pct": -7.68,
           "price": 39.20000076293945,
           "currency": "USD",
@@ -148,8 +134,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -4.64,
               "is_close": false,
               "date": "2026-08-28",
-              "title": "낙폭 확대 흐름",
-              "text": "이사진 신규 선임 소식에도 매수세가 붙지 못하며 약세 흐름이 이어지는 모습"
+              "title": "낙폭 축소 흐름",
+              "text": "양자컴퓨터주 전반의 급락 속에서도 스카이워터 인수 마무리 소식에 하락폭이 다소 줄어든 모습"
             },
             {
               "time": "마감",
@@ -157,40 +143,40 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -7.68,
               "is_close": true,
               "date": "2026-08-28",
-              "title": "하루 중 최대 낙폭",
-              "text": "장 후반 들어 하락폭이 더 커지며 하루 중 가장 큰 낙폭을 기록한 채 마감"
+              "title": "낙폭 재차 확대",
+              "text": "장 후반 들어 매도세가 강해지며 하루 중 가장 큰 낙폭을 기록한 채로 거래를 마감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "아이온큐, 에릭 볼·팀 백스터 이사 선임..제조·플랫폼 확장 가속",
-              "original": "아이온큐, 에릭 볼·팀 백스터 이사 선임..제조·플랫폼 확장 가속",
-              "source": "매일경제 마켓",
-              "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ZMmtrdTZCcy1lUnZCd3MyN2FrNGJTRkEzY01pdWU2dGFaQ1Q3OHV4VWp2YXVmY1F5LTNaUV9QaXBIZ3Nxa05ldmVBLTV4b1dZUGc?oc=5",
-              "published": "2026-08-29T06:06:53+09:00"
+              "title": "퀀텀 컴퓨팅 주식 급등에도 아이온큐는 건드리지 않을 이유",
+              "original": "Why I Wouldn't Touch IonQ, Even With Quantum Computing Stocks Soaring",
+              "source": "Motley Fool",
+              "url": "https://www.fool.com/investing/2026/08/29/why-i-wouldnt-touch-ionq-even-with-quantum-computi/",
+              "published": "2026-08-30T02:50:00+09:00"
             },
             {
-              "title": "아이온큐, 에릭 볼·티모시 백스터 신임 이사 선임",
-              "original": "아이온큐, 에릭 볼·티모시 백스터 신임 이사 선임",
-              "source": "데이터투자",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0yczJHZ2NuSEtJb3VCLXI1cmlnMUJGbnNkZzllTnU2ZzhRM0JSM1k4OGR1NkpDdGdRZjViTlpCQ1BGeDJPMi14R0cwMDE1UUdWSVY4UlN0V0FUbUlHUVVRa1AzbzE5Q1BleXJJREk4ZnlWNlE?oc=5",
-              "published": "2026-08-29T06:02:08+09:00"
+              "title": "미국 양자컴퓨터주 일제히 털썩…아이온큐·인플렉션 등 급락",
+              "original": "미국 양자컴퓨터주 일제히 털썩…아이온큐·인플렉션 등 급락",
+              "source": "CBC뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB1VUNKRjkyMnlscl94dmhwZTd1Y0g5NmRISFhmM2swLW5jVnRJTjFZTEREMy1nbm42OEhrNDZrUDJJWWptSC1WTzFJQU83VTlfQW0tSzZhcGlJOHprdDd5bTUyTDNDMjlk?oc=5",
+              "published": "2026-08-30T00:40:00+09:00"
             },
             {
-              "title": "'제21회 제주포럼' 시작…UN 사무총장 후보 집결 Ionq Stock (M6xoJZkTPe)",
-              "original": "'제21회 제주포럼' 시작…UN 사무총장 후보 집결 Ionq Stock (M6xoJZkTPe)",
-              "source": "Mshale",
-              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03N1RnWmphWkN2V1dsYVd5cXdtX05LVXp0MlV5a21PSXdicUI2YmJXbzFYT0hubE8zYjNlWlRPTzIxM1V6ZG9fNUp2Sm1fbjJCTXgtWFdNLXJmQ0k?oc=5",
-              "published": "2026-08-29T03:07:06+09:00"
+              "title": "18억달러 아이온큐, 스카이워터 인수 마무리",
+              "original": "18억달러 아이온큐, 스카이워터 인수 마무리",
+              "source": "tokenpost.kr",
+              "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBLUGZjMGNyMFRPT0F6ckFKVTFLcFliMWNJSDBydlZYSzE3Q2N2WE5ReHo1YktlZ1o2MjIxNGg4d1lVeGtETkxWX2UxV1NIczlQRVJhR21OOUvSAVhBVV95cUxQS1BmYzBjcjBUT09BenJBSlUxS3BZYjFjSUgwcnZWWEsxN0NjdlhOUXh6NWJLZWdaNjIyMTRoOHdZVXhrRE5MVl9lMVdTSHM5UEVSYUdtTjlL?oc=5",
+              "published": "2026-08-29T23:51:32+09:00"
             }
           ]
         },
         {
           "stock": "엔비디아",
           "ticker": "NVDA",
-          "title": "엔비디아 - 허깅페이스 인수설 부각",
-          "body": "오픈 모델 다운로드에서 배포로 전략 전환 차원의 허깅페이스 인수설이 제기됐으나 주가는 하락 마감. -4.57% 내린 <b>217.55달러</b> 마감.",
+          "title": "엔비디아 - 장밋빛 전망에도 하락",
+          "body": "AI 인프라 투자 확대와 삼성·SK 반사 수혜 기대 속 긍정적 전망이 나왔으나 주가는 오히려 하락. -4.57% 내린 <b>217.55달러</b> 마감.",
           "pct": -4.57,
           "price": 217.5500030517578,
           "currency": "USD",
@@ -202,8 +188,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.2,
               "is_close": false,
               "date": "2026-08-28",
-              "title": "약세 흐름 지속",
-              "text": "허깅페이스 인수설 등 다양한 종목 관련 소식 속에서도 하락세가 꾸준히 이어짐"
+              "title": "하락세 이어짐",
+              "text": "인프라 투자 확대 등 긍정적 소식에도 불구하고 상승 전환하지 못하고 약세를 유지하는 중"
             },
             {
               "time": "마감",
@@ -211,40 +197,40 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -4.57,
               "is_close": true,
               "date": "2026-08-28",
-              "title": "낙폭 확대 마감",
-              "text": "장 후반 들어 약세가 더 짙어지며 하루 중 가장 큰 하락폭을 기록하고 마무리"
+              "title": "낙폭 크게 확대",
+              "text": "장 후반 들어 매도 압력이 강해지며 하루 중 가장 큰 낙폭을 기록하며 거래를 마감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "[8월29일] 엔비디아는 왜 허깅페이스를 인수할까…\"오픈 모델 다운에서 배포로\"",
-              "original": "[8월29일] 엔비디아는 왜 허깅페이스를 인수할까…\"오픈 모델 다운에서 배포로\"",
-              "source": "AI타임스",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBDZFVydGdXTHNQTkM0UGVzVWI0OXFEMDU3SjRuRjZMcXc4S1NCTnlaRnFVYTJ3eWlaQ1pYWVA2TXlRRTJEcHdxS2RWMkZta0lGZ3MwelBkWTlIdk5IMmtHOHM4RWRwZEd5Q3c?oc=5",
-              "published": "2026-08-29T07:00:00+09:00"
+              "title": "엔비디아 '장밋빛 전망'에 삼성·SK도 '방긋'",
+              "original": "엔비디아 '장밋빛 전망'에 삼성·SK도 '방긋'",
+              "source": "뉴스웨이",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42cURmUWtJZGhDVXBJRnhrOGN1WExDcVlheWtGTzBLdnhGQTJZRm5FbHVadWNMYzJtX2d6cS1nY1VuR1Z5cVdRSTFVcjJBbUJTZHVqSENDVE9OemRsOUFMdHlVOW5ubmVxZ3c?oc=5",
+              "published": "2026-08-30T07:00:00+09:00"
             },
             {
-              "title": "엔비디아, 마벨 테크놀로지, 브로드컴",
-              "original": "엔비디아, 마벨 테크놀로지, 브로드컴",
-              "source": "마켓인",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5MNEJJcHNBZGRYbWNqcl92VmtVcnExSkpoWGRhQ2FuY2l1YmpjQ3lYX3JSVVdpN1EtcGhMbGd4Ti1iMUF0bEU3NHo3TzU0aTgzUVI1cldGeG9jT2tXVkt4cjI3NXZsM29xZTl4ZFZPWHc2d3M?oc=5",
-              "published": "2026-08-29T06:35:52+09:00"
+              "title": "[AI세계속으로]폭풍 성장한 엔비디아…식지 않은 인프라 투자",
+              "original": "[AI세계속으로]폭풍 성장한 엔비디아…식지 않은 인프라 투자",
+              "source": "네이트",
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE94YnBmeHp3b1lWN1FDSnZrWHVXcWFVWUF0T2FsekNwWGIxNEJuc2huelI1NTlfY2RNU0lyR1B2OWlLRjZlN1RzMFNfTF9IbGEzcDlV?oc=5",
+              "published": "2026-08-30T06:30:00+09:00"
             },
             {
-              "title": "마벨, 엔비디아, 페이팔, 워크데이, 아이렌, 일래스틱, 파스칼, 어펌 등 오늘의 시장을 설명하는 종목들",
-              "original": "Marvell, Nvidia, PayPal, Workday, Iren, Elastic, Pasqal, Affirm, and More Stocks That Explain Today’s Market",
-              "source": "Barrons.com",
-              "url": "https://www.barrons.com/articles/stock-movers-c051c7eb?siteid=yhoof2&yptr=yahoo",
-              "published": "2026-08-29T06:26:00+09:00"
+              "title": "엔비디아 급등 전까지 매력적이었던 JEPQ 10.7% 수익률",
+              "original": "Why JEPQ’s 10.7% Yield Looked Irresistible Until Nvidia Rallied",
+              "source": "24/7 Wall St.",
+              "url": "https://247wallst.com/investing/etf/2026/08/29/why-jepqs-10-7-yield-looked-irresistible-until-nvidia-rallied/",
+              "published": "2026-08-30T05:00:23+09:00"
             }
           ]
         },
         {
           "stock": "소파이테크놀로지",
           "ticker": "SOFI",
-          "title": "소파이테크놀로지 - 실적 발표 후 상승세 조명",
-          "body": "직전 실적 발표 이후 16.5% 올랐던 상승세가 이어질지 관심이 모였으나 오늘은 하락. -5.84% 내린 <b>18.06달러</b> 마감.",
+          "title": "소파이테크놀로지 - 방탄소년단 공연과 무관 급락",
+          "body": "방탄소년단이 소파이 스타디움에서 전석 매진 공연을 열었다는 소식과 별개로 주가는 큰 폭으로 하락. -5.84% 내린 <b>18.06달러</b> 마감.",
           "pct": -5.84,
           "price": 18.059999465942383,
           "currency": "USD",
@@ -256,8 +242,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.63,
               "is_close": false,
               "date": "2026-08-28",
-              "title": "상승분 반납 흐름",
-              "text": "실적 발표 이후 이어지던 상승세가 꺾이며 오히려 약세로 돌아선 모습"
+              "title": "약세 흐름 지속",
+              "text": "방탄소년단 공연 소식과는 무관하게 주가는 하락세를 이어가며 약세 흐름을 지속하는 중"
             },
             {
               "time": "마감",
@@ -265,31 +251,24 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -5.84,
               "is_close": true,
               "date": "2026-08-28",
-              "title": "낙폭 크게 확대",
-              "text": "장 후반 들어 하락폭이 더욱 커지며 하루 중 가장 큰 낙폭을 기록한 채 마감"
+              "title": "낙폭 더욱 확대",
+              "text": "장 후반으로 갈수록 하락폭이 커지며 하루 중 가장 낮은 수준에서 거래를 마감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "소파이 테크놀로지스(SOFI), 지난 실적 발표 이후 16.5% 상승: 상승세 이어갈까?",
-              "original": "SoFi Technologies (SOFI) Up 16.5% Since Last Earnings Report: Can It Continue?",
-              "source": "Zacks",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/sofi-technologies-sofi-16-5-153030913.html",
-              "published": "2026-08-29T00:30:30+09:00"
-            },
-            {
-              "title": "소파이 테크놀로지스 토큰화 주식(로빈후드) 오늘 United States Dollar 가격 | 실시간 SOFI - USD 변환기 및 환율",
-              "original": "SoFi Technologies Tokenized Stock (Robinhood) 오늘 United States Dollar 가격 | 실시간 SOFI - USD 변환기 및 환율",
-              "source": "CryptoRank",
-              "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPV05nd2MwcDhkS3EwMHBTT2k2NWh1VE9SazRQNXJXVkNUcWlzalpzcjBYT3V0STA4ek4wTkNuQ29FNFk3TEpXb09rQ2tXY3N0Zm10Y1Y2eksxWnpKRTF2Z0pyOHQ1MjAxMDZ2UkZ4eGZLRG9CT2FFektNaVl1Q25iX1NNd3g?oc=5",
-              "published": "2026-08-28T10:31:06+09:00"
+              "title": "방탄소년단, 소파이 스타디움에서 전석 매진 4회 공연 개최…팬들에게 이벤트 가이드 제공",
+              "original": "BTS to Play Four Sold-Out SoFi Stadium Shows; Fans Get Event Guide",
+              "source": "Radio Seoul",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1hYnpTQndoVjVJRWJLTllqWE4xZ3N5ajBDdlVlbFlNNXV6UmpFQV8xY0JBQWdJalNtN2VXemNaRUs5SXZ6TVc3NmJ0SThSNEJNT3pJVWlJVHlWUQ?oc=5",
+              "published": "2026-08-29T09:47:31+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-08-29-us.md",
-      "refreshed_at": "2026-08-29 07:07:30 KST"
+      "markdown": "briefings/2026-08-30-us.md",
+      "refreshed_at": "2026-08-30 07:07:56 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
