@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-08-31 09:23:30 KST",
+  "generated_at": "2026-08-31 10:41:00 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -305,13 +305,22 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-08-28",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 1596000.0,
-              "pct": -3.45,
+              "time": "9:10AM",
+              "price": 1589000.0,
+              "pct": -3.87,
               "is_close": false,
               "date": "2026-08-31",
               "title": "장 초반 급락 출발",
-              "text": "美 반도체 급락과 금리 부담에 코스피 동반 약세 속 HBM 경쟁 우려까지 겹치며 낙폭이 크게 벌어짐"
+              "text": "개장 직후부터 큰 폭으로 밀리며 코스피 반도체주 전반의 약세 속에 하락 출발함"
+            },
+            {
+              "time": "10:20AM",
+              "price": 1595000.0,
+              "pct": -3.51,
+              "is_close": false,
+              "date": "2026-08-31",
+              "title": "낙폭 소폭 확대",
+              "text": "인텔 파운드리 활용 검토 소식에도 반등하지 못하고 오전 중 저점 부근에서 약세를 이어가는 중"
             }
           ],
           "slot_total": 4,
@@ -350,13 +359,22 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-08-28",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 249000.0,
-              "pct": -3.11,
+              "time": "9:10AM",
+              "price": 247500.0,
+              "pct": -3.7,
               "is_close": false,
               "date": "2026-08-31",
-              "title": "장 초반 약세 출발",
-              "text": "美 금리 인상 우려로 반도체주 전반이 흔들리며 장 시작과 동시에 하락폭이 크게 나타남"
+              "title": "장 초반 큰 폭 하락",
+              "text": "연준 의장의 매파적 발언 여파로 개장과 함께 큰 폭으로 밀리며 약세로 출발함"
+            },
+            {
+              "time": "10:20AM",
+              "price": 250500.0,
+              "pct": -2.53,
+              "is_close": false,
+              "date": "2026-08-31",
+              "title": "낙폭 일부 회복",
+              "text": "오전 들어 하락폭을 다소 줄이며 저점 대비 완만하게 반등하는 흐름을 유지 중"
             }
           ],
           "slot_total": 4,
@@ -395,13 +413,22 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-08-28",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 1157000.0,
-              "pct": 0.0,
+              "time": "9:10AM",
+              "price": 1156000.0,
+              "pct": -0.09,
               "is_close": false,
               "date": "2026-08-31",
-              "title": "장 초반 보합권",
-              "text": "항공엔진 신전략 발표와 우주산업 관련 소식이 이어졌으나 주가는 전일 수준에서 큰 변화 없이 출발"
+              "title": "약세 속 등락 유지",
+              "text": "개장 초 보합권에서 출발했으나 오전 들어 소폭 약세로 방향이 바뀌며 하락 전환됨"
+            },
+            {
+              "time": "10:20AM",
+              "price": 1142000.0,
+              "pct": -1.3,
+              "is_close": false,
+              "date": "2026-08-31",
+              "title": "수출 계약에도 약세",
+              "text": "스페인 K9 자주포 수출 실행계약 체결 공시가 나왔지만 매수세로 이어지지 못하고 하락세 지속"
             }
           ],
           "slot_total": 4,
@@ -440,13 +467,22 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-08-28",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 196800.0,
-              "pct": -2.33,
+              "time": "9:10AM",
+              "price": 195900.0,
+              "pct": -2.78,
               "is_close": false,
               "date": "2026-08-31",
               "title": "장 초반 약세 출발",
-              "text": "CEO의 미국 현지 인재 영입 행보 소식에도 매수세가 붙지 않으며 하락 출발"
+              "text": "개장 직후 다른 대형 전자주와 함께 하락하며 약세로 거래를 시작함"
+            },
+            {
+              "time": "10:20AM",
+              "price": 203500.0,
+              "pct": 0.99,
+              "is_close": false,
+              "date": "2026-08-31",
+              "title": "오전 중 상승 전환",
+              "text": "CEO의 미국 R&D 인재 확보 소식이 전해진 가운데 낙폭을 만회하며 오전 들어 상승 전환됨"
             }
           ],
           "slot_total": 4,
@@ -485,13 +521,22 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-08-28",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 391500.0,
-              "pct": -2.0,
+              "time": "9:10AM",
+              "price": 390000.0,
+              "pct": -2.38,
               "is_close": false,
               "date": "2026-08-31",
               "title": "장 초반 하락 출발",
-              "text": "올해의 차 심사 진출 등 우호적 소식에도 시장 전반의 약세 흐름에 눌려 하락세로 시작"
+              "text": "개장과 함께 다른 대형주들과 마찬가지로 약세를 보이며 하락세로 시작함"
+            },
+            {
+              "time": "10:20AM",
+              "price": 397500.0,
+              "pct": -0.5,
+              "is_close": false,
+              "date": "2026-08-31",
+              "title": "낙폭 크게 줄여",
+              "text": "홍은희 부사장 영입을 통한 수소·에너지 사업 확장 소식 이후 하락폭을 크게 좁히는 중"
             }
           ],
           "slot_total": 4,
@@ -522,7 +567,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-08-30-kr.md",
       "refreshed_at": "2026-08-30 16:33:25 KST",
-      "slots_refreshed_at": "2026-08-31 09:23:30 KST"
+      "slots_refreshed_at": "2026-08-31 10:41:00 KST"
     }
   }
 };
