@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-02 13:24:26 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-09-02 16:37:10 KST",
+  "refreshed": [
     "kr"
   ],
-  "default": "us",
+  "slots_refreshed": [],
+  "default": "kr",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
@@ -285,7 +285,7 @@
     },
     "kr": {
       "icon": "assets/moon.svg",
-      "label": "한국 증시 요약 2026. 9. 1. 4:38PM",
+      "label": "한국 증시 요약 2026. 9. 2. 4:37PM",
       "chips": [
         "전체",
         "SK하이닉스",
@@ -299,17 +299,17 @@
         "다시 찾아올게요."
       ],
       "next": "us",
-      "headline": "국내 5종목 중 2종목 상승, 3종목 하락 — SK하이닉스가 +1.14%로 가장 많이 올랐고 LG전자가 -4.62%로 가장 부진했습니다.",
+      "headline": "국내 5종목 중 0종목 상승, 5종목 하락 — LG전자가 -2.91%로 낙폭이 가장 작았고 현대차가 -5.62%로 가장 부진했습니다.",
       "cards": [
         {
           "stock": "SK하이닉스",
           "ticker": "000660",
-          "title": "SK하이닉스 - 자사주 매입 힘입어 반등",
-          "body": "삼성전자와 함께 자사주 매입 소식에 약세 출발 뒤 반등하며 코스피 강보합을 이끔. +1.14% 오른 <b>1,693,000원</b> 마감.",
-          "pct": 1.14,
-          "price": 1693000.0,
+          "title": "SK하이닉스 - 중동 전운에 4%대 급락",
+          "body": "자사주 매입과 기타법인 매수세에도 중동 지역 긴장 고조로 코스피가 급락하며 동반 하락. -4.73% 내린 <b>1,613,000원</b> 마감.",
+          "pct": -4.73,
+          "price": 1613000.0,
           "currency": "KRW",
-          "as_of": "2026-09-01",
+          "as_of": "2026-09-02",
           "slots": [
             {
               "time": "9:10AM",
@@ -318,7 +318,7 @@
               "is_close": false,
               "date": "2026-09-02",
               "title": "장 초반 약세 출발",
-              "text": "개장 직후부터 매도세가 유입되며 하락 출발해 3% 안팎 약세를 기록함"
+              "text": "개장 직후부터 낙폭이 뚜렷해지며 3% 가까운 하락으로 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -327,7 +327,7 @@
               "is_close": false,
               "date": "2026-09-02",
               "title": "낙폭 소폭 확대",
-              "text": "오전 반등 없이 하락폭이 점차 커지며 오전 저점을 갈아치우는 흐름이 이어짐"
+              "text": "오전 내내 하락세가 이어지며 저점을 조금씩 낮추는 흐름이 계속됨"
             },
             {
               "time": "1:00PM",
@@ -335,44 +335,53 @@
               "pct": -3.96,
               "is_close": false,
               "date": "2026-09-02",
-              "title": "낙폭 확대 이어지는 중",
-              "text": "HBM 신제품 공개와 키옥시아 협력 관련 소식에도 매수세가 붙지 못하며 하락폭이 하루 중 가장 크게 벌어진 채 유지 중"
+              "title": "하락폭 4%대로 심화",
+              "text": "오후 들어서도 반등 시도 없이 내림세가 이어지며 하루 중 최저가권 접근"
+            },
+            {
+              "time": "마감",
+              "price": 1613000.0,
+              "pct": -4.73,
+              "is_close": true,
+              "date": "2026-09-02",
+              "title": "4%대 급락 마감",
+              "text": "중동 지정학 리스크로 코스피 전반이 급락한 가운데 자사주 매입에도 낙폭을 키우며 마감"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "코스피, 미·이란 긴장 속 6835.80 마감…삼성전자·SK하이닉스 상승에 강보합",
-              "original": "코스피, 미·이란 긴장 속 6835.80 마감…삼성전자·SK하이닉스 상승에 강보합",
-              "source": "뉴스인",
-              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1GdndEVEFDXzlENkhBLVBuWXJrZFQyWFpESUlTUmRqTU1jbWJtTTBUMEpvWVZKcjNzbFI0ZWlXajQ0bTJDYXRLVlFqV2NFT1k5UWRNbzA0ZmFkdTY4NG0zdGJseUk1V0N0Y19B?oc=5",
-              "published": "2026-09-01T16:31:37+09:00"
+              "title": "삼전·닉스, 자사주 매입·기타법인 매수세에도 4% 급락",
+              "original": "삼전·닉스, 자사주 매입·기타법인 매수세에도 4% 급락",
+              "source": "글로벌이코노믹",
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNY25GMVdpOVpPbnVXWHl3S3RGT0d4ZWNQeEhMUDZWenpNbnk5aFZwTG9BOXBkU0twVWlXeE5kUFlEd2Q0Y1ExT3dwem8tdEY1cElDQ0Zfd1dFQ0FCMUlEVlhHM1k0ZTlDdzFyR1IzZHhoTGQ4d1ZSOF9jNG14S0JmTFFRemRzbm9S?oc=5",
+              "published": "2026-09-02T16:25:21+09:00"
             },
             {
-              "title": "코스피, 삼성전자·SK하이닉스 자사주 매입 힘입어 6,830선 회복",
-              "original": "코스피, 삼성전자·SK하이닉스 자사주 매입 힘입어 6,830선 회복",
-              "source": "스페셜타임스",
-              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE53ck9SUk5MSm9meE1qcl9CSHpFajJJWmRpd3lHVnc3ZEdXWWlhbHBIVGxYTUp4bDkzZG1BcnpGRlhCb2tLT3o2alRIY2RaR1oxNUs0Ukw1TGlzZ2lxZDZMemx0ai1TbjByd3VhV0VRSEpSZw?oc=5",
-              "published": "2026-09-01T16:24:05+09:00"
+              "title": "최태원 “키옥시아와 반도체 공동 생산도 선택지…日전역 살피는 중”",
+              "original": "최태원 “키옥시아와 반도체 공동 생산도 선택지…日전역 살피는 중”",
+              "source": "v.daum.net",
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUbU1wM19OX0JOYzdNdG85VlhPY3ItNEgtdnlicFhSTy1Dbmh1SFFwOFFvaG1HY0oxNW4xU0VsTVowVG5NQkdTTFktQV9mYjQ?oc=5",
+              "published": "2026-09-02T16:24:02+09:00"
             },
             {
-              "title": "삼성전자 0.38%·SK하이닉스 1.14%↑…약세 출발 뒤 반등[핫스탁](종합)",
-              "original": "삼성전자 0.38%·SK하이닉스 1.14%↑…약세 출발 뒤 반등[핫스탁](종합)",
-              "source": "네이트",
-              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9aaThuN040RURGaHNxOEhlMURlS0hucTk4ZFREdl9PZ1RsQ0lRUkFqT1hZQ0ZyNmdvUTlJTnc2VGdyRlpOUC1ScmlaRmxPN2RfUHpJ?oc=5",
-              "published": "2026-09-01T16:22:00+09:00"
+              "title": "[마감시황]중동 전운에 코스피 4% 급락…삼전·하이닉스 직격탄",
+              "original": "[마감시황]중동 전운에 코스피 4% 급락…삼전·하이닉스 직격탄",
+              "source": "남도일보",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tYmlBODFELUhVTFgxUXNUR3FlY25VbXpDOUkwQy1LbmpKcFcySlBnQm5nSTNyZUpTMFUycHJzU0NYSmpkNHlOYWxxaDJpX2JmYk42RGJQR0lYZjNTSzI2bk9abUxUSVJ2dlZlQ9IBcEFVX3lxTFBjLUVWZFNISmthRHdWWnpIOVFHMjVlbDk1V2dHRVpIbFVIUktlUVRXai1lT2tKOFlXWVNZUGlVekFXYTBLVFZncmp4QV82YnZDZWtNRlRZdGUyUWh2MFF4dTBrQWlCWE5NOGNjU1g2WGU?oc=5",
+              "published": "2026-09-02T16:15:00+09:00"
             }
           ]
         },
         {
           "stock": "삼성전자",
           "ticker": "005930",
-          "title": "삼성전자 - CUBE 전략 공개, eSSD 1위",
-          "body": "세미콘 타이완서 zHBM 성능 8배 목표 CUBE 전략을 공개하고 eSSD 시장 1위를 지키며 소폭 상승. +0.38% 오른 <b>261,000원</b> 마감.",
-          "pct": 0.38,
-          "price": 261000.0,
+          "title": "삼성전자 - 밸류업 규제·소송 속 급락",
+          "body": "보험 자산운용 사전규제 이슈와 TCL 소송 소식 속 자사주 매입에도 중동 긴장 재고조로 급락. -4.02% 내린 <b>250,500원</b> 마감.",
+          "pct": -4.02,
+          "price": 250500.0,
           "currency": "KRW",
-          "as_of": "2026-09-01",
+          "as_of": "2026-09-02",
           "slots": [
             {
               "time": "9:10AM",
@@ -380,8 +389,8 @@
               "pct": -2.97,
               "is_close": false,
               "date": "2026-09-02",
-              "title": "장 초반 약세 출발",
-              "text": "개장과 함께 매도세가 유입되며 3%가량 하락한 채 장을 시작함"
+              "title": "장 초반 소폭 약세",
+              "text": "개장 초 3% 안팎의 하락으로 시작하며 약세권에서 거래가 이어짐"
             },
             {
               "time": "10:30AM",
@@ -389,8 +398,8 @@
               "pct": -2.87,
               "is_close": false,
               "date": "2026-09-02",
-              "title": "약세 흐름 유지",
-              "text": "오전 내내 하락폭이 크게 줄지 않은 채 비슷한 수준의 약세가 이어짐"
+              "title": "오전 중 하락폭 유지",
+              "text": "오전 내내 비슷한 수준의 약세를 이어가며 뚜렷한 반등 없이 흘러감"
             },
             {
               "time": "1:00PM",
@@ -398,44 +407,53 @@
               "pct": -4.02,
               "is_close": false,
               "date": "2026-09-02",
-              "title": "낙폭 확대 이어가는 중",
-              "text": "IFA 2026 관련 신제품 소식이 이어졌음에도 매도 압력이 커지며 하락폭이 하루 중 가장 크게 벌어진 상태를 유지 중"
+              "title": "낙폭 4%대로 확대",
+              "text": "오후 들어 중동 지정학 긴장이 재부각되며 자사주 매입에도 낙폭이 급격히 커짐"
+            },
+            {
+              "time": "마감",
+              "price": 250500.0,
+              "pct": -4.02,
+              "is_close": true,
+              "date": "2026-09-02",
+              "title": "4%대 하락 마감",
+              "text": "중동 리스크로 코스피 전반이 흔들린 가운데 자사주 매입 효과를 넘어서는 매도세로 4%대 하락 마감"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "삼성전자, 메모리 한계 넘는 'CUBE' 전략 공개…zHBM 성능 8배 목표",
-              "original": "삼성전자, 메모리 한계 넘는 'CUBE' 전략 공개…zHBM 성능 8배 목표",
-              "source": "뉴스핌",
-              "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9sTElrMm5jRFFlU3BFQ1dxUXFSMWQzRFpQRDB2b0FjSkg0ODExMGY1cUdaSVRBWkE5TWU0YlRmZjJyZFJpWTVxZ1lVMk9POWUtbzViUnRHTHIyZHpV?oc=5",
-              "published": "2026-09-01T16:36:00+09:00"
+              "title": "삼성전자 밸류업도 막았다…보험 자산운용 '사전규제'의 덫",
+              "original": "삼성전자 밸류업도 막았다…보험 자산운용 '사전규제'의 덫",
+              "source": "네이트",
+              "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE01aEVyT2tjTGRQcXlRSkN5SnQzamxnUVVVdm5TVEpaWDE5b1lZUDZ5ay15dGh4UmlFZEhqY3diRUs0UEo2YVBpUDVUVTV5M2lTWF9NWTNZNmxud3gwdXZwSmRYUjM3QVpuZlNSQjlBN3pfNUIwOW55UA?oc=5",
+              "published": "2026-09-02T16:30:00+09:00"
             },
             {
-              "title": "삼성전자, '세미콘 타이완'서 메모리 한계 극복 'CUBE' 전략 공개",
-              "original": "삼성전자, '세미콘 타이완'서 메모리 한계 극복 'CUBE' 전략 공개",
-              "source": "글로벌이코노믹",
-              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNN1lJTDV3eHZNejZTR21wTUJxa09aMTA0cGtjdHRBVFZYY3ZiS1VST0FtNjJHd3VGNWxRdklCV1RWYlRjRUQ2Unh2S2xFNWctd3l4R3lwaV9Ib0ZCMnd3aUM3ZmtUdjBvRUJSbFJNYVFVSklRR1cyVHc5LTBwTERsUWVUSkwwUQ?oc=5",
-              "published": "2026-09-01T16:33:31+09:00"
+              "title": "TCL, 미국서 삼성전자에 TV 소송 제기…\"미니 LED 기술 허위 광고\" 주장",
+              "original": "TCL, 미국서 삼성전자에 TV 소송 제기…\"미니 LED 기술 허위 광고\" 주장",
+              "source": "지디넷코리아",
+              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBFRmlBaWNleTJRTG9XOVVhTlNwbFRma2R5VkR2dFk2ZDlDcVFYNFV6aFVLWHlteUhhWXdldHYtaUxBRGZjbTBXLXVXVnBVZ0ZMN2dQOHZB?oc=5",
+              "published": "2026-09-02T16:29:24+09:00"
             },
             {
-              "title": "올해 2분기 eSSD 시장 2배 이상 성장…삼성전자 1위 고수",
-              "original": "올해 2분기 eSSD 시장 2배 이상 성장…삼성전자 1위 고수",
-              "source": "글로벌이코노믹",
-              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOb2s3SnVGLWVDNFBIVmdJRmlIRkNZMUY0cUJCa3VqLWdWOUM1QmFFS0s1ajNmc0ZoSWp0bkV4eEZwLUF2Y1Y1MkFYYm45aWtpMXFWU21hQ2d1YnNJMWFkNjBKMzN2b2FmWW5FTW0tWkVUZG9JRmtMWHBuQTNSQnJoX1JsbXJEQQ?oc=5",
-              "published": "2026-09-01T16:31:21+09:00"
+              "title": "[특징주] '자사주 매입'에도 중동 긴장 재고조 속 삼전·닉스 4%대↓(종합)",
+              "original": "[특징주] '자사주 매입'에도 중동 긴장 재고조 속 삼전·닉스 4%대↓(종합)",
+              "source": "연합뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RT0xmU0V6V1pTOUJxSWgzMUJnaDJ2c0xJMF96TXF3ZG9RTzVhS2I2TmpXdkdsLUptT1R6TGpGMndIb2s3cTNIZjZ4bVY0b1E2OU83SzlEVkFPbXPSAWBBVV95cUxOTDVwX1RLZ1FaQjcyNTJxZW1zMUY0MkxvSmdMM05McjdpdVVKdV9kNnhmdnJJeEVGSl94MEYzSk11azhSU0pBcFJMcEpRSWJPc2hRMGpHZUxrYVRsdndFWFk?oc=5",
+              "published": "2026-09-02T15:56:32+09:00"
             }
           ]
         },
         {
           "stock": "한화에어로스페이스",
           "ticker": "012450",
-          "title": "한화에어로스페이스 - 목표가 상향에도 급락",
-          "body": "스페인 수주로 경쟁력을 입증했다는 평가에 목표주가 200만원 제시 등 우호적 리포트에도 주가는 급락. -3.99% 내린 <b>1,058,000원</b> 마감.",
-          "pct": -3.99,
-          "price": 1058000.0,
+          "title": "한화에어로스페이스 - 美육군 창원공장 방문에도…",
+          "body": "미 육군 획득 최고책임자가 창원공장을 방문해 K9 생산라인과 방산 생산역량을 확인했으나 주가는 하락. -3.12% 내린 <b>1,025,000원</b> 마감.",
+          "pct": -3.12,
+          "price": 1025000.0,
           "currency": "KRW",
-          "as_of": "2026-09-01",
+          "as_of": "2026-09-02",
           "slots": [
             {
               "time": "9:10AM",
@@ -444,7 +462,7 @@
               "is_close": false,
               "date": "2026-09-02",
               "title": "장 초반 소폭 약세",
-              "text": "개장 직후 소폭 하락하며 완만한 약세 흐름으로 하루를 시작함"
+              "text": "개장 직후 1%대 하락으로 시작하며 완만한 약세 흐름을 보임"
             },
             {
               "time": "10:30AM",
@@ -452,8 +470,8 @@
               "pct": -1.61,
               "is_close": false,
               "date": "2026-09-02",
-              "title": "약세 흐름 유지",
-              "text": "미 육군 관계자의 창원 공장 방문 소식이 나온 가운데 등락폭은 크지 않게 유지됨"
+              "title": "오전 중 낙폭 유지",
+              "text": "오전 내내 비슷한 수준의 약세권에서 큰 변화 없이 거래됨"
             },
             {
               "time": "1:00PM",
@@ -461,44 +479,53 @@
               "pct": -3.21,
               "is_close": false,
               "date": "2026-09-02",
-              "title": "낙폭 확대되는 중",
-              "text": "미 육군 획득 차관보가 창원사업장을 방문해 자동화 공정에 관심을 보였다는 소식 이후에도 매도세가 커지며 하락폭이 하루 중 가장 크게 벌어짐"
+              "title": "낙폭 3%대로 확대",
+              "text": "오후 들어 낙폭이 갑자기 커지며 하루 중 가장 큰 하락률을 기록함"
+            },
+            {
+              "time": "마감",
+              "price": 1025000.0,
+              "pct": -3.12,
+              "is_close": true,
+              "date": "2026-09-02",
+              "title": "3%대 하락 마감",
+              "text": "미 육군 관계자의 창원공장 방문 소식이 나왔음에도 낙폭을 크게 만회하지 못한 채 마감"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "한투證 \"한화에어로, 스페인 수주로 경쟁력 입증…목표주가 200만원\"",
-              "original": "한투證 \"한화에어로, 스페인 수주로 경쟁력 입증…목표주가 200만원\"",
+              "title": "美육군 한화에어로 창원공장 방문..K9 생산라인 시찰",
+              "original": "美육군 한화에어로 창원공장 방문..K9 생산라인 시찰",
+              "source": "v.daum.net",
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1INE1wWXktUTRfSzB3QkhMemlpSjF3WXJQQXdDUTM5NXYyTV9RM21sUUstMjVmLUZIQjVfQ1V3c05CQVkyaUp1azFjeGk5bU0?oc=5",
+              "published": "2026-09-02T16:24:42+09:00"
+            },
+            {
+              "title": "미 육군 구매 최고책임자, 한화에어로스페이스 공장서 생산역량 확인",
+              "original": "미 육군 구매 최고책임자, 한화에어로스페이스 공장서 생산역량 확인",
               "source": "네이트",
-              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjQks1RExqWFJxVTNuY3I0bGtCalFpRl9lcDlOWTBqYzU5aHVkVXFNejBxOVVKSVhoLTJDczhtQU5vT0M0OXN1dFRoYWRkM1BSVl9j?oc=5",
-              "published": "2026-09-01T16:30:00+09:00"
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5PbExPTks5Y1pfUTV2eTlKWGFzUnJBQmhiU242b3JfalZPU2I3QzRSVGxXdWxuYWxZYWgyaDJ1d3BFQnFWeDBZS3lFWlBXSTJ3TVYw?oc=5",
+              "published": "2026-09-02T16:17:00+09:00"
             },
             {
-              "title": "증권사 리포트 총정리, 한화에어로스페이스 상승여력 89.0%",
-              "original": "증권사 리포트 총정리, 한화에어로스페이스 상승여력 89.0%",
-              "source": "매일경제 마켓",
-              "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBJWjh4S2RNX3VCS1FwLVcwSGxEWTRReDFfZU9FODdrWDJxbzhhZUdmaFFTbmw5QlFLQllKQlh2TnZtZ0c5OGtueGs1VnZJZEpNX2c?oc=5",
-              "published": "2026-09-01T16:00:01+09:00"
-            },
-            {
-              "title": "한화, K9 자주포로 방산 영토 넓히고, KAI 품어 우주로 쏜다",
-              "original": "한화, K9 자주포로 방산 영토 넓히고, KAI 품어 우주로 쏜다",
-              "source": "대한경제",
-              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ISk9FTzZjT3llQy1IQ0Fad3VwbWs2LWtCNGVCdHhnRDhyQmlrM1ZyYmU5SVJLNmhaTkdUX0RFYXc5YWFGZkxjWFg0MW5iYi1YeDFzRzZfcDRPeWhZLUZuQjJQUVl4azJsb19pdlpMVW1xWHln?oc=5",
-              "published": "2026-09-01T15:56:16+09:00"
+              "title": "美 육군 획득 최고책임자, 한화 방산 생산역량·경험 확인",
+              "original": "美 육군 획득 최고책임자, 한화 방산 생산역량·경험 확인",
+              "source": "네이트",
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wbjB0NGg3U1h6WENWajZpbFlxdDdSRmozbkh5N2JXbXlYNF8wdlJMam1ZdU11QVUwVkVKLXhvaHdoc2FucE9fbXdTd0R1ckVGQ1Bv?oc=5",
+              "published": "2026-09-02T16:17:00+09:00"
             }
           ]
         },
         {
           "stock": "LG전자",
           "ticker": "066570",
-          "title": "LG전자 - IFA 2026 AI 에이전트 공개",
-          "body": "채팅 기반 AI 홈 에이전트 공개와 실속형 그램북 출시 등 신제품 소식에도 주가는 큰 폭으로 하락. -4.62% 내린 <b>206,500원</b> 마감.",
-          "pct": -4.62,
-          "price": 206500.0,
+          "title": "LG전자 - 메리어트 협력에도 하락",
+          "body": "메리어트와 손잡고 차세대 스마트 호텔 구축에 나섰지만 주가는 6,000원 내리며 하락 마감. -2.91% 내린 <b>200,500원</b> 마감.",
+          "pct": -2.91,
+          "price": 200500.0,
           "currency": "KRW",
-          "as_of": "2026-09-01",
+          "as_of": "2026-09-02",
           "slots": [
             {
               "time": "9:10AM",
@@ -506,8 +533,8 @@
               "pct": -3.92,
               "is_close": false,
               "date": "2026-09-02",
-              "title": "장 초반 약세 출발",
-              "text": "개장 직후 4% 가까이 밀리며 하루 중 가장 큰 하락폭으로 출발함"
+              "title": "장 초반 4% 약세",
+              "text": "개장 직후 낙폭이 가장 크게 벌어지며 하루 중 저점 부근에서 출발함"
             },
             {
               "time": "10:30AM",
@@ -515,8 +542,8 @@
               "pct": -2.91,
               "is_close": false,
               "date": "2026-09-02",
-              "title": "낙폭 일부 회복",
-              "text": "오전 중 저점에서 벗어나며 하락폭을 다소 줄이는 흐름으로 돌아섬"
+              "title": "낙폭 절반 만회",
+              "text": "오전 중반 들어 하락폭이 눈에 띄게 줄며 저점 대비 반등하는 흐름을 보임"
             },
             {
               "time": "1:00PM",
@@ -524,44 +551,53 @@
               "pct": -2.91,
               "is_close": false,
               "date": "2026-09-02",
-              "title": "낙폭 축소 유지 중",
-              "text": "메리어트와의 스마트 호텔 플랫폼 공동 개발 소식이 잇따라 나온 가운데 오전에 줄인 하락폭을 그대로 유지하는 중"
+              "title": "오후에도 낙폭 유지",
+              "text": "오전에 줄인 낙폭 수준을 오후까지 큰 변동 없이 그대로 이어가는 중"
+            },
+            {
+              "time": "마감",
+              "price": 200500.0,
+              "pct": -2.91,
+              "is_close": true,
+              "date": "2026-09-02",
+              "title": "낙폭 줄인 채 마감",
+              "text": "메리어트와의 스마트호텔 협력 소식 속에서도 장 초반 대비 낙폭을 줄인 채 하루 거래를 마침"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "LG전자, 유럽 가전전시회 'IFA 2026'서 채팅 기반 'AI 홈 에이전트' 공개",
-              "original": "LG전자, 유럽 가전전시회 'IFA 2026'서 채팅 기반 'AI 홈 에이전트' 공개",
-              "source": "뉴시스",
-              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ob1h5bTYxMFV1NnlxeGlWdlcxSnRFRGJiS0xNQ2tXM3FfMUdweTNfbVZEeFVsWkR0WmYzR0VJQ3Y1OUdKRnVYN2o4R1VxOXhsOHRzSHBTRmVsR1NfeVZadNIBeEFVX3lxTE1NRlE1Y200ZGdkR3oxaS1yUkw1QkNRZ3BfTGZ3MHFMOWZDWEctejV3R2hieFZyZmFKRkthcUVqSGZLS0dscmNyOHpkbVRhVk1jYmZKcjUwRmQ5S29ON2E1MnJwRjBSNFNOdGFibUVNS2t6Nm1mUGJCQw?oc=5",
-              "published": "2026-09-01T16:23:50+09:00"
+              "title": "[호텔TV 넘어 스마트호텔로]LG전자, 메리어트와 손잡고 ‘차세대 스마트 호텔’ 구축 나선다",
+              "original": "[호텔TV 넘어 스마트호텔로]LG전자, 메리어트와 손잡고 ‘차세대 스마트 호텔’ 구축 나선다",
+              "source": "전국뉴스",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB5cHBtQ25zSnI5NFNzOTByR3k2M2k5M0JydTdabHMtdTZHNHhUcFNjbFJyQ3ZqQTJHbkczVEN4TVl1TGRScVdSclRHX0phUUpvZjItSkNSX3Jzem92Sk5nZEFzRWdEUmU2X1JVbl81b04?oc=5",
+              "published": "2026-09-02T15:56:44+09:00"
             },
             {
-              "title": "삼성·LG, 100만 원대 '실속형' 노트북 출시... '칩 플레이션' 대응 나섰다",
-              "original": "삼성·LG, 100만 원대 '실속형' 노트북 출시... '칩 플레이션' 대응 나섰다",
-              "source": "한국일보",
-              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBkQkV6RFFQdlRRWVVPR3RiSVpvWER5VWlQWVRjRHROb1Y0RnlCOGNraUZQMkF1ZkN1TXZaalJVd0JxaE9iV0VnRzdpa1Z3Zk12MHB2TlU2d1FxckZIbXdkWm15SEpnWW1WM0ZNMkdR0gFzQVVfeXFMUE9NMVhobU92NU1XM0RiLVdENWpXbFlEMFFpVFBGNm5qVHM2eWNaYzVVSnBIRUdWU3pBZ2lsR1VEelBOM2hIS3dwVnRaTDZvRnRGODdOSFlENzYwc19MSGNJTWw0b0RHd3dtWUpGdFVvVUdpTQ?oc=5",
-              "published": "2026-09-01T15:47:00+09:00"
+              "title": "LG전자 주가 6,000원 하락 후 장마감",
+              "original": "LG전자 주가 6,000원 하락 후 장마감",
+              "source": "아시아뉴스통신",
+              "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1reUZxeVZQOS1XdFBwcHpldGFJX2VXMEhMWEE2c2JyWUptbUh1NmF6NmFTbFlIbDVaeXpNZDNnQ1VDbThKV1k4VXk4UXg5dUtPZzVidFJ2XzB0d3pL?oc=5",
+              "published": "2026-09-02T15:52:33+09:00"
             },
             {
-              "title": "LG전자, 실속형 ‘LG 그램북 AI 2026’ 14형 선봬…중저가 시장 공략",
-              "original": "LG전자, 실속형 ‘LG 그램북 AI 2026’ 14형 선봬…중저가 시장 공략",
-              "source": "m-i.kr",
-              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB2VGhZY2V6R3d4ZjdpOUMzaFVBeUpVQ3dlbkhpUDEzNXg3UmlUR3RQUUF0cmRGYzJEaGJMbjdRQjBKYWdSMmVyeU5WYURUbkhscUVUcmJMZnNLaDhzZ214bkczUWbSAWhBVV95cUxQRjZENnBoQWRKRGtLaHAwWlVkTVgxbzdGczZjc1pKelduaThWdFpHVXVTdjBVdVhQaHVtMVEyczN2RVFJTHE5SUNzMDBzVTlEc1JodzVlMHFZRTdXVWhUXzNJUFhFOHVqSg?oc=5",
-              "published": "2026-09-01T15:38:30+09:00"
+              "title": "'TV·냉장고 자랑?' 달라진 IFA…삼성·LG 'AI 생태계' 판다 - 머니투데이",
+              "original": "'TV·냉장고 자랑?' 달라진 IFA…삼성·LG 'AI 생태계' 판다 - 머니투데이",
+              "source": "머니투데이",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RR3FfY19uTWhtaHNoTGlfLTF2VWVyUXNzLTBLUzNNNXB4MF93bzM5ZkpUd0VRcGhGV3JydHgzbERQOEdfb0ZibVRfYlJfaElQTFBKeUdtN0JVbTd1clZDWHM1SXdINV9Wcnl3Z9IBckFVX3lxTE85Z25iQzF5S0ZoY1ZOWEtIQTRXanN2b0dJQVhOVHVaZG8yMHducG0zdTllM0dtVllIQTZkWUZmTlZ4aTBsS0htTm5UT01INmpoRnBwektLOE8xMFdiVFdWeHY0eHhXaFoxRVhTQlNQNEZSdw?oc=5",
+              "published": "2026-09-02T15:50:00+09:00"
             }
           ]
         },
         {
           "stock": "현대차",
           "ticker": "005380",
-          "title": "현대차 - 파업 여파로 8월 판매 부진",
-          "body": "파업 영향으로 8월 판매가 크게 줄어든 반면 기아·GM은 성장하며 대조를 이룬 가운데 주가는 소폭 하락. -0.74% 내린 <b>400,500원</b> 마감.",
-          "pct": -0.74,
-          "price": 400500.0,
+          "title": "현대차 - 수소 지원 논의에도 급락",
+          "body": "국회와 함께 수소 정책 지원 논의를 이어갔지만 특별한 악재 없이 주가는 큰 폭으로 하락. -5.62% 내린 <b>378,000원</b> 마감.",
+          "pct": -5.62,
+          "price": 378000.0,
           "currency": "KRW",
-          "as_of": "2026-09-01",
+          "as_of": "2026-09-02",
           "slots": [
             {
               "time": "9:10AM",
@@ -569,8 +605,8 @@
               "pct": -4.0,
               "is_close": false,
               "date": "2026-09-02",
-              "title": "장 초반 큰 약세 출발",
-              "text": "개장 직후부터 4%대 하락을 기록하며 하루를 약세로 시작함"
+              "title": "장 초반 4%대 약세",
+              "text": "개장 직후부터 4%대 하락으로 시작하며 약세가 뚜렷하게 나타남"
             },
             {
               "time": "10:30AM",
@@ -578,8 +614,8 @@
               "pct": -4.49,
               "is_close": false,
               "date": "2026-09-02",
-              "title": "낙폭 확대 지속",
-              "text": "오전 하락세가 이어지며 개장 초보다 하락폭이 더 커지는 흐름을 보임"
+              "title": "낙폭 소폭 확대",
+              "text": "오전 들어 하락폭이 조금씩 더 커지며 저점을 낮추는 흐름이 이어짐"
             },
             {
               "time": "1:00PM",
@@ -587,39 +623,47 @@
               "pct": -5.62,
               "is_close": false,
               "date": "2026-09-02",
-              "title": "낙폭 확대 이어지는 중",
-              "text": "신차 출시 예고 등 소식이 나왔음에도 매도세가 이어지며 하락폭이 하루 중 가장 크게 벌어진 채 유지 중"
+              "title": "하락폭 5%대로 심화",
+              "text": "오후 들어 낙폭이 크게 벌어지며 하루 중 가장 큰 하락률을 나타냄"
+            },
+            {
+              "time": "마감",
+              "price": 378000.0,
+              "pct": -5.62,
+              "is_close": true,
+              "date": "2026-09-02",
+              "title": "5%대 하락 마감",
+              "text": "수소 정책 지원 논의 등 개별 소식과 무관하게 낙폭을 회복하지 못한 채 5%대로 마감"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "현대차증권, IB '두 축'으로 재편…PF 넘어 기업금융 키운다",
-              "original": "현대차증권, IB '두 축'으로 재편…PF 넘어 기업금융 키운다",
-              "source": "뉴스투데이",
-              "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGbWh2WTJSa2dGWVFtS1pEaGRHX0ZmclFWclEyYVFDSGFuRGRxRUJtV2k2dmpHZnVoemh1Yll5U0xuZE9EOGtGOUZRZFFocEZUMFM0QldoTFBVT1Y4Qnc?oc=5",
-              "published": "2026-09-01T16:36:00+09:00"
+              "title": "현대차증권, 경인지점 확장 이전…경기 지역 자산관리 거점 강화",
+              "original": "현대차증권, 경인지점 확장 이전…경기 지역 자산관리 거점 강화",
+              "source": "포인트경제",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBkMl9vTm90eExtUEhVNy1YZlI5emUwcFFVRDRFOURqWER2dWFIQnpwM04tdjVXdDBSdkZ0SWJGaWdnN2VUWHphTDdaTFZwSTZoQm01M0o4QW9DTEhTWDlOYkhxc21OVjVyeWc?oc=5",
+              "published": "2026-09-02T16:24:05+09:00"
             },
             {
-              "title": "현대차 파업에 8월 판매 ‘뚝’…기아·GM은 성장",
-              "original": "현대차 파업에 8월 판매 ‘뚝’…기아·GM은 성장",
-              "source": "디지털데일리",
-              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1XLTNDWjB4SzFNRmVWN1pJSEF2X0FHNFB1MHRJVGhjN0RpRmdaRV90aE1mR0l0cHpONmhYTFM2YTdFY09TbHliXzlRMEt1cFdVWjNiSDIxN21LdjBoUTF2RU1ZTGo?oc=5",
-              "published": "2026-09-01T16:31:55+09:00"
+              "title": "수소에 다시 힘 싣는 국회·현대차…입법·예산 지원 논의",
+              "original": "수소에 다시 힘 싣는 국회·현대차…입법·예산 지원 논의",
+              "source": "이코노미스트",
+              "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9uSXBIVlhFdlpKRXQ4YUg2NGY2b3F3Z3FuR19Fc0FBTjV3X19GRUdBWDBhdks5Qlh3bEVaaGhNSUcyUDNRcXhrSTRLRkRTOTlQOTdKWk1SckpWT3o4SHkyZFRB?oc=5",
+              "published": "2026-09-02T15:53:00+09:00"
             },
             {
-              "title": "\"싼타크루즈로 끝, 절대 아냐\"... 현대차, 프레임바디 SUV까지 노린다",
-              "original": "\"싼타크루즈로 끝, 절대 아냐\"... 현대차, 프레임바디 SUV까지 노린다",
-              "source": "오토트리뷴",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NRGhfT0RmY3lhMU5pM0JXVHRoZjZEOWtXTG04bkF0b3dhMjhaWEtPVU9FcFcwOXJ2a1pvUF8yWGxmc1BLU3NCX1ZSV3kyLU10Ul9LOG5nT1VTcVc1NW81TmxSNFZManA2X2dxWVdwOE0?oc=5",
-              "published": "2026-09-01T16:27:29+09:00"
+              "title": "차 안에 아이 남으면 알림 울린다···현대차, 스타리아 EV 통학차 솔루션 개발",
+              "original": "차 안에 아이 남으면 알림 울린다···현대차, 스타리아 EV 통학차 솔루션 개발",
+              "source": "스마트비즈",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE54dWhVN2NHZTM4ajFaT2lLb2Y5aGp6RUMtUlp3dnREN2g5bHdwWDNNYjA0ZFlqZ3RwbkgxSDBfN0Q0MlVYbHFNVkpHZ3BMRzlZd0Q3SVFkX2xfenUySzd0b0tVMzR5X2xMN0VHTg?oc=5",
+              "published": "2026-09-02T15:47:18+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-09-01-kr.md",
-      "refreshed_at": "2026-09-01 16:38:20 KST",
-      "slots_refreshed_at": "2026-09-02 13:24:26 KST"
+      "markdown": "briefings/2026-09-02-kr.md",
+      "refreshed_at": "2026-09-02 16:37:10 KST"
     }
   }
 }
