@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-09-03 09:38:31 KST",
+  "generated_at": "2026-09-03 10:46:01 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -333,7 +333,16 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-09-03",
               "title": "장 초반 강세 출발",
-              "text": "코스피 반등과 반도체주 강세 속 오름세로 출발했으며 성과급 갈등 관련 사내 입장 표명도 나온 상태"
+              "text": "개장 직후 오름세로 출발하며 상승폭을 키우던 흐름이 이어짐"
+            },
+            {
+              "time": "10:25AM",
+              "price": 1629000.0,
+              "pct": 0.99,
+              "is_close": false,
+              "date": "2026-09-03",
+              "title": "소폭 밀리며 상승폭 축소",
+              "text": "금리 진정과 반도체주 강세 속 반등세가 유지됐으나 초반보다는 상승폭이 다소 줄어듦"
             }
           ],
           "slot_total": 4,
@@ -377,8 +386,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.2,
               "is_close": false,
               "date": "2026-09-03",
-              "title": "장 초반 상승세",
-              "text": "갤럭시 S26 FE 출시와 IFA 신제품 소식이 이어지는 가운데 개장 초반부터 완만한 오름세를 이어가는 중"
+              "title": "장 초반 강세 출발",
+              "text": "개장 직후 오름세로 출발해 이후에도 큰 변동 없이 상승세를 유지함"
+            },
+            {
+              "time": "10:25AM",
+              "price": 253500.0,
+              "pct": 1.2,
+              "is_close": false,
+              "date": "2026-09-03",
+              "title": "오름세 그대로 유지 중",
+              "text": "한전의 전기료 선납 제안과 신제품 출시 소식이 이어졌지만 가격은 큰 변화 없이 초반 상승폭을 지키는 중"
             }
           ],
           "slot_total": 4,
@@ -422,8 +440,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.68,
               "is_close": false,
               "date": "2026-09-03",
-              "title": "장 초반 소폭 약세",
-              "text": "구축함 엔진 수주 소식과 K9 수출 확대 기대감이 있었지만 노조 집회 이슈 속 개장 초반 약세로 출발"
+              "title": "약세 출발 후 반등",
+              "text": "장 초반 소폭 밀리며 시작했으나 오전 중반 들어 상승 전환에 성공함"
+            },
+            {
+              "time": "10:25AM",
+              "price": 1048000.0,
+              "pct": 2.24,
+              "is_close": false,
+              "date": "2026-09-03",
+              "title": "상승 전환 뒤 오름폭 확대",
+              "text": "K9 자주포 미래 운용개념 제시와 KAI 민영화 관련 소식이 나온 뒤 하락에서 상승으로 반전하며 오전 중 가장 높은 수준까지 올라섬"
             }
           ],
           "slot_total": 4,
@@ -467,8 +494,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.0,
               "is_close": false,
               "date": "2026-09-03",
-              "title": "장 초반 완만한 상승",
-              "text": "4년 만의 신제품 '시네빔 AI' 출시 소식이 나온 가운데 개장 초반 완만한 오름세를 유지 중"
+              "title": "장 초반 강세 출발",
+              "text": "개장 직후부터 오름세로 시작해 이후에도 상승 흐름을 이어감"
+            },
+            {
+              "time": "10:25AM",
+              "price": 203750.0,
+              "pct": 1.62,
+              "is_close": false,
+              "date": "2026-09-03",
+              "title": "오름폭 키우며 상승 지속",
+              "text": "IFA 2026 AI홈 생태계 공개와 신제품 출시 소식이 이어진 뒤 오전 들어 상승폭을 더 키우며 오름세를 이어가는 중"
             }
           ],
           "slot_total": 4,
@@ -512,8 +548,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.0,
               "is_close": false,
               "date": "2026-09-03",
-              "title": "장 초반 보합 출발",
-              "text": "방문상담 예약 서비스 도입과 디자인 어워드 수상 소식이 나왔지만 가격은 전일 수준에서 보합세를 유지 중"
+              "title": "보합 출발 후 상승 전환",
+              "text": "장 초반 전일과 같은 수준에서 출발한 뒤 오전 중반 들어 오름세로 방향을 잡음"
+            },
+            {
+              "time": "10:25AM",
+              "price": 383250.0,
+              "pct": 1.39,
+              "is_close": false,
+              "date": "2026-09-03",
+              "title": "디자인상 소식 속 강세 전환",
+              "text": "IDEA 디자인 어워드 16관왕 소식이 잇따라 전해진 뒤 보합권에 머물던 가격이 뚜렷한 상승세로 전환됨"
             }
           ],
           "slot_total": 4,
@@ -544,7 +589,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-09-02-kr.md",
       "refreshed_at": "2026-09-02 16:37:10 KST",
-      "slots_refreshed_at": "2026-09-03 09:38:31 KST"
+      "slots_refreshed_at": "2026-09-03 10:46:01 KST"
     }
   }
 };
