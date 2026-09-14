@@ -631,8 +631,13 @@
 
   function applyPfCard(card) {
     PF.slots = pfSlotsFromCard(card);
-    document.querySelector('.pf-price__value em').textContent =
-      card.currency === 'USD' ? '달러' : '원';
+    // 시안은 원화를 숫자 뒤 접미사("1,590,000원")로, 달러를 숫자 앞 접두사
+    // ("$38.08")로 그린다 — 그냥 단위만 바꿔 달면 "38.08달러"가 되어 시안과
+    // 어긋난다. data-currency로 .pf-price__value의 flex 방향을 뒤집는다.
+    var em = document.querySelector('.pf-price__value em');
+    var isUsd = card.currency === 'USD';
+    em.textContent = isUsd ? '$' : '원';
+    em.closest('.pf-price__value').dataset.currency = isUsd ? 'usd' : 'krw';
     // 헤더 날짜는 슬롯이 실제로 어느 거래일 것인지를 따른다
     var slotDay = (card.slots && card.slots.length && card.slots[0].date) || card.as_of;
     if (slotDay) {
@@ -769,6 +774,10 @@
     // 칩 줄을 맨 위에 고정하면 뒤의 배경 두 장이 함께 따라오지 못해 밑이 비친다.
     // 그래서 칩 줄이 같은 그림을 직접 그리는데, 그러려면 진행 컬럼 폭을 알아야 한다.
     screenPf.style.setProperty('--band', s.band + '%');
+    // 진행 바가 화면 절반을 넘으면 그 위 텍스트(날짜·탭·종목명)가 진한 색 배경
+    // 위에 앉는다 — 시안 대조 결과 24%·48%는 어두운 글자, 72.5%·95.7%는 흰
+    // 글자였다. 정확한 경계값은 48~72.5% 사이 어딘가라 그 중간인 50%로 나눈다.
+    screenPf.dataset.bandWide = (s.band >= 50) ? '1' : '';
     document.getElementById('pfPrev').disabled = (pfSlot === 0);
     document.getElementById('pfNext').disabled = (pfSlot === PF.slots.length - 1);
     applySlotTrend(s);
@@ -895,10 +904,6 @@
       moveIndicator(true);
       device.dataset.tab = key;
       setDocScroll(key);
-      // 상태바 아이콘 흑/백 교체
-      document.querySelectorAll('.status-icons img').forEach(function (img) {
-        img.src = img.dataset[key === 'portfolio' ? 'w' : 'b'];
-      });
       // 탭을 열 때마다 최신 시간대로 되돌린다. 지난번에 9:10AM을 보다 나갔다고
       // 다음에 들어올 때도 9:10AM으로 맞아줄 이유는 없다.
       if (key === 'portfolio') { pfSlot = latestSlot(); renderPf(false); }
