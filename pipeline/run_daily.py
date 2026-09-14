@@ -102,6 +102,23 @@ def main() -> int:
         done = summarize.apply(all_briefs)
         log("카드 문구 요약 완료 — LLM {} / 규칙 {}".format(done, len(all_briefs) - done))
 
+    # 시장 전체 헤드라인 / "OO장 어땠지" 3줄 요약 — Home 탭 전용, 마감
+    # 브리핑에서만 만든다. 보유종목이 아니라 지수·유가·금리 뉴스가 재료다.
+    market_summaries = {}
+    if args.summarizer != "rule" and not args.slots_only:
+        import market_news
+        import market_summary as market_summary_mod
+        log("시장 전체 헤드라인 생성 중…")
+        for m in targets:
+            if not briefs_by_market.get(m):
+                continue
+            mkt_news = market_news.fetch_market_news(m, now)
+            log("  {} 매크로 뉴스 {}건".format(SECTION_LABEL[m], len(mkt_news)))
+            result = market_summary_mod.summarize(SECTION_LABEL[m], mkt_news)
+            if result:
+                market_summaries[m] = result
+        log("시장 전체 헤드라인 완료 — {}개 시장".format(len(market_summaries)))
+
     # 시간대별 브리핑 — Portfolios 탭에서만 쓴다. 홈 카드에는 영향이 없다.
     if INTRADAY_ENABLED:
         import intraday
@@ -136,7 +153,8 @@ def main() -> int:
 
     payload = emit.build_payload(
         briefs_by_market, now,
-        markdown_path=markdown_path, slots_only=args.slots_only)
+        markdown_path=markdown_path, slots_only=args.slots_only,
+        market_summaries=market_summaries)
     emit.write(payload)
 
     if args.slots_only:

@@ -78,6 +78,22 @@ TRANSLATE_MAX_TOKENS = 4000
 SUMMARY_MODEL = "claude-sonnet-5"
 SUMMARY_MAX_TOKENS = 8000   # 종목이 늘어도 잘리지 않게 여유를 둔다
 
+# ---- 시장 전체 헤드라인 / "OO장 어땠지" 3줄 요약 (Home 탭 전용) ----
+# 종목 뉴스(NEWS_PER_STOCK)는 보유종목 이름으로만 검색해서 "코스피 6700선
+# 붕괴" 같은 지수·유가·금리 이슈를 못 잡는다. 여기는 종목과 무관하게 시장
+# 전체를 검색어로 찾는다.
+#
+# 마감 브리핑(run_daily.py, --slots-only 아닐 때)에서만 부른다. 장중 실행은
+# emit._merge_slots가 카드의 slots만 갈아끼우고 이 필드는 건드리지 않는다.
+MARKET_NEWS_QUERIES = {
+    "kr": ["코스피 마감", "코스닥 마감"],
+    "us": ["뉴욕증시 마감", "국제유가", "미국 국채 금리"],
+}
+MARKET_NEWS_MAX_ITEMS = 12   # LLM에게 후보로 주는 헤드라인 수(그대로 3줄이 되는 게 아니라 재료)
+
+MARKET_SUMMARY_MODEL = "claude-sonnet-5"
+MARKET_SUMMARY_MAX_TOKENS = 2000
+
 # ---- 시간대별 브리핑 (Portfolios 탭 전용) ----
 # 홈 탭은 하루 두 번 마감 브리핑만 쓰고, 장중 흐름은 여기서만 보여준다.
 INTRADAY_ENABLED = True
