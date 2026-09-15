@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15 13:38:45 KST",
+  "generated_at": "2026-09-16 02:00:53 KST",
   "refreshed": [
     "us"
   ],
@@ -8,7 +8,7 @@
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
-      "label": "미국 증시 요약 2026. 9. 15. 1:38PM",
+      "label": "미국 증시 요약 2026. 9. 16. 2:00AM",
       "chips": [
         "전체",
         "IBM",
@@ -21,290 +21,238 @@
         "오후 6시, 국내 시장을 움직인 이유를 확인하세요."
       ],
       "next": "kr",
-      "headline": "해외 5종목 중 4종목 상승, 1종목 하락 — IBM이 +2.38%로 가장 많이 올랐고 엔비디아가 -3.36%로 가장 부진했습니다.",
-      "market_headline": "美 10년물 국채금리 5% 돌파, 유가 105달러에 시장 부담 가중",
+      "headline": "해외 5종목 중 2종목 상승, 3종목 하락 — IBM이 +1.03%로 가장 많이 올랐고 소파이테크놀로지가 -1.97%로 가장 부진했습니다.",
+      "market_headline": "사우디 원유 선적 중단발 유가 급등에 美 10년물 금리 5% 돌파",
       "market_card": {
-        "title": "국채금리 5% 돌파와 유가 급등 겹치며 시장 불안 확산",
+        "title": "뉴욕 증시 하락 출발...국제유가 급등과 국채금리 20년래 최고",
         "bullets": [
-          "美 10년물 국채금리 장중 5% 돌파",
-          "사우디 송유관 폐쇄로 브렌트유 105달러대",
-          "연준 9월 금리인상 베팅 90% 상회"
+          "사우디 얀부항 선적 중단, 유가 3달러 급등",
+          "美 10년물 국채금리 5% 돌파, 19년만 최고",
+          "유가·금리 동조화에 인플레 우려 확산"
         ]
       },
       "cards": [
         {
           "stock": "IBM",
           "ticker": "IBM",
-          "title": "IBM - NASA와 달 AI 모델 공개",
-          "body": "NASA와 함께 2만 개 타일 데이터셋 기반의 달 재단 모델을 오차 22% 낮춰 오픈소스로 공개하며 AI 전략을 지구 너머로 확장한다는 소식에 매수세가 주도권을 쥐며 +2.38% 오른 <b>249.09달러</b> 마감.",
-          "pct": 2.38,
-          "price": 249.08999633789062,
+          "title": "IBM - 양자 연구·AI 성과 잇달아 공개",
+          "body": "양자 회로가 LLM을 능가함을 증명한 연구와 NASA와 공동 개발한 달 물 얼음 탐지 AI 공개 소식 속에 +1.03% 오른 <b>251.65달러</b> 거래 중.",
+          "pct": 1.03,
+          "price": 251.64999389648438,
           "currency": "USD",
-          "as_of": "2026-09-14",
+          "as_of": "2026-09-15",
           "slots": [
             {
               "time": "11:00PM",
-              "price": 244.5832061767578,
-              "pct": 0.53,
+              "price": 249.45989990234375,
+              "pct": 0.15,
               "is_close": false,
-              "date": "2026-09-14",
-              "title": "장중 강세 흐름",
-              "text": "변동성 확대 속에서도 매수세가 주도권을 잡으며 견조한 오름세를 이어감"
-            },
-            {
-              "time": "마감",
-              "price": 249.08999633789062,
-              "pct": 2.38,
-              "is_close": true,
-              "date": "2026-09-14",
-              "title": "상승폭 확대 마감",
-              "text": "오전 강세를 유지한 채 장 후반 들어 오름폭을 더 키우며 하루를 마무리함"
+              "date": "2026-09-15",
+              "title": "소폭 상승 유지",
+              "text": "양자 연구 성과 소식이 전해진 가운데 큰 등락 없이 강보합 흐름을 이어가는 중"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "변동성 확대와 강세 신호 속에 매수세가 주도권을 유지하며 IBM 3% 가까이 상승",
-              "original": "변동성 확대와 강세 신호 속에 매수세가 주도권을 유지하며 IBM 3% 가까이 상승",
-              "source": "Traders Union",
-              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOXh2SmpsMEVfUzVsLTdMc1VMUTlKazFLWGhHdWJpdTVBa01fdzZST3JXVG00QzlZVTBrdVdWWjlpazNHOXVDUHpENldwakpUN1NXTXNhbC1rckNuZnJScU5lSTdsWnFTdkFMSzNndHp5ODlyYjUwaXBzZVNRSnFNODFGVVNrM1JYeXNkVg?oc=5",
-              "published": "2026-09-15T03:53:39+09:00"
+              "title": "IBM Research, 양자 회로가 두 문제에서 LLM을 능가함을 증명",
+              "original": "IBM Research, 양자 회로가 두 문제에서 LLM을 능가함을 증명",
+              "source": "Unite.AI",
+              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOEZOV3o2T09IWUJleHBtb1FDVUxKalRBRjh5dXdoR045UldFMmJraEZ4dWdJY1hMUmhRQW1WVjJNU0xUVVZoWnZhNmZtOF9EbXBfRkMtSWdTSFZybm1JNzRpeHFhT0FyRmI3VDJRaUJUMDRwdHZObnNnc29DWFJzVlVNMlRvdnFtbnBBdkxUekFRM2J1cnZaZg?oc=5",
+              "published": "2026-09-16T00:58:34+09:00"
             },
             {
-              "title": "NASA-IBM 달 재단 모델이 2만 개 타일 데이터셋과 22% 낮아진 얼음 지도 작성 오차를 가지고 오픈 소스로 공개되었습니다.",
-              "original": "NASA-IBM 달 재단 모델이 2만 개 타일 데이터셋과 22% 낮아진 얼음 지도 작성 오차를 가지고 오픈 소스로 공개되었습니다.",
-              "source": "StorageReview.com",
-              "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeXg4R3hzSEJsaXpxamhqRTJIQ2JyWTNqOEYtSFZKd2xTeGVDeDRMMUQ2MS1sWV91OUhDRlR6TkhBcTlDWDlOUTg3RGs3dldtWVJSRnJyQjlrRmd6RGhJMEdXSzAxQkdPWTI0a3pQd0k1TlBCVnVuLTJuQmk0Z21xc0U3RnFMb2VoNWgxc3FRQWltQmszdS1jYnVhanFveWhxVGM4V3hkZGE4bUdDbHBhTWlVUExOLXUyNGVDalB4QnRZMnB6THVFMVZPSEN5VUNlXzhNdzVWVQ?oc=5",
-              "published": "2026-09-15T03:44:21+09:00"
+              "title": "IBM 주식은 시장이 움직일 때 얼마나 함께 움직일까?",
+              "original": "How Much Does IBM Stock Move When The Market Moves?",
+              "source": "Trefis",
+              "url": "https://www.trefis.com/articles/615401/how-much-does-ibm-stock-move-when-the-market-moves/2026-09-15",
+              "published": "2026-09-16T00:37:07+09:00"
             },
             {
-              "title": "IBM, AI 전략을 지구 너머로 확장…NASA 달 모델 활용",
-              "original": "IBM Takes its AI Strategy Beyond Earth with NASA Lunar Model",
-              "source": "Insider Monkey",
-              "url": "https://finance.yahoo.com/technology/ai/articles/ibm-takes-ai-strategy-beyond-145727516.html",
-              "published": "2026-09-14T23:57:27+09:00"
+              "title": "NASA와 IBM, 달의 물 얼음을 22% 더 정확하게 탐지하는 무료 AI 공개",
+              "original": "NASA와 IBM, 달의 물 얼음을 22% 더 정확하게 탐지하는 무료 AI 공개",
+              "source": "Martin Cid Magazine",
+              "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNTmlYM0xDX2VUdHR4eDVuQ1hMUi0yREh2UkRBT1JLWGJNOUs5TkhaMElqcmljY09mQzI0aWVZV0hGX0RsV3lTZWtvWmJ6ekpQdEpGMTRRVXdLcGUyNFNOV05HekstUHppN2pZa3NHNmI4SGFDZEYta0lSNE0yRlI0SUxSWHpjbTV1WDdUV3l0S2ROSkU3S1JUTEp2SDRieHFIb2hjLVpTZWw5Z1B2YlFsNVhlWHZ1SXl2NEtyUlNkNFBVb2xQMnI1NmZmeWpCbjBBdjN1UG91eHQwRWY3ajVaQVk5bkJZUE04VTRMajBzTUlCWTVVWFJvQ0ZtMVdLdE80SnpzN2pGdUJCNXlfcGlqbDk1bXVSSDJWa1Vhb1ZUNFlpZm43ckpBRg?oc=5",
+              "published": "2026-09-15T16:20:42+09:00"
             }
           ]
         },
         {
           "stock": "마이크로소프트",
           "ticker": "MSFT",
-          "title": "마이크로소프트 - 엔씨 '아이온2' 애저로 서비스",
-          "body": "엔씨소프트와 협력해 10월 글로벌 출시 예정인 '아이온2'의 인프라로 애저를 활용하기로 하며 파트너십을 강화했다는 소식 속에 +1.97% 오른 <b>505.41달러</b> 마감.",
-          "pct": 1.97,
-          "price": 505.4100036621094,
+          "title": "마이크로소프트 - 자체 AI에 선 그으며 하락",
+          "body": "자사 AI에 대해 선을 그은 발언이 부담으로 작용하며 -0.84% 내린 <b>501.18달러</b> 거래 중.",
+          "pct": -0.84,
+          "price": 501.17999267578125,
           "currency": "USD",
-          "as_of": "2026-09-14",
+          "as_of": "2026-09-15",
           "slots": [
             {
               "time": "11:00PM",
-              "price": 501.3949890136719,
-              "pct": 1.16,
+              "price": 501.20001220703125,
+              "pct": -0.83,
               "is_close": false,
-              "date": "2026-09-14",
-              "title": "파트너십 소식 속 강세",
-              "text": "엔씨와의 협력 소식이 오전부터 이어지며 완만한 상승 흐름이 지속됨"
-            },
-            {
-              "time": "마감",
-              "price": 505.4100036621094,
-              "pct": 1.97,
-              "is_close": true,
-              "date": "2026-09-14",
-              "title": "상승세 유지 마감",
-              "text": "파트너십 강화 소식이 이어진 가운데 오름폭을 키우며 하루를 마무리함"
+              "date": "2026-09-15",
+              "title": "약보합권 흐름",
+              "text": "자체 AI에 선을 긋는 발언이 부담으로 작용하며 하락세를 좁히지 못하고 유지 중"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "엔씨-마이크로소프트, ‘아이온2’ 글로벌 서비스 협력 강화",
-              "original": "엔씨-마이크로소프트, ‘아이온2’ 글로벌 서비스 협력 강화",
-              "source": "국민일보",
-              "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBfRFZrdFBFd1pUQkMwbG4yQU9iYjVIZ1plQnhUZlhjUkRGSTl0Zm5mcXBteGZwcGVwWjF1dGpJRFJkTlFoU1d5SlU4YTdvRjE1bjl0SVkxblQwcGZDRG9feTdxR0V5RzU5MklqbGZSbDZ6UTlEUzlDR2130gFsQVVfeXFMT0Q4V2Jmb1hheTd4dzJRaFpmUEM3QmxiZEltZGI0SUhhclR3QWVaZFFmaUQ5Um5ZQ3Ffb0lwMk1xSmtyUVNzeEFTS3NwSlZ4Mzlkb1hkaFpscW5HbXJ5TUZUb1lzVTk4dW44cFk4?oc=5",
-              "published": "2026-09-15T13:10:00+09:00"
+              "title": "오라클 vs. 마이크로소프트: 가치투자자가 지금 사야 할 주식은?",
+              "original": "ORCL vs. MSFT: Which Stock Should Value Investors Buy Now?",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/orcl-vs-msft-stock-value-154002993.html",
+              "published": "2026-09-16T00:40:02+09:00"
             },
             {
-              "title": "엔씨 ‘아이온2’, 글로벌 출시 인프라로 마이크로소프트 애저 활용",
-              "original": "엔씨 ‘아이온2’, 글로벌 출시 인프라로 마이크로소프트 애저 활용",
-              "source": "CNET Korea",
-              "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE54OC15eDRXV2VjaUFyeUFTcm5JMS1qcWtIVGpUcl85MlphVHNtdGcxbFV4QVpHZ2FnUXdtS2FlT3NKRXJrUEh3eW50MjNMN0xITzlWcVFrVQ?oc=5",
-              "published": "2026-09-15T13:00:00+09:00"
+              "title": "마이크로소프트, 자사 AI에 선 그으며 주가 하락",
+              "original": "Microsoft Slips After Drawing a Line Around Its Own AI",
+              "source": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-slips-drawing-line-around-153744858.html",
+              "published": "2026-09-16T00:37:44+09:00"
             },
             {
-              "title": "'아이온2' 10월 글로벌 출시 앞두고…엔씨·마이크로소프트 파트너십 강화",
-              "original": "'아이온2' 10월 글로벌 출시 앞두고…엔씨·마이크로소프트 파트너십 강화",
-              "source": "xportsnews.com",
-              "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1rU1VFLWxUcm93bnZvLVNYcTcwLVU1cFlXQ0ptdFQyNkNYRkNPWEZRWF95b2s5Tjh6ZUMzSVdKUi1OeFRXWnFYR05hOVlVQlhvZXQ2dQ?oc=5",
-              "published": "2026-09-15T11:56:56+09:00"
+              "title": "엔씨ㆍ마이크로소프트, '아이온2' 글로벌 출격 맞손…애저 인프라로 대규모 동접 대응",
+              "original": "엔씨ㆍ마이크로소프트, '아이온2' 글로벌 출격 맞손…애저 인프라로 대규모 동접 대응",
+              "source": "퍼블릭뉴스통신",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9DdlJJYWV3aFJQcnNqVENheFZOSGRrQkxvUkd1RlJiZTN2QmplaWNicTZiX0EzRjlIZGpzdVJkVC1meW15THEtX194RDFlNWk1cTFWck9fejl5d1lFc0w1eHZMXy1Ja0pJOFZJ?oc=5",
+              "published": "2026-09-15T19:42:55+09:00"
             }
           ]
         },
         {
           "stock": "아이온큐",
           "ticker": "IONQ",
-          "title": "아이온큐 - IEEE 퀀텀위크 논문 9편 발표",
-          "body": "IEEE 퀀텀 위크 2026에서 동료 심사를 거친 양자컴퓨팅 논문 9편을 발표해 이 중 4편이 최우수 논문상을 받았다는 소식에 +2.04% 오른 <b>37.50달러</b> 마감.",
-          "pct": 2.04,
-          "price": 37.5,
+          "title": "아이온큐 - IEEE 퀀텀위크서 논문 4편 수상",
+          "body": "AI·하이브리드 컴퓨팅·생명과학 분야 양자 실용성을 입증한 논문 4편이 IEEE 퀀텀위크에서 우수상을 받았다는 소식에도 -0.01% 내린 <b>37.49달러</b> 거래 중.",
+          "pct": -0.01,
+          "price": 37.494998931884766,
           "currency": "USD",
-          "as_of": "2026-09-14",
+          "as_of": "2026-09-15",
           "slots": [
             {
               "time": "11:00PM",
-              "price": 37.25899887084961,
-              "pct": 1.39,
+              "price": 37.95000076293945,
+              "pct": 1.2,
               "is_close": false,
-              "date": "2026-09-14",
-              "title": "연구 성과 부각",
-              "text": "퀀텀 위크 논문 발표 소식이 이어지며 완만한 오름세가 유지되는 흐름"
-            },
-            {
-              "time": "마감",
-              "price": 37.5,
-              "pct": 2.04,
-              "is_close": true,
-              "date": "2026-09-14",
-              "title": "상승폭 소폭 확대",
-              "text": "연구 성과 관련 뉴스가 이어지는 가운데 오름폭을 조금 더 키우며 마감"
+              "date": "2026-09-15",
+              "title": "상승세 이어가는 중",
+              "text": "퀀텀위크에서 논문 수상 소식이 잇따라 전해지며 투자자 관심 속 완만한 오름세를 지속"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "IonQ 2026년 8월 인력동향: 조직을 보면 회사의 미래가 보인다..!!",
-              "original": "IonQ 2026년 8월 인력동향: 조직을 보면 회사의 미래가 보인다..!!",
-              "source": "네이버 프리미엄콘텐츠",
-              "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMk9EVTV0bGx2MnU0b0t1ZnV5bmdLSlZSaGFTc2xhbUhyZ3VvdnFDNmRvY1JuTVBBeUp6QmxVdDQ4d2w1YnF2Qk1Bbk1ERm5WaHlJSDRHdEZQLUFjLTVDb1ozUmVFMV9kQ1NUSl9KdE1kX3kzTUxCelo0NlNKV1hyTkRublpkWWJEUl92WFRjOA?oc=5",
-              "published": "2026-09-15T11:14:00+09:00"
-            },
-            {
-              "title": "IonQ, IEEE 퀀텀 위크서 연구논문 9편 발표…4편 최우수 논문상",
-              "original": "IonQ, IEEE 퀀텀 위크서 연구논문 9편 발표…4편 최우수 논문상",
-              "source": "양자신문",
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE90VDJSa19JUkxtOFpmMmp3Skthb19Ba2hydTlHVDU1VjRDb3lwQi1OY2k4QURNdmU1enRPRVR3Zmd1X2VJNEdFZU9aSXFPYU1YcHg1NkdTUmF6SUVZaDFTc19Cd3ptQWpWVTRxdXdnMA?oc=5",
-              "published": "2026-09-15T08:20:00+09:00"
-            },
-            {
-              "title": "아이온큐, IEEE 퀀텀 위크 2026에서 동료 심사 양자컴퓨팅 논문 9편 발표",
-              "original": "IonQ Presents Nine Peer-Reviewed Quantum Computing Papers at IEEE Quantum Week 2026",
+              "title": "아이온큐, AI·하이브리드 컴퓨팅·생명과학 분야 퀀텀 발전 조명한 우수 논문상 발표",
+              "original": "IonQ Best Paper Awards Highlight Quantum Advances in AI, Hybrid Computing and Life Sciences",
               "source": "InvestorsHub",
-              "url": "https://investorshub.advfn.com/market-news/article/36257/ionq-presents-nine-peer-reviewed-quantum-computing-papers-at-ieee-quantum-week-2026",
-              "published": "2026-09-14T23:43:52+09:00"
+              "url": "https://investorshub.advfn.com/market-news/article/36334/ionq-best-paper-awards-highlight-quantum-advances-in-ai-hybrid-computing-and-life-sciences",
+              "published": "2026-09-15T23:49:23+09:00"
+            },
+            {
+              "title": "[서학!스타] 아이온큐, IEEE 퀀텀위크서 논문 4편 수상…AI부터 단백질 접힘까지 ‘양자 실용성’ 입증",
+              "original": "[서학!스타] 아이온큐, IEEE 퀀텀위크서 논문 4편 수상…AI부터 단백질 접힘까지 ‘양자 실용성’ 입증",
+              "source": "CBC뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE01Zllta01sR01Wa3V0emllQ2h6WVU3YVdzUnkyT2hfTnY0SnQ1UkQxdV9ETG4zZnR3bXZ4WGhqZndCVko3cE1ROHdiUS10aF9WcGR2ckpMUnRtX2RoM19Gc09JNEppVHBY?oc=5",
+              "published": "2026-09-15T22:52:42+09:00"
+            },
+            {
+              "title": "아이온큐(IONQ), 주목받는 종목으로 부상: 투자 전 알아야 할 사실들",
+              "original": "IonQ, Inc. (IONQ) Is a Trending Stock: Facts to Know Before Betting on It",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-inc-ionq-trending-stock-130004436.html",
+              "published": "2026-09-15T22:00:04+09:00"
             }
           ]
         },
         {
           "stock": "엔비디아",
           "ticker": "NVDA",
-          "title": "엔비디아 - AI 속도조절 논쟁 속 하락",
-          "body": "트럼프 대통령이 AI 속도 조절 요구를 거부하며 엔비디아와 AMD에 유리한 판도라는 평가가 나왔고 84GB 메모리를 탑재한 'RTX 프로 5500 블랙웰'도 공개됐으나, AI 속도 조절을 둘러싼 테크 업계 논쟁이 이어지는 가운데 -3.36% 내린 <b>210.96달러</b> 마감.",
-          "pct": -3.36,
-          "price": 210.9600067138672,
+          "title": "엔비디아 - 베라 루빈 칩에 투자 집중",
+          "body": "AI 슈퍼컴퓨터 비용의 70%가 차세대 베라 루빈 칩에 투입된다는 분석과 시스코의 신규 가속 AI POD 공급 소식 속에 +0.36% 오른 <b>211.73달러</b> 거래 중.",
+          "pct": 0.36,
+          "price": 211.72999572753906,
           "currency": "USD",
-          "as_of": "2026-09-14",
+          "as_of": "2026-09-15",
           "slots": [
             {
               "time": "11:00PM",
-              "price": 210.7899932861328,
-              "pct": -3.44,
+              "price": 213.25999450683594,
+              "pct": 1.09,
               "is_close": false,
-              "date": "2026-09-14",
-              "title": "낙폭 확대 흐름",
-              "text": "AI 속도 조절 논쟁 속 신제품 공개에도 매수세가 붙지 않으며 하락폭이 벌어짐"
-            },
-            {
-              "time": "마감",
-              "price": 210.9600067138672,
-              "pct": -3.36,
-              "is_close": true,
-              "date": "2026-09-14",
-              "title": "약세 지속 마감",
-              "text": "장중 하락폭을 좁히지 못한 채 낮은 수준에서 하루 흐름을 마무리함"
+              "date": "2026-09-15",
+              "title": "완만한 상승 유지",
+              "text": "차세대 칩 관련 기대감이 이어지는 가운데 상승폭을 유지하며 견조한 흐름을 지속"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "도널드 트럼프, AI 속도 조절 요구 거부…엔비디아와 AMD에 판도 바뀐다",
-              "original": "Donald Trump Rejects Calls For AI Slowdown. That Changes the Game for Nvidia and AMD",
-              "source": "Insider Monkey",
-              "url": "https://finance.yahoo.com/technology/ai/articles/donald-trump-rejects-calls-ai-040909311.html",
-              "published": "2026-09-15T13:09:09+09:00"
+              "title": "스페이스 익스플로레이션 테크놀로지스(SPCX), 엔비디아 발사 주목... 주가는 고평가된 걸까?",
+              "original": "Space Exploration Technologies (SPCX) Eyes Nvidia Launches, Is The Stock Overvalued?",
+              "source": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/space-exploration-technologies-spcx-eyes-161339953.html",
+              "published": "2026-09-16T01:13:39+09:00"
             },
             {
-              "title": "엔비디아, 84GB 메모리 탑재 'RTX 프로 5500 블랙웰' 공개",
-              "original": "엔비디아, 84GB 메모리 탑재 'RTX 프로 5500 블랙웰' 공개",
-              "source": "zdnet.co.kr",
-              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9tcXoxSHI2anRVZEE2NlgzR3h5YkJIZnJ5NTVMLUNJSGxTelVnbFlKaXo2UjhoZUs1S0xfbXhxZnlTbWdjTlNJQ0lDbU03YWx1YnRnc2pn?oc=5",
-              "published": "2026-09-15T13:03:18+09:00"
+              "title": "Cisco, 새로운 NVIDIA 가속 AI POD로 Splunk AI를 온프레미스로 제공",
+              "original": "Cisco, 새로운 NVIDIA 가속 AI POD로 Splunk AI를 온프레미스로 제공",
+              "source": "Unite.AI",
+              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOVhqSUNjYW9XdXFUa2FZNkJ2a0sxZTRNamdJaUxEaEVQUFZiWEEtOXRTWGtJcWRPamlLMUlGeVFjSVNpMUFER0ZOX09KbXZKT0JERkNQQmxub3JCai05Ml9OaGU1V25KNWhxd1ZydTFrb3luYUQtbTNqYlB4LVB1YldWODJfazI1RUdXSW1WeEs5WG1WdElXUjBn?oc=5",
+              "published": "2026-09-16T01:11:26+09:00"
             },
             {
-              "title": "AI 속도 조절 논쟁에 갈라진 테크 CEO들…엔비디아·브로드컴은 위협론 일축, 일론 머스크는 동료 심사 시스템 촉구",
-              "original": "AI Slowdown Debate Splits Tech CEOs: Nvidia, Broadcom Dismiss Any Threat While Elon Musk Calls For Peer Review System",
-              "source": "Stocktwits",
-              "url": "https://stocktwits.com/news-articles/markets/equity/ai-slowdown-debate-splits-tech-ce-os-nvidia-broadcom-dismiss-any-threat-while-elon-musk-calls-for-peer-review-system/cZtVwqtRBTL",
-              "published": "2026-09-15T12:16:31+09:00"
+              "title": "핵심은 GPU다 — 엔비디아 AI 슈퍼컴퓨터 비용의 70%가 베라 루빈 칩에 투입돼",
+              "original": "It’s All About the GPUs — 70% of Nvidia’s AI Supercomputer Cost Goes to Vera Rubin Chips",
+              "source": "24/7 Wall St.",
+              "url": "https://247wallst.com/investing/2026/09/15/its-all-about-the-gpus-70-of-nvidias-ai-supercomputer-cost-goes-to-vera-rubin-chips/",
+              "published": "2026-09-16T01:09:32+09:00"
             }
           ]
         },
         {
           "stock": "소파이테크놀로지",
           "ticker": "SOFI",
-          "title": "소파이테크놀로지 - 모기지 인력 채용 논란",
-          "body": "시티즌스 뱅크로부터 모기지 직원 30명을 빼갔다는 비난과 함께 영업비밀 침해 소송에 직면했다는 소식에도 +1.91% 오른 <b>17.65달러</b> 마감.",
-          "pct": 1.91,
-          "price": 17.649999618530273,
+          "title": "소파이테크놀로지 - 모기지 소송 리스크 부각",
+          "body": "모기지 인력 채용과 관련한 영업비밀 소송에 직면했다는 소식 속에 -1.97% 내린 <b>17.30달러</b> 거래 중.",
+          "pct": -1.97,
+          "price": 17.301799774169922,
           "currency": "USD",
-          "as_of": "2026-09-14",
+          "as_of": "2026-09-15",
           "slots": [
             {
               "time": "11:00PM",
-              "price": 17.2549991607666,
-              "pct": -0.38,
+              "price": 17.405000686645508,
+              "pct": -1.39,
               "is_close": false,
-              "date": "2026-09-14",
-              "title": "시장 대비 강세",
-              "text": "채용 관련 소송 이슈에도 시장 하락 속 홀로 상승하는 모습을 보임"
-            },
-            {
-              "time": "마감",
-              "price": 17.649999618530273,
-              "pct": 1.91,
-              "is_close": true,
-              "date": "2026-09-14",
-              "title": "오름폭 되돌림",
-              "text": "오전 강세를 지키지 못하고 장 후반 들어 상승폭을 상당 부분 반납함"
+              "date": "2026-09-15",
+              "title": "소폭 하락 지속",
+              "text": "소송 관련 소식이 전해진 이후 상승분을 지키지 못하고 약세로 돌아선 흐름 이어감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "소파이 테크놀로지스(SOFI), 모기지 인력 30명 채용·영업비밀 침해 소송 직면",
+              "title": "소파이 테크놀로지스(SOFI), 모기지 인력 30명 채용 및 영업비밀 관련 소송 직면",
               "original": "SoFi Technologies (SOFI) Faces Lawsuit Over 30 Mortgage Hires And Trade Secrets",
               "source": "Simply Wall St.",
               "url": "https://finance.yahoo.com/markets/stocks/articles/sofi-technologies-sofi-faces-lawsuit-020910427.html",
               "published": "2026-09-15T11:09:10+09:00"
             },
             {
-              "title": "시장 하락에도 소파이 테크놀로지스(SOFI) 주가는 상승한 이유",
+              "title": "시장은 하락했는데 소파이 테크놀로지스(SOFI)는 왜 올랐나",
               "original": "Why the Market Dipped But SoFi Technologies, Inc. (SOFI) Gained Today",
               "source": "Zacks",
               "url": "https://finance.yahoo.com/markets/stocks/articles/why-market-dipped-sofi-technologies-214503699.html",
               "published": "2026-09-15T06:45:03+09:00"
-            },
-            {
-              "title": "시티즌스 뱅크, 소파이가 모기지 직원 30명 빼갔다고 비난",
-              "original": "Citizens Bank accuses SoFi of poaching 30 mortgage employees",
-              "source": "Banking Dive",
-              "url": "https://www.bankingdive.com/news/citizens-sues-sofi-allege-poaching-30-mortgage-employees-racketeering-charge/830302/",
-              "published": "2026-09-14T21:22:20+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-09-15-us.md",
-      "refreshed_at": "2026-09-15 13:38:45 KST"
+      "markdown": "briefings/2026-09-16-us.md",
+      "refreshed_at": "2026-09-16 02:00:53 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
