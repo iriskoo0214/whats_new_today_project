@@ -8,7 +8,7 @@ data/briefing.json은 같은 내용을 사람이 보거나 다른 도구가 쓰�
 
 import json
 from datetime import datetime
-from typing import Dict, List
+from typing import Dict, List, Optional
 
 from brief import StockBrief, card_body, card_title, headline_line
 from config import (BRIEFING_JS, BRIEFING_JSON, INTRADAY_TIMES_KR,
@@ -66,9 +66,10 @@ def _slots_payload(sb: StockBrief) -> list:
     return out
 
 
-def _market_payload(key: str, briefs: List[StockBrief], now: datetime) -> dict:
+def _market_payload(key: str, briefs: List[StockBrief], now: datetime,
+                    market_summary: Optional[dict] = None) -> dict:
     meta = MARKET_META[key]
-    return {
+    payload = {
         "icon": meta["icon"],
         "label": _label(key, now),
         # 칩은 짧게 — 해외는 티커(MSFT), 국내는 종목명(SK하이닉스).
@@ -78,6 +79,13 @@ def _market_payload(key: str, briefs: List[StockBrief], now: datetime) -> dict:
         "allReadSub": meta["allReadSub"],
         "next": meta["next"],
         "headline": headline_line(briefs, meta["label_ko"]) if briefs else "",
+        # market_headline/market_card — Home 탭 상단 "OO장 마감 요약" 배지와
+        # "OO장 어땠지" 3줄 카드. 보유종목이 아니라 시장 전체(지수·유가·금리)
+        # 뉴스로 만든다(market_news.py, market_summary.py). LLM이 없거나
+        # 실패하면 market_summary가 None으로 와서 두 필드 다 비워둔다 —
+        # 프론트는 이 값이 없으면 그 블록을 숨기면 된다.
+        "market_headline": (market_summary or {}).get("headline", ""),
+        "market_card": (market_summary or {}).get("card"),
         "cards": [
             {
                 "stock": b.name,
@@ -103,6 +111,7 @@ def _market_payload(key: str, briefs: List[StockBrief], now: datetime) -> dict:
             for b in briefs
         ],
     }
+    return payload
 
 
 def _load_previous() -> dict:
@@ -146,7 +155,8 @@ def _merge_slots(prev_market: dict, briefs: List[StockBrief], now: datetime) -> 
 
 def build_payload(briefs_by_market: Dict[str, List[StockBrief]],
                   now: datetime, markdown_path: str = "",
-                  slots_only: bool = False) -> dict:
+                  slots_only: bool = False,
+                  market_summaries: Optional[Dict[str, dict]] = None) -> dict:
     """이번 실행이 맡은 시장만 새로 쓰고, 나머지 시장은 직전 것을 그대로 둔다.
 
     오전 7시 실행은 미국만, 오후 6시 실행은 한국만 갱신한다. 그래도 프로토타입의
@@ -155,9 +165,14 @@ def build_payload(briefs_by_market: Dict[str, List[StockBrief]],
     slots_only면 마감 브리핑은 손대지 않고 시간대별 슬롯만 갱신한다. 장중에 도는
     실행이 여기에 해당한다. refreshed에도 넣지 않는다 — 그 목록이 default 시장을
     정하는데, 장중 슬롯 갱신 때문에 홈 탭이 국내로 뒤집히면 안 된다.
+
+    market_summaries는 {"kr": {...}, "us": {...}} — run_daily.py가 마감
+    브리핑에서만 채워서 넘긴다(market_news.py + market_summary.py). slots_only
+    실행은 애초에 안 만들므로 여기서도 자연히 비워진다.
     """
     previous = _load_previous()
     markets = dict(previous.get("markets") or {})
+    market_summaries = market_summaries or {}
 
     refreshed, slots_refreshed = [], []
     for key, briefs in briefs_by_market.items():
@@ -168,7 +183,7 @@ def build_payload(briefs_by_market: Dict[str, List[StockBrief]],
             markets[key] = _merge_slots(markets[key], briefs, now)
             slots_refreshed.append(key)
             continue
-        payload = _market_payload(key, briefs, now)
+        payload = _market_payload(key, briefs, now, market_summaries.get(key))
         payload["markdown"] = markdown_path
         payload["refreshed_at"] = now.strftime("%Y-%m-%d %H:%M:%S %Z")
         markets[key] = payload

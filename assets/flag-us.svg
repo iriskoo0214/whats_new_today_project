@@ -1,0 +1,13 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Component 1">
+<path id="Vector" d="M17.6667 3.1H2.33333C1.48583 3.1 0.8 3.78583 0.8 4.63333V15.3667C0.8 16.2142 1.48583 16.9 2.33333 16.9H17.6667C18.5142 16.9 19.2 16.2142 19.2 15.3667V4.63333C19.2 3.78583 18.5142 3.1 17.6667 3.1Z" fill="#FAFAFC"/>
+<g id="Group">
+<path id="Vector_2" d="M19.2 13.8333V12.3H0.8V13.8333H19.2Z" fill="#F44336"/>
+<path id="Vector_3" d="M0.8 15.3667C0.8 16.2142 1.48583 16.9 2.33333 16.9H17.6667C18.5142 16.9 19.2 16.2142 19.2 15.3667H0.8Z" fill="#F44336"/>
+<path id="Vector_4" d="M0.8 10.7667H19.2V9.23333H0.8V10.7667Z" fill="#F44336"/>
+<path id="Vector_5" d="M0.8 7.7H19.2V6.16667H0.8V7.7Z" fill="#F44336"/>
+<path id="Vector_6" d="M0.8 4.63333H19.2C19.2 3.78583 18.5142 3.1 17.6667 3.1H2.33333C1.48583 3.1 0.8 3.78583 0.8 4.63333Z" fill="#F44336"/>
+</g>
+<path id="Vector_7" d="M0.8 4.63333V10.7667H10.7667V3.1H2.33333C1.48583 3.1 0.8 3.78583 0.8 4.63333Z" fill="#2272EB"/>
+</g>
+</svg>

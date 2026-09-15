@@ -49,20 +49,25 @@ def _get(url: str) -> bytes:
         return r.read()
 
 
-def _pick(items: List[NewsItem], now: datetime) -> List[NewsItem]:
-    """오늘 발행분을 먼저 채우고, 모자라면 최근 24시간으로 보충한다."""
+def _pick(items: List[NewsItem], now: datetime,
+          limit: int = NEWS_PER_STOCK) -> List[NewsItem]:
+    """오늘 발행분을 먼저 채우고, 모자라면 최근 24시간으로 보충한다.
+
+    limit 기본값은 종목당 개수(NEWS_PER_STOCK)지만, market_news.py는 시장 전체
+    후보 목록을 더 넉넉히 받아야 해서 다른 값을 넘긴다.
+    """
     today = now.date()
     for it in items:
         it.is_today = it.published.date() == today
 
     items.sort(key=lambda i: i.published, reverse=True)
-    picked = [i for i in items if i.is_today][:NEWS_PER_STOCK]
+    picked = [i for i in items if i.is_today][:limit]
 
-    if NEWS_FALLBACK_24H and len(picked) < NEWS_PER_STOCK:
+    if NEWS_FALLBACK_24H and len(picked) < limit:
         cutoff = now - timedelta(hours=24)
         seen = {i.url for i in picked}
         for i in items:
-            if len(picked) >= NEWS_PER_STOCK:
+            if len(picked) >= limit:
                 break
             if i.url not in seen and i.published >= cutoff:
                 picked.append(i)

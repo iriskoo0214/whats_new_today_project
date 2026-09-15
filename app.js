@@ -5,7 +5,6 @@
   var CARD_W     = 343;  // 시안 폭. 유동 레이아웃에서는 rowWidth()로 실측한다
   var BAND_FULL  = 95.7; // 진행 바가 다 찼을 때의 화면 폭 대비 비율 (시안 359/375)
   var OPEN_AT    = 14;   // 이 이상 끌면 열린 상태로 스냅
-  var FULL_AT    = 150;  // 이 이상 끌면 완전 스와이프 = 카드 삭제
   var AXIS_LOCK  = 6;    // 가로/세로 판정 임계값
 
   /* 미국(오전 요약) / 한국(오후 요약) 두 브리핑 — Figma 92:1880, 92:1959
@@ -16,7 +15,6 @@
       icon: 'assets/sun-horizon.svg',
       label: '미국 증시 요약 2026. 7. 31. 7:00AM',
       chips: ['전체', 'IBM', 'MSFT', 'IONQ', 'NDVIA', 'SOFI'],
-      allReadSub: ['오후 6시, 국내 시장을 움직인 이유를 확인하세요.'],
       next: 'kr',
       cards: [
         {
@@ -45,7 +43,6 @@
       icon: 'assets/moon.svg',
       label: '한국 증시 요약 2026. 7. 31. 6:00PM',
       chips: ['전체', 'SK하이닉스', '삼성전자', '현대차', 'LG전자'],
-      allReadSub: ['내일 오전 7시, 미국 시장 브리핑으로', '다시 찾아올게요.'],
       next: 'us',
       cards: [
         {
@@ -88,7 +85,6 @@
                 : (MARKETS.us ? 'us' : Object.keys(MARKETS)[0]);
 
   var list     = document.getElementById('list');
-  var allRead  = document.getElementById('allRead');
   var device   = document.getElementById('device');
   var frameScale = 1;          // 프레임 축소 비율 — 드래그 거리 환산에 쓴다
   var viewport = document.getElementById('viewport');
@@ -103,23 +99,12 @@
   var pfChipHinted = false;   // 포트폴리오 칩 힌트는 탭을 처음 열 때 한 번만
   var chipFilter = null;          // null이면 '전체'
 
-  function visibleRows() {
-    return Array.prototype.filter.call(list.children, function (r) {
-      return !r.classList.contains('is-filtered-out');
-    });
-  }
-
-  function refreshAllRead() {
-    allRead.classList.toggle('is-shown', visibleRows().length === 0);
-  }
-
   function applyChipFilter(index) {
     chipFilter = index;
     if (openRow) close(openRow);                 // 열린 카드가 감춰진 채 남지 않게
     Array.prototype.forEach.call(list.children, function (r) {
       r.classList.toggle('is-filtered-out', index !== null && r._cardIndex !== index);
     });
-    refreshAllRead();
     viewport.scrollTop = 0;
     updateScrollbar();
   }
@@ -258,6 +243,15 @@
 
   /* ---------- render ---------- */
 
+  // data.title은 파이썬이 "종목명 - 사건 요약"으로 합쳐 보낸다(brief.py의
+  // card_title). 새 시안은 종목명을 배지로 따로 떼어 보여주므로 여기서 다시
+  // 쪼갠다 — 목업 데이터(SAMPLE_MARKETS)엔 별도 stock 필드가 없어서, 필드를
+  // 늘리는 대신 실제/목업 데이터 둘 다에 통하는 이 정규식 하나로 처리한다.
+  function splitCardTitle(title) {
+    var m = /^(.*?)\s-\s([\s\S]*)$/.exec(title || '');
+    return m ? { badge: m[1], tail: m[2] } : { badge: '', tail: title || '' };
+  }
+
   function buildRow(data, index) {
     var row = document.createElement('li');
     row.className = 'row';
@@ -266,10 +260,15 @@
     action.className = 'row__action';
     action.innerHTML = '<div class="row__action-inner"><img src="assets/check.svg" alt="확인"></div>';
 
+    var parts = splitCardTitle(data.title);
     var card = document.createElement('div');
     card.className = 'row__card';
     card.innerHTML =
-      '<div class="card-title">' + data.title + '</div>' +
+      '<div class="card-head">' +
+        '<div class="card-ticker">' + parts.badge + '</div>' +
+        '<div class="card-title">' + parts.tail + '</div>' +
+        '<div class="card-read"><span class="card-read__check">✓</span><span class="card-read__label">읽음</span></div>' +
+      '</div>' +
       '<div class="card-body">' + data.body + '</div>' +
       (index === 0 ? '<div class="swipe-hint">← 밀어서 확인</div>' : '');
 
@@ -281,21 +280,58 @@
     row._offset = 0;
     row._cardIndex = index;        // 칩 필터가 이 번호로 카드를 찾는다
 
-    action.addEventListener('click', function (e) {
-      e.stopPropagation();
-      if (row._offset > 0) dismiss(row);
-    });
-
     attachDrag(row);
     return row;
   }
+
+  var WEEKDAY_KO = ['일', '월', '화', '수', '목', '금', '토'];
+  var HOME_FLAG = { kr: 'assets/flag-kr.svg', us: 'assets/flag-us.svg' };
+  var HOME_BADGE_LABEL = { kr: '한국 데일리 브리핑', us: '미국 데일리 브리핑' };
 
   /* 시장(미국/한국)에 따라 헤더·칩·모두읽음 문구까지 함께 갈아끼운다 */
   function renderMarket() {
     var m = MARKETS[marketKey];
     device.dataset.market = marketKey;               // 배경 그라데이션 전환
-    document.getElementById('summaryIcon').src = m.icon;
-    document.getElementById('summaryLabel').textContent = m.label;
+
+    // 날짜 — refreshed_at("YYYY-MM-DD …")에서 뽑는다. 목업 데이터(SAMPLE_MARKETS)엔
+    // 이 필드가 없어서 그때는 오늘 날짜로 대신한다.
+    var d = m.refreshed_at ? new Date(m.refreshed_at.slice(0, 10) + 'T00:00:00') : new Date();
+    document.getElementById('homeDate').textContent =
+      d.getFullYear() + '년 ' + (d.getMonth() + 1) + '월 ' + d.getDate() + '일 ' +
+      WEEKDAY_KO[d.getDay()] + '요일';
+
+    // 시장 배지 — 국기 + "OO 데일리 브리핑", 토글 옆엔 다음(반대편) 시장 국기.
+    // 마스터 컴포넌트(1:1414)의 두 variant는 박스 처리가 달라서(korea-flag 1은
+    // 비대칭 인셋, us-flag-2 1은 꽉 채움) data-variant로 CSS가 갈라 탄다.
+    var badgeFlag = document.getElementById('homeBadgeFlag');
+    badgeFlag.src = HOME_FLAG[marketKey] || HOME_FLAG.kr;
+    badgeFlag.dataset.variant = marketKey === 'us' ? 'us' : 'kr';
+    document.getElementById('homeBadgeLabel').textContent =
+      HOME_BADGE_LABEL[marketKey] || m.label;
+    document.getElementById('homeBadgeFlagNext').src = HOME_FLAG[m.next] || HOME_FLAG.us;
+
+    // 시장 요약(헤드라인+3줄요약) — market_summary.py가 마감 브리핑에서만 채운다.
+    // 아직 안 돌았거나 실패했으면 market_headline이 빈 문자열로 와서 통째로 숨긴다.
+    var summaryEl = document.getElementById('homeSummary');
+    var bullets = (m.market_card && m.market_card.bullets) || [];
+    if (m.market_headline && m.market_card && m.market_card.title && bullets.length) {
+      document.getElementById('homeSummaryHeadline').textContent = m.market_card.title;
+      var list = document.getElementById('homeSummaryBullets');
+      list.innerHTML = '';
+      bullets.forEach(function (text, i) {
+        var li = document.createElement('li');
+        li.innerHTML = '<span class="num">' + (i + 1) + '</span><span class="txt"></span>';
+        li.querySelector('.txt').textContent = text;
+        list.appendChild(li);
+      });
+      summaryEl.hidden = false;
+    } else {
+      summaryEl.hidden = true;
+    }
+    // 예전엔 요약카드 아래 요소들이 전부 position:absolute라 카드 실제 높이를
+    // 못 따라가서 --summary-extra로 실측해 밀어내는 안전장치가 필요했다.
+    // 이제 카드 아래는 flex 세로 흐름이라(styles.css) 카드 실제 높이만큼
+    // 다음 요소가 자동으로 밀린다 — 이 보정 자체가 필요 없어졌다.
 
     var chips = document.getElementById('chips');
     chips.innerHTML = '';
@@ -315,14 +351,6 @@
     attachChipScroll(chips);
     attachChipPager(document.querySelector('.chip-more'), chips);
     hintChipScroll(chips);
-
-    var sub = document.getElementById('allReadSub');
-    sub.innerHTML = '';
-    m.allReadSub.forEach(function (line) {
-      var p = document.createElement('p');
-      p.textContent = line;
-      sub.appendChild(p);
-    });
   }
 
   function render() {
@@ -331,7 +359,6 @@
     list.innerHTML = '';
     openRow = null;
     MARKETS[marketKey].cards.forEach(function (d, i) { list.appendChild(buildRow(d, i)); });
-    allRead.classList.remove('is-shown');
     viewport.scrollTop = 0;
     updateScrollbar();
   }
@@ -389,24 +416,62 @@
     animateTo(row, 0);
   }
 
-  function dismiss(row) {
-    if (row._dismissed) return;
-    row._dismissed = true;
+  // 예전엔 확인 버튼을 누르면 카드가 화면 밖으로 빠지며 사라졌다(dismiss).
+  // 새 시안은 카드를 지우지 않고 반투명해지며 '읽음' 배지가 붙은 채 목록
+  // 맨 아래로 내려간다(요청). 체크를 누르면(카드를 어디까지 끌었든) 끝까지
+  // 스와이프한 것처럼 카드가 왼쪽으로 쭉 밀려나가 완전히 사라지는 모습을
+  // 먼저 보여준 뒤(요청 — "스와이프 돼서 내려가는" 느낌), 그 자리에서 순간
+  // 원래 모양으로 되돌리고 sendToBottom으로 맨 아래에 배치한다. 애니메이션
+  // 자체가 "읽었다"는 확인 동작처럼 읽혀야 해서, 닫히는(offset 0) 모습이
+  // 아니라 밀려 사라지는(offset 최대) 모습으로 간다.
+  // '모두 읽음' 완료 화면은 없앴다(요청) — 다 읽어도 카드는 그냥 맨 아래에
+  // 반투명하게 쌓인다.
+  function markRead(row) {
+    if (row.classList.contains('is-read')) return;
     if (openRow === row) openRow = null;
 
-    // 1) 카드가 왼쪽으로 완전히 빠져나감
     animateTo(row, rowWidth(row), function () {
-      // 2) 자리를 접으면서 사라짐
-      row.style.height = row.offsetHeight + 'px';
-      row.classList.add('is-collapsing');
-      void row.offsetHeight;
-      row.classList.add('collapse-run');
-      setTimeout(function () {
-        row.remove();
-        refreshAllRead();
-        updateScrollbar();
-      }, 280);
+      row.classList.add('is-read');
+      setOffset(row, 0);   // 다음 배치를 위해 애니메이션 없이 원래 모양으로 되돌린다
+      sendToBottom(row);
     });
+  }
+
+  // FLIP(First-Last-Invert-Play)으로 읽은 카드를 맨 아래로 자연스럽게
+  // 미끄러뜨린다 — DOM 순서만 바꾸면 사이에 있던 카드들이 뚝뚝 끊겨 보이므로,
+  // 이동 전/후 위치 차이를 모든 카드에 역산해 transform으로 되돌린 뒤 0으로
+  // 되감아 전부 함께 움직이는 것처럼 보이게 한다.
+  function sendToBottom(row) {
+    var rows = Array.prototype.slice.call(list.children);
+    var before = rows.map(function (r) { return r.getBoundingClientRect().top; });
+
+    list.appendChild(row);   // DOM 순서만 맨 뒤로 옮긴다(화면은 아직 안 바뀜)
+
+    rows.forEach(function (r, i) {
+      var dy = before[i] - r.getBoundingClientRect().top;
+      r.style.transition = 'none';
+      r.style.transform = dy ? 'translateY(' + dy + 'px)' : '';
+    });
+    void list.offsetHeight;   // 강제 리플로우 — 위 translateY를 실제 시작값으로 확정
+
+    var cleanup = function () {
+      rows.forEach(function (r) { r.style.transition = ''; r.style.transform = ''; });
+    };
+    row.addEventListener('transitionend', function end(e) {
+      if (e.target !== row) return;
+      row.removeEventListener('transitionend', end);
+      cleanup();
+    });
+    setTimeout(cleanup, 380);   // transitionend 누락 대비(animateTo와 동일한 보험)
+
+    requestAnimationFrame(function () {
+      rows.forEach(function (r) {
+        r.style.transition = 'transform .32s cubic-bezier(.22,.8,.28,1)';
+        r.style.transform = '';
+      });
+    });
+
+    updateScrollbar();
   }
 
   /* ---------- drag ---------- */
@@ -416,7 +481,7 @@
     var pointerId = null, axis = null;
 
     function onDown(e) {
-      if (row._dismissed) return;
+      if (row.classList.contains('is-read')) return;   // 읽은 카드는 더 끌지 않는다
       if (e.pointerType === 'mouse' && e.button !== 0) return;
       pointerId = e.pointerId;
       startX = e.clientX;
@@ -468,15 +533,24 @@
       pointerId = null;
 
       if (axis !== 'x') {
-        // 열린 카드를 그냥 탭하면 닫기
-        if (axis === null && row._offset > 0) close(row);
+        // 열린 카드를 탭하면 — 초록 체크 영역 위였으면 읽음 처리, 그 밖이면 닫기.
+        // (예전엔 체크 영역에 별도 click 리스너를 달아 처리했는데, 그 click은
+        // 이 pointerup보다 늦게 발생해서 아래 close()가 먼저 offset을 0으로
+        // 되돌려버리는 레이스가 있었다 — 체크를 눌러도 읽음 처리가 안 되던
+        // 원인. 한 곳(여기)에서만 판단하도록 합친다.)
+        if (axis === null && row._offset > 0) {
+          if (row._action.contains(e.target)) markRead(row);
+          else close(row);
+        }
         return;
       }
 
+      // 끝까지 끌어도 바로 읽음 처리하지 않는다 — 열어서(체크 영역 노출) 초록
+      // 면을 직접 눌러야 읽음으로 넘어간다(요청). 실수로 세게 스와이프해도
+      // 확인 없이 바로 읽음 처리되지 않도록 항상 한 단계를 더 거치게 한다.
       var o = row._offset;
-      if (o >= FULL_AT)      dismiss(row);
-      else if (o >= OPEN_AT) open(row);
-      else                   close(row);
+      if (o >= OPEN_AT) open(row);
+      else              close(row);
     }
 
     row.addEventListener('pointerdown', onDown);
@@ -631,8 +705,13 @@
 
   function applyPfCard(card) {
     PF.slots = pfSlotsFromCard(card);
-    document.querySelector('.pf-price__value em').textContent =
-      card.currency === 'USD' ? '달러' : '원';
+    // 시안은 원화를 숫자 뒤 접미사("1,590,000원")로, 달러를 숫자 앞 접두사
+    // ("$38.08")로 그린다 — 그냥 단위만 바꿔 달면 "38.08달러"가 되어 시안과
+    // 어긋난다. data-currency로 .pf-price__value의 flex 방향을 뒤집는다.
+    var em = document.querySelector('.pf-price__value em');
+    var isUsd = card.currency === 'USD';
+    em.textContent = isUsd ? '$' : '원';
+    em.closest('.pf-price__value').dataset.currency = isUsd ? 'usd' : 'krw';
     // 헤더 날짜는 슬롯이 실제로 어느 거래일 것인지를 따른다
     var slotDay = (card.slots && card.slots.length && card.slots[0].date) || card.as_of;
     if (slotDay) {
@@ -769,6 +848,10 @@
     // 칩 줄을 맨 위에 고정하면 뒤의 배경 두 장이 함께 따라오지 못해 밑이 비친다.
     // 그래서 칩 줄이 같은 그림을 직접 그리는데, 그러려면 진행 컬럼 폭을 알아야 한다.
     screenPf.style.setProperty('--band', s.band + '%');
+    // 진행 바가 화면 절반을 넘으면 그 위 텍스트(날짜·탭·종목명)가 진한 색 배경
+    // 위에 앉는다 — 시안 대조 결과 24%·48%는 어두운 글자, 72.5%·95.7%는 흰
+    // 글자였다. 정확한 경계값은 48~72.5% 사이 어딘가라 그 중간인 50%로 나눈다.
+    screenPf.dataset.bandWide = (s.band >= 50) ? '1' : '';
     document.getElementById('pfPrev').disabled = (pfSlot === 0);
     document.getElementById('pfNext').disabled = (pfSlot === PF.slots.length - 1);
     applySlotTrend(s);
@@ -871,19 +954,23 @@
     if (!animate) { void tabIndicator.offsetWidth; tabIndicator.style.transition = ''; }
   }
 
-  /* 포트폴리오 탭에서는 문서 자체가 스크롤되게 한다(CSS는 .doc-scroll 로 받는다).
+  /* 홈·포트폴리오 두 탭 다 문서 자체가 스크롤되게 한다(CSS는 .doc-scroll 로 받는다).
 
-     원래는 .screen--pf 안쪽에 overflow-y:auto 를 줘서 굴렸는데, 아이폰 사파리에서
-     그 스크롤이 아예 생기지 않았다. 화면 높이를 svh로 잡아도 마찬가지였다.
-     문서 스크롤은 브라우저가 직접 굴리는 것이라 그런 사정을 타지 않고, 굴리는
-     동안 주소창이 접히면서 세로가 60~100px 더 생기는 덤도 있다.
+     원래는 각 탭 안쪽에 overflow-y:auto 를 줘서 그 상자 안에서만 굴렸는데(홈은
+     .list-viewport, 포트폴리오는 .screen--pf), 아이폰 사파리에서 그 안쪽
+     스크롤이 아예 생기지 않는 문제가 있었다. 화면 높이를 svh로 잡아도
+     마찬가지였다. 문서 스크롤은 브라우저가 직접 굴리는 것이라 그런 사정을
+     타지 않고, 굴리는 동안 주소창이 접히면서 세로가 60~100px 더 생기는 덤도
+     있다. 게다가 "여기(카드 목록)만 스크롤되고 날짜·배지·요약카드·필터는
+     고정"이던 것도 이걸로 같이 해결된다 — 전부 한 흐름으로 같이 굴러간다
+     (좌표를 flex 흐름으로 바꾼 CSS는 styles.css의 @media max-width:520px
+     "홈: 문서 스크롤" 블록 참고).
 
-     홈 탭은 .list-viewport 가 top/bottom 절대좌표로 자리를 잡고 있어서, 문서가
-     늘어나면 그 좌표가 무너진다. 그래서 포트폴리오일 때만 켠다. */
+     설정 탭은 미구현이라 여기 오지 않는다(탭 클릭 핸들러가 먼저 걸러낸다). */
   function setDocScroll(key) {
-    document.documentElement.classList.toggle('doc-scroll', key === 'portfolio');
+    document.documentElement.classList.toggle('doc-scroll', key === 'portfolio' || key === 'home');
     // 탭을 바꿀 때 이전 탭에서 내려둔 스크롤이 남아 있으면 새 화면이 잘려 보인다
-    if (key !== 'portfolio') window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
   }
 
   document.querySelectorAll('.tab').forEach(function (tab) {
@@ -895,10 +982,6 @@
       moveIndicator(true);
       device.dataset.tab = key;
       setDocScroll(key);
-      // 상태바 아이콘 흑/백 교체
-      document.querySelectorAll('.status-icons img').forEach(function (img) {
-        img.src = img.dataset[key === 'portfolio' ? 'w' : 'b'];
-      });
       // 탭을 열 때마다 최신 시간대로 되돌린다. 지난번에 9:10AM을 보다 나갔다고
       // 다음에 들어올 때도 9:10AM으로 맞아줄 이유는 없다.
       if (key === 'portfolio') { pfSlot = latestSlot(); renderPf(false); }
@@ -913,14 +996,8 @@
 
   /* ---------- 시장 전환 ---------- */
 
-  // 모두 읽음 화면의 버튼 → 문구가 가리키는 다음 시장 브리핑으로
-  // (미국 "오후 6시, 국내 시장을…" → 한국 / 한국 "내일 오전 7시, 미국 시장…" → 미국)
-  document.getElementById('reset').addEventListener('click', function () {
-    switchMarket(MARKETS[marketKey].next);
-  });
-
-  // 프로토타입 확인용 단축 동작 — 요약 타이틀을 탭하면 시장 전환
-  document.getElementById('summaryTitle').addEventListener('click', function () {
+  // 프로토타입 확인용 단축 동작 — 시장 배지를 탭하면 시장 전환
+  document.getElementById('homeBadge').addEventListener('click', function () {
     switchMarket(MARKETS[marketKey].next);
   });
 
@@ -955,6 +1032,29 @@
   pfSlot = latestSlot();
   renderPf(false);
   moveIndicator(false);
+  setDocScroll(device.dataset.tab);   // 첫 로드(기본 홈 탭)에도 .doc-scroll을 걸어야 한다
+
+  // 모바일 문서 스크롤에서 .pf-tabs(종목 칩 줄)는 .pf-col--mid(진행 바
+  // 그라데이션)가 그 자리에 남아있는 동안은 자기 배경을 그리지 않는다
+  // (styles.css .is-stuck 참고) — .pf-tabs는 sticky로 항상 같은 화면
+  // 위치(56~119.5px)에 붙어 있는데, 그 자연스러운 자리 자체가 이미 sticky
+  // top과 같아서 "붙는 순간"이 따로 없다(.pf-tabs 자신을 관찰하면 처음부터
+  // 계속 "붙어있다"고 나와 아무 효과가 없다 — 실제로 그렇게 짜서 확인했다).
+  // 대신 .pf-col--mid를 관찰한다: 스크롤이 진행돼 .pf-col--mid의 아랫변이
+  // .pf-tabs 아랫변(뷰포트 119.5px) 위로 완전히 넘어가면(=더 이상 그 자리를
+  // 덮지 않으면) 그때부터만 칩 줄이 자기 배경을 대신 그린다. 그 전까지 같이
+  // 그리면 밴드 폭 안에서 .pf-col--mid(옅은 그라데이션)와 .pf-tabs(불투명
+  // 단색)가 겹쳐 칩 줄 높이(63.5px)만큼만 유난히 진하게 떠 보인다(실제 버그로
+  // 발견됨).
+  var pfColMidEl = document.querySelector('.pf-col--mid');
+  var pfTabsEl = document.querySelector('.pf-tabs');
+  if (pfColMidEl && pfTabsEl && 'IntersectionObserver' in window) {
+    new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        pfTabsEl.classList.toggle('is-stuck', !entry.isIntersecting);
+      });
+    }, { threshold: [0], rootMargin: '-119.5px 0px 0px 0px' }).observe(pfColMidEl);
+  }
 
   // 리스트 밖을 탭하면 열린 카드 닫기
   viewport.addEventListener('pointerdown', function (e) {

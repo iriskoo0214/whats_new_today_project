@@ -44,21 +44,37 @@ document.write('<link rel="stylesheet" href="styles.css?t=' + Date.now() + '">')
 
   <!-- ============ Home 탭 ============ -->
   <section class="screen screen--home" id="screenHome">
-  <div class="blob"></div>
-
   <!-- App Bar -->
   <div class="app-bar">
     <img class="logo" src="assets/logo.svg" alt="노트폴리오" />
     <span class="bell icon24"><img class="i-bell" src="assets/notification.svg" alt="알림" /></span>
   </div>
 
-  <!-- Summary title -->
-  <button class="summary-title" id="summaryTitle" title="다른 시장 브리핑 보기(프로토타입 전환용)">
-    <img id="summaryIcon" src="assets/sun-horizon.svg" alt="" />
-    <span id="summaryLabel">미국 증시 요약 2026. 7. 31. 7:00AM</span>
+  <!-- 날짜 (1:1033) -->
+  <div class="home-date" id="homeDate"></div>
+
+  <!-- 시장 배지 + 전환 토글 (1:1072, 예전 summary-title 자리) -->
+  <button class="home-badge" id="homeBadge" title="다른 시장 브리핑 보기(프로토타입 전환용)">
+    <span class="home-badge__group">
+      <span class="home-badge__flag-box">
+        <img class="home-badge__flag" id="homeBadgeFlag" src="assets/flag-kr.svg" alt="" />
+      </span>
+      <span class="home-badge__label" id="homeBadgeLabel">한국 데일리 브리핑</span>
+    </span>
+    <span class="home-badge__group">
+      <span class="home-badge__toggle"><img src="assets/arrows-left-right.svg" alt="" /></span>
+      <img class="home-badge__flag-next" id="homeBadgeFlagNext" src="assets/flag-us.svg" alt="" />
+    </span>
   </button>
 
-  <!-- Filters -->
+  <!-- 시장 요약 — 헤드라인 + 3줄요약 (1:1081). market_headline/market_card가
+       없으면(파이프라인 아직 안 돌림) 통째로 숨긴다 — renderMarket()에서 처리. -->
+  <div class="home-summary" id="homeSummary" hidden>
+    <div class="home-summary__headline" id="homeSummaryHeadline"></div>
+    <ol class="home-summary__bullets" id="homeSummaryBullets"></ol>
+  </div>
+
+  <!-- Filters (Tab List Container, 1:1056) -->
   <div class="filters">
     <div class="chip-scroll" id="chips"></div>
     <button class="chip-more" aria-label="다음 종목 보기">
@@ -66,35 +82,32 @@ document.write('<link rel="stylesheet" href="styles.css?t=' + Date.now() + '">')
     </button>
   </div>
 
+  <!-- 내 종목 브리핑 (1:1034) -->
+  <div class="home-section-title">내 종목 브리핑</div>
+
   <!-- Card list -->
   <div class="list-viewport" id="viewport">
     <ul class="list" id="list"></ul>
   </div>
 
-  <!-- 모두 읽음 상태 -->
-  <div class="all-read" id="allRead">
-    <div class="all-read__badge">
-      <img class="all-read__star" src="assets/star-badge.svg" alt="" />
-      <img class="all-read__check" src="assets/check.svg" alt="" />
-    </div>
-    <div class="all-read__body">
-      <div class="all-read__text">
-        <div class="all-read__title">오늘의 브리핑을 모두 확인했어요.</div>
-        <div class="all-read__sub" id="allReadSub"></div>
-      </div>
-      <button class="all-read__btn" id="reset">브리핑 다시 불러오기</button>
-    </div>
-  </div>
-
   <div class="scrollbar" id="scrollbar"><div class="scrollbar__thumb" id="thumb"></div></div>
   </section>
 
-  <!-- ============ Portfolios 탭 (155:6443) ============ -->
+  <!-- ============ Portfolios 탭 (1:469 — 2026-09 리디자인) ============ -->
   <section class="screen screen--pf" id="screenPf" data-trend="up">
-    <!-- 상단 파랑 영역 + 장중 진행 컬럼 -->
+    <!-- topbackground(1:470/1:534) — 화면 전체 폭(375×441)에 깔리는 은은한 배경.
+         트렌드 색 위에 밝은 그라데이션을 겹쳐서 위쪽만 살짝 색이 비친다.
+         진행 바(.pf-col--mid)와 무관하게 항상 전체 폭으로 깔리는 별개 레이어라
+         맨 앞(=가장 아래)에 둔다. -->
+    <div class="pf-topbg"></div>
+
+    <!-- 상단: 날짜 이동 + 진행 바(Stock Price Background #1)의 head 조각.
+         pfColHead는 새 시안엔 자리가 없어 높이 0으로 접어뒀지만, JS가 두 요소
+         폭을 함께 갱신하므로(emit.py 슬롯 로직과 짝) 지우지 않는다. 짧은 화면
+         흐름 모드(html.doc-scroll)에서 .pf-col--mid의 height:100%가 이 아래
+         .pf-middle의 실제 높이를 기준으로 계산돼야 해서 같은 부모 안에 둔다. -->
     <div class="pf-top">
       <div class="pf-col pf-col--head" id="pfColHead"></div>
-      <div class="pf-header">Portfolios</div>
       <div class="pf-datepicker">
         <button class="pf-nav pf-nav--prev" id="pfPrev" aria-label="이전 시간대">
           <img src="assets/chevron-right.svg" alt="" />
@@ -106,19 +119,26 @@ document.write('<link rel="stylesheet" href="styles.css?t=' + Date.now() + '">')
       </div>
     </div>
 
-    <!-- 중단: 그라데이션 + 종목탭 + 종목정보 + 가격 -->
+    <!-- 중단: 진행 바 + 종목탭 + 종목정보 + 가격 -->
     <div class="pf-middle">
-      <div class="pf-middle__sky"></div>
       <div class="pf-col pf-col--mid" id="pfColMid"></div>
-
       <div class="pf-tabs">
         <div class="pf-tabs__scroll" id="pfChips"></div>
         <button class="pf-tabs__more" aria-label="다음 종목 보기"><img src="assets/chip-more.svg" alt="" /></button>
       </div>
 
+      <!-- 종목명 + 어제보다 등락률. 자연어 헤드라인(pfHeadline)은 새 시안에 없어서
+           숨겨뒀다 — pfHeadlineText() 로직 자체는 지우지 않았다. -->
       <div class="pf-stock">
         <div class="pf-stock__name" id="pfStock">SK하이닉스</div>
-        <div class="pf-stock__desc" id="pfHeadline"></div>
+        <div class="pf-price__info">
+          <p class="pf-price__yday">어제보다</p>
+          <div class="pf-price__change">
+            <img id="pfTriangle" src="assets/triangle-up.svg" alt="" />
+            <span id="pfPct"></span>
+          </div>
+        </div>
+        <div class="pf-stock__desc" id="pfHeadline" hidden></div>
       </div>
 
       <!-- 누르는 곳이 아니다. 색은 그날 등락 방향으로 고정된다 -->
@@ -127,13 +147,6 @@ document.write('<link rel="stylesheet" href="styles.css?t=' + Date.now() + '">')
         <div class="pf-time__label" id="pfTimeLabel"></div>
         <div class="pf-price">
           <p class="pf-price__value"><span id="pfPrice"></span><em>원</em></p>
-          <div class="pf-price__info">
-            <div class="pf-price__change">
-              <img id="pfTriangle" src="assets/triangle-up.svg" alt="" />
-              <span id="pfPct"></span>
-            </div>
-            <p class="pf-price__yday">어제보다</p>
-          </div>
         </div>
       </div>
     </div>
@@ -143,7 +156,10 @@ document.write('<link rel="stylesheet" href="styles.css?t=' + Date.now() + '">')
     <div class="pf-briefs" id="pfBriefs"><div class="pf-briefs__row" id="pfBriefRow"></div></div>
   </section>
 
-  <!-- Status Bar (두 탭 공용) -->
+  <!-- Status Bar (두 탭 공용). data-w/data-b는 예전에 Portfolios가 파란 히어로라
+       흰 아이콘으로 바꿔 끼우던 용도였다(app.js). 이제 두 탭 다 밝은 배경이라
+       항상 기본값(검정)을 쓰면 되고, 그 교체 로직은 뺐다 — 속성은 나중에 어두운
+       화면이 생기면 다시 쓸 수 있어 남겨둔다. -->
   <div class="status-bar">
     <div class="status-time">9:41</div>
     <div class="status-icons">

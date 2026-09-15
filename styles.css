@@ -53,26 +53,6 @@
     transform-origin:center center;
   }
 
-  /* blurred warm gradient blob (92:1881) */
-  .blob{
-    position:absolute;left:50%;top:541px;transform:translateX(-50%);
-    width:393px;height:393px;
-    background:linear-gradient(180deg,
-      rgba(255,40,2,.4) 0%,
-      rgba(254,128,4,.4) 50%,
-      rgba(239,187,2,.4) 100%);
-    filter:blur(50px);
-    pointer-events:none;z-index:0;
-    transition:background .45s ease;
-  }
-  /* 한국(오후 요약) 그라데이션 — Figma 92:1960 */
-  .device[data-market="kr"] .blob{
-    background:linear-gradient(180deg,
-      rgba(91,161,251,.4) 0%,
-      rgba(179,139,158,.4) 36.543%,
-      rgba(249,111,39,.4) 75%);
-  }
-
   /* ---------- status bar ---------- */
   .status-bar{position:absolute;inset:0 0 auto 0;height:44px;display:flex;align-items:center;z-index:5;}
   .status-time{
@@ -100,24 +80,125 @@
   .i-setting{left:2.527px;top:1.528px;width:19.287px;  height:20.722px;}
 
   /* ---------- app bar (92:1929) ---------- */
-  .app-bar{position:absolute;left:0;top:44px;width:100%;height:60px;z-index:5;}
+  /* ---------- Home 탭 — flex 세로 흐름 ----------
+     예전엔 날짜·배지·요약카드·섹션타이틀·필터·카드목록을 전부 Figma 좌표
+     그대로 position:absolute로 박아 넣었다(+44는 상태바 높이 보정). 그러면
+     "카드 목록(.list-viewport)만 자기 상자 안에서 스크롤되고 나머지는 화면에
+     고정"되는 구조가 된다 — 스크롤이 데일리 브리핑(날짜·배지·요약카드) 자리
+     까지 올라가지 않는다는 문제가 그래서 생겼다.
+
+     지금은 전부 flex 세로 흐름(.screen--home)으로 쌓는다. 간격은 Figma
+     원본 좌표의 차이값을 그대로 margin으로 옮겼다(예: 배지 밑단(122+21=143)
+     → 요약카드 위(151) = 8px). --summary-extra 같은 보정도 필요 없다 — 요약
+     카드 실제 높이만큼 다음 요소가 flow로 자동으로 밀린다.
+
+     스크롤은 .screen--home 자신이 담당한다(overflow-y:auto, 아래에 선언) —
+     데스크톱 목업은 고정 375×812 프레임 "안에서" 스크롤되고, 실제 폰 폭
+     (max-width:520px)에서는 문서 자체가 스크롤되도록 doc-scroll이 이걸
+     다시 덮어쓴다(app.js의 setDocScroll — 아이폰 사파리는 안쪽 overflow-y:
+     auto가 안 먹혀서 Portfolios 탭도 같은 방식을 쓴다).
+
+     .screen.screen--home으로 클래스 둘을 같이 건다 — 이 파일 뒤쪽의 공용
+     .screen{overflow:hidden}과 특이도(둘 다 클래스 1개, 소스 순서로 승부)가
+     같으면 나중에 오는 공용 규칙이 이겨서 스크롤이 다시 막힌다. */
+  .screen.screen--home{
+    overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch;
+    display:flex;flex-direction:column;
+  }
+
+  /* 상단 고정(Figma "Frame 32") — 스크롤해도 로고/알림줄은 그대로 남고
+     아래 내용만 그 밑으로 흘러간다. top:44px는 그 위에 겹쳐진 가짜
+     상태바(.status-bar, 44px)를 가리지 않기 위해서다 — 모바일은 진짜
+     상태바가 따로 있어(.status-bar 자체가 안 보임) top:0으로 내린다. */
+  .app-bar{
+    position:sticky;top:44px;width:100%;height:60px;z-index:5;
+    order:1;margin-top:44px;flex-shrink:0;background:var(--bg);
+  }
   .app-bar .logo{position:absolute;left:16px;top:50%;transform:translateY(-50%);width:40px;height:40px;display:block;}
   .app-bar .bell{position:absolute;right:16px;top:50%;transform:translateY(-50%);}
 
-  /* ---------- summary title (92:1938) ---------- */
-  .summary-title{
-    position:absolute;left:16px;top:120px;z-index:4;
-    display:flex;align-items:center;gap:3px;
-    padding:0;border:none;background:none;font-family:inherit;
-    font-size:16px;font-weight:600;letter-spacing:-.4px;color:var(--muted);line-height:1.4;
-    white-space:nowrap;cursor:pointer;
+  /* ---------- 날짜 (1:1033) ---------- */
+  .home-date{
+    position:relative;order:2;margin:14px 0 0 16px;z-index:4;flex-shrink:0;   /* app-bar 밑단(60) → 날짜 위(74) = 14 */
+    font-size:16px;font-weight:400;letter-spacing:-.4px;line-height:1.5;color:#202326;
+    white-space:nowrap;
   }
-  .summary-title:active{opacity:.6;}
-  .summary-title img{width:20px;height:20px;display:block;}
 
-  /* ---------- filter chips (92:1942) ---------- */
+  /* ---------- 시장 배지 (1:1072, 예전 summary-title 자리) ----------
+     예전엔 "미국 증시 요약 2026. 7. 31. 7:00AM"처럼 시장+시각을 한 줄로 합쳐
+     보여줬다. 새 시안은 국기 배지("한국 데일리 브리핑")와 위 날짜를 분리하고,
+     반대편 시장으로 넘어가는 토글(화살표)과 그 시장의 국기를 오른쪽에 둔다. */
+  /* Figma 원본(1:1072)은 justify-content:space-between도 아니고 폭도
+     따로 없다 — 내용만큼만 차지하는(hug) 줄이라 토글이 라벨 바로 옆에
+     붙는다. width:calc(...)+space-between으로 만들면서 토글이 화면
+     오른쪽 끝까지 밀려나 있었다(실제 겪은 버그). */
+  .home-badge{
+    position:relative;order:3;margin:24px 0 0 16px;z-index:4;flex-shrink:0;   /* 날짜 밑단(98) → 배지 위(122) = 24 */
+    display:flex;align-items:center;gap:8px;
+    padding:0;border:none;background:none;font-family:inherit;cursor:pointer;
+  }
+  .home-badge:active{opacity:.6;}
+  .home-badge__group{display:flex;align-items:center;gap:4px;}
+  /* 진짜 마스터 컴포넌트(1:1414, property1: "korea-flag 1" | "us-flag-2 1")를
+     찾아서 대조했다 — 두 variant가 박스 모델부터 다르다.
+       korea-flag 1: 바깥 20×20 overflow-clip, 안쪽 그래픽은
+         inset-[15%_3%_16%_5%](비대칭! 대칭 12.5%/0이 아니었다)로 들어간다.
+       us-flag-2 1: 클립도 인셋도 없이 그냥 20×20을 꽉 채운다(inset-0 size-full).
+     data-variant로 두 처리를 나눈다 — renderMarket()이 marketKey에 맞춰 단다. */
+  .home-badge__flag-box{
+    position:relative;flex:0 0 auto;width:20px;height:20px;overflow:hidden;
+  }
+  .home-badge__flag{position:absolute;display:block;opacity:1;object-fit:contain;}
+  .home-badge__flag[data-variant="kr"]{left:5%;top:15%;width:92%;height:69%;}
+  .home-badge__flag[data-variant="us"]{left:0;top:0;width:100%;height:100%;}
+  .home-badge__flag-next{width:20px;height:20px;display:block;opacity:.6;object-fit:contain;}
+  .home-badge__label{
+    font-size:14px;font-weight:600;letter-spacing:-.35px;line-height:1.5;color:#202326;white-space:nowrap;
+  }
+  .home-badge__toggle{
+    width:20px;height:20px;padding:2.222px;border-radius:50%;background:#d9d9d9;
+    display:flex;align-items:center;justify-content:center;
+  }
+  .home-badge__toggle img{width:13.333px;height:13.333px;display:block;}
+
+  /* ---------- 시장 요약 — 헤드라인 + 3줄요약 (1:1081) ---------- */
+  .home-summary{
+    position:relative;order:4;margin:8px 16px 0;width:auto;z-index:4;flex-shrink:0;  /* 배지 밑단(143) → 요약카드 위(151) = 8 */
+    background:rgba(255,255,255,.6);padding:16px;
+    display:flex;flex-direction:column;gap:8px;
+  }
+  /* [hidden]의 기본 display:none과 이 규칙의 display:flex는 상세도가 같아서
+     소스 순서로 display:flex가 이긴다 — 명시적으로 다시 꺼준다 */
+  .home-summary[hidden]{display:none;}
+  .home-summary__headline{
+    font-size:20px;font-weight:600;letter-spacing:-.5px;line-height:1.5;color:#15171a;
+  }
+  /* Figma가 py-[10px]라고 정확히 명시 — 위만이 아니라 아래도 10px 여백 */
+  .home-summary__bullets{
+    display:flex;flex-direction:column;gap:8px;
+    padding:10px 0;list-style:none;
+  }
+  .home-summary__bullets li{display:flex;gap:6px;align-items:center;}
+  .home-summary__bullets .num{
+    flex:0 0 auto;width:18px;height:18px;border-radius:50%;background:#adb7c1;
+    display:flex;align-items:center;justify-content:center;
+    font-size:11px;font-weight:600;letter-spacing:-.275px;color:#fff;
+  }
+  .home-summary__bullets .txt{
+    font-size:15px;font-weight:400;letter-spacing:-.375px;line-height:1.5;color:#464a4e;
+  }
+
+  /* ---------- 내 종목 브리핑 (1:1034) ---------- */
+  .home-section-title{
+    position:relative;order:5;margin:20px 0 0 16px;z-index:4;flex-shrink:0;   /* 요약카드 밑단(356) → 제목 위(376) = 20 */
+    font-size:14px;font-weight:600;letter-spacing:-.35px;line-height:1.5;color:#202326;
+    white-space:nowrap;
+  }
+
+  /* ---------- 종목 필터 탭 (Tab List Container, 1:1056) ----------
+     "전체" 활성 배지가 검정 배경 필로 바뀐다(예전엔 그냥 검정 텍스트 반전이었다). */
   .filters{
-    position:absolute;left:0;top:149px;width:100%;
+    position:relative;order:6;margin-top:12px;width:100%;flex-shrink:0;        /* 제목 밑단(397) → 필터 위(409) = 12 */
     padding:10px 16px;z-index:4;
     display:flex;align-items:center;justify-content:space-between;gap:7px;
   }
@@ -131,12 +212,12 @@
     flex:0 0 auto;
     display:flex;align-items:center;justify-content:center;
     padding:12px 10px;border-radius:4px;
-    border:1px solid rgba(0,0,0,.2);
+    border:1px solid rgba(70,74,78,.4);
     font-size:12px;font-weight:600;letter-spacing:-.3px;line-height:normal;
-    color:rgba(0,0,0,.6);background:transparent;
+    color:rgba(70,74,78,.8);background:transparent;
     white-space:nowrap;cursor:pointer;transition:background .18s,color .18s,border-color .18s;
   }
-  .chip.is-active{background:#000;border-color:#000;color:#fff;}
+  .chip.is-active{background:#15171a;border-color:#202326;color:#fff;}
   /* 테두리가 SVG 안에 들어 있어 CSS 테두리는 걷어낸다(이중선 방지) */
   .chip-more{
     flex:0 0 auto;height:38px;width:22px;
@@ -172,15 +253,14 @@
   .chip-more.is-rewind img, .pf-tabs__more.is-rewind img{transform:rotate(180deg);}
   .chip-more[disabled], .pf-tabs__more[disabled]{opacity:.35;pointer-events:none;}
 
-  /* ---------- card list ---------- */
+  /* ---------- card list (1:1105) ----------
+     더 이상 자기 혼자 스크롤되는 상자가 아니다 — .screen--home(또는 실제
+     폰에서는 문서)이 스크롤을 맡고, 여기는 그냥 흐름에 놓인다. */
   .list-viewport{
-    position:absolute;left:0;top:206px;width:100%;bottom:0;
-    overflow-y:auto;overflow-x:hidden;
-    -webkit-overflow-scrolling:touch;scrollbar-width:none;
+    position:relative;order:7;margin-top:8px;width:100%;flex-shrink:0;         /* 필터 밑단(467) → 카드 위(475) = 8 */
+    overflow:visible;
     z-index:3;
-    overscroll-behavior:contain;
   }
-  .list-viewport::-webkit-scrollbar{display:none;}
   .list{
     display:flex;flex-direction:column;gap:4px;
     width:var(--card-w);margin:9px auto 0;
@@ -217,7 +297,6 @@
   .row__card{
     position:relative;
     width:var(--card-w);
-    height:122px;              /* Figma 92:1903 등 contents 높이 */
     overflow:hidden;           /* 내용이 하단 패딩을 침범하지 못하게 */
     background:var(--card-bg);
     padding:16px 12px;
@@ -230,17 +309,43 @@
   }
   .row.is-animating .row__action{transition:width .3s cubic-bezier(.22,.8,.28,1);}
 
+  /* 카드 상단 줄 — 종목 배지 + 제목(+ 읽으면 '읽음' 칩). data.title("종목명 -
+     사건 요약")을 app.js가 쪼개서 배지/제목으로 따로 넣는다. */
+  .card-head{display:flex;align-items:center;gap:6px;}
+  .card-ticker{
+    flex:0 0 auto;
+    border:1px solid rgba(70,74,78,.4);border-radius:4px;padding:4px 6px;
+    font-size:13px;font-weight:600;letter-spacing:-.325px;line-height:1.4;color:rgba(70,74,78,.8);
+    white-space:nowrap;
+  }
   /* 스와이프로 카드 폭이 299px까지 줄어도 내용이 카드 안쪽 패딩(16px)을 넘지 않도록
-     제목 1줄 / 본문 3줄에서 각각 말줄임(…) 처리 — Figma의 overflow-hidden + text-ellipsis */
+     제목은 말줄임(…) 처리 — Figma의 overflow-hidden + text-ellipsis.
+     flex 안에서 text-overflow가 먹으려면 min-width:0이 있어야 한다(흔한 함정). */
   .card-title{
-    font-size:15px;font-weight:600;letter-spacing:-.375px;line-height:1.4;color:var(--label-strong);
+    flex:1 1 auto;min-width:0;
+    font-size:15px;font-weight:600;letter-spacing:-.375px;line-height:1.4;color:#202326;
     white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
   }
+  /* '읽음' 칩 — 평소엔 안 보이다가(자리도 안 차지) is-read일 때만 나타난다.
+     Read Chip(1:1133) */
+  .card-read{
+    display:none;flex:0 0 auto;align-items:center;gap:3px;margin-left:6px;
+    background:#c9cfd8;color:#3e454f;border-radius:23px;padding:4px 8px;
+    font-weight:600;white-space:nowrap;
+  }
+  /* Figma는 체크(11px)와 "읽음"(12px) 글자 크기를 다르게 준다 */
+  .card-read__check{font-size:11px;}
+  .card-read__label{font-size:12px;}
+  .row.is-read .card-read{display:flex;}
+  /* 읽은 카드는 지우지 않고 그 자리에서 반투명해진다(옛날엔 사라졌다) */
+  .row.is-read .row__card{opacity:.5;}
+  /* 예전엔 -webkit-line-clamp:3으로 본문을 3줄에서 잘랐지만, 이제 본문 문장을
+     글자 수로 자르지 않으므로(summarize.py 참고) 카드가 내용만큼 늘어나게 둔다 —
+     패딩(16px 12px)만 Figma와 맞으면 카드 높이는 고정값이 아니어도 된다. */
   .card-body{
-    margin-top:6px;
-    font-size:14px;font-weight:400;letter-spacing:-.35px;line-height:1.5;color:var(--label-strong);
+    margin-top:12px;
+    font-size:14px;font-weight:400;letter-spacing:-.35px;line-height:1.5;color:rgba(32,35,38,.9);
     word-break:break-word;
-    display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;
   }
   .card-body b{font-weight:600;}
 
@@ -271,61 +376,11 @@
     75%{transform:translateX(-6px);opacity:1;}
   }
 
-  /* ---------- 모두 읽음 상태 (136:2919) ---------- */
-  .all-read{position:absolute;inset:0;z-index:4;display:none;pointer-events:none;}
-  .all-read.is-shown{display:block;}
-
-  .all-read__badge{
-    position:absolute;left:50%;top:255px;transform:translateX(-50%);
-    width:128px;height:128px;
-  }
-  .all-read__star{position:absolute;left:-8.064px;top:-8.064px;width:152.138px;height:152.138px;display:block;}
-  .all-read__check{position:absolute;left:34px;top:34px;width:60px;height:60px;display:block;}
-
-  /* 143:3188 — 문구 그룹 + 버튼을 한 덩어리로 (top 419, w304, gap 24) */
-  .all-read__body{
-    position:absolute;left:50%;top:419px;transform:translateX(-50%);
-    width:304px;
-    display:flex;flex-direction:column;align-items:center;gap:24px;
-  }
-  .all-read__text{
-    width:100%;
-    display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center;
-  }
-  .all-read__title{
-    width:304px;
-    font-size:24px;font-weight:600;letter-spacing:-.6px;line-height:1.4;color:var(--label-strong);
-  }
-  .all-read__sub{
-    font-size:15px;font-weight:500;letter-spacing:-.375px;line-height:1.5;color:var(--muted);
-    white-space:nowrap;   /* 줄바꿈은 디자인대로 문구를 나눠서 넣는다 */
-  }
-  /* 94:8690 — 브리핑 다시 불러오기 버튼 */
-  .all-read__btn{
-    padding:12px 10px;border:none;border-radius:4px;background:#000;
-    font-family:inherit;font-size:14px;font-weight:600;letter-spacing:-.35px;line-height:1.5;
-    color:#fff;text-align:center;white-space:nowrap;
-    cursor:pointer;pointer-events:auto;
-    transition:transform .12s ease, opacity .12s ease;
-  }
-  .all-read__btn:active{transform:scale(.96);opacity:.85;}
-
-  /* 마지막 카드를 지운 뒤 등장하는 모션 */
-  .all-read.is-shown .all-read__badge{animation:badgePop .5s cubic-bezier(.18,.9,.32,1.2) both;}
-  .all-read.is-shown .all-read__text{animation:riseIn .45s cubic-bezier(.2,.8,.3,1) .08s both;}
-  .all-read.is-shown .all-read__btn{animation:riseIn .45s cubic-bezier(.2,.8,.3,1) .16s both;}
-  @keyframes badgePop{
-    0%{opacity:0;transform:translateX(-50%) scale(.5) rotate(-25deg);}
-    60%{opacity:1;transform:translateX(-50%) scale(1.06) rotate(4deg);}
-    100%{opacity:1;transform:translateX(-50%) scale(1) rotate(0);}
-  }
-  @keyframes riseIn{
-    from{opacity:0;transform:translateY(12px);}
-    to{opacity:1;transform:translateY(0);}
-  }
-
-  /* custom scrollbar (92:1957) */
-  .scrollbar{position:absolute;right:0;top:206px;width:16px;bottom:0;z-index:4;pointer-events:none;}
+  /* custom scrollbar (92:1957) — .list-viewport가 더 이상 자체 스크롤 상자가
+     아니라서(위 card list 설명 참고) 이 보조 스크롤바가 따라올 스크롤 이벤트
+     자체가 없다. updateScrollbar()가 비율로 알아서 숨기지만(app.js), 처음
+     페인트 때 잠깐이라도 보이지 않게 아예 꺼둔다. */
+  .scrollbar{display:none;}
   .scrollbar__thumb{
     position:absolute;left:50%;transform:translateX(-50%);
     width:4px;border-radius:100px;background:#979da7;
@@ -367,11 +422,11 @@
 
   /* ================= 화면 전환 ================= */
   .screen{position:absolute;inset:0;overflow:hidden;}
-  .screen--pf{display:none;background:#d5e8ff;touch-action:pan-y;}
+  .screen--pf{display:none;background:var(--bg);touch-action:pan-y;}
   .device[data-tab="portfolio"] .screen--home{display:none;}
   .device[data-tab="portfolio"] .screen--pf{display:block;}
-  /* 포트폴리오 탭은 상태바 글자가 흰색 */
-  .device[data-tab="portfolio"] .status-time{color:#fff;}
+  /* 예전 시안은 상단이 진한 파랑이라 상태바 글자를 흰색으로 뒤집었다.
+     새 시안은 배경이 밝아서(topbackground) 기본 검정 글자를 그대로 쓴다. */
 
   /* 탭 아이콘: 활성=Bold(면), 비활성=Light(선).
      display 대신 opacity 로 겹쳐 두고 크로스페이드한다. */
@@ -406,43 +461,63 @@
     to  {opacity:1;  transform:translate3d(0,0,0);}
   }
   .screen--pf.is-switching .pf-middle{animation:pfSwitchIn .24s cubic-bezier(.22,.9,.28,1) both;}
-  .pf-col--head{height:160px;background:#00234a;}
-  .pf-col--mid{
-    height:363px;
-    background:linear-gradient(179.858deg,
-      #00234a 39.089%, #1c90ff 52.077%, #d3e8ff 99.969%);
+
+  /* topbackground(1:470/1:534) — 화면 전체 폭 375×441에 깔리는 은은한 배경.
+     밝은 그라데이션(60%→100% 불투명 --bg)을 트렌드 색 위에 겹쳐서, 위쪽일수록
+     트렌드 색이 살짝 비치다가 아래로 갈수록 --bg로 완전히 덮인다. 진행 바 폭과
+     무관하게 항상 전체 폭으로 깔린다. */
+  .pf-topbg{position:absolute;left:0;top:0;width:100%;height:441px;}
+  .screen--pf[data-trend="up"] .pf-topbg{
+    background:
+      linear-gradient(180deg,rgba(231,243,255,.6) 0%,#e7f3ff 95.74%),
+      #ff2a4b;
+  }
+  .screen--pf[data-trend="down"] .pf-topbg{
+    background:
+      linear-gradient(180deg,rgba(231,243,255,.6) 0%,#e7f3ff 100%),
+      #0084fe;
   }
 
-  .pf-top{position:absolute;left:0;top:0;width:100%;height:160px;background:#1c90ff;overflow:hidden;}
-  .pf-header{
-    position:absolute;left:16px;top:44px;height:60px;display:flex;align-items:center;
-    font-size:16px;font-weight:600;line-height:1.4;color:#fff;
-  }
-  /* 155:6451 — w180 중앙, gap 20, 오른쪽 정렬 */
+  /* Stock Price Background #1(1:471/1:535) — 전체 502px, 위→아래로 옅어진다.
+     pf-col--head는 새 시안엔 자리가 없다. JS가 두 요소 폭을 같이 갱신하므로
+     (emit.py 슬롯 로직 참고) 지우지 않고 높이만 0으로 접어둔다. */
+  .pf-col--head{height:0;}
+  .pf-col--mid{height:502px;}
+  .screen--pf[data-trend="up"]   .pf-col--mid{background:linear-gradient(180deg,#ff2a4b 0%,rgba(255,42,75,0) 100%);}
+  .screen--pf[data-trend="down"] .pf-col--mid{background:linear-gradient(180deg,#0084fe 0%,rgba(0,132,254,0) 100%);}
+
+  /* 상단 날짜 이동 (Top Container, Figma 원본은 0~56px).
+     Figma 원값(top:28, 0~56 정중앙)은 진짜 상태바(0~44px)와 겹친다 — Figma
+     목업은 상태바를 장식으로만 보고 그 위에 내용을 얹는 관습이라 그렇다.
+     Home 탭의 .app-bar(top:44)처럼 상태바 아래로 실제 자리를 비워주되, Top
+     Container 내부 배치(56 높이·28 중앙·탭과의 16px 간격)는 그대로 44px만큼
+     통째로 밀어서 유지한다 — "남는 공간 안에서 다시 중앙 정렬"하면 이 간격이
+     16px→4px로 짜부라진다(실제 겪은 버그). */
+  /* z-index 필요 — .pf-middle(진행 바 포함, 높이 502)이 DOM에서 뒤에 와서
+     기본 쌓임 순서로는 .pf-top(날짜피커) 위를 덮는다. 밴드 폭이 넓을 때
+     날짜 텍스트가 빨간 배경에 가려 흐릿해지던 문제. */
+  .pf-top{position:absolute;left:0;top:0;width:100%;height:100px;overflow:hidden;z-index:2;}
   .pf-datepicker{
-    position:absolute;left:50%;top:120px;transform:translateX(-50%);
+    position:absolute;left:50%;top:72px;transform:translate(-50%,-50%);
     width:180px;height:24px;
     display:flex;align-items:center;justify-content:flex-end;gap:20px;
   }
-  .pf-date{font-size:16px;font-weight:600;line-height:1.4;color:#fff;white-space:nowrap;}
+  .pf-date{font-size:16px;font-weight:600;line-height:1.4;color:#202326;white-space:nowrap;}
   .pf-nav{
     width:12px;height:24px;padding:0;border:none;background:none;cursor:pointer;
     flex:0 0 auto;
   }
-  .pf-nav img{width:12px;height:24px;display:block;}
+  /* chevron-right.svg는 흰색 SVG다 — 예전 파랑 히어로용. 이제 밝은 배경이라 검게 뒤집는다 */
+  .pf-nav img{width:12px;height:24px;display:block;filter:brightness(0);}
   .pf-nav--prev{order:-1;transform:rotate(180deg);}
   .pf-nav:disabled{visibility:hidden;}
   .pf-nav:active{opacity:.5;}
 
-  .pf-middle{position:absolute;left:0;top:157px;width:100%;height:363px;background:#d5e8ff;overflow:hidden;}
-  .pf-middle__sky{
-    position:absolute;left:0;top:0;width:100%;height:181px;
-    background:linear-gradient(180deg,#1c90ff 0%,#339bff 84.86%,#8ec8ff 100%);
-  }
+  .pf-middle{position:absolute;left:0;top:0;width:100%;height:502px;overflow:hidden;}
 
-  /* 종목 탭 (155:6464) */
+  /* 종목 탭 (Tab List Container). 원래 top:56이지만 위 상태바 여백만큼(+44) 내렸다 */
   .pf-tabs{
-    position:absolute;left:0;right:0;top:3px;padding:10px 16px;
+    position:absolute;left:0;right:0;top:100px;padding:10px 16px;
     display:flex;align-items:center;justify-content:space-between;gap:7px;
   }
   .pf-tabs__scroll{
@@ -453,81 +528,111 @@
   .pf-chip{
     flex:0 0 auto;display:flex;align-items:center;justify-content:center;
     padding:12px 10px;border-radius:4px;
-    border:1px solid rgba(255,255,255,.2);background:transparent;
+    border:1px solid rgba(32,35,38,.4);background:transparent;
     font-family:inherit;font-size:12px;font-weight:600;letter-spacing:-.3px;line-height:normal;
-    color:rgba(255,255,255,.6);white-space:nowrap;cursor:pointer;
+    color:rgba(32,35,38,.6);white-space:nowrap;cursor:pointer;
     transition:border-color .18s,color .18s;
   }
-  .pf-chip.is-active{border-color:#fff;color:#fff;}
+  .pf-chip.is-active{border-color:rgba(32,35,38,.9);color:#202326;}
   .pf-tabs__more{
     flex:0 0 auto;height:38px;width:22px;
     display:flex;align-items:center;justify-content:center;
     border:0;padding:0;background:transparent;cursor:pointer;
   }
-  /* SVG가 이미 흰색이라 여기서는 색을 건드리지 않는다 */
-  .pf-tabs__more img{width:22px;height:38px;display:block;}
+  /* chip-more.svg도 흰색 SVG다 — .chip-more(Home)와 같은 이유로 검게 뒤집는다 */
+  .pf-tabs__more img{width:22px;height:38px;display:block;filter:brightness(0);}
 
-  /* 종목 정보 (155:6461) */
+  /* 종목명 + 어제보다 등락률 (Frame 2085670422, top:248) */
   .pf-stock{
-    position:absolute;left:16px;top:90px;width:320px;
-    display:flex;flex-direction:column;gap:12px;
-    color:#fff;text-shadow:0 2px 4px rgba(0,0,0,.1);
+    position:absolute;left:16px;top:248px;
+    display:flex;align-items:center;gap:6px;
+    color:#15171a;
     transition:transform .28s cubic-bezier(.22,.8,.28,1), opacity .28s ease;
   }
   .pf-stock__name{font-size:24px;font-weight:600;letter-spacing:-.6px;line-height:1.4;}
-  .pf-stock__desc{font-size:18px;font-weight:600;letter-spacing:-.45px;line-height:1.4;}
+  /* 자연어 헤드라인("1,590,000원으로 20%대 급등 중입니다")은 새 시안에 없다.
+     pfHeadlineText()를 지우지 않고 화면에서만 숨긴다 — 되살릴 수도 있어서. */
+  .pf-stock__desc{display:none;}
 
-  /* 가격 영역 (155:6479) */
+  .pf-price__info{display:flex;align-items:center;gap:3px;}
+  .pf-price__yday{font-size:14px;font-weight:400;letter-spacing:-.35px;line-height:1.5;color:rgba(21,23,26,.7);}
+  .pf-price__change{display:flex;align-items:center;gap:2px;}
+  .pf-price__change img{width:10px;height:10px;display:block;flex:0 0 auto;}
+  .pf-price__change span{
+    font-size:13px;font-weight:400;letter-spacing:-.325px;line-height:1.4;color:#15171a;white-space:nowrap;
+  }
+  /* 급등/급락 두 화면을 실제로 다 대조해보니 퍼센트 텍스트는 상승·하락 상관없이
+     항상 #15171a 고정이었다 — 지난번엔 한 화면만 보고 "슬롯별 빨강/파랑을
+     살려두자"고 판단했는데, 그 추측이 틀렸다. 트라이앵글 아이콘 색(에셋 자체가
+     #FF2A4B/#0084FE)만 트렌드를 따르고, 텍스트는 그대로 둔다. */
+
+  /* 진행 바가 화면 절반을 넘으면(9:10·10:30 = 24%·48% 어두운 글자 vs
+     1:00·3:40·5:00 = 72.5%·95.7% 흰 글자, 국내·미국 화면 전부 대조 확인) 그
+     위에 앉는 텍스트들이 통째로 흰색으로 뒤집힌다 — app.js의 renderPf가
+     data-band-wide를 매긴다. */
+  .screen--pf[data-band-wide="1"] .pf-date{color:#fff;}
+  /* 밝을 땐 검게 뒤집었던 흰 SVG를 원래 색(흰색) 그대로 되돌린다 */
+  .screen--pf[data-band-wide="1"] .pf-nav img,
+  .screen--pf[data-band-wide="1"] .pf-tabs__more img{filter:none;}
+  .screen--pf[data-band-wide="1"] .pf-chip{border-color:rgba(255,255,255,.6);color:rgba(255,255,255,.7);}
+  .screen--pf[data-band-wide="1"] .pf-chip.is-active{border-color:#fff;color:#fff;}
+  .screen--pf[data-band-wide="1"] .pf-stock{color:#fff;}
+  .screen--pf[data-band-wide="1"] .pf-price__yday{color:rgba(255,255,255,.7);}
+  .screen--pf[data-band-wide="1"] .pf-price__change span{color:#fff;}
+  .screen--pf[data-band-wide="1"] .pf-price__value{color:#fff;}
+
+  /* 가격 영역 — Stock Price Background #2(1:472/1:536, 솔리드 289~441) + Time + 큰 가격 */
   .pf-time{
-    position:absolute;left:0;top:181px;width:100%;height:142px;
-    padding:0;border:none;background:#d5e8ff;overflow:hidden;
+    position:absolute;left:0;top:289px;width:100%;height:152px;
+    padding:0;border:none;overflow:hidden;
     text-align:left;font-family:inherit;
     transition:transform .28s cubic-bezier(.22,.8,.28,1), opacity .28s ease;
   }
   .pf-time__band{
-    position:absolute;left:0;top:0;height:142px;opacity:.7;
+    position:absolute;left:0;top:0;height:152px;
     transition:width .3s cubic-bezier(.22,.8,.28,1);   /* 진행 컬럼과 같은 속도로 */
   }
-  .screen--pf[data-trend="up"]   .pf-time__band{background:linear-gradient(to left,#ff2522,#ffc1c2);}
-  .screen--pf[data-trend="down"] .pf-time__band{background:linear-gradient(to left,#0064fc,#cddfff);}
+  .screen--pf[data-trend="up"]   .pf-time__band{background:#ff2a4b;}
+  .screen--pf[data-trend="down"] .pf-time__band{background:#0084fe;}
 
   .pf-time__label{
-    position:absolute;left:16px;top:26.5px;transform:translateY(-50%);
-    font-size:15px;font-weight:600;letter-spacing:-.375px;line-height:1.4;color:var(--muted);
+    /* top:12.5는 구 Figma 파일(286:1043, y=301)에서 잘못 끌어온 값이었다.
+       새 파일(1:469)의 실제 값은 top-[311.5px] — pf-time 기준(289) 22.5px. */
+    position:absolute;left:16px;top:22.5px;transform:translateY(-50%);
+    font-size:15px;font-weight:600;letter-spacing:-.375px;line-height:1.4;color:#fff;
     white-space:nowrap;
   }
-  .pf-price{position:absolute;left:16px;top:82px;display:flex;align-items:center;gap:9px;}
+  /* Figma의 top:94는 텍스트 박스의 세로 '중앙' 기준(-translate-y-1/2)이다.
+     translateY를 빼먹으면 60px 폰트(줄높이 84px)가 top부터 그려져
+     .pf-time의 152px 아래로 넘쳐 overflow:hidden에 잘린다. */
+  .pf-price{position:absolute;left:16px;top:94px;transform:translateY(-50%);}
   .pf-price__value{
-    font-weight:600;letter-spacing:-1.05px;color:#fff;white-space:nowrap;
-    font-size:42px;line-height:normal;
+    display:flex;align-items:baseline;
+    font-weight:300;letter-spacing:-1.5px;color:#15171a;white-space:nowrap;
+    font-size:60px;line-height:1.4;
   }
-  .pf-price__value em{font-style:normal;font-size:24px;letter-spacing:-.6px;}
-  .pf-price__info{width:49px;height:34px;display:flex;flex-direction:column;gap:4px;}
-  .pf-price__change{display:flex;align-items:center;gap:2px;}
-  .pf-price__change img{width:12px;height:12px;display:block;flex:0 0 auto;}
-  .pf-price__change span{
-    font-size:13px;font-weight:500;letter-spacing:-.325px;line-height:1.4;white-space:nowrap;
-  }
-  /* 숫자 옆 색은 그 시점의 등락을 따른다 — 화면 전체 색(data-trend)은 그날 방향으로
-     고정돼 있어서, 여기까지 묶으면 +0.76%에 파란 ▼가 붙는 일이 생긴다 */
-  .screen--pf[data-slot-trend="up"]   .pf-price__change span{color:#f00;}
-  .screen--pf[data-slot-trend="down"] .pf-price__change span{color:#0069ff;}
-  .pf-price__yday{
-    font-size:14px;font-weight:600;letter-spacing:-.35px;line-height:normal;color:#fff;
-  }
-  .screen--pf[data-trend="up"]   .pf-price__value,
-  .screen--pf[data-trend="up"]   .pf-price__yday{text-shadow:0 4px 4px rgba(255,121,121,.25);}
-  .screen--pf[data-trend="down"] .pf-price__value,
-  .screen--pf[data-trend="down"] .pf-price__yday{text-shadow:0 4px 4px rgba(75,147,255,.25);}
+  /* Figma는 숫자(left:16)와 "원"(left:266)을 각각 절대좌표로 따로 배치해서 붙는다.
+     실제 숫자 폭("1,590,000", 60px 폰트)을 같은 스펙으로 재보면 그 사이 간격이
+     ~4px — span+em을 그냥 이어붙이면 0px이 되니 margin으로 되살린다. */
+  .pf-price__value em{font-style:normal;font-size:40px;letter-spacing:-1px;margin-left:4px;}
+  /* 달러는 순서가 반대다 — "38.08달러"가 아니라 "$38.08"(접두사). DOM은 그대로
+     두고(span 다음 em) row-reverse로 시각 순서만 뒤집는다 — 그러면 margin도
+     반대쪽(뒤에 오는 span과의 간격 = em의 margin-right)으로 줘야 한다. */
+  .pf-price__value[data-currency="usd"]{flex-direction:row-reverse;}
+  .pf-price__value[data-currency="usd"] em{margin-left:0;margin-right:4px;}
 
-  /* 시간대별 브리핑 (155:6456 / row) */
+  /* 시간대별 브리핑 (1:469 title/Container). 523/550은 최초 파랑 히어로 전체
+     높이(160+363=523)에서 그냥 이어붙인 값이라 Figma 좌표가 아니었다 — 새 시안
+     실제 값(496/525)으로 교체. */
   .pf-section-title{
-    position:absolute;left:16px;top:523px;height:20px;display:flex;align-items:center;
+    position:absolute;left:16px;top:496px;height:20px;display:flex;align-items:center;
     font-size:14px;font-weight:600;letter-spacing:-.35px;line-height:1.4;color:var(--muted);
   }
   .pf-briefs{
-    position:absolute;left:0;top:550px;width:100%;height:122px;
-    overflow-x:auto;overflow-y:hidden;scrollbar-width:none;
+    /* height:122px 고정이었다 — 카드가 내용만큼 늘어나도록 아래에서 뺐으니
+       이 행도 같이 auto로 풀어야 overflow-y:hidden에 안 잘린다. */
+    position:absolute;left:0;top:525px;width:100%;height:auto;
+    overflow-x:auto;overflow-y:visible;scrollbar-width:none;
     /* touch-action은 일부러 주지 않는다(auto). 여기에 pan-x를 주면 카드 위에서
        시작한 세로 끌기가 조상 스크롤러로 넘어가지 못한다 — 브라우저가 만진 요소부터
        스크롤러까지를 교집합으로 계산하기 때문이다. 화면이 짧을 때 사용자가 만지는
@@ -539,20 +644,25 @@
   .pf-briefs::-webkit-scrollbar{display:none;}
   .pf-briefs__row{display:flex;align-items:stretch;gap:4px;padding:0 16px;width:max-content;}
   .pf-brief{
-    /* 폭은 홈 카드와 같게. 부모가 width:max-content라 %는 못 쓰고 실제 폭이 필요하다 */
-    flex:0 0 auto;width:var(--card-w);height:122px;   /* 홈 카드와 같은 높이 */
+    /* 폭은 홈 카드와 같게. 부모가 width:max-content라 %는 못 쓰고 실제 폭이 필요하다.
+       높이는 Figma "Container"(1:527) 노드를 직접 재서 나온 147px을
+       min-height로 준다 — 예전엔 "Figma에 지정값이 없다"고 적고 뺐었는데,
+       실제로 재보니 고정값이었다(예전 판단이 틀렸다). 내용이 짧아도(1줄) 카드가
+       147px 밑으로 쪼그라들지 않고, 본문이 3줄을 넘는 드문 경우에는 max-height
+       없이 그만큼 더 늘어난다(잘리지 않음 — 다른 카드들과 같은 원칙). */
+    flex:0 0 auto;width:var(--card-w);min-height:147px;
     display:flex;flex-direction:column;gap:8px;
-    padding:12px;background:rgba(255,255,255,.8);
+    padding:16px 12px;background:rgba(255,255,255,.8);
     box-shadow:0 4px 4px 0 rgba(174,210,254,.25);
   }
-  .pf-brief__stamp{font-size:10px;font-weight:400;letter-spacing:-.25px;line-height:1.4;color:#979ba3;white-space:nowrap;}
-  .pf-brief__body{display:flex;flex-direction:column;gap:6px;color:var(--label-strong);}
-  .pf-brief__title{font-size:15px;font-weight:600;letter-spacing:-.375px;line-height:1.4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
-  /* 홈 카드(122px)와 높이를 맞추면 스탬프 줄(14px + 간격 8px)만큼 본문 자리가 줄어
-     3줄이 아니라 2줄까지만 들어간다. 파이썬의 문구 길이 예산도 여기에 맞춰져 있다. */
+  .pf-brief__stamp{font-size:12px;font-weight:400;letter-spacing:-.3px;line-height:1.4;color:#979ba3;white-space:nowrap;}
+  .pf-brief__body{display:flex;flex-direction:column;gap:6px;}
+  .pf-brief__title{font-size:15px;font-weight:600;letter-spacing:-.375px;line-height:1.4;color:#15171a;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  /* 줄 수를 강제로 자르지 않는다 — Figma 본문(Article Container)도 클램프 없이
+     내용만큼 자연스럽게 줄바꿈된다. 파이썬(intraday_summary.py)이 "2줄 분량"으로
+     글자수를 맞춰 보내니 보통 2줄이고, 넘치면 클립 대신 3줄로 자연스럽게 늘어난다. */
   .pf-brief__text{
-    font-size:14px;font-weight:400;letter-spacing:-.35px;line-height:1.5;
-    display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;
+    font-size:14px;font-weight:400;letter-spacing:-.35px;line-height:1.5;color:rgba(21,23,26,.6);
   }
 
   /* ================= 모션 최소화 설정 대응 =================
@@ -561,14 +671,10 @@
   @keyframes softFade{from{opacity:.55;}to{opacity:1;}}
   @media (prefers-reduced-motion: reduce){
     .swipe-hint{animation:none;}                       /* 반복 움직임 제거 */
-    .blob{transition:none;}
     .pf-col,.pf-time__band{transition:none;}           /* 폭이 늘어나는 이동 제거 */
     .screen--pf.is-switching .pf-middle{animation:softFade .2s ease both;}
     .tab-indicator{transition:none;}                   /* 알약 미끄러짐 제거, 위치만 변경 */
     .icon24 img{transition:opacity .15s ease;transform:none;}  /* 크기 변화 없이 크로스페이드만 */
-    .all-read.is-shown .all-read__badge{animation:none;}
-    .all-read.is-shown .all-read__text,
-    .all-read.is-shown .all-read__btn{animation:softFade .2s ease both;}
   }
 
 
@@ -596,17 +702,9 @@
     /* 진짜 폰에는 OS가 이미 시계·배터리와 홈 인디케이터를 그려준다 */
     .status-bar,.home-bar{display:none;}
 
-    /* 홈은 이미 세로가 유동이다 — .list-viewport 가 top:206px/bottom:0 으로
-       남는 세로를 다 먹는다. 감춘 상태바 44px 만큼 통째로 끌어올리면 끝이고,
-       내부 좌표는 하나도 건드리지 않는다. */
-    .screen--home{top:-44px;}
-
-    /* 따뜻한 그라데이션 얼룩. 시안에서는 393px 폭이 375px 프레임보다 넓어서
-       blur(50px)로 흐려진 좌우 끝이 프레임 밖으로 잘려 나간다. 폭을 고정한 채
-       화면이 넓어지면 그 끝이 화면 안으로 들어와 사각형 덩어리로 보인다
-       (430px 화면에서 좌우 19px씩 틈). 화면보다 항상 넓게 잡는다.
-       세로도 마찬가지 — 시안에서 밑변은 프레임 아래 122px에 있다(541+393-812). */
-    .blob{width:105vw;height:105vw;top:auto;bottom:-32vw;}
+    /* 진짜 폰엔 가짜 상태바(.status-bar)가 없으니, 데스크톱 목업에서 그걸
+       피하려고 .app-bar에 준 44px 위 여백·고정 오프셋이 필요 없다. */
+    .app-bar{margin-top:0;top:0;}
 
     /* 탭바는 화면 아래에 붙인다. 홈 인디케이터와 겹치지 않게 안전영역을 더한다 */
     .tab-bar{
@@ -633,75 +731,84 @@
       padding-bottom:calc(8px + 68px + 16px + env(safe-area-inset-bottom,0px));
     }
 
-    .pf-top{position:relative;flex:0 0 116px;height:116px;}  /* 160 - 상태바 44 */
-    .pf-col--head{height:100%;}
-    .pf-header{top:0;}
-    .pf-datepicker{top:76px;}                                /* 120 - 44 */
+    /* 새 시안은 히어로가 없다 — pf-top은 그냥 날짜 이동 한 줄(56px)이고,
+       진행 바(.pf-col--mid)는 세로로 옅어지는 단일 그라데이션이라 예전처럼
+       '하늘' 레이어를 따로 안 둔다. .pf-col--head는 전역에서 이미 height:0으로
+       접어뒀으므로 여기서 다시 펴지 않는다(자리를 안 차지하는 게 맞다). */
+    .pf-top{position:relative;flex:0 0 56px;height:56px;}
+    .pf-datepicker{top:28px;}
 
     .pf-middle{
       position:relative;top:auto;height:auto;
       /* shrink 0 — min-height로 최소치를 못박으면 칩·종목명이 몇 줄이 되느냐에
-         따라 넘쳐서 가격이 잘린다. 모자라면 화면이 스크롤된다.
-
-         홈 화면에 추가하면 브라우저 UI가 없어 세로가 100~170px 남는다. 이 여유를
-         한 곳에 몰면 눈에 띈다 — 전부 .pf-stock에 주면 종목 정보가 71→244로
-         부풀고, 아예 안 주면 카드 아래에 빈 띠가 생긴다. 그래서 나눠 받는다.
-         max-height까지만 늘고 나머지는 흘려보낸다. */
-      flex:1 0 auto;max-height:440px;      /* 시안 363 + 여유 77 */
+         따라 넘쳐서 가격이 잘린다. 모자라면 화면이 스크롤된다. */
+      flex:1 0 auto;max-height:560px;      /* 시안 502 + 여유 58 */
       display:flex;flex-direction:column;
-      /* 시안(155:6458)에서 가운데 판은 가격 블록보다 40px 더 내려간다. 그 꼬리에
-         진행 컬럼 그라데이션의 끝(#d3e8ff)이 깔리고, '시간대별 브리핑' 제목과의
-         간격도 여기서 나온다. flex로 쌓으면 가격 블록이 마지막이라 그냥 두면
-         꼬리가 통째로 없어진다. */
-      padding-bottom:40px;
+      /* 시안에서 진행 바(502)는 가격 블록(밑변 441) 아래로 61px 더 내려가
+         옅어지며 사라진다. flex로 쌓으면 가격 블록이 마지막이라 그냥 두면
+         그 꼬리가 통째로 없어진다. */
+      padding-bottom:61px;
     }
-    /* 100%는 패딩 박스 기준 — 꼬리 40px과 가격 블록 142px을 뺀 만큼이 파랑이다 */
-    .pf-middle__sky{height:calc(100% - 182px);}
-    .pf-col--mid{height:100%;}
+    /* 데스크톱은 .pf-top·.pf-middle이 둘 다 top:0 절대배치라 그라데이션(502px)이
+       날짜 섹션(.pf-top, 100px) 뒤로도 자연스럽게 깔린다. 모바일 흐름에서는
+       .pf-top·.pf-middle이 순서대로 쌓이는 별개 flex 아이템이라 그 겹침이
+       사라졌었다 — .pf-col--mid만 위로 .pf-top 높이(56px)만큼 튀어나오게 해서
+       같은 효과를 낸다(흐름 자체는 안 건드린다 — .pf-col--mid는 애초에
+       position:absolute라 .pf-middle의 레이아웃 높이에 영향을 안 준다).
+       .pf-top의 z-index(2, 위 공용 규칙)가 이 위에 그대로 덮이므로 글자는
+       안 가려진다. */
+    .pf-col--mid{top:-56px;height:calc(100% + 56px);}
 
-    /* 배경 두 장(.pf-middle__sky/.pf-col--mid)이 절대배치라, 흐름에 놓인 내용이
-       그 아래로 깔린다. positioned 로 만들어 위로 올린다. */
+    /* 배경(.pf-col--mid)이 절대배치라, 흐름에 놓인 내용이 그 아래로 깔린다.
+       positioned 로 만들어 위로 올린다. */
     .pf-tabs,.pf-stock,.pf-time{position:relative;z-index:1;}
     .pf-tabs{top:auto;padding:13px 16px 10px;}
     .pf-stock{
       left:auto;top:auto;width:auto;padding:0 16px;
-      /* 남는 세로를 받지 않는다. 박스가 커지면 justify-content:center가 그 차이를
-         위아래로 갈라서, 글자와 가격 띠 사이가 시안 20.2px보다 벌어진다
-         (박스 110 / 내용 71이면 아래로만 19.5px이 더 붙어 40px이 됐다).
-         여유는 가격 띠 아래 꼬리가 대신 받는다. */
       flex:0 0 auto;
-      /* 시안(155:6461)에서 그대로 옮긴 간격. 절대좌표일 때는 top 값이 알아서
-         만들어주던 여백이라, 흐름으로 바꾸면 0이 되어 종목명이 가격 띠에 붙는다.
-           칩 줄 바닥 63.5 → 종목명 90     = 26.5
-           종목명 바닥 160.8 → 가격 띠 181 = 20.2 */
-      margin:26.5px 0 20.2px;
+      /* 절대배치 기준 간격을 그대로 옮긴다.
+           칩 줄 바닥(56+58) → 종목명(248) = 134
+           종목명 바닥(248+34) → 가격 띠(289) = 7 */
+      margin:134px 0 7px;
     }
-    .pf-time{top:auto;flex:0 0 142px;}
+    .pf-time{top:auto;flex:0 0 152px;}
     .pf-time__band{height:100%;}
 
     .pf-section-title{
       position:relative;left:auto;top:auto;
       flex:0 0 auto;margin:3px 0 7px;padding:0 16px;
     }
-    .pf-briefs{position:relative;top:auto;flex:0 0 122px;}
+    .pf-briefs{position:relative;top:auto;flex:0 0 auto;}
 
-    /* ---------- 포트폴리오: 문서 스크롤 ----------
-       .screen--pf 안쪽에 overflow-y:auto 를 줘도 아이폰 사파리에서는 스크롤이
-       생기지 않았다(높이를 svh로 잡아도 마찬가지). 브라우저가 직접 굴리는 문서
-       스크롤로 넘긴다. 굴리는 동안 주소창이 접혀 세로가 더 생기는 덤도 있다.
+    /* ---------- 문서 스크롤(홈·포트폴리오 공통) ----------
+       .screen--pf/.screen--home 안쪽에 overflow-y:auto 를 줘도 아이폰 사파리에서는
+       스크롤이 생기지 않았다(높이를 svh로 잡아도 마찬가지). 브라우저가 직접 굴리는
+       문서 스크롤로 넘긴다. 굴리는 동안 주소창이 접혀 세로가 더 생기는 덤도 있다.
 
-       .doc-scroll 은 app.js 의 setDocScroll 이 포트폴리오 탭일 때만 <html>에 건다.
-       홈 탭은 .list-viewport 가 top/bottom 절대좌표라 문서가 늘어나면 무너진다. */
-    html.doc-scroll,
-    html.doc-scroll body{height:auto;min-height:100%;overflow:visible;}
-    html.doc-scroll body{display:block;}
-    html.doc-scroll .device{height:auto;min-height:100%;overflow:visible;}
+       .doc-scroll 은 app.js 의 setDocScroll 이 홈·포트폴리오 두 탭 다에서 <html>에 건다.
+
+       min-height는 100%가 아니라 100vh로 준다 — %는 부모(body)가 "명시적" 높이를
+       가지고 있어야 풀리는데, body 자신도 min-height:100%(부모=html 참조)라 이
+       사슬이 어디선가 끊기면(실제로 끊겼다 — body/.device/.screen 전부 계산된
+       높이가 0px로 나왔다) 밑에 깔린 모든 자손이 높이 0인 채로 렌더링된다.
+       육안으로는 내용이 넘쳐서 잘 보이지만(overflow:visible이라), 높이가 0인
+       조상 밑에서는 position:sticky(.app-bar, .pf-top/.pf-tabs)가 기준으로 삼을
+       스크롤 범위를 못 구해 전혀 고정되지 않는 버그로 이어졌다. vh는 부모 높이에
+       기대지 않고 뷰포트 자체를 기준으로 하므로 이 사슬 문제를 아예 피해 간다.
+
+       html 자신은 예외다 — 루트 요소의 %는 뷰포트를 기준으로 특별히 풀리므로
+       (실측해서 확인함) min-height:100%로 둬도 깨지지 않는다. 깨지는 건 body부터
+       (부모=html의 height가 "명시값"이 아니라 min-height뿐이라 % 사슬이 여기서
+       끊긴다). */
+    html.doc-scroll{height:auto;min-height:100%;overflow:visible;}
+    html.doc-scroll body{height:auto;min-height:100vh;overflow:visible;display:block;}
+    html.doc-scroll .device{height:auto;min-height:100vh;overflow:visible;}
 
     /* 절대배치를 풀어 흐름에 놓는다 — 이래야 문서가 내용만큼 길어진다 */
     html.doc-scroll .device[data-tab="portfolio"] .screen--pf{
       position:relative;inset:auto;
       overflow:visible;
-      min-height:100%;
+      min-height:100vh;
     }
 
     /* 문서가 굴러가도 탭바는 화면 아래에 붙어 있어야 한다 */
@@ -716,28 +823,49 @@
     }
 
     /* 종목 칩 줄도 헤더 바로 밑에 붙인다 — 굴린 상태에서도 종목을 바꿀 수 있어야 한다.
-       top은 헤더 높이(116)와 같아야 딱 이어 붙는다.
+       top은 헤더 높이(56)와 같아야 딱 이어 붙는다.
 
-       칩 줄은 배경이 없다. 남색은 뒤의 .pf-col--mid(진행 컬럼), 하늘색은
-       .pf-middle__sky가 그리는데 둘 다 .pf-middle 안에 절대배치돼 있어서 함께
-       따라오지 못한다. 그래서 같은 그림을 칩 줄이 직접 그린다.
-         첫 장 — 진행 컬럼: 왼쪽부터 --band 만큼 남색, 그 뒤는 투명
-         둘째 장 — 하늘: .pf-middle__sky와 같은 그라데이션. 그 높이(181px)로
-                   늘려 깔아야 칩 줄 구간의 색이 원래와 어긋나지 않는다.
-       --band 는 app.js 의 renderPf 가 슬롯마다 갱신한다. */
+       칩 줄 배경은 평소엔 없다가 실제로 "붙었을"(.is-stuck) 때만 켠다. 진행 바
+       색은 .pf-col--mid가 그리는데 절대배치라 sticky를 따라오지 못해서 —
+       스크롤이 .pf-col--mid의 502(+56)px 범위를 완전히 지나가면 칩 줄 밑에
+       더 이상 진행 바가 없다. 그 이후에만 같은 색을 칩 줄이 직접 그려서
+       "붙어 있는 동안은 계속 진행 바 색이 보인다"는 느낌을 유지한다.
+
+       아직 붙지 않은 동안(=.pf-col--mid가 그 자리에 그대로 있는 동안) 배경을
+       계속 그리면 문제가 생긴다 — .pf-col--mid는 위→아래로 옅어지는데 칩 줄은
+       --band 폭까지 불투명 단색이라, 칩 줄 상자(63.5px) 안은 진하게 덮이고
+       바로 그 아래(.pf-col--mid만 남는 지점)는 상대적으로 옅어서 경계가 따로
+       보이는 "이중 띠"가 생긴다(실제 버그로 발견됨). .is-stuck 토글은
+       app.js가 IntersectionObserver로 붙는 순간을 감지해서 켠다.
+
+       --pf-trend-color는 위 .screen--pf[data-trend]가 정하고, --band는 app.js의
+       renderPf가 슬롯마다 갱신한다. */
     /* .pf-middle의 overflow:hidden을 푼다. 그게 남아 있으면 칩의 sticky 기준이
        문서가 아니라 .pf-middle이 되고(overflow가 스크롤 컨테이너를 만든다),
-       그 안에서는 굴러갈 것이 없어서 top:116px이 그냥 116px 아래로 미는 값이 된다.
-       배경 두 장은 .pf-middle 크기에 맞춰 잘려 있어 넘칠 것이 없으므로 안전하다. */
+       그 안에서는 굴러갈 것이 없어서 top:56px이 그냥 56px 아래로 미는 값이 된다.
+       배경은 .pf-middle 크기에 맞춰 잘려 있어 넘칠 것이 없으므로 안전하다. */
     html.doc-scroll .device[data-tab="portfolio"] .pf-middle{overflow:visible;}
 
+    html.doc-scroll .device[data-tab="portfolio"] .screen--pf{--pf-trend-color:#ff2a4b;}
+    html.doc-scroll .device[data-tab="portfolio"] .screen--pf[data-trend="down"]{--pf-trend-color:#0084fe;}
     html.doc-scroll .device[data-tab="portfolio"] .pf-tabs{
-      position:sticky;top:116px;z-index:4;
-      background:
-        linear-gradient(to right,#00234a 0,#00234a var(--band,0%),
-                                 rgba(28,144,255,0) var(--band,0%)),
-        linear-gradient(180deg,#1c90ff 0%,#339bff 84.86%,#8ec8ff 100%);
-      background-size:100% 100%, 100% 181px;
+      position:sticky;top:56px;z-index:4;
+    }
+    html.doc-scroll .device[data-tab="portfolio"] .pf-tabs.is-stuck{
+      background:linear-gradient(to right,
+        var(--pf-trend-color) 0,var(--pf-trend-color) var(--band,0%),
+        rgba(0,0,0,0) var(--band,0%));
       background-repeat:no-repeat;
+    }
+
+    /* ---------- 홈: 문서 스크롤 ----------
+       자식들을 flex 흐름으로 쌓는 것 자체는(순서·간격 margin) 이제 데스크톱
+       목업과 공용이다(위 ".screen--home — flex 세로 흐름" 참고). 여기서는
+       "스크롤을 누가 담당하느냐"만 아이폰 사파리에 맞게 바꾼다 — 안쪽
+       overflow-y:auto가 아이폰 사파리에서 아예 안 먹혀서(Portfolios 탭과
+       같은 사정), 문서 자체가 굴러가게 setDocScroll이 <html>에 .doc-scroll을
+       걸고, 여기서 .screen--home의 overflow를 visible로 되돌려 넘겨준다. */
+    html.doc-scroll .device[data-tab="home"] .screen--home{
+      overflow:visible;min-height:100vh;   /* 100% 아님 — 위 "문서 스크롤" 설명 참고 */
     }
   }

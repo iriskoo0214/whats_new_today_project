@@ -1,8 +1,10 @@
 """가격과 뉴스를 브리핑 문장으로 조립한다.
 
-LLM을 쓰지 않고 규칙으로만 만든다. 카드 본문은 '가격 문장 + 뉴스 헤드라인' 순인데,
-프로토타입 카드가 본문을 3줄에서 잘라내기 때문에(-webkit-line-clamp:3)
-반드시 보여야 할 숫자를 앞에 둔 것이다. 뉴스 원문·출처·링크는 마크다운에 전부 남는다.
+LLM 요약이 있으면 그 문장을 쓰고, 없거나 신뢰할 수 없으면(card_body 참고) 규칙
+기반(가격 문장 + 뉴스 헤드라인)으로 물러난다. 카드는 고정 높이가 아니라 내용만큼
+늘어나므로(Figma 패딩만 지키면 됨) 본문을 3줄로 잘라내지 않는다 — 예전엔
+-webkit-line-clamp:3으로 잘랐지만 지금은 뺐다. 뉴스 원문·출처·링크는 마크다운에
+전부 남는다.
 """
 
 import re
@@ -209,33 +211,42 @@ def card_title(sb: StockBrief) -> str:
 
 
 def card_body(sb: StockBrief) -> str:
-    """'가격 문장 + 뉴스 헤드라인'을 본문 3줄 폭에 맞춰 채운다.
+    """LLM이 쓴 '등락률+사실 → 원인 → 시사점' 완결 문장을 그대로 쓴다.
 
-    가격 문장은 절대 자르지 않고, 남는 자리를 헤드라인으로 끝까지 메운다.
-    헤드라인은 원문이라 문장 중간에서 끊길 수 있다 — 대신 카드가 고르게 찬다.
-    뉴스가 짧으면 3줄을 못 채우고 그대로 끝난다(빈 칸을 지어내지 않는다).
+    가격·등락률 숫자는 LLM이 직접 계산하지 않는다 — summarize.py가 프롬프트에
+    정확한 문장("+0.13% 오른 231.70달러 마감." 같은)을 데이터로 주고, 본문 안에
+    그 문장을 토씨 하나 틀리지 않고 그대로 넣으라고 지시한다. 여기서 그 문장이
+    실제로 들어있는지 검증해서(숫자를 바꿔 쓰는 hallucination 방지), 없으면 그
+    카드 하나만 신뢰하지 않고 규칙 기반으로 되돌린다.
+
+    카드는 고정 높이가 아니라 내용만큼 늘어나므로(Figma 패딩만 지키면 됨),
+    검증을 통과한 문장은 글자 수로 자르지 않는다 — 규칙 기반 폴백에서만
+    fit()으로 안전하게 자른다(원문 뉴스 나열이라 자연스러운 끝이 없어서).
     """
-    price = price_sentence(sb.quote, closed=not market_open(sb.holding.is_kr))
-    room = CARD_BODY_UNITS - text_units(visible(price)) - char_units(" ")
-    if room <= 0:
-        return price
+    closed = not market_open(sb.holding.is_kr)
+    price_html = price_sentence(sb.quote, closed=closed)                      # 표시용(굵게)
+    price_line = price_sentence(sb.quote, html_bold=False, closed=closed)     # 검증용(원문)
+    price_amount = sb.quote.format_price()                                    # 굵게 감쌀 숫자만
 
-    # LLM 요약이 있으면 시안처럼 '원인절 → 가격' 순으로 간다.
-    # 길이를 미리 확정해 두므로 원인절이 잘려나갈 걱정 없이 가격을 뒤에 둘 수 있다.
     if sb.summary is not None:
-        reason = sb.summary.get("reason") or ""
-        if reason:
-            return "{} {}".format(fit(reason, room), price)
-        # 요약은 돌았는데 원인절이 비었다 = 오늘 움직임을 설명할 재료가 없다는 판단.
-        # 여기서 헤드라인을 쏟아내면 제목("특별한 이슈 없이")과 어긋난다.
-        return "{} 주가를 움직인 뚜렷한 재료는 확인되지 않았습니다.".format(price)
+        body = (sb.summary.get("body") or "").strip()
+        if body and price_line and price_line in body:
+            return body.replace(price_amount, "<b>{}</b>".format(price_amount), 1)
+        if not body:
+            # 요약은 돌았는데 본문이 비었다 = 오늘 움직임을 설명할 재료가 없다는 판단.
+            return "{} 주가를 움직인 뚜렷한 재료는 확인되지 않았습니다.".format(price_html)
+        # 등락률·가격 문장이 그대로 안 들어있다 = 숫자를 바꿔 썼을 위험 — 신뢰하지 않는다.
+        print("  [카드본문] {} 가격 문장 불일치 → 규칙 기반으로 대체".format(sb.holding.name))
 
-    # 규칙 기반은 가격을 앞에 둔다 — 헤드라인 나열이 잘려도 숫자는 보여야 한다.
+    # 규칙 기반(LLM 요약이 없거나 신뢰할 수 없을 때) — 가격을 앞에 두고 헤드라인을 잇는다.
+    room = CARD_BODY_UNITS - text_units(visible(price_html)) - char_units(" ")
+    if room <= 0:
+        return price_html
     if sb.news:
         tail = " · ".join(n.title for n in sb.news)
     else:
         tail = "오늘 새로 올라온 뉴스는 없습니다."
-    return "{} {}".format(price, fit(tail, room))
+    return "{} {}".format(price_html, fit(tail, room))
 
 
 # -------------------------------------------------------- 핵심 한 줄 / 액션
