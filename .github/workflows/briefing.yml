@@ -4,35 +4,32 @@ name: 데일리 브리핑
 # GitHub Actions의 cron은 UTC 기준이고, 실행이 수 분~수십 분 늦어질 수 있다.
 # (실측으로는 1~2시간 반까지 밀린다. 아래 시각은 '이보다 이르지는 않다'는 뜻으로 읽을 것.)
 #
-# 마감 브리핑 — 홈 탭과 포트폴리오 탭을 통째로 갱신한다
-#   22:00 UTC = 07:00 KST  미국 증시 마감
-#   07:30 UTC = 16:30 KST  한국 증시 마감
+# ---- 2026-09-16: 매시 자동 실행으로 재개 ----
+# "포트폴리오 탭은 각 시간마다(매 시간) 자동으로 갱신돼야 한다"는 요청으로, 하루
+# 5번(마감 2번 + 국내 슬롯 3번)이던 예전 스케줄 대신 매시 정각에 한 번씩 돈다.
+# cron 문자열은 '10 * * * *' 하나뿐이고, 그때그때 무엇을 할지는 "어느 시장을
+# 어떻게 갱신할지 정한다" 스텝이 실행 시점의 KST 시각을 보고 정한다(예전처럼
+# cron 문자열 자체를 시장에 매핑하지 않는다 — 24개를 그렇게 나열하면 못 알아본다).
 #
-# 미국은 07:00보다 당길 수 없다 — 현지 마감이 서머타임엔 KST 05:00, 겨울엔 06:00이라
-# 07:00이 사계절 안전선이다. 당기면 겨울에 전일 종가를 잡는다(README '알아둘 것' 참고).
-# 국내는 15:30 마감이라 원래 18:00은 두 시간 반을 놀렸다. 카톡 알림을 저녁에 받으려고
-# 16:30으로 당겼다. 마감 후 뉴스를 그만큼 덜 모으는 것이 대가다.
+#   마감(전체 갱신, 뉴스·요약까지 새로 만듦)
+#     KST 07시대 → 미국 증시 마감(현지 마감이 서머타임엔 05시, 겨울엔 06시라
+#                  07시가 사계절 안전선. 당기면 겨울에 전일 종가를 잡는다 —
+#                  README '알아둘 것' 참고)
+#     KST 16시대 → 국내 증시 마감(15:30 마감, 카톡 알림을 저녁에 받으려고
+#                  18시가 아니라 16시로 당겨뒀던 것을 그대로 이어받음)
+#   장중(포트폴리오 탭 시간대별 슬롯만, --slots-only — 뉴스·LLM 카드 요약은
+#        새로 안 만들고 그날 5분봉만 다시 훑는다. 가볍다)
+#     KST 9~15시대  → 국내 슬롯(9:10 / 10:30 / 1:00). 지나간 시점만 채워진다.
+#     KST 22~6시대  → 해외 슬롯(11:00PM). 자정을 넘어가는 구간이라 22~23시와
+#                  0~6시 두 조건으로 나눠 잡는다.
+#   그 외(8시, 17~21시) → 국내·해외 둘 다 장이 닫혀 있어 새로 잡을 게 없다.
+#                        market을 비워서 이후 스텝을 건너뛴다(빈 실행 방지).
 #
-# 장중 갱신 — 포트폴리오 탭의 시간대별 슬롯만 채운다(--slots-only)
-# 국내 슬롯은 9:10 / 10:30 / 1:00 / 마감이고, 지나간 시점만 채워진다.
-# 각 실행은 그날 5분봉을 통째로 받아 지나간 시점을 다시 다 뽑으므로,
-# 실행이 밀리거나 하나 걸러 실패해도 다음 실행이 알아서 메운다.
-#   00:20 UTC = 09:20 KST  9:10 슬롯
-#   01:40 UTC = 10:40 KST  10:30 슬롯까지
-#   04:10 UTC = 13:10 KST  1:00 슬롯까지
-# 해외는 슬롯이 11:00PM·마감 둘뿐이고 KST 새벽에 다 지나가서, 아침 7시 마감
-# 실행 한 번이면 이미 둘 다 채워진다. 장중 갱신을 따로 두지 않는다.
-# ---- 2026-09-03: 서비스 중단 ----
-# 자동 실행을 멈춘다. 아래 schedule 주석을 풀면 그대로 되살아난다.
-# 워크플로 파일을 지우지 않은 것은 손으로 돌릴 길(workflow_dispatch)을 남겨두기 위해서다.
-# 멈추면 브리핑 생성·되커밋·카카오톡 알림이 함께 멈춘다.
+# 각 실행이 그날 지나간 시점을 통째로 다시 뽑으므로, 밀리거나 하나 걸러
+# 실패해도 다음 실행이 알아서 메운다(intraday.py 참고).
 on:
-  # schedule:
-  #   - cron: '0 22 * * *'
-  #   - cron: '30 7 * * *'
-  #   - cron: '20 0 * * 1-5'
-  #   - cron: '40 1 * * 1-5'
-  #   - cron: '10 4 * * 1-5'
+  schedule:
+    - cron: '10 * * * *'
   workflow_dispatch:
     inputs:
       market:
@@ -69,11 +66,12 @@ jobs:
 
       - name: 어느 시장을 어떻게 갱신할지 정한다
         id: pick
-        # 크론 문자열은 위 schedule 목록과 글자 그대로 같아야 한다.
-        # 값을 env로 받는다 — ${{ }}를 스크립트 본문에 바로 펼치면 입력이
-        # 셸 코드로 섞여 들어간다.
+        # 예전엔 cron 문자열 자체를 케이스로 매핑했다(스케줄마다 문자열이 달라서
+        # 그게 가능했다). 지금은 cron이 '10 * * * *' 하나뿐이라 문자열로는
+        # 구분이 안 되고, 실행 시점의 KST 시각을 직접 봐서 정한다. 값을 env로
+        # 받는다 — ${{ }}를 스크립트 본문에 바로 펼치면 입력이 셸 코드로
+        # 섞여 들어간다.
         env:
-          SCHEDULE: ${{ github.event.schedule }}
           MARKET_IN: ${{ inputs.market }}
           SLOTS_IN: ${{ inputs.slots_only }}
         run: |
@@ -82,17 +80,25 @@ jobs:
             slots=""
             if [ "$SLOTS_IN" = "true" ]; then slots="--slots-only"; fi
           else
-            case "$SCHEDULE" in
-              '0 22 * * *') market=us; slots="" ;;
-              '30 7 * * *') market=kr; slots="" ;;
-              *)            market=kr; slots="--slots-only" ;;
+            kst_hour=$(TZ=Asia/Seoul date +%-H)   # 0~23, 앞자리 0 없음
+            case "$kst_hour" in
+              7)                          market=us; slots=""            ;;  # 미국 마감(전체)
+              16)                         market=kr; slots=""            ;;  # 국내 마감(전체)
+              9|10|11|12|13|14|15)        market=kr; slots="--slots-only";;  # 국내 장중
+              22|23|0|1|2|3|4|5|6)        market=us; slots="--slots-only";;  # 해외 장중(자정 넘어감)
+              *)                          market="";  slots=""           ;;  # 8시·17~21시 — 둘 다 닫혀 있어 건너뜀
             esac
           fi
           echo "market=$market" >> "$GITHUB_OUTPUT"
           echo "slots=$slots"   >> "$GITHUB_OUTPUT"
-          echo "→ market=$market ${slots:-(마감 브리핑 전체)}"
+          if [ -z "$market" ]; then
+            echo "→ 지금 시각(KST)은 국내·해외 둘 다 장이 닫혀 있어 건너뜀"
+          else
+            echo "→ market=$market ${slots:-(마감 브리핑 전체)}"
+          fi
 
       - name: 브리핑 생성
+        if: steps.pick.outputs.market != ''
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           # 카카오톡 알림용. 없으면 발송만 조용히 건너뛰고 브리핑은 그대로 만든다.
@@ -104,6 +110,7 @@ jobs:
             --market ${{ steps.pick.outputs.market }} ${{ steps.pick.outputs.slots }}
 
       - name: 결과 커밋
+        if: steps.pick.outputs.market != ''
         run: |
           git config user.name  'notefolio-bot'
           git config user.email 'notefolio-bot@users.noreply.github.com'
@@ -115,8 +122,8 @@ jobs:
             what='${{ steps.pick.outputs.market }}'
             if [ -n '${{ steps.pick.outputs.slots }}' ]; then what="$what 시간대별"; fi
             git commit -m "브리핑 갱신 ($what) [skip ci]"
-            # 하루 다섯 번까지 늘어나서, 체크아웃 뒤 사람이 밀어넣은 커밋과
-            # 부딪힐 자리가 생겼다. 리베이스로 얹고 민다.
+            # 매시 도는 만큼, 체크아웃 뒤 사람이 밀어넣은 커밋과 부딪힐 자리가
+            # 늘었다. 리베이스로 얹고 민다.
             git pull --rebase origin "${GITHUB_REF_NAME}"
             git push
           fi
