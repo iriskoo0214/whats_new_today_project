@@ -1,10 +1,10 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-09-16 02:00:53 KST",
-  "refreshed": [
+  "generated_at": "2026-09-16 05:12:01 KST",
+  "refreshed": [],
+  "slots_refreshed": [
     "us"
   ],
-  "slots_refreshed": [],
   "default": "us",
   "markets": {
     "us": {
@@ -49,8 +49,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.15,
               "is_close": false,
               "date": "2026-09-15",
-              "title": "소폭 상승 유지",
-              "text": "양자 연구 성과 소식이 전해진 가운데 큰 등락 없이 강보합 흐름을 이어가는 중"
+              "title": "소폭 상승 흐름",
+              "text": "배당 지급 소식과 양자 컴퓨팅 연구 성과가 전해지며 완만한 오름세를 이어감"
+            },
+            {
+              "time": "마감",
+              "price": 248.39999389648438,
+              "pct": -0.28,
+              "is_close": true,
+              "date": "2026-09-15",
+              "title": "장 막판 하락 전환",
+              "text": "장중 유지되던 상승분을 늦은 시간대 반납하며 결국 소폭 하락으로 방향이 꺾임"
             }
           ],
           "slot_total": 2,
@@ -94,8 +103,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.83,
               "is_close": false,
               "date": "2026-09-15",
-              "title": "약보합권 흐름",
-              "text": "자체 AI에 선을 긋는 발언이 부담으로 작용하며 하락세를 좁히지 못하고 유지 중"
+              "title": "약세 흐름 지속",
+              "text": "아이온2 협력 소식 등 우호적 뉴스에도 신규 AI 모델 경쟁 속 투자 신중론이 부각됨"
+            },
+            {
+              "time": "마감",
+              "price": 497.1199951171875,
+              "pct": -1.64,
+              "is_close": true,
+              "date": "2026-09-15",
+              "title": "낙폭 확대되며 마감",
+              "text": "등급 유지 소식에도 매수세가 붙지 않으며 하락폭이 하루 중 가장 크게 벌어짐"
             }
           ],
           "slot_total": 2,
@@ -139,8 +157,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.2,
               "is_close": false,
               "date": "2026-09-15",
-              "title": "상승세 이어가는 중",
-              "text": "퀀텀위크에서 논문 수상 소식이 잇따라 전해지며 투자자 관심 속 완만한 오름세를 지속"
+              "title": "소폭 반등 시도",
+              "text": "IEEE 퀀텀위크 논문 수상 등 기술력 부각 소식에 힘입어 저점 대비 반등하는 모습"
+            },
+            {
+              "time": "마감",
+              "price": 37.040000915527344,
+              "pct": -1.23,
+              "is_close": true,
+              "date": "2026-09-15",
+              "title": "하락 마감 전환",
+              "text": "장중 반등세를 지키지 못하고 트렌딩 부각에도 결국 소폭 하락으로 하루를 마감"
             }
           ],
           "slot_total": 2,
@@ -184,8 +211,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.09,
               "is_close": false,
               "date": "2026-09-15",
-              "title": "완만한 상승 유지",
-              "text": "차세대 칩 관련 기대감이 이어지는 가운데 상승폭을 유지하며 견조한 흐름을 지속"
+              "title": "완만한 상승세",
+              "text": "RTX 5090 가격 급등 소식과 인재 영입 뉴스가 겹치며 꾸준한 오름세를 유지함"
+            },
+            {
+              "time": "마감",
+              "price": 212.1699981689453,
+              "pct": 0.57,
+              "is_close": true,
+              "date": "2026-09-15",
+              "title": "오름폭 다소 줄어듦",
+              "text": "장중 상승세를 이어갔으나 후반 들어 오름폭이 다소 줄어든 채 강세를 유지 중"
             }
           ],
           "slot_total": 2,
@@ -229,8 +265,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.39,
               "is_close": false,
               "date": "2026-09-15",
-              "title": "소폭 하락 지속",
-              "text": "소송 관련 소식이 전해진 이후 상승분을 지키지 못하고 약세로 돌아선 흐름 이어감"
+              "title": "장중 강세 유지",
+              "text": "시장 약세 속에서도 나 홀로 상승했다는 소식이 전해지며 개별 강세 흐름을 이어감"
+            },
+            {
+              "time": "마감",
+              "price": 17.06999969482422,
+              "pct": -3.29,
+              "is_close": true,
+              "date": "2026-09-15",
+              "title": "낙폭 확대 마감",
+              "text": "영업비밀 관련 소송 소식이 전해진 이후 상승분을 반납하고 하락폭이 크게 확대됨"
             }
           ],
           "slot_total": 2,
@@ -253,7 +298,8 @@ window.NOTEFOLIO_BRIEFING = {
         }
       ],
       "markdown": "briefings/2026-09-16-us.md",
-      "refreshed_at": "2026-09-16 02:00:53 KST"
+      "refreshed_at": "2026-09-16 02:00:53 KST",
+      "slots_refreshed_at": "2026-09-16 05:12:01 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
