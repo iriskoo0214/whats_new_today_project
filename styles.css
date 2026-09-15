@@ -388,7 +388,14 @@
   }
   .scrollbar.is-visible .scrollbar__thumb{opacity:1;}
 
-  /* ---------- tab bar (92:1908) ---------- */
+  /* ---------- tab bar (92:1908) ----------
+     Figma Plugin API로 노드(1:1035)를 직접 읽어보면 strokes는 비어 있고,
+     대신 effects에 type:"GLASS"(radius 22, refraction .53, depth 12,
+     lightAngle 355, dispersion .5)가 걸려 있다 — Figma의 유리 재질
+     이펙트다. CSS에 이걸 그대로 옮길 방법이 없어서(굴절·분산까지 흉내
+     내는 filter는 없다) backdrop-filter:blur만으로는 못 살리는 위/아래
+     테두리의 은은한 밝기를 inset box-shadow로 근사한다 — 정확한 포팅이
+     아니라 근사치라는 점을 밝혀둔다. */
   .tab-bar{
     position:absolute;left:50%;transform:translateX(-50%);
     top:702px;width:var(--card-w);height:68px;
@@ -396,6 +403,8 @@
     background:rgba(255,255,255,.2);
     -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
     border-radius:8px;z-index:6;
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.6),
+                inset 0 -1px 0 rgba(255,255,255,.4);
   }
   .tab{
     width:112px;height:64px;
@@ -409,11 +418,16 @@
   .tab.is-active .tab__label{color:var(--label-strong);}
 
   /* 선택 알약(155:6498) — 버튼 배경이 아니라 독립 요소로 두고 미끄러지게 한다 */
+  /* 그림자값은 스크린샷 추측이 아니라 Figma Plugin API로 노드(1:1036)를 직접
+     읽어서 나온 값이다 — effects: [{type:DROP_SHADOW, radius:20, spread:1,
+     offset:{0,0}, color:#e7f3ff}]. blur가 10이 아니라 20이고 spread(1px)가
+     있어서, spread를 못 주는 filter:drop-shadow 대신 box-shadow로 바꿨다
+     (전엔 blur를 반토막 낸 채 spread 없이 대충 흉내만 내고 있었다). */
   .tab-indicator{
     position:absolute;top:50%;left:0;width:0;height:52px;
     transform:translateY(-50%);
     background:#fff;border-radius:5px;
-    filter:drop-shadow(0 0 10px #e7f3ff);
+    box-shadow:0 0 20px 1px #e7f3ff;
     transition:left .42s cubic-bezier(.32,1.28,.44,1),
                width .42s cubic-bezier(.32,1.28,.44,1);
     pointer-events:none;
@@ -740,9 +754,17 @@
 
     .pf-middle{
       position:relative;top:auto;height:auto;
-      /* shrink 0 — min-height로 최소치를 못박으면 칩·종목명이 몇 줄이 되느냐에
-         따라 넘쳐서 가격이 잘린다. 모자라면 화면이 스크롤된다. */
-      flex:1 0 auto;max-height:560px;      /* 시안 502 + 여유 58 */
+      /* grow 0 — 예전엔 1이었다. .screen--pf가 min-height:100vh라, 실제 내용
+         (487px 안팎)이 화면 높이보다 짧으면 flex-grow가 남는 공간을 전부
+         .pf-middle에 몰아줘서 가격 블록과 "시간대별 브리핑" 사이에 화면
+         높이에 따라 늘었다 줄었다 하는 빈 공간이 생겼다(실측 버그 — 강제로
+         0으로 바꿔보니 100px 넘던 간격이 Figma 실측값(64px 안팎)으로
+         돌아왔다). 문서 스크롤(doc-scroll)이 생긴 지금은 모자란 높이를
+         굳이 늘려 채울 필요가 없다 — 실제 키만큼만 차지하고, 남는 공간은
+         맨 아래(마지막 카드 뒤)에 생기는 편이 자연스럽다.
+         shrink는 여전히 0 — min-height로 최소치를 못박으면 칩·종목명이
+         몇 줄이 되느냐에 따라 넘쳐서 가격이 잘린다. */
+      flex:0 0 auto;max-height:560px;      /* 시안 502 + 여유 58 */
       display:flex;flex-direction:column;
       /* 시안에서 진행 바(502)는 가격 블록(밑변 441) 아래로 61px 더 내려가
          옅어지며 사라진다. flex로 쌓으면 가격 블록이 마지막이라 그냥 두면
