@@ -44,21 +44,37 @@ document.write('<link rel="stylesheet" href="styles.css?t=' + Date.now() + '">')
 
   <!-- ============ Home 탭 ============ -->
   <section class="screen screen--home" id="screenHome">
-  <div class="blob"></div>
-
   <!-- App Bar -->
   <div class="app-bar">
     <img class="logo" src="assets/logo.svg" alt="노트폴리오" />
     <span class="bell icon24"><img class="i-bell" src="assets/notification.svg" alt="알림" /></span>
   </div>
 
-  <!-- Summary title -->
-  <button class="summary-title" id="summaryTitle" title="다른 시장 브리핑 보기(프로토타입 전환용)">
-    <img id="summaryIcon" src="assets/sun-horizon.svg" alt="" />
-    <span id="summaryLabel">미국 증시 요약 2026. 7. 31. 7:00AM</span>
+  <!-- 날짜 (1:1033) -->
+  <div class="home-date" id="homeDate"></div>
+
+  <!-- 시장 배지 + 전환 토글 (1:1072, 예전 summary-title 자리) -->
+  <button class="home-badge" id="homeBadge" title="다른 시장 브리핑 보기(프로토타입 전환용)">
+    <span class="home-badge__group">
+      <span class="home-badge__flag-box">
+        <img class="home-badge__flag" id="homeBadgeFlag" src="assets/flag-kr.svg" alt="" />
+      </span>
+      <span class="home-badge__label" id="homeBadgeLabel">한국 데일리 브리핑</span>
+    </span>
+    <span class="home-badge__group">
+      <span class="home-badge__toggle"><img src="assets/arrows-left-right.svg" alt="" /></span>
+      <img class="home-badge__flag-next" id="homeBadgeFlagNext" src="assets/flag-us.svg" alt="" />
+    </span>
   </button>
 
-  <!-- Filters -->
+  <!-- 시장 요약 — 헤드라인 + 3줄요약 (1:1081). market_headline/market_card가
+       없으면(파이프라인 아직 안 돌림) 통째로 숨긴다 — renderMarket()에서 처리. -->
+  <div class="home-summary" id="homeSummary" hidden>
+    <div class="home-summary__headline" id="homeSummaryHeadline"></div>
+    <ol class="home-summary__bullets" id="homeSummaryBullets"></ol>
+  </div>
+
+  <!-- Filters (Tab List Container, 1:1056) -->
   <div class="filters">
     <div class="chip-scroll" id="chips"></div>
     <button class="chip-more" aria-label="다음 종목 보기">
@@ -66,24 +82,12 @@ document.write('<link rel="stylesheet" href="styles.css?t=' + Date.now() + '">')
     </button>
   </div>
 
+  <!-- 내 종목 브리핑 (1:1034) -->
+  <div class="home-section-title">내 종목 브리핑</div>
+
   <!-- Card list -->
   <div class="list-viewport" id="viewport">
     <ul class="list" id="list"></ul>
-  </div>
-
-  <!-- 모두 읽음 상태 -->
-  <div class="all-read" id="allRead">
-    <div class="all-read__badge">
-      <img class="all-read__star" src="assets/star-badge.svg" alt="" />
-      <img class="all-read__check" src="assets/check.svg" alt="" />
-    </div>
-    <div class="all-read__body">
-      <div class="all-read__text">
-        <div class="all-read__title">오늘의 브리핑을 모두 확인했어요.</div>
-        <div class="all-read__sub" id="allReadSub"></div>
-      </div>
-      <button class="all-read__btn" id="reset">브리핑 다시 불러오기</button>
-    </div>
   </div>
 
   <div class="scrollbar" id="scrollbar"><div class="scrollbar__thumb" id="thumb"></div></div>
