@@ -1,11 +1,10 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-09-20 02:36:37 KST",
-  "refreshed": [
-    "us",
-    "kr"
+  "generated_at": "2026-09-20 02:56:53 KST",
+  "refreshed": [],
+  "slots_refreshed": [
+    "us"
   ],
-  "slots_refreshed": [],
   "default": "us",
   "markets": {
     "us": {
@@ -50,8 +49,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -2.48,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "장중 낙폭 지속",
-              "text": "기술주 최고봉 자리에서 밀려났다는 평가 속에 하락세가 이어지는 흐름"
+              "title": "약세 지속",
+              "text": "최고 테크 기업 자리를 내주고 주가가 폭락했다는 평가 속에 낙폭이 이어지는 흐름이 계속됨"
             },
             {
               "time": "마감",
@@ -59,8 +58,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.45,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "낙폭 더 커지며 마감",
-              "text": "배당 인상 소식에도 매수세가 붙지 못하며 하루 중 가장 큰 낙폭으로 마무리"
+              "title": "낙폭 확대 마감",
+              "text": "31년째 배당을 올렸지만 인플레이션을 못 이긴다는 지적이 나온 뒤 낙폭이 더 커지며 하루를 마감"
             }
           ],
           "slot_total": 2,
@@ -104,8 +103,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.81,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "소폭 약세 흐름",
-              "text": "분기 배당 상향과 낙관적 전망에도 주가는 하락세를 벗어나지 못하는 모습"
+              "title": "소폭 약세 지속",
+              "text": "AI 업계 설명 방식에 대한 반발 확산 우려가 제기된 뒤에도 완만한 하락세가 그대로 이어짐"
             },
             {
               "time": "마감",
@@ -113,8 +112,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.8,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "약보합 마감",
-              "text": "엑셀 이슈 등 잡음 속에서도 낙폭을 소폭 줄이며 하락세로 하루를 마무리"
+              "title": "약세 흐름 유지",
+              "text": "분기 배당 상향과 긍정적 수익 전망 소식에도 매수세가 붙지 못하며 소폭 하락으로 마감"
             }
           ],
           "slot_total": 2,
@@ -158,8 +157,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -4.41,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "나홀로 약세 확대",
-              "text": "시장 상승세 속 홀로 하락하던 흐름이 저녁 들어서도 이어지며 낙폭 커짐"
+              "title": "낙폭 확대",
+              "text": "현금 소진 우려가 부각된 이후 약세가 이어지며 장 후반 들어 하락폭이 더 커짐"
             },
             {
               "time": "마감",
@@ -167,8 +166,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.0,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "낙폭 일부 축소 마감",
-              "text": "기술적 성과 소식에도 현금 소진 우려가 부각되며 하락세로 하루 마감"
+              "title": "저점서 일부 회복",
+              "text": "AI 기반 양자 회로 관련 소식이 나온 가운데 장중 최저점 대비 낙폭을 다소 줄이며 마감"
             }
           ],
           "slot_total": 2,
@@ -212,8 +211,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.05,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "보합권 등락",
-              "text": "젠슨 황 발언에 힘입은 전날 상승분을 지키며 큰 변동 없이 움직이는 흐름"
+              "title": "약세로 되돌림",
+              "text": "내년 칩 판매 확대 발언에 급등했던 기세가 꺾이며 보합권 아래로 내려온 채 유지 중"
             },
             {
               "time": "마감",
@@ -221,8 +220,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.34,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "상승 전환 마감",
-              "text": "NV링크 소식과 투자 전망 속 저녁 약세를 딛고 플러스권으로 마무리"
+              "title": "강세 전환 마감",
+              "text": "장 후반 매수세가 다시 유입되며 약세를 딛고 상승 전환에 성공해 하루를 마감"
             }
           ],
           "slot_total": 2,
@@ -266,8 +265,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.34,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "완만한 상승세",
-              "text": "52주 최고가 대비 큰 폭 하락했다는 평가 이후 저녁 들어 반등 흐름 지속"
+              "title": "상승세 유지",
+              "text": "52주 최고가 대비 크게 낮아진 밸류에이션 논의가 나온 뒤에도 완만한 오름세가 이어짐"
             },
             {
               "time": "마감",
@@ -275,8 +274,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.37,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "상승폭 확대 마감",
-              "text": "크로스바이 모멘텀 기대감이 언급된 가운데 오름폭을 키우며 하루 마무리"
+              "title": "강세로 마감",
+              "text": "대출 자금 조달 구조 관련 비교 기사가 나온 이후 상승폭을 키우며 오름세로 마무리"
             }
           ],
           "slot_total": 2,
@@ -306,7 +305,8 @@ window.NOTEFOLIO_BRIEFING = {
         }
       ],
       "markdown": "briefings/2026-09-20-us-kr.md",
-      "refreshed_at": "2026-09-20 02:36:37 KST"
+      "refreshed_at": "2026-09-20 02:36:37 KST",
+      "slots_refreshed_at": "2026-09-20 02:56:53 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
