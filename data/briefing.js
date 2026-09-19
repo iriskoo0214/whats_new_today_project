@@ -1,11 +1,10 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-09-19 19:10:49 KST",
-  "refreshed": [
-    "us",
-    "kr"
+  "generated_at": "2026-09-19 23:20:14 KST",
+  "refreshed": [],
+  "slots_refreshed": [
+    "us"
   ],
-  "slots_refreshed": [],
   "default": "us",
   "markets": {
     "us": {
@@ -50,8 +49,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -2.48,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "장 후반 낙폭 확대",
-              "text": "기술주 대표주였던 과거를 조명하는 재조명 기사가 나온 가운데 낙폭이 커지는 흐름이 이어짐"
+              "title": "약세 지속",
+              "text": "기술주 최고 종목이었던 위상에 금이 가며 주가가 25% 폭락했다는 평가가 나온 뒤로 하락세가 이어지는 모습이다."
             },
             {
               "time": "마감",
@@ -59,8 +58,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.45,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "약세로 하루 마무리",
-              "text": "저가 매수세가 붙지 못하며 장 후반 들어 하락폭이 더 벌어진 채 하루를 마감"
+              "title": "낙폭 확대 마감",
+              "text": "장 후반 들어 하락폭이 오히려 커지면서 이날 저점 부근에서 마감해 반등 기대와는 거리가 먼 하루였다."
             }
           ],
           "slot_total": 2,
@@ -104,8 +103,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.81,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "소폭 약세 지속",
-              "text": "AI 산업 홍보 부족을 지적한 올트먼 발언이 부담으로 작용하며 낙폭이 소폭 유지됨"
+              "title": "소폭 약세 유지",
+              "text": "분기 배당 인상과 AI 투자 수익 변곡점 기대 같은 우호적 소식에도 주가는 약세를 벗어나지 못하고 있다."
             },
             {
               "time": "마감",
@@ -113,8 +112,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.8,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "보합권 약세 마감",
-              "text": "장 후반까지 하락폭이 크게 변하지 않으며 좁은 범위에서 등락하다 약세로 마감"
+              "title": "약세 마감",
+              "text": "배당 인상 소식과 실적 기대감이 이어졌지만 매수세로 이어지지 못하며 소폭 하락한 채 하루를 마쳤다."
             }
           ],
           "slot_total": 2,
@@ -158,8 +157,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -4.41,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "낙폭 확대되는 중",
-              "text": "기술적 성과를 다룬 기사가 나온 이후에도 매수세가 붙지 못하며 하락폭이 커짐"
+              "title": "낙폭 확대 흐름",
+              "text": "기술적 성과 부각에도 현금 소진 우려가 부각된 이후 장 후반 들어 하락폭이 더 커지는 양상이다."
             },
             {
               "time": "마감",
@@ -167,8 +166,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.0,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "하루 중 낙폭 최대",
-              "text": "장 초반 대비 하락폭이 더 벌어지며 이날 가장 큰 낙폭을 기록한 채 마감"
+              "title": "낙폭 일부 회복 마감",
+              "text": "장중 한때 확대됐던 하락폭을 후반 들어 다소 줄이며 저점보다는 높은 수준에서 마감했다."
             }
           ],
           "slot_total": 2,
@@ -212,8 +211,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.05,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "보합권 등락 지속",
-              "text": "아마존발 리스크 완화 발언이 나온 뒤 낙폭이 거의 사라지며 보합권에서 움직임"
+              "title": "강세 되돌림",
+              "text": "젠슨황의 내년 칩 판매 확대 발언이 부각된 이후 상승세를 타던 흐름이 막판 들어 다소 주춤해졌다."
             },
             {
               "time": "마감",
@@ -221,8 +220,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.34,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "막판 상승 전환",
-              "text": "장 후반 들어 반등에 성공하며 하루 중 가장 높은 수준으로 올라선 채 마감"
+              "title": "상승 마감",
+              "text": "칩 판매 두 배 전망 발언에 힘입어 오른 상승분을 장 후반까지 지켜내며 플러스권에서 마감했다."
             }
           ],
           "slot_total": 2,
@@ -266,8 +265,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.34,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "완만한 상승 지속",
-              "text": "52주 고점 대비 저평가 논쟁을 다룬 기사가 나온 뒤에도 완만한 오름세가 이어짐"
+              "title": "소폭 상승 유지",
+              "text": "52주 최고가 대비 큰 폭 하락한 가격대에서 매수 매도 의견이 엇갈리는 가운데 소폭 오름세가 이어졌다."
             },
             {
               "time": "마감",
@@ -276,7 +275,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-09-18",
               "title": "상승폭 확대 마감",
-              "text": "장 후반 들어 오름폭이 더 커지며 이날 가장 높은 수준에서 거래를 마무리"
+              "text": "저가 매수 관점의 분석이 나온 뒤 오름세가 장 후반 들어 더 뚜렷해지며 오늘 상승폭을 키우고 마감했다."
             }
           ],
           "slot_total": 2,
@@ -292,7 +291,8 @@ window.NOTEFOLIO_BRIEFING = {
         }
       ],
       "markdown": "briefings/2026-09-19-us-kr.md",
-      "refreshed_at": "2026-09-19 19:10:49 KST"
+      "refreshed_at": "2026-09-19 19:10:49 KST",
+      "slots_refreshed_at": "2026-09-19 23:20:14 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
