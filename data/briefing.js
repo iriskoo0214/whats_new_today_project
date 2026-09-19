@@ -1,9 +1,9 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-09-19 06:36:19 KST",
+  "generated_at": "2026-09-19 09:12:18 KST",
   "refreshed": [],
   "slots_refreshed": [
-    "us"
+    "kr"
   ],
   "default": "us",
   "markets": {
@@ -352,7 +352,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-09-18",
               "title": "장 초반 강세 출발",
-              "text": "개장 직후부터 매수세가 유입되며 3%대 강한 상승으로 하루를 시작함"
+              "text": "주가 급등 전망 기사와 낸드 공장 추진 소식이 겹치며 3%대 상승 출발"
             },
             {
               "time": "10:30AM",
@@ -360,8 +360,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.97,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "상승폭 소폭 조정",
-              "text": "오전 중반 들어 상승폭이 살짝 줄어들며 숨 고르기 양상을 보였으나 상승 기조는 유지함"
+              "title": "상승폭 소폭 축소",
+              "text": "오전 한때 상승분을 살짝 반납하며 숨 고르기, 여전히 전일 대비 강세권 유지"
             },
             {
               "time": "1:00PM",
@@ -369,8 +369,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 4.53,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "낙폭 만회하며 신고점",
-              "text": "코스피 강세 속 외인·기관 매수세가 몰리며 오후 들어 상승폭을 다시 키워 하루 중 최고 수준까지 올라섬"
+              "title": "오후 들어 재상승",
+              "text": "점심 이후 매수세가 다시 유입되며 오전 고점을 넘어서 4%대 중반까지 오름폭 확대"
+            },
+            {
+              "time": "마감",
+              "price": 1849000.0,
+              "pct": 4.7,
+              "is_close": true,
+              "date": "2026-09-18",
+              "title": "강세 마감",
+              "text": "오후 상승 흐름을 그대로 이어가며 하루 중 가장 높은 수준에서 거래를 마무리"
             }
           ],
           "slot_total": 4,
@@ -414,8 +423,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.37,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "완만한 상승 출발",
-              "text": "개장 초 완만한 오름세로 출발하며 1%대 초반 상승을 기록함"
+              "title": "장 초반 상승 출발",
+              "text": "스마트폰 시장 약진 소식과 주가 전망 호재가 겹치며 1%대 상승으로 출발"
             },
             {
               "time": "10:30AM",
@@ -423,8 +432,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.88,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "상승폭 다소 둔화",
-              "text": "오전 중반 들어 상승폭이 줄어들며 보합권에 가깝게 밀리는 흐름이 나타남"
+              "title": "오전 상승폭 둔화",
+              "text": "장 초반 오름세를 지키지 못하고 상승폭이 줄어들며 1% 미만으로 내려앉음"
             },
             {
               "time": "1:00PM",
@@ -432,8 +441,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.76,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "오후 들어 재차 상승",
-              "text": "중국 반도체 업체 급성장 소식이 나온 가운데서도 낙폭을 만회하고 하루 중 가장 높은 수준으로 올라섬"
+              "title": "오후 들어 반등",
+              "text": "점심 무렵 매수세가 다시 유입되며 오전 저점을 벗어나 하루 중 최고 수준까지 상승"
+            },
+            {
+              "time": "마감",
+              "price": 260000.0,
+              "pct": 1.56,
+              "is_close": true,
+              "date": "2026-09-18",
+              "title": "상승세 유지 마감",
+              "text": "오후 고점에서 소폭 내려섰지만 장 초반보다 높은 수준에서 하루를 마무리"
             }
           ],
           "slot_total": 4,
@@ -477,8 +495,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.0,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "보합권 등락",
-              "text": "개장 직후 보합세로 출발한 뒤 큰 변동 없이 잔잔한 흐름을 이어감"
+              "title": "보합권 출발",
+              "text": "K9·천무 무인화 전환 소식에도 시초가는 전일 수준에서 큰 변동 없이 출발"
             },
             {
               "time": "10:30AM",
@@ -486,8 +504,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.09,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "소폭 하락 전환",
-              "text": "오전 중반 들어 상승분을 반납하며 약보합으로 돌아서는 모습을 보임"
+              "title": "장 초반 약세 전환",
+              "text": "오전 들어 상승 동력이 붙지 못하며 소폭 하락으로 방향이 바뀜"
             },
             {
               "time": "1:00PM",
@@ -495,8 +513,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.64,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "오후 들어 반등 성공",
-              "text": "방산 3사 관련 소식이 이어지는 가운데 오후 들어 낙폭을 만회하고 플러스권으로 재진입함"
+              "title": "오후 반등 시도",
+              "text": "점심 무렵 매수세가 유입되며 낙폭을 만회하고 하루 중 최고 수준까지 상승 전환"
+            },
+            {
+              "time": "마감",
+              "price": 1092000.0,
+              "pct": -0.55,
+              "is_close": true,
+              "date": "2026-09-18",
+              "title": "약세로 마감",
+              "text": "오후 상승분을 지키지 못하고 다시 밀리며 결국 전일 대비 하락으로 마무리"
             }
           ],
           "slot_total": 4,
@@ -540,8 +567,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.8,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "완만한 상승 출발",
-              "text": "개장 초 소폭 상승하며 완만한 흐름으로 하루를 시작함"
+              "title": "소폭 상승 출발",
+              "text": "전장 안전 기술 관련 소식 속 시초가는 완만한 오름세로 하루를 시작"
             },
             {
               "time": "10:30AM",
@@ -549,8 +576,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.25,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "상승분 반납하며 조정",
-              "text": "오전 중반 들어 상승분을 모두 반납하고 약보합으로 전환되는 모습을 보임"
+              "title": "오전 약세 전환",
+              "text": "장 초반 상승분을 반납하며 오전 중 하락 전환, 19만원대 후반 등락 지속"
             },
             {
               "time": "1:00PM",
@@ -558,8 +585,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.55,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "낙폭 만회하며 반등",
-              "text": "IR대상 수상 소식이 전해진 가운데 오후 들어 낙폭을 줄이며 다시 플러스권 근접까지 회복함"
+              "title": "오후 낙폭 일부 회복",
+              "text": "점심 이후 매수세가 유입되며 오전 저점에서 벗어나 다시 소폭 상승권 진입"
+            },
+            {
+              "time": "마감",
+              "price": 198700.0,
+              "pct": -0.35,
+              "is_close": true,
+              "date": "2026-09-18",
+              "title": "약세 마감",
+              "text": "오후 반등이 오래가지 못하고 재차 하락 전환되며 하루를 소폭 약세로 마무리"
             }
           ],
           "slot_total": 4,
@@ -603,8 +639,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.44,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "강세로 장 출발",
-              "text": "개장 직후 1%대 중반 상승하며 비교적 강한 출발을 보임"
+              "title": "장 초반 강세 출발",
+              "text": "자율주행 일정 조정 소식 속에서도 시초가는 1%대 상승으로 힘차게 출발"
             },
             {
               "time": "10:30AM",
@@ -612,8 +648,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.69,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "상승폭 크게 축소",
-              "text": "오전 중반 들어 상승폭이 눈에 띄게 줄어들며 초반 강세가 다소 꺾이는 모습을 보임"
+              "title": "상승폭 축소",
+              "text": "오전 들어 초반 오름세가 꺾이며 상승폭이 줄어드는 흐름으로 전환"
             },
             {
               "time": "1:00PM",
@@ -621,8 +657,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.82,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "보합권에서 등락 지속",
-              "text": "카자흐스탄 프로젝트 협약 등 소식이 이어졌지만 뚜렷한 반등 없이 완만한 상승세를 유지하는 중"
+              "title": "오후 소폭 반등",
+              "text": "점심 이후 낙폭을 살짝 만회하며 오전보다 다소 개선된 상승세 유지"
+            },
+            {
+              "time": "마감",
+              "price": 366500.0,
+              "pct": 0.55,
+              "is_close": true,
+              "date": "2026-09-18",
+              "title": "상승폭 줄며 마감",
+              "text": "오후 들어 재차 힘이 빠지며 장 초반보다 낮은 수준에서 하루를 마무리"
             }
           ],
           "slot_total": 4,
@@ -653,7 +698,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-09-15-kr.md",
       "refreshed_at": "2026-09-15 12:48:15 KST",
-      "slots_refreshed_at": "2026-09-18 13:32:40 KST"
+      "slots_refreshed_at": "2026-09-19 09:12:18 KST"
     }
   }
 };
