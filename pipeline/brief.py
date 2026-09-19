@@ -195,7 +195,10 @@ def card_title(sb: StockBrief) -> str:
     if tail and room > 0:
         return prefix + fit(tail, room)
 
-    if sb.news:
+    # 요약이 돌았는데 꼬리가 비었다 = 헤드라인이 이 종목과 상관없다는 판단(예: LG전자에
+    # "2026년 모니터 추천" 광고성 기사). 그 첫 헤드라인을 제목으로 쓰면 엉뚱한 제목이
+    # 되니 아래 등락 사실로 간다. 요약이 아예 없을 때(규칙 기반)만 첫 헤드라인을 쓴다.
+    if sb.news and sb.summary is None:
         if room > 0:
             return prefix + fit(sb.news[0].title, room)
         return fit(sb.name, CARD_TITLE_UNITS)
