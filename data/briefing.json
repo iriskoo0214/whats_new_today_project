@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-19 23:20:14 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-09-20 02:06:06 KST",
+  "refreshed": [
     "us"
   ],
+  "slots_refreshed": [],
   "default": "us",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
-      "label": "미국 증시 요약 2026. 9. 19. 7:10PM",
+      "label": "미국 증시 요약 2026. 9. 20. 2:06AM",
       "chips": [
         "전체",
         "IBM",
@@ -22,21 +22,21 @@
       ],
       "next": "kr",
       "headline": "해외 5종목 중 2종목 상승, 3종목 하락 — 소파이테크놀로지가 +1.37%로 가장 많이 올랐고 IBM이 -3.45%로 가장 부진했습니다.",
-      "market_headline": "국제유가 100달러 상회에도 최고가격제로 기름값 18주째 하락",
+      "market_headline": "美 국채금리 5% 재돌파에도 반도체 강세로 지수 방어",
       "market_card": {
-        "title": "국내 기름값 하락 지속...코스피 거래대금은 급감 마감",
+        "title": "뉴욕증시 혼조 마감...S&P500·나스닥 사상 최고치",
         "bullets": [
-          "국제유가 급등 속 최고가격제 4주 추가 동결",
-          "유류세 인하 및 명절 고속도로 통행료 인하",
-          "코스피 거래대금 3개월새 58% 급감, 관망세 확산"
+          "美 10년물 국채금리 5%대 급등",
+          "필라델피아 반도체지수 2.78% 급등",
+          "휴전 연장 기대에 최고치 경신"
         ]
       },
       "cards": [
         {
           "stock": "IBM",
           "ticker": "IBM",
-          "title": "IBM - 화제 속 -3.45% 급락",
-          "body": "IBM이 한때 기술주 최대 시가총액 종목이었으나 최근 주가가 25% 폭락했다는 재조명 기사가 나온 가운데 -3.45% 내린 <b>229.55달러</b> 마감.",
+          "title": "IBM - 31년째 배당 인상, 주가는 폭락",
+          "body": "IBM은 31년 연속 배당을 인상했지만 인상폭이 인플레이션에 못 미친다는 평가 속에 -3.45% 내린 <b>229.55달러</b> 마감. 한때 엔비디아 자리를 꿰찼던 기술주 최강자가 고점 대비 25% 폭락했다는 분석도 나오며 투자심리가 위축된 모습이다.",
           "pct": -3.45,
           "price": 229.5500030517578,
           "currency": "USD",
@@ -48,8 +48,8 @@
               "pct": -2.48,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "약세 지속",
-              "text": "기술주 최고 종목이었던 위상에 금이 가며 주가가 25% 폭락했다는 평가가 나온 뒤로 하락세가 이어지는 모습이다."
+              "title": "낙폭 확대 흐름",
+              "text": "기술주 최강자였던 시절과 대비되는 급락 소식이 전해진 가운데 하락세가 이어짐"
             },
             {
               "time": "마감",
@@ -57,40 +57,40 @@
               "pct": -3.45,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "낙폭 확대 마감",
-              "text": "장 후반 들어 하락폭이 오히려 커지면서 이날 저점 부근에서 마감해 반등 기대와는 거리가 먼 하루였다."
+              "title": "장 막판 낙폭 심화",
+              "text": "배당 인상 소식에도 매수세가 붙지 못하며 하루 중 가장 큰 하락폭으로 마감함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "IBM Once Held Nvidia's Spot as Tech's Biggest Name. The Stock Just Crashed 25%. Here's the Comeback Case.",
+              "title": "IBM, 31년째 배당 인상...그래도 인플레이션에 못 미쳐",
+              "original": "IBM Has Raised Its Dividend for 31 Years. Inflation Is Still Winning",
+              "source": "24/7 Wall St.",
+              "url": "https://247wallst.com/investing/2026/09/19/ibm-has-raised-its-dividend-for-31-years-inflation-is-still-winning/",
+              "published": "2026-09-19T23:02:51+09:00"
+            },
+            {
+              "title": "IBM, 한때 엔비디아 자리 꿰찼던 기술주 최강자였는데...주가 25% 폭락. 반등 시나리오는",
               "original": "IBM Once Held Nvidia's Spot as Tech's Biggest Name. The Stock Just Crashed 25%. Here's the Comeback Case.",
               "source": "Barchart",
               "url": "https://www.barchart.com/story/news/4688521/ibm-once-held-nvidia-s-spot-as-tech-s-biggest-name-the-stock-just-crashed-25-here-s-the-comeback-case",
               "published": "2026-09-19T08:00:02+09:00"
             },
             {
-              "title": "Fame to Fortune: IBM's Jonathan Adashek on Event's Diverse Networking Opps",
+              "title": "패임 투 포춘: IBM 조너선 아다셰크가 말하는 행사의 다양한 네트워킹 기회",
               "original": "Fame to Fortune: IBM's Jonathan Adashek on Event's Diverse Networking Opps",
               "source": "NYSE",
               "url": "https://finance.yahoo.com/video/fame-fortune-ibms-jonathan-adashek-180953287.html",
               "published": "2026-09-19T03:09:53+09:00"
-            },
-            {
-              "title": "This Doctor Runs a $2.3 Billion Health Startup. He Says This Is Why Walmart and IBM Couldn’t Crack Healthcare.",
-              "original": "This Doctor Runs a $2.3 Billion Health Startup. He Says This Is Why Walmart and IBM Couldn’t Crack Healthcare.",
-              "source": "Entrepreneur",
-              "url": "https://www.entrepreneur.com/business-news/ceo-says-this-is-why-walmart-and-ibm-couldnt-crack-healthcare",
-              "published": "2026-09-19T00:35:27+09:00"
             }
           ]
         },
         {
           "stock": "마이크로소프트",
           "ticker": "MSFT",
-          "title": "마이크로소프트 - AI 논란 속 하락",
-          "body": "샘 올트먼이 AI 업계가 이점을 제대로 설명하지 못했다고 인정하며 AI 관련주에 대한 우려가 커진 가운데 -0.80% 내린 <b>493.78달러</b> 마감.",
+          "title": "마이크로소프트 - 분기 배당 인상에도 소폭 하락",
+          "body": "마이크로소프트는 분기 배당을 인상했고 모건스탠리가 수익 전망을 밝게 평가했으나 -0.80% 내린 <b>493.78달러</b> 마감.",
           "pct": -0.8,
           "price": 493.7799987792969,
           "currency": "USD",
@@ -102,8 +102,8 @@
               "pct": -0.81,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "소폭 약세 유지",
-              "text": "분기 배당 인상과 AI 투자 수익 변곡점 기대 같은 우호적 소식에도 주가는 약세를 벗어나지 못하고 있다."
+              "title": "보합권 약세 흐름",
+              "text": "분기 배당 인상과 밝은 수익 전망 소식에도 불구하고 소폭 하락세를 유지하는 중"
             },
             {
               "time": "마감",
@@ -111,40 +111,40 @@
               "pct": -0.8,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "약세 마감",
-              "text": "배당 인상 소식과 실적 기대감이 이어졌지만 매수세로 이어지지 못하며 소폭 하락한 채 하루를 마쳤다."
+              "title": "낙폭 소폭 유지",
+              "text": "엑셀 이슈 관련 해결책 공유 소식이 나온 이후에도 하락폭이 크게 줄지 않은 채 마무리됨"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "Sam Altman Admits the AI Industry Has Done \"a Terrible Job\" Explaining Its Benefits Amid Growing Backlash. Should That Worry Nvidia and Microsoft Investors?",
-              "original": "Sam Altman Admits the AI Industry Has Done \"a Terrible Job\" Explaining Its Benefits Amid Growing Backlash. Should That Worry Nvidia and Microsoft Investors?",
-              "source": "Motley Fool",
-              "url": "https://www.fool.com/investing/2026/09/19/sam-altman-ai-industry-worry-nvidia-microsoft/",
-              "published": "2026-09-19T17:50:00+09:00"
+              "title": "Templafy, MCP 통해 클로드·챗지피티·마이크로소프트 코파일럿에 Document Agents 연동",
+              "original": "Templafy, MCP 통해 클로드·챗지피티·마이크로소프트 코파일럿에 Document Agents 연동",
+              "source": "koreasprint.com",
+              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1FTENuNGlSWmpZTlJFanNkSEpldkpEM29VdXFNT2U2LUJBQWFYV2w4SlgxTXZGbkFtbXpMbllGYWdzZjN3bm14d3F3cWxIUUg4WW9HdVZ6djJ2WUt3eHd5NDFwaHdmTURCdmdsMF9R?oc=5",
+              "published": "2026-09-20T00:40:00+09:00"
             },
             {
-              "title": "강병탁 AI스페라 대표(왼쪽)와 송주현 마이크로소프트 아세안 리더는 AI 기반 보안 기술 혁신과 AITEM 고도화를 위해 협력하기로 했다.",
-              "original": "강병탁 AI스페라 대표(왼쪽)와 송주현 마이크로소프트 아세안 리더는 AI 기반 보안 기술 혁신과 AITEM 고도화를 위해 협력하기로 했다.",
-              "source": "전자신문",
-              "url": "https://news.google.com/rss/articles/CBMiqwlBVV95cUxNZGQyVE03WDYzX2txS1NoX0dSSDhSeEw1aFlvTEkyVVpYMVA4bWtaaWN4c0ZybXZmNTdkNWx6V1RtM1JRcENlSlRQUVJFQlMwNzZJb3JMVEIzUnlEempva2FHazFkbUxtejlTNW1HXzh2elNCRURxekNQZjd4X2xfb24wSks2RGpja3N1YzM4Ujd2WXlDYWlLdFVmSzd1QVk3cmJFY19GOEVoVXdha29RMHNsQTFOVndxaW0yODMtQUJZTTN3djh3M0tiNVBreEc2bldieTdvWWRlMnJOU2tDMVVlVWZRNWozSFhGa21hYVAweHllZzVzOHZueHhGbGxMV1BPTmhCT3hWZ0xjZ1lWdUlBYlBsZjM0bWZpMEkwcHRzd193UDA3WkRZdFI2bVJ2eGpVOGxJX1g3MmtnbU5BSk1zTERJbUo1SVhUSEx2eUZzTUM2MG9wUWRvSlNMZ2F4d1FIaVJqVVg3dDg4aVZ0NFRuZXFFT1lWZGNoNXpndDgwc2Z4dXMzUmJyZGxmRHlreWYtSm93STE0Q3VRdFZXWkhhQ2t5d2Nabm1SOHVSLWpXYWUwdlVsY2VqSWJ0S2k3S0RtV3RDWUNRUVJCZFkzU2FvaXNLcTNBelF2RWFSeFpHbnVsR2ttdjhxbVBPVzVBd2pWeHpYT3NrRUJ5M1hUX293WTc3aVFxM1VrOHJYai1NVXMxTjNHbk9haXRlSE1yc1U4a3FqWjQyNU1FUnpiWVR5ZF9uaWl6aXZheG54ZUlRX0NlVS1UYURLME5wak9JLWx1aXg0blg4Z19fSHU5Z09PeDkyQUx5U252UU1Ga2puME0xR0ZUWG14QzFMUWhLMjNaY2dzei05Uk9YZGVnVVUyTGozSy1ZbFRLV3FMaGZQTng1VENMMnlPY3kwXzdpY0RuWnBnb3psR3RITlJfejdtZG4zdnVwMFdsUXVNQXk3RFV3NU1QLU5QMDZvWXhCRjdCWWZJa0ZkYzE1XzdNb01PeDRSbE5NcXI0UlJKSUU5VERrbDZoSU1UOTZtQldnZkNMS2k5MmZsOFFMRTUwb2dTU19HREtjT25LYWU4TFBYLUpfb25PX3kwU3lSYkhIYUVwTXUzOVlOZzdzZEs3ZWhYOW5ObHJtWW44bFdMYWJFY1hzaGZlUU5CNHQ2aWtJbzJESElDR0lFMDBHVFV2ZGVYeU1UN0p5b1gxWGVGRkpReXlXeHphUEFQaWVQQUFkY1dJbUZNcnkwdXRWYmM5S1E3OS1wMWN3dVczTTk5MVBXV01qSW9XNUY3MDYzaGlKaDlVY2o0THFaYkZPTG5tSGtwY1dFOEZtN1lhbEcxMGdqempiQ3pmUHdrTnVoUW9zMlBhbjVFRUNnRmVOV21Ud09yckdnend0OXpDRVM5WUhfREk4TjFjMDEzOWFGdmR2VzYtQ3lCZXlJaENHMGpxN1ZMMERvXzNYQkdWdGNmWXZQamlxQkU1eUNMUDJXNDVOekJzRVRvRkYtalJlbE84dHJWcTQzMGhxdmZJQ2Jqd3dTYzJkVWlBQUxyR2lJbDhsNVBfek1lVzBzOHJ5d3VzZzgzN3hNcXBhak5Z?oc=5",
-              "published": "2026-09-19T08:21:37+09:00"
+              "title": "마이크로소프트, 분기 배당 인상...모건스탠리 \"수익 전망 밝다\"",
+              "original": "Microsoft Boosts Quarterly Dividend as Morgan Stanley Highlights Return Prospects",
+              "source": "TIKR.com",
+              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOV0pva05KTXZoRXh6bXpfWDduaEhLNDFCVEtJNXJ4dEZ0QU1CU0sxUGI2eWpxRXU2XzZtcVpjQ0ZLT1dmYnd5SXFMb3ZCZ0JMNHFZamhHMFVMX0kzakpJMnJ1NThfWHFjaXFtRm5SR2E3OEpFM0YtMWVRNXhicFIwemprX0NfYWZJSHNnb2dueFBYTkFTS2p0Y0QtUFd2WGVpcjlBa0tpUXE4eGNPcDJj?oc=5",
+              "published": "2026-09-20T00:00:00+09:00"
             },
             {
-              "title": "오픈AI·마이크로소프트 내부 문건 공개… '웹 해치면서 AI 키운다'",
-              "original": "오픈AI·마이크로소프트 내부 문건 공개… '웹 해치면서 AI 키운다'",
-              "source": "디지털투데이",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBPaXdFcWR4dDRSY2F5cFNaWjdaMVdhcWJIM2h6Xy01X3MwbmlLckNveWpVMjVLbWlTMzdEOWVKTUk0VnhjU1hJYjJSaHZfYnZsLUI5U0hwOFdGQWhGRExOM1RMQm5oWnBTX2lLWnowNEpQVEE?oc=5",
-              "published": "2026-09-19T06:59:00+09:00"
+              "title": "마이크로소프트는 엑셀의 '복사-붙여넣기' 문제에 대한 임시 해결 방법을 공유했습니다.",
+              "original": "마이크로소프트는 엑셀의 '복사-붙여넣기' 문제에 대한 임시 해결 방법을 공유했습니다.",
+              "source": "Vietnam.vn",
+              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRkdVVU1lWEtzbnpMLWZSMVlhckRPOUMtRHVKa2JSZjFucm9vZjRfcnpGSW9scHZIUzNvWEd3S09NZzNqUDRkcmcxYnFwZXFtZzBnRVA1ZlF4eHlLMmJCU3g4dG9RcTR1NE1UMktRSS0xMkRDNGxIVjlTSzk2SXU3allPUVZoN1FaT0RuVXB6VWV5TVRRbHZsekxuQQ?oc=5",
+              "published": "2026-09-19T22:16:27+09:00"
             }
           ]
         },
         {
           "stock": "아이온큐",
           "ticker": "IONQ",
-          "title": "아이온큐 - 기술 성과에도 하락",
-          "body": "시뮬레이션 시간을 최대 14.6% 단축하는 기술적 성과가 알려졌으나 여전한 자금 소진 우려가 부각되며 -3.00% 내린 <b>39.13달러</b> 마감.",
+          "title": "아이온큐 - 시장 상승 속 나 홀로 하락",
+          "body": "아이온큐는 기술적 성과에도 막대한 현금 소진 우려가 부각되며 시장 상승세 속에서 나 홀로 -3.00% 내린 <b>39.13달러</b> 마감.",
           "pct": -3.0,
           "price": 39.130001068115234,
           "currency": "USD",
@@ -156,8 +156,8 @@
               "pct": -4.41,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "낙폭 확대 흐름",
-              "text": "기술적 성과 부각에도 현금 소진 우려가 부각된 이후 장 후반 들어 하락폭이 더 커지는 양상이다."
+              "title": "나 홀로 약세 지속",
+              "text": "AI 활용 양자 회로 소식에도 반등하지 못하고 시장 대비 뚜렷한 약세를 이어가는 중"
             },
             {
               "time": "마감",
@@ -165,40 +165,40 @@
               "pct": -3.0,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "낙폭 일부 회복 마감",
-              "text": "장중 한때 확대됐던 하락폭을 후반 들어 다소 줄이며 저점보다는 높은 수준에서 마감했다."
+              "title": "낙폭 다소 축소",
+              "text": "장중 한때 낙폭이 더 컸으나 저점에서 소폭 오르며 하락폭을 줄인 채 마감함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "IONQ Stock Surges On Tech Wins, But The Heavy Burn Persists",
+              "title": "아이온큐(IONQ), AI가 작성한 양자 회로로 더 많은 실전 워크로드 열까",
+              "original": "Could IonQ (IONQ) AI Written Quantum Circuits Unlock More Real World Workloads?",
+              "source": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/technology/ai/articles/could-ionq-ionq-ai-written-121108000.html",
+              "published": "2026-09-19T21:11:08+09:00"
+            },
+            {
+              "title": "IONQ 주가, 기술적 성과에 급등...그러나 막대한 현금 소진은 여전",
               "original": "IONQ Stock Surges On Tech Wins, But The Heavy Burn Persists",
               "source": "Trefis",
               "url": "https://www.trefis.com/articles/615831/ionq-stock-surges-on-tech-wins-but-the-heavy-burn-persists/2026-09-18",
               "published": "2026-09-19T07:37:35+09:00"
             },
             {
-              "title": "IonQ, Inc. (IONQ) Stock Declines While Market Improves: Some Information for Investors",
+              "title": "아이온큐(IONQ) 주가, 시장 상승세 속 나 홀로 하락...투자자를 위한 정보",
               "original": "IonQ, Inc. (IONQ) Stock Declines While Market Improves: Some Information for Investors",
               "source": "Zacks",
               "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-inc-ionq-stock-declines-215005768.html",
               "published": "2026-09-19T06:50:05+09:00"
-            },
-            {
-              "title": "[서학!스타] 아이온큐, 시뮬레이션 시간 최대 14.6% 단축",
-              "original": "[서학!스타] 아이온큐, 시뮬레이션 시간 최대 14.6% 단축",
-              "source": "CBC뉴스",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1CNGd2UXc1TVhpb2lGOXdQdU80eXE1MFlFRVZRZlNTS3Q3N3FqSXlnVEVQNy1MRVA2NmJrN2ViZG56RUhvUXliamJOWFNyYmpTX1FkZ2ZNU05kUnR1NnVOQnlxcF9KV05O?oc=5",
-              "published": "2026-09-18T22:50:52+09:00"
             }
           ]
         },
         {
           "stock": "엔비디아",
           "ticker": "NVDA",
-          "title": "엔비디아 - 우려 속 소폭 반등",
-          "body": "AI 업계에 대한 우려가 제기된 가운데서도 아마존 앤디 재시의 발언이 엔비디아의 최대 리스크를 완화할 수 있다는 분석이 나오며 +1.34% 오른 <b>222.27달러</b> 마감.",
+          "title": "엔비디아 - 젠슨황 발언에 강세",
+          "body": "엔비디아는 젠슨황이 내년 칩 판매가 올해의 두 배가 될 것이라 언급한 이후 서학개미 매수세가 재유입되며 +1.34% 오른 <b>222.27달러</b> 마감.",
           "pct": 1.34,
           "price": 222.27000427246094,
           "currency": "USD",
@@ -210,8 +210,8 @@
               "pct": -0.05,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "강세 되돌림",
-              "text": "젠슨황의 내년 칩 판매 확대 발언이 부각된 이후 상승세를 타던 흐름이 막판 들어 다소 주춤해졌다."
+              "title": "강세 흐름 유지",
+              "text": "젠슨 황의 칩 판매 발언과 NV링크 신기술 소식에 힘입어 상승 흐름을 이어가는 중"
             },
             {
               "time": "마감",
@@ -219,40 +219,40 @@
               "pct": 1.34,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "상승 마감",
-              "text": "칩 판매 두 배 전망 발언에 힘입어 오른 상승분을 장 후반까지 지켜내며 플러스권에서 마감했다."
+              "title": "막판 상승 전환",
+              "text": "장중 보합권에서 등락을 거듭하다 후반 들어 상승 전환하며 하루를 마무리함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "Sam Altman Admits the AI Industry Has Done \"a Terrible Job\" Explaining Its Benefits Amid Growing Backlash. Should That Worry Nvidia and Microsoft Investors?",
-              "original": "Sam Altman Admits the AI Industry Has Done \"a Terrible Job\" Explaining Its Benefits Amid Growing Backlash. Should That Worry Nvidia and Microsoft Investors?",
-              "source": "Motley Fool",
-              "url": "https://www.fool.com/investing/2026/09/19/sam-altman-ai-industry-worry-nvidia-microsoft/",
-              "published": "2026-09-19T17:50:00+09:00"
+              "title": "엔비디아, NV링크 6로 대규모 AI 팩토리 안정적 운영 지원",
+              "original": "엔비디아, NV링크 6로 대규모 AI 팩토리 안정적 운영 지원",
+              "source": "미디어픽",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5RZTluNkhkcVJ3QUhqdjJVMl9Odks0VW1kc0MwVVJPV3g3aUIxSlh2REFXUUtCanJxUE1ZdUVfNHpMbW9xZU9laFd4OWtYQUkzYkhvcWJaOGJFeWZULTd3YVJudmdzLTJ4eDNB?oc=5",
+              "published": "2026-09-20T00:51:37+09:00"
             },
             {
-              "title": "These 15 Words From Amazon’s Andy Jassy May Eliminate Nvidia’s Biggest Risk",
-              "original": "These 15 Words From Amazon’s Andy Jassy May Eliminate Nvidia’s Biggest Risk",
+              "title": "2027년 더 나은 인공지능(AI) 종목은: 엔비디아 대 마이크론",
+              "original": "Better Artificial Intelligence (AI) Stock Pick for 2027: Nvidia versus Micron",
               "source": "Motley Fool",
-              "url": "https://www.fool.com/investing/2026/09/19/these-15-words-from-amazon-s-andy-jassy-may-eliminate-nvidia-s-biggest-risk/",
-              "published": "2026-09-19T17:28:01+09:00"
+              "url": "https://www.fool.com/investing/2026/09/19/better-artificial-intelligence-ai-stock-pick-for-2/",
+              "published": "2026-09-20T00:50:00+09:00"
             },
             {
-              "title": "[테크인사이트] 삼성전기 “MLCC·기판 모두 하는 유일 기업”…엔비디아 ‘카이버’ 공략 가속",
-              "original": "[테크인사이트] 삼성전기 “MLCC·기판 모두 하는 유일 기업”…엔비디아 ‘카이버’ 공략 가속",
-              "source": "이코노미트리뷴",
-              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBaUDAyYV9UT0liQ3U0RktLRElCUWIyWnJGcXJNcHFWd3dyTlNicGZuOHZDRHFONV9KcTljSzVMRTNPRFQ4NjczSTljMmRLb3lkMzhmSHNhZE1Ha2p4bnlOSmwxa2ZWU3R6dFhXVWQ0dS1fd2w4YVM4?oc=5",
-              "published": "2026-09-19T16:59:44+09:00"
+              "title": "‘서학개미, 다시 엔비디아로?’…“내년 칩 판매 올해 두 배” 젠슨황 한마디 후 주가 3.9%↑",
+              "original": "‘서학개미, 다시 엔비디아로?’…“내년 칩 판매 올해 두 배” 젠슨황 한마디 후 주가 3.9%↑",
+              "source": "문화일보",
+              "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1JT09QV3ppQUM4SDF1THpkNnJWZ3RUTW9jVWdaY205R1owaS1hODYybnp6YUM2S1FHSzV2VEVlRHM3TGxlYjNSMmFrU05acmZS?oc=5",
+              "published": "2026-09-19T22:07:08+09:00"
             }
           ]
         },
         {
           "stock": "소파이테크놀로지",
           "ticker": "SOFI",
-          "title": "소파이테크놀로지 - 52주 고점 대비 반등",
-          "body": "52주 최고가 대비 49% 낮은 수준에서 매수·매도·보유 여부를 따지는 분석이 나온 가운데 +1.37% 오른 <b>16.96달러</b> 마감.",
+          "title": "소파이테크놀로지 - 52주 고점 대비 49% 하락 상태",
+          "body": "+1.37% 오른 <b>16.96달러</b> 마감. 소파이 테크놀로지스(SOFI), 2026년 2분기 사상 최대 크로스바이 모멘텀이 주주에게 의미하는 것 · 업스타트, 어펌, 소파이 모두 같은…",
           "pct": 1.37,
           "price": 16.959999084472656,
           "currency": "USD",
@@ -264,8 +264,8 @@
               "pct": 0.34,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "소폭 상승 유지",
-              "text": "52주 최고가 대비 큰 폭 하락한 가격대에서 매수 매도 의견이 엇갈리는 가운데 소폭 오름세가 이어졌다."
+              "title": "완만한 상승 흐름",
+              "text": "52주 최고가 대비 큰 폭 조정을 겪었다는 평가 속에서도 완만한 상승세를 유지하는 중"
             },
             {
               "time": "마감",
@@ -273,14 +273,28 @@
               "pct": 1.37,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "상승폭 확대 마감",
-              "text": "저가 매수 관점의 분석이 나온 뒤 오름세가 장 후반 들어 더 뚜렷해지며 오늘 상승폭을 키우고 마감했다."
+              "title": "소폭 오름세 마감",
+              "text": "크로스바이 모멘텀 기대감이 언급된 가운데 상승폭을 다소 넓히며 거래를 마침"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "Is SoFi Technologies Stock a Buy, Sell, or Hold 49% Below Its 52-Week High?",
+              "title": "소파이 테크놀로지스(SOFI), 2026년 2분기 사상 최대 크로스바이 모멘텀이 주주에게 의미하는 것",
+              "original": "What SoFi Technologies (SOFI)'s Record Q2 2026 Cross-Buy Momentum Means For Shareholders",
+              "source": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/sofi-technologies-sofi-record-q2-161145148.html",
+              "published": "2026-09-20T01:11:45+09:00"
+            },
+            {
+              "title": "업스타트, 어펌, 소파이 모두 같은 차입자에게 대출...예금으로 자금 조달하는 곳은 단 하나",
+              "original": "Upstart, Affirm, and SoFi All Lend to the Same Borrowers. Only One of Them Funds With Deposits.",
+              "source": "Motley Fool",
+              "url": "https://www.fool.com/investing/2026/09/19/upstart-affirm-and-sofi-all-lend-to-the-same-borro/",
+              "published": "2026-09-19T23:32:00+09:00"
+            },
+            {
+              "title": "소파이 테크놀로지스 주가, 52주 최고가 대비 49% 하락...매수, 매도, 보유 중 무엇?",
               "original": "Is SoFi Technologies Stock a Buy, Sell, or Hold 49% Below Its 52-Week High?",
               "source": "Motley Fool",
               "url": "https://www.fool.com/investing/2026/09/19/sofi-technologies-stock-buy-sell-hold-52-week-high/",
@@ -289,9 +303,8 @@
           ]
         }
       ],
-      "markdown": "briefings/2026-09-19-us-kr.md",
-      "refreshed_at": "2026-09-19 19:10:49 KST",
-      "slots_refreshed_at": "2026-09-19 23:20:14 KST"
+      "markdown": "briefings/2026-09-20-us.md",
+      "refreshed_at": "2026-09-20 02:06:06 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",

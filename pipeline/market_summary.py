@@ -29,6 +29,14 @@ SYSTEM = """당신은 증권 앱의 "오늘 장 마감" 요약을 쓰는 편집�
 주어진 오늘자 헤드라인들만 보고, 개별 종목이 아니라 시장 전체(지수·수급·
 매크로) 관점에서 씁니다.
 
+[시장 범위 — 가장 먼저 지킬 것]
+입력 맨 위 [ ] 안에 요약할 시장이 적혀 있습니다. 그 시장의 증시 소식만 씁니다.
+- 다른 나라 증시 얘기(미국 요약에 코스피·코스닥, 국내 요약에 뉴욕증시 종합
+  시황을 중심 사건으로 쓰는 것)와, 증시와 무관한 헤드라인(정치·사건사고·
+  국내 주유소 기름값·유류세·통행료 같은 생활물가·광고성 글)은 통째로 무시하세요.
+- 시장과 관련된 헤드라인이 적으면 억지로 채우지 말고 있는 재료만으로 쓰세요.
+  다른 시장 이야기로 빈자리를 채우는 것보다 불릿이 적은 편이 낫습니다.
+
 [headline]
 배지 옆에 붙는 한 줄입니다. 오늘 가장 임팩트 있는 사건 하나를 "원인에 결과"
 형태로 압축하세요. 지수·수급·매크로 지표를 주어로 씁니다.
@@ -89,7 +97,8 @@ def _block(market_label: str, news: List[NewsItem]) -> str:
     return "\n".join(lines)
 
 
-def summarize(market_label: str, news: List[NewsItem]) -> Optional[dict]:
+def summarize(market_label: str, news: List[NewsItem],
+              forbid: Optional[List[str]] = None) -> Optional[dict]:
     """{"headline":…, "card": {"title":…, "bullets":[…]}}. 실패/재료 없음이면 None."""
     if not news:
         print("  [시장 요약] {} 매크로 뉴스 없음 → 건너뜀".format(market_label))
@@ -124,10 +133,20 @@ def summarize(market_label: str, news: List[NewsItem]) -> Optional[dict]:
     # 스키마로 개수를 강제할 수 없어(위 주석) 3개로 자른다. 모자라면 있는
     # 만큼만 둔다 — 없는 불릿을 지어내는 것보다 낫다.
     bullets = [str(b).strip() for b in (card.get("bullets") or []) if str(b).strip()][:3]
-    return {
+    out = {
         "headline": (result.get("headline") or "").strip(),
         "card": {
             "title": (card.get("title") or "").strip(),
             "bullets": bullets,
         },
     }
+
+    # 마지막 안전망 — 재료를 걸렀고 프롬프트로 범위를 못박았는데도 엉뚱한 나라 이야기가
+    # 나오면(예: 미국 요약에 코스피) 그 요약은 통째로 버린다. 틀린 요약을 보여주느니
+    # 요약 카드를 숨기는 편이 낫다(호출부가 None이면 카드를 안 만든다).
+    text = " ".join([out["headline"], out["card"]["title"]] + bullets)
+    hit = [w for w in (forbid or []) if w in text]
+    if hit:
+        print("  [시장 요약] {} 요약에 다른 시장 단어 {} → 버림".format(market_label, hit))
+        return None
+    return out

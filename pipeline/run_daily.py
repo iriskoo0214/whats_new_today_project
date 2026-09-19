@@ -25,11 +25,14 @@ import brief
 import emit
 import news as news_mod
 import prices
-from config import BRIEFINGS_DIR, INTRADAY_ENABLED, KST, ensure_dirs
+from config import (BRIEFINGS_DIR, INTRADAY_ENABLED, KST, MARKET_SUMMARY_FORBID,
+                    ensure_dirs)
 from portfolio import load_holdings, split_by_market
 
 SECTION_TITLE = {"us": "해외 (미국 증시)", "kr": "국내 (한국 증시)"}
 SECTION_LABEL = {"us": "해외", "kr": "국내"}
+# 시장 요약 LLM에 주는 이름 — "해외"만 주면 범위가 모호해서 국내 기사가 섞여도 못 걸렀다
+SUMMARY_SCOPE = {"us": "미국 증시(뉴욕증시)", "kr": "한국 증시(코스피·코스닥)"}
 
 
 def log(msg: str) -> None:
@@ -114,7 +117,8 @@ def main() -> int:
                 continue
             mkt_news = market_news.fetch_market_news(m, now)
             log("  {} 매크로 뉴스 {}건".format(SECTION_LABEL[m], len(mkt_news)))
-            result = market_summary_mod.summarize(SECTION_LABEL[m], mkt_news)
+            result = market_summary_mod.summarize(
+                SUMMARY_SCOPE[m], mkt_news, forbid=MARKET_SUMMARY_FORBID.get(m))
             if result:
                 market_summaries[m] = result
         log("시장 전체 헤드라인 완료 — {}개 시장".format(len(market_summaries)))
