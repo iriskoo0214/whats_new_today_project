@@ -210,6 +210,27 @@ def card_title(sb: StockBrief) -> str:
     return fit("{} - {}".format(sb.name, tail), CARD_TITLE_UNITS)
 
 
+def body_has_numbers(sb: StockBrief, body: str) -> bool:
+    """본문에 정확한 등락률·가격 숫자가 들어 있나.
+
+    검증의 목적은 LLM이 숫자를 지어내거나 바꿔 쓰지 않았는지다. 예전엔 가격 문장
+    ("+1.37% 오른 16.96달러 마감.")이 토씨까지 같아야 통과시켰는데, 마침표·조사 하나만
+    달라도 카드 본문 전체가 버려져 헤드라인 나열 폴백으로 떨어졌다(소파이 카드가
+    "…"로 잘린 영어 번역 헤드라인 덩어리가 된 사고). 숫자 두 개가 그대로 있으면
+    통과시킨다.
+    """
+    closed = not market_open(sb.holding.is_kr)
+    line = price_sentence(sb.quote, html_bold=False, closed=closed)
+    if line and line in body:
+        return True
+    if not sb.quote.ok or sb.quote.format_price() not in body:
+        return False
+    pct = sb.quote.change_pct
+    if pct is None or abs(pct) < 0.005:
+        return True
+    return "{:+.2f}%".format(pct) in body
+
+
 def card_body(sb: StockBrief) -> str:
     """LLM이 쓴 '등락률+사실 → 원인 → 시사점' 완결 문장을 그대로 쓴다.
 
@@ -225,18 +246,17 @@ def card_body(sb: StockBrief) -> str:
     """
     closed = not market_open(sb.holding.is_kr)
     price_html = price_sentence(sb.quote, closed=closed)                      # 표시용(굵게)
-    price_line = price_sentence(sb.quote, html_bold=False, closed=closed)     # 검증용(원문)
     price_amount = sb.quote.format_price()                                    # 굵게 감쌀 숫자만
 
     if sb.summary is not None:
         body = (sb.summary.get("body") or "").strip()
-        if body and price_line and price_line in body:
+        if body and body_has_numbers(sb, body):
             return body.replace(price_amount, "<b>{}</b>".format(price_amount), 1)
         if not body:
             # 요약은 돌았는데 본문이 비었다 = 오늘 움직임을 설명할 재료가 없다는 판단.
             return "{} 주가를 움직인 뚜렷한 재료는 확인되지 않았습니다.".format(price_html)
-        # 등락률·가격 문장이 그대로 안 들어있다 = 숫자를 바꿔 썼을 위험 — 신뢰하지 않는다.
-        print("  [카드본문] {} 가격 문장 불일치 → 규칙 기반으로 대체".format(sb.holding.name))
+        # 등락률·가격 숫자가 본문에 없다 = 숫자를 바꿔 썼을 위험 — 신뢰하지 않는다.
+        print("  [카드본문] {} 등락률·가격 숫자 불일치 → 규칙 기반으로 대체".format(sb.holding.name))
 
     # 규칙 기반(LLM 요약이 없거나 신뢰할 수 없을 때) — 가격을 앞에 두고 헤드라인을 잇는다.
     room = CARD_BODY_UNITS - text_units(visible(price_html)) - char_units(" ")

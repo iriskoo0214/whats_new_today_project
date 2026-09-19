@@ -27,7 +27,8 @@ import json
 import os
 from typing import Dict, List
 
-from brief import CARD_TITLE_UNITS, StockBrief, market_open, price_sentence, text_units
+from brief import (CARD_TITLE_UNITS, StockBrief, body_has_numbers, market_open,
+                   price_sentence, text_units)
 from config import SUMMARY_MAX_TOKENS, SUMMARY_MODEL
 
 SYSTEM = """당신은 증권사 리포트 톤으로 개인 투자자용 데일리 브리핑 카드를 쓰는
@@ -80,6 +81,13 @@ SYSTEM = """당신은 증권사 리포트 톤으로 개인 투자자용 데일�
   그것이 등락을 설명하지 못하더라도 등락률·가격 문장과 함께 한 문장에 담아 쓰세요.
   (예: "용인·청주 54조원 투자와 주당 375원 배당 확정을 발표했으나 -2.10% 내린
        68,500원 마감.")
+- 주어진 오늘 등락률과 다른 등락 수치가 든 헤드라인(예: 실제로는 +1.3%인데 헤드라인은
+  "3.9%↑")은 다른 날 이야기일 수 있습니다. 오늘 움직임의 원인으로 단정하지 마세요.
+- 그 종목 주가와 직접 상관없는 곁다리 헤드라인(타사 제품 사용 팁, 파트너 연동 홍보,
+  행사 후기, 광고성 글)은 근거로 쓰지 마세요. 쓸 만한 헤드라인이 없으면 있는 것만
+  담백하게 쓰세요.
+- 헤드라인끼리 방향이 상충하면(하나는 급등, 하나는 하락) 오늘 등락 방향과 맞는
+  쪽만 근거로 삼으세요.
 - 영문 고유명사는 한글로 옮기세요(SoFi → 소파이, Michael Burry → 마이클 버리).
 - 뉴스가 없으면 title_tail에 등락 사실만 쓰고 본문은 빈 문자열로 두세요.
 - 제목 꼬리는 주어진 글자 수 제한을 지키세요(본문은 길이 제한이 없습니다)."""
@@ -183,6 +191,24 @@ def summarize(briefs: List[StockBrief]) -> Dict[str, dict]:
 def apply(briefs: List[StockBrief]) -> int:
     """요약 결과를 StockBrief에 붙인다. 붙은 개수를 돌려준다."""
     result = summarize(briefs)
+
+    # LLM이 가끔 숫자를 빼먹거나 바꿔 쓴다(간헐적). 그 본문은 brief.card_body가 버리고
+    # 헤드라인 나열 폴백을 쓰는데 카드가 볼품없어지니, 버리기 전에 그 종목만 한 번 더
+    # 시킨다. 그래도 안 되면 요약을 통째로 빼서 제목도 폴백으로 통일한다.
+    by_ticker = {b.quote.ticker: b for b in briefs}
+    bad = [by_ticker[t] for t, r in result.items()
+           if r.get("body") and not body_has_numbers(by_ticker[t], r["body"])]
+    if bad:
+        print("  [요약] 숫자 불일치 {}건 재시도: {}".format(
+            len(bad), ", ".join(b.name for b in bad)))
+        retry = summarize(bad)
+        for b in bad:
+            r = retry.get(b.quote.ticker)
+            if r and r.get("body") and body_has_numbers(b, r["body"]):
+                result[b.quote.ticker] = r
+            else:
+                result.pop(b.quote.ticker, None)
+
     for b in briefs:
         if b.quote.ticker in result:
             b.summary = result[b.quote.ticker]
