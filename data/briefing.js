@@ -1,15 +1,16 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-09-19 14:44:43 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-09-19 19:10:49 KST",
+  "refreshed": [
+    "us",
     "kr"
   ],
+  "slots_refreshed": [],
   "default": "us",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
-      "label": "미국 증시 요약 2026. 9. 17. 7:04AM",
+      "label": "미국 증시 요약 2026. 9. 19. 7:10PM",
       "chips": [
         "전체",
         "IBM",
@@ -22,26 +23,26 @@ window.NOTEFOLIO_BRIEFING = {
         "오후 6시, 국내 시장을 움직인 이유를 확인하세요."
       ],
       "next": "kr",
-      "headline": "해외 5종목 중 1종목 상승, 4종목 하락 — 엔비디아가 +0.82%로 가장 많이 올랐고 IBM이 -4.38%로 가장 부진했습니다.",
-      "market_headline": "연준 매파 발언에 뉴욕증시 급락, 다우 1.2%↓",
+      "headline": "해외 5종목 중 2종목 상승, 3종목 하락 — 소파이테크놀로지가 +1.37%로 가장 많이 올랐고 IBM이 -3.45%로 가장 부진했습니다.",
+      "market_headline": "국제유가 100달러 상회에도 최고가격제로 기름값 18주째 하락",
       "market_card": {
-        "title": "3대 지수 일제 하락 마감...워시 발언에 10년물 금리 5% 돌파",
+        "title": "국내 기름값 하락 지속...코스피 거래대금은 급감 마감",
         "bullets": [
-          "워시, 물가 너무 높다 발언에 반락",
-          "10년물 국채 금리 5% 돌파",
-          "국제유가는 사우디 우회 공급 소식에 하락"
+          "국제유가 급등 속 최고가격제 4주 추가 동결",
+          "유류세 인하 및 명절 고속도로 통행료 인하",
+          "코스피 거래대금 3개월새 58% 급감, 관망세 확산"
         ]
       },
       "cards": [
         {
           "stock": "IBM",
           "ticker": "IBM",
-          "title": "IBM - 퀀텀 파운드리 10억달러 유치에 급락",
-          "body": "IBM이 퀀텀 파운드리 부문에 10억 달러를 유치했다는 소식에도 전체 시장보다 더 큰 낙폭을 보이며 -4.38% 내린 <b>237.49달러</b> 마감. 신규 자금 확보라는 호재성 소식이 오히려 투자 부담으로 해석되며 하락폭을 키운 것으로 보인다.",
-          "pct": -4.38,
-          "price": 237.49000549316406,
+          "title": "IBM - 화제 속 -3.45% 급락",
+          "body": "IBM이 한때 기술주 최대 시가총액 종목이었으나 최근 주가가 25% 폭락했다는 재조명 기사가 나온 가운데 -3.45% 내린 <b>229.55달러</b> 마감.",
+          "pct": -3.45,
+          "price": 229.5500030517578,
           "currency": "USD",
-          "as_of": "2026-09-16",
+          "as_of": "2026-09-18",
           "slots": [
             {
               "time": "11:00PM",
@@ -49,8 +50,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -2.48,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "약세 흐름 지속",
-              "text": "주가 하락 배경을 다루는 기사가 나오며 낙폭이 이어지는 모습이 이어졌음"
+              "title": "장 후반 낙폭 확대",
+              "text": "기술주 대표주였던 과거를 조명하는 재조명 기사가 나온 가운데 낙폭이 커지는 흐름이 이어짐"
             },
             {
               "time": "마감",
@@ -58,44 +59,44 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.45,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "낙폭 확대 마감",
-              "text": "장 후반 들어 하락폭이 더 커지며 하루 중 가장 부진한 수준에서 거래를 마무리함"
+              "title": "약세로 하루 마무리",
+              "text": "저가 매수세가 붙지 못하며 장 후반 들어 하락폭이 더 벌어진 채 하루를 마감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "IBM(IBM), 전체 시장보다 더 큰 하락폭 기록: 알아둘 사실들",
-              "original": "IBM (IBM) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
-              "source": "Zacks",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/ibm-ibm-sees-more-significant-214505270.html",
-              "published": "2026-09-17T06:45:05+09:00"
+              "title": "IBM Once Held Nvidia's Spot as Tech's Biggest Name. The Stock Just Crashed 25%. Here's the Comeback Case.",
+              "original": "IBM Once Held Nvidia's Spot as Tech's Biggest Name. The Stock Just Crashed 25%. Here's the Comeback Case.",
+              "source": "Barchart",
+              "url": "https://www.barchart.com/story/news/4688521/ibm-once-held-nvidia-s-spot-as-tech-s-biggest-name-the-stock-just-crashed-25-here-s-the-comeback-case",
+              "published": "2026-09-19T08:00:02+09:00"
             },
             {
-              "title": "IBM, 퀀텀 경쟁에 새로운 실탄 확보",
-              "original": "IBM Gets Fresh Firepower for Quantum Race",
-              "source": "GuruFocus.com",
-              "url": "https://finance.yahoo.com/technology/ai/articles/ibm-gets-fresh-firepower-quantum-210213851.html",
-              "published": "2026-09-17T06:02:13+09:00"
+              "title": "Fame to Fortune: IBM's Jonathan Adashek on Event's Diverse Networking Opps",
+              "original": "Fame to Fortune: IBM's Jonathan Adashek on Event's Diverse Networking Opps",
+              "source": "NYSE",
+              "url": "https://finance.yahoo.com/video/fame-fortune-ibms-jonathan-adashek-180953287.html",
+              "published": "2026-09-19T03:09:53+09:00"
             },
             {
-              "title": "IBM, 퀀텀 파운드리 $1 Billion 유치 소식에 3% 넘게 하락",
-              "original": "IBM Falls Over 3% After Quantum Foundry Secures $1 Billion",
-              "source": "GuruFocus.com",
-              "url": "https://finance.yahoo.com/technology/ai/articles/ibm-falls-over-3-quantum-205344091.html",
-              "published": "2026-09-17T05:53:44+09:00"
+              "title": "This Doctor Runs a $2.3 Billion Health Startup. He Says This Is Why Walmart and IBM Couldn’t Crack Healthcare.",
+              "original": "This Doctor Runs a $2.3 Billion Health Startup. He Says This Is Why Walmart and IBM Couldn’t Crack Healthcare.",
+              "source": "Entrepreneur",
+              "url": "https://www.entrepreneur.com/business-news/ceo-says-this-is-why-walmart-and-ibm-couldnt-crack-healthcare",
+              "published": "2026-09-19T00:35:27+09:00"
             }
           ]
         },
         {
           "stock": "마이크로소프트",
           "ticker": "MSFT",
-          "title": "마이크로소프트 - 배당 8% 인상에도 하락",
-          "body": "마이크로소프트가 분기 배당을 8% 인상한다고 발표했으나 S&P500 내에서 하락을 주도하며 -1.37% 내린 <b>490.30달러</b> 마감.",
-          "pct": -1.37,
-          "price": 490.29998779296875,
+          "title": "마이크로소프트 - AI 논란 속 하락",
+          "body": "샘 올트먼이 AI 업계가 이점을 제대로 설명하지 못했다고 인정하며 AI 관련주에 대한 우려가 커진 가운데 -0.80% 내린 <b>493.78달러</b> 마감.",
+          "pct": -0.8,
+          "price": 493.7799987792969,
           "currency": "USD",
-          "as_of": "2026-09-16",
+          "as_of": "2026-09-18",
           "slots": [
             {
               "time": "11:00PM",
@@ -103,8 +104,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.81,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "박스권 등락 지속",
-              "text": "AI 지출 관련 관심 속에 뚜렷한 방향성 없이 좁은 범위에서 등락을 이어가는 모습"
+              "title": "소폭 약세 지속",
+              "text": "AI 산업 홍보 부족을 지적한 올트먼 발언이 부담으로 작용하며 낙폭이 소폭 유지됨"
             },
             {
               "time": "마감",
@@ -112,44 +113,44 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.8,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "소폭 약세 마감",
-              "text": "이렇다 할 반등 없이 약보합권에서 움직이다 하루 중 저점 부근에서 거래를 마침"
+              "title": "보합권 약세 마감",
+              "text": "장 후반까지 하락폭이 크게 변하지 않으며 좁은 범위에서 등락하다 약세로 마감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "마이크로소프트, 분기 배당 8% 인상에도 주가 하락",
-              "original": "Microsoft Slips as Its Quarterly Dividend Climbs 8%",
-              "source": "GuruFocus.com",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-slips-quarterly-dividend-climbs-205508714.html",
-              "published": "2026-09-17T05:55:08+09:00"
+              "title": "Sam Altman Admits the AI Industry Has Done \"a Terrible Job\" Explaining Its Benefits Amid Growing Backlash. Should That Worry Nvidia and Microsoft Investors?",
+              "original": "Sam Altman Admits the AI Industry Has Done \"a Terrible Job\" Explaining Its Benefits Amid Growing Backlash. Should That Worry Nvidia and Microsoft Investors?",
+              "source": "Motley Fool",
+              "url": "https://www.fool.com/investing/2026/09/19/sam-altman-ai-industry-worry-nvidia-microsoft/",
+              "published": "2026-09-19T17:50:00+09:00"
             },
             {
-              "title": "마이크로소프트, 제자리걸음 중인 S&P 500 종목들 주도",
-              "original": "Microsoft Leads S&P 500 Stocks Going Nowhere",
-              "source": "GuruFocus.com",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-leads-p-500-stocks-195912814.html",
-              "published": "2026-09-17T04:59:12+09:00"
+              "title": "강병탁 AI스페라 대표(왼쪽)와 송주현 마이크로소프트 아세안 리더는 AI 기반 보안 기술 혁신과 AITEM 고도화를 위해 협력하기로 했다.",
+              "original": "강병탁 AI스페라 대표(왼쪽)와 송주현 마이크로소프트 아세안 리더는 AI 기반 보안 기술 혁신과 AITEM 고도화를 위해 협력하기로 했다.",
+              "source": "전자신문",
+              "url": "https://news.google.com/rss/articles/CBMiqwlBVV95cUxNZGQyVE03WDYzX2txS1NoX0dSSDhSeEw1aFlvTEkyVVpYMVA4bWtaaWN4c0ZybXZmNTdkNWx6V1RtM1JRcENlSlRQUVJFQlMwNzZJb3JMVEIzUnlEempva2FHazFkbUxtejlTNW1HXzh2elNCRURxekNQZjd4X2xfb24wSks2RGpja3N1YzM4Ujd2WXlDYWlLdFVmSzd1QVk3cmJFY19GOEVoVXdha29RMHNsQTFOVndxaW0yODMtQUJZTTN3djh3M0tiNVBreEc2bldieTdvWWRlMnJOU2tDMVVlVWZRNWozSFhGa21hYVAweHllZzVzOHZueHhGbGxMV1BPTmhCT3hWZ0xjZ1lWdUlBYlBsZjM0bWZpMEkwcHRzd193UDA3WkRZdFI2bVJ2eGpVOGxJX1g3MmtnbU5BSk1zTERJbUo1SVhUSEx2eUZzTUM2MG9wUWRvSlNMZ2F4d1FIaVJqVVg3dDg4aVZ0NFRuZXFFT1lWZGNoNXpndDgwc2Z4dXMzUmJyZGxmRHlreWYtSm93STE0Q3VRdFZXWkhhQ2t5d2Nabm1SOHVSLWpXYWUwdlVsY2VqSWJ0S2k3S0RtV3RDWUNRUVJCZFkzU2FvaXNLcTNBelF2RWFSeFpHbnVsR2ttdjhxbVBPVzVBd2pWeHpYT3NrRUJ5M1hUX293WTc3aVFxM1VrOHJYai1NVXMxTjNHbk9haXRlSE1yc1U4a3FqWjQyNU1FUnpiWVR5ZF9uaWl6aXZheG54ZUlRX0NlVS1UYURLME5wak9JLWx1aXg0blg4Z19fSHU5Z09PeDkyQUx5U252UU1Ga2puME0xR0ZUWG14QzFMUWhLMjNaY2dzei05Uk9YZGVnVVUyTGozSy1ZbFRLV3FMaGZQTng1VENMMnlPY3kwXzdpY0RuWnBnb3psR3RITlJfejdtZG4zdnVwMFdsUXVNQXk3RFV3NU1QLU5QMDZvWXhCRjdCWWZJa0ZkYzE1XzdNb01PeDRSbE5NcXI0UlJKSUU5VERrbDZoSU1UOTZtQldnZkNMS2k5MmZsOFFMRTUwb2dTU19HREtjT25LYWU4TFBYLUpfb25PX3kwU3lSYkhIYUVwTXUzOVlOZzdzZEs3ZWhYOW5ObHJtWW44bFdMYWJFY1hzaGZlUU5CNHQ2aWtJbzJESElDR0lFMDBHVFV2ZGVYeU1UN0p5b1gxWGVGRkpReXlXeHphUEFQaWVQQUFkY1dJbUZNcnkwdXRWYmM5S1E3OS1wMWN3dVczTTk5MVBXV01qSW9XNUY3MDYzaGlKaDlVY2o0THFaYkZPTG5tSGtwY1dFOEZtN1lhbEcxMGdqempiQ3pmUHdrTnVoUW9zMlBhbjVFRUNnRmVOV21Ud09yckdnend0OXpDRVM5WUhfREk4TjFjMDEzOWFGdmR2VzYtQ3lCZXlJaENHMGpxN1ZMMERvXzNYQkdWdGNmWXZQamlxQkU1eUNMUDJXNDVOekJzRVRvRkYtalJlbE84dHJWcTQzMGhxdmZJQ2Jqd3dTYzJkVWlBQUxyR2lJbDhsNVBfek1lVzBzOHJ5d3VzZzgzN3hNcXBhak5Z?oc=5",
+              "published": "2026-09-19T08:21:37+09:00"
             },
             {
-              "title": "마이크로소프트, 배당금 8% 인상",
-              "original": "Microsoft Raises Dividend by 8%",
-              "source": "GuruFocus.com",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-raises-dividend-8-192224474.html",
-              "published": "2026-09-17T04:22:24+09:00"
+              "title": "오픈AI·마이크로소프트 내부 문건 공개… '웹 해치면서 AI 키운다'",
+              "original": "오픈AI·마이크로소프트 내부 문건 공개… '웹 해치면서 AI 키운다'",
+              "source": "디지털투데이",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBPaXdFcWR4dDRSY2F5cFNaWjdaMVdhcWJIM2h6Xy01X3MwbmlLckNveWpVMjVLbWlTMzdEOWVKTUk0VnhjU1hJYjJSaHZfYnZsLUI5U0hwOFdGQWhGRExOM1RMQm5oWnBTX2lLWnowNEpQVEE?oc=5",
+              "published": "2026-09-19T06:59:00+09:00"
             }
           ]
         },
         {
           "stock": "아이온큐",
           "ticker": "IONQ",
-          "title": "아이온큐 - CEO 주식 매도 속 기술 성과 발표",
-          "body": "아이온큐 CEO가 연간 매출 전망 상향 이후 16,000주 넘게 매도해 약 60만 달러를 확보한 가운데, 엔비디아와 함께 12변수 하위 문제를 28초 만에 처리하고 100변수 규모까지 GPU로 검증하는 등 기술 성과도 이어졌으나 -0.57% 내린 <b>36.84달러</b> 마감.",
-          "pct": -0.57,
-          "price": 36.84000015258789,
+          "title": "아이온큐 - 기술 성과에도 하락",
+          "body": "시뮬레이션 시간을 최대 14.6% 단축하는 기술적 성과가 알려졌으나 여전한 자금 소진 우려가 부각되며 -3.00% 내린 <b>39.13달러</b> 마감.",
+          "pct": -3.0,
+          "price": 39.130001068115234,
           "currency": "USD",
-          "as_of": "2026-09-16",
+          "as_of": "2026-09-18",
           "slots": [
             {
               "time": "11:00PM",
@@ -157,8 +158,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -4.41,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "기술 성과에도 약세",
-              "text": "엔비디아와의 공동 연구 성과 소식에도 매수세가 붙지 못하며 낙폭이 이어졌음"
+              "title": "낙폭 확대되는 중",
+              "text": "기술적 성과를 다룬 기사가 나온 이후에도 매수세가 붙지 못하며 하락폭이 커짐"
             },
             {
               "time": "마감",
@@ -166,44 +167,44 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.0,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "낙폭 다소 줄어",
-              "text": "장 후반 시뮬레이션 시간 단축 소식이 전해졌지만 하락폭을 완전히 되돌리지는 못함"
+              "title": "하루 중 낙폭 최대",
+              "text": "장 초반 대비 하락폭이 더 벌어지며 이날 가장 큰 낙폭을 기록한 채 마감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "아이온큐 CEO, 회사의 연간 매출 전망 상향 후 16,000주 넘게 매도해 약 $600,000 확보",
-              "original": "IonQ CEO Sells Over 16,000 Shares Worth Nearly $600,000 After the Company Raised Its Full-Year Sales Outlook",
-              "source": "Motley Fool",
-              "url": "https://www.fool.com/coverage/filings/2026/09/16/ionq-ceo-sells-over-16-000-shares-worth-nearly-usd600-000-after-the-company-raised-its-full-year-sales-outlook/",
-              "published": "2026-09-17T01:57:40+09:00"
+              "title": "IONQ Stock Surges On Tech Wins, But The Heavy Burn Persists",
+              "original": "IONQ Stock Surges On Tech Wins, But The Heavy Burn Persists",
+              "source": "Trefis",
+              "url": "https://www.trefis.com/articles/615831/ionq-stock-surges-on-tech-wins-but-the-heavy-burn-persists/2026-09-18",
+              "published": "2026-09-19T07:37:35+09:00"
             },
             {
-              "title": "아이온큐·엔비디아, 12변수 하위 문제 28초…100변수 GPU 검증",
-              "original": "아이온큐·엔비디아, 12변수 하위 문제 28초…100변수 GPU 검증",
-              "source": "토큰포스트",
-              "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8wRUMyN1NuTWwyNjc0Z3hiN0RUVTA0Mk1USkROR0g2MUEwWkFRQTZyc2NqSzdzRUlCM2UwN3RWV3hqZnBaTzZHeHdPN3RKYURJ?oc=5",
-              "published": "2026-09-16T23:18:02+09:00"
+              "title": "IonQ, Inc. (IONQ) Stock Declines While Market Improves: Some Information for Investors",
+              "original": "IonQ, Inc. (IONQ) Stock Declines While Market Improves: Some Information for Investors",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-inc-ionq-stock-declines-215005768.html",
+              "published": "2026-09-19T06:50:05+09:00"
             },
             {
-              "title": "IONQ, AI로 양자 회로 생성 가속화... 최적화 효율 증대",
-              "original": "IONQ, AI로 양자 회로 생성 가속화... 최적화 효율 증대",
-              "source": "Investing.com 한국어",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE13bm15enkyb3hWcXRKT1ZHY3N5b1RPMGt1R3hwQlkzVm1qQl9uS3o1NkVGOE5kaWJ5Q2NxNGJUZ0F6NklaOVRmWGpjYlIxdllTSDBfdTN5VUI2VDI2VXF1Z241ZUNMNFQzVmV5cFV6eXk?oc=5",
-              "published": "2026-09-16T23:01:00+09:00"
+              "title": "[서학!스타] 아이온큐, 시뮬레이션 시간 최대 14.6% 단축",
+              "original": "[서학!스타] 아이온큐, 시뮬레이션 시간 최대 14.6% 단축",
+              "source": "CBC뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1CNGd2UXc1TVhpb2lGOXdQdU80eXE1MFlFRVZRZlNTS3Q3N3FqSXlnVEVQNy1MRVA2NmJrN2ViZG56RUhvUXliamJOWFNyYmpTX1FkZ2ZNU05kUnR1NnVOQnlxcF9KV05O?oc=5",
+              "published": "2026-09-18T22:50:52+09:00"
             }
           ]
         },
         {
           "stock": "엔비디아",
           "ticker": "NVDA",
-          "title": "엔비디아 - 화웨이도 벤치마킹, 강세",
-          "body": "중국 화웨이가 자사 AI 전략의 목표로 엔비디아를 언급할 만큼 업계 표준으로 자리잡은 가운데 +0.82% 오른 <b>213.90달러</b> 마감.",
-          "pct": 0.82,
-          "price": 213.89999389648438,
+          "title": "엔비디아 - 우려 속 소폭 반등",
+          "body": "AI 업계에 대한 우려가 제기된 가운데서도 아마존 앤디 재시의 발언이 엔비디아의 최대 리스크를 완화할 수 있다는 분석이 나오며 +1.34% 오른 <b>222.27달러</b> 마감.",
+          "pct": 1.34,
+          "price": 222.27000427246094,
           "currency": "USD",
-          "as_of": "2026-09-16",
+          "as_of": "2026-09-18",
           "slots": [
             {
               "time": "11:00PM",
@@ -211,8 +212,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.05,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "보합권 등락",
-              "text": "무기한 선물 상장 신청 소식이 전해진 가운데 큰 변동 없이 좁은 범위에서 거래됨"
+              "title": "보합권 등락 지속",
+              "text": "아마존발 리스크 완화 발언이 나온 뒤 낙폭이 거의 사라지며 보합권에서 움직임"
             },
             {
               "time": "마감",
@@ -220,44 +221,44 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.34,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "상승 전환 마감",
-              "text": "장 후반 들어 매수세가 유입되며 하락하던 흐름을 되돌려 플러스권에서 마무리함"
+              "title": "막판 상승 전환",
+              "text": "장 후반 들어 반등에 성공하며 하루 중 가장 높은 수준으로 올라선 채 마감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "짐 크레이머, 엔비디아 주식에 5단어로 평가 내려",
-              "original": "Jim Cramer drops 5-word verdict on Nvidia stock",
-              "source": "TheStreet",
-              "url": "https://www.thestreet.com/investing/stocks/jim-cramer-nvidia-stock-verdict",
-              "published": "2026-09-17T06:33:00+09:00"
+              "title": "Sam Altman Admits the AI Industry Has Done \"a Terrible Job\" Explaining Its Benefits Amid Growing Backlash. Should That Worry Nvidia and Microsoft Investors?",
+              "original": "Sam Altman Admits the AI Industry Has Done \"a Terrible Job\" Explaining Its Benefits Amid Growing Backlash. Should That Worry Nvidia and Microsoft Investors?",
+              "source": "Motley Fool",
+              "url": "https://www.fool.com/investing/2026/09/19/sam-altman-ai-industry-worry-nvidia-microsoft/",
+              "published": "2026-09-19T17:50:00+09:00"
             },
             {
-              "title": "中화웨이 “AI 전략은 ICT·컴퓨팅 분야서 엔비디아처럼 되는 것”",
-              "original": "中화웨이 “AI 전략은 ICT·컴퓨팅 분야서 엔비디아처럼 되는 것”",
-              "source": "헤럴드경제",
-              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBFZ1d2eTJCV3dnSTd3Ql8wSjNVSDNtMFdrTzVXek1icmhndVhnTlgzN3dOSXJ0dmdJWnFDVFUwRkVrVHNIZHNhQzc1aG56Y3QydWhIb19R?oc=5",
-              "published": "2026-09-17T06:18:24+09:00"
+              "title": "These 15 Words From Amazon’s Andy Jassy May Eliminate Nvidia’s Biggest Risk",
+              "original": "These 15 Words From Amazon’s Andy Jassy May Eliminate Nvidia’s Biggest Risk",
+              "source": "Motley Fool",
+              "url": "https://www.fool.com/investing/2026/09/19/these-15-words-from-amazon-s-andy-jassy-may-eliminate-nvidia-s-biggest-risk/",
+              "published": "2026-09-19T17:28:01+09:00"
             },
             {
-              "title": "RPCS3 에뮬레이터의 성능이 NVIDIA 그래픽 카드에서 최대 25%까지 향상되었습니다.",
-              "original": "RPCS3 에뮬레이터의 성능이 NVIDIA 그래픽 카드에서 최대 25%까지 향상되었습니다.",
-              "source": "GameGPU",
-              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPX2lJRno5Tzk3UGVzNmJTemQxcFNjRk1oRzF2MWd5NHBhUnVvWmFTU3VaYVJHNVFTdktmYXZzdEpjSnFRZWdYRW05RE1OLW9XU1I4dlR6RXlrdGo2TXBGY2ltWXRjSmxNaVF0VFhObmxtNjNwdEFMV1V1dzhWWG9YTTZacWROS3VEMmhiWVh0X1lrODBZVl9uUUJ6cGdpU0RwSF9CYXRscUlMSHNENHFJ?oc=5",
-              "published": "2026-09-17T06:06:44+09:00"
+              "title": "[테크인사이트] 삼성전기 “MLCC·기판 모두 하는 유일 기업”…엔비디아 ‘카이버’ 공략 가속",
+              "original": "[테크인사이트] 삼성전기 “MLCC·기판 모두 하는 유일 기업”…엔비디아 ‘카이버’ 공략 가속",
+              "source": "이코노미트리뷴",
+              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBaUDAyYV9UT0liQ3U0RktLRElCUWIyWnJGcXJNcHFWd3dyTlNicGZuOHZDRHFONV9KcTljSzVMRTNPRFQ4NjczSTljMmRLb3lkMzhmSHNhZE1Ha2p4bnlOSmwxa2ZWU3R6dFhXVWQ0dS1fd2w4YVM4?oc=5",
+              "published": "2026-09-19T16:59:44+09:00"
             }
           ]
         },
         {
           "stock": "소파이테크놀로지",
           "ticker": "SOFI",
-          "title": "소파이테크놀로지 - 크라켄 제휴 등 관심 지속",
-          "body": "크라켄과의 제휴, 1조 달러 클럽 가입 가능성 등 성장 스토리가 투자자들의 관심을 끌었으나 -1.35% 내린 <b>16.84달러</b> 마감.",
-          "pct": -1.35,
-          "price": 16.84000015258789,
+          "title": "소파이테크놀로지 - 52주 고점 대비 반등",
+          "body": "52주 최고가 대비 49% 낮은 수준에서 매수·매도·보유 여부를 따지는 분석이 나온 가운데 +1.37% 오른 <b>16.96달러</b> 마감.",
+          "pct": 1.37,
+          "price": 16.959999084472656,
           "currency": "USD",
-          "as_of": "2026-09-16",
+          "as_of": "2026-09-18",
           "slots": [
             {
               "time": "11:00PM",
@@ -265,8 +266,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.34,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "완만한 상승세",
-              "text": "특별한 소식 없이도 꾸준히 오름세를 유지하며 장중 내내 안정적인 흐름을 보임"
+              "title": "완만한 상승 지속",
+              "text": "52주 고점 대비 저평가 논쟁을 다룬 기사가 나온 뒤에도 완만한 오름세가 이어짐"
             },
             {
               "time": "마감",
@@ -275,42 +276,27 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-09-18",
               "title": "상승폭 확대 마감",
-              "text": "장 후반 들어 오름폭을 더 키우며 하루 중 가장 높은 수준 부근에서 거래를 마침"
+              "text": "장 후반 들어 오름폭이 더 커지며 이날 가장 높은 수준에서 거래를 마무리"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "크라켄과의 제휴가 SoFi 주식 투자자들에게 어떤 조치를 요구해야 할까?",
-              "original": "크라켄과의 제휴가 SoFi 주식 투자자들에게 어떤 조치를 요구해야 할까?",
-              "source": "simplywall.st",
-              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObTVDeGJ4MDVLODllTVpjLTRCdVFtRGJ2RGZaMzhPMkNZSjlDeHZ2cDB4UTg5X1ZVdXNoem9GdFdRdVZfR3BlSzVHYkZMZWRjMk5TQUlSYUtrQm1EYnJMSkZaQ3hFSm5Fb19rS25jXzBQN3FPY1JwOUd0UU5weHNDZUg3M3RsX3dNSHJzanRwWXFuRzRCNi1IMC1xT1UxdnMwREdJc1ZKZVpnYzc5RDhsOUc1RdIBswFBVV95cUxObTVDeGJ4MDVLODllTVpjLTRCdVFtRGJ2RGZaMzhPMkNZSjlDeHZ2cDB4UTg5X1ZVdXNoem9GdFdRdVZfR3BlSzVHYkZMZWRjMk5TQUlSYUtrQm1EYnJMSkZaQ3hFSm5Fb19rS25jXzBQN3FPY1JwOUd0UU5weHNDZUg3M3RsX3dNSHJzanRwWXFuRzRCNi1IMC1xT1UxdnMwREdJc1ZKZVpnYzc5RDhsOUc1RQ?oc=5",
-              "published": "2026-09-17T04:30:21+09:00"
-            },
-            {
-              "title": "트렌드 종목 소파이 테크놀로지스(SOFI), 지금 사도 될까?",
-              "original": "Is Trending Stock SoFi Technologies, Inc. (SOFI) a Buy Now?",
-              "source": "Zacks",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/trending-stock-sofi-technologies-inc-130004435.html",
-              "published": "2026-09-16T22:00:04+09:00"
-            },
-            {
-              "title": "소파이 테크놀로지스, 빠르게 성장 중... 이 금융 공룡, $1 Trillion 클럽 가입 가능성",
-              "original": "SoFi Technologies Is Growing Rapidly, but This Financial Giant Could Join the $1 Trillion Club",
+              "title": "Is SoFi Technologies Stock a Buy, Sell, or Hold 49% Below Its 52-Week High?",
+              "original": "Is SoFi Technologies Stock a Buy, Sell, or Hold 49% Below Its 52-Week High?",
               "source": "Motley Fool",
-              "url": "https://www.fool.com/coverage/better-buy/2026/09/16/sofi-technologies-is-growing-rapidly-but-this-financial-giant-could-join-the-usd1-trillion-club/",
-              "published": "2026-09-16T21:17:01+09:00"
+              "url": "https://www.fool.com/investing/2026/09/19/sofi-technologies-stock-buy-sell-hold-52-week-high/",
+              "published": "2026-09-19T18:20:00+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-09-17-us.md",
-      "refreshed_at": "2026-09-17 07:04:33 KST",
-      "slots_refreshed_at": "2026-09-19 06:36:19 KST"
+      "markdown": "briefings/2026-09-19-us-kr.md",
+      "refreshed_at": "2026-09-19 19:10:49 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
-      "label": "한국 증시 요약 2026. 9. 15. 12:48PM",
+      "label": "한국 증시 요약 2026. 9. 19. 7:10PM",
       "chips": [
         "전체",
         "SK하이닉스",
@@ -324,26 +310,26 @@ window.NOTEFOLIO_BRIEFING = {
         "다시 찾아올게요."
       ],
       "next": "us",
-      "headline": "국내 5종목 중 4종목 상승, 1종목 하락 — LG전자가 +3.39%로 가장 많이 올랐고 한화에어로스페이스가 -6.18%로 가장 부진했습니다.",
-      "market_headline": "AI 속도조절론에 반도체 급락, 코스피 3%대 급락 6600선 후퇴",
+      "headline": "국내 5종목 중 3종목 상승, 2종목 하락 — SK하이닉스가 +4.70%로 가장 많이 올랐고 한화에어로스페이스가 -0.55%로 가장 부진했습니다.",
+      "market_headline": "기타법인 8조 순매수에도 국내 증시 횡보",
       "market_card": {
-        "title": "코스피 3.26% 급락 마감...AI 속도조절론에 반도체주 직격",
+        "title": "국내 증시 횡보 마감...반도체주는 강세 지속",
         "bullets": [
-          "AI 개발 속도조절론에 투자심리 위축",
-          "반도체 대형주 급락에 지수 동반 하락",
-          "외국인 3조원 순매도, 코스피 6600선 후퇴"
+          "기타법인 8조 순매수에도 지수 제자리",
+          "SK하이닉스 4일간 10% 상승세",
+          "코스닥 강세 속 종목별 등락 엇갈려"
         ]
       },
       "cards": [
         {
           "stock": "SK하이닉스",
           "ticker": "000660",
-          "title": "SK하이닉스 - 목표가 논란 속 강세",
-          "body": "BNK투자증권이 타 증권사 대비 절반에도 못 미치는 148만원 목표가를 제시하며 눈길을 끈 가운데, 금융위가 K증시 세일즈에 SK하이닉스를 앞세우는 등 우호적 분위기 속에 +1.96% 오른 <b>1,716,000원</b> 거래 중.",
-          "pct": 1.96,
-          "price": 1716000.0,
+          "title": "SK하이닉스 - 美 낸드 거점설에 급등",
+          "body": "미국 내 첫 낸드 생산거점 구축 검토설이 제기되고 삼성 P4·SK M15X 투자 확대에 따른 장비 수요 확대 기대감이 겹치며 +4.70% 오른 <b>1,849,000원</b> 마감.",
+          "pct": 4.7,
+          "price": 1849000.0,
           "currency": "KRW",
-          "as_of": "2026-09-15",
+          "as_of": "2026-09-18",
           "slots": [
             {
               "time": "9:10AM",
@@ -352,7 +338,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-09-18",
               "title": "장 초반 강세 출발",
-              "text": "개장 직후부터 상승세로 출발하며 3%대 오름폭을 기록, 투자심리가 우호적으로 형성됨"
+              "text": "메모리 업황 기대감 속에 개장 직후부터 상승세로 출발하며 강세 흐름을 보임"
             },
             {
               "time": "10:30AM",
@@ -360,8 +346,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.97,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "오전 상승폭 소폭 축소",
-              "text": "오전 중 상승분을 일부 반납하며 숨고르기 양상을 보였으나 여전히 3% 가까운 상승세를 유지함"
+              "title": "상승폭 소폭 축소",
+              "text": "오전 강세를 지키지 못하고 상승폭이 다소 줄어들며 숨 고르기 양상이 나타남"
             },
             {
               "time": "1:00PM",
@@ -369,8 +355,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 4.53,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "오후 들어 상승폭 확대",
-              "text": "200만원 근접 기대감이 담긴 기사가 나온 가운데 오후 들어 상승폭이 4%대로 크게 확대됨"
+              "title": "오후 들어 강세 재개",
+              "text": "미중 갈등 속 K메모리 경계론이 제기된 가운데서도 오후 들어 상승폭이 다시 확대됨"
             },
             {
               "time": "마감",
@@ -378,44 +364,44 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 4.7,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "장중 최고점 부근 마감",
-              "text": "미중 메모리 경쟁 관련 소식 속에서도 상승세가 이어지며 하루 중 가장 높은 수준에서 거래를 마침"
+              "title": "연고점 경신 마감",
+              "text": "미국 낸드 생산거점 구축 보도가 나온 가운데 하루 중 가장 높은 상승폭으로 마감"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "“하이닉스 던져라” 예언 적중, 이번엔 삼전? “버텨봤자 푼돈” 충격 보고서 [내가샀다]",
-              "original": "“하이닉스 던져라” 예언 적중, 이번엔 삼전? “버텨봤자 푼돈” 충격 보고서 [내가샀다]",
-              "source": "서울신문",
-              "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1vTl8wM0F3NnhjS29OMHZ2alJrVVFjekJURnk5ck1Bc0tBR0g5MnRsa0l5ZUNsNDlJQXVNX0tNc2hRdU5DcVVIYWt2R2JqQXdZMDVTSDRoUHdmUE9OcmtSeW41QjBoUUpiT0ZrYVV5UEZUa1VQUG1yZ1pPam5tQQ?oc=5",
-              "published": "2026-09-15T12:39:50+09:00"
+              "title": "SK하이닉스, 미국에 첫 낸드 생산거점 구축...\"확정된 바 없다\"",
+              "original": "SK하이닉스, 미국에 첫 낸드 생산거점 구축...\"확정된 바 없다\"",
+              "source": "AI타임스",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4ZnBDb1RZM29GUW9QaXZmQi1rSGEwQjNyNXBEbHpIVUgxOTdwNEw3UGZ1bU9BN2Q2Z1lPQkdkQXJkM0ZUY3p2azlnUmhldjVLOVhZWHNHMUpDZEhKUUZfZkplbzEzc1pEdUE?oc=5",
+              "published": "2026-09-19T17:47:54+09:00"
             },
             {
-              "title": "日·대만에 밀릴라…삼성전자·SK하이닉스 앞세운 ‘K증시 세일즈’",
-              "original": "日·대만에 밀릴라…삼성전자·SK하이닉스 앞세운 ‘K증시 세일즈’",
-              "source": "joseilbo.com",
-              "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1BU05aRGJ5RXEwbEZPYU5Gem1yb2Z3MkN3ZC1rZnJqWWx3WGhhb1piQmVoVUhJaFlWSnY3Mm5haTFKcjB0WVA3UmNEVTdlWlByZmRRRENNYVJ6UENncmxJ?oc=5",
-              "published": "2026-09-15T12:21:00+09:00"
+              "title": "삼성 P4·SK M15X 투자 확대… 테스 장비 수요도 커진다",
+              "original": "삼성 P4·SK M15X 투자 확대… 테스 장비 수요도 커진다",
+              "source": "핀포인트뉴스",
+              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5zRXVXc2pvVTlKNkpFU1poNTc2UkE3aHpNeUE1Y2FzVGRTMlQwVGRNbWRKWVlHcXVISTBOYXlVSFN0Y1h6SGVyc3RYVzZhaFFwbjJ1dHFXS3h1YkF0VnNNcEowc3RDRGhoVnk2VmYza2VqLV9WU2VJ0gF3QVVfeXFMTnNFdVdzam9VOUo2SkVTWmg1NzZSQTdoek15QTVjYXNUZFMyVDBUZE1tZEpZWUdxdUhJME5heVVIU3RjWHpIZXJzdFhXNmFoUXBuMnV0cVdLeHViQXRWc01wSjBzdENEaGhWeTZWZjNrZWotX1ZTZUk?oc=5",
+              "published": "2026-09-19T17:31:25+09:00"
             },
             {
-              "title": "BNK투자증권, 삼성전자와 SK하이닉스 목표가 27만원과 148만원 제시...타 증권사의 절반에도 못 미쳐",
-              "original": "BNK투자증권, 삼성전자와 SK하이닉스 목표가 27만원과 148만원 제시...타 증권사의 절반에도 못 미쳐",
-              "source": "비욘드포스트",
-              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1BRFp1S3hfaEZEdTFIc0RTNkV2MEZieTVSMHU4OHlTUnB2SkpGbVVkRDRUdGVCVDhEVmJlUDViWW9DbFZESW92QVFYOU42VVdfMUk5R0E3dS1wZU5ZVHFCOXFuaUx5cEU2UU9pT2xOMDJoRG1VSV9XcDE3R0I?oc=5",
-              "published": "2026-09-15T12:20:22+09:00"
+              "title": "美·中 협공에 쫓기는 K-메모리…삼전·닉스 ＇비상등＇",
+              "original": "美·中 협공에 쫓기는 K-메모리…삼전·닉스 ＇비상등＇",
+              "source": "한국경제TV",
+              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1zTTU4dmZac3oyY2NJZWRvbVBXc2d1QUEyY3ZsTGVMU3Y1NHBWVFN6dzFsajl2dlIwUkJNT3MxZUx1SDJwQ3RyYTdrV0FzUTlTTlc3MUJZaEVvLUhiR3RtTkM0SHdxQzBINFM1bjBoc29OMmhHb1dr?oc=5",
+              "published": "2026-09-19T17:29:00+09:00"
             }
           ]
         },
         {
           "stock": "삼성전자",
           "ticker": "005930",
-          "title": "삼성전자 - 목표가 논란·IR 소식",
-          "body": "BNK투자증권이 27만원이라는 보수적 목표가를 제시했으나, 금융위가 '코리아 프리미엄 위크'에서 삼성전자를 글로벌 IR 전면에 내세운 가운데 +0.80% 오른 <b>250,500원</b> 거래 중.",
-          "pct": 0.8,
-          "price": 250500.0,
+          "title": "삼성전자 - 노조 재편 속 상승",
+          "body": "초기업노조가 DS부문 중심의 '반도체 노조'로 재편되며 DX 조합원이 탈퇴하는 조직 변화가 있었던 가운데 +1.56% 오른 <b>260,000원</b> 마감.",
+          "pct": 1.56,
+          "price": 260000.0,
           "currency": "KRW",
-          "as_of": "2026-09-15",
+          "as_of": "2026-09-18",
           "slots": [
             {
               "time": "9:10AM",
@@ -423,8 +409,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.37,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "장 초반 완만한 상승",
-              "text": "개장 직후 1%대 상승으로 출발하며 완만한 오름세를 나타냄"
+              "title": "장 초반 강세 출발",
+              "text": "개장 직후 상승세로 출발하며 완만한 오름세를 보이는 흐름이 나타남"
             },
             {
               "time": "10:30AM",
@@ -432,8 +418,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.88,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "오전 중 상승폭 둔화",
-              "text": "오전 들어 상승폭이 다소 줄어들며 1% 미만으로 내려앉는 흐름을 보임"
+              "title": "상승폭 다소 둔화",
+              "text": "오전 상승분 일부를 반납하며 상승폭이 줄어드는 조정 양상이 나타남"
             },
             {
               "time": "1:00PM",
@@ -441,8 +427,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.76,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "오후 들어 재차 반등",
-              "text": "오후 들어 상승폭이 다시 확대되며 하루 중 가장 높은 수준까지 올라섬"
+              "title": "오후 들어 강세 회복",
+              "text": "오후 들어 매수세가 다시 유입되며 이날 가장 높은 상승폭까지 올라섬"
             },
             {
               "time": "마감",
@@ -450,44 +436,44 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.56,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "소폭 상승폭 축소 마감",
-              "text": "노조 재편 관련 논란 기사가 이어진 가운데 오후 고점 대비 상승폭이 다소 줄며 거래를 마침"
+              "title": "노조 재편 속 상승 마감",
+              "text": "노조가 반도체 노조로 재편된다는 소식이 전해진 가운데 오전 대비 견조한 상승세로 마감"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "BNK투자증권, 삼성전자와 SK하이닉스 목표가 27만원과 148만원 제시...타 증권사의 절반에도 못 미쳐",
-              "original": "BNK투자증권, 삼성전자와 SK하이닉스 목표가 27만원과 148만원 제시...타 증권사의 절반에도 못 미쳐",
-              "source": "비욘드포스트",
-              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1BRFp1S3hfaEZEdTFIc0RTNkV2MEZieTVSMHU4OHlTUnB2SkpGbVVkRDRUdGVCVDhEVmJlUDViWW9DbFZESW92QVFYOU42VVdfMUk5R0E3dS1wZU5ZVHFCOXFuaUx5cEU2UU9pT2xOMDJoRG1VSV9XcDE3R0I?oc=5",
-              "published": "2026-09-15T12:20:22+09:00"
+              "title": "삼성전자 초기업노조, ‘반도체 노조’로 재편…DX 조합원은 탈퇴",
+              "original": "삼성전자 초기업노조, ‘반도체 노조’로 재편…DX 조합원은 탈퇴",
+              "source": "글로벌이코노믹",
+              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZjJsaXpMZFN2UXBGOGtycVhGd0w3ZUt4S25Mak4wSDNQTFd0OVE3bmQ3U0RXS0Y0emQ0WkxvdFByMnBkX3dVcjNqUVdWVml0SUtKQ1NZM1FYby1DSGxDNEZ0R1hwN2syT2xFWktHNkFwVUZBQ3k3VE56WDhNSFlYTFFTX1Zzdw?oc=5",
+              "published": "2026-09-19T19:05:42+09:00"
             },
             {
-              "title": "금융위, ‘코리아 프리미엄 위크’ 첫 개최…삼성전자·SK하이닉스 글로벌 IR",
-              "original": "금융위, ‘코리아 프리미엄 위크’ 첫 개최…삼성전자·SK하이닉스 글로벌 IR",
-              "source": "이투데이",
-              "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9JaTZiR3dOSldHUzFDUjNzQ2tDS1UxQmVwVldLdmdlYkpkX2JTNTN1UHVBTXVQQnFLRmNSTm9kM3pWaWdKWl95Y2lTZkJ6YnBiNmFtcw?oc=5",
-              "published": "2026-09-15T12:00:00+09:00"
+              "title": "삼성전자 초기업노조, '반도체 노조'로…\"DS부문만 노조 가입\" 규약 변경",
+              "original": "삼성전자 초기업노조, '반도체 노조'로…\"DS부문만 노조 가입\" 규약 변경",
+              "source": "생생비즈플러스",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2UTJYUzRqdVFacmNIYW5zc2lSOFlfY19ITExtQndYMTV1R2FJRXplU3M1UWFTck80emNsYUdYcEZPUGZKSW1CZGh0UlRVQm04UC1fa0s2ZWFmVWtrRS13V0FfZktGRVZjTGJjdg?oc=5",
+              "published": "2026-09-19T18:20:00+09:00"
             },
             {
-              "title": "금융위, ‘코리아 프리미엄 위크’ 첫 개최…삼성전자·SK하이닉스 글로벌 IR",
-              "original": "금융위, ‘코리아 프리미엄 위크’ 첫 개최…삼성전자·SK하이닉스 글로벌 IR",
-              "source": "v.daum.net",
-              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE56UE5LQTgzM2RndmtFcWhFeFlaNEw1cm5FOUJ6a0tlay00aW1SMVBId1ZXODVBa3FwMnY4UWZrbkNVNC1Dd3VHU0tpUUxfdFE?oc=5",
-              "published": "2026-09-15T12:00:00+09:00"
+              "title": "삼성전자, 두아 리파 1500만달러 소송 기각 요청",
+              "original": "삼성전자, 두아 리파 1500만달러 소송 기각 요청",
+              "source": "미주조선일보",
+              "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1jVS1ob3IxWDV4VzgxcTl6UzIxWnRseUFMTEd4SDM1S2RaRXN6QnpDS0VUVU9mRlgzOVVUT3dySExLaEx2S05xWVVNMUdKWjc4LXhjNTRzWm9nZU4zcThDUEFhY0lRWW9MRlJNTjRpRjFUUEpsWUE?oc=5",
+              "published": "2026-09-19T18:18:38+09:00"
             }
           ]
         },
         {
           "stock": "한화에어로스페이스",
           "ticker": "012450",
-          "title": "한화에어로스페이스 - 6%대 급락",
-          "body": "AI 플랫폼 전환 등 사업 재편 소식이 전해졌음에도 -6.18% 내린 <b>1,063,000원</b> 거래 중.",
-          "pct": -6.18,
-          "price": 1063000.0,
+          "title": "한화에어로스페이스 - 폴란드서 신무기 공개",
+          "body": "UAE 통합대공망 구축 협력과 폴란드 미래무기 공개 등 사업 확장 소식이 이어졌으나 -0.55% 내린 <b>1,092,000원</b> 마감.",
+          "pct": -0.55,
+          "price": 1092000.0,
           "currency": "KRW",
-          "as_of": "2026-09-15",
+          "as_of": "2026-09-18",
           "slots": [
             {
               "time": "9:10AM",
@@ -495,8 +481,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.0,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "보합권에서 출발",
-              "text": "전일 대비 큰 변동 없이 보합권에서 장을 시작하며 관망세를 보임"
+              "title": "보합권 출발",
+              "text": "개장 직후 큰 움직임 없이 보합권에서 등락하며 관망세를 보임"
             },
             {
               "time": "10:30AM",
@@ -504,8 +490,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.09,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "소폭 약세로 전환",
-              "text": "K9·천무 무인화 계획 소식에도 주가는 소폭 하락세로 돌아서며 방향성을 찾지 못함"
+              "title": "약보합 전환",
+              "text": "오전 내내 이어진 보합권 흐름이 오전 후반 들어 소폭 약세로 돌아섬"
             },
             {
               "time": "1:00PM",
@@ -513,8 +499,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.64,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "오후 들어 반등 시도",
-              "text": "KAI 지분 확대 관련 지적이 나온 가운데 오후 들어 낙폭을 만회하며 상승 전환에 성공함"
+              "title": "오후 반등 성공",
+              "text": "K방산 관련 소식이 이어진 가운데 오후 들어 반등하며 상승 전환에 성공함"
             },
             {
               "time": "마감",
@@ -522,44 +508,44 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.55,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "오후 상승분 반납 마감",
-              "text": "오후 한때 상승 전환했던 흐름이 다시 꺾이며 결국 소폭 하락한 채로 거래를 마무리함"
+              "title": "막판 약세 마감",
+              "text": "방산 수출 관련 기사가 잇따랐음에도 장 후반 매물 출회로 하락 전환하며 마감"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "[창간24/넥스트레벨] \"포탄 대신 데이터 장전\"···한화에어로, 기계식 화력 벗고 AI 플랫폼 입는다",
-              "original": "[창간24/넥스트레벨] \"포탄 대신 데이터 장전\"···한화에어로, 기계식 화력 벗고 AI 플랫폼 입는다",
-              "source": "서울파이낸스",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TYjhoaURpd1p3T3hzZm5Wb0FfaS1sSDI2eDVkdzd0b2YyLVBkZU9FNFVUazdkMFBqYXdXYV9kQ1lrUXFRclV6bVc5WktqT051bm9ZVU5sRlVpMkowa2tBYlJKSUtua3hkeFE?oc=5",
-              "published": "2026-09-15T12:00:00+09:00"
+              "title": "K방산지도[1] 한국판 '최후의 만찬'···한화·LIG·현대·KAI·대한항공·풍산",
+              "original": "K방산지도[1] 한국판 '최후의 만찬'···한화·LIG·현대·KAI·대한항공·풍산",
+              "source": "글로벌E",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9MQS1PSzUwTnp5OXJxbGVHVkI2MTlVaWQ5V2Y4X0tNbjA1Tl9Ib1JXeXA4RzVPd2VDU0F0ejRQUVpBVlJXcFpHOHlBSGFVS2NFZ1IyNWxrdU5NMGVhWjFPcmNkakxLYlhKcU1B0gFvQVVfeXFMUFNtMXlVaXpIdHMyWGc2Mk51c1FuUzh0b0tIOWtZa2xOdk5XY3hMWG0taHRWVVItc1UtX3ZYN3ZiTjFEamQyc2FlV2ZxWkZfNnNNYjRyUEp6WjY4VnFKVUhoSURRM3Y4YTdCRC0yU3lB?oc=5",
+              "published": "2026-09-19T17:49:09+09:00"
             },
             {
-              "title": "한화에어로스페이스 주가, 9월 15일 장중 1,059,000원 6.86% 하락",
-              "original": "한화에어로스페이스 주가, 9월 15일 장중 1,059,000원 6.86% 하락",
-              "source": "중앙이코노미뉴스",
-              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE90VjktQVBOd3hTeFR2bFZNdkFWdnBVNTh2TFJsSF9CQ0RNRU1fdzhFTkF3WXFPTzg3TGMwZGZnd29JM0RhdFdKSUVaZGFJZDFNNHJhQm9ONnRVblJIT2taQzQ3X0dOMHJEaUJucFZDY0l6UQ?oc=5",
-              "published": "2026-09-15T11:27:51+09:00"
+              "title": "한화-EDGE 손잡고 ‘통합대공망’ 구축… UAE 하늘 지킨다",
+              "original": "한화-EDGE 손잡고 ‘통합대공망’ 구축… UAE 하늘 지킨다",
+              "source": "외교문화뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5aWHhldUNHQl92V01LRjF2YlpOQi1DUzI1aHFOQWx1LVBBbHplN2l3N3FOT3Q3bUZqM3ZuZGtISURiaExlbElRSDRFeTFTNWk1UnFxME56bmduQU5temUxcjk2aUQ?oc=5",
+              "published": "2026-09-19T17:21:00+09:00"
             },
             {
-              "title": "한화에어로스페이스 주가, 9월 15일 장중 1,057,500원 6.99% 하락",
-              "original": "한화에어로스페이스 주가, 9월 15일 장중 1,057,500원 6.99% 하락",
-              "source": "톱스타뉴스",
-              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE82Qlkyb1lCTHJGLWRJSXVJWmdGbjRwNUVRZzVVQncxNGtRVG14ekFXY3RjYlVoRDV4SXZCc0txYmE3eFctYW5fdnZRcy1vU1VobFI2X2hVR044ajk4SERNYmJnN0lEbWRWME81Z096azh3QQ?oc=5",
-              "published": "2026-09-15T10:38:19+09:00"
+              "title": "'드론 킬러' 레이저부터 우주 AI까지…한화, 폴란드서 미래무기 공개",
+              "original": "'드론 킬러' 레이저부터 우주 AI까지…한화, 폴란드서 미래무기 공개",
+              "source": "글로벌 비즈 뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ZOGFoa3c5SHptaUdTaElVODJTazRPSWl1Q3FYRUdudDh1bF9vQ2EwY05QLXM5NTJEazIxZC1BT3kyTmpVVUplMElHcEZMSjlhMXBQSHpUUGpqSFVPY0VENjZ3ckFjQTN10gFoQVVfeXFMTVk4YWhrdzlIem1pR1NoSVU4MlNrNE9JaXVDcVhFR250OHVsX29DYTBjTlAtczk1MkRrMjFkLUFPeTJOalVVSmUwSUdwRkxKOWExcFBIelRQampIVU9jRUQ2NndyQWNBM3U?oc=5",
+              "published": "2026-09-19T17:19:38+09:00"
             }
           ]
         },
         {
           "stock": "LG전자",
           "ticker": "066570",
-          "title": "LG전자 - 제주 히트펌프 실증 나서",
-          "body": "LG전자가 제주에서 보일러 없는 공동주택 히트펌프 실증에 나서며 냉난방·급탕 전기화 사업을 첫선을 보인 가운데 +3.39% 오른 <b>201,500원</b> 거래 중.",
-          "pct": 3.39,
-          "price": 201500.0,
+          "title": "LG전자 - 패널값 인상 부담",
+          "body": "중국발 패널 가격 인상으로 연말 TV 마진 부담이 커질 것이라는 우려 속에 -0.35% 내린 <b>198,700원</b> 마감.",
+          "pct": -0.35,
+          "price": 198700.0,
           "currency": "KRW",
-          "as_of": "2026-09-15",
+          "as_of": "2026-09-18",
           "slots": [
             {
               "time": "9:10AM",
@@ -567,8 +553,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.8,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "장 초반 소폭 강세",
-              "text": "개장 직후 소폭 상승으로 출발하며 완만한 오름세를 나타냄"
+              "title": "장 초반 강세 출발",
+              "text": "개장 직후 완만한 상승세로 출발하며 오름세를 보이는 흐름이 나타남"
             },
             {
               "time": "10:30AM",
@@ -576,8 +562,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.25,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "오전 중 하락 전환",
-              "text": "오전 들어 상승분을 반납하고 하락세로 돌아서며 약세 흐름을 보임"
+              "title": "약세로 전환",
+              "text": "오전 상승분을 반납하며 하락 전환하는 등 방향성이 뚜렷하지 않은 흐름을 보임"
             },
             {
               "time": "1:00PM",
@@ -585,8 +571,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.55,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "오후 들어 낙폭 회복",
-              "text": "TV 총결산 세일 소식이 나온 가운데 오후 들어 낙폭을 상당 부분 만회하며 재상승세를 보임"
+              "title": "오후 들어 반등",
+              "text": "패널 가격 인상에 따른 마진 부담 우려 속에서도 오후 들어 낙폭을 만회하며 상승 전환"
             },
             {
               "time": "마감",
@@ -594,44 +580,44 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.35,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "오후 반등 힘 못써 마감",
-              "text": "IR대상 수상 소식에도 오후 반등폭을 지키지 못하고 다시 약세로 돌아서며 거래를 마침"
+              "title": "약세 되돌리며 마감",
+              "text": "연말 TV 마진 부담 이슈가 부각된 가운데 오후 반등분을 반납하며 약세로 마감"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "LG전자, 제주서 ‘보일러 없는 아파트’ 실증…공동주택 히트펌프 첫 적용",
-              "original": "LG전자, 제주서 ‘보일러 없는 아파트’ 실증…공동주택 히트펌프 첫 적용",
-              "source": "지피코리아",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1rZHlfQlM1X0ZoYWpNUWJ1ZGhJZzZKVG5jQWZWbGxMRHYtTXFhRG9QcHpqeDdKVV9NbU9WcjFIR19RaGlBYWtWRVFQMG5DUlR4SUdmcTZuMmVsa0dTdTEwclZYNjA0amN0OHfSAW5BVV95cUxNRVhDcGQxNU5KT3ZLbVVBRGFxVEZiWl81SFhZQVZ6ajdrZGdoZkF3OTk0Q3pkUGFnVXJLNGxncmlUWUlPRXRrTVZzdGRkRVZkbGdFSFRvN2ctT2lwbkVkZkk3TjEzX3I5bUhUTGNWZw?oc=5",
-              "published": "2026-09-15T12:35:00+09:00"
+              "title": "한국IR협의회, ‘2026 한국IR대상’ 시상식 개최",
+              "original": "한국IR협의회, ‘2026 한국IR대상’ 시상식 개최",
+              "source": "라이센스뉴스",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9TUFMzZVpuMlFudE1zTVpYWlEzMUcyWUVLWXpOM2NsYVJWWU5xQ0pibFRJMzFnUUNjUm5WZ09MY2JjWUJNQ01iSmJYYURWd3VKdXR1T1RKUUQxeHZDZl9vRjVzbHZDZ0FNTnNv?oc=5",
+              "published": "2026-09-19T18:07:29+09:00"
             },
             {
-              "title": "LG전자, 제주서 공동주택 히트펌프 실증…냉난방·급탕 전기화",
-              "original": "LG전자, 제주서 공동주택 히트펌프 실증…냉난방·급탕 전기화",
+              "title": "中 패널값 줄줄이 인상…삼성·LG, 연말 TV 마진 부담 커진다",
+              "original": "中 패널값 줄줄이 인상…삼성·LG, 연말 TV 마진 부담 커진다",
               "source": "v.daum.net",
-              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE94MXg0QUQwT0lVSDlULS02NERoZEwxSGVzM0dsZDN6TThxU2Q5VmdHTVhWMGY2LURQXzk2amZMUU40aHNxemtNUXN1LVRHTFE?oc=5",
-              "published": "2026-09-15T12:32:00+09:00"
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9nTWdQbmlvbGNQNUZwYjRKOXZQRjRQcEt1SG1zRy1YeWZ0QWFkVWV4U3oxb2ZNdXZQY3pSb216LVFqbVJUYzQydTV5YklDYkU?oc=5",
+              "published": "2026-09-19T17:11:27+09:00"
             },
             {
-              "title": "LG전자, 제주서 '한국형 공동주택 히트펌프' 첫선…냉난방 전기화",
-              "original": "LG전자, 제주서 '한국형 공동주택 히트펌프' 첫선…냉난방 전기화",
-              "source": "v.daum.net",
-              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5EdUxuckhOUWk3SnFxR2pBMU1XQkhIMHpYdnhkeDR2X2hqYllvQTQ3NmUwbHN3eHB5djQ2UTBwQVRjZ0RhV2prc2g1N2xvRGM?oc=5",
-              "published": "2026-09-15T12:31:38+09:00"
+              "title": "LG유플러스, 골드번호 5000개 공개 추첨",
+              "original": "LG유플러스, 골드번호 5000개 공개 추첨",
+              "source": "전자신문",
+              "url": "https://news.google.com/rss/articles/CBMipARBVV95cUxObmJncTlTcTdlSHFJa2lJQVVTOVdoUy1PSHI2cFVFYU9maWNSSFQzZndaWDhWcHRxd1VUMV9VaEZNRjM3dnlZdm52cFY2b1RtRDVHekpwbS1TbFpWSXhYdzgzMW41b0F3OGxPM0JJTXVGOHhKb1BidE1XZGt5SXhLM1RBdXZrNUhwRXBjNTdXTkFPWHB5eDQydWxTcFAxVnV6VnV0b3B3Z2dqWFFDaUpYZVRUbWZ1bGlBYWtFa1Fma3dSazZsNzFSSG80Q2dWTElJckk4RDlYSHc5NnBCTzRWZnBmQnBxSV92eUNXQ05xa1BTa3dQRGtVUWVGMGZYb1VIdXdnZUtPSS1LTkpKU3ExeDBhc3NQekJ1TkNWc3NfOGljWmlydjJtRUJscWhodURkWFp1THNCZjNkbE80S3lNektjSVhrX01sRjdnWVFMZmo3a0dVTzdmS2VXTDg1ZjhIOGtIbXZId0Mzek5CdTVQcXBNbFBXNmtyYTZRczdpdzRWQUtqaDZRRVZneTRoSzZabTFxSkpkQnN1Q2V6SVZlZUpYc2EwNWVLencwQ0haWGQ2YTJFaHBoc2w2azFFaWtDaFBlVVJLQkpMWnFRRThCV29jM3FGdkRQXzNISUdlSGhhUTRwNkhkSG52em5KOFg4TWtrdHhEOWNHU3pnN3cxOEExUmlQSjN2VGVNY3pFYnpwTFAxdjdFV3NqQVVLTzRWUmY2Vg?oc=5",
+              "published": "2026-09-19T16:14:09+09:00"
             }
           ]
         },
         {
           "stock": "현대차",
           "ticker": "005380",
-          "title": "현대차 - IAA 불참·AI 행보 지속",
-          "body": "12년 만에 유럽 IAA 무대에서 모습을 감췄지만 정부와 자동차 사이버보안 대응을 점검하고 서울 도심에서 Atria AI 기술을 공개하는 등 행보를 이어가며 +1.09% 오른 <b>371,500원</b> 거래 중.",
-          "pct": 1.09,
-          "price": 371500.0,
+          "title": "현대차 - 신차 소식 속 소폭 상승",
+          "body": "600km 주행 가능한 전기 SUV와 소형 전기차 등 신차 관련 소식이 이어진 가운데 +0.55% 오른 <b>366,500원</b> 마감.",
+          "pct": 0.55,
+          "price": 366500.0,
           "currency": "KRW",
-          "as_of": "2026-09-15",
+          "as_of": "2026-09-18",
           "slots": [
             {
               "time": "9:10AM",
@@ -640,7 +626,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-09-18",
               "title": "장 초반 강세 출발",
-              "text": "개장 직후 1%대 상승으로 출발하며 우호적인 흐름을 보임"
+              "text": "전기 SUV 관련 소식이 전해진 가운데 개장 직후부터 뚜렷한 상승세로 출발함"
             },
             {
               "time": "10:30AM",
@@ -648,8 +634,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.69,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "오전 상승폭 축소",
-              "text": "카자흐스탄 사업 협력 소식이 전해진 가운데 오전 중 상승폭이 다소 줄어드는 모습을 보임"
+              "title": "상승폭 축소",
+              "text": "장 초반 강세를 지키지 못하고 상승폭이 크게 줄어드는 흐름을 보임"
             },
             {
               "time": "1:00PM",
@@ -657,8 +643,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.82,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "오후 소폭 반등",
-              "text": "베뉴 이집트 출시 관련 소식 속에서 오후 들어 상승폭이 소폭 확대되는 흐름을 나타냄"
+              "title": "완만한 오름세 유지",
+              "text": "사이버 보안 훈련 소식이 나온 가운데 상승폭을 소폭 회복하며 완만한 강세를 유지"
             },
             {
               "time": "마감",
@@ -666,39 +652,38 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.55,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "상승폭 줄며 마감",
-              "text": "오후 반등에도 힘을 더 얻지 못하고 상승폭이 다시 줄어든 채로 하루 거래를 마무리함"
+              "title": "상승폭 소폭 축소 마감",
+              "text": "소형 전기차 인기 소식이 이어졌으나 오후 들어 상승폭이 다소 줄어든 채 마감"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "유럽 공략 외쳤던 현대차, 12년 뒤 IAA 무대서 사라졌다",
-              "original": "유럽 공략 외쳤던 현대차, 12년 뒤 IAA 무대서 사라졌다",
-              "source": "cvinfo.com",
-              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85WEZzUXllWExUZVVXVWhIWngwbDhiMkRTSWNjN2JFQ0t0dXRhc2VkVG95NFViaV9seldOTXVXd19oM3FWT0wyZ0p3YVYwLVZfdmZyNi1YVDBENE1Da1JVMjhmQ1VTejg?oc=5",
-              "published": "2026-09-15T12:37:35+09:00"
+              "title": "“이 스펙에 3천만원대?” 600km 달리는 현대차 전기 SUV, 한국만 쏙 뺐다",
+              "original": "“이 스펙에 3천만원대?” 600km 달리는 현대차 전기 SUV, 한국만 쏙 뺐다",
+              "source": "뉴스와",
+              "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYnNMTXJDWVY1aDNMZ2pBSnlEQTJtejl6dWxvYzlXRVFiTFQ1SlRfZ3VCVmd6RkFCMzJXMGI4M1ZGSmphbmtJcTZGZ1oycjJIZGlzVk1JRGQ2dU9zMmU1U3VEeWgxeURROEp2Y2RjOTRFZmhXOTd5M2ZGcFNFMUtNTXVaQQ?oc=5",
+              "published": "2026-09-19T16:27:00+09:00"
             },
             {
-              "title": "\"해킹 위협 원팀으로 막는다\"… 정부·현대차, 자동차 사이버사고 대응 점검",
-              "original": "\"해킹 위협 원팀으로 막는다\"… 정부·현대차, 자동차 사이버사고 대응 점검",
-              "source": "starnewskorea.com",
-              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwdWFOVlgzYVBxazNZSUIyaF9jcUJCYjhiejZ6MklrZmZvSE1JUjJHOE0ySU9fUW5ncHNYa202RkRrTC1HOFVOM0ZWb2huLTlJT3ljb0UxTzJpWklNdlUtUkRvRmhERVlsamZCdUxiUFdPcnJLdTBtTHkyRjhpMUE?oc=5",
-              "published": "2026-09-15T12:16:52+09:00"
+              "title": "미래 모빌리티 노리는 사이버 위협... KISA, 현대차·기아와 실전 방어 훈련",
+              "original": "미래 모빌리티 노리는 사이버 위협... KISA, 현대차·기아와 실전 방어 훈련",
+              "source": "보안뉴스",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9fb1hJUXlXLU1oR0NlSXE2WEZRVGNXY2ZjTmVINWhLNHJqOUVOcUNBb0pTb0NlQWRsTkUta3FGYmVLUmhoV0RhT1FaQmFTRTJncHhYeWtwanRUdVE0c1planhXN1k2XzM4a3lz?oc=5",
+              "published": "2026-09-19T15:45:00+09:00"
             },
             {
-              "title": "현대차그룹, 데이터 플라이휠 본격 가동… 서울 도심서 Atria AI 실력 공개",
-              "original": "현대차그룹, 데이터 플라이휠 본격 가동… 서울 도심서 Atria AI 실력 공개",
-              "source": "koreasprint.com",
-              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4zZ1ItSUNud25GYS1ndWlJZzJGSmo0eEJQSmJKVnZ6OFpkd1JGTVMwWklXSlN4N3BGcjhVVHJpZHpfQl8xZVlpV08yQmJDUmh3S3RRbE1GTXVkTHV6dnp4a01RZWtXcDhHTUdUelV3?oc=5",
-              "published": "2026-09-15T11:49:00+09:00"
+              "title": "“아빠 차 아반떼만큼 넓네”… 28개월 기다려야 받는 ‘반전’ 소형 전기차",
+              "original": "“아빠 차 아반떼만큼 넓네”… 28개월 기다려야 받는 ‘반전’ 소형 전기차",
+              "source": "뉴스와",
+              "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcTdhNGNiSDR0SnJ5dHdDWWI5VjM1SS1hN3dHZHZiaG1zNE11WmZ1WkxkVHZpYmlQdzBxV0xyYjQ0SFdJS2RTaVZtZXlEVTJxdG5wVDlVUVl3Z2hCT01RNnYtQWhvUmJ0LTFpSWJHU1BhWW5RdVpuTFp5MVBEN2c1d3pwdw?oc=5",
+              "published": "2026-09-19T15:08:33+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-09-15-kr.md",
-      "refreshed_at": "2026-09-15 12:48:15 KST",
-      "slots_refreshed_at": "2026-09-19 14:44:43 KST"
+      "markdown": "briefings/2026-09-19-us-kr.md",
+      "refreshed_at": "2026-09-19 19:10:49 KST"
     }
   }
 };
