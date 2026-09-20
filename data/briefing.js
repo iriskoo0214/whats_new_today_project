@@ -1,10 +1,10 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-09-20 07:54:51 KST",
-  "refreshed": [
-    "us"
+  "generated_at": "2026-09-20 10:00:03 KST",
+  "refreshed": [],
+  "slots_refreshed": [
+    "kr"
   ],
-  "slots_refreshed": [],
   "default": "us",
   "markets": {
     "us": {
@@ -343,8 +343,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 3.06,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "강세로 출발",
-              "text": "개인이 대거 순매수했다는 소식 속에 장 초반부터 상승세로 거래 시작"
+              "title": "장 초반 강세 출발",
+              "text": "개장과 함께 큰 폭으로 오르며 강세로 출발해 상승세를 이어감"
             },
             {
               "time": "10:30AM",
@@ -352,8 +352,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.97,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "오전 상승폭 축소",
-              "text": "메모리 경쟁 우려 기사 속에서도 상승세는 유지했으나 오전보다 오름폭 줄어듦"
+              "title": "상승폭 소폭 둔화",
+              "text": "오전 상승세가 다소 꺾이며 상승폭을 소폭 반납했으나 여전히 강세권 유지"
             },
             {
               "time": "1:00PM",
@@ -361,8 +361,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 4.53,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "오후 들어 급등",
-              "text": "인텔의 오하이오 메모리 생산 가능성 등 이슈 속에 오후 들어 상승폭이 크게 확대"
+              "title": "오후 들어 재상승",
+              "text": "자사주 매입 조기 종료 전망이 나온 뒤 오후 들어 상승폭을 다시 키우며 반등"
             },
             {
               "time": "마감",
@@ -370,8 +370,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 4.7,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "고점권 마감",
-              "text": "오후 상승세를 그대로 이어가며 하루 중 가장 높은 상승률로 거래 마감"
+              "title": "장중 고점서 상승 유지",
+              "text": "오후 상승세를 그대로 이어가며 하루 중 가장 높은 수준에서 상승 마감함"
             }
           ],
           "slot_total": 4,
@@ -415,8 +415,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.37,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "상승 출발",
-              "text": "외국인·기관·개인 매수세가 몰렸다는 소식 속에 장 초반 상승세로 출발"
+              "title": "장 초반 상승 출발",
+              "text": "개장 직후 상승세로 출발하며 완만한 오름세를 보임"
             },
             {
               "time": "10:30AM",
@@ -424,8 +424,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.88,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "오전 상승폭 둔화",
-              "text": "29조원 배당 계획 소식에도 오전 상승폭은 개장 대비 다소 줄어드는 흐름"
+              "title": "오전 상승폭 축소",
+              "text": "오전 들어 상승폭이 줄어들며 초반 오름세가 다소 힘을 잃는 모습"
             },
             {
               "time": "1:00PM",
@@ -433,8 +433,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.76,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "오후 들어 상승폭 확대",
-              "text": "5G 폴더블폰 공개 소식 등이 전해진 가운데 오후 들어 오름폭이 다시 커짐"
+              "title": "오후 반등 상승폭 확대",
+              "text": "테크 포럼 소식 등이 전해진 뒤 오후 들어 상승폭을 다시 키우며 반등"
             },
             {
               "time": "마감",
@@ -442,8 +442,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.56,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "강세 유지 마감",
-              "text": "오후 상승폭을 대부분 지키며 1%대 중반 오름세로 하루 거래 마무리"
+              "title": "상승세 유지하며 마감",
+              "text": "오후 상승분을 대부분 지키며 하루 종일 오름세를 이어가는 흐름으로 마무리"
             }
           ],
           "slot_total": 4,
@@ -488,7 +488,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-09-18",
               "title": "보합권 출발",
-              "text": "55조원 투자계획 지역사업 반영 소식 이후 장 초반 변동 없이 잔잔한 흐름"
+              "text": "방산 관련 소식들이 이어진 가운데 별다른 변동 없이 보합권에서 출발함"
             },
             {
               "time": "10:30AM",
@@ -496,8 +496,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.09,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "오전 약보합 전환",
-              "text": "통합대공망 구축 소식에도 오전 들어 미세하게 하락 전환하며 방향성 부재"
+              "title": "소폭 약세 전환",
+              "text": "오전 들어 상승분을 반납하며 약보합권으로 방향이 소폭 꺾이는 모습"
             },
             {
               "time": "1:00PM",
@@ -505,8 +505,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.64,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "오후 반등 성공",
-              "text": "크로아티아 천무 수출 소식이 부각되며 오후 들어 플러스권으로 반등 성공"
+              "title": "오후 들어 반등",
+              "text": "방공망 구축 관련 관심주 소식이 나온 뒤 오후 들어 낙폭을 만회하며 반등"
             },
             {
               "time": "마감",
@@ -514,8 +514,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.55,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "약세 전환 마감",
-              "text": "오후 반등폭을 지키지 못하고 장 막판 다시 하락 전환하며 거래 마무리"
+              "title": "오후 상승분 반납",
+              "text": "오후 반등 흐름을 지키지 못하고 다시 밀리며 하루 중 가장 낮은 수준으로 마감"
             }
           ],
           "slot_total": 4,
@@ -559,8 +559,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.8,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "소폭 강세 출발",
-              "text": "뚜렷한 재료 없이 장 초반 소폭 상승하며 거래를 시작하는 잔잔한 흐름"
+              "title": "완만한 상승 출발",
+              "text": "개장 직후 소폭 오르며 완만한 상승세로 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -568,8 +568,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.25,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "오전 하락 전환",
-              "text": "별다른 호재 부재 속에 오전 들어 상승분을 반납하고 하락세로 돌아섬"
+              "title": "오전 약세 전환",
+              "text": "오전 들어 상승분을 반납하고 약보합권으로 내려앉는 흐름으로 전환됨"
             },
             {
               "time": "1:00PM",
@@ -577,8 +577,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.55,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "오후 반등 시도",
-              "text": "중국 내 스마트폰 반응이 좋다는 소식 이후 오후 들어 낙폭을 만회하는 흐름"
+              "title": "오후 낙폭 일부 만회",
+              "text": "그램데이 행사 소식이 전해진 뒤 오후 들어 낙폭을 일부 만회하며 반등"
             },
             {
               "time": "마감",
@@ -586,8 +586,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.35,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "약세로 마감",
-              "text": "오후 반등에도 힘이 실리지 못하며 결국 하락세로 하루 거래 마무리"
+              "title": "오후 반등 되돌림",
+              "text": "오후 반등폭을 지키지 못하고 다시 밀리며 약세로 하루를 마무리함"
             }
           ],
           "slot_total": 4,
@@ -631,8 +631,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.44,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "강세로 출발",
-              "text": "특별한 재료 없이 장 초반부터 1%대 상승세를 보이며 거래를 시작"
+              "title": "장 초반 강세 출발",
+              "text": "신차 투싼 공개 소식이 전해진 가운데 개장 직후 상승세로 강하게 출발함"
             },
             {
               "time": "10:30AM",
@@ -640,8 +640,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.69,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "상승폭 둔화",
-              "text": "하이브리드 관련 소식이 전해진 가운데 오전 들어 상승폭이 다소 줄어드는 흐름"
+              "title": "상승폭 크게 축소",
+              "text": "오전 들어 초반 상승폭이 크게 줄어들며 오름세가 눈에 띄게 둔화됨"
             },
             {
               "time": "1:00PM",
@@ -649,8 +649,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.82,
               "is_close": false,
               "date": "2026-09-18",
-              "title": "보합권 유지",
-              "text": "배터리 충전기 관련 집단소송 이슈 속에서도 오후까지 큰 변동 없이 유지"
+              "title": "완만한 반등 흐름",
+              "text": "투싼 신차 효과 기대감 속에 오후 들어 상승폭을 소폭 회복하는 모습"
             },
             {
               "time": "마감",
@@ -658,8 +658,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.55,
               "is_close": true,
               "date": "2026-09-18",
-              "title": "상승폭 축소 마감",
-              "text": "장 초반 상승분을 대부분 반납하며 소폭 오름세로 하루 거래를 마무리"
+              "title": "상승폭 다시 축소",
+              "text": "오후 반등폭을 지키지 못하고 상승폭이 다시 줄어들며 약한 강세로 마무리"
             }
           ],
           "slot_total": 4,
@@ -689,7 +689,8 @@ window.NOTEFOLIO_BRIEFING = {
         }
       ],
       "markdown": "briefings/2026-09-20-us-kr.md",
-      "refreshed_at": "2026-09-20 02:36:37 KST"
+      "refreshed_at": "2026-09-20 02:36:37 KST",
+      "slots_refreshed_at": "2026-09-20 10:00:03 KST"
     }
   }
 };
