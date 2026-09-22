@@ -1,15 +1,15 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-09-22 06:00:15 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-09-22 09:01:55 KST",
+  "refreshed": [
     "us"
   ],
-  "default": "kr",
+  "slots_refreshed": [],
+  "default": "us",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
-      "label": "미국 증시 요약 2026. 9. 21. 9:09AM",
+      "label": "미국 증시 요약 2026. 9. 22. 9:01AM",
       "chips": [
         "전체",
         "IBM",
@@ -23,21 +23,21 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "next": "kr",
       "headline": "해외 5종목 중 2종목 상승, 3종목 하락 — 소파이테크놀로지가 +1.37%로 가장 많이 올랐고 IBM이 -3.45%로 가장 부진했습니다.",
-      "market_headline": "국채금리 상승에도 반도체 강세에 나스닥 상승",
+      "market_headline": "AI 낙관론에 유가 하락 겹치며 나스닥 사상 최고치",
       "market_card": {
-        "title": "뉴욕증시 반도체 훈풍에 상승 마감...美中 정상회담 주목",
+        "title": "3대 지수 일제히 상승 마감...나스닥 사상 최고치 경신",
         "bullets": [
-          "반도체주 강세에 나스닥 견인 상승",
-          "국채금리 급등에도 매수세 유입",
-          "미중 정상회담 및 중동 정세 주목"
+          "AI 관련주 급등에 나스닥 2.3%대 급등",
+          "국제유가 급락에 투자심리 개선",
+          "미중 정상회담 기대감에 위험자산 선호"
         ]
       },
       "cards": [
         {
           "stock": "IBM",
           "ticker": "IBM",
-          "title": "IBM - 뚜렷한 재료 없이 하락",
-          "body": "IBM은 특별한 소식이 없는 가운데 -3.45% 내린 <b>229.55달러</b> 마감.",
+          "title": "IBM - 20억달러 양자 제조 플랫폼 발표",
+          "body": "IBM은 20억 달러 규모 양자 제조 플랫폼 구축 소식에도 -3.45% 내린 <b>229.55달러</b> 마감. 인텔과 함께 극저온·오류 문제를 넘어서는 양자컴 상용화에 속도를 내고 있다는 평가가 나오는 가운데, 기술 섹터 전반의 투자심리 개선 흐름과는 엇갈린 모습이다.",
           "pct": -3.45,
           "price": 229.5500030517578,
           "currency": "USD",
@@ -46,30 +46,52 @@ window.NOTEFOLIO_BRIEFING = {
             {
               "time": "11:00PM",
               "price": 231.0749969482422,
-              "pct": 0.66,
+              "pct": 0.64,
               "is_close": false,
               "date": "2026-09-21",
-              "title": "양자 사업 확대 소식",
-              "text": "20억 달러 규모 양자 제조 플랫폼 구축 소식이 오전에 전해지며 주가는 하락 압력을 받음"
+              "title": "양자 소식에 하락 출발",
+              "text": "20억 달러 규모 양자 제조 플랫폼 구축 소식이 전해지며 장 초반 매물이 쏟아지며 하락 압력을 받음"
             },
             {
               "time": "마감",
-              "price": 231.92999267578125,
-              "pct": 1.04,
+              "price": 231.9199981689453,
+              "pct": 1.01,
               "is_close": true,
               "date": "2026-09-21",
-              "title": "기술주 훈풍에 반등",
-              "text": "AI 투자심리 개선과 양자컴 상용화 기대감이 겹치며 오후 들어 낙폭을 만회하고 상승 마감"
+              "title": "저녁 반등 흐름 이어가",
+              "text": "AI 투자심리 개선과 인텔·IBM 양자컴 상용화 기대감이 부각되며 시간외에서 낙폭을 만회하고 상승 전환"
             }
           ],
           "slot_total": 2,
-          "news": []
+          "news": [
+            {
+              "title": "IBM, 20억 달러 규모 양자 제조 플랫폼 구축 소식에 하락",
+              "original": "IBM Drops as $2 Billion Builds a Quantum Manufacturing Platform",
+              "source": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/technology/ai/articles/ibm-drops-2-billion-builds-184232750.html",
+              "published": "2026-09-22T03:42:32+09:00"
+            },
+            {
+              "title": "AI 투자심리 개선에 기술 섹터 훈풍…IBM 주가 반등 모색",
+              "original": "AI 투자심리 개선에 기술 섹터 훈풍…IBM 주가 반등 모색",
+              "source": "Traders Union",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYzN3bkplb3FSMEhUaDFOSHRxNGNvTGNCUkZHZndYQWR3VjVYY0lOX0FtY0YwdDVmQ3FhTHAwQ194dzA3TUdmbWJ0UGxDRms4amxfX2RKQXByVDROaU90TVRzd2p3QllFd1daUE9UWkpFUlQ5TUVHR1RjR1ZtTWtqcw?oc=5",
+              "published": "2026-09-21T20:20:19+09:00"
+            },
+            {
+              "title": "“극저온·오류 넘는다”…인텔·IBM, 양자컴 상용화 속도[글로벌 왓]",
+              "original": "“극저온·오류 넘는다”…인텔·IBM, 양자컴 상용화 속도[글로벌 왓]",
+              "source": "서울경제",
+              "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBHQUJ4NEVBb3dqZUhFaENkVDczN1JxZUlOT1B5MEFDNnZLNDA1aWt1T0MzRTd5QzZnSXdqWFQxWURWT0ZOcXFwYXRMQXBnSV81RlHSAVNBVV95cUxNSDV6YTFnc0tCdkFNcHAwVlNTcTUzME42M2xQZ3ZsX2xabmdCXy1UMThfaXNwU3o4Q3JPZFZ5ellMaHk1VTRfX2tfdHk2ZEtfR3ZPVQ?oc=5",
+              "published": "2026-09-21T17:44:32+09:00"
+            }
+          ]
         },
         {
           "stock": "마이크로소프트",
           "ticker": "MSFT",
-          "title": "마이크로소프트 - 애크먼 24억달러 베팅에도 하락",
-          "body": "마이크로소프트는 AI 수장의 중국 AI 규제 관련 발언 속 -0.80% 내린 <b>493.78달러</b> 마감. 빌 애크먼이 매력적인 밸류에이션을 이유로 24억 달러 지분을 구축해 핵심 보유 종목으로 꼽았다는 소식도 전해졌다.",
+          "title": "마이크로소프트 - 재료 없이 소폭 하락",
+          "body": "마이크로소프트는 뚜렷한 악재 없이 -0.80% 내린 <b>493.78달러</b> 마감. 최근 5년간 75% 상승했음에도 여전히 밸류에이션이 합리적인 수준이라는 분석이 나오며 증시를 압도하는 존재감을 이어가고 있다는 평가다.",
           "pct": -0.8,
           "price": 493.7799987792969,
           "currency": "USD",
@@ -78,52 +100,52 @@ window.NOTEFOLIO_BRIEFING = {
             {
               "time": "11:00PM",
               "price": 495.8949890136719,
-              "pct": 0.43,
+              "pct": 0.49,
               "is_close": false,
               "date": "2026-09-21",
-              "title": "보합권서 등락",
-              "text": "하이데라바드 AI 용량 확충 소식에도 수냉식 미도입 우려로 주가는 큰 움직임 없이 보합권 유지"
+              "title": "긍정 평가 속 강세 지속",
+              "text": "장 특징주로 부각되고 5년간 큰 폭 상승에도 밸류에이션이 여전히 합리적이라는 평가가 이어짐"
             },
             {
               "time": "마감",
               "price": 501.6099853515625,
-              "pct": 1.59,
+              "pct": 1.65,
               "is_close": true,
               "date": "2026-09-21",
-              "title": "오후 들어 상승폭 확대",
-              "text": "나델라 정상급 인사들과 회동 소식이 전해진 이후 매수세가 유입되며 장 후반 상승폭이 커짐"
+              "title": "상승폭 확대하며 마감",
+              "text": "주식시장을 압도한다는 평가와 함께 매수세가 꾸준히 유입되며 하루 상승폭을 키우는 흐름을 이어감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "[미국 특징주] 마이크로소프트 AI 수장 \"중국, AI 규제 미룰 구실 아냐\"",
-              "original": "[미국 특징주] 마이크로소프트 AI 수장 \"중국, AI 규제 미룰 구실 아냐\"",
-              "source": "뉴스핌",
-              "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5xanltZWdfaW1rR04wMnktVGo3TFBnTUpTaUNMTlIxSUxMMGlaUWEtNHBfbG16d00zMjFOSWtCQzZtS0VOeDRDN25lYWZrSTlOeWtzQzR6S3pNZkk0?oc=5",
-              "published": "2026-09-21T08:06:00+09:00"
+              "title": "마이크로소프트(MSFT), 주식시장을 압도하다: 그 이유는",
+              "original": "Microsoft (MSFT) Laps the Stock Market: Here's Why",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-laps-stock-market-214503698.html",
+              "published": "2026-09-22T06:45:03+09:00"
             },
             {
-              "title": "빌 애크먼, 마이크로소프트에 24억 달러 지분 구축... \"매력적인 밸류에이션\"에 매입한 \"핵심 보유 종목\"이라 평가. 그가 빅테크에 크게 베팅하는 이유는.",
-              "original": "Bill Ackman Built a $2.4 Billion Stake in Microsoft, Calling It a \"Core Holding\" Bought at a \"Highly Compelling Valuation.\" Here's Why He's Betting Big on Big Tech.",
-              "source": "Motley Fool",
-              "url": "https://www.fool.com/investing/2026/09/20/bill-ackman-built-a-24-billion-stake-in-microsoft/",
-              "published": "2026-09-21T07:29:00+09:00"
+              "title": "[오늘장특징주]AMD, HP, 마이크로소프트",
+              "original": "[오늘장특징주]AMD, HP, 마이크로소프트",
+              "source": "edaily.co.kr",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSGdtRkdBYlFVQmswaW84Rmx5TW1wMHpQOHQyN0c4bXhDNldMQVFrdy13WkNCd3lTSnJLZXdhb0dDOGJKNmZwSVlfa2U3WHZpdWx4RUtWU2c0QTB1SW15Rk5ndjFJZ0FHM0tNcGZGSFl3bGNNZG5PNS1iMWNNTGRZWQ?oc=5",
+              "published": "2026-09-22T06:42:48+09:00"
             },
             {
-              "title": "예측: 마이크론, 2027 회계연도에 마이크로소프트보다 더 많은 순이익 낼 것",
-              "original": "Prediction: Micron Will Earn More Profit Than Microsoft in Fiscal 2027",
-              "source": "Motley Fool",
-              "url": "https://www.fool.com/investing/2026/09/20/prediction-micron-will-earn-more-profit-than-microsoft-in-fiscal-2027/",
-              "published": "2026-09-21T02:37:01+09:00"
+              "title": "마이크로소프트(MSFT) 주가, 5년간 75% 상승에도 여전히 합리적인 수준",
+              "original": "Microsoft (MSFT) Stock Looks Reasonable Despite Its 75% Five Year Run",
+              "source": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-stock-looks-reasonable-211138209.html",
+              "published": "2026-09-22T06:11:38+09:00"
             }
           ]
         },
         {
           "stock": "아이온큐",
           "ticker": "IONQ",
-          "title": "아이온큐 - 적자 3배 확대 소식에 하락",
-          "body": "아이온큐는 적자가 3배로 확대되며 웃돈 주고 살 이유가 없다는 평가 속에 -3.00% 내린 <b>39.13달러</b> 마감. EPB가 상용 양자컴퓨팅·네트워킹을 결합한 '포르테 엔터프라이즈'를 가동했다는 소식도 있었지만 주가 하락을 막지 못했다.",
+          "title": "아이온큐 - 한국 SDT와 양자 파트너십",
+          "body": "아이온큐는 한국 SDT사와 양자 시스템 배치 파트너십을 체결했다는 소식에도 -3.00% 내린 <b>39.13달러</b> 마감. 경북도가 미국 메릴랜드주 및 아이온큐와 양자 기술 협력을 추진 중이라는 소식도 전해졌으나 주가 반등으로는 이어지지 못했다.",
           "pct": -3.0,
           "price": 39.130001068115234,
           "currency": "USD",
@@ -132,52 +154,52 @@ window.NOTEFOLIO_BRIEFING = {
             {
               "time": "11:00PM",
               "price": 40.20000076293945,
-              "pct": 2.73,
+              "pct": 2.68,
               "is_close": false,
               "date": "2026-09-21",
-              "title": "양자 협력 소식 잇따라",
-              "text": "경북도와 미국 메릴랜드주 등 지자체와의 양자 기술 협력 추진 소식이 오후 들어 연이어 전해짐"
+              "title": "파트너십 소식에 강세",
+              "text": "한국 SDT사와의 양자 시스템 배치 파트너십 체결 소식이 전해지며 시간외에서 매수세가 유입됨"
             },
             {
               "time": "마감",
-              "price": 40.5099983215332,
-              "pct": 3.53,
+              "price": 40.499900817871094,
+              "pct": 3.45,
               "is_close": true,
               "date": "2026-09-21",
-              "title": "협력 기대감에 상승 마감",
-              "text": "북미 첨단산업 교류 확대 기대감이 부각되며 오후 상승세가 이어져 하루 중 고점권에서 마감"
+              "title": "협력 기대감 속 상승 유지",
+              "text": "경북도의 미국 메릴랜드주 및 아이온큐와의 협력 추진 소식까지 더해지며 오름폭을 유지한 채 흐름 이어감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "EPB, 아이온큐 ‘포르테 엔터프라이즈’ 가동…상용 양자컴퓨팅·네트워킹 한곳에",
-              "original": "EPB, 아이온큐 ‘포르테 엔터프라이즈’ 가동…상용 양자컴퓨팅·네트워킹 한곳에",
-              "source": "양자신문",
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBtRlNJeUl6ckdrT2FXQUU5Zk4wamVydm1OUjMzU2JxWE1makhMSDV0MlJSVkd1UHZaNzJhSnBmY2l6SzhpWHZSdUE3RVpxM0cyY3FxckNMUEIyYzA5allMdXpwcmZxcXVPRHVFblpZMA?oc=5",
-              "published": "2026-09-21T08:00:00+09:00"
+              "title": "아이온큐 주가, 시간외 소폭 상승: 아이온큐, 한국 SDT사와 양자 시스템 배치 파트너십 체결",
+              "original": "IONQ Stock Inches Higher After-Hours: IonQ Partners With South Korea-Based SDT, Inc. To Deploy Quantum Systems",
+              "source": "Stocktwits",
+              "url": "https://stocktwits.com/news-articles/markets/equity/ionq-stock-gains-after-hours-ion-q-partners-with-south-korea-based-sdt-inc-to-deploy-quantum-systems/cZMRxe3RBIn",
+              "published": "2026-09-22T08:38:23+09:00"
             },
             {
-              "title": "아이온큐, 적자 3배 확대…\"웃돈 주고 살 이유 없어\"",
-              "original": "아이온큐, 적자 3배 확대…\"웃돈 주고 살 이유 없어\"",
-              "source": "연합인포맥스",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE45dTFRWVRweVdMT21ZbzJ1YzFiYmFPejh2Tnl4QkpNbzNoTUtLdFRoLTE4S0ppdGNDcDlYOFI1eEpsbWxFRVZGSXlyaHJ1Zmo3QWFEamNzSTV4dWNwQTZZOVFhb0lUbldadHJNUG8wWms?oc=5",
-              "published": "2026-09-21T07:54:10+09:00"
+              "title": "IONQ, SDT와 손잡고 한국에 양자 시스템 구축",
+              "original": "IONQ, SDT와 손잡고 한국에 양자 시스템 구축",
+              "source": "Investing.com 한국어",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBrMDFuNEhhcmdnZWdCRWw3ZUlON1h4SG9zQXZpZTBHdzFkazVCYmZ3LVhvdWpBWVlXaFBqd19za1dQdDQ4UzNXbnlwX2RYQlp4U0lyYTdNd1FPc0EySW85bERKV3V5T3Qtb3lUVTNWaEc?oc=5",
+              "published": "2026-09-22T07:37:00+09:00"
             },
             {
-              "title": "아이온큐 주식 매수 전 알아야 할 3가지",
-              "original": "3 Things You Need to Know Before Buying IonQ Stock",
-              "source": "Motley Fool",
-              "url": "https://www.fool.com/investing/2026/09/20/3-things-you-need-to-know-before-buying-ionq-stock/",
-              "published": "2026-09-21T07:11:00+09:00"
+              "title": "경북도, 미국 메릴랜드주·아이온큐와 양자 기술 협력 추진",
+              "original": "경북도, 미국 메릴랜드주·아이온큐와 양자 기술 협력 추진",
+              "source": "연합뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1EQnNnOEZ6VkVBM3d0R2pIamxveGktT3k4U3BQN2VDVmU0RDNybDk1eTFCZlowelZYS2FOSEJvN1Zrek40UXItOWpCemUxcHRTaXgwRmRGUnBiT2_SAWBBVV95cUxPQU1lTDVjV0QyZHA4OUpkRGhNUzcxNnJ5SW1SY1ctWXFQRE16Q2VNdDNwZ2tFbGtzZzN3eFF2M2w3dV94U2psNVJwUkhnRGdmUFNwLTZ1UnBwTV9PRVN0UUs?oc=5",
+              "published": "2026-09-21T17:26:50+09:00"
             }
           ]
         },
         {
           "stock": "엔비디아",
           "ticker": "NVDA",
-          "title": "엔비디아 - 젠슨 황 발언에 상승",
-          "body": "엔비디아는 젠슨 황이 내년 칩 판매량이 두 배로 늘어날 것이라 밝힌 가운데 +1.34% 오른 <b>222.27달러</b> 마감. GPU를 쌓아두고도 전력 부족에 시달리는 상황에서 국내 전력기기 업체들이 43조원 규모 수혜를 볼 것이란 분석도 함께 나왔다.",
+          "title": "엔비디아 - LG엔솔 등 AI 생태계 합류",
+          "body": "엔비디아는 LG전자·LG에너지솔루션이 냉각·전력 분야에서 AI 생태계에 합류했다는 소식 속에 +1.34% 오른 <b>222.27달러</b> 마감. 이수페타시스도 엔비디아·구글·AWS向 물량 확대로 분기 영업이익률 20%를 돌파했다는 소식이 전해지며 공급망 전반에 훈풍이 도는 모습이다.",
           "pct": 1.34,
           "price": 222.27000427246094,
           "currency": "USD",
@@ -186,52 +208,52 @@ window.NOTEFOLIO_BRIEFING = {
             {
               "time": "11:00PM",
               "price": 224.1199951171875,
-              "pct": 0.83,
+              "pct": 0.91,
               "is_close": false,
               "date": "2026-09-21",
-              "title": "경쟁 우려 속 등락",
-              "text": "마이크론과의 수익성 비교, AMD 시총 1조 돌파 등 경쟁 부각 소식에 오전 주가는 방향성 탐색"
+              "title": "생태계 확장 소식에 강세",
+              "text": "LG전자·LG엔솔이 냉각·전력 분야로 AI 생태계에 합류했다는 소식이 전해지며 상승세가 나타남"
             },
             {
               "time": "마감",
-              "price": 227.3800048828125,
-              "pct": 2.3,
+              "price": 227.25,
+              "pct": 2.32,
               "is_close": true,
               "date": "2026-09-21",
-              "title": "협상 기대감에 강세 전환",
-              "text": "트럼프 대중국 협상 기대감이 부각되며 오후 들어 상승폭을 키워 하루 중 고점 부근에서 유지 중"
+              "title": "협력사 실적 호조에 상승",
+              "text": "이수페타시스가 물량 확대와 함께 높은 영업이익률을 기록했다는 소식이 겹치며 오름폭이 더욱 확대됨"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "엔비디아 GPU 쌓아두고도 전기 없어 발동동…K-전력기기 43조 잭팟 터졌다",
-              "original": "엔비디아 GPU 쌓아두고도 전기 없어 발동동…K-전력기기 43조 잭팟 터졌다",
-              "source": "스마트투데이",
-              "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9JWlhPQU8zaHNpN29PRy1PUGVuX3hJbGFSTGJ2d2VBMEZxY1pwMm5UUUJLWkRQZXU5V0FXZTlKQXpNMm9nd0JUejVFUF8yRHJUeEtHNzFJcTZuanFrLWVn?oc=5",
-              "published": "2026-09-21T08:58:00+09:00"
+              "title": "LG전자·엔솔, 엔비디아 AI 생태계 합류…'냉각·전력' 동시 출격",
+              "original": "LG전자·엔솔, 엔비디아 AI 생태계 합류…'냉각·전력' 동시 출격",
+              "source": "비즈워치",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QVkZlci1uZGpRZzJZWF9EQzdIclNabGQzUnFDUWFiQWxhdUhmUU51SlVhYXFuTHJ6aHJOcFdtcGpBbkdKdGo2VHN1YjVBVzRDaHFoc25YTk82cUhkcHlJQTg0b3h2Si03TGc4eg?oc=5",
+              "published": "2026-09-22T08:59:02+09:00"
             },
             {
-              "title": "[머니네버슬립] 젠슨 황 “내년 엔비디아 칩 판매량 두 배로 늘어난다” : 네이버 블로그",
-              "original": "[머니네버슬립] 젠슨 황 “내년 엔비디아 칩 판매량 두 배로 늘어난다” : 네이버 블로그",
-              "source": "Naver Blog",
-              "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOVFBVTVWYXMzT1NlQzJJWkxfTURxM1dubTl6N3NnTXNVUzBmOHVDTGxWVTZfLUY2aEJJX0QwZEctajlmd1NlTFJiNUdWZ3E4QVBkOUctclhqTDVEVTRCTkIxNWNPMlc3cDNUVTA2RGIwMWNQd0R3dXE3YUtjRjA5YlZXNzYxY0E1cDFud0NKaw?oc=5",
-              "published": "2026-09-21T08:45:12+09:00"
+              "title": "LG엔솔, 엔비디아 'DSX 레디' 합류⋯AI 데이터센터 ESS 공략",
+              "original": "LG엔솔, 엔비디아 'DSX 레디' 합류⋯AI 데이터센터 ESS 공략",
+              "source": "아이뉴스24",
+              "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE52Q0JYbGFtRVZXeWtMMEVjVTI0eVNXVmlGNDh1R2RyVzlraE9RSnpyUkczREQ5SEtxZVdXVDBYVHA5NFlsWXpIalVRSQ?oc=5",
+              "published": "2026-09-22T08:57:03+09:00"
             },
             {
-              "title": "예측: 엔비디아의 매출 성장이 내년 주가를 400달러까지 끌어올릴 것",
-              "original": "Prediction: Nvidia's Revenue Growth Will Drive Shares to $400 Next Year",
-              "source": "Motley Fool",
-              "url": "https://www.fool.com/investing/2026/09/20/prediction-nvidias-70-revenue-forecast-will-drive/",
-              "published": "2026-09-21T08:33:00+09:00"
+              "title": "이수페타시스, 엔비디아·구글·AWS 물량 확대…분기 영업이익률 20% 돌파",
+              "original": "이수페타시스, 엔비디아·구글·AWS 물량 확대…분기 영업이익률 20% 돌파",
+              "source": "마켓잉크",
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZUGdyVjlGMjlFNDJRNHZLS2pzUjU4d25VY2JGT3NzMmJDT0c2N3JyRmh4SkF0ZktFUlJ5X1RyTk9CS3Z5X0ZiUS1Pc0xZYzV3VzhPcmNscXhzZkc0TXZDQW5fRW44UjFiWnFlMVZBUQ?oc=5",
+              "published": "2026-09-22T08:56:44+09:00"
             }
           ]
         },
         {
           "stock": "소파이테크놀로지",
           "ticker": "SOFI",
-          "title": "소파이테크놀로지 - 뚜렷한 재료 없이 상승",
-          "body": "소파이테크놀로지는 특별한 소식이 없는 가운데 +1.37% 오른 <b>16.96달러</b> 마감.",
+          "title": "소파이테크놀로지 - 지점 없는 은행 모델 재조명",
+          "body": "소파이테크놀로지는 지점 없는 은행이라는 사업 모델의 계산법을 시장이 제대로 평가하지 못했다는 분석 속에 +1.37% 오른 <b>16.96달러</b> 마감.",
           "pct": 1.37,
           "price": 16.959999084472656,
           "currency": "USD",
@@ -240,29 +262,36 @@ window.NOTEFOLIO_BRIEFING = {
             {
               "time": "11:00PM",
               "price": 16.864999771118164,
-              "pct": -0.56,
+              "pct": -0.59,
               "is_close": false,
               "date": "2026-09-21",
-              "title": "실적 논란 속 보합",
-              "text": "지점 없는 은행 모델에 대한 시장 평가가 엇갈리며 오후 주가는 큰 변동 없이 보합권에 머묾"
+              "title": "평가 엇갈리며 보합권",
+              "text": "지점 없는 은행 모델에 대한 시장의 저평가 지적이 나온 뒤 주가는 큰 변화 없이 보합권에서 움직임"
             },
             {
               "time": "마감",
               "price": 16.969999313354492,
-              "pct": 0.06,
+              "pct": 0.03,
               "is_close": true,
               "date": "2026-09-21",
-              "title": "소폭 상승 후 되밀림",
-              "text": "오후 한때 상승 시도가 있었으나 장 막판 매물에 밀리며 상승폭을 반납하고 약보합으로 유지 중"
+              "title": "약보합 전환하며 마무리",
+              "text": "장중 보합세를 유지하다 저녁 들어 매수세가 약해지며 소폭 밀리는 흐름으로 방향을 바꿈"
             }
           ],
           "slot_total": 2,
-          "news": []
+          "news": [
+            {
+              "title": "잘하고도 혼난 소파이, 시장이 놓친 건 지점 없는 은행의 계산법입니다 SOFI",
+              "original": "잘하고도 혼난 소파이, 시장이 놓친 건 지점 없는 은행의 계산법입니다 SOFI",
+              "source": "네이버 프리미엄콘텐츠",
+              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONmRLN0VDMXlNdHBjNzViS1BjZjJtQm5OWUswYkhGZVM4eW9VVGZtbVpKaFZsckJqRFN3ZkpsOTZQNjBtc1BfcWVNcjhPS2NpZDJ3M0NLMU9ZamhESTd0R1M1Y1dkM09ndk1XT25wNnB6Z3RMa1p4WjdJbXY3ci0zQXhWck9NdXk5QjQweA?oc=5",
+              "published": "2026-09-21T15:42:00+09:00"
+            }
+          ]
         }
       ],
-      "markdown": "briefings/2026-09-21-us.md",
-      "refreshed_at": "2026-09-21 09:09:30 KST",
-      "slots_refreshed_at": "2026-09-22 06:00:15 KST"
+      "markdown": "briefings/2026-09-22-us.md",
+      "refreshed_at": "2026-09-22 09:01:55 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
