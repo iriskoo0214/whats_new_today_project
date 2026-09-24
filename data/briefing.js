@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-09-24 23:56:39 KST",
+  "generated_at": "2026-09-25 04:02:49 KST",
   "refreshed": [],
   "slots_refreshed": [
     "us"
@@ -49,8 +49,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -2.57,
               "is_close": false,
               "date": "2026-09-24",
-              "title": "약세 흐름 지속",
-              "text": "블록체인 원장 연동과 은행 파일럿 참여 소식에도 매수세로 이어지지 못하며 낙폭을 유지하는 중"
+              "title": "장중 약세 지속",
+              "text": "보안 자격 인증 인수 소식 이후 하락폭이 확대되며 낙폭을 좀처럼 좁히지 못하는 흐름이 이어짐"
             }
           ],
           "slot_total": 2,
@@ -94,8 +94,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.53,
               "is_close": false,
               "date": "2026-09-24",
-              "title": "하락세 이어가는 중",
-              "text": "AI 중심 조직 개편과 게임 스튜디오 축소 소식이 전해졌지만 주가는 하락폭을 좁히지 못한 채 약세를 지속"
+              "title": "500달러선 하회 압박",
+              "text": "게임 스튜디오 축소 소식 속에 500달러 아래에서 매도 압력이 지속되며 약세 흐름을 이어가는 중"
             }
           ],
           "slot_total": 2,
@@ -139,8 +139,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.38,
               "is_close": false,
               "date": "2026-09-24",
-              "title": "약보합 지속 중",
-              "text": "엔비디아 양자컴 공급 및 플로리다 구축 소식이 이어졌으나 주가는 소폭 약세 흐름을 유지하는 중"
+              "title": "상승분 반납하며 약세",
+              "text": "기술적 돌파로 강세를 보였다는 소식과 달리 정작 장중에는 상승분을 반납하고 하락 전환한 모습"
             }
           ],
           "slot_total": 2,
@@ -184,8 +184,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.31,
               "is_close": false,
               "date": "2026-09-24",
-              "title": "약세 유지 중",
-              "text": "젠슨 황의 반독점 관련 발언과 배터리 인증 소식에도 별다른 반등 없이 낙폭을 유지하고 있는 흐름"
+              "title": "CEO 발언 이후 하락",
+              "text": "젠슨 황의 AI 규제 관련 파격 발언이 전해진 이후 매수세가 붙지 못하고 낙폭이 이어지는 흐름"
             }
           ],
           "slot_total": 2,
@@ -229,8 +229,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.87,
               "is_close": false,
               "date": "2026-09-24",
-              "title": "약세 흐름 지속",
-              "text": "스테이블코인 카드 전환 소식과 CTO 주식 매도 공시가 겹쳤지만 주가는 하락세를 벗어나지 못하는 중"
+              "title": "호재에도 요지부동",
+              "text": "스테이블코인 카드 프로그램 전환 소식에도 주가는 반응하지 않고 하락세를 유지하는 중"
             }
           ],
           "slot_total": 2,
@@ -261,7 +261,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-09-24-us.md",
       "refreshed_at": "2026-09-24 08:36:53 KST",
-      "slots_refreshed_at": "2026-09-24 23:56:39 KST"
+      "slots_refreshed_at": "2026-09-25 04:02:49 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
