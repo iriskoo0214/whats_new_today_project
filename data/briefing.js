@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-09-25 22:39:05 KST",
+  "generated_at": "2026-09-26 03:30:12 KST",
   "refreshed": [],
   "slots_refreshed": [
     "us"
@@ -44,13 +44,13 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-09-24",
           "slots": [
             {
-              "time": "10:35PM",
-              "price": 227.4499969482422,
-              "pct": 0.17,
+              "time": "11:00PM",
+              "price": 227.2449951171875,
+              "pct": 0.08,
               "is_close": false,
               "date": "2026-09-25",
-              "title": "소폭 상승 유지",
-              "text": "저평가 논란과 배당 지속 가능성 논의가 이어지는 가운데 큰 등락 없이 약한 오름세를 유지하며 흐름을 이어가는 중"
+              "title": "소폭 강보합 유지",
+              "text": "z17 교실 도입 소식이 반영되며 오전 상승 흐름이 이어졌고, 저평가 논의 속에서도 등락폭은 크지 않은 채 강보합권을 지키는 중"
             }
           ],
           "slot_total": 2,
@@ -89,13 +89,13 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-09-24",
           "slots": [
             {
-              "time": "10:35PM",
-              "price": 508.8349914550781,
-              "pct": 2.19,
+              "time": "11:00PM",
+              "price": 515.8099975585938,
+              "pct": 3.59,
               "is_close": false,
               "date": "2026-09-25",
-              "title": "강세 흐름 지속",
-              "text": "통합 코파일럿 앱 재출시와 소비자·기업용 AI 전략 재편 소식이 잇따르며 상승폭을 키우는 흐름을 이어가는 중"
+              "title": "급등세 뚜렷",
+              "text": "코파일럿 개편 소식과 함께 다우지수 상승을 견인할 만큼 매수세가 강하게 유입되며 상승폭을 큰 폭으로 키워가는 중"
             }
           ],
           "slot_total": 2,
@@ -134,13 +134,13 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-09-24",
           "slots": [
             {
-              "time": "10:35PM",
-              "price": 44.630001068115234,
-              "pct": -0.78,
+              "time": "11:00PM",
+              "price": 45.16999816894531,
+              "pct": 0.42,
               "is_close": false,
               "date": "2026-09-25",
-              "title": "약세 흐름 유지",
-              "text": "경북도·메릴랜드와의 양자산업 협력 소식이 나왔지만 매수세로 이어지지 못하며 소폭 하락세를 유지하는 중"
+              "title": "상승 전환 시도",
+              "text": "양자컴퓨팅 관련주 엇갈린 흐름 속에서도 매수세가 살아나며 장 초반 약세를 딛고 소폭 오름세로 돌아선 모습"
             }
           ],
           "slot_total": 2,
@@ -179,13 +179,13 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-09-24",
           "slots": [
             {
-              "time": "10:35PM",
-              "price": 226.56500244140625,
-              "pct": 0.88,
+              "time": "11:00PM",
+              "price": 225.22000122070312,
+              "pct": 0.28,
               "is_close": false,
               "date": "2026-09-25",
-              "title": "",
-              "text": ""
+              "title": "완만한 강보합",
+              "text": "주권 AI 도입 소식과 다양한 주가 전망 기사가 이어지는 가운데 큰 변동 없이 소폭 상승세를 유지하고 있는 흐름"
             }
           ],
           "slot_total": 2,
@@ -224,13 +224,13 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-09-24",
           "slots": [
             {
-              "time": "10:35PM",
-              "price": 16.75,
-              "pct": -0.3,
+              "time": "11:00PM",
+              "price": 16.780000686645508,
+              "pct": -0.12,
               "is_close": false,
               "date": "2026-09-25",
-              "title": "약보합 흐름",
-              "text": "마스터카드와의 스테이블코인 결제 협력 소식에도 매수세가 크게 붙지 않으며 소폭 하락세를 유지하는 중"
+              "title": "보합권 등락",
+              "text": "스테이블코인 결제 확대 소식에도 매수세가 크게 붙지 않으며 강보합과 약보합을 오가는 좁은 등락을 이어가는 중"
             }
           ],
           "slot_total": 2,
@@ -261,7 +261,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-09-25-us.md",
       "refreshed_at": "2026-09-25 07:15:56 KST",
-      "slots_refreshed_at": "2026-09-25 22:39:05 KST"
+      "slots_refreshed_at": "2026-09-26 03:30:12 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
