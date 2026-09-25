@@ -1,15 +1,15 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-09-26 03:30:12 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-09-26 07:13:48 KST",
+  "refreshed": [
     "us"
   ],
-  "default": "kr",
+  "slots_refreshed": [],
+  "default": "us",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
-      "label": "미국 증시 요약 2026. 9. 25. 7:15AM",
+      "label": "미국 증시 요약 2026. 9. 26. 7:13AM",
       "chips": [
         "전체",
         "IBM",
@@ -22,26 +22,26 @@ window.NOTEFOLIO_BRIEFING = {
         "오후 6시, 국내 시장을 움직인 이유를 확인하세요."
       ],
       "next": "kr",
-      "headline": "해외 5종목 중 2종목 상승, 3종목 하락 — 아이온큐가 +5.74%로 가장 많이 올랐고 IBM이 -2.45%로 가장 부진했습니다.",
-      "market_headline": "美 10년물 국채금리 5.22% 급등에 뉴욕증시 혼조 마감",
+      "headline": "해외 5종목 중 3종목 상승, 2종목 하락 — 마이크로소프트가 +3.66%로 가장 많이 올랐고 소파이테크놀로지가 -1.31%로 가장 부진했습니다.",
+      "market_headline": "美 국채금리 19년래 최고치에도 이란 협상 기대에 상승",
       "market_card": {
-        "title": "뉴욕증시 혼조 마감...국채금리 급등에 방향성 잃어",
+        "title": "뉴욕증시 상승 마감...다우 0.93%↑",
         "bullets": [
-          "10년물 국채금리 5.22%까지 급등",
-          "30년물 금리도 22년 만에 최고치",
-          "유가 상승 겹치며 다우 0.31% 하락"
+          "10년물 국채금리 2007년來 최고치 경신",
+          "美·이란 협상 기대에 유가 하락 전환",
+          "금리 급등에도 AI 랠리 힘입어 반등"
         ]
       },
       "cards": [
         {
           "stock": "IBM",
           "ticker": "IBM",
-          "title": "IBM - 시장보다 큰 낙폭 기록",
-          "body": "IBM은 -2.45% 내린 <b>227.06달러</b> 마감. 가이던스에 없는 성장에 기댄 상승이었는지 의문이 제기되며 시장 평균보다 더 큰 낙폭을 기록했다는 분석이 나온다.",
-          "pct": -2.45,
-          "price": 227.05999755859375,
+          "title": "IBM - 메인프레임 공시 리스크 조사",
+          "body": "IBM은 Z 메인프레임 공시와 관련한 조사 소식이 전해진 가운데 -0.68% 내린 <b>225.51달러</b> 마감. z17 AI 교실 진출 소식도 있었지만 조사 리스크 부각이 투자심리에 더 영향을 준 모습이다.",
+          "pct": -0.68,
+          "price": 225.50999450683594,
           "currency": "USD",
-          "as_of": "2026-09-24",
+          "as_of": "2026-09-25",
           "slots": [
             {
               "time": "11:00PM",
@@ -49,44 +49,53 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.08,
               "is_close": false,
               "date": "2026-09-25",
-              "title": "소폭 강보합 유지",
-              "text": "z17 교실 도입 소식이 반영되며 오전 상승 흐름이 이어졌고, 저평가 논의 속에서도 등락폭은 크지 않은 채 강보합권을 지키는 중"
+              "title": "메인프레임 리스크 부각",
+              "text": "Z 메인프레임 공시 리스크 조사 소식이 전해지며 오전 한때 관심이 쏠림"
+            },
+            {
+              "time": "마감",
+              "price": 225.50999450683594,
+              "pct": -0.68,
+              "is_close": true,
+              "date": "2026-09-25",
+              "title": "약세로 마감 전환",
+              "text": "장 후반 들어 상승분을 지키지 못하고 밀리며 결국 하락세로 마감을 맞이함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "IBM의 새로운 스위프트 연동, XRP 투자자들에게 또 하나의 골칫거리",
-              "original": "IBM's New Swift Connection Is One More Headache for XRP Investors",
-              "source": "Motley Fool",
-              "url": "https://www.fool.com/investing/2026/09/24/ibm-s-new-swift-connection-is-one-more-headache-for-xrp-investors/",
-              "published": "2026-09-25T06:09:01+09:00"
+              "title": "인터내셔널 비즈니스 머신즈(IBM), Z 메인프레임 공시 리스크 관련 조사 직면",
+              "original": "International Business Machines (IBM) Faces Probe Over Z Mainframe Disclosure Risks",
+              "source": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/international-business-machines-ibm-faces-210812743.html",
+              "published": "2026-09-26T06:08:12+09:00"
             },
             {
-              "title": "IBM(IBM), 시장보다 더 큰 낙폭 기록: 주목해야 할 주요 사실들",
-              "original": "IBM (IBM) Registers a Bigger Fall Than the Market: Important Facts to Note",
-              "source": "Zacks",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/ibm-ibm-registers-bigger-fall-204504044.html",
-              "published": "2026-09-25T05:45:04+09:00"
+              "title": "IBM 주가 상승, z17 AI 교실에 진출",
+              "original": "IBM Stock Gains as z17 Enters an AI Classroom",
+              "source": "GuruFocus.com",
+              "url": "https://finance.yahoo.com/technology/ai/articles/ibm-stock-gains-z17-enters-162708257.html",
+              "published": "2026-09-26T01:27:08+09:00"
             },
             {
-              "title": "IBM 주가 상승세, 가이던스에 없는 성장에 기댄 것인가?",
-              "original": "Is IBM Stock's Upside Built On Growth It Is Not Guiding To?",
-              "source": "Trefis",
-              "url": "https://www.trefis.com/articles/616419/is-ibm-stocks-upside-built-on-growth-it-is-not-guiding-to/2026-09-24",
-              "published": "2026-09-25T04:50:17+09:00"
+              "title": "셰브런 vs IBM: 이 배당금 중 하나는 연간 170억 달러의 보호 비용이 든다",
+              "original": "Chevron or IBM: One of These Dividends Costs $17 Billion a Year to Protect",
+              "source": "24/7 Wall St.",
+              "url": "https://247wallst.com/investing/2026/09/25/chevron-or-ibm-one-of-these-dividends-costs-17-billion-a-year-to-protect/",
+              "published": "2026-09-25T22:10:03+09:00"
             }
           ]
         },
         {
           "stock": "마이크로소프트",
           "ticker": "MSFT",
-          "title": "마이크로소프트 - 500달러 아래서 눌림",
-          "body": "마이크로소프트는 -0.53% 내린 <b>497.93달러</b> 마감. 반복적 현금흐름과 애저 모멘텀에도 500달러 선 아래에서 압박이 지속되는 모습이다.",
-          "pct": -0.53,
-          "price": 497.92999267578125,
+          "title": "마이크로소프트 - 메타·암과 동반 강세",
+          "body": "마이크로소프트는 오늘장 특징주로 메타, 암홀딩스와 함께 부각되며 +3.66% 오른 <b>516.17달러</b> 마감. 다만 코파일럿 플러스 PC 브랜드를 접기로 하면서 AI PC 전략에 변화가 있다는 점도 함께 전해졌다.",
+          "pct": 3.66,
+          "price": 516.1699829101562,
           "currency": "USD",
-          "as_of": "2026-09-24",
+          "as_of": "2026-09-25",
           "slots": [
             {
               "time": "11:00PM",
@@ -94,44 +103,53 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 3.59,
               "is_close": false,
               "date": "2026-09-25",
-              "title": "급등세 뚜렷",
-              "text": "코파일럿 개편 소식과 함께 다우지수 상승을 견인할 만큼 매수세가 강하게 유입되며 상승폭을 큰 폭으로 키워가는 중"
+              "title": "장 초반 강세 출발",
+              "text": "코파일럿 플러스 PC 브랜드 개편 소식과 함께 특징주로 부각되며 상승 출발"
+            },
+            {
+              "time": "마감",
+              "price": 516.1699829101562,
+              "pct": 3.66,
+              "is_close": true,
+              "date": "2026-09-25",
+              "title": "상승폭 확대 마감",
+              "text": "오전 상승세가 이어지며 장중 내내 견조한 흐름 속에 오름폭을 키우며 마감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "마이크로소프트(MSFT), 반복적 현금흐름과 배당 확대, 애저 모멘텀을 지속할 수 있을까?",
-              "original": "Can Microsoft (MSFT) Sustain its Recurring Cash Flows, Growing Payouts, and Azure Momentum?",
-              "source": "Insider Monkey",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-sustain-recurring-cash-202321015.html",
-              "published": "2026-09-25T05:23:21+09:00"
+              "title": "골드만삭스, 이 인기 다우 ETF에서 마이크로소프트를 앞서는 이유는 오직 주가뿐",
+              "original": "Goldman Sachs Outweighs Microsoft in This Popular Dow ETF, and Share Price Is the Only Reason",
+              "source": "24/7 Wall St.",
+              "url": "https://247wallst.com/investing/etf/2026/09/25/goldman-sachs-outweighs-microsoft-in-this-popular-dow-etf-and-share-price-is-the-only-reason/",
+              "published": "2026-09-26T07:00:10+09:00"
             },
             {
-              "title": "Microsoft, $500 아래에서 압박 지속",
-              "original": "Microsoft, $500 아래에서 압박 지속",
-              "source": "Traders Union",
-              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZXNOc3o5eHktT0VncFZkclZ6QUhkVlM5ZmMyRDlVcjI5VGkwZkU0Z001dVZ4bm1STG5Lc3dzNHBKcjZiVm5GelVzYjhvOHlCQnBDS0VoTDVlWEN5VHh3cHB3X3hVdnA1Nk03WGlaWUpmeUJvcVFHMUhGMmJsblBFZU94TEkwTThKLWFDeDhYbDBlTHNmNEpVU1dQc0c?oc=5",
-              "published": "2026-09-25T00:01:42+09:00"
+              "title": "마이크로소프트, '코파일럿 플러스 PC' 브랜드 접는다",
+              "original": "마이크로소프트, '코파일럿 플러스 PC' 브랜드 접는다",
+              "source": "디지털투데이",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9sWDZnOGpRY1FFUVM3Y0xYWEZsOEUzenItNG1FbnBZQnp6T0pJdXBCaWNpXy1GRkRTQ205LV9sRlp1NWlGeDU4RC0xMkJNSHpqZ1JZbERicllyLUkyM3NDVlAzcmRZRmtaTzhBS0lBcFFOUFU?oc=5",
+              "published": "2026-09-26T06:46:27+09:00"
             },
             {
-              "title": "마이크로소프트 게임 스튜디오 수는 3년 만에 40개에서 24개로 줄어들었습니다.",
-              "original": "마이크로소프트 게임 스튜디오 수는 3년 만에 40개에서 24개로 줄어들었습니다.",
-              "source": "GameGPU",
-              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVXFWWkRvamNJNm4xOG1RSzNpcGFvN3lOUDg3VTVZR0hZdHpKMEtWZWsyWUZqelNpU1N5RU0td2JQRHRjRy1vTHdKSVNiVDlmVnk1UkJCdGFiU0ZJZ0pXTnFBNUhMQnZVZlpxNEJLa2QtRkJjSk9WTmFheU1TTjJyNDQyQ190MmpSSGJ3QTJoQmFxM1YxNU1Fc2tLdEdLUQ?oc=5",
-              "published": "2026-09-24T20:55:15+09:00"
+              "title": "[오늘장특징주]메타, 마이크로소프트, 암(ARM)홀딩스",
+              "original": "[오늘장특징주]메타, 마이크로소프트, 암(ARM)홀딩스",
+              "source": "edaily.co.kr",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNd2tnSFZCS3ZEczh2dzBXbVlobEx6bF85YWNmY1JXd25zTzlKQ1JtOGpmb1RpSVltVFpMMm4xc3B4RF8zLVh6QXVrbUVVM1ZjQjFGMkhuU0lvNk1lMDNfbXFpRnlWM2g5YV9KQ00xSXFsUWJVWEJ1dThCX2tPb0lwTQ?oc=5",
+              "published": "2026-09-26T06:46:24+09:00"
             }
           ]
         },
         {
           "stock": "아이온큐",
           "ticker": "IONQ",
-          "title": "아이온큐 - 양자컴퓨팅주 급등",
-          "body": "아이온큐는 3분기 결승선을 앞두고 퀀텀 컴퓨팅주가 들썩이는 가운데 +5.74% 오른 <b>44.98달러</b> 마감. 리게티, 큐씨아이 등 동종 종목들도 함께 관심을 받으며 업종 전반의 투자심리가 개선된 모습이다.",
-          "pct": 5.74,
-          "price": 44.97999954223633,
+          "title": "아이온큐 - 엔비디아 퀀텀 제휴 부각",
+          "body": "아이온큐는 엔비디아와의 퀀텀 제휴가 재조명되며 +1.11% 오른 <b>45.48달러</b> 마감. 증시 상승률을 앞질렀다는 평가 속에 리게티, D-웨이브 등 경쟁사 대비 생존 가능성을 둘러싼 비교도 이어지는 모습이다.",
+          "pct": 1.11,
+          "price": 45.47999954223633,
           "currency": "USD",
-          "as_of": "2026-09-24",
+          "as_of": "2026-09-25",
           "slots": [
             {
               "time": "11:00PM",
@@ -139,44 +157,53 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.42,
               "is_close": false,
               "date": "2026-09-25",
-              "title": "상승 전환 시도",
-              "text": "양자컴퓨팅 관련주 엇갈린 흐름 속에서도 매수세가 살아나며 장 초반 약세를 딛고 소폭 오름세로 돌아선 모습"
+              "title": "퀀텀 제휴 부각",
+              "text": "엔비디아와의 퀀텀 제휴 소식이 부각되며 동종 업종 대비 관심이 높아짐"
+            },
+            {
+              "time": "마감",
+              "price": 45.47999954223633,
+              "pct": 1.11,
+              "is_close": true,
+              "date": "2026-09-25",
+              "title": "상승세 이어가며 마감",
+              "text": "시장 평균 상승률을 앞질렀다는 평가 속에 오름세를 유지하며 하루를 마감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "아이온큐, 5.74% 급등에 양자 컴퓨팅주 '들썩'",
-              "original": "아이온큐, 5.74% 급등에 양자 컴퓨팅주 '들썩'",
-              "source": "글로벌이코노믹",
-              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQmNSYTRmcEJxUUUwLXh0cktHQVZlLXBWVDhqQ1lxT3hNb0VKNlducklVMDhHSjQ5d3dzYXFRcEJwRXBQOHZuNWlaV2RkdkZYX0I3MVJBTEEzVUkzM3NnRThDZkRXbFFWbnVJZFZNNWszQlZxR1NfQXNHQ3VJdndfbng5Wll5YlBm?oc=5",
-              "published": "2026-09-25T06:06:10+09:00"
+              "title": "아이온큐의 엔비디아 퀀텀 제휴, 리게티 컴퓨팅(RGTI)의 장기 하드웨어 기회를 재조명하나?",
+              "original": "Does IonQ's NVIDIA Quantum Tie-Up Reframe the Long-Term Hardware Opportunity for Rigetti Computing (RGTI)?",
+              "source": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/does-ionqs-nvidia-quantum-tie-210735580.html",
+              "published": "2026-09-26T06:07:35+09:00"
             },
             {
-              "title": "3분기 결승선 앞둔 퀀텀 주식들: 아이온큐, 리게티, 큐씨아이 성적표",
-              "original": "Quantum Stocks Near Q3 Finish Line: How IONQ, RGTI & QBTS Are Faring",
+              "title": "아이온큐(IONQ), 증시 상승률 앞질러: 알아둬야 할 사항",
+              "original": "IonQ, Inc. (IONQ) Outpaces Stock Market Gains: What You Should Know",
               "source": "Zacks",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/quantum-stocks-near-q3-finish-180000334.html",
-              "published": "2026-09-25T03:00:00+09:00"
+              "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-inc-ionq-outpaces-stock-205002866.html",
+              "published": "2026-09-26T05:50:02+09:00"
             },
             {
-              "title": "IonQ Tokenized Stock (Robinhood): 최신 뉴스, 소셜 미디어 업데이트 및 인사이트",
-              "original": "IonQ Tokenized Stock (Robinhood): 최신 뉴스, 소셜 미디어 업데이트 및 인사이트",
-              "source": "CryptoRank",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9pTExKQ1hPWS1nTmRtRWUtbFdMZ2RhWThPb0w0cGFtRkRMNWJsNGNFcGxrYm1MVWMtd3c4aTlCRUtRWUtkQkRHX0xmQXo5ck9fRkZuaTFuVkNISk9CLXlVSEpsdjFlWDFzeFp6eQ?oc=5",
-              "published": "2026-09-25T02:53:47+09:00"
+              "title": "리게티, D-웨이브, 아이온큐 중 생존 가능성이 가장 높은 퀀텀 종목은?",
+              "original": "Rigetti, D-Wave, or IonQ: Which Quantum Stock Has the Best Shot at Survival?",
+              "source": "Motley Fool",
+              "url": "https://www.fool.com/investing/2026/09/25/rigetti-d-wave-or-ionq-which-quantum-stock-has-the/",
+              "published": "2026-09-26T04:20:00+09:00"
             }
           ]
         },
         {
           "stock": "엔비디아",
           "ticker": "NVDA",
-          "title": "엔비디아 - 소폭 하락, 동일가중 이동 주목",
-          "body": "엔비디아는 반도체 투자자들이 SMH의 엔비디아 집중 전략에서 PSI의 동일가중 전략으로 옮겨가는 흐름 속에 -0.41% 내린 <b>224.58달러</b> 마감. OpenAI 전 데이터센터 총괄이 부사장으로 합류하는 등 조직 강화 소식도 전해졌다.",
-          "pct": -0.41,
-          "price": 224.5800018310547,
+          "title": "엔비디아 - 아이온큐 퀀텀 제휴 조명",
+          "body": "엔비디아는 아이온큐와의 퀀텀 제휴가 재조명되며 +0.22% 오른 <b>225.07달러</b> 마감. 10년 전 100만원을 투자했다면 138억원이 됐을 것이라는 분석이 나올 만큼 장기 상승세가 부각되는 모습이다.",
+          "pct": 0.22,
+          "price": 225.07000732421875,
           "currency": "USD",
-          "as_of": "2026-09-24",
+          "as_of": "2026-09-25",
           "slots": [
             {
               "time": "11:00PM",
@@ -184,44 +211,53 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.28,
               "is_close": false,
               "date": "2026-09-25",
-              "title": "완만한 강보합",
-              "text": "주권 AI 도입 소식과 다양한 주가 전망 기사가 이어지는 가운데 큰 변동 없이 소폭 상승세를 유지하고 있는 흐름"
+              "title": "퀀텀 협력 재조명",
+              "text": "아이온큐와의 퀀텀 제휴가 부각되며 장기 성장성에 대한 관심이 이어짐"
+            },
+            {
+              "time": "마감",
+              "price": 225.07000732421875,
+              "pct": 0.22,
+              "is_close": true,
+              "date": "2026-09-25",
+              "title": "소폭 상승 마감",
+              "text": "장기 주가 상승률 1위 사례로 재조명되며 잔잔한 오름세 속에 마감을 맞이함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "AIDC 냉각 ‘美친 성과’…LG전자, 엔비디아 전 카테고리 기술 입증",
-              "original": "AIDC 냉각 ‘美친 성과’…LG전자, 엔비디아 전 카테고리 기술 입증",
+              "title": "아이온큐의 엔비디아 퀀텀 제휴, 리게티 컴퓨팅(RGTI)의 장기 하드웨어 기회를 재조명하나?",
+              "original": "Does IonQ's NVIDIA Quantum Tie-Up Reframe the Long-Term Hardware Opportunity for Rigetti Computing (RGTI)?",
+              "source": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/does-ionqs-nvidia-quantum-tie-210735580.html",
+              "published": "2026-09-26T06:07:35+09:00"
+            },
+            {
+              "title": "10년 전 1억 투자했다면…엔비디아 138억·SK하닉 47억·은마아파트 2.9억",
+              "original": "10년 전 1억 투자했다면…엔비디아 138억·SK하닉 47억·은마아파트 2.9억",
               "source": "v.daum.net",
-              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1nM3BtZGpydWpMUGJJeWdnZGVEWFVpcGsyZHhyNGg4UTJBWEFhRmduQzV3a0M1XzF5ZnRISXlYemV4dU5Oek1MVVFUX1BPTUU?oc=5",
-              "published": "2026-09-25T06:01:27+09:00"
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1tMjRZUGhDZ1AzS280dE81d3BhOEpnZzhTT19ydlVGZEJoQmxQc296NHZMTWZBalJ4bUE2NTBBbmgzTjRPUUF3MlUxaU82NTA?oc=5",
+              "published": "2026-09-26T06:02:27+09:00"
             },
             {
-              "title": "반도체 투자자들이 SMH의 엔비디아 집중 전략에서 PSI의 동일가중 전략으로 이동하는 이유",
-              "original": "Why Semiconductor Investors Are Rotating From SMH’s Nvidia Concentration to PSI’s Equal-Weight Approach",
-              "source": "24/7 Wall St.",
-              "url": "https://247wallst.com/investing/etf/2026/09/24/why-semiconductor-investors-are-rotating-from-smhs-nvidia-concentration-to-psis-equal-weight-approach/",
-              "published": "2026-09-25T06:01:24+09:00"
-            },
-            {
-              "title": "OpenAI 전 데이터센터 총괄, Nvidia 부사장으로 합류",
-              "original": "OpenAI 전 데이터센터 총괄, Nvidia 부사장으로 합류",
-              "source": "Investing.com 한국어",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5YN1JjNk84MTJXN3B1dGNDam9YZHdXZlVXejZha09IY1NkUHI0aFRqMWlTcno5N2dmTWpGWFk4WU10RUExRWFyWmxMRHZ3alVYS3Aydnk2Ympqd1RNdDBnZ2NoSXVJWjBia2xBNTN5WXQ?oc=5",
-              "published": "2026-09-25T03:11:00+09:00"
+              "title": "45년간 주가상승 1등 … 엔비디아도 애플도 아닙니다",
+              "original": "45년간 주가상승 1등 … 엔비디아도 애플도 아닙니다",
+              "source": "매일경제",
+              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pUnhUTXV4ZjJJb1F2aEphVk45c1pLNWwzQVgxNkV5M2N3S3lndDZ3bTNfRVdJYWNMcEVnRUNBemgyN2FkMnpqT3pudFlwN1FuS3lwQzBR?oc=5",
+              "published": "2026-09-26T04:30:00+09:00"
             }
           ]
         },
         {
           "stock": "소파이테크놀로지",
           "ticker": "SOFI",
-          "title": "소파이테크놀로지 - 스테이블코인 서비스 주목",
-          "body": "소파이테크놀로지는 실시간 스테이블코인 결제 서비스에 대한 투자자 반응이 주목받는 가운데 +1.51% 오른 <b>16.80달러</b> 마감. 은행·카드 프로그램에 이어 스테이블코인까지 구축했지만 주가는 좀처럼 크게 움직이지 않고 있다는 평가도 나온다.",
-          "pct": 1.51,
-          "price": 16.799999237060547,
+          "title": "소파이테크놀로지 - 스테이블코인 결제 활성화",
+          "body": "소파이테크놀로지는 마스터카드와 손잡고 은행 카드 프로그램용 스테이블코인 결제를 활성화한다고 밝혔으나 -1.31% 내린 <b>16.58달러</b> 마감. 실적 발표를 앞두고 매수 시점을 둘러싼 논의도 나오는 모습이다.",
+          "pct": -1.31,
+          "price": 16.579999923706055,
           "currency": "USD",
-          "as_of": "2026-09-24",
+          "as_of": "2026-09-25",
           "slots": [
             {
               "time": "11:00PM",
@@ -229,39 +265,40 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.12,
               "is_close": false,
               "date": "2026-09-25",
-              "title": "보합권 등락",
-              "text": "스테이블코인 결제 확대 소식에도 매수세가 크게 붙지 않으며 강보합과 약보합을 오가는 좁은 등락을 이어가는 중"
+              "title": "장 초반 관망세",
+              "text": "실적 발표를 앞두고 매수 시점에 대한 논의가 나오며 관망세가 이어짐"
+            },
+            {
+              "time": "마감",
+              "price": 16.579999923706055,
+              "pct": -1.31,
+              "is_close": true,
+              "date": "2026-09-25",
+              "title": "약세로 하루 마감",
+              "text": "장중 상승분을 지키지 못하고 밀리며 하락 전환된 채로 하루를 마감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "투자자들이 SoFi Technologies(SOFI)의 실시간 스테이블코인 결제 서비스에 어떻게 반응할까",
-              "original": "투자자들이 SoFi Technologies(SOFI)의 실시간 스테이블코인 결제 서비스에 어떻게 반응할까",
-              "source": "simplywall.st",
-              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOODVHaHU2QXJab3B6dE1Jdk1QRWthdHZZRGxjdUdveHJwYnFPLUkxLURPNGhBZkNlWk85OGV5clFWT1p0NlpBeTRfLU9nN19WdVdWZ1p4bTc3Z1VndDM4bkRPMEZfWm5HclBEZkVIaUptVjZ2TEdtZTR5d3VFMEVlRkI4RWY1aE1ZeFpGSU13YXJKWFBEUURVMmxHR3czXzBkZVdBMXhKWGE4cU9KYnhQN09DMNIBswFBVV95cUxOODVHaHU2QXJab3B6dE1Jdk1QRWthdHZZRGxjdUdveHJwYnFPLUkxLURPNGhBZkNlWk85OGV5clFWT1p0NlpBeTRfLU9nN19WdVdWZ1p4bTc3Z1VndDM4bkRPMEZfWm5HclBEZkVIaUptVjZ2TEdtZTR5d3VFMEVlRkI4RWY1aE1ZeFpGSU13YXJKWFBEUURVMmxHR3czXzBkZVdBMXhKWGE4cU9KYnhQN09DMA?oc=5",
-              "published": "2026-09-25T03:59:12+09:00"
+              "title": "소파이-마스터카드, 소파이 은행 카드 프로그램용 스테이블코인 결제 활성화",
+              "original": "SoFi, Mastercard activate stablecoin settlement for SoFi Bank card programme",
+              "source": "Electronic Payments",
+              "url": "https://www.electronicpaymentsinternational.com/news/sofi-mastercard-activate-stablecoin-settlement-for-sofi-bank-card-programme/",
+              "published": "2026-09-25T20:48:04+09:00"
             },
             {
-              "title": "소파이, 은행과 카드 프로그램, 스테이블코인까지 구축했지만 주가는 좀처럼 움직이지 않아",
-              "original": "SoFi Built a Bank, a Card Program, and a Stablecoin, but the Stock Struggles to Budge",
-              "source": "24/7 Wall St.",
-              "url": "https://247wallst.com/investing/2026/09/24/sofi-built-a-bank-a-card-program-and-a-stablecoin-but-the-stock-struggles-to-budge/",
-              "published": "2026-09-24T23:35:25+09:00"
-            },
-            {
-              "title": "소파이 주식을 지금 사야 하는 이유",
-              "original": "Why SoFi Stock Is a Good Buy Now",
-              "source": "Barchart",
-              "url": "https://www.barchart.com/story/news/4774803/why-sofi-stock-is-a-good-buy-now",
-              "published": "2026-09-24T20:43:28+09:00"
+              "title": "10월 27일 전에 소파이 주식을 사야 할까?",
+              "original": "Should You Buy SoFi Stock Before Oct. 27?",
+              "source": "Motley Fool",
+              "url": "https://www.fool.com/investing/2026/09/24/should-you-buy-bank-stock-stock-before-earnings-da/",
+              "published": "2026-09-25T07:25:00+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-09-25-us.md",
-      "refreshed_at": "2026-09-25 07:15:56 KST",
-      "slots_refreshed_at": "2026-09-26 03:30:12 KST"
+      "markdown": "briefings/2026-09-26-us.md",
+      "refreshed_at": "2026-09-26 07:13:48 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
