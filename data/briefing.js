@@ -1,15 +1,15 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-09-28 03:17:35 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-09-28 07:02:18 KST",
+  "refreshed": [
     "us"
   ],
-  "default": "kr",
+  "slots_refreshed": [],
+  "default": "us",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
-      "label": "미국 증시 요약 2026. 9. 27. 7:41AM",
+      "label": "미국 증시 요약 2026. 9. 28. 7:02AM",
       "chips": [
         "전체",
         "IBM",
@@ -23,21 +23,21 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "next": "kr",
       "headline": "해외 5종목 중 3종목 상승, 2종목 하락 — 마이크로소프트가 +3.66%로 가장 많이 올랐고 소파이테크놀로지가 -1.31%로 가장 부진했습니다.",
-      "market_headline": "국채금리 급등에도 AI 랠리·유가 하락에 3대 지수 상승",
+      "market_headline": "美 국채금리 5% 뉴노멀 속에도 뉴욕증시 상승 마감",
       "market_card": {
-        "title": "뉴욕증시 3대 지수 일제 상승 마감...AI 기술주 강세 주도",
+        "title": "3대 지수 상승 마감...유가 하락이 금리 부담 상쇄",
         "bullets": [
-          "10년물 금리 5% 돌파에도 증시 상승",
-          "호르무즈 재개방 기대에 유가 2%대 하락",
-          "미중 정상회담·고용물가 지표 주목"
+          "국채금리 5%대 급등에도 지수 강세",
+          "유가 하락에 3대 지수 일제히 상승",
+          "마이크론 실적과 물가지표 발표 앞두고 주목"
         ]
       },
       "cards": [
         {
           "stock": "IBM",
           "ticker": "IBM",
-          "title": "IBM - 스위프트 원장에 은행 연결",
-          "body": "IBM은 스위프트 블록체인 원장과 은행을 연결하는 베타 통합을 시작했다는 소식 속에 -0.68% 내린 <b>225.51달러</b> 마감. 토큰화 예금도 기존 방식 그대로 처리된다는 설명이 나왔다.",
+          "title": "IBM - 배당 지속 가능성에 의문",
+          "body": "IBM은 오랜 배당 이력이 새 사업구조에서도 이어질지에 대한 의문이 제기된 가운데 -0.68% 내린 <b>225.51달러</b> 마감.",
           "pct": -0.68,
           "price": 225.50999450683594,
           "currency": "USD",
@@ -49,8 +49,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.08,
               "is_close": false,
               "date": "2026-09-25",
-              "title": "약보합권 등락",
-              "text": "밤사이 소폭 반등하며 보합 수준을 유지했으나 이후 상승분을 지키지 못함"
+              "title": "보합권 등락",
+              "text": "장 후반까지 큰 방향성 없이 좁은 범위에서 움직이며 소폭 오름세를 유지"
             },
             {
               "time": "마감",
@@ -58,40 +58,26 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.68,
               "is_close": true,
               "date": "2026-09-25",
-              "title": "낙폭 확대 마감",
-              "text": "장 후반 들어 약세로 방향을 틀며 하루 중 가장 낮은 수준에서 거래를 마무리함"
+              "title": "약보합 마감",
+              "text": "배당 지속 가능성을 짚은 기사 이후 매수세가 붙지 못하고 상승분을 반납하며 하락 전환"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "IBM Tokenized Stock (Robinhood) 가격 내역 및 과거 데이터",
-              "original": "IBM Tokenized Stock (Robinhood) 가격 내역 및 과거 데이터",
-              "source": "CoinMarketCap",
-              "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRkFGbm9haFlaSllBYjQwU2sxbzN3cWcyVUFWODA1WHNFV0dtM015ODYwYlEtZWtvQ2hxaW0yTU5IVU80dUtzWXhwTHExRi1DOXZZek91VjI0MEV6QWY5RkZoTDBxamlhaElCdE1ncUxPNG84bTEzQWU4R3lmWmJpRTA0OXA0LU5rbjBsdDUwSQ?oc=5",
-              "published": "2026-09-26T17:27:45+09:00"
-            },
-            {
-              "title": "IBM, 스위프트 원장에 은행 연결…\"토큰화 예금 기존 방식 그대로\"",
-              "original": "IBM, 스위프트 원장에 은행 연결…\"토큰화 예금 기존 방식 그대로\"",
-              "source": "블록미디어",
-              "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBGcWhMNFVhSzBRUklPRnVmc3I1NFhwOFZrcElENUJhWkNsc2lvZThvUno5ckVxQTZZS1h3aE5Rb25uS3pTcm5BT2xiQlc5c19RRUxGR0h2cXM?oc=5",
-              "published": "2026-09-26T10:07:13+09:00"
-            },
-            {
-              "title": "IBM, 스위프트 블록체인 원장과 은행 연결하는 베타 통합 시작",
-              "original": "IBM, 스위프트 블록체인 원장과 은행 연결하는 베타 통합 시작",
-              "source": "토큰포스트",
-              "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1hck1sdmx2Q18yLTRmN1Brc1NQbTFnZGlwVkJtUG1nN3hrd2RoZ1lhX0pudzdQbWpYNkI3OWRSN2gtcVA4SnhHS2tkSVVmMGZVYWVuQXNLT0s?oc=5",
-              "published": "2026-09-26T08:38:00+09:00"
+              "title": "IBM의 배당금은 옛 IBM에서 살아남았다. 새로운 IBM에서도 살아남을 수 있을까?",
+              "original": "IBM’s Dividend Survived the Old IBM. Can It Survive the New One?",
+              "source": "24/7 Wall St.",
+              "url": "https://247wallst.com/investing/2026/09/27/ibms-dividend-survived-the-old-ibm-can-it-survive-the-new-one/",
+              "published": "2026-09-28T03:20:45+09:00"
             }
           ]
         },
         {
           "stock": "마이크로소프트",
           "ticker": "MSFT",
-          "title": "마이크로소프트 - 애저 성장·코파일럿 호평",
-          "body": "마이크로소프트는 애저 성장률이 45%를 향해 질주하며 저점 대비 48% 상승했다는 분석 속에 +3.66% 오른 <b>516.17달러</b> 마감. 코파일럿이 'AI 운영체제'로 진화 중이라는 오펜하이머 애널리스트의 평가도 투자심리를 뒷받침한 모습이다.",
+          "title": "마이크로소프트 - LG와 AI 협력 확대",
+          "body": "마이크로소프트는 LG와 AIDC·AX·피지컬 AI 협력을 확대하고 깃허브 코딩 엔진을 업무용 앱에 통합한다는 소식 속에 +3.66% 오른 <b>516.17달러</b> 마감.",
           "pct": 3.66,
           "price": 516.1699829101562,
           "currency": "USD",
@@ -103,8 +89,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 3.59,
               "is_close": false,
               "date": "2026-09-25",
-              "title": "강한 상승 흐름",
-              "text": "앤스로픽 관련 소식과 AI 전략 관련 기사가 잇따르며 밤사이 상승세가 뚜렷하게 이어짐"
+              "title": "강세 흐름 지속",
+              "text": "LG와의 AI 협력 확대 소식과 깃허브 코딩 엔진 확장 소식이 잇따르며 상승폭을 키워감"
             },
             {
               "time": "마감",
@@ -112,40 +98,40 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 3.66,
               "is_close": true,
               "date": "2026-09-25",
-              "title": "상승폭 소폭 확대",
-              "text": "AI 에이전트 프레임워크 관련 관심이 이어지는 가운데 오름세를 유지하며 최고 수준에서 마무리"
+              "title": "상승세 유지",
+              "text": "장 후반까지 오름세를 이어가며 하루 중 가장 높은 수준에서 오름폭을 유지한 채 마감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "마이크로소프트 주가, 저점 대비 48% 상승…애저 성장률 45% 향해 질주",
-              "original": "Microsoft Stock Is Up 48% From Its Low as Azure Growth Heads Toward 45%",
-              "source": "TIKR.com",
-              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMGNEcUJfOW9rRTJxX0hfUHpJdXA4ejk5OTg5VXp4b0UyRExqSlBDbkpmN010Mlo4aDlBTERyeU50UjFuSUlzQ1VEdmlEZ1BpOGRhM2hmcUZ0WHJXajh3NkEyYnJqTTZPMC1pSFZUNVIxOEFlUWRGVkZxallJWkxzcVppaWZxR0pvNXdvV1NMNHJwVUItd0FxdlZTT25BV00?oc=5",
-              "published": "2026-09-27T04:28:07+09:00"
+              "title": "LG-마이크로소프트, AIDC·AX·피지컬 AI 협력 확대",
+              "original": "LG-마이크로소프트, AIDC·AX·피지컬 AI 협력 확대",
+              "source": "테크월드",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4yX2tBM2ZEeWZMQUpZdVhoTng1SllrNHl5dzA5aDVOV0tBZlRQSmpoVHd2ZFkyNlJlRHU1SGJhdFA5bXFUc2xxZ0lQbi1LMFBVNDMyZ1h6UnlZZU54X3RfY0pIMXBwTXhT?oc=5",
+              "published": "2026-09-28T06:07:01+09:00"
             },
             {
-              "title": "마이크로소프트 코파일럿, 'AI 운영체제'로 진화 중—오펜하이머 브라이언 슈워츠가 말하는 MSFT 주가 의미",
-              "original": "Microsoft Copilot Is Turning Into An ‘AI Operating System’ — Here’s What It Means For MSFT Stock, According To Oppenheimer’s Brian Schwartz",
-              "source": "Stocktwits",
-              "url": "https://stocktwits.com/news-articles/markets/equity/msft-copilot-operating-system-higher-engagement-monetization-oppenheinmer/cZMgQ8IRBOw",
-              "published": "2026-09-26T19:59:10+09:00"
+              "title": "마이크로소프트(MSFT), 깃허브의 코딩 엔진을 직장인들이 이미 쓰는 앱 안에 심다",
+              "original": "Microsoft (MSFT) Puts GitHub’s Coding Engine Inside the App Office Workers Already Use",
+              "source": "Insider Monkey",
+              "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-puts-github-coding-193953624.html",
+              "published": "2026-09-28T04:39:53+09:00"
             },
             {
-              "title": "마이크로소프트가 겨우 2년 남짓 된 브랜드를 서서히 '없애버리고' 있는 걸까요?",
-              "original": "마이크로소프트가 겨우 2년 남짓 된 브랜드를 서서히 '없애버리고' 있는 걸까요?",
-              "source": "Vietnam.vn",
-              "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcEhTQ1dLVWc0bjZmMVJWOEdNSFpaM2VHc0xUV0tJb2pObTRkTGlPclV4QW9jMmEtdzJZbkxLSXY4ZkkyWlppY1BQclhSYmtwZkVla3JsbS1XOEIxNjMzdmVQWFZyVW9ZU3FiRFhwSmltdUdHdVhuVGVQZzBxV3Zqa2c4bGZkQ0JnTXc?oc=5",
-              "published": "2026-09-26T18:35:55+09:00"
+              "title": "8일(현지시간) 미국 보스턴에서 열린 레드햇 서밋 2019 기조연설에서 짐 화이트허스트 레드햇 최고경영자(CEO, 오른쪽)와 사티아 나델라 마이크로소프트(MS) CEO가 함께 나란히 앉아 협력 관계를 발표하고 있다. 레드햇 제공",
+              "original": "8일(현지시간) 미국 보스턴에서 열린 레드햇 서밋 2019 기조연설에서 짐 화이트허스트 레드햇 최고경영자(CEO, 오른쪽)와 사티아 나델라 마이크로소프트(MS) CEO가 함께 나란히 앉아 협력 관계를 발표하고 있다. 레드햇 제공",
+              "source": "전자신문",
+              "url": "https://news.google.com/rss/articles/CBMizwxBVV95cUxQVXZMZERubVM1RlRrUjF2VjBsNEdEUjhsRDZ3ejBsY2FhTmd6eHlkWnFwc2l6Qlh5QjVNWVd2RHVkWkZQQUpHWTVwdVJiUnpXbU10OW9JeUNvRTBSVUJraHFkbkFiZ2huM3dnVFpWX29yTHVBZ21lVTVGZGVUTGxURTdFMFZUSnUxc0V3VUpqNDBUN25WUWVWcVVib3dGYnNiaTM5bWdodmNlXzZKa1loYzNGbXZrbDZzem9WS01MWmtHcUQ0ZERBX1BEMTJvdlY0eGZuaVRkU3k1NW9qTk5UdVk5aTJkN1BWNlhOVjIxVVlia0dRblFkTzZVcnJLWXd6WnZENHdiRDhKM3hnbWgyelpBVFhZeEptM2Q5SlNjUDVta3lIX0pobnpUYng5RGZLUHpEbGdLbWhVTmpORHdFckh1VWh3bUFwdTJ6bVpjdWxqZUJ4blJ2NG10RW5IaGhsT2RRV3otdUJvRGlReHV3MHljZU4zc2xrUVppZ0VZbmZITWVOWW9HSnpSbG93YV9qR2FBQ1B0ZHF2VDAzQmdYZE1KYTUtRXhPSkJ0cTdSNG0wbl9WbjVsU2UwdnRoZVJIUzBpeE1BWHRwd2lyTnRzc0NOYmFSQnJQT3BBYS1FQzEwS1hPQXotOFFLbThMZHJkXzM4RVR5Q05oYzJWQkVqTE5VQmJlbkF0R3FXQzNXaS1mVU1jMFBLSXZCX1dEdDFQS0NGT3QtQTVDYzh4N3pOVUNMUm9XOW1kMXlEZlZMOFpDRGZPOERuVXQ3OHI4TmVjY0VGc3VtUDNia0pqQ1EyNngxWDFXTlZ4S1JrTENTakRrMjM1eHhQMUpXaTNnUUhpbVdqamVVTFExaFBqeTFMWnhibkxMdmVwQ2JKcDRxTE5oNFlzOGtmcHVmU05PWUc3cDlHSjhaQVNWY3R0UkFuOXVRVjR6aF9KS3ctQkwwbWRDNy1WN0ptTnl3VkN3VGQ0bFRrNUN4QklIMnB6WWgzQmdjRHVlVTBISFluMURpLUJ5MjBnOHhQREUwbEZZYU5TLXNDUkRYdEctNFMtazZQOW1UX215OFpSUlZOMmpNVjhIQVNrSDNTTE0xeVZsYWRtbzVJMFZGVDIzYVRBNjRWbmxJVTNzQkZfam0wRVVEUWJnRjUtc08ta1NXS2l6M012OXBOcXVHb3pBa2ZlZkwwNVh3bXJiS3llQnJEQmFpTTFkY0xfcEJPY210ZkI0Mk9lcE5FREoydkFNYkg0VFJIemZIdlh4TzVLWjVnRjlKUHJpY2U0MElvSlpZam5kemRZSG4xcGVfOE85eV9NQ2VJTV9sZHNKdTZXWkIzUUhadVZEWFUtSW9vbENMbzZSb2dMNnpiOE5EVmxGWks3VUttcXkzQmRfZTJiZ1hjZFpCWGJDdWtQcmxUMGxjOC14MFZmX1QwZXdpVEE3dXpBcXJFYnJrdnFUSkpscmFXb3dranI5WTlfcmExc01XVVNmTklUQ3ZHdEhnbW9yWG9ZaWJJX042elBEMWRlSjJwTW5MUFhaTGZIamZBRFY1dlY4dmJDRTlybXJtSjlTSGNnX05yeUxYNlRlWktqVUlPMzE5c05HR0cxemFUQlNDbGpoeEd0ZEtoMDFtWDNISzQxeDB1SU1KQ3ZDVTh2VWF5Qy03Mkh4RVBFaWNOWnc0QlR6TDVFbkJPUFIyZnl3RXJTTllCeE42Vll2U1A2dUNNN3FNRVk3Wm01MzdwZFZRZFl3YUNHRzJHdEpSNndudEl3aTFmbUhodDVtOGhMMUVSa2g4OE5zT1ozZ0NtelRvT3pXSlQyc0dBbWRhSVFueElwVm5Ub0FRQUZuMDhnMDRPb3BqVUZZWHRpOFJQV2txRXlBRXV4UGlRTE55b2lmd0NTYXpnLWF6bUY2V0lGUnZpX3FVcnJSYk9LcUJ4QzFRM3ZGTXV1STJsUzQweUNIUmt0ZU5nOXJQejhJd2NCbUxlcVRzVzBvc2RFQXo5cE9XRWNzS0JCRXdSTkFOOGZSQzgySFpidXFvTXpYLU85RzNpUVV1dzZZLUEwbFlaWUxIZTM3Szh2RzhCY2ZienZkU3F3S2NvMEdTRzlXbU96ODB1M0hXS3htWGpJeVRWS0FhLU5SNnJWaGFYaENOMGhKTnRNbjg4?oc=5",
+              "published": "2026-09-28T03:24:06+09:00"
             }
           ]
         },
         {
           "stock": "아이온큐",
           "ticker": "IONQ",
-          "title": "아이온큐 - 양자 파운드리 협력 확대",
-          "body": "아이온큐는 경북도, 미국 메릴랜드주, SDT와 양자산업 공급망 협력에 나섰다는 소식 속에 +1.11% 오른 <b>45.48달러</b> 마감. 젠슨 황의 '30년 양자컴퓨팅 경고'가 2년도 안 돼 엔비디아 확보로 이어졌다는 분석도 나오며 관심이 이어지는 모습이다.",
+          "title": "아이온큐 - 슈페리온 256 3건 추가 확보",
+          "body": "아이온큐는 엔비디아·FIU·SDT와 함께 슈페리온 256 시스템 3건을 확보했다는 소식에 +1.11% 오른 <b>45.48달러</b> 마감. 경북도·메릴랜드와의 양자산업 글로벌 협력 업무협약도 더해지며 투자자들의 관심이 이어지는 모습이다.",
           "pct": 1.11,
           "price": 45.47999954223633,
           "currency": "USD",
@@ -157,8 +143,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.42,
               "is_close": false,
               "date": "2026-09-25",
-              "title": "계약 소식에 강세",
-              "text": "엔비디아 등과의 대형 계약 소식이 전해지며 매수세가 유입돼 상승 흐름을 보임"
+              "title": "돌파구 소식 부각",
+              "text": "엔비디아 등과의 시스템 확보 소식과 경북도 협력 협약 발표가 겹치며 매수 관심이 이어짐"
             },
             {
               "time": "마감",
@@ -167,39 +153,39 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-09-25",
               "title": "상승폭 확대 마감",
-              "text": "양자산업 협력 소식까지 더해지며 오름세가 하루 중 후반으로 갈수록 강화되는 모습"
+              "text": "장 후반 들어 오름폭을 키우며 하루 중 가장 높은 수준에서 상승세를 마무리"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "아이온큐(IONQ), 젠슨 황의 '30년 양자컴퓨팅 경고' 2년도 안 돼 엔비디아 확보",
-              "original": "IonQ (IONQ) Just Landed Nvidia Less Than 2 Years After Jensen Huang’s 30-Year Quantum Warning",
-              "source": "Insider Monkey",
-              "url": "https://finance.yahoo.com/technology/ai/articles/ionq-ionq-just-landed-nvidia-175356083.html",
-              "published": "2026-09-27T02:53:56+09:00"
+              "title": "아이온큐, 엔비디아·FIU·SDT와 함께 슈페리온 256 시스템 3건 확보. 주가는 어디로 갈까",
+              "original": "IonQ Lined Up 3 Superion 256 Systems With NVIDIA, FIU, and SDT. Here’s Where the Stock Could Go",
+              "source": "TIKR",
+              "url": "https://www.tikr.com/blog/ionq-lined-up-3-superion-256-systems-with-nvidia-fiu-and-sdt-heres-where-the-stock-could-go?ref=yahoofinance",
+              "published": "2026-09-27T20:36:29+09:00"
             },
             {
-              "title": "경북도, 美 메릴랜드주·IonQ·SDT와 양자산업 공급망 협력… ‘양자 파운드리’ 시동",
-              "original": "경북도, 美 메릴랜드주·IonQ·SDT와 양자산업 공급망 협력… ‘양자 파운드리’ 시동",
-              "source": "기계신문",
-              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE40RXpoNFVoaFZybXdKd3hta1dLdUJ5Zm9nUlJNYlU1OVFKUllZdm1FM0xUOEkwYV8tazliWFpRNG01M0FJTkdmZlozckdYSWhXYzZ0SFdGcWtrSEs5dHc3Xzhhc2Nfc0U?oc=5",
-              "published": "2026-09-26T16:32:23+09:00"
+              "title": "아이온큐, 주요 돌파구를 발표했다. 투자자들은 지금 주식을 사야 할까?",
+              "original": "IonQ Just Announced a Major Breakthrough. Should Investors Buy the Stock Now?",
+              "source": "Motley Fool",
+              "url": "https://www.fool.com/investing/2026/09/27/ionq-major-breakthrough-invest-buy-stock/",
+              "published": "2026-09-27T19:35:00+09:00"
             },
             {
-              "title": "아이온큐·리게티 컴퓨팅↑ 퀀텀 컴퓨팅↓ 등 미국 양자컴퓨터주 엇갈린 마감…뉴욕증시 3대 지수 동반 상승",
-              "original": "아이온큐·리게티 컴퓨팅↑ 퀀텀 컴퓨팅↓ 등 미국 양자컴퓨터주 엇갈린 마감…뉴욕증시 3대 지수 동반 상승",
-              "source": "cbci.co.kr",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9SYW9adm9pMVRvMWU4bHpCbTZwbzVjejVxSUZSbU9lbXlWODczQm5IMi1RYmFxcDN6T0hGLVFNb3hQQkZwbjlSZDdXOV9rRlJzQkxNNVBlLXNyNkpTZXJDajV1QkdvMlht?oc=5",
-              "published": "2026-09-26T15:44:48+09:00"
+              "title": "경북도-메릴랜드-IonQ, 양자산업 글로벌 협력 업무협약",
+              "original": "경북도-메릴랜드-IonQ, 양자산업 글로벌 협력 업무협약",
+              "source": "전국도민일보",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE14a2VTTHBKczd4VEdreTRDMkZseHY5OUlHRlI3NmRqMnByWklMVWQzeE5MLWJEaFJPOWpGTkNHeTdWbE9MdWluQi00RC02UFotRzd4MHJUV0dpMEUtZHpHSGZLalBiYlJQTGE00gFrQVVfeXFMTXhrZVNMcEpzN3hUR2t5NEMyRmx4djk5SUdGUjc2ZGoycHJaSUxVZDN4TkwtYkRoUk85akZOQ0d5N1ZsT0x1aW5CLTRELTZQWi1HN3gwclRXR2kwRS1kekdIZktqUGJiUlBMYTQ?oc=5",
+              "published": "2026-09-27T19:03:07+09:00"
             }
           ]
         },
         {
           "stock": "엔비디아",
           "ticker": "NVDA",
-          "title": "엔비디아 - 앤스로픽 투자 검토 부각",
-          "body": "엔비디아는 앤스로픽 IPO에 100억 달러 지분 투자를 검토 중이라는 소식 속에 +0.22% 오른 <b>225.07달러</b> 마감. 개발자용 AI 챗봇 특허 출원 소식도 전해지며 사업 확장 행보가 이어지는 모습이다.",
+          "title": "엔비디아 - AI 보안 이슈에도 강세",
+          "body": "엔비디아는 AI 보안 우려 속에 빅테크들이 대규모 투자에 나서고 있다는 분석 속에 +0.22% 오른 <b>225.07달러</b> 마감. 내년 칩 판매량이 두 배로 늘어날 것이라는 전망도 나오며 성장 기대가 이어지는 모습이다.",
           "pct": 0.22,
           "price": 225.07000732421875,
           "currency": "USD",
@@ -212,7 +198,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-09-25",
               "title": "소폭 상승 유지",
-              "text": "중국의 신형 칩 구매 허용 검토 소식이 전해지며 완만한 상승세를 이어감"
+              "text": "칩 판매량 확대 전망과 AI 보안 관련 기사가 나오는 가운데 완만한 오름세를 이어감"
             },
             {
               "time": "마감",
@@ -220,40 +206,40 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.22,
               "is_close": true,
               "date": "2026-09-25",
-              "title": "보합권 마감",
-              "text": "관련 헤드라인이 이어졌음에도 상승폭이 크게 늘지 못하고 좁은 범위에서 마무리됨"
+              "title": "강보합 마감",
+              "text": "장 후반 들어 상승폭이 다소 줄었지만 오름세 자체는 유지한 채 하루를 마무리"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "엔비디아, 개발자용 AI 챗봇 특허 출원…게임 최적화 자동화",
-              "original": "엔비디아, 개발자용 AI 챗봇 특허 출원…게임 최적화 자동화",
-              "source": "디지털포커스",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB6b2pBNW1SNDJRREFDZEZkWmxLZzNoUzhvV2pIVUt3NVBLUHVTZkFRQmlOOTc2eHRveUp6MWEwaTVnTXNmcnpxQTdqRm9rcDJ4OWVqSWt4djNEcXJCcFVfVHlvSXBXZUF6d1J4TmtUQXg?oc=5",
-              "published": "2026-09-27T07:15:21+09:00"
-            },
-            {
-              "title": "'통제 가능해지기 전까지 제품 출시 말라'…엔비디아 황, AI 안전 논쟁에 입장 밝혀",
-              "original": "‘Don’t Ship Products Until They’re in Control’: Nvidia’s Huang Weighs In on AI Safety Debate",
-              "source": "Barrons.com",
-              "url": "https://www.barrons.com/articles/nvidia-jensen-huang-ai-openai-anthropic-a9995f13?siteid=yhoof2&yptr=yahoo",
-              "published": "2026-09-27T04:59:00+09:00"
-            },
-            {
-              "title": "엔비디아, 앤스로픽 IPO에 100억 달러 지분 투자 검토…결국 자사 수요를 사들이는 셈",
-              "original": "Nvidia Is Weighing a $10 Billion Stake in Anthropic's IPO. It Would Be Buying Its Own Demand.",
+              "title": "내가 스페이스X보다 엔비디아를 택하는 3가지 간단한 이유",
+              "original": "3 Simple Reasons I'd Rather Own Nvidia Than SpaceX",
               "source": "Motley Fool",
-              "url": "https://www.fool.com/investing/2026/09/26/nvidia-is-weighing-a-usd10-billion-stake-in-anthropic-s-ipo-it-would-be-buying-its-own-demand/",
-              "published": "2026-09-27T04:57:01+09:00"
+              "url": "https://www.fool.com/investing/2026/09/27/3-simple-reasons-i-d-rather-own-nvidia-than-spacex/",
+              "published": "2026-09-28T06:27:01+09:00"
+            },
+            {
+              "title": "엔비디아가 쏘아 올린 AI 보안 공포… 6조 원 쏟아붓는 빅테크의 노림수",
+              "original": "엔비디아가 쏘아 올린 AI 보안 공포… 6조 원 쏟아붓는 빅테크의 노림수",
+              "source": "글로벌이코노믹",
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVno5VGlwM1ZjS2Z3dC0zY3czNjU1cUZOMzdrWGZob1RiQnl3MVRxb1ppYjRaUWRLRVR6dmJTQU10bk5LQklDaDVrM3VnMU82Qkd1SVBxU0dpNVk1cGhuME9iSU0zWFVWc0dNcDNSdThWZmQ3ZWxVQk91bkZGaGM3MXNBVC1uNE9I?oc=5",
+              "published": "2026-09-28T06:09:19+09:00"
+            },
+            {
+              "title": "엔비디아 칩 판매량, 내년 2배로 보는 배경은?",
+              "original": "엔비디아 칩 판매량, 내년 2배로 보는 배경은?",
+              "source": "dailycar.co.kr",
+              "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE12NExPQVY1eS02b3NWU2VkNnJHUl8yWlQxMEpPV3VJR2N2ODBVVWRuX3doNWlDMEU0RXBRR3RFVnRaVkp6VGN2VmhTUUdKNDVlWG52LU11WVE0SHRzZTJZYUE3ZHdxMXZYX3AtNy1TbUMwS0FhMUE?oc=5",
+              "published": "2026-09-28T05:15:14+09:00"
             }
           ]
         },
         {
           "stock": "소파이테크놀로지",
           "ticker": "SOFI",
-          "title": "소파이테크놀로지 - 저평가 논쟁 속 소폭 하락",
-          "body": "소파이테크놀로지는 스테이블코인 출시와 성장 드라이브 속 저평가 상태라는 분석이 나온 가운데 -1.31% 내린 <b>16.58달러</b> 마감.",
+          "title": "소파이테크놀로지 - 재료 없이 소폭 하락",
+          "body": "소파이테크놀로지는 특별한 재료 없이 -1.31% 내린 <b>16.58달러</b> 마감.",
           "pct": -1.31,
           "price": 16.579999923706055,
           "currency": "USD",
@@ -266,7 +252,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-09-25",
               "title": "약세 흐름 지속",
-              "text": "장중 특별한 호재 없이 하락세가 이어지며 낮은 수준에서 등락을 거듭함"
+              "text": "특별한 반전 재료 없이 장 후반까지 하락세가 이어지며 낙폭을 좁히지 못함"
             },
             {
               "time": "마감",
@@ -274,25 +260,24 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.31,
               "is_close": true,
               "date": "2026-09-25",
-              "title": "낙폭 소폭 축소",
-              "text": "저가 부근에서 벗어나며 낙폭을 다소 줄였으나 전 거래일 수준은 회복하지 못함"
+              "title": "하락 마감",
+              "text": "토큰화 주식 관련 소식이 나왔지만 매수세로 이어지지 못하며 하루 중 저점권에서 마감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "소파이 테크놀로지스(SOFI), 스테이블코인 출시와 성장 드라이브 속 저평가 상태인가",
-              "original": "Is SoFi Technologies (SOFI) Cheap On Its Stablecoin Rollout And Growth Push?",
-              "source": "Simply Wall St.",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/sofi-technologies-sofi-cheap-stablecoin-171019624.html",
-              "published": "2026-09-27T02:10:19+09:00"
+              "title": "SoFi Technologies Tokenized Stock (Robinhood): 최신 뉴스, 소셜 미디어 업데이트 및 인사이트",
+              "original": "SoFi Technologies Tokenized Stock (Robinhood): 최신 뉴스, 소셜 미디어 업데이트 및 인사이트",
+              "source": "CryptoRank",
+              "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5CUTIyeHo4VzA1S3dqWmF1RUo0ckltTlBNektXY19jd0xhZ1FtTW12NjBkRndTRjhRRTNDY09vRDdUcmh6aFFxM3RCeDNvMDAwczdIRkhUUHVWNHBFc21hcUdqVU9MVUk2cEZDY2twSnU0bDRoeUw3bkVhTUNyQQ?oc=5",
+              "published": "2026-09-27T09:27:25+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-09-27-us.md",
-      "refreshed_at": "2026-09-27 07:41:12 KST",
-      "slots_refreshed_at": "2026-09-28 03:17:35 KST"
+      "markdown": "briefings/2026-09-28-us.md",
+      "refreshed_at": "2026-09-28 07:02:18 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
