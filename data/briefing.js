@@ -1,10 +1,10 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-09-27 17:01:38 KST",
-  "refreshed": [
-    "kr"
+  "generated_at": "2026-09-27 22:52:06 KST",
+  "refreshed": [],
+  "slots_refreshed": [
+    "us"
   ],
-  "slots_refreshed": [],
   "default": "kr",
   "markets": {
     "us": {
@@ -49,8 +49,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.08,
               "is_close": false,
               "date": "2026-09-25",
-              "title": "소폭 반등 출발",
-              "text": "스위프트 원장과 은행을 연결하는 베타 통합 소식이 오전에 전해진 가운데 장 초반 완만한 반등세로 출발함"
+              "title": "약보합 흐름",
+              "text": "장중 소폭 반등을 보였으나 힘을 이어가지 못하고 다시 밀리는 모습을 보임"
             },
             {
               "time": "마감",
@@ -58,8 +58,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.68,
               "is_close": true,
               "date": "2026-09-25",
-              "title": "상승분 반납",
-              "text": "오전 강세를 지키지 못하고 오후 들어 하락 전환하며 하루 중 저점 부근에서 흐름을 마감함"
+              "title": "낙폭 확대 마감",
+              "text": "장중 강세를 지키지 못하고 후반 들어 하락폭이 오히려 커지며 하루를 마무리함"
             }
           ],
           "slot_total": 2,
@@ -103,8 +103,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 3.59,
               "is_close": false,
               "date": "2026-09-25",
-              "title": "강한 상승 흐름",
-              "text": "애저 성장률 개선과 코파일럿 관련 긍정적 평가가 이어지며 저점 대비 큰 폭 반등한 채로 장중 흐름을 유지함"
+              "title": "강세 흐름 지속",
+              "text": "AI 투자의견 상향과 코파일럿 통합 소식이 이어지며 장중 상승세가 꾸준히 유지됨"
             },
             {
               "time": "마감",
@@ -112,8 +112,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 3.66,
               "is_close": true,
               "date": "2026-09-25",
-              "title": "상승세 유지 마감",
-              "text": "오전에 이어진 강세가 오후까지 꾸준히 이어지며 하루 중 상승폭을 거의 그대로 지킨 채 마감함"
+              "title": "강세 마감",
+              "text": "AI 관련 호재성 소식들이 잇따르며 오름폭을 유지한 채 하루 거래를 마무리함"
             }
           ],
           "slot_total": 2,
@@ -157,8 +157,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.42,
               "is_close": false,
               "date": "2026-09-25",
-              "title": "강세 속 등락",
-              "text": "양자컴퓨팅 관련 협력 소식과 엔비디아 확보 이슈가 겹치며 장중 상승과 조정을 반복하는 흐름을 보임"
+              "title": "호재 속 상승 지속",
+              "text": "엔비디아 등과의 시스템 계약 소식과 업무협약 소식이 겹치며 강세 흐름이 이어짐"
             },
             {
               "time": "마감",
@@ -166,8 +166,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.11,
               "is_close": true,
               "date": "2026-09-25",
-              "title": "소폭 상승 마감",
-              "text": "동종 양자컴퓨터주들이 엇갈린 흐름을 보인 가운데 오후 들어 상승폭을 다소 줄이며 마감함"
+              "title": "상승폭 확대 마감",
+              "text": "장중 발표된 협력 소식들에 매수세가 이어지며 오름폭을 키운 채 거래를 마무리함"
             }
           ],
           "slot_total": 2,
@@ -211,8 +211,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.28,
               "is_close": false,
               "date": "2026-09-25",
-              "title": "완만한 상승세",
-              "text": "신규 특허 출원과 앤스로픽 투자 검토 소식이 아침에 전해지며 완만한 오름세로 장중 흐름을 이어감"
+              "title": "소폭 강세 유지",
+              "text": "LG전자와의 파트너십 소식이 전해지며 장중 완만한 오름세를 이어가는 모습을 보임"
             },
             {
               "time": "마감",
@@ -220,8 +220,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.22,
               "is_close": true,
               "date": "2026-09-25",
-              "title": "보합권 마감",
-              "text": "오전 상승 분위기가 오후 들어 다소 진정되며 강보합 수준에서 하루 흐름을 마무리함"
+              "title": "강세폭 다소 축소",
+              "text": "협력 소식에도 오름폭은 장중보다 다소 줄어든 채 소폭 상승으로 하루를 마무리함"
             }
           ],
           "slot_total": 2,
@@ -265,8 +265,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.12,
               "is_close": false,
               "date": "2026-09-25",
-              "title": "약세로 출발",
-              "text": "스테이블코인 관련 저평가 논의가 새벽에 나온 이후 별다른 반등 없이 하락세로 장중 흐름이 이어짐"
+              "title": "약세 흐름 지속",
+              "text": "저평가 논란과 스테이블코인 관련 소식에도 매수세가 붙지 못하며 하락세가 이어짐"
             },
             {
               "time": "마감",
@@ -275,7 +275,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-09-25",
               "title": "낙폭 소폭 축소",
-              "text": "장중 내내 이어지던 약세가 늦은 시간 들어 하락폭을 다소 줄이며 저점 부근에서 흐름을 유지 중"
+              "text": "장중보다는 하락폭을 다소 줄였으나 전일 수준을 회복하지 못한 채 거래를 마무리함"
             }
           ],
           "slot_total": 2,
@@ -291,7 +291,8 @@ window.NOTEFOLIO_BRIEFING = {
         }
       ],
       "markdown": "briefings/2026-09-27-us.md",
-      "refreshed_at": "2026-09-27 07:41:12 KST"
+      "refreshed_at": "2026-09-27 07:41:12 KST",
+      "slots_refreshed_at": "2026-09-27 22:52:06 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
