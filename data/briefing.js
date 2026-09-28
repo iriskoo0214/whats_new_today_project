@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-09-29 00:19:37 KST",
+  "generated_at": "2026-09-29 06:51:45 KST",
   "refreshed": [],
   "slots_refreshed": [
     "us"
@@ -50,7 +50,16 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-09-28",
               "title": "약세 흐름 지속",
-              "text": "스위프트 통합 관련 소식과 투자자 관심 급증 기사가 나왔지만 매수세로 이어지지 못하며 하락세가 이어지는 중"
+              "text": "에이전트 아이덴티티가 인프라로 부상한다는 소식이 나온 뒤 낙폭이 커지며 하락세가 이어짐"
+            },
+            {
+              "time": "마감",
+              "price": 220.6699981689453,
+              "pct": -2.15,
+              "is_close": true,
+              "date": "2026-09-28",
+              "title": "낙폭 소폭 확대",
+              "text": "스위프트 통합 관련 소식에도 매수세가 붙지 못하며 하루 중 가장 낮은 수준에서 하락 마무리"
             }
           ],
           "slot_total": 2,
@@ -80,8 +89,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.49,
               "is_close": false,
               "date": "2026-09-28",
-              "title": "동종업계 대비 약세",
-              "text": "새 코파일럿 앱 출시와 월가의 목표가 유지 소식에도 메가캡 경쟁사 대비 부진한 흐름을 벗어나지 못하는 중"
+              "title": "약세 국면 이어짐",
+              "text": "AI 관련 기회와 광고 시장 변화 소식이 이어졌지만 투자심리 개선으로 이어지지 못하고 하락세 지속"
+            },
+            {
+              "time": "마감",
+              "price": 509.2200012207031,
+              "pct": -1.35,
+              "is_close": true,
+              "date": "2026-09-28",
+              "title": "낙폭 소폭 줄어",
+              "text": "메타의 경쟁 경고 소식이 부담으로 작용했으나 장 후반 들어 하락폭이 다소 줄어드는 모습"
             }
           ],
           "slot_total": 2,
@@ -125,8 +143,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 4.93,
               "is_close": false,
               "date": "2026-09-28",
-              "title": "매수 등급에 급등",
-              "text": "뱅크오브아메리카의 매수 등급 신규 개시 소식이 알려지며 장중 상승폭을 키우고 강세를 이어가는 중"
+              "title": "",
+              "text": ""
+            },
+            {
+              "time": "마감",
+              "price": 44.58000183105469,
+              "pct": -1.98,
+              "is_close": true,
+              "date": "2026-09-28",
+              "title": "",
+              "text": ""
             }
           ],
           "slot_total": 2,
@@ -170,8 +197,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 3.06,
               "is_close": false,
               "date": "2026-09-28",
-              "title": "자사주 매입에 강세",
-              "text": "대규모 자사주 매입 소식과 반도체 업종 내 홀로 선전한다는 평가가 겹치며 상승세를 유지 중"
+              "title": "강세 흐름 뚜렷",
+              "text": "역대 최대 규모 자사주 매입 소식과 투자심리 개선 소식이 겹치며 상승세가 하루 종일 이어짐"
+            },
+            {
+              "time": "마감",
+              "price": 228.86000061035156,
+              "pct": 1.68,
+              "is_close": true,
+              "date": "2026-09-28",
+              "title": "상승폭 확대",
+              "text": "장 초반 강세를 유지한 채 자사주 매입 효과가 이어지며 상승폭이 하루 중 가장 크게 벌어짐"
             }
           ],
           "slot_total": 2,
@@ -216,7 +252,16 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-09-28",
               "title": "약세 흐름 지속",
-              "text": "금리 전제 가이던스와 자본 셈법을 짚은 기사가 나온 가운데 하락세를 벗어나지 못하고 있는 중"
+              "text": "국채 금리 상승에 따른 핀테크 업종 압박 소식이 부담으로 작용하며 하락세가 이어지는 모습"
+            },
+            {
+              "time": "마감",
+              "price": 15.930000305175781,
+              "pct": -3.92,
+              "is_close": true,
+              "date": "2026-09-28",
+              "title": "낙폭 소폭 확대",
+              "text": "스테이블코인 추진 소식에도 반등하지 못하고 장 후반 들어 하락폭이 하루 중 가장 크게 벌어짐"
             }
           ],
           "slot_total": 2,
@@ -233,7 +278,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-09-28-us.md",
       "refreshed_at": "2026-09-28 07:02:18 KST",
-      "slots_refreshed_at": "2026-09-29 00:19:37 KST"
+      "slots_refreshed_at": "2026-09-29 06:51:45 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
