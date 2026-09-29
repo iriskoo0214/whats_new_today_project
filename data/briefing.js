@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-09-30 00:42:12 KST",
+  "generated_at": "2026-09-30 05:41:25 KST",
   "refreshed": [],
   "slots_refreshed": [
     "us"
@@ -49,8 +49,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.37,
               "is_close": false,
               "date": "2026-09-29",
-              "title": "토큰화 사업 확대 부각",
-              "text": "은행 결제망과 토큰화 예금을 연결한다는 소식과 캔톤과의 협업 논의가 전해지며 완만한 강세를 유지하는 흐름"
+              "title": "장 후반 상승 전환",
+              "text": "은행 시스템 현대화 협력 소식이 전해진 뒤 매수세가 유입되며 오름세로 돌아섬"
+            },
+            {
+              "time": "마감",
+              "price": 219.99000549316406,
+              "pct": -0.31,
+              "is_close": true,
+              "date": "2026-09-29",
+              "title": "소폭 하락 마감",
+              "text": "토큰화 금융 인프라 논의 소식에도 상승폭을 지키지 못하고 약보합으로 하루를 마감"
             }
           ],
           "slot_total": 2,
@@ -94,8 +103,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.05,
               "is_close": false,
               "date": "2026-09-29",
-              "title": "약세 흐름 지속",
-              "text": "엑스박스 감원 관련 CEO 발언과 백악관 AI 오찬 소식에도 매수세가 살아나지 못하며 하락세를 이어가는 모습"
+              "title": "장중 약세 흐름",
+              "text": "생물학 세계 모델 공개와 백악관 AI 오찬 소식이 나왔지만 주가는 하락 압력을 받는 모습"
+            },
+            {
+              "time": "마감",
+              "price": 508.9599914550781,
+              "pct": -0.05,
+              "is_close": true,
+              "date": "2026-09-29",
+              "title": "막판 낙폭 축소",
+              "text": "장중 큰 폭 하락에서 벗어나 마감 무렵에는 낙폭을 거의 만회하며 보합권까지 회복"
             }
           ],
           "slot_total": 2,
@@ -139,8 +157,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.07,
               "is_close": false,
               "date": "2026-09-29",
-              "title": "낙폭 딛고 반등 전환",
-              "text": "전날 하락 마감 이후 월가의 매수 의견과 양자 파운드리 구상 소식이 나오며 오름세로 돌아선 흐름"
+              "title": "목표가 상향에 강세",
+              "text": "뱅크오브아메리카의 목표주가 상향과 양자 파운드리 투자 소식에 힘입어 상승세 지속"
+            },
+            {
+              "time": "마감",
+              "price": 43.90999984741211,
+              "pct": -1.5,
+              "is_close": true,
+              "date": "2026-09-29",
+              "title": "상승분 반납 마감",
+              "text": "장중 강세를 이어가지 못하고 마감 무렵 상승분을 반납하며 소폭 하락으로 하루를 마침"
             }
           ],
           "slot_total": 2,
@@ -184,8 +211,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.45,
               "is_close": false,
               "date": "2026-09-29",
-              "title": "자사주 매입 소식에 강세",
-              "text": "대규모 자사주 매입 계획과 AI 칩 담보대출 보험 추진 소식이 이어지며 완만한 오름세를 이어가는 중"
+              "title": "긍정 소식 속 강보합",
+              "text": "AI 보안 기술과 보험사 접촉 소식 등 우호적인 뉴스 속에 완만한 오름세를 유지하는 흐름"
+            },
+            {
+              "time": "마감",
+              "price": 227.2100067138672,
+              "pct": -0.72,
+              "is_close": true,
+              "date": "2026-09-29",
+              "title": "장 후반 상승분 반납",
+              "text": "임대 수요 급증 소식에도 매수세가 이어지지 못하며 장 후반 들어 하락으로 방향을 바꿈"
             }
           ],
           "slot_total": 2,
@@ -229,8 +265,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.69,
               "is_close": false,
               "date": "2026-09-29",
-              "title": "지지선 공방 속 소폭 반등",
-              "text": "매도 압력 속 주요 지지선 유지 여부가 주목받던 가운데 장중 낙폭을 딛고 소폭 오름세로 전환된 모습"
+              "title": "특별한 뉴스 없이 등락",
+              "text": "별다른 재료 없이 완만한 오름세를 보이다가 장 후반 들어 상승폭이 점차 줄어드는 흐름"
+            },
+            {
+              "time": "마감",
+              "price": 15.90999984741211,
+              "pct": -0.13,
+              "is_close": true,
+              "date": "2026-09-29",
+              "title": "보합권 마감",
+              "text": "뚜렷한 방향성 없이 좁은 범위에서 움직이다 전일과 큰 차이 없는 수준에서 하루를 마감"
             }
           ],
           "slot_total": 2,
@@ -261,7 +306,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-09-29-us.md",
       "refreshed_at": "2026-09-29 10:48:50 KST",
-      "slots_refreshed_at": "2026-09-30 00:42:12 KST"
+      "slots_refreshed_at": "2026-09-30 05:41:25 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
