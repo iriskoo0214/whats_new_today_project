@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-09-30 22:36:14 KST",
+  "generated_at": "2026-10-01 04:08:20 KST",
   "refreshed": [],
   "slots_refreshed": [
     "us"
@@ -44,13 +44,13 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-09-28",
           "slots": [
             {
-              "time": "10:35PM",
-              "price": 220.26499938964844,
-              "pct": 0.13,
+              "time": "11:00PM",
+              "price": 220.67999267578125,
+              "pct": 0.31,
               "is_close": false,
               "date": "2026-09-30",
-              "title": "양자컴 성과에 강세",
-              "text": "슈퍼컴이 110년 걸릴 계산을 19초 만에 풀어냈다는 소식이 잇따라 전해지며 완만한 오름세를 이어가는 중"
+              "title": "소폭 상승세 유지",
+              "text": "인도 소버린 AI 가동 소식에 오전 상승 출발한 뒤 양자컴 성과 소식까지 더해지며 완만한 오름세를 이어가는 중"
             }
           ],
           "slot_total": 2,
@@ -89,13 +89,13 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-09-28",
           "slots": [
             {
-              "time": "10:35PM",
-              "price": 514.0399780273438,
-              "pct": 1.0,
+              "time": "11:00PM",
+              "price": 516.739990234375,
+              "pct": 1.53,
               "is_close": false,
               "date": "2026-09-30",
-              "title": "실적 기대에 상승",
-              "text": "분기 실적이 역대급이라는 평가와 매수 등급 재확인 소식이 겹치며 상승폭을 키워가는 중"
+              "title": "강한 상승세 지속",
+              "text": "오픈AI 협업 소식에 급등 출발한 뒤 1991년 이후 최고 분기 기록 소식까지 겹치며 오름폭을 키우는 중"
             }
           ],
           "slot_total": 2,
@@ -134,13 +134,13 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-09-28",
           "slots": [
             {
-              "time": "10:35PM",
-              "price": 45.779998779296875,
-              "pct": 4.26,
+              "time": "11:00PM",
+              "price": 46.41999816894531,
+              "pct": 5.72,
               "is_close": false,
               "date": "2026-09-30",
-              "title": "목표가 상향에 강세",
-              "text": "BofA가 매수 등급과 목표가를 제시하며 파운드리 사업 가치를 높게 평가한 이후 상승폭을 확대해가는 중"
+              "title": "급등세 이어가는 중",
+              "text": "뱅크오브아메리카 매수 등급 상향에 힘입어 장 초반부터 강세를 보이며 오름폭을 크게 키워가는 중"
             }
           ],
           "slot_total": 2,
@@ -179,13 +179,13 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-09-28",
           "slots": [
             {
-              "time": "10:35PM",
-              "price": 231.04730224609375,
-              "pct": 1.69,
+              "time": "11:00PM",
+              "price": 231.38999938964844,
+              "pct": 1.84,
               "is_close": false,
               "date": "2026-09-30",
-              "title": "매수세 유입 지속",
-              "text": "유명 투자자가 경쟁사 지분을 팔고 엔비디아를 사들였다는 소식과 협력 확대 소식이 더해지며 상승세를 이어가는 중"
+              "title": "협력사 훈풍에 강세",
+              "text": "폼팩터 등 공급망 기업들의 급등과 매수 의견 소식이 잇따르며 오전 내내 견조한 상승세를 유지 중"
             }
           ],
           "slot_total": 2,
@@ -224,13 +224,13 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-09-28",
           "slots": [
             {
-              "time": "10:35PM",
-              "price": 15.875,
-              "pct": -0.22,
+              "time": "11:00PM",
+              "price": 15.970000267028809,
+              "pct": 0.38,
               "is_close": false,
               "date": "2026-09-30",
-              "title": "소폭 약세 유지",
-              "text": "수익률 개선 조건을 다룬 분석 기사가 나온 가운데 큰 변동 없이 약보합 흐름을 이어가는 중"
+              "title": "완만한 상승 유지",
+              "text": "수익률 전망과 성장 스토리를 다룬 기사가 잇따르는 가운데 큰 변동 없이 소폭 오름세를 유지하는 중"
             }
           ],
           "slot_total": 2,
@@ -239,7 +239,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-09-30-us.md",
       "refreshed_at": "2026-09-30 09:20:05 KST",
-      "slots_refreshed_at": "2026-09-30 22:36:14 KST"
+      "slots_refreshed_at": "2026-10-01 04:08:20 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
