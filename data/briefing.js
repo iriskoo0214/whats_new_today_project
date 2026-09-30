@@ -1,15 +1,15 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-09-30 05:41:25 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-09-30 09:20:05 KST",
+  "refreshed": [
     "us"
   ],
-  "default": "kr",
+  "slots_refreshed": [],
+  "default": "us",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
-      "label": "미국 증시 요약 2026. 9. 29. 10:48AM",
+      "label": "미국 증시 요약 2026. 9. 30. 9:20AM",
       "chips": [
         "전체",
         "IBM",
@@ -23,21 +23,21 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "next": "kr",
       "headline": "해외 5종목 중 1종목 상승, 4종목 하락 — 엔비디아가 +1.68%로 가장 많이 올랐고 소파이테크놀로지가 -3.92%로 가장 부진했습니다.",
-      "market_headline": "미·이란 갈등에 국채금리 폭등, 3대 지수 일제 하락",
+      "market_headline": "美 국채금리 급등에 뉴욕증시 약보합 마감",
       "market_card": {
-        "title": "뉴욕증시 하락 마감...국채금리·유가 급등에 투자심리 위축",
+        "title": "3대 지수 약보합 마감...국채금리 부담에 하락",
         "bullets": [
-          "미·이란 대치에 국채금리 19년만에 최고",
-          "유가 급등, WTI 92달러선 상승 마감",
-          "나스닥 0.92%↓ 등 3대 지수 동반 하락"
+          "미 국채 장기금리 급등에 투자심리 위축",
+          "다우 0.3% 하락 등 3대 지수 동반 약세",
+          "PCE 발표 앞두고 관망세 속 유가 급락"
         ]
       },
       "cards": [
         {
           "stock": "IBM",
           "ticker": "IBM",
-          "title": "IBM - 에이전트AI 이슈 속 2%대 하락",
-          "body": "IBM은 에이전트 아이덴티티가 인프라로 부상하는 가운데 -2.15% 내린 <b>220.67달러</b> 마감. 소프트웨어 사업 확대가 재무제표로 뒷받침될지 시장의 의문도 이어지는 모습이다.",
+          "title": "IBM - 토큰화 예금·은행 인프라 확장",
+          "body": "IBM은 은행 결제망과 토큰화 예금을 잇는 사업 확장 소식에도 -2.15% 내린 <b>220.67달러</b> 마감. 사콤뱅크의 레드햇 오픈시프트·IBM 파워 기반 핵심 시스템 현대화와 타이거리서치·캔톤과의 토큰화 금융 인프라 논의 등 관련 행보가 이어지는 모습이다.",
           "pct": -2.15,
           "price": 220.6699981689453,
           "currency": "USD",
@@ -46,52 +46,52 @@ window.NOTEFOLIO_BRIEFING = {
             {
               "time": "11:00PM",
               "price": 221.48500061035156,
-              "pct": 0.37,
+              "pct": 0.36,
               "is_close": false,
               "date": "2026-09-29",
-              "title": "장 후반 상승 전환",
-              "text": "은행 시스템 현대화 협력 소식이 전해진 뒤 매수세가 유입되며 오름세로 돌아섬"
+              "title": "토큰화 예금 소식 주목",
+              "text": "은행 결제망과 토큰화 예금을 연결한다는 소식이 오후에 전해지며 관심을 모음"
             },
             {
               "time": "마감",
-              "price": 219.99000549316406,
-              "pct": -0.31,
+              "price": 220.03500366210938,
+              "pct": -0.3,
               "is_close": true,
               "date": "2026-09-29",
-              "title": "소폭 하락 마감",
-              "text": "토큰화 금융 인프라 논의 소식에도 상승폭을 지키지 못하고 약보합으로 하루를 마감"
+              "title": "약보합 마감 후 반등",
+              "text": "마감은 소폭 약세로 끝났으나 이후 시간외에서 하루 낙폭을 모두 만회하는 흐름을 보임"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "IBM, 더 큰 소프트웨어 사업을 구축하다. 재무제표가 이를 뒷받침할 수 있을까?",
-              "original": "IBM is Building a Bigger Software Business. Can Its Balance Sheet Keep Up?",
-              "source": "Insider Monkey",
-              "url": "https://finance.yahoo.com/technology/articles/ibm-building-bigger-software-business-233616198.html",
-              "published": "2026-09-29T08:36:16+09:00"
+              "title": "SACOMBANK는 Red Hat OpenShift와 IBM Power를 통해 핵심 은행 시스템을 현대화하며 디지털 전환을 주도합니다",
+              "original": "SACOMBANK는 Red Hat OpenShift와 IBM Power를 통해 핵심 은행 시스템을 현대화하며 디지털 전환을 주도합니다",
+              "source": "IBM",
+              "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9TUXVueW5QQjRKME90SmJYNG1STzNITzhuQnVNRXp0c2ZFdUtXSERPTWxraS1UUnlSWks4ekZrT0JMT1dET3ZwWTZsV2xieTZwUFFfM1VZMmtUTXNC?oc=5",
+              "published": "2026-09-29T18:22:33+09:00"
             },
             {
-              "title": "헤데라(HBAR) 홀로 30% 폭등…IBM·블랙록 업고 0.13달러 돌파할까",
-              "original": "헤데라(HBAR) 홀로 30% 폭등…IBM·블랙록 업고 0.13달러 돌파할까",
-              "source": "coinreaders.com",
-              "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBLM0FWT0RFRGpFc1A3WmJObGtTTmlfaFQ2UWRxSENRZ2VXeDQwRElYUWs1ODBoZlVOeDB4QjdoUkJnYktPS2xjbktn?oc=5",
-              "published": "2026-09-29T07:57:00+09:00"
+              "title": "타이거리서치, 캔톤·IBM과 토큰화 금융 인프라 논의…30일 '더 캐피털 포럼' 개최",
+              "original": "타이거리서치, 캔톤·IBM과 토큰화 금융 인프라 논의…30일 '더 캐피털 포럼' 개최",
+              "source": "뉴시스",
+              "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9zWHpnVno3LTg5NEZoUmRubWxmTFZTeXVrUE5RU05iaDZIUGNoLUEyMnlEcjNXWXpjSXJ4S1gybFB3MXZ4Z2FwR3lvWU4xR1Z4aXhWVTFaNkZYOFp5QjBWU1BtMll1dURnZld2NkhoSmotSEE1VUtmUtIBeEFVX3lxTE9zWHpnVno3LTg5NEZoUmRubWxmTFZTeXVrUE5RU05iaDZIUGNoLUEyMnlEcjNXWXpjSXJ4S1gybFB3MXZ4Z2FwR3lvWU4xR1Z4aXhWVTFaNkZYOFp5QjBWU1BtMll1dURnZld2NkhoSmotSEE1VUtmUg?oc=5",
+              "published": "2026-09-29T15:01:19+09:00"
             },
             {
-              "title": "IBM 주가, 에이전트 아이덴티티가 인프라로 부상하는 가운데 2% 넘게 하락",
-              "original": "IBM Stocks Fall Over 2% While Agent Identity Becomes Infrastructure",
-              "source": "GuruFocus.com",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/ibm-stocks-fall-over-2-191613367.html",
-              "published": "2026-09-29T04:16:13+09:00"
+              "title": "IBM, 은행 결제망과 ‘토큰화 예금’ 잇는다",
+              "original": "IBM, 은행 결제망과 ‘토큰화 예금’ 잇는다",
+              "source": "비온미디어",
+              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE96blhjUjVIOWxqbjUyWHhkS09VNEN4Ukt1Tk5LT0Zfdm54bHRtTXJhMUxnaG12U3lwVEpDQjQ5anRld0JVMzJxV0ZGbG9YdEwxTDFQS0U5cnFDWG9qZUJTaHdYZlY4aTTSAWtBVV95cUxPX0tITDRnd1ROU2ZXX19pakdZTTZlQW1HYkVGdUgxdVJZNHNUV2dncUVvTDRiMEtlMmdfZVB1Yi1OYnZzc2ZvdFoycEp3Q21GU0dsemhMSEpWVjhvMXBpaUppV3lYWkdPbzlIWQ?oc=5",
+              "published": "2026-09-29T14:42:58+09:00"
             }
           ]
         },
         {
           "stock": "마이크로소프트",
           "ticker": "MSFT",
-          "title": "마이크로소프트 - AI 리스크 우려 속 하락",
-          "body": "마이크로소프트는 3조 달러 규모 AI 투자에 따른 숨겨진 리스크를 투자자들이 걱정해야 하는지 의문이 제기되는 가운데 -1.35% 내린 <b>509.22달러</b> 마감. 코파일럿+ PC 브랜드가 조용히 퇴장했다는 소식도 겹치며 투자심리가 다소 위축된 모습이다.",
+          "title": "마이크로소프트 - 클라우드 27% 성장에도 하락",
+          "body": "마이크로소프트는 분기 매출 900억달러에 클라우드 부문이 27% 성장했다는 발표에도 -1.35% 내린 <b>509.22달러</b> 마감. 자본지출 축소 여부를 둘러싼 회계 처리 논란이 제기되며 실적 호조에도 투자심리가 엇갈린 모습이다.",
           "pct": -1.35,
           "price": 509.2200012207031,
           "currency": "USD",
@@ -100,52 +100,52 @@ window.NOTEFOLIO_BRIEFING = {
             {
               "time": "11:00PM",
               "price": 503.885009765625,
-              "pct": -1.05,
+              "pct": -1.1,
               "is_close": false,
               "date": "2026-09-29",
-              "title": "장중 약세 흐름",
-              "text": "생물학 세계 모델 공개와 백악관 AI 오찬 소식이 나왔지만 주가는 하락 압력을 받는 모습"
+              "title": "실적 발표 후 등락",
+              "text": "장 초반 클라우드 성장세가 부각된 실적 발표가 있었으나 자본지출 관련 우려도 함께 거론됨"
             },
             {
               "time": "마감",
-              "price": 508.9599914550781,
-              "pct": -0.05,
+              "price": 509.0400085449219,
+              "pct": -0.08,
               "is_close": true,
               "date": "2026-09-29",
-              "title": "막판 낙폭 축소",
-              "text": "장중 큰 폭 하락에서 벗어나 마감 무렵에는 낙폭을 거의 만회하며 보합권까지 회복"
+              "title": "낙폭 줄이며 약보합",
+              "text": "장중 한때 낙폭이 컸으나 마감 무렵에는 전일 수준에 근접하며 하락폭을 대부분 만회함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "제주도교육청, 한국마이크로소프트와 AI 교육 업무협약 체결",
-              "original": "제주도교육청, 한국마이크로소프트와 AI 교육 업무협약 체결",
-              "source": "제주일보",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52aVp3eXVnbzY1N1JZX3p3eVJIT05lbE92S0Ytei04aTFLMmdoeTFHOHQ4Uk1aWDByOEl3aXZTX2FhWXdBSGl0VXRlSG1ZRG1FSEtLcWhEWGx4TlhPcXNlM3o1eTFtSlNOVmxUMw?oc=5",
-              "published": "2026-09-29T10:18:43+09:00"
+              "title": "마이크로소프트, 분기 매출 900억달러…클라우드 27% 성장",
+              "original": "마이크로소프트, 분기 매출 900억달러…클라우드 27% 성장",
+              "source": "토큰포스트",
+              "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA0dlFWVEd6WDFyTEJsdVFxcXFhYjhGM2FNaGlsT0oyV1pzQzlINXhYcmRlcFRXT3FkZXI1d0lnNFNmbTZlQlgxam9ZaFNiaDlIOFJVWkwxZFo?oc=5",
+              "published": "2026-09-30T06:40:00+09:00"
             },
             {
-              "title": "마이크로소프트 코파일럿+ PC 브랜드의 조용한 퇴장",
-              "original": "마이크로소프트 코파일럿+ PC 브랜드의 조용한 퇴장",
-              "source": "itworld.co.kr",
-              "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxQV1BxNFF1Ri1fTklpODdlcVpVWkxoWFlVcWRuc3FsZi13ZkUzeGVwYnpxOUxrYWh3WGpzODZVQmx0aHlwemxzVGs5c3dPU2ZxS2NyRWlWdkdISU1kZUNNVkRZNnh4d0xaeGFfMGgwellOVHc2OWdqaTY5T0x0c3AwOC1HSW52RFgyUTNnZHltbkhqRG9MbTJubXF2aHZQSWdicExmaDNDU281SUV6NDZDTGNRU3FPTi1URk1MdUFPd1YxaUowVEstdzJ3aWlOVF9pSHZLVi11SHZhVGlBVkIyUldHekR6MXpZVTU0UlhaNFltZVFwckhDZFJpUVh4WWp0dTZ0TXZHaWNFdHlCcl9GNl9EVFk2QXN4bTl1UFRoekFPa2hqQTE4ZjFKWnhqdnZ2eHpraFdGcmlwS01FWnhLTklrR25EMzdKOWpNZ1FUS0VrX2Nx?oc=5",
-              "published": "2026-09-29T09:21:28+09:00"
+              "title": "Microsoft Research, 다중모달 생물학 세계 모델인 Quine을 공개",
+              "original": "Microsoft Research, 다중모달 생물학 세계 모델인 Quine을 공개",
+              "source": "Unite.AI",
+              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdm5LRFFobTFsMEFJbHdsZWF3NHdQR1lzWF9FRnExV2VSeFJKWUVlUWEtQ0pqV3lISEd3ck5kazVidFdZRDMtR0xRM182dEtPeGswLTV5b1JzdTZxb3gzWFQwMm8yUEJEZG5BNVViVHAxQWdGbS1aS0hoaXVPT3d5cDdZU1FUTGpxMU1nT3ViY1JpZDVBMWJV?oc=5",
+              "published": "2026-09-30T01:40:13+09:00"
             },
             {
-              "title": "마이크로소프트(MSFT) 투자자들은 3조 달러 규모의 숨겨진 AI 리스크를 걱정해야 할까?",
-              "original": "Should Microsoft (MSFT) Investors Worry About A $3 Trillion Hidden AI Risk?",
-              "source": "Simply Wall St.",
-              "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-investors-worry-3-000824730.html",
-              "published": "2026-09-29T09:08:24+09:00"
+              "title": "마이크로소프트가 정말 자본지출을 줄였나? 헤드라인 뒤에 숨은 회계 처리",
+              "original": "Did Microsoft Really Cut Its Capex? Here’s the Accounting Move Behind the Headline",
+              "source": "TIKR.com",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYVVhZU5vMWw5OTNTVkd1UTVNLW5IVDJUbWVyYlU3LXl4V1JrYVRYR1M4bHhRYmxnYWlmX0RQaEliekVHQlNHd0ZnbVJlbkJoUlNITllpeUhRUWhhM2hFSktDdzFZVnhfdDY1bV9JaWVCVXIwN2dzV2s1S2JQZ3lYMnV0T0R3X1BTOXk2ZEdSYjNEbUJ4LU1lUkw2dDlMY2NDT0pfdTBKVzJKTkI3d3c?oc=5",
+              "published": "2026-09-30T01:18:45+09:00"
             }
           ]
         },
         {
           "stock": "아이온큐",
           "ticker": "IONQ",
-          "title": "아이온큐 - 대학 슈페리온 구축에도 하락",
-          "body": "아이온큐는 미국 주요 대학에 첫 온프레미스 슈페리온 256을 구축했다는 소식에도 -1.98% 내린 <b>44.58달러</b> 마감. 2026년 기술주 투자처로 세레브라스와 비교되며 경쟁 구도가 부각되는 모습이다.",
+          "title": "아이온큐 - 목표가 상향에도 하락",
+          "body": "아이온큐는 뱅크오브아메리카가 목표가 60달러의 매수 등급을 제시했음에도 -1.98% 내린 <b>44.58달러</b> 마감. 파운드리 사업 가치를 매출의 2배로 평가한 괴리와 2027년 슈퍼리온 출시 기대가 함께 거론되며 구미 양자 파운드리 구상도 주목받는 모습이다.",
           "pct": -1.98,
           "price": 44.58000183105469,
           "currency": "USD",
@@ -154,52 +154,52 @@ window.NOTEFOLIO_BRIEFING = {
             {
               "time": "11:00PM",
               "price": 45.05509948730469,
-              "pct": 1.07,
+              "pct": 1.11,
               "is_close": false,
               "date": "2026-09-29",
-              "title": "목표가 상향에 강세",
-              "text": "뱅크오브아메리카의 목표주가 상향과 양자 파운드리 투자 소식에 힘입어 상승세 지속"
+              "title": "목표가 상향 속 등락",
+              "text": "장 초반부터 월가의 매수 의견과 목표가 제시가 이어지며 파운드리 사업 가치에 관심이 쏠림"
             },
             {
               "time": "마감",
-              "price": 43.90999984741211,
-              "pct": -1.5,
+              "price": 43.89500045776367,
+              "pct": -1.49,
               "is_close": true,
               "date": "2026-09-29",
-              "title": "상승분 반납 마감",
-              "text": "장중 강세를 이어가지 못하고 마감 무렵 상승분을 반납하며 소폭 하락으로 하루를 마침"
+              "title": "약세 마감 뒤 반등",
+              "text": "긍정적 헤드라인에도 마감은 소폭 하락으로 끝났으나 시간외에서는 낙폭을 되돌리는 모습"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "세레브라스 시스템즈 vs. 아이온큐: 2026년 더 나은 기술주 투자처는?",
-              "original": "Cerebras Systems vs. IonQ: Which Technology Stock Is a Better Buy in 2026?",
-              "source": "Motley Fool",
-              "url": "https://www.fool.com/coverage/better-buy/2026/09/28/cerebras-systems-vs-ionq-which-technology-stock-is-a-better-buy-in-2026/",
-              "published": "2026-09-29T10:19:52+09:00"
+              "title": "뱅크오브아메리카, 아이온큐를 $60 목표가에 매수 등급 제시하면서도 파운드리는 매출의 2배로 평가...그 괴리가 중요한 이유",
+              "original": "BofA Rated IonQ a Buy at $60 but Valued Its Foundry at 2 Times Sales. Here’s Why That Split Matters",
+              "source": "TIKR.com",
+              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdXJkN2pTa3RmcFEwNEJWMlJ2SkZJOGN0emlYX09Bb292QzExMWNpbExzRGRHcFQxYUk4dFJNQXBGbm51c1FwNDNmVVhKbEVTS2RaT21IdEdxb24tV2dvOFQwWU1WQThsNEVad0JtT0MwSVh0LUswWnFsVXUzRHlLRnBUb2ZicUJzODdTSU1SV3JpOTNMbmtTd0JHNFJRM3RDSXRCQndIRjVNQ2J5Uzc1RU5jenpBT05ra19JX2k1d192RC1B?oc=5",
+              "published": "2026-09-30T00:46:24+09:00"
             },
             {
-              "title": "아이온큐(IONQ), 미국 주요 대학에 첫 온프레미스 슈페리온 256 구축",
-              "original": "IonQ (IONQ) Lands First On Premise Superion 256 Deployment At Major US University",
-              "source": "Simply Wall St.",
-              "url": "https://finance.yahoo.com/technology/ai/articles/ionq-ionq-lands-first-premise-010735680.html",
-              "published": "2026-09-29T10:07:35+09:00"
+              "title": "아이온큐에 월가 ‘매수’ 의견···2027년 ‘슈퍼리온’ 출시 주목’",
+              "original": "아이온큐에 월가 ‘매수’ 의견···2027년 ‘슈퍼리온’ 출시 주목’",
+              "source": "Benzinga",
+              "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPWU1ZNnpoWTctUmRRWXU1a19zMERQUnVNdnFRcDNvejFTeGc5OWdQTXNNNUlXYXJ4RjNDeWZjVEZyWElvNHNKRVRiRlpfWDAwQm03eUJqeDBFRk1PRE9VVmRxWnVick81ZmRnNDFXYkFWcml3SmZ4eURmbFUzbEFRUlFEb0RWejRWbTFDazZndXRfZEhhY044SEgxa0ZGbHRkZEdEaXVLUW9qUVl3TlBzRTNFX0prWEpkbENUTlhIMG14SE52OFltU0p4a0VUWTBKUDhzaWpHZ0Z6RjJFWE9DblN5bzE3TTJRU1dJVl9qdURPaVVrVGVtNTkybDN2VDdkQzB5RDhoRFdRODFkTm5DQWNzRkEwemdHVnJfYThzSDVadU1BVmxKZg?oc=5",
+              "published": "2026-09-29T16:24:39+09:00"
             },
             {
-              "title": "아이온큐 주가, 44.58달러 1.98% 하락 마감",
-              "original": "아이온큐 주가, 44.58달러 1.98% 하락 마감",
-              "source": "톱스타뉴스",
-              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1GMFg0bXlGQVdBX3pmbXRoMjNFaDBxZlEwRVBKWTE0aUQ5cUxkUWo1Nm1PeldlRGp4WTBQUXQyVDRycjFEdUZDR0RJcFlfTkdwVTQ0b0VEUlVCcXQ5Q3NCVEJkb0JDTEhkQ0dHemdZTkNlUQ?oc=5",
-              "published": "2026-09-29T09:43:39+09:00"
+              "title": "구미 아이온큐 공급망 '양자 제조' 750억원 양자 파운드리 구상 승부수",
+              "original": "구미 아이온큐 공급망 '양자 제조' 750억원 양자 파운드리 구상 승부수",
+              "source": "대경일보",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0wOXZLbWJVN3ZRMjRCMS1kdmhGYkUxQm5HM2hQMUNLSnN2M2tzeXJ4VndXeXI2NS0wX2VMeGdKbUt6QWtILVdiYXlLM0Z1a01pSWluYllKS3NSN3pMTlBwMHB1Qzlfek5S?oc=5",
+              "published": "2026-09-29T16:03:14+09:00"
             }
           ]
         },
         {
           "stock": "엔비디아",
           "ticker": "NVDA",
-          "title": "엔비디아 - 최태원 발언 속 강세",
-          "body": "엔비디아는 최태원 SK 회장이 젠슨 황에게 '엔비디아는 두뇌, SK는 기억'이라며 AI 동맹을 강조한 가운데 +1.68% 오른 <b>228.86달러</b> 마감. 젠슨 황 CEO가 엔비디아의 정치적 자산으로 부상하고 있다는 분석도 나오며 시장의 관심이 이어지는 모습이다.",
+          "title": "엔비디아 - 11월 서울 AI 데이 개최",
+          "body": "엔비디아는 삼성·SK 등 20개사가 참여하는 'AI 데이 2026'을 11월 서울에서 개최한다는 소식 속에 +1.68% 오른 <b>228.86달러</b> 마감. 글로벌 핵심 플랫폼 협력 강화 흐름에 동참하는 모습으로 해석된다.",
           "pct": 1.68,
           "price": 228.86000061035156,
           "currency": "USD",
@@ -208,52 +208,52 @@ window.NOTEFOLIO_BRIEFING = {
             {
               "time": "11:00PM",
               "price": 229.8800048828125,
-              "pct": 0.45,
+              "pct": 0.44,
               "is_close": false,
               "date": "2026-09-29",
-              "title": "긍정 소식 속 강보합",
-              "text": "AI 보안 기술과 보험사 접촉 소식 등 우호적인 뉴스 속에 완만한 오름세를 유지하는 흐름"
+              "title": "서울 AI 행사 예고",
+              "text": "장 초반 삼성·SK 등이 참여하는 서울 AI 행사 개최 소식이 전해지며 협력 기대감이 부각됨"
             },
             {
               "time": "마감",
-              "price": 227.2100067138672,
-              "pct": -0.72,
+              "price": 227.3000030517578,
+              "pct": -0.69,
               "is_close": true,
               "date": "2026-09-29",
-              "title": "장 후반 상승분 반납",
-              "text": "임대 수요 급증 소식에도 매수세가 이어지지 못하며 장 후반 들어 하락으로 방향을 바꿈"
+              "title": "소폭 하락 마감 후 반등",
+              "text": "장중 약세로 마감했지만 시간외 거래에서는 낙폭을 만회하며 상승 전환하는 흐름을 보임"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "최태원, 젠슨 황에 “엔비디아는 두뇌·SK는 기억”…AI 동맹 강조",
-              "original": "최태원, 젠슨 황에 “엔비디아는 두뇌·SK는 기억”…AI 동맹 강조",
-              "source": "에너지경제신문",
-              "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE95bkVIdTNCaWFBcllGZEJsX3FwcFdMaDJ1SC1XQTdieHZ1cVJiMzdKTFJacTV5RU13SmlSZ3UxbkN2X3pjcEV2Y0F1aW5BQTEyT0pfNnR2VnhaSFdWSUM1TmNZQQ?oc=5",
-              "published": "2026-09-29T10:46:39+09:00"
+              "title": "삼성·SK 총출동…엔비디아, 11월 서울서 ‘AI 데이 2026’ 개최",
+              "original": "삼성·SK 총출동…엔비디아, 11월 서울서 ‘AI 데이 2026’ 개최",
+              "source": "edaily.co.kr",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN09yT2VCTl9fNmZQa0xqWnE2M2dzZjVjZDhsczRCMmJHelFpbWx0Y3ZaVk1RdEx1TlQ2elpSX0dnY2g5SFJwbHktdUdSMHpsOENuOE5kenBUdXRYd2lSVlpnN2FOMnRNZWlfaDhZRmNMM2JYTFo5YWtQenB4OTJWQQ?oc=5",
+              "published": "2026-09-30T09:03:59+09:00"
             },
             {
-              "title": "최태원 \"엔비디아는 두뇌, SK는 기억\"…젠슨 황 '밴 플리트상' 축하",
-              "original": "최태원 \"엔비디아는 두뇌, SK는 기억\"…젠슨 황 '밴 플리트상' 축하",
-              "source": "뉴스1",
-              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB3OXNPdENFWGFJNUgxc3NjSkhNN01GY1B2VGZZcjNZUi1tdHpGUEN3LXhNZ190cnAzR2djTEpTWlBIclI1MUg0Zm42TmFKODd2TzBnRTNiUnZYQWgzdlJfVzRhTnjSAWpBVV95cUxOQnZ3bzN6cHBQclItbzhCendtYU5HUEhUbDJUbFVqWFJRcElRRnZPZDBtY1cyYmtzNXpXcjRBSmZBd1pVSl9YXzYwR2E5LUZfOVpSX0pGS2N0cmUwZmMzSVdxSnBxMUVwZDdn?oc=5",
-              "published": "2026-09-29T10:30:44+09:00"
+              "title": "엔비디아, 11월 9~10일 서울서 AI 행사…삼성·SK 등 20개사 참여",
+              "original": "엔비디아, 11월 9~10일 서울서 AI 행사…삼성·SK 등 20개사 참여",
+              "source": "cstimes.com",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WYUtuOUlWbDZUSHJqbTk1dUtQdHhWOUlPNzdRdHFlS1M1aWZndVVadUdjVnJ1ak5RWE94dGdnTU9wWTQ1ZFhyaHd0RjFLS2xWdnQ4QXFVaTVWMW9MQ200NG5jVE1PSGg0cHc?oc=5",
+              "published": "2026-09-30T08:58:14+09:00"
             },
             {
-              "title": "젠슨 황 CEO, 엔비디아(NVDA)의 가장 값진 정치적 자산이 되어가고 있나?",
-              "original": "Is CEO Jensen Huang Becoming Nvidia (NVDA)’s Most Valuable Political Asset?",
-              "source": "Insider Monkey",
-              "url": "https://finance.yahoo.com/technology/ai/articles/ceo-jensen-huang-becoming-nvidia-013038328.html",
-              "published": "2026-09-29T10:30:38+09:00"
+              "title": "글로벌 핵심 플랫폼 협력강화...엔비디아도 가세 [여의도 Pick!]",
+              "original": "글로벌 핵심 플랫폼 협력강화...엔비디아도 가세 [여의도 Pick!]",
+              "source": "MTN 머니투데이방송",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9Ybmo0RWl4bDVzSWt6VE05TWRWeFAySk81ZkNJUUpqOG9UYWFfM2JGbzUyZ1UxNjA4LUlldEl1Rzl6c2dKRm5WeXkwaktVLUxMN01BMFk2bWtIRS1TV2J3NzM2akc?oc=5",
+              "published": "2026-09-30T08:57:23+09:00"
             }
           ]
         },
         {
           "stock": "소파이테크놀로지",
           "ticker": "SOFI",
-          "title": "소파이테크놀로지 - 국채 금리 상승에 하락",
-          "body": "소파이테크놀로지는 국채 금리 상승으로 핀테크 업종이 압박받으며 -3.92% 내린 <b>15.93달러</b> 마감. 2년 넘게 남은 만기의 풋옵션 거래량이 급증하며 약세 베팅이 늘었다는 분석도 나오는 모습이다.",
+          "title": "소파이테크놀로지 - 재료 없이 하락",
+          "body": "소파이테크놀로지는 특별한 재료 없이 -3.92% 내린 <b>15.93달러</b> 마감.",
           "pct": -3.92,
           "price": 15.930000305175781,
           "currency": "USD",
@@ -265,48 +265,25 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.69,
               "is_close": false,
               "date": "2026-09-29",
-              "title": "특별한 뉴스 없이 등락",
-              "text": "별다른 재료 없이 완만한 오름세를 보이다가 장 후반 들어 상승폭이 점차 줄어드는 흐름"
+              "title": "큰 변동 없이 보합권",
+              "text": "특별한 소식 없이 하루 동안 큰 등락 없이 전일 수준 부근에서 등락을 거듭하는 흐름을 보임"
             },
             {
               "time": "마감",
-              "price": 15.90999984741211,
-              "pct": -0.13,
+              "price": 15.914999961853027,
+              "pct": -0.09,
               "is_close": true,
               "date": "2026-09-29",
-              "title": "보합권 마감",
-              "text": "뚜렷한 방향성 없이 좁은 범위에서 움직이다 전일과 큰 차이 없는 수준에서 하루를 마감"
+              "title": "약보합 마감 뒤 소폭 반등",
+              "text": "마감은 전일 대비 소폭 하락에 그쳤고 이후 시간외 거래에서는 다시 오름세로 돌아섬"
             }
           ],
           "slot_total": 2,
-          "news": [
-            {
-              "title": "블록체인이 소파이 테크놀로지스(SOFI)와 마스터카드(MA)에 새로운 성장 동력이 될 수 있을까?",
-              "original": "Could Blockchain Create Another Growth Lever for SoFi Technologies (SOFI) and Mastercard (MA)?",
-              "source": "Insider Monkey",
-              "url": "https://finance.yahoo.com/markets/crypto/articles/could-blockchain-create-another-growth-230047362.html",
-              "published": "2026-09-29T08:00:47+09:00"
-            },
-            {
-              "title": "2년 넘게 남은 만기의 소파이 풋옵션 거래량 급증 - 투자자들은 SOFI 주식에 약세를 점치나?",
-              "original": "Huge Option Volume in SoFi Puts Expiring In Over 2 Years - Are Investors Bearish on SOFI Stock?",
-              "source": "Barchart",
-              "url": "https://www.barchart.com/story/news/4837599/huge-option-volume-in-sofi-puts-expiring-in-over-2-years-are-investors-bearish-on-sofi-stock",
-              "published": "2026-09-29T02:30:02+09:00"
-            },
-            {
-              "title": "소파이, 국채 금리 상승에 핀테크 압박받으며 3% 하락; 어펌 4% 하락, 로빈후드 2% 하락",
-              "original": "SoFi Falls 3% as Rising Yields Pressure Fintech; Affirm Drops 4%, Robinhood Slips 2%",
-              "source": "24/7 Wall St.",
-              "url": "https://247wallst.com/investing/2026/09/28/sofi-falls-3-as-rising-yields-pressure-fintech-affirm-drops-4-robinhood-slips/",
-              "published": "2026-09-29T02:02:10+09:00"
-            }
-          ]
+          "news": []
         }
       ],
-      "markdown": "briefings/2026-09-29-us.md",
-      "refreshed_at": "2026-09-29 10:48:50 KST",
-      "slots_refreshed_at": "2026-09-30 05:41:25 KST"
+      "markdown": "briefings/2026-09-30-us.md",
+      "refreshed_at": "2026-09-30 09:20:05 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
