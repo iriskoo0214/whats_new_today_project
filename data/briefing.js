@@ -1,11 +1,11 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-01 11:02:38 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-10-01 17:46:08 KST",
+  "refreshed": [
     "kr"
   ],
-  "default": "us",
+  "slots_refreshed": [],
+  "default": "kr",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
@@ -295,7 +295,7 @@ window.NOTEFOLIO_BRIEFING = {
     },
     "kr": {
       "icon": "assets/moon.svg",
-      "label": "한국 증시 요약 2026. 9. 30. 9:41PM",
+      "label": "한국 증시 요약 2026. 10. 1. 5:46PM",
       "chips": [
         "전체",
         "SK하이닉스",
@@ -309,26 +309,26 @@ window.NOTEFOLIO_BRIEFING = {
         "다시 찾아올게요."
       ],
       "next": "us",
-      "headline": "국내 5종목 중 0종목 상승, 5종목 하락 — SK하이닉스가 -0.39%로 낙폭이 가장 작았고 삼성전자가 -2.00%로 가장 부진했습니다.",
-      "market_headline": "미 국채금리 부담에 외국인 2조 순매도, 코스피 3일째 하락",
+      "headline": "국내 5종목 중 4종목 상승, 1종목 하락 — 한화에어로스페이스가 +1.88%로 가장 많이 올랐고 LG전자가 -1.64%로 가장 부진했습니다.",
+      "market_headline": "마이크론 호실적에 반도체 강세, 코스피 6970선 회복",
       "market_card": {
-        "title": "코스피 6830선 하락 마감...코스닥은 상승 반전",
+        "title": "코스피 1.95% 반등 마감...코스닥은 4%대 급등",
         "bullets": [
-          "외국인·기관 동반 매도세 지속",
-          "미 국채금리 상승 부담 확대",
-          "코스닥은 코스피와 달리 상승 마감"
+          "마이크론 호실적에 반도체주 강세",
+          "삼성전자·SK하이닉스 동반 상승 견인",
+          "외국인·기관 순매수에 코스닥 급등"
         ]
       },
       "cards": [
         {
           "stock": "SK하이닉스",
           "ticker": "000660",
-          "title": "SK하이닉스 - D램 초강세 속 숨고르기",
-          "body": "SK하이닉스는 D램 가격이 또 최고치를 기록했다는 소식에도 -0.39% 내린 <b>1,783,000원</b> 마감. 마이크론 실적 발표를 앞두고 삼성전자·SK하이닉스 랠리 재점화 여부에 시장의 관심이 쏠린 모습이다.",
-          "pct": -0.39,
-          "price": 1783000.0,
+          "title": "SK하이닉스 - 한전과 전력설비 운영 협력",
+          "body": "SK하이닉스는 한국전력과 전력설비 안정 운영 업무협약을 맺고 반도체 전력 인프라 경쟁력을 다졌다는 소식 속에 +1.51% 오른 <b>1,810,000원</b> 마감.",
+          "pct": 1.51,
+          "price": 1810000.0,
           "currency": "KRW",
-          "as_of": "2026-09-30",
+          "as_of": "2026-10-01",
           "slots": [
             {
               "time": "9:10AM",
@@ -337,7 +337,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-01",
               "title": "장 초반 약세 출발",
-              "text": "개장 직후 하락 출발해 약세권에서 움직이는 가운데 솔리다임 중복상장 우려가 제기됨"
+              "text": "개장 직후 하락세로 시작하며 전일 대비 낙폭을 보인 채 거래가 시작됨"
             },
             {
               "time": "10:30AM",
@@ -345,44 +345,62 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.45,
               "is_close": false,
               "date": "2026-10-01",
-              "title": "낙폭 축소 진행 중",
-              "text": "솔리다임 상장 관련 주주가치 훼손 우려 보도에도 낙폭을 줄이며 전 저점보다 반등한 흐름 유지 중"
+              "title": "낙폭 축소 흐름",
+              "text": "오전 중 하락폭을 서서히 줄여나가며 보합권에 가까워지는 모습을 보임"
+            },
+            {
+              "time": "1:00PM",
+              "price": 1808000.0,
+              "pct": 1.4,
+              "is_close": false,
+              "date": "2026-10-01",
+              "title": "상승 전환 성공",
+              "text": "오후 들어 매수세가 유입되며 하락분을 모두 만회하고 플러스권으로 올라섬"
+            },
+            {
+              "time": "마감",
+              "price": 1810000.0,
+              "pct": 1.51,
+              "is_close": true,
+              "date": "2026-10-01",
+              "title": "상승폭 확대 유지",
+              "text": "한전과의 전력설비 운영 협력 소식이 전해진 가운데 오후 상승세를 그대로 이어가는 중"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "D램 값 또 최고치…코스피 잠잠한데 삼전·닉스 또 갈까?",
-              "original": "D램 값 또 최고치…코스피 잠잠한데 삼전·닉스 또 갈까?",
-              "source": "문화일보",
-              "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBCaDJfZnNpVHRTdkQ3a1hmQWEyWlVtTURiT2syQmZVMXJKbnVMeFh5aEtwT0paSXNlQXNjaXFyUTBubm1uSDRtOXhGc0lhQTV4?oc=5",
-              "published": "2026-09-30T20:19:48+09:00"
+              "title": "한국전력·SK하이닉스, 전력설비 안정 운영 업무 협약…\"K-반도체 경쟁력 뒷받침\"",
+              "original": "한국전력·SK하이닉스, 전력설비 안정 운영 업무 협약…\"K-반도체 경쟁력 뒷받침\"",
+              "source": "팍스경제TV",
+              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB6MUlCaU1qWUJoZ2JuQmJRRDRrMEJ0M0NQbzk5UzYxVzEwaENETXhpZkNHd24tck9Mb00xSnpFLVcwNk5nM19UeWJ5ZVhfeUtzTVpjcnpzT1I1RU5nX05OdHhjZTNZelE?oc=5",
+              "published": "2026-10-01T17:28:21+09:00"
             },
             {
-              "title": "‘반도체 풍향계’ 마이크론 실적 드디어 나온다…‘삼전닉스’ 랠리 재점화할까",
-              "original": "‘반도체 풍향계’ 마이크론 실적 드디어 나온다…‘삼전닉스’ 랠리 재점화할까",
-              "source": "v.daum.net",
-              "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9pbFhhWUlNTHBKRkxWejhRTFdCR1JFWTQtdXpFVE1WWUk0VElfRmF5ekxpWGZINGNWVW5UWlRQRi1QaVE3cFZPVmN0UnlOdXMwVk9BMQ?oc=5",
-              "published": "2026-09-30T20:02:11+09:00"
+              "title": "한전-SK하이닉스, 반도체 전력설비 운영 협력",
+              "original": "한전-SK하이닉스, 반도체 전력설비 운영 협력",
+              "source": "한스경제",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GeEF3VVV2WnlOS2kwTUZWNUc5bGY4SERWV0x4SW5uNzJyNUgxR2doSlliX1JwcnJoWjdtZGhKd2lJektrUnhXZmRMVi1kRXJJQW1CcHotTm9oT1duYVU1dzU2QnIyMk5laGdCedIBb0FVX3lxTE11SWFHekVWQlVPd3BTakFNci04S05jb3NvOGV3VVVvbi00SlRfT3FFQWo4M2R4ckM4RE9YNkdtV0NCVDhDTEpGWGZ2SWQ2eGxhcjJrWDVQS2RmVV92akU4MWo0WDNuU0txVC0yek1taw?oc=5",
+              "published": "2026-10-01T17:26:15+09:00"
             },
             {
-              "title": "용인 반도체클러스터 처리수 갈등 격화 양상",
-              "original": "용인 반도체클러스터 처리수 갈등 격화 양상",
-              "source": "incheonilbo.com",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yUHVBeU5uR0xHOHdVMDB5RkNXTWdtd3pQdEcwQWRSM1k1MFg1RVN1XzY4ZUhRS25OV093b3MzRFZob19QcHVZcU9aeW9xRFFlWU1HRUVEMnVHeFJYZnBBbXRWeGprdUNrVlE?oc=5",
-              "published": "2026-09-30T19:52:00+09:00"
+              "title": "한전 SK하이닉스와 전력설비 운영 협력 강화, 'K반도체' 경쟁력 뒷받침",
+              "original": "한전 SK하이닉스와 전력설비 운영 협력 강화, 'K반도체' 경쟁력 뒷받침",
+              "source": "비즈니스포스트",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5TdllHdjIwS1hLd25rcUJBbW16UHNVaVJabEtpellnS1Z4U2Z2TFV1eWFSSjhkbzVMUHVkTmo3VDloN2g4cktOYmZwTUJNcXFCckdfSmhSRWk3YS1Xc0ZQU05Ea24tLV9ZRDA3MnZ1OW5ZZW8?oc=5",
+              "published": "2026-10-01T17:15:34+09:00"
             }
           ]
         },
         {
           "stock": "삼성전자",
           "ticker": "005930",
-          "title": "삼성전자 - 고객만족도 1위에도 하락",
-          "body": "삼성전자는 고객만족도 조사에서 25년 최다 1위를 차지했다는 소식에도 -2.00% 내린 <b>269,500원</b> 마감. 분기 영업이익 100조원에 육박할 것이라는 기대와 함께 성과급 갈등 국정감사 검증대에 오른다는 점이 부담으로 작용한 것으로 보인다.",
-          "pct": -2.0,
-          "price": 269500.0,
+          "title": "삼성전자 - 로봇·인재 영향력 재조명",
+          "body": "삼성전자는 레인보우로보틱스를 통한 로봇 사업 확장과 출신 인사의 외부 영입 소식이 전해진 가운데 +1.11% 오른 <b>272,500원</b> 마감.",
+          "pct": 1.11,
+          "price": 272500.0,
           "currency": "KRW",
-          "as_of": "2026-09-30",
+          "as_of": "2026-10-01",
           "slots": [
             {
               "time": "9:10AM",
@@ -390,8 +408,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.3,
               "is_close": false,
               "date": "2026-10-01",
-              "title": "장 초반 약세 지속",
-              "text": "개장 초 하락세로 출발해 약세 흐름을 보이는 가운데 갤럭시탭 신제품 출시 소식이 전해짐"
+              "title": "장 초반 약세 출발",
+              "text": "개장과 함께 하락세로 시작하며 전 거래일 대비 낮은 가격대에서 거래됨"
             },
             {
               "time": "10:30AM",
@@ -399,44 +417,62 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.46,
               "is_close": false,
               "date": "2026-10-01",
-              "title": "낙폭 다소 줄어듦",
-              "text": "AI 조직 혁신 발언과 JBL 기획전 소식 속에서도 하락폭을 소폭 만회하며 약세 이어가는 중"
+              "title": "낙폭 다소 축소",
+              "text": "오전 내내 하락세가 이어졌으나 장 초반보다는 낙폭이 소폭 줄어드는 흐름"
+            },
+            {
+              "time": "1:00PM",
+              "price": 273250.0,
+              "pct": 1.39,
+              "is_close": false,
+              "date": "2026-10-01",
+              "title": "상승 전환 뚜렷",
+              "text": "점심 무렵 매수세가 유입되며 하락분을 모두 되돌리고 플러스권으로 올라섬"
+            },
+            {
+              "time": "마감",
+              "price": 272500.0,
+              "pct": 1.11,
+              "is_close": true,
+              "date": "2026-10-01",
+              "title": "상승폭 소폭 축소",
+              "text": "오후 고점 대비 상승폭이 다소 줄었으나 전 거래일보다 높은 수준을 유지한 채 하루를 이어감"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "삼성·SKT, 고객만족도 쌍끌이…삼성 25년 최다 1위·SKT 3대 조사 석권",
-              "original": "삼성·SKT, 고객만족도 쌍끌이…삼성 25년 최다 1위·SKT 3대 조사 석권",
-              "source": "theggnews.com",
-              "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBmNVZ4YmdrTnlDNWlka0JwNEpmZWhSUlR3NWNKa2FzcE1fRlNwWTRWbUFuVlNGNEpOYjBlRzkzS2ZxV1k4MG00LVdSTzRhd1EybUlENQ?oc=5",
-              "published": "2026-09-30T20:38:00+09:00"
+              "title": "파리크라상, 신임 대표에 삼성전자 출신 강신봉 전 부사장 내정",
+              "original": "파리크라상, 신임 대표에 삼성전자 출신 강신봉 전 부사장 내정",
+              "source": "it.chosun.com",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBIbXUzLWhreFk1YnF0S3lQUTJ0Q2g3cWRrZnZhVTRabkNQZmxJUzFzZ3JYSDJDU0prc2dRVW5PaVV3TXE4OEZ2OWhHdDQ5c2pvdnZ4NHdzZG1Xb2ZZLVZoVFZvTllwZG1PNGo4YjczQlTSAXRBVV95cUxOVlktMV9wZHg4OHgyWlJYRlpvY0dRNjQwb2NMZ2dNdHBsVUoxOUltakkydnUtY3dWU1hzTHZaQlZJemxqTmZzRDJ0QXhoZURRQ3NZd1prcUFpVmF2ZG9ZbGdjYUh5OHdMQ3N3Ri1fcWRxZ01OdA?oc=5",
+              "published": "2026-10-01T17:30:36+09:00"
             },
             {
-              "title": "분기 영업익 100조 눈앞…삼성, ‘성과급 갈등’ 국감 검증대",
-              "original": "분기 영업익 100조 눈앞…삼성, ‘성과급 갈등’ 국감 검증대",
-              "source": "서울경제TV",
-              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52dkF6Zk5QeFRtbjljS2tVbUI2NkxDbEpJTE1GSUNjVHQ0RWJ6d01PQmRqZ0Q0YmpQRHZJaEMyamZ6RzJHWWJCN3hNT3E2R3FfUXdrMUJiLXp1bkdHbWxZdkNtUDY?oc=5",
-              "published": "2026-09-30T19:59:14+09:00"
+              "title": "삼성전자, 러시아 ‘최애 브랜드’ 1위→4위…전자·가전은 선두",
+              "original": "삼성전자, 러시아 ‘최애 브랜드’ 1위→4위…전자·가전은 선두",
+              "source": "아시아투데이",
+              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16QzVrd2x3djR1YlZNY3Y4VWx1NnBFVlJfZEh2bUVuYldJWk5FdXM5dnowa1dpR05pd0s0R21yWEpPZlBkVElwNGo0NkVLa0pXTnlyakotbGFCMWJiS3JOYi1hS19FWnFDRFJ2djh3?oc=5",
+              "published": "2026-10-01T17:18:20+09:00"
             },
             {
-              "title": "\"AI, 크다고 능사 아니다\"⋯삼성이 밝힌 '갤럭시 AI' 진화법",
-              "original": "\"AI, 크다고 능사 아니다\"⋯삼성이 밝힌 '갤럭시 AI' 진화법",
-              "source": "아이뉴스24",
-              "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5pT0tvOGxwUWljRlZ2U3g5RlZRazNtd2VTNUhvUDNTQmk4V0FqS2FIS0l2dWtBYjhxOEU0MXFfb1JlVHhRTEdoV1JXQQ?oc=5",
-              "published": "2026-09-30T19:35:09+09:00"
+              "title": "[K-피지컬AI] ①삼성 품에 안긴 레인보우로보틱스…로봇 사업 역할 어디까지",
+              "original": "[K-피지컬AI] ①삼성 품에 안긴 레인보우로보틱스…로봇 사업 역할 어디까지",
+              "source": "스마트투데이",
+              "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE43Qi1icGpXc2JadFBjempmWWxDdGtHTUJQVllILXFRM0NUdVpac2o1aWp3eWhsU1I5VDVSZmtxWW5aWWdRMjBxTVQ5Wk9yS0hsMzBKWWI3MG90YS15aHcw?oc=5",
+              "published": "2026-10-01T17:17:00+09:00"
             }
           ]
         },
         {
           "stock": "한화에어로스페이스",
           "ticker": "012450",
-          "title": "한화에어로스페이스 - 채용 지침 파문에 하락",
-          "body": "한화에어로스페이스는 경력직 채용 지침을 둘러싼 파문이 불거지며 -1.08% 내린 <b>1,009,000원</b> 마감. 2028년 수직 착륙 발사체 개발 도전 소식도 함께 전해졌으나 주가 흐름에는 반영되지 못한 모습이다.",
-          "pct": -1.08,
-          "price": 1009000.0,
+          "title": "한화에어로스페이스 - 대전사업장 법위반 적발",
+          "body": "한화에어로스페이스는 5명이 숨진 대전사업장에서 폭발·화재 위험 등 473건의 법 위반이 적발돼 과태료 5억원 처분을 받았다는 소식에도 +1.88% 오른 <b>1,028,000원</b> 마감. 이부환 대표의 국회 출석 소식도 전해지며 경영진 책임론이 함께 거론되는 모습이다.",
+          "pct": 1.88,
+          "price": 1028000.0,
           "currency": "KRW",
-          "as_of": "2026-09-30",
+          "as_of": "2026-10-01",
           "slots": [
             {
               "time": "9:10AM",
@@ -444,8 +480,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.79,
               "is_close": false,
               "date": "2026-10-01",
-              "title": "장 초반 강세 출발",
-              "text": "개장 직후부터 오름세로 출발해 재사용 발사체 기술 확보 소식과 함께 상승 흐름 유지"
+              "title": "장 초반 상승 출발",
+              "text": "개장 직후부터 매수세가 유입되며 상승세로 거래를 시작함"
             },
             {
               "time": "10:30AM",
@@ -454,43 +490,61 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-01",
               "title": "오전 상승폭 확대",
-              "text": "고용 차별 고발 논란이 불거졌음에도 매수세가 이어지며 오전 들어 오름폭이 더 커짐"
+              "text": "오전 내내 상승 흐름이 이어지며 장 초반보다 오름폭이 더 커지는 모습"
+            },
+            {
+              "time": "1:00PM",
+              "price": 1030000.0,
+              "pct": 2.08,
+              "is_close": false,
+              "date": "2026-10-01",
+              "title": "오후 들어 상승 가속",
+              "text": "점심 무렵까지 매수세가 꾸준히 유입되며 하루 중 가장 큰 상승폭을 기록함"
+            },
+            {
+              "time": "마감",
+              "price": 1028000.0,
+              "pct": 1.88,
+              "is_close": true,
+              "date": "2026-10-01",
+              "title": "상승폭 소폭 둔화",
+              "text": "대전사업장 법 위반 적발 소식이 오후 늦게 전해졌으나 그 이전까지 상승 흐름을 유지하며 고점 부근을 지킴"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "한화에어로 경력직 채용 지침 '파문'",
-              "original": "한화에어로 경력직 채용 지침 '파문'",
-              "source": "경남매일",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9zT2tnTWFOSmJZN0ZMa0JSRENWcHA3R1ZLUWNGYWpaczVrUllycTBOc05KRWlLcnhEQlZFTnFkS1IyN0VyMWZGM3gtZmdzalZRNGdheHZ0VmRrNzhfU0ZrOW5IQkpraW93UXc?oc=5",
-              "published": "2026-09-30T21:27:04+09:00"
+              "title": "5명 사망 사고 난 한화에어로스페이스 대전사업장... 473건 법 위반",
+              "original": "5명 사망 사고 난 한화에어로스페이스 대전사업장... 473건 법 위반",
+              "source": "중도일보",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE54WWxOTmpLUm5MWnR6X3VmV2lnM2R6X2pzYmVWSUl2anFROUliZWRZbmlRUU1hd2FWQkF6RDNHN1NkQ1E5WDI5QWdYS3pvTlRxU1FZeWtROTEycFdZQWw1dW1rcjM?oc=5",
+              "published": "2026-10-01T17:40:46+09:00"
             },
             {
-              "title": "한화에어로, 2028년 ‘수직 착륙’ 도전…발사체 경쟁력 주목",
-              "original": "한화에어로, 2028년 ‘수직 착륙’ 도전…발사체 경쟁력 주목",
-              "source": "인디포커스",
-              "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE45LXQyampqVVd4aGJaeFltTE9MX0FVYThzZXZWdGt0UjZJbDdyX1pSczR6U05SVG05czBtNDdQTTN3YW8?oc=5",
-              "published": "2026-09-30T21:13:00+09:00"
+              "title": "한화에어로 이부환 대표 결국 국회로 [CEO 업&다운]",
+              "original": "한화에어로 이부환 대표 결국 국회로 [CEO 업&다운]",
+              "source": "v.daum.net",
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5SQ2JNUFdvVVM3NFRCQlBUclhUWjVMOS1GUkRPcS1vX2RBOXlzVk9RTk10d1RTcTYwTWhLMUozTFd2R09vTXZtQ0hpelRtVk0?oc=5",
+              "published": "2026-10-01T17:28:18+09:00"
             },
             {
-              "title": "한화에어로스페이스, 한국판 '스페이스X' 넘본다",
-              "original": "한화에어로스페이스, 한국판 '스페이스X' 넘본다",
-              "source": "더팩트",
-              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fVVA1VGU3Z0k1cDlJakRnNGo5RnYyVnh1MV9RbUFuZGw2cGR3SDZlcGdqeHI4RXRhZDNobnI1cUZkcEJUNnpQY2lqNnQ3eFJGQktrUUdUajV4d9IBVEFVX3lxTE10UjREaDhiWi1tQXczdWtPM2RfTUgwdFVJZFlOM09UTlJnd1hFWU1kS3NMUjdhSVRUUVhaVzYtelA4Mk5vdkt6aHl5OWNCM2RiWW96cQ?oc=5",
-              "published": "2026-09-30T20:49:48+09:00"
+              "title": "한화에어로 대전사업장 '폭발·화재위험' 무더기 적발…사법조치·과태료 5억원 처분",
+              "original": "한화에어로 대전사업장 '폭발·화재위험' 무더기 적발…사법조치·과태료 5억원 처분",
+              "source": "v.daum.net",
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15eDJneUczdnpnTnRwSGVzQlJ0bkItOUJ3YVZ6Q0sxcFk4dmswa1JEMWNtNHhLTFhxSXZucGVOVXRPenJXSjg4cDBZTjNrMXM?oc=5",
+              "published": "2026-10-01T17:26:16+09:00"
             }
           ]
         },
         {
           "stock": "LG전자",
           "ticker": "066570",
-          "title": "LG전자 - 재료 없이 약세",
-          "body": "LG전자는 대화형 AI를 입힌 '씽큐 온' 공개 소식에도 -1.16% 내린 <b>213,500원</b> 마감.",
-          "pct": -1.16,
-          "price": 213500.0,
+          "title": "LG전자 - 칠러 투자 확대에도 하락",
+          "body": "LG전자는 미국 버지니아에 1,500억원을 투자해 칠러 공장을 짓는 등 AI 데이터센터 냉각 시장 공략을 강화한다고 밝혔으나 -1.64% 내린 <b>210,000원</b> 마감. 로봇 연합을 확대해 배송부터 휴머노이드까지 사업 영역을 넓히는 행보도 이어졌다.",
+          "pct": -1.64,
+          "price": 210000.0,
           "currency": "KRW",
-          "as_of": "2026-09-30",
+          "as_of": "2026-10-01",
           "slots": [
             {
               "time": "9:10AM",
@@ -499,7 +553,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-01",
               "title": "장 초반 약세 출발",
-              "text": "개장 초부터 하락세로 출발한 가운데 미국 버지니아 칠러 공장 신설 투자 소식이 전해짐"
+              "text": "개장과 동시에 하락세로 시작하며 전 거래일 대비 낮은 가격에서 거래됨"
             },
             {
               "time": "10:30AM",
@@ -507,44 +561,62 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -2.58,
               "is_close": false,
               "date": "2026-10-01",
-              "title": "낙폭 다소 확대",
-              "text": "냉각 시장 공략을 위한 1500억원 투자 소식에도 매수세가 붙지 않으며 하락폭이 더 벌어짐"
+              "title": "낙폭 더 커짐",
+              "text": "오전 중 하락폭이 장 초반보다 확대되며 하루 중 가장 낮은 수준에 근접함"
+            },
+            {
+              "time": "1:00PM",
+              "price": 210000.0,
+              "pct": -1.64,
+              "is_close": false,
+              "date": "2026-10-01",
+              "title": "낙폭 일부 만회",
+              "text": "오후 들어 하락폭을 다소 줄이며 저점 대비 반등하는 흐름을 보임"
+            },
+            {
+              "time": "마감",
+              "price": 210000.0,
+              "pct": -1.64,
+              "is_close": true,
+              "date": "2026-10-01",
+              "title": "낙폭 축소 유지",
+              "text": "칠러 생산능력 확대와 미국 투자 소식이 이어진 가운데 오후 낙폭 축소 흐름을 그대로 이어가는 중"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "LG전자, '대화하는 가전' 어떻게 구현했나…'씽큐 온'에 대화형 AI 입혔다",
-              "original": "LG전자, '대화하는 가전' 어떻게 구현했나…'씽큐 온'에 대화형 AI 입혔다",
-              "source": "v.daum.net",
-              "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBEajdWaU96SlZoYWdBSWsxQ0duLTdReUFPdlNBd3V6WVl2RUhPM0FLMmV0cjEzc0RIZEh2b2J2YkM1M0tCSmxjZlJoWVNBSDFrUHJiZQ?oc=5",
-              "published": "2026-09-30T19:53:00+09:00"
+              "title": "LG전자·카카오모빌리티·로보티즈, 로봇연합 확대…배송 넘어 휴머노이드로",
+              "original": "LG전자·카카오모빌리티·로보티즈, 로봇연합 확대…배송 넘어 휴머노이드로",
+              "source": "지디넷코리아",
+              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIeDk2ZGZvaUVTTW1lUE5DWlRTbWswZWhSQV80WC1YbFhWMEpwdkJhb1otMTNDZUZFRWlEblVCMm1hUEFBVlJBTXVfM0hWUTI0NEdqUmtn?oc=5",
+              "published": "2026-10-01T17:39:23+09:00"
             },
             {
-              "title": "LG전자노조 평택지부, 한부모 가정 지원",
-              "original": "LG전자노조 평택지부, 한부모 가정 지원",
-              "source": "평택시사신문",
-              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA2STBJenU3bDlUOUdkRjA2MWRuN0sxWlpBczBZQzJQa2lKZ1VtaV9hZGtGOENvZFhRLUktX2FTREIyS3RLSWZ0b0ozN2FSOVN1UFM0ZzlwMTE2THo5X2RlbnpraF91aVV0ZUJR0gFrQVVfeXFMUDZJMEl6dTdsOVQ5R2RGMDYxZG43SzFaWkFzMFlDMlBraUpnVW1pX2Fka0Y4Q29kWFEtSS1fYVNEQjJLdEtJZnRvSjM3YVI5U3VQUzRnOXAxMTZMejlfZGVuemtoX3VpVXRlQlE?oc=5",
-              "published": "2026-09-30T19:29:29+09:00"
-            },
-            {
-              "title": "LG전자, 텀블러 세척기 ‘LG 마이컵’ 저변 넓힌다",
-              "original": "LG전자, 텀블러 세척기 ‘LG 마이컵’ 저변 넓힌다",
+              "title": "LG전자, 글로벌 칠러 생산능력 대폭 확대…AI 데이터센터 냉각 시장 공략 박차",
+              "original": "LG전자, 글로벌 칠러 생산능력 대폭 확대…AI 데이터센터 냉각 시장 공략 박차",
               "source": "뉴스엔뷰",
-              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1vSWlQc3dLR2NqMkZTYjlzbmJ2dndtZDY1eHNQeXJSc09wZThIS0J6LUpiOE8zVmNENmdaUjVTaGs4bWpjUFlOWEJXSUQ4Z0VMcUdfcVhKQjI0ZVRBd19UQ1JPNkE?oc=5",
-              "published": "2026-09-30T19:12:44+09:00"
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5DOFFOUkdiV0N6UkRXZ2dNX3FwamVNdjhjLUlNNFdzZHcxZXRpbVh1dVpidkI3eVFaRWxsaXpZZm8xekZRenE0YjRIRmdpazBIXy1SMlNXNUsxcWNQRk9tN21jaXg?oc=5",
+              "published": "2026-10-01T17:31:39+09:00"
+            },
+            {
+              "title": "LG전자, 美 버지니아에 칠러 공장 짓고 1,500억 투자",
+              "original": "LG전자, 美 버지니아에 칠러 공장 짓고 1,500억 투자",
+              "source": "스페셜타임스",
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Ua0pNVWNNWmxVLWpiaFk2MXRQS0lCZzlrVGpPanZPUlQ3R0lIM1ZHZDVCS3Z1d3VDVk1kSnd2NmVXRjlpN3J5TGk2V2tJd0RJZVhCc243M3ZRWW4zRzhua1VFZzJvTnhsWXBtNERURXd0Zw?oc=5",
+              "published": "2026-10-01T17:05:14+09:00"
             }
           ]
         },
         {
           "stock": "현대차",
           "ticker": "005380",
-          "title": "현대차 - 충전 구독 출시에도 약세",
-          "body": "현대차는 가정용 전기차 충전 구독 서비스 '마이홈차저'를 월 7만원대로 출시했다는 소식에도 -1.00% 내린 <b>347,000원</b> 마감. 9조원 규모 지역 투자 자신감과 투싼의 국산 SUV 최초 누적 판매 1000만대 돌파 소식도 함께 전해졌다.",
-          "pct": -1.0,
-          "price": 347000.0,
+          "title": "현대차 - 서울시와 자율주행 협력",
+          "body": "현대차는 서울시·기아와 함께 레벨4 자율주행 시내버스 상용화를 추진한다는 소식 속에 +0.29% 오른 <b>348,000원</b> 마감. 전기차 충전 자동화 기술도 처음 시연하며 미래 모빌리티 경쟁력을 부각시키는 모습이다.",
+          "pct": 0.29,
+          "price": 348000.0,
           "currency": "KRW",
-          "as_of": "2026-09-30",
+          "as_of": "2026-10-01",
           "slots": [
             {
               "time": "9:10AM",
@@ -552,8 +624,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.14,
               "is_close": false,
               "date": "2026-10-01",
-              "title": "장 초반 보합 출발",
-              "text": "개장 직후 소폭 상승으로 출발해 큰 변동 없이 보합권에서 움직이는 흐름을 보임"
+              "title": "보합권 출발",
+              "text": "개장 직후 소폭 상승하며 전 거래일 수준에서 거래가 시작됨"
             },
             {
               "time": "10:30AM",
@@ -561,39 +633,56 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.29,
               "is_close": false,
               "date": "2026-10-01",
-              "title": "오전 들어 약세 전환",
-              "text": "고속도로 AI 실증 등 도로공사와의 협력 소식에도 상승분을 반납하며 약보합으로 돌아섬"
+              "title": "소폭 하락 전환",
+              "text": "오전 중 상승분을 반납하며 약보합권으로 방향이 바뀌는 모습을 보임"
+            },
+            {
+              "time": "1:00PM",
+              "price": 346500.0,
+              "pct": -0.14,
+              "is_close": false,
+              "date": "2026-10-01",
+              "title": "약세 흐름 지속",
+              "text": "점심 무렵까지 소폭 하락세가 이어지며 보합권 아래에서 등락을 거듭함"
+            },
+            {
+              "time": "마감",
+              "price": 348000.0,
+              "pct": 0.29,
+              "is_close": true,
+              "date": "2026-10-01",
+              "title": "막판 반등 성공",
+              "text": "자율주행 버스 상용화 협력 소식이 전해진 가운데 오후 늦게 반등하며 플러스권으로 마감함"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "현대차, 가정용 전기차 충전 구독 서비스 '마이홈차저' 출시 … 월 7만원대로 이용",
-              "original": "현대차, 가정용 전기차 충전 구독 서비스 '마이홈차저' 출시 … 월 7만원대로 이용",
-              "source": "워크투데이",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB0TXZLOEZnY2RxVm16aXFLYm9pbWhES1VHLTJ3MXdpZDlOcF8zNm1WU3huSk5HM1loTFhfVWpneml5Y0ozSVBqdUtjOHpqV3dZdmM4akN4TUZuWWN0T2xHcHFWR0FBN3JJN3lLOQ?oc=5",
-              "published": "2026-09-30T21:37:36+09:00"
+              "title": "현대차·기아, 서울시와 손잡고 레벨4 자율주행 시내버스 상용화 추진",
+              "original": "현대차·기아, 서울시와 손잡고 레벨4 자율주행 시내버스 상용화 추진",
+              "source": "파이낸셜신문",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Ba0JTY1Y4VmM2SFl2OFpMdXFMLVpTN0hqX1VldGdxWUVjdjBYbkdoVm1UV0N6c2daYkRxZVBKMnAzc0kxanFMbW1kcGt6amxiVGVwUk1abHlDQ0xWamE0cXNZb1c5NmxlS1lz?oc=5",
+              "published": "2026-10-01T17:39:20+09:00"
             },
             {
-              "title": "[영상] 이원택 도지사 “우리는 현금, 다른 지역은 어음”…현대차 9조 투자 자신감",
-              "original": "[영상] 이원택 도지사 “우리는 현금, 다른 지역은 어음”…현대차 9조 투자 자신감",
-              "source": "투데이안",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1MbFhlbkNCUWpEUVBvM0MyT3QzUFljM0dDZTlhaVRsaVFLNnRXZDdvUHFFM2s3dE1CeVJsQmRQVEZCSVV5cTF3RnlaUDRHdjduY1lEUjhFeXdVYWdPRjZYTTVTUGh6eUZm?oc=5",
-              "published": "2026-09-30T20:55:39+09:00"
+              "title": "전기차 충전 ‘꽂으면 끝’…현대차그룹, 첫 시연",
+              "original": "전기차 충전 ‘꽂으면 끝’…현대차그룹, 첫 시연",
+              "source": "dt.co.kr",
+              "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE90cGswS19SUm1ZdHhSZXNuMlNsMkVMZnpkdVo0bkxOd0hGOTJtM1o4N3g5WjIwOF96VHpjZmR6WHZSODBrZ2dpUEd6MFVOdw?oc=5",
+              "published": "2026-10-01T17:38:44+09:00"
             },
             {
-              "title": "국산 SUV 최초 1000만대 돌파한 투싼, “비결이 뭘까?”",
-              "original": "국산 SUV 최초 1000만대 돌파한 투싼, “비결이 뭘까?”",
-              "source": "econovill.com",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBzb3lPZWxrZFZLSWJzelpXNmdscTJrQmxaQUpfMk5walpFZ0xzdm5aUDRSTUtnejFYRklrTkVWQlA1MVNmUUR4LUhMdkhEajJudFcySzFUclpNSTRUZE9KbVdfNDExT19CT3Zxaw?oc=5",
-              "published": "2026-09-30T19:32:00+09:00"
+              "title": "서울시, 2030년까지 자율주행 버스 500대 도입…현대차와 맞손",
+              "original": "서울시, 2030년까지 자율주행 버스 500대 도입…현대차와 맞손",
+              "source": "v.daum.net",
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xcGlMRGVmREx0bXlXNWRvbFdLWFdGdUtoRklENlk1OEJHVWRxME9PYzN0SmJXa3BqZXFsaWcxSXFjMWYtb0xRYjRXWm1fYWc?oc=5",
+              "published": "2026-10-01T17:36:01+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-09-30-kr.md",
-      "refreshed_at": "2026-09-30 21:41:16 KST",
-      "slots_refreshed_at": "2026-10-01 11:02:38 KST"
+      "markdown": "briefings/2026-10-01-kr.md",
+      "refreshed_at": "2026-10-01 17:46:08 KST"
     }
   }
 };
