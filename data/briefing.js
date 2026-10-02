@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-03 00:43:53 KST",
+  "generated_at": "2026-10-03 05:39:31 KST",
   "refreshed": [],
   "slots_refreshed": [
     "us"
@@ -49,8 +49,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.59,
               "is_close": false,
               "date": "2026-10-02",
-              "title": "소폭 약세 지속",
-              "text": "AI 개발도구 자체 호스팅 출시와 신기술 소식에도 하락세를 벗어나지 못하는 흐름이 이어지는 중"
+              "title": "약보합권 등락",
+              "text": "장중 내내 약세를 보이다가 신제품 소식에도 낙폭을 크게 줄이지 못함"
+            },
+            {
+              "time": "마감",
+              "price": 222.63999938964844,
+              "pct": -1.32,
+              "is_close": true,
+              "date": "2026-10-02",
+              "title": "낙폭 확대 마감",
+              "text": "자체 호스팅 출시 소식이 전해졌지만 매수세로 이어지지 못하며 하락폭이 오히려 커짐"
             }
           ],
           "slot_total": 2,
@@ -94,8 +103,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.89,
               "is_close": false,
               "date": "2026-10-02",
-              "title": "상승세 유지 중",
-              "text": "코파일럿 플랫폼 확장 소식이 전해진 가운데 오름폭을 유지하며 상승 흐름을 이어가는 중"
+              "title": "견조한 상승세",
+              "text": "OpenAI 리스크 우려 속에도 코파일럿 확장 소식에 힘입어 꾸준한 오름세를 보임"
+            },
+            {
+              "time": "마감",
+              "price": 517.530029296875,
+              "pct": 0.92,
+              "is_close": true,
+              "date": "2026-10-02",
+              "title": "상승폭 소폭 확대",
+              "text": "오후 들어서도 상승 흐름을 유지하며 하루 중 가장 높은 수준에서 흐름을 이어감"
             }
           ],
           "slot_total": 2,
@@ -139,8 +157,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.03,
               "is_close": false,
               "date": "2026-10-02",
-              "title": "상승폭 확대",
-              "text": "전일 소폭 상승 마감 이후 기술 전망 보도가 이어지며 오름폭이 더 커지는 모습"
+              "title": "상승 후 약보합",
+              "text": "양자 컴퓨팅 관련 호재성 분석이 나온 오전과 달리 오후 들어 상승분을 반납함"
+            },
+            {
+              "time": "마감",
+              "price": 43.77000045776367,
+              "pct": -0.5,
+              "is_close": true,
+              "date": "2026-10-02",
+              "title": "소폭 하락 전환",
+              "text": "장 초반 상승 흐름을 지키지 못하고 결국 보합권 아래로 내려앉으며 하루를 마무리"
             }
           ],
           "slot_total": 2,
@@ -184,8 +211,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.83,
               "is_close": false,
               "date": "2026-10-02",
-              "title": "최고치 경신 흐름",
-              "text": "5개월 만에 사상 최고치를 새로 쓴 가운데 시총 6조달러 기대감 속 오름세를 이어가는 중"
+              "title": "사상 최고 경신",
+              "text": "금리 동결 기대 속 나스닥 급등 흐름에 올라타며 장중 사상 최고치를 새로 씀"
+            },
+            {
+              "time": "마감",
+              "price": 233.9499969482422,
+              "pct": 1.34,
+              "is_close": true,
+              "date": "2026-10-02",
+              "title": "상승폭 다소 축소",
+              "text": "장중 최고치보다는 낮아졌지만 기술주 강세 분위기 속 견조한 상승세를 이어가는 중"
             }
           ],
           "slot_total": 2,
@@ -229,8 +265,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.03,
               "is_close": false,
               "date": "2026-10-02",
-              "title": "보합권 등락",
-              "text": "별다른 소식 없이 큰 변동 없는 보합권에서 하루 내내 잔잔한 흐름을 이어가는 중"
+              "title": "보합권 유지",
+              "text": "특별한 재료 없이 좁은 범위에서 등락을 거듭하며 큰 변화 없는 흐름을 이어감"
+            },
+            {
+              "time": "마감",
+              "price": 15.770000457763672,
+              "pct": -0.44,
+              "is_close": true,
+              "date": "2026-10-02",
+              "title": "소폭 약세 마감",
+              "text": "장 막판 들어서도 뚜렷한 방향성 없이 소폭 하락한 수준에서 하루를 마무리"
             }
           ],
           "slot_total": 2,
@@ -239,7 +284,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-02-us.md",
       "refreshed_at": "2026-10-02 10:36:15 KST",
-      "slots_refreshed_at": "2026-10-03 00:43:53 KST"
+      "slots_refreshed_at": "2026-10-03 05:39:31 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
