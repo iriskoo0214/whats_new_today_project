@@ -1,15 +1,15 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-03 05:39:31 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-10-03 09:24:28 KST",
+  "refreshed": [
     "us"
   ],
-  "default": "kr",
+  "slots_refreshed": [],
+  "default": "us",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
-      "label": "미국 증시 요약 2026. 10. 2. 10:36AM",
+      "label": "미국 증시 요약 2026. 10. 3. 9:24AM",
       "chips": [
         "전체",
         "IBM",
@@ -23,21 +23,21 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "next": "kr",
       "headline": "해외 5종목 중 4종목 상승, 1종목 하락 — IBM이 +2.59%로 가장 많이 올랐고 마이크로소프트가 -0.02%로 가장 부진했습니다.",
-      "market_headline": "美 국채금리 24년만에 5.34% 급등에도 뉴욕증시 강보합",
+      "market_headline": "美 고용 부진에 금리인상 우려 완화, 뉴욕 3대 지수 일제히 상승",
       "market_card": {
-        "title": "3대 지수 강보합 마감...금리 고점 후퇴·반도체 강세",
+        "title": "3대 지수 상승 마감...나스닥 1.2%↑ 급등",
         "bullets": [
-          "美 10년물 금리 5.34%까지 급등",
-          "금리 고점 후퇴와 AI·반도체주 강세",
-          "국채금리 부담 속 유가 급등 겹쳐 혼조"
+          "고용지표 둔화에 금리동결 기대 확산",
+          "나스닥 1.19% 상승 등 3대지수 동반 강세",
+          "G7 비축유 방출에 WTI 1.9% 하락"
         ]
       },
       "cards": [
         {
           "stock": "IBM",
           "ticker": "IBM",
-          "title": "IBM - 액센츄어發 IT서비스주 동반 상승",
-          "body": "IBM은 액센츄어 실적 호조에 소프트웨어·IT 서비스주가 동반 강세를 보이며 +2.59% 오른 <b>225.62달러</b> 마감. AI 코딩 플랫폼 '밥'의 자체 서버 설치 지원과 기업용 자체 호스팅 배포판 출시로 금융·공공 분야 AI 주권 거버넌스를 강화한 점도 투자심리에 긍정적으로 작용한 모습이다.",
+          "title": "IBM - 신규 AI 개발도구 출시",
+          "body": "IBM은 기업 내부에서 쓰는 AI 개발도구를 출시해 코드·데이터 유출 부담을 낮췄다는 소식 속에 +2.59% 오른 <b>225.62달러</b> 마감.",
           "pct": 2.59,
           "price": 225.6199951171875,
           "currency": "USD",
@@ -46,52 +46,52 @@ window.NOTEFOLIO_BRIEFING = {
             {
               "time": "11:00PM",
               "price": 224.27999877929688,
-              "pct": -0.59,
+              "pct": -0.65,
               "is_close": false,
               "date": "2026-10-02",
-              "title": "약보합권 등락",
-              "text": "장중 내내 약세를 보이다가 신제품 소식에도 낙폭을 크게 줄이지 못함"
+              "title": "소폭 약세 흐름",
+              "text": "저온 냉장고 개발 소식이 전해졌지만 주가는 약세를 벗어나지 못하며 하락세 지속"
             },
             {
               "time": "마감",
-              "price": 222.63999938964844,
-              "pct": -1.32,
+              "price": 222.6699981689453,
+              "pct": -1.36,
               "is_close": true,
               "date": "2026-10-02",
               "title": "낙폭 확대 마감",
-              "text": "자체 호스팅 출시 소식이 전해졌지만 매수세로 이어지지 못하며 하락폭이 오히려 커짐"
+              "text": "AI 개발도구 출시 소식에도 매수세가 받쳐주지 못하며 낙폭을 더 키운 채 거래를 마침"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "IBM, AI 코딩 플랫폼 ‘밥’ 자체 서버 설치 지원…금융·공공 대상",
-              "original": "IBM, AI 코딩 플랫폼 ‘밥’ 자체 서버 설치 지원…금융·공공 대상",
-              "source": "AI 매터스",
-              "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB2T29jaGR0V05qYVdweDRDRlZTaUJvZkpJME9VSjNnLTZXVm9RWmtTUkViQmFKUmdOTVNtb1cxVTNlV0RMQ0llQnVDTHBnQ2RDVXduUA?oc=5",
-              "published": "2026-10-02T09:44:08+09:00"
+              "title": "IBM이 우주보다 180배나 더 차가운 세계 최저온 \"냉장고\"를 개발했습니다. 도대체 무슨 일을 하고 있는 걸까요?",
+              "original": "IBM이 우주보다 180배나 더 차가운 세계 최저온 \"냉장고\"를 개발했습니다. 도대체 무슨 일을 하고 있는 걸까요?",
+              "source": "Vietnam.vn",
+              "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYVQyYUdaaU1Mc1E4aUZsQnlxWjRZS1poTmhBU3hkWm5xVUVMb3duVmZWa1NHRDdJT2c0YldMVDAtUUZfSHNuU2ZCRDZ5alJUeXd0M18xeFpqc0VMU1VEcUR2a2lqa1F3Wi1GTExrSUE0bTBjVHZBUDFsWGhjNlRQTVA4R053RjdncnA1OTMwYUs0cUp5X3NyTEhaYXp3ekhPNW1YY3NHbElyekRfRG5JY2lpSjJxNkZNUm9LOU5B?oc=5",
+              "published": "2026-10-02T23:41:16+09:00"
             },
             {
-              "title": "액센츄어 실적 호조에 소프트웨어·IT 서비스주 동반 상승···코그니전트·IBM 등 주가↑",
-              "original": "액센츄어 실적 호조에 소프트웨어·IT 서비스주 동반 상승···코그니전트·IBM 등 주가↑",
-              "source": "kr.benzinga.com",
-              "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxQalVQLUpKTlF3YmhwRkcwS2pxRU40Nm5XVzRXWWw1dzZQX3Y1b3pGd3p1WGFmQ3E1amRUUWpoTGp5UFoyTV83M2NfWWNtRnRjTFJuQWdvUl9jQkN4VWRrYU1WLVhZWWN1Q2FVZm9GNG5FNm9pQlJpd2c0Z2RUNDFOQlltRW0wT1NiS09EVEFVZlpleXY4WlZqa0ZpNWxHYy1VclBENEdHUXJvQ2h2d3FtWXFLRURkazhsbEw1UUdhcVVjMU9YVWlIYzdqa2NsSFA2UUM5TTBLdjZ3SEUtNHhFNVFVbTRuWUxub201UkYxYUpLaFFxUGZOUnFuNWZkbXh1S280cTMyTF9IeTdvdjY5emlIR0lxM29PbzdZekp3bGdsLUR5SU9JZDB3b1pseV8wT3ptdE1Objh4VzNWNl8wVDJxQUxsTk1PNFdFRlJ3?oc=5",
-              "published": "2026-10-02T09:38:08+09:00"
+              "title": "[클라우드 월드] AWS '아마존 클라우드워치 옴니' 출시·'구글 AI 프로' 캠페인·'IBM 밥 자체 호스팅' 출시·가비아 '클라우드 전환비용 지원사업'·KACI 'AI-MDC' 성과 공유·AI전략위 '인공지능책임관 협의회'",
+              "original": "[클라우드 월드] AWS '아마존 클라우드워치 옴니' 출시·'구글 AI 프로' 캠페인·'IBM 밥 자체 호스팅' 출시·가비아 '클라우드 전환비용 지원사업'·KACI 'AI-MDC' 성과 공유·AI전략위 '인공지능책임관 협의회'",
+              "source": "뉴스웍스",
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8yZFpOSUhwRXR5TV9FaEhmZGpoU3AyMnZXOWctUkF2aEYxUjhSSFFnQlFIMlFNOWQ2TU41NnN2TjhRYURETTdsZWdUUG44VzJpa2tBbFp4bVdodDgzZk1KNFN2eUthbXhuQjlmNDlPd9IBc0FVX3lxTE0tSG5ockE3MzVEWEY4dHNyNTQ2Q0FqRWM0UGdCdEZLOVpMc2VDdTE2X3NBWU1TVFY5UWpwVVMxMHF6cENpbXBZcVpqUGVPby1ZZnVlR21aXzRJTThjRFZqZlhPcHVhR2FZWmxiajlWUDhwd1E?oc=5",
+              "published": "2026-10-02T18:23:49+09:00"
             },
             {
-              "title": "IBM, 기업 AI 주권 거버넌스 강화 위한 IBM 밥 자체 호스팅 배포 버전 출시",
-              "original": "IBM, 기업 AI 주권 거버넌스 강화 위한 IBM 밥 자체 호스팅 배포 버전 출시",
-              "source": "보드나라",
-              "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE94SGR3TmpPZlNfT1RSLWxycFZjdWxEZWZoLVRIcWFsZ3VlSEY1d2Y1ZFJHLXZSbFNCeDRXcDlLRXJKQUVxczgxU0R1S05STnJWNzFDOE52VjRtYjZYa0dnSC00NA?oc=5",
-              "published": "2026-10-02T09:29:20+09:00"
+              "title": "IBM, 기업 내부서 쓰는 AI 개발도구 출시…코드·데이터 유출 부담 낮춰",
+              "original": "IBM, 기업 내부서 쓰는 AI 개발도구 출시…코드·데이터 유출 부담 낮춰",
+              "source": "v.daum.net",
+              "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBvTzlWWVBNOTc5V3RjUnMzME1SQlUxSGh4dnBhenNVQ2p2REp0c2tMUlZhSGs4X2F6bG5mU05RZXNTLU41T01Nbnp4OA?oc=5",
+              "published": "2026-10-02T17:45:04+09:00"
             }
           ]
         },
         {
           "stock": "마이크로소프트",
           "ticker": "MSFT",
-          "title": "마이크로소프트 - 코파일럿 오피스 통합 발표",
-          "body": "마이크로소프트는 코파일럿을 '업무용 OS'로 재편해 오피스에 통합한다는 소식 속에 -0.02% 내린 <b>512.80달러</b>로 보합 마감. 윈도우 11 26H2 업데이트와 음성·전사 AI 모델 출시 등 제품 라인업 확장이 이어졌으나 주가에는 큰 영향을 주지 못한 모습이다.",
+          "title": "마이크로소프트 - X 계정 해킹에도 보합권",
+          "body": "마이크로소프트는 X 계정이 해킹당해 밈코인 홍보물이 게시된 가운데 -0.02% 내린 <b>512.80달러</b> 마감. 마이클 버리가 오픈AI 상장 전 시장 붕괴를 거론하며 마이크로소프트도 위험에 노출됐다는 분석도 나왔다.",
           "pct": -0.02,
           "price": 512.7999877929688,
           "currency": "USD",
@@ -100,52 +100,52 @@ window.NOTEFOLIO_BRIEFING = {
             {
               "time": "11:00PM",
               "price": 517.3599853515625,
-              "pct": 0.89,
+              "pct": 0.83,
               "is_close": false,
               "date": "2026-10-02",
-              "title": "견조한 상승세",
-              "text": "OpenAI 리스크 우려 속에도 코파일럿 확장 소식에 힘입어 꾸준한 오름세를 보임"
+              "title": "상승세로 출발",
+              "text": "X 계정 해킹 소식과 버리의 경고성 발언에도 아랑곳없이 꾸준한 오름세를 이어감"
             },
             {
               "time": "마감",
-              "price": 517.530029296875,
-              "pct": 0.92,
+              "price": 517.8599853515625,
+              "pct": 0.93,
               "is_close": true,
               "date": "2026-10-02",
-              "title": "상승폭 소폭 확대",
-              "text": "오후 들어서도 상승 흐름을 유지하며 하루 중 가장 높은 수준에서 흐름을 이어감"
+              "title": "상승폭 확대 마감",
+              "text": "장 후반 들어 오름세가 더 탄탄해지며 하루 중 가장 높은 수준에서 거래를 마침"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "마이크로소프트가 작업 표시줄 위치 변경 기능을 제공하는 윈도우 11 26H2 업데이트를 출시했습니다.",
-              "original": "마이크로소프트가 작업 표시줄 위치 변경 기능을 제공하는 윈도우 11 26H2 업데이트를 출시했습니다.",
-              "source": "Vietnam.vn",
-              "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUDBfdE0tWWRaUFE2Zkd6QUVac1lfUjZFZzhjZ25UM1B1MF9RajhTM25helN1RXlkTTNFbF9MMmMwbnhQZXdoR3YxX2hFSlpZVUx0VkExbVNzdnh1dl9RSmEyUkFEem84TnMwYmhJbE10SHA0N1BtOWNOS1piYmtuakpfeXRDODFWX3I5NXY2bXotQQ?oc=5",
-              "published": "2026-10-02T10:23:15+09:00"
+              "title": "마이크로소프트의 X 계정이 해킹당해 ‘클리피’ 밈 코인을 홍보했다",
+              "original": "마이크로소프트의 X 계정이 해킹당해 ‘클리피’ 밈 코인을 홍보했다",
+              "source": "Bitcoin News",
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcnlOcFFDTVc3MWRGeU1ucnU5MHF3MjNIUzltdGtFay05VHo3dm9MOU13eDVUcXN1YjI2MVhJd292NFA4aXBTUF9zWTlWV2JubFZIQVlMRkdMQWxXSlk4bEpGQzg1aDFUc2hyRk1RSVJqaXk4RXdVazJXZ1dCLVVzMGd5NHFQWDQxT1hwMUpRYzR3NERKWHRmMjRiTDd1QXEzQngxQWNoQVRPb19HY191cU1BVXBQN3lnOHNaeWgwdWJfZw?oc=5",
+              "published": "2026-10-03T07:11:02+09:00"
             },
             {
-              "title": "마이크로소프트, 코파일럿을 \"업무용 OS\"로 재편…오피스 통합",
-              "original": "마이크로소프트, 코파일럿을 \"업무용 OS\"로 재편…오피스 통합",
-              "source": "디지털포커스",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9wcHhnWm1hNjBibzRJcDdROHphTXN4MmtRdjRDOHMtQ1RUX21xdXdadGtBNWN5ZkNCZk5VbF9OaFRXS3V0dGp0UWRFM0lSTzBYN0cxbmxNR2hIbGJ0SWFVT2hVY2FiUXpLSGtCbmpOOWg?oc=5",
-              "published": "2026-10-02T07:14:04+09:00"
+              "title": "마이크로소프트 X 계정 해킹돼 클리피 밈코인 홍보물 게시",
+              "original": "마이크로소프트 X 계정 해킹돼 클리피 밈코인 홍보물 게시",
+              "source": "토큰포스트",
+              "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA5Zk1YYTl5bHhQQ3NJXzlXZFQ3M1UwQjFfTGZkZHZlOFk2akVXTnN2OWtJbVlyU0lwYjB1dHJnZnpUTnRmaXRhMEQ1amV1MmtGai1hQXBvYzY?oc=5",
+              "published": "2026-10-03T06:54:00+09:00"
             },
             {
-              "title": "Microsoft, MAI-Transcribe-2-Streaming 및 두 개의 MAI-Voice 모델을 출시",
-              "original": "Microsoft, MAI-Transcribe-2-Streaming 및 두 개의 MAI-Voice 모델을 출시",
-              "source": "Unite.AI",
-              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOU0tOcGY5VlZ6dkhDWUhDdk9EWGNVUXN0QmcxczFUNHNMUjM2ZFk0TlVTYkRSSWpPQm55cXNmcTZXQ0lqVXVJMXN2ckpVYVREamlFZlBEVEU5WjJSZm05ZUJMS1l2b3RVNUJOeFpDX3ZTelhUaGxLUFlWbUloM1BCXzN0MWxfQzFCWnFMYzI2eF83eDdSWmNBQUVMVQ?oc=5",
-              "published": "2026-10-02T06:55:00+09:00"
+              "title": "마이클 버리, OpenAI 상장 전 시장이 “크게 무너지길” 바란다...Microsoft도 위험 노출",
+              "original": "Michael Burry Wants Markets to “Tank Hard” Before the OpenAI IPO, and Microsoft Is Exposed",
+              "source": "TIKR.com",
+              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeUZOLU5UakloVU5NNXhwVmlQNlZPNTZaWXNPOHF0M2NXZDZ0SHM2UkxsNnIyV0RvOGVtQ1R2RmlaMzZTVzhBUTEzZ0RncUlLbnlzYnVrN2pobWtmSDcwZERXOXZvXzlrODlNR1J3bmM0c01ycVU1UjVKQUF0X1V0VUlEVDNfRjdIN1NSaUktb1owRUl3eUJrWnJpdjdtNWhpcEZnYlNiQnRsU1FEbGdtUzJJQVFTSms?oc=5",
+              "published": "2026-10-03T02:15:00+09:00"
             }
           ]
         },
         {
           "stock": "아이온큐",
           "ticker": "IONQ",
-          "title": "아이온큐 - 흑자 전환 가시권 분석 부각",
-          "body": "아이온큐는 흑자 전환이 '가시거리'에 들어왔고 71% 상승 잠재력이 있다는 분석이 나오며 +0.30% 오른 <b>43.99달러</b> 마감. 양자 컴퓨팅 상용화 시기와 비용 문제의 돌파구가 마련되고 있다는 평가도 더해지며 투자심리가 개선된 모습이다.",
+          "title": "아이온큐 - 뚜렷한 재료 없이 소폭 상승",
+          "body": "아이온큐는 +0.30% 오른 <b>43.99달러</b> 마감.",
           "pct": 0.3,
           "price": 43.9900016784668,
           "currency": "USD",
@@ -154,20 +154,20 @@ window.NOTEFOLIO_BRIEFING = {
             {
               "time": "11:00PM",
               "price": 44.8849983215332,
-              "pct": 2.03,
+              "pct": 2.05,
               "is_close": false,
               "date": "2026-10-02",
-              "title": "상승 후 약보합",
-              "text": "양자 컴퓨팅 관련 호재성 분석이 나온 오전과 달리 오후 들어 상승분을 반납함"
+              "title": "상승 전환 흐름",
+              "text": "오전 소폭 상승 마감 이후 분위기가 바뀌며 플러스권으로 올라서는 흐름이 나타남"
             },
             {
               "time": "마감",
               "price": 43.77000045776367,
-              "pct": -0.5,
+              "pct": -0.49,
               "is_close": true,
               "date": "2026-10-02",
-              "title": "소폭 하락 전환",
-              "text": "장 초반 상승 흐름을 지키지 못하고 결국 보합권 아래로 내려앉으며 하루를 마무리"
+              "title": "약보합 마감",
+              "text": "장중 반등 시도가 있었지만 끝내 힘을 받지 못하고 소폭 약세로 하루를 마무리"
             }
           ],
           "slot_total": 2,
@@ -178,28 +178,14 @@ window.NOTEFOLIO_BRIEFING = {
               "source": "TopStarNews",
               "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1NRTZPSUFXRU81Yjdhelk4dlRQSS1DNkl6QVpSVVFjb3c3SFpvNnk5UVdzbmVKNEt5RWtMcU1JUk9YQmpkaUV0Zl84dnJKUDNnMEVrdkxhd0U3b2pOc01ZMWxMekFHSEVyYTZKTlJ0WC1BUQ?oc=5",
               "published": "2026-10-02T09:51:54+09:00"
-            },
-            {
-              "title": "[GAM]아이온큐 퀀텀 이정표 ② 흑자 전환 '가시거리' 71% 상승 잠재력",
-              "original": "[GAM]아이온큐 퀀텀 이정표 ② 흑자 전환 '가시거리' 71% 상승 잠재력",
-              "source": "뉴스핌",
-              "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aY2pqc0hNQ2prNXd0eFRaV3BmakxUR1dDUHIxYU45dVZ6NUhpMGJaZDlpSlVRRXBQZk83ZVlZT3huend4dmJ3TXRteGRBUlVkVVZ4YUh3YS1SOVRV?oc=5",
-              "published": "2026-10-02T08:01:00+09:00"
-            },
-            {
-              "title": "[GAM]아이온큐 퀀텀 이정표 ① 양자 컴퓨팅 상용화 시기·비용 돌파구",
-              "original": "[GAM]아이온큐 퀀텀 이정표 ① 양자 컴퓨팅 상용화 시기·비용 돌파구",
-              "source": "뉴스핌",
-              "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1mQzZ0N2RqWXctclJFN3BtRnZ0ampxVTZXVUhPTGhsSUVBN09BWGgzWHdhRXVJV0xfcy02VUE4SjZ3UHZQLS1zbWZaeE0xNDVvNnFGWkJ5U0M5YTBR?oc=5",
-              "published": "2026-10-02T08:00:00+09:00"
             }
           ]
         },
         {
           "stock": "엔비디아",
           "ticker": "NVDA",
-          "title": "엔비디아 - 오픈AI 투자금 82조원 전액 납입",
-          "body": "엔비디아는 소프트뱅크와 함께 오픈AI에 투자 약속한 82조원을 모두 납입했다는 소식에 +1.09% 오른 <b>230.86달러</b> 마감. AI가 로봇 등 현실 세계로 확장되며 삼성·LG의 로봇 경쟁 구도도 달라질 것이라는 전망과 Arm의 AI 에이전트 보안 플랫폼 적용 소식도 더해져 투자심리가 우호적인 모습이다.",
+          "title": "엔비디아 - 고용 둔화에 신고가",
+          "body": "엔비디아는 고용 둔화로 금리 동결론이 힘을 받으며 +1.09% 오른 <b>230.86달러</b> 마감. 'DGX 스파크' 용량을 반토막 내고 가격을 인상했다는 소식과 5000억 달러 칩 담보 대출안에 대한 월가 신중론도 함께 전해졌다.",
           "pct": 1.09,
           "price": 230.86000061035156,
           "currency": "USD",
@@ -208,44 +194,44 @@ window.NOTEFOLIO_BRIEFING = {
             {
               "time": "11:00PM",
               "price": 237.39999389648438,
-              "pct": 2.83,
+              "pct": 2.79,
               "is_close": false,
               "date": "2026-10-02",
-              "title": "사상 최고 경신",
-              "text": "금리 동결 기대 속 나스닥 급등 흐름에 올라타며 장중 사상 최고치를 새로 씀"
+              "title": "신고가 경신 흐름",
+              "text": "금리 동결 기대감이 번지며 장 초반부터 신고가를 새로 쓰는 강한 오름세가 나타남"
             },
             {
               "time": "마감",
-              "price": 233.9499969482422,
-              "pct": 1.34,
+              "price": 233.99000549316406,
+              "pct": 1.31,
               "is_close": true,
               "date": "2026-10-02",
-              "title": "상승폭 다소 축소",
-              "text": "장중 최고치보다는 낮아졌지만 기술주 강세 분위기 속 견조한 상승세를 이어가는 중"
+              "title": "강세 이어가는 중",
+              "text": "칩 담보 대출안 관련 신중론에도 매수세가 꺾이지 않으며 상승 흐름을 끝까지 유지"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "엔비디아 \"AI, 현실 세계로 확장\"…삼성·LG 로봇 경쟁도 달라진다 - 머니투데이",
-              "original": "엔비디아 \"AI, 현실 세계로 확장\"…삼성·LG 로봇 경쟁도 달라진다 - 머니투데이",
-              "source": "머니투데이",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5mSmpxRkpkblVrMDROOC1oeHR2SGJ1Nm9Hc3Q2NTQxalQ1elJjV3FsR2x6Nmh4RGxqeDB0bldUdWFDUWFBekVZMFJYTkc5clozdWlxM0Z4Vm52SzVNc1lMSERwTC1GX3ItcEJfMtIBckFVX3lxTE0zRXdLRkR6S2M2RExDcEpQcjQ2VEM1OWJSME9KM0ZObE9lLXktdzVrUDdFTlhna0NOcnpYSEtUblVDT2kzODJBZEVRVGpMZUo3UzFfMUctXzdlMEtFb0VkWGJSeEZGLWdGVEtyOEFvMnhZZw?oc=5",
-              "published": "2026-10-02T10:22:50+09:00"
+              "title": "\"엔비디아도 어쩔 수가 없다\"…`DGX 스파크` 용량 반토막 내고 가격 인상",
+              "original": "\"엔비디아도 어쩔 수가 없다\"…`DGX 스파크` 용량 반토막 내고 가격 인상",
+              "source": "디지털데일리",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB5cEtMNDg5enozMjFDU0dEQk1lS090bHhqR0RkN2Y1TjlleXFpVmUwVkZvLW9iUGR0SGY4S3RILU9CdWdNamJlVUgtblRDa3RxajZaNVpoc0lJamUwUGw1QXNDcS0?oc=5",
+              "published": "2026-10-03T09:09:03+09:00"
             },
             {
-              "title": "엔비디아·소프트뱅크, 오픈AI에 투자 약속한 82조원 모두 납입",
-              "original": "엔비디아·소프트뱅크, 오픈AI에 투자 약속한 82조원 모두 납입",
-              "source": "yna.co.kr",
-              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE11QnczT1U1NXpES1A2eXRGX29pajJDenlDRUtlQ0xIUk5DVE05aUxodE02UGI0N3pFTFVVSnBrZFAwakM3SFZRRFRiSDdwckdzMy1NbjFnMGM2WTTSAWBBVV95cUxNMHJaREp5V3dMUDVPUm90d2I1NnhxNUdEckhfODlINUlTbWZkT2xTYy1pVFhmMDlTYTdpRWdkcjB0dThmSnR6SWI0WFJUSVlmUER4NHB6c3FfekZaeXhCbVc?oc=5",
-              "published": "2026-10-02T10:21:30+09:00"
+              "title": "[뉴욕증시] 고용 둔화에 힘 받는 금리 동결론, 엔비디아 '신고가'···금리 반등 '찜찜'",
+              "original": "[뉴욕증시] 고용 둔화에 힘 받는 금리 동결론, 엔비디아 '신고가'···금리 반등 '찜찜'",
+              "source": "서울파이낸스",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYZGdXRndmaFhfRWhGVlItSkNHR1lxWFh4S0hZUFJOY1EzVW91NW9zUW9aclZHZHR0ZElDZ010UEtYdmxfSmp4akhFZHR5b3lka3gtbW5NRXZ2WWhnLXBnX0duMHMzZGJrc2c?oc=5",
+              "published": "2026-10-03T08:45:10+09:00"
             },
             {
-              "title": "Arm, 엔비디아 AI 에이전트 보안 플랫폼에 ‘감시 기술’ 적용 - 조선비즈",
-              "original": "Arm, 엔비디아 AI 에이전트 보안 플랫폼에 ‘감시 기술’ 적용 - 조선비즈",
-              "source": "biz.chosun.com",
-              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObnRHT282dWVfYVRRVFJZZjJFem5XWUVoR25NM3dvdXotVjR4dW0tYWRLaHY0Zk1CRElGLVZLa3RRZGg1RVNjU08tT3k5WkFDbjF3MDZVNGlpU3FCXzYtSlJ3WUIyYVViV1RkaG5QQzFTTkt4MDFCaTg1S2l4NVk3dWdR0gGWAUFVX3lxTFBpOURNeGk3Ym5XX1FLRWxGS3JxUi1Ea3BkZzFoSTZGRk00d2ZCSE1DMzRDX2V4VUhYYUc1N0RhUlpnN292OUxidUlXTkZNM05qeXBzSENqZWlWNkt2eDFyM3MyVl9zY3drWnN3WEZraFg2Y1Q3S1N1T01kbUtoWUJnN1FTRVdVYjQ1dzhQaXZobzF0UG14UQ?oc=5",
-              "published": "2026-10-02T10:07:00+09:00"
+              "title": "엔비디아 5000억 달러 칩 담보 대출안, 월가 신중론에 조건 강화 가능성",
+              "original": "엔비디아 5000억 달러 칩 담보 대출안, 월가 신중론에 조건 강화 가능성",
+              "source": "글로벌이코노믹",
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdUd4Y2dMZHNrUXlwNTJXc0tOVG14MHJ3TS05MDlObE5QTmtTTkgzQ1dyTDlUdHJoMldCWUsxT1dIblQtaUNGMDZVRml5MzYyY082Y1UwUHpGQmJtdXotX283TC1MdHk0Ry1uck91Y3NWRUxnSjNyRmJJaTVEM3NwcDQ1czhLR3px?oc=5",
+              "published": "2026-10-03T08:11:57+09:00"
             }
           ]
         },
@@ -253,7 +239,7 @@ window.NOTEFOLIO_BRIEFING = {
           "stock": "소파이테크놀로지",
           "ticker": "SOFI",
           "title": "소파이테크놀로지 - 재료 없이 소폭 상승",
-          "body": "소파이테크놀로지는 특별한 재료 없이 +0.76% 오른 <b>15.84달러</b> 마감.",
+          "body": "소파이테크놀로지는 +0.76% 오른 <b>15.84달러</b> 마감.",
           "pct": 0.76,
           "price": 15.84000015258789,
           "currency": "USD",
@@ -262,29 +248,28 @@ window.NOTEFOLIO_BRIEFING = {
             {
               "time": "11:00PM",
               "price": 15.845000267028809,
-              "pct": 0.03,
+              "pct": 0.16,
               "is_close": false,
               "date": "2026-10-02",
-              "title": "보합권 유지",
-              "text": "특별한 재료 없이 좁은 범위에서 등락을 거듭하며 큰 변화 없는 흐름을 이어감"
+              "title": "잔잔한 흐름 지속",
+              "text": "특별한 재료 없이 좁은 범위에서 등락을 거듭하며 큰 변화 없는 하루를 보냄"
             },
             {
               "time": "마감",
-              "price": 15.770000457763672,
-              "pct": -0.44,
+              "price": 15.755000114440918,
+              "pct": -0.41,
               "is_close": true,
               "date": "2026-10-02",
-              "title": "소폭 약세 마감",
-              "text": "장 막판 들어서도 뚜렷한 방향성 없이 소폭 하락한 수준에서 하루를 마무리"
+              "title": "약보합 마감",
+              "text": "장 후반 들어 상승분을 반납하며 결국 소폭 하락한 채로 거래를 마무리함"
             }
           ],
           "slot_total": 2,
           "news": []
         }
       ],
-      "markdown": "briefings/2026-10-02-us.md",
-      "refreshed_at": "2026-10-02 10:36:15 KST",
-      "slots_refreshed_at": "2026-10-03 05:39:31 KST"
+      "markdown": "briefings/2026-10-03-us.md",
+      "refreshed_at": "2026-10-03 09:24:28 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
