@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-04 02:11:56 KST",
+  "generated_at": "2026-10-04 06:07:58 KST",
   "refreshed": [],
   "slots_refreshed": [
     "us"
@@ -49,8 +49,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.59,
               "is_close": false,
               "date": "2026-10-02",
-              "title": "약세 흐름 지속",
-              "text": "장중 하락세가 이어지며 낙폭이 유지되는 모습을 보임, 자체 호스팅 AI 배포 소식도 큰 반등 요인은 되지 못함"
+              "title": "약세권 등락",
+              "text": "큰 변동 없이 소폭 하락세가 이어지며 전 거래일보다 낮은 수준에서 움직임이 지속됨"
             },
             {
               "time": "마감",
@@ -59,7 +59,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-10-02",
               "title": "낙폭 확대 마감",
-              "text": "장 후반 들어 하락폭이 더 커지며 전 시점보다 약세가 심화된 채로 하루를 마무리함"
+              "text": "장 후반으로 갈수록 하락폭이 커지며 하루 중 가장 낮은 수준에서 거래를 마침"
             }
           ],
           "slot_total": 2,
@@ -103,8 +103,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.89,
               "is_close": false,
               "date": "2026-10-02",
-              "title": "강세 흐름 이어감",
-              "text": "AI 투자 성과가 부각된 뉴스 이후 주가가 큰 폭으로 반등하며 상승세를 꾸준히 유지하는 모습"
+              "title": "AI 호재에 반등",
+              "text": "AI 투자 성과가 역대급 기록을 냈다는 소식이 전해진 뒤 상승 흐름이 뚜렷하게 자리 잡음"
             },
             {
               "time": "마감",
@@ -112,8 +112,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.92,
               "is_close": true,
               "date": "2026-10-02",
-              "title": "상승폭 소폭 확대",
-              "text": "장 후반까지 오름세가 이어지며 하루 중 고점권을 유지한 채로 상승 마감함"
+              "title": "상승세 유지 마감",
+              "text": "오후 호재 이후 오름폭을 그대로 지켜내며 장 막판까지 강세 흐름을 이어감"
             }
           ],
           "slot_total": 2,
@@ -157,8 +157,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.03,
               "is_close": false,
               "date": "2026-10-02",
-              "title": "상승 흐름 유지",
-              "text": "특별한 소식 없이도 오름세를 이어가며 장 후반까지 상승세를 지켜내는 흐름을 보임"
+              "title": "상승 반납 마감",
+              "text": "장중 두 자릿수 오름폭을 보이다 후반 들어 상승분을 대부분 내주며 약보합으로 전환됨"
             },
             {
               "time": "마감",
@@ -166,8 +166,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.5,
               "is_close": true,
               "date": "2026-10-02",
-              "title": "상승분 일부 반납",
-              "text": "장 막판 들어 오름폭이 줄어들며 하루 중 고점보다 낮은 수준에서 마무리됨"
+              "title": "막판 상승폭 축소",
+              "text": "늦은 시간까지 강세를 유지했으나 마감 직전 매물이 나오며 보합권까지 밀려 내려옴"
             }
           ],
           "slot_total": 2,
@@ -197,8 +197,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.83,
               "is_close": false,
               "date": "2026-10-02",
-              "title": "상승세 뚜렷",
-              "text": "AI 안전장치 공개와 투자 수익률 관련 소식이 겹치며 주가가 꾸준한 오름세를 이어감"
+              "title": "강세 흐름 지속",
+              "text": "경쟁사 시총 급락과 신제품 소식이 겹친 가운데도 투자 재조명 분위기 속 상승세가 이어짐"
             },
             {
               "time": "마감",
@@ -207,7 +207,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-10-02",
               "title": "상승폭 다소 축소",
-              "text": "장 후반 들어 오름폭이 줄었으나 하루 전체로는 견조한 상승 흐름을 유지한 채 마감함"
+              "text": "장중 고점보다는 낮아졌지만 하루 종일 이어온 오름세를 지켜내며 강세로 마감함"
             }
           ],
           "slot_total": 2,
@@ -251,8 +251,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.03,
               "is_close": false,
               "date": "2026-10-02",
-              "title": "약보합권 유지",
-              "text": "저가 매수 논의가 나온 가운데서도 주가는 큰 변동 없이 보합권에서 움직이는 모습"
+              "title": "약보합권 등락",
+              "text": "올해 들어 큰 폭 하락했다는 평가가 나온 가운데 저가 매수 기대와 매도세가 엇갈리는 흐름"
             },
             {
               "time": "마감",
@@ -261,7 +261,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-10-02",
               "title": "소폭 하락 마감",
-              "text": "장 후반 들어 상승폭을 반납하며 약보합 수준에서 하루를 마무리함"
+              "text": "저녁 무렵 보였던 보합세에서 밀리며 전 거래일보다 낮은 수준에서 거래를 마침"
             }
           ],
           "slot_total": 2,
@@ -270,7 +270,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-03-us.md",
       "refreshed_at": "2026-10-03 09:24:28 KST",
-      "slots_refreshed_at": "2026-10-04 02:11:56 KST"
+      "slots_refreshed_at": "2026-10-04 06:07:58 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
