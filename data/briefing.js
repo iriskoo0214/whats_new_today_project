@@ -1,10 +1,10 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-04 21:14:45 KST",
-  "refreshed": [
-    "kr"
+  "generated_at": "2026-10-05 02:27:08 KST",
+  "refreshed": [],
+  "slots_refreshed": [
+    "us"
   ],
-  "slots_refreshed": [],
   "default": "kr",
   "markets": {
     "us": {
@@ -50,7 +50,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-02",
               "title": "약보합 흐름",
-              "text": "특별한 재료 없이 낙폭이 소폭 발생하며 전일 대비 약세 흐름이 이어짐"
+              "text": "특별한 재료 없이 완만한 약세 흐름이 이어지며 소폭 하락한 채로 거래가 진행됨"
             },
             {
               "time": "마감",
@@ -59,7 +59,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-10-02",
               "title": "낙폭 확대 마감",
-              "text": "장 후반 들어 하락폭이 더 커지며 하루 중 저점 부근에서 거래를 마침"
+              "text": "장 후반으로 갈수록 하락폭이 커지며 전 시점보다 더 밀린 채로 거래를 마무리함"
             }
           ],
           "slot_total": 2,
@@ -81,8 +81,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.89,
               "is_close": false,
               "date": "2026-10-02",
-              "title": "AI 호재에 반등",
-              "text": "AI 투자 성과가 28년 만의 기록을 세웠다는 소식에 매수세가 유입되며 주가가 오름세로 전환"
+              "title": "견조한 상승세",
+              "text": "임원 이탈 소식에도 불구하고 매수세가 꾸준히 유지되며 상승 흐름을 지켜냄"
             },
             {
               "time": "마감",
@@ -90,8 +90,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.92,
               "is_close": true,
               "date": "2026-10-02",
-              "title": "강세 유지 마감",
-              "text": "오후 호재성 소식 이후 상승폭을 꾸준히 유지하며 장중 고점 부근에서 거래를 마침"
+              "title": "상승폭 유지 마감",
+              "text": "계정 해킹 이슈가 불거졌지만 주가에는 큰 영향을 주지 못하고 오름세를 이어감"
             }
           ],
           "slot_total": 2,
@@ -135,8 +135,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.03,
               "is_close": false,
               "date": "2026-10-02",
-              "title": "상승 후 되밀림",
-              "text": "장중 한때 뚜렷한 오름세를 보였으나 후반 들어 상승폭을 대부분 반납하는 흐름"
+              "title": "상승 전환 시도",
+              "text": "동종 양자컴주 약세 소식 이후 하락하던 흐름에서 벗어나 상승 쪽으로 방향을 바꿈"
             },
             {
               "time": "마감",
@@ -144,8 +144,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.5,
               "is_close": true,
               "date": "2026-10-02",
-              "title": "보합권 마감",
-              "text": "장 막판 상승분이 줄어들며 전일 수준과 큰 차이 없는 수준에서 거래를 마침"
+              "title": "오름폭 반납 마감",
+              "text": "장 후반 들어 상승분을 대부분 되돌리며 결국 소폭 하락한 채로 거래를 마감함"
             }
           ],
           "slot_total": 2,
@@ -167,8 +167,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.83,
               "is_close": false,
               "date": "2026-10-02",
-              "title": "강세 지속",
-              "text": "아마존 등 빅테크의 칩 수요 관련 소식이 이어지며 매수세가 유입되고 상승폭이 확대됨"
+              "title": "강세 흐름 지속",
+              "text": "투자 유치 소식과 다양한 뉴스 속에서도 매수세가 이어지며 오름폭을 키워감"
             },
             {
               "time": "마감",
@@ -177,7 +177,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-10-02",
               "title": "상승폭 다소 축소",
-              "text": "장 후반 들어 오름세가 일부 줄었지만 하루 종일 강세 흐름을 유지하며 마감"
+              "text": "장 막판 들어 상승 탄력이 한풀 꺾이며 최고점보다 낮은 수준에서 거래를 마무리함"
             }
           ],
           "slot_total": 2,
@@ -221,8 +221,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.03,
               "is_close": false,
               "date": "2026-10-02",
-              "title": "저가 매수 논란 속 약세",
-              "text": "연초 대비 큰 폭 하락한 가운데 저가 매수 시점을 둘러싼 분석 기사가 나오며 관심이 집중됨"
+              "title": "보합권 등락",
+              "text": "특별한 재료 없이 좁은 범위에서 오르내리며 거의 변화 없는 흐름을 이어감"
             },
             {
               "time": "마감",
@@ -231,7 +231,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-10-02",
               "title": "소폭 하락 마감",
-              "text": "장 막판까지 뚜렷한 반등 없이 약보합권에서 등락하다 소폭 하락세로 거래를 마침"
+              "text": "장 후반 들어 상승분을 반납하며 결국 약보합권에서 하루 거래를 마무리함"
             }
           ],
           "slot_total": 2,
@@ -247,7 +247,8 @@ window.NOTEFOLIO_BRIEFING = {
         }
       ],
       "markdown": "briefings/2026-10-04-us.md",
-      "refreshed_at": "2026-10-04 08:45:11 KST"
+      "refreshed_at": "2026-10-04 08:45:11 KST",
+      "slots_refreshed_at": "2026-10-05 02:27:08 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
