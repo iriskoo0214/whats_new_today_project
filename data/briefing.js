@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-05 02:27:08 KST",
+  "generated_at": "2026-10-05 06:16:02 KST",
   "refreshed": [],
   "slots_refreshed": [
     "us"
@@ -50,7 +50,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-02",
               "title": "약보합 흐름",
-              "text": "특별한 재료 없이 완만한 약세 흐름이 이어지며 소폭 하락한 채로 거래가 진행됨"
+              "text": "장중 내내 약세권에서 움직이며 낙폭을 크게 줄이지 못하는 모습이 이어짐"
             },
             {
               "time": "마감",
@@ -59,7 +59,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-10-02",
               "title": "낙폭 확대 마감",
-              "text": "장 후반으로 갈수록 하락폭이 커지며 전 시점보다 더 밀린 채로 거래를 마무리함"
+              "text": "장 후반 들어 매도세가 좀 더 강해지며 하루 중 가장 낮은 수준에서 거래를 마침"
             }
           ],
           "slot_total": 2,
@@ -81,8 +81,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.89,
               "is_close": false,
               "date": "2026-10-02",
-              "title": "견조한 상승세",
-              "text": "임원 이탈 소식에도 불구하고 매수세가 꾸준히 유지되며 상승 흐름을 지켜냄"
+              "title": "강보합권 유지",
+              "text": "임원 이탈 소식에도 큰 동요 없이 완만한 상승 흐름을 그대로 이어가는 중"
             },
             {
               "time": "마감",
@@ -90,8 +90,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.92,
               "is_close": true,
               "date": "2026-10-02",
-              "title": "상승폭 유지 마감",
-              "text": "계정 해킹 이슈가 불거졌지만 주가에는 큰 영향을 주지 못하고 오름세를 이어감"
+              "title": "소폭 상승 마감",
+              "text": "계정 해킹 소식이 늦게 전해졌지만 주가에는 별다른 영향을 주지 않고 상승 마감"
             }
           ],
           "slot_total": 2,
@@ -135,8 +135,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.03,
               "is_close": false,
               "date": "2026-10-02",
-              "title": "상승 전환 시도",
-              "text": "동종 양자컴주 약세 소식 이후 하락하던 흐름에서 벗어나 상승 쪽으로 방향을 바꿈"
+              "title": "업종 내 부진",
+              "text": "동종 업체 급등 소식 속에서도 상승 전환하지 못하고 약세 흐름을 이어가는 중"
             },
             {
               "time": "마감",
@@ -144,8 +144,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.5,
               "is_close": true,
               "date": "2026-10-02",
-              "title": "오름폭 반납 마감",
-              "text": "장 후반 들어 상승분을 대부분 되돌리며 결국 소폭 하락한 채로 거래를 마감함"
+              "title": "막판 상승 전환",
+              "text": "오후 내내 눌려있던 주가가 장 막판 반등하며 플러스권까지 올라서는 모습을 보임"
             }
           ],
           "slot_total": 2,
@@ -167,8 +167,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.83,
               "is_close": false,
               "date": "2026-10-02",
-              "title": "강세 흐름 지속",
-              "text": "투자 유치 소식과 다양한 뉴스 속에서도 매수세가 이어지며 오름폭을 키워감"
+              "title": "상승폭 확대",
+              "text": "반도체 담보대출 전략과 LG전자 협력 소식이 겹치며 오름폭을 꾸준히 키워가는 중"
             },
             {
               "time": "마감",
@@ -176,8 +176,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.34,
               "is_close": true,
               "date": "2026-10-02",
-              "title": "상승폭 다소 축소",
-              "text": "장 막판 들어 상승 탄력이 한풀 꺾이며 최고점보다 낮은 수준에서 거래를 마무리함"
+              "title": "상승세 유지 마감",
+              "text": "장 후반 들어 상승폭이 다소 줄었지만 하루 종일 강세 기조를 유지하며 거래를 마침"
             }
           ],
           "slot_total": 2,
@@ -222,7 +222,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-02",
               "title": "보합권 등락",
-              "text": "특별한 재료 없이 좁은 범위에서 오르내리며 거의 변화 없는 흐름을 이어감"
+              "text": "특별한 소식 없이 좁은 범위 안에서 등락을 거듭하며 큰 방향성을 보이지 않는 흐름"
             },
             {
               "time": "마감",
@@ -231,7 +231,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-10-02",
               "title": "소폭 하락 마감",
-              "text": "장 후반 들어 상승분을 반납하며 결국 약보합권에서 하루 거래를 마무리함"
+              "text": "장 후반 상승분을 반납하며 전일 대비 소폭 낮은 수준에서 하루를 마무리함"
             }
           ],
           "slot_total": 2,
@@ -248,7 +248,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-04-us.md",
       "refreshed_at": "2026-10-04 08:45:11 KST",
-      "slots_refreshed_at": "2026-10-05 02:27:08 KST"
+      "slots_refreshed_at": "2026-10-05 06:16:02 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
