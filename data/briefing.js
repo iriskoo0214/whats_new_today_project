@@ -1,15 +1,15 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-06 00:54:07 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-10-06 07:33:10 KST",
+  "refreshed": [
     "us"
   ],
+  "slots_refreshed": [],
   "default": "us",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
-      "label": "미국 증시 요약 2026. 10. 5. 9:47AM",
+      "label": "미국 증시 요약 2026. 10. 6. 7:33AM",
       "chips": [
         "전체",
         "IBM",
@@ -22,26 +22,26 @@ window.NOTEFOLIO_BRIEFING = {
         "오후 6시, 국내 시장을 움직인 이유를 확인하세요."
       ],
       "next": "kr",
-      "headline": "해외 5종목 중 2종목 상승, 3종목 하락 — 엔비디아가 +1.34%로 가장 많이 올랐고 IBM이 -1.32%로 가장 부진했습니다.",
-      "market_headline": "美 국채금리 상승에도 엔비디아 신고가…AI가 버팀목",
+      "headline": "해외 5종목 중 3종목 상승, 2종목 하락 — 엔비디아가 +2.12%로 가장 많이 올랐고 아이온큐가 -1.83%로 가장 부진했습니다.",
+      "market_headline": "美 국채금리 급등에도 AI·반도체 랠리에 나스닥 사상 최고",
       "market_card": {
-        "title": "뉴욕증시 혼조 마감...금리 상승 속 AI 종목 강세",
+        "title": "뉴욕증시 상승 마감...나스닥 사상 최고치 경신",
         "bullets": [
-          "미 국채 금리 상승세 지속",
-          "엔비디아 등 AI 관련주 신고가 경신",
-          "미 고용 부진에 금리 인상 우려 후퇴"
+          "AI·M&A 훈풍에 기술주 랠리 지속",
+          "국채금리 급등에도 반도체주 강세 차별화",
+          "중동 원유수출 회복에 국제유가 하락"
         ]
       },
       "cards": [
         {
           "stock": "IBM",
           "ticker": "IBM",
-          "title": "IBM - 자체 호스팅 AI 출시 주목",
-          "body": "IBM은 자체 호스팅 AI 출시 소식이 전해진 가운데 -1.32% 내린 <b>222.64달러</b> 마감.",
-          "pct": -1.32,
-          "price": 222.63999938964844,
+          "title": "IBM - 재료 없이 소폭 하락",
+          "body": "IBM은 특별한 모멘텀 없이 -0.48% 내린 <b>221.58달러</b> 마감.",
+          "pct": -0.48,
+          "price": 221.5800018310547,
           "currency": "USD",
-          "as_of": "2026-10-02",
+          "as_of": "2026-10-05",
           "slots": [
             {
               "time": "11:00PM",
@@ -49,30 +49,53 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.84,
               "is_close": false,
               "date": "2026-10-05",
-              "title": "약보합 흐름 지속",
-              "text": "AI 문서 파싱 경쟁력과 인도 연구기관과의 협력 확대 소식에도 불구하고 하락세를 벗어나지 못하는 모습"
+              "title": "인도 협력 소식에도 약세",
+              "text": "장 초반 양자컴퓨팅 협력 확대 소식이 나왔지만 주가는 약세로 출발해 하락세를 이어감"
+            },
+            {
+              "time": "마감",
+              "price": 221.5800018310547,
+              "pct": -0.48,
+              "is_close": true,
+              "date": "2026-10-05",
+              "title": "오후 들어 낙폭 다소 축소",
+              "text": "AI 문서 파싱 경쟁력 기사와 블록체인 비교 기사가 더해졌지만 매수세로 이어지지 못하고 약세 유지 중"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "투자자들이 IBM의 자체 호스팅 AI 출시 소식에 어떻게 반응할까",
-              "original": "투자자들이 IBM의 자체 호스팅 AI 출시 소식에 어떻게 반응할까",
-              "source": "Simply Wall Street",
-              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQLThBbDhxaHg3dzdsLWdMMXQzTFZLZUVIenNRdW1vWElKSFhrNGNmMkx5UFVKWUhVdFlCV3doajJuVUw5eXRZX0dNUGljNjVvQ2NRUnhFdEY2aVRnRm9keThxWUhLdGw5WkItb0xfSTlxejlXQWdoc25aaVdaMkNmc0ZLaUlkS0dPZmptdjYxNW5uZFdiZTVjU2xvaThvdjZxUkRCZlcyd3JVN2d2RVZN0gGvAUFVX3lxTFAtOEFsOHFoeDd3N2wtZ0wxdDNMVktlRUh6c1F1bW9YSUpIWGs0Y2YyTHlQVUpZSFV0WUJXd2hqMm5VTDl5dFlfR01QaWM2NW9DY1FSeEV0RjZpVGdGb2R5OHFZSEt0bDlaQi1vTF9JOXF6OVdBZ2hzblppV1oyQ2ZzRktpSWRLR09mam12NjE1bm5kV2JlNWNTbG9pOG92NnFSREJmVzJ3clU3Z3ZFVk0?oc=5",
-              "published": "2026-10-04T11:43:23+09:00"
+              "title": "라인 방식과 웨이 방식으로 보는 블록 체인 ibm 유형 차이",
+              "original": "라인 방식과 웨이 방식으로 보는 블록 체인 ibm 유형 차이",
+              "source": "Calgary Roughnecks",
+              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVHN0WEZuaU5zbWt2LV9XWkJ2M0VZUnNKbFZvbzBaWmgycy1qcV9tSnhRWlhRTjRhUUE5UTRMLTFKbThZMFlHRzMxVTg3RzNmNXZ5eHpaYlJZR2hBSjYxTl9xeU9Nb3RzWUJBc1pkbGRFM21ZVmpLUVB2MXRoRjZ4eF9MRUdqR2FDNHlkbEhfT3dsaldRWEdmbFFmelMzLVU3c2VtSWQzeExIcHkyaE5J?oc=5",
+              "published": "2026-10-05T13:34:09+09:00"
+            },
+            {
+              "title": "이파피루스, IBM·글로벌 기술 넘어섰다…AI 문서 파싱 기술 경쟁력 입증",
+              "original": "이파피루스, IBM·글로벌 기술 넘어섰다…AI 문서 파싱 기술 경쟁력 입증",
+              "source": "전자신문",
+              "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1KWjF3U09pcFByMU9XZVJqY2wydlZPcE8zWDdoNzByT0dfWFJSUzZ0QzAzSGY2aS1Wd1c5SGJ6bnlEandTdWpULUJIRGZaZw?oc=5",
+              "published": "2026-10-05T10:00:00+09:00"
+            },
+            {
+              "title": "IBM, 인도 연구기관 2곳과 인공지능·양자컴퓨팅 협력 확대",
+              "original": "IBM, 인도 연구기관 2곳과 인공지능·양자컴퓨팅 협력 확대",
+              "source": "양자신문",
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9MS3J5QjRscXBsSXkwZnh5OXpJUDU1QlJHX1pBYldDXzYxdzhjRHN2dW1VM05MY0JZUmx6NW4ySkkyZkxraHlGU0VOUU5vNVhYWFdtNExLWkp0TEVnV1UwdDVrbUV4SFNLa2RpTVlCbw?oc=5",
+              "published": "2026-10-05T09:20:00+09:00"
             }
           ]
         },
         {
           "stock": "마이크로소프트",
           "ticker": "MSFT",
-          "title": "마이크로소프트 - 임원 이탈 속 수익화 과제",
-          "body": "마이크로소프트는 AI 전환 속 핵심 임원 이탈과 수익화 과제가 부각됐지만 +0.92% 오른 <b>517.53달러</b> 마감. X 계정 해킹으로 사기성 토큰이 홍보되는 일도 있었지만 주가에는 큰 영향을 주지 않은 모습이다.",
-          "pct": 0.92,
-          "price": 517.530029296875,
+          "title": "마이크로소프트 - AI주 강세 속 동반 상승",
+          "body": "마이크로소프트는 +1.48% 오른 <b>525.18달러</b> 마감했다. 오피스·윈도우 일부 제품의 지원 종료가 10월 13일로 예정돼 교체 수요가 주목되는 가운데 마벨 등 반도체·기술주 전반의 강세가 주가를 뒷받침한 모습이다.",
+          "pct": 1.48,
+          "price": 525.1799926757812,
           "currency": "USD",
-          "as_of": "2026-10-02",
+          "as_of": "2026-10-05",
           "slots": [
             {
               "time": "11:00PM",
@@ -80,44 +103,53 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.93,
               "is_close": false,
               "date": "2026-10-05",
-              "title": "",
-              "text": ""
+              "title": "상승 출발 이후 탄력 유지",
+              "text": "장 초반 마벨과 함께 동반 상승했다는 소식이 전해진 뒤 오름세가 꾸준히 이어짐"
+            },
+            {
+              "time": "마감",
+              "price": 525.1799926757812,
+              "pct": 1.48,
+              "is_close": true,
+              "date": "2026-10-05",
+              "title": "오후까지 강세 흐름 지속",
+              "text": "업데이트 종료 관련 보안 이슈 보도 이후에도 매수세가 꺾이지 않고 상승폭을 키워감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "마이크로소프트 X 계정 해킹돼 사기성 토큰 홍보",
-              "original": "마이크로소프트 X 계정 해킹돼 사기성 토큰 홍보",
+              "title": "DLSS 5는 구름과 세부 묘사를 향상시킵니다. Microsoft Flight Simulator 2024 RTX 5090에서",
+              "original": "DLSS 5는 구름과 세부 묘사를 향상시킵니다. Microsoft Flight Simulator 2024 RTX 5090에서",
+              "source": "GameGPU",
+              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQzBZTXNQZVNMMmtSZ3ZpWVpfT2ZpZlZERmJqM2czZ2twWTZxcTRsM0NBc2pPOWc0T2JBbWtEak1URlJNVlhPX1V6QkZUMjhhSlJqUm5GTXF3WXAwVXlEWnk1Vjhwd21CakxGemJoWXNUdEhGd2lpVENqYU1XWjIyMFRXdVpaSGpfaVhNQnJCS3Rlb1gwcVBxcnZHRW12eFZ2cjNEOC1JcUdNeE5PZzFJWlExSGE1aFdfRVE?oc=5",
+              "published": "2026-10-06T07:14:10+09:00"
+            },
+            {
+              "title": "10월 13일, 마이크로소프트 오피스·윈도우·서버 지원·보안 업데이트 종료 겹친다...교체·갱신 점검 시급",
+              "original": "10월 13일, 마이크로소프트 오피스·윈도우·서버 지원·보안 업데이트 종료 겹친다...교체·갱신 점검 시급",
+              "source": "지티티코리아",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LZjNmUnFkSDhEb0tYcXRqamR3X1pjdlNrRjlncXRHRVNESjhoekd4eU0wdzdvU0FiUERtV2VxMzNYUWtSMXlGbHIybjMxcU5ObVZyM0J2NndLQnFSczJuckZ1X1o2SVplLWc?oc=5",
+              "published": "2026-10-06T06:30:00+09:00"
+            },
+            {
+              "title": "마벨 1.93% 상승…마이크로소프트도 1.65% 올라",
+              "original": "마벨 1.93% 상승…마이크로소프트도 1.65% 올라",
               "source": "토큰포스트",
-              "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ONUlySHlURFN6cVU0SmV5aUJ0OXNlSHpGNHNDS1R5TlVZNmczY3hDVHhxV1dIdmdCVU51NkRRSlMySExaYjhZN2pUNTROblNiRWJxY25OMmU?oc=5",
-              "published": "2026-10-04T15:54:06+09:00"
-            },
-            {
-              "title": "마이크로소프트 핵심 임원 떠난다…AI 전환 속 리더십 재편 주목",
-              "original": "마이크로소프트 핵심 임원 떠난다…AI 전환 속 리더십 재편 주목",
-              "source": "제민일보",
-              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE10YjFSSlRXMDdDNmZvOFQ5V1lZRU9Cemg2cEpjZGtiZ3NJQ0JEcGhmWDF6eFVuTHI3ODQ1NEpLalp4eUs3V2xFNkNHTE16LW5Ia2RRMS1YOWNOVzRmcmJmWVJNV1dWaXc?oc=5",
-              "published": "2026-10-04T13:24:25+09:00"
-            },
-            {
-              "title": "AI 투자 광풍 속 마이크로소프트, 이제는 ‘수익화’가 승부처",
-              "original": "AI 투자 광풍 속 마이크로소프트, 이제는 ‘수익화’가 승부처",
-              "source": "제민일보",
-              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqcG55ZThQM2FZd19fcmNneHRaOFJLbWYxb3lJdkxOVVE1Y1A0UmROdUszZEFOcVRpVVhXTVpZLVFFdDB3bXkyR1I3bW10MFJ3bERoeEFXa180UzE4RElZeHBEZmw0NU0?oc=5",
-              "published": "2026-10-04T12:42:55+09:00"
+              "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBVTmlTZWt0NmRyRm9pclpBdldrYko4a1UwMGcwMmF2cEh4bjhETS1QRk10WkhwRkNjb3dSNXNJUklseWZxbl9FMjhYRTZFbWVFdTJFNEVmOA?oc=5",
+              "published": "2026-10-06T05:12:00+09:00"
             }
           ]
         },
         {
           "stock": "아이온큐",
           "ticker": "IONQ",
-          "title": "아이온큐 - 경쟁주 급등 속 홀로 하락",
-          "body": "아이온큐는 큐트렉스 퀀텀이 40% 급등하는 와중에도 리게티 컴퓨팅과 함께 -0.50% 내린 <b>43.77달러</b> 마감.",
-          "pct": -0.5,
-          "price": 43.77000045776367,
+          "title": "아이온큐 - 경쟁사 급등 속 홀로 하락",
+          "body": "아이온큐는 동종 양자컴퓨터주인 큐트렉스 퀀텀이 40% 급등한 가운데서도 -1.83% 내린 <b>42.97달러</b> 마감. 구글 알파벳과의 양자 컴퓨팅 패권 경쟁이 부각되는 와중에 미즈호가 성장성을 이유로 등급을 재확인했음에도 투자심리가 엇갈린 모습이다.",
+          "pct": -1.83,
+          "price": 42.970001220703125,
           "currency": "USD",
-          "as_of": "2026-10-02",
+          "as_of": "2026-10-05",
           "slots": [
             {
               "time": "11:00PM",
@@ -125,8 +157,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.71,
               "is_close": false,
               "date": "2026-10-05",
-              "title": "하락 흐름 이어져",
-              "text": "구글과의 양자 경쟁 구도 부각과 미즈호의 긍정적 등급 재확인에도 동종업계 약세 흐름에 동반 하락 중"
+              "title": "경쟁 구도 속 약세 흐름",
+              "text": "구글과의 양자컴퓨팅 패권 경쟁 소식이 전해진 이후에도 매수세가 붙지 못하고 하락세를 이어감"
+            },
+            {
+              "time": "마감",
+              "price": 42.970001220703125,
+              "pct": -1.83,
+              "is_close": true,
+              "date": "2026-10-05",
+              "title": "등급 재확인에도 낙폭 유지",
+              "text": "미즈호의 투자등급 재확인 소식이 나왔지만 반등으로 이어지지 못하고 약세가 지속되는 모습"
             }
           ],
           "slot_total": 2,
@@ -136,19 +177,33 @@ window.NOTEFOLIO_BRIEFING = {
               "original": "미국 양자컴퓨터주 큐트렉스 퀀텀 40% 급등, 아이온큐·리게티 컴퓨팅은 하락",
               "source": "CBC뉴스",
               "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ZUzBvcThyUXljVmtrdVZkVzNOVXRLYlE4a1FhQ1R1bFJ2cV9vSS1yVi1NYnpVOVlSbWFHMUQ4MVNXS3VfbFdCUS1jZzRGdGxfcWM3eWE4VFFmOW4tQ3oxaGJ2M2pRWm9B?oc=5",
-              "published": "2026-10-04T10:05:00+09:00"
+              "published": "2026-10-06T02:03:27+09:00"
+            },
+            {
+              "title": "미즈호, 양자 컴퓨팅 성장에 IONQ 주식 등급 재확인",
+              "original": "미즈호, 양자 컴퓨팅 성장에 IONQ 주식 등급 재확인",
+              "source": "Investing.com 한국어",
+              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5pak9KRGVROVlLUWlDeHFOdXRMNWxHUW9ZYXl3bXgtbDYtVFFCT1VFUlhPYWpCWGhVOWZLa3pLd0FURDNNMXFqRy15bkc2UDB6Sm5OeWFRQkEwcEFYeTlRTEpPQTJod0NlSHVrcjZlbmt2TDZB?oc=5",
+              "published": "2026-10-05T20:29:00+09:00"
+            },
+            {
+              "title": "양자 컴퓨팅 패권 경쟁 빅매치…구글 알파벳 vs 아이온큐 승부처는 어디인가",
+              "original": "양자 컴퓨팅 패권 경쟁 빅매치…구글 알파벳 vs 아이온큐 승부처는 어디인가",
+              "source": "글로벌이코노믹",
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVGU1bW5XRU1sbklxVWZ6SnJHSTlqSFNITDBBeUFRblBrdFIzODdBb00yVERGSWN3UTlnTEFyclpLbnlvQUVhMXdrWGVKWEpaQk5rUUJtVEVaV1h1VWNJTGEzcUtrYnJDNkxDYjFSbEIzdjlCX3BEWEh4NjhIZnIwTm9LN1BJSUxi?oc=5",
+              "published": "2026-10-05T13:19:37+09:00"
             }
           ]
         },
         {
           "stock": "엔비디아",
           "ticker": "NVDA",
-          "title": "엔비디아 - 순매도 속에도 상승 마감",
-          "body": "엔비디아는 1614억원어치 순매도가 나왔다는 보도에도 +1.34% 오른 <b>233.95달러</b> 마감. BESS가 'ESS 없인 AI 팩토리 못 돌린다'는 평가 속 공식 표준 인증에 편입됐다는 소식도 전해지며 사업 확장 기대가 이어진 모습이다.",
-          "pct": 1.34,
-          "price": 233.9499969482422,
+          "title": "엔비디아 - 이틀 연속 사상 최고치",
+          "body": "엔비디아는 시가총액 5.76조달러로 6조달러까지 3.8%만을 남기며 +2.12% 오른 <b>238.90달러</b> 마감. AI주 강세에 나스닥도 사상 최고치를 경신하는 가운데 그록 인수를 둘러싼 주주권 침해 소송 소식에도 주가는 이틀 연속 최고치를 갈아치웠다.",
+          "pct": 2.12,
+          "price": 238.89999389648438,
           "currency": "USD",
-          "as_of": "2026-10-02",
+          "as_of": "2026-10-05",
           "slots": [
             {
               "time": "11:00PM",
@@ -156,44 +211,53 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.41,
               "is_close": false,
               "date": "2026-10-05",
-              "title": "장 초반 강세 유지",
-              "text": "백악관의 AI 안전 서약 공개와 자산 밸류에이션 논란이 함께 제기된 가운데 장 초반 상승 흐름을 이어가는 중"
+              "title": "사상 최고치 경신 흐름",
+              "text": "시가총액 6조달러에 근접하며 이틀 연속 사상 최고치를 갈아치웠다는 소식이 전해짐"
+            },
+            {
+              "time": "마감",
+              "price": 238.89999389648438,
+              "pct": 2.12,
+              "is_close": true,
+              "date": "2026-10-05",
+              "title": "피소 소식에도 강세 유지",
+              "text": "그록 인수 관련 주주권 침해 피소 보도가 나왔지만 상승 흐름이 꺾이지 않고 오히려 더 확대됨"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "주간 AI 뉴스: 트럼프부터 저커버그·머스크, 엔비디아까지",
-              "original": "주간 AI 뉴스: 트럼프부터 저커버그·머스크, 엔비디아까지",
-              "source": "Benzinga",
-              "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxONGhjak9GNTAybmwydTRydnk2LVc4QnZCVThPYXRabDlVNnBENUlGMk81RjZWTm40QmtvZVkzelhyZTAyalp6dG9vNDBQcGxBanNtekdkS0w0Nml4OHlOZ2FieWY0blJGRC1KS0JZbjhxMGNBNVItbERXdVZMWGNhcWRLU2JORUd4SDJxUGlQSTk4aDhZcWdTaVNjTEUybGtSR2hORHNyRUNwY2NxTTRxTXA3NG1ZY2pMQXVlQzA3SUphNEZpS21CRDZwWDM2bzZMeHFUTExYZ21fX2ZrVTR1bkxPQWJZdHRoZUdPcW9PcXpRRDNRVEZoa0hucWVVMzN2NnV6RDJ2NklTZVlGSDBPZG45aU1EYVIwaVIyTXFhTmo0amo4S2ZGUUJuRVVraGFwSGxWSHUxa3ZtUGc0cWM1bjhETzNKSWdVV2dpRkdEMEo2WlQ0?oc=5",
-              "published": "2026-10-05T09:46:31+09:00"
+              "title": "엔비디아 주가 이틀째 사상 최고…시총 5.76조달러, 6조달러 3.8% 남았다",
+              "original": "엔비디아 주가 이틀째 사상 최고…시총 5.76조달러, 6조달러 3.8% 남았다",
+              "source": "매일신문",
+              "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB6MlVWQ0EtcDNoSk1JbWNLREZXZUJfUDIwSzdJOWdRSWxkWEM4Tkdvb082QWpxQ1F4NHlKRWxwc2paclBaTl9hU2xTdmtSQ2hDUDhTSXY0S1RZbDNJV3hpaGJ3?oc=5",
+              "published": "2026-10-06T07:20:47+09:00"
             },
             {
-              "title": "엔비디아 1614억원어치 순매도…부자들 새 투자처는…. : 금융",
-              "original": "엔비디아 1614억원어치 순매도…부자들 새 투자처는…. : 금융",
-              "source": "재경일보",
-              "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE40X1NhNHVUSGVkelhNZDN4XzM1VWpROV84akpYQlNDSWR1QTctRHFnZ2RPMFVJdVQxNmVDaEdqMkFFX2ZUSlhGampEZw?oc=5",
-              "published": "2026-10-05T09:06:00+09:00"
+              "title": "‘AI주’ 강세에 나스닥 사상 최고···엔비디아 이틀 연속 사상 최고치 경신",
+              "original": "‘AI주’ 강세에 나스닥 사상 최고···엔비디아 이틀 연속 사상 최고치 경신",
+              "source": "v.daum.net",
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE42NUZqbUl1NTF5eF8zNHc4ZWFjVEs5M0JYQkhnY3hvVmlHUUdvb1hmLUVFZjNiekRkd2kxT3NzQm5TNmU5ZzBVUTRxcG9zWlE?oc=5",
+              "published": "2026-10-06T07:20:12+09:00"
             },
             {
-              "title": "\"ESS 없인 AI 팩토리 못 돌린다\"… 엔비디아, BESS '공식 표준 인증' 편입",
-              "original": "\"ESS 없인 AI 팩토리 못 돌린다\"… 엔비디아, BESS '공식 표준 인증' 편입",
-              "source": "글로벌이코노믹",
-              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZl96Nk5WaldhT2hvU3N1V0pQWHBYOUQ5dGJVTVhKUWt6VGQtNlcxWjJhcm1qRkZIMld1aUZVVXllTkczMllleVJqRVhBeEdSX0FSa2J5b2RqUG1qdlNMcGtjZTdaSFZnemFiUWJ2eWEtbmc4WTBKZVpHbXpRNDN3U3JUZEN6NVo4?oc=5",
-              "published": "2026-10-05T08:29:52+09:00"
+              "title": "엔비디아, 그록 인수하며 주주권 침해한 혐의로 피소",
+              "original": "엔비디아, 그록 인수하며 주주권 침해한 혐의로 피소",
+              "source": "dt.co.kr",
+              "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5GdTBpS2otSURFQy0wWjRuNFF4T0NRRVdSWEg3ekdLbHdSQjdjZXNHWE0zY1ZHZzliaTV2LUJqeWZ6cld3ektSSkRaUUpjUQ?oc=5",
+              "published": "2026-10-06T07:19:30+09:00"
             }
           ]
         },
         {
           "stock": "소파이테크놀로지",
           "ticker": "SOFI",
-          "title": "소파이테크놀로지 - 재료 없이 소폭 하락",
-          "body": "소파이테크놀로지는 뚜렷한 재료 없이 -0.44% 내린 <b>15.77달러</b> 마감.",
-          "pct": -0.44,
-          "price": 15.770000457763672,
+          "title": "소파이테크놀로지 - 재료 없이 소폭 상승",
+          "body": "소파이테크놀로지는 특별한 재료 없이 +0.95% 오른 <b>15.92달러</b> 마감.",
+          "pct": 0.95,
+          "price": 15.920000076293945,
           "currency": "USD",
-          "as_of": "2026-10-02",
+          "as_of": "2026-10-05",
           "slots": [
             {
               "time": "11:00PM",
@@ -201,17 +265,25 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.67,
               "is_close": false,
               "date": "2026-10-05",
-              "title": "소폭 상승 유지",
-              "text": "특별한 소식 없이 장중 완만한 오름세를 이어가며 큰 변동 없이 안정적인 흐름을 유지 중"
+              "title": "완만한 오름세로 출발",
+              "text": "특별한 소식 없이 장 초반부터 완만한 상승 흐름을 보이며 꾸준히 오르는 모습"
+            },
+            {
+              "time": "마감",
+              "price": 15.920000076293945,
+              "pct": 0.95,
+              "is_close": true,
+              "date": "2026-10-05",
+              "title": "상승폭 소폭 확대 유지",
+              "text": "눈에 띄는 뉴스 없이도 장 후반까지 오름세를 유지하며 소폭 상승폭을 키워가는 중"
             }
           ],
           "slot_total": 2,
           "news": []
         }
       ],
-      "markdown": "briefings/2026-10-05-us.md",
-      "refreshed_at": "2026-10-05 09:47:50 KST",
-      "slots_refreshed_at": "2026-10-06 00:54:07 KST"
+      "markdown": "briefings/2026-10-06-us.md",
+      "refreshed_at": "2026-10-06 07:33:10 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
