@@ -1,9 +1,9 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-05 15:54:05 KST",
+  "generated_at": "2026-10-06 00:54:07 KST",
   "refreshed": [],
   "slots_refreshed": [
-    "kr"
+    "us"
   ],
   "default": "us",
   "markets": {
@@ -45,21 +45,12 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "11:00PM",
-              "price": 224.27999877929688,
-              "pct": -0.59,
+              "price": 220.77999877929688,
+              "pct": -0.84,
               "is_close": false,
-              "date": "2026-10-02",
-              "title": "장중 약보합세",
-              "text": "자체 호스팅 AI 출시 소식이 전해진 가운데 낙폭을 소폭 줄이며 보합권에서 움직임"
-            },
-            {
-              "time": "마감",
-              "price": 222.63999938964844,
-              "pct": -1.32,
-              "is_close": true,
-              "date": "2026-10-02",
-              "title": "낙폭 확대 마감",
-              "text": "장중 반등 시도에도 매수세가 이어지지 못하며 오히려 하락폭을 키운 채 마무리됨"
+              "date": "2026-10-05",
+              "title": "약보합 흐름 지속",
+              "text": "AI 문서 파싱 경쟁력과 인도 연구기관과의 협력 확대 소식에도 불구하고 하락세를 벗어나지 못하는 모습"
             }
           ],
           "slot_total": 2,
@@ -85,21 +76,12 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "11:00PM",
-              "price": 517.3599853515625,
-              "pct": 0.89,
+              "price": 527.5399780273438,
+              "pct": 1.93,
               "is_close": false,
-              "date": "2026-10-02",
-              "title": "오후 들어 상승폭 확대",
-              "text": "핵심 임원 이탈과 AI 수익화 압박 소식에도 매수세가 꾸준히 유입되며 상승세를 이어감"
-            },
-            {
-              "time": "마감",
-              "price": 517.530029296875,
-              "pct": 0.92,
-              "is_close": true,
-              "date": "2026-10-02",
-              "title": "강세로 하루 마감",
-              "text": "SNS 계정 해킹 소식이 뒤늦게 전해졌지만 영향 없이 오름세를 지키며 거래를 마침"
+              "date": "2026-10-05",
+              "title": "",
+              "text": ""
             }
           ],
           "slot_total": 2,
@@ -139,21 +121,12 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "11:00PM",
-              "price": 44.8849983215332,
-              "pct": 2.03,
+              "price": 43.02000045776367,
+              "pct": -1.71,
               "is_close": false,
-              "date": "2026-10-02",
-              "title": "업종 내 부진 지속",
-              "text": "동종 양자컴퓨터주 급등 속에서도 홀로 하락세를 보이며 약세 흐름이 이어짐"
-            },
-            {
-              "time": "마감",
-              "price": 43.77000045776367,
-              "pct": -0.5,
-              "is_close": true,
-              "date": "2026-10-02",
-              "title": "오후 반등 후 되밀림",
-              "text": "장중 한때 강세로 돌아섰으나 막판 매도세에 밀리며 결국 약보합으로 마감함"
+              "date": "2026-10-05",
+              "title": "하락 흐름 이어져",
+              "text": "구글과의 양자 경쟁 구도 부각과 미즈호의 긍정적 등급 재확인에도 동종업계 약세 흐름에 동반 하락 중"
             }
           ],
           "slot_total": 2,
@@ -179,21 +152,12 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "11:00PM",
-              "price": 237.39999389648438,
-              "pct": 2.83,
+              "price": 237.25,
+              "pct": 1.41,
               "is_close": false,
-              "date": "2026-10-02",
-              "title": "순매도 속 강세 유지",
-              "text": "대규모 순매도 소식과 ESS 표준 인증 호재가 엇갈린 가운데도 상승세를 꾸준히 이어감"
-            },
-            {
-              "time": "마감",
-              "price": 233.9499969482422,
-              "pct": 1.34,
-              "is_close": true,
-              "date": "2026-10-02",
-              "title": "오후 들어 상승폭 확대",
-              "text": "장 초반 오름세를 유지하다 장 후반 들어 추가로 상승폭을 키우며 거래를 마감함"
+              "date": "2026-10-05",
+              "title": "장 초반 강세 유지",
+              "text": "백악관의 AI 안전 서약 공개와 자산 밸류에이션 논란이 함께 제기된 가운데 장 초반 상승 흐름을 이어가는 중"
             }
           ],
           "slot_total": 2,
@@ -233,21 +197,12 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "11:00PM",
-              "price": 15.845000267028809,
-              "pct": 0.03,
+              "price": 15.875,
+              "pct": 0.67,
               "is_close": false,
-              "date": "2026-10-02",
-              "title": "좁은 등락 반복",
-              "text": "특별한 재료 없이 보합권에서 오르내림을 반복하며 장중 큰 변동 없이 흘러감"
-            },
-            {
-              "time": "마감",
-              "price": 15.770000457763672,
-              "pct": -0.44,
-              "is_close": true,
-              "date": "2026-10-02",
-              "title": "약보합 마감",
-              "text": "장중 강보합을 유지하다 막판 소폭 밀리며 전일 대비 약세로 거래를 마침"
+              "date": "2026-10-05",
+              "title": "소폭 상승 유지",
+              "text": "특별한 소식 없이 장중 완만한 오름세를 이어가며 큰 변동 없이 안정적인 흐름을 유지 중"
             }
           ],
           "slot_total": 2,
@@ -255,7 +210,8 @@ window.NOTEFOLIO_BRIEFING = {
         }
       ],
       "markdown": "briefings/2026-10-05-us.md",
-      "refreshed_at": "2026-10-05 09:47:50 KST"
+      "refreshed_at": "2026-10-05 09:47:50 KST",
+      "slots_refreshed_at": "2026-10-06 00:54:07 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
