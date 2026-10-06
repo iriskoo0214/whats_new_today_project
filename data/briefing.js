@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-07 01:43:19 KST",
+  "generated_at": "2026-10-07 06:35:18 KST",
   "refreshed": [],
   "slots_refreshed": [
     "us"
@@ -49,8 +49,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.02,
               "is_close": false,
               "date": "2026-10-06",
-              "title": "지지선 방어 속 강세",
-              "text": "매수세가 심리적 지지선을 방어하고 있다는 분석이 나온 가운데 완만한 오름세를 이어가는 중"
+              "title": "지지선 방어 속 반등",
+              "text": "목표주가 상향 소식이 나온 뒤 매수세가 유입되며 분위기가 개선되는 흐름이 나타남"
+            },
+            {
+              "time": "마감",
+              "price": 221.2899932861328,
+              "pct": -0.13,
+              "is_close": true,
+              "date": "2026-10-06",
+              "title": "상승폭 축소되며 약세 마감",
+              "text": "장중 강세를 보였던 흐름이 꺾이며 결국 전일 대비 소폭 하락한 채로 거래를 마무리함"
             }
           ],
           "slot_total": 2,
@@ -94,8 +103,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.57,
               "is_close": false,
               "date": "2026-10-06",
-              "title": "AI 수혜 기대 지속",
-              "text": "코파일럿 성장세와 AI 대표 수혜주라는 평가가 이어지며 장중 오름폭을 꾸준히 키워가는 중"
+              "title": "저항선 돌파 시도 지속",
+              "text": "Azure 실적 호조와 데이터센터 투자 기대감이 겹치며 매수세가 꾸준히 유입되는 모습"
+            },
+            {
+              "time": "마감",
+              "price": 529.2999877929688,
+              "pct": 0.78,
+              "is_close": true,
+              "date": "2026-10-06",
+              "title": "상승세 유지하며 견조한 흐름",
+              "text": "장중 상승폭이 다소 줄었지만 저항선 부근에서의 매수세가 이어지며 플러스권을 지켜냄"
             }
           ],
           "slot_total": 2,
@@ -139,8 +157,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.79,
               "is_close": false,
               "date": "2026-10-06",
-              "title": "하락 딛고 반등",
-              "text": "전일 하락 마감 이후 양자기술 협력 소식이 전해지며 낙폭을 만회하고 상승 전환해 유지 중"
+              "title": "하락 마감 후 반등 시도",
+              "text": "전일 하락 마감 이후 기술 협력 소식이 알려지며 매수세가 유입되는 흐름으로 전환됨"
+            },
+            {
+              "time": "마감",
+              "price": 43.290000915527344,
+              "pct": 0.74,
+              "is_close": true,
+              "date": "2026-10-06",
+              "title": "상승폭 줄이며 보합권 마감",
+              "text": "장중 강세를 보였던 흐름이 약해지며 결국 소폭 상승에 그친 채로 거래를 마무리함"
             }
           ],
           "slot_total": 2,
@@ -184,8 +211,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.42,
               "is_close": false,
               "date": "2026-10-06",
-              "title": "금리 부담 속 견조",
-              "text": "국채 금리 상승 우려에도 건재하다는 평가와 함께 AI 팩토리 관련 분석이 이어지며 상승세 유지 중"
+              "title": "나흘째 신기록 행진",
+              "text": "지수 사상 최고치 경신 속 최선호주 재선정 소식까지 더해지며 강세 흐름이 이어짐"
+            },
+            {
+              "time": "마감",
+              "price": 239.24000549316406,
+              "pct": 0.14,
+              "is_close": true,
+              "date": "2026-10-06",
+              "title": "상승폭 축소되며 보합 마감",
+              "text": "장중 강한 상승세를 보였던 흐름이 오후 들어 둔화되며 소폭 상승에 그친 채 마무리됨"
             }
           ],
           "slot_total": 2,
@@ -229,8 +265,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.33,
               "is_close": false,
               "date": "2026-10-06",
-              "title": "소폭 상승 유지",
-              "text": "특별한 소식 없이 완만한 오름세를 유지하며 큰 변동 없이 장중 흐름을 이어가는 중"
+              "title": "상승 흐름 이어가는 중",
+              "text": "특별한 소식 없이도 장중 완만한 상승 흐름이 이어지며 거래가 진행되는 모습을 보임"
+            },
+            {
+              "time": "마감",
+              "price": 15.760000228881836,
+              "pct": -1.01,
+              "is_close": true,
+              "date": "2026-10-06",
+              "title": "상승분 반납하며 약세 마감",
+              "text": "장중 올랐던 흐름을 지키지 못하고 오후 들어 밀리며 결국 소폭 하락한 채 마감함"
             }
           ],
           "slot_total": 2,
@@ -239,7 +284,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-06-us.md",
       "refreshed_at": "2026-10-06 07:33:10 KST",
-      "slots_refreshed_at": "2026-10-07 01:43:19 KST"
+      "slots_refreshed_at": "2026-10-07 06:35:18 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
