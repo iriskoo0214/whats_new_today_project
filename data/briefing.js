@@ -1,15 +1,15 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-07 06:35:18 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-10-07 10:26:45 KST",
+  "refreshed": [
     "us"
   ],
-  "default": "kr",
+  "slots_refreshed": [],
+  "default": "us",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
-      "label": "미국 증시 요약 2026. 10. 6. 7:33AM",
+      "label": "미국 증시 요약 2026. 10. 7. 10:26AM",
       "chips": [
         "전체",
         "IBM",
@@ -22,26 +22,26 @@ window.NOTEFOLIO_BRIEFING = {
         "오후 6시, 국내 시장을 움직인 이유를 확인하세요."
       ],
       "next": "kr",
-      "headline": "해외 5종목 중 3종목 상승, 2종목 하락 — 엔비디아가 +2.12%로 가장 많이 올랐고 아이온큐가 -1.83%로 가장 부진했습니다.",
-      "market_headline": "美 국채금리 급등에도 AI·반도체 랠리에 나스닥 사상 최고",
+      "headline": "해외 5종목 중 3종목 상승, 2종목 하락 — 소파이테크놀로지가 +0.95%로 가장 많이 올랐고 아이온큐가 -1.83%로 가장 부진했습니다.",
+      "market_headline": "3분기 실적 기대에 S&P500·나스닥 사상 최고치",
       "market_card": {
-        "title": "뉴욕증시 상승 마감...나스닥 사상 최고치 경신",
+        "title": "3대 지수 상승 마감...S&P500·나스닥 사상 최고치 경신",
         "bullets": [
-          "AI·M&A 훈풍에 기술주 랠리 지속",
-          "국채금리 급등에도 반도체주 강세 차별화",
-          "중동 원유수출 회복에 국제유가 하락"
+          "3분기 실적 발표 앞두고 기대감 확산",
+          "미 국채금리 진정에 기술주 강세",
+          "국제유가·금값 동반 강보합세"
         ]
       },
       "cards": [
         {
           "stock": "IBM",
           "ticker": "IBM",
-          "title": "IBM - 재료 없이 소폭 하락",
-          "body": "IBM은 특별한 모멘텀 없이 -0.48% 내린 <b>221.58달러</b> 마감.",
-          "pct": -0.48,
-          "price": 221.5800018310547,
+          "title": "IBM - 목표가 상향에도 보합권 등락",
+          "body": "IBM은 매수세가 심리적 지지선을 방어하며 목표주가 242달러가 제시된 가운데 -0.13% 내린 <b>221.29달러</b> 마감.",
+          "pct": -0.13,
+          "price": 221.2899932861328,
           "currency": "USD",
-          "as_of": "2026-10-05",
+          "as_of": "2026-10-06",
           "slots": [
             {
               "time": "11:00PM",
@@ -49,8 +49,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.02,
               "is_close": false,
               "date": "2026-10-06",
-              "title": "지지선 방어 속 반등",
-              "text": "목표주가 상향 소식이 나온 뒤 매수세가 유입되며 분위기가 개선되는 흐름이 나타남"
+              "title": "장중 상승세 포착",
+              "text": "AI 개발 ROI 측정 관련 소식이 돌며 매수세가 유입되고 상승 흐름이 나타남"
             },
             {
               "time": "마감",
@@ -58,44 +58,44 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.13,
               "is_close": true,
               "date": "2026-10-06",
-              "title": "상승폭 축소되며 약세 마감",
-              "text": "장중 강세를 보였던 흐름이 꺾이며 결국 전일 대비 소폭 하락한 채로 거래를 마무리함"
+              "title": "오름폭 축소되며 반락",
+              "text": "장중 강세를 보였으나 매수세가 심리적 지지선 방어에 그치며 상승분을 지키지 못하고 하락 전환"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "라인 방식과 웨이 방식으로 보는 블록 체인 ibm 유형 차이",
-              "original": "라인 방식과 웨이 방식으로 보는 블록 체인 ibm 유형 차이",
-              "source": "Calgary Roughnecks",
-              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVHN0WEZuaU5zbWt2LV9XWkJ2M0VZUnNKbFZvbzBaWmgycy1qcV9tSnhRWlhRTjRhUUE5UTRMLTFKbThZMFlHRzMxVTg3RzNmNXZ5eHpaYlJZR2hBSjYxTl9xeU9Nb3RzWUJBc1pkbGRFM21ZVmpLUVB2MXRoRjZ4eF9MRUdqR2FDNHlkbEhfT3dsaldRWEdmbFFmelMzLVU3c2VtSWQzeExIcHkyaE5J?oc=5",
-              "published": "2026-10-05T13:34:09+09:00"
+              "title": "IBM이 AI 지원 개발의 ROI를 측정한 방법",
+              "original": "IBM이 AI 지원 개발의 ROI를 측정한 방법",
+              "source": "IBM",
+              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOck93V01IY2FCMzgtYW9iWXJDdkVSZUhJUHY4d0JzYWhOUXYtSHRUZzk5QWlEUFlaX2FSeXF0UTV3RU5FanF5WExFUERuNm9HSnFGT3lNdC1BNUt2cUlYekc4cTZZUGxnWHkzdlU0NGxYblFfbDJvTTRYbHdSX0QtM0RzR3luZURIN0xEanI1MWt4cjVITDRmbEtWY0xxQQ?oc=5",
+              "published": "2026-10-07T04:59:53+09:00"
             },
             {
-              "title": "이파피루스, IBM·글로벌 기술 넘어섰다…AI 문서 파싱 기술 경쟁력 입증",
-              "original": "이파피루스, IBM·글로벌 기술 넘어섰다…AI 문서 파싱 기술 경쟁력 입증",
+              "title": "매수세가 심리적 지지선을 방어하며 IBM 주가 $242 목표",
+              "original": "매수세가 심리적 지지선을 방어하며 IBM 주가 $242 목표",
+              "source": "Traders Union",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNS2U5UFZBYzZlZmk1Njlkc3ByMlVWZFFFa0dUbmt4ZzFJUERsaVk1eEIzWVdqc2U0aFZQLU9Dd1MtQndWaG9na0x5ZWRTTDJ3UGpQQ042QjBkN0UwT05Wd1hyVGU0aVowUmFUVHFfMHFOalltY2dkbkd3dEUzeExjdw?oc=5",
+              "published": "2026-10-06T19:43:16+09:00"
+            },
+            {
+              "title": "ParseBench IBM Docling과의 비교표 이미지",
+              "original": "ParseBench IBM Docling과의 비교표 이미지",
               "source": "전자신문",
-              "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1KWjF3U09pcFByMU9XZVJqY2wydlZPcE8zWDdoNzByT0dfWFJSUzZ0QzAzSGY2aS1Wd1c5SGJ6bnlEandTdWpULUJIRGZaZw?oc=5",
-              "published": "2026-10-05T10:00:00+09:00"
-            },
-            {
-              "title": "IBM, 인도 연구기관 2곳과 인공지능·양자컴퓨팅 협력 확대",
-              "original": "IBM, 인도 연구기관 2곳과 인공지능·양자컴퓨팅 협력 확대",
-              "source": "양자신문",
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9MS3J5QjRscXBsSXkwZnh5OXpJUDU1QlJHX1pBYldDXzYxdzhjRHN2dW1VM05MY0JZUmx6NW4ySkkyZkxraHlGU0VOUU5vNVhYWFdtNExLWkp0TEVnV1UwdDVrbUV4SFNLa2RpTVlCbw?oc=5",
-              "published": "2026-10-05T09:20:00+09:00"
+              "url": "https://news.google.com/rss/articles/CBMi8gRBVV95cUxOTzZzc2ZaQWlHQWlHZnYtQlZLMTRaNjZoak9NZmR0cG5BeEQybVFROHRPV1MtNGp4YVVqalpnSmpNRTFZbUNJNjRjTE1TM2hjV19QdGxfR2NWSEhUb0lObjdLTXoyNElJN2d5bHl6RzcweUVaaU5iNGlIS1J4NklNTU9CM2VQVjZMNVRrSkdWZGQ0WDdHbTJZbERqTElyTEdiZDdoYmF2dGlpYlYzQlV3ZjY5alZvWFZkZnpITlA0MURfOUphMkVjLVNuQjY4UzMxSmV5VnVVcW9KSV9ZclllYnlrVHVkNjNOdFBBSTRCczZQQ21qLXdIQjI4YmhzWDBuVGlSYnhxLTZ3V1BlekhDWUhRWGJ0MlU0dUpXYUtYMUpMWDBuRTN1WjJWd0syMmg5SDluQWNtNW5aTmRhMnhjR3JMbWkzTEFnLWxGLXQxZDQyakljWG5XLVVEaVVQdzFvSk9kZ3pUaDRpLU5vaXkxd0Jnclp1cWJ0cm5JVmxVNDcwd0hueEhJMjMwVXcwUkpzcjJJRkYteF85WDdkblJkdXdma1RCRTFsRFMzcVhJdlNqbUtqWnBCOUxjLWNERkhrRlZLZEZUM0VjMXY2eVAyR3lXSDhqRXZwNFdick0xdG00STltLUctc2NIdFlFQXhoZFNNLUdzcDdfM1otNnlqdl9kTXRhTnJ0S0N6Qjl5VjFmT2lBZDl3TVF6VUZISjlmd3dESTJXYnRZYmtHamNUR0k4blBseS1LaXBrT0U1N2NpZWcyT2xGcGl2XzFVaHBDNlZzTHhKZzlLWTJwcUdZSUtFeTJKenk3aVpHd3V2MzQtZw?oc=5",
+              "published": "2026-10-06T16:12:58+09:00"
             }
           ]
         },
         {
           "stock": "마이크로소프트",
           "ticker": "MSFT",
-          "title": "마이크로소프트 - AI주 강세 속 동반 상승",
-          "body": "마이크로소프트는 +1.48% 오른 <b>525.18달러</b> 마감했다. 오피스·윈도우 일부 제품의 지원 종료가 10월 13일로 예정돼 교체 수요가 주목되는 가운데 마벨 등 반도체·기술주 전반의 강세가 주가를 뒷받침한 모습이다.",
-          "pct": 1.48,
-          "price": 525.1799926757812,
+          "title": "마이크로소프트 - AI 투자 유망주 꼽혀",
+          "body": "마이크로소프트는 짐 크레이머가 AI 투자 유망주로 꼽은 가운데 +0.78% 오른 <b>529.30달러</b> 마감. 사내 클로드 지출을 줄이는 한편 프로젝트 헬릭스를 Xbox 기기 제품군으로 확인하는 등 자체 생태계 강화 행보가 이어지는 모습이다.",
+          "pct": 0.78,
+          "price": 529.2999877929688,
           "currency": "USD",
-          "as_of": "2026-10-05",
+          "as_of": "2026-10-06",
           "slots": [
             {
               "time": "11:00PM",
@@ -103,8 +103,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.57,
               "is_close": false,
               "date": "2026-10-06",
-              "title": "저항선 돌파 시도 지속",
-              "text": "Azure 실적 호조와 데이터센터 투자 기대감이 겹치며 매수세가 꾸준히 유입되는 모습"
+              "title": "장 초반부터 강세 지속",
+              "text": "짐 크레이머가 AI 투자 유망주로 꼽은 가운데 프로젝트 헬릭스 관련 소식도 나오며 상승 흐름 이어감"
             },
             {
               "time": "마감",
@@ -112,40 +112,40 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.78,
               "is_close": true,
               "date": "2026-10-06",
-              "title": "상승세 유지하며 견조한 흐름",
-              "text": "장중 상승폭이 다소 줄었지만 저항선 부근에서의 매수세가 이어지며 플러스권을 지켜냄"
+              "title": "상승폭 더 키우며 마감",
+              "text": "클로드 지출 축소 소식에도 매수세가 꾸준히 유입되며 장 초반 상승분을 지키고 오름폭을 확대함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "DLSS 5는 구름과 세부 묘사를 향상시킵니다. Microsoft Flight Simulator 2024 RTX 5090에서",
-              "original": "DLSS 5는 구름과 세부 묘사를 향상시킵니다. Microsoft Flight Simulator 2024 RTX 5090에서",
-              "source": "GameGPU",
-              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQzBZTXNQZVNMMmtSZ3ZpWVpfT2ZpZlZERmJqM2czZ2twWTZxcTRsM0NBc2pPOWc0T2JBbWtEak1URlJNVlhPX1V6QkZUMjhhSlJqUm5GTXF3WXAwVXlEWnk1Vjhwd21CakxGemJoWXNUdEhGd2lpVENqYU1XWjIyMFRXdVpaSGpfaVhNQnJCS3Rlb1gwcVBxcnZHRW12eFZ2cjNEOC1JcUdNeE5PZzFJWlExSGE1aFdfRVE?oc=5",
-              "published": "2026-10-06T07:14:10+09:00"
+              "title": "마이크로소프트-메타, 사내 클로드 지출 확 줄인다",
+              "original": "마이크로소프트-메타, 사내 클로드 지출 확 줄인다",
+              "source": "디지털투데이",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA0dWZxbHlDNXNBWlNZRjhDaVFLTmxrNDNIdDBXWlFaLURielhGbk4yMXVGcU9NOVc4bXUzNGpjMmxoVF9OYkdWb1gwYXQxcjQxbVBQWlVsaFA5Nzc3VjZhVDlYNTNJczVORzF4T1B4MFlhSXM?oc=5",
+              "published": "2026-10-07T08:00:26+09:00"
             },
             {
-              "title": "10월 13일, 마이크로소프트 오피스·윈도우·서버 지원·보안 업데이트 종료 겹친다...교체·갱신 점검 시급",
-              "original": "10월 13일, 마이크로소프트 오피스·윈도우·서버 지원·보안 업데이트 종료 겹친다...교체·갱신 점검 시급",
-              "source": "지티티코리아",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LZjNmUnFkSDhEb0tYcXRqamR3X1pjdlNrRjlncXRHRVNESjhoekd4eU0wdzdvU0FiUERtV2VxMzNYUWtSMXlGbHIybjMxcU5ObVZyM0J2NndLQnFSczJuckZ1X1o2SVplLWc?oc=5",
-              "published": "2026-10-06T06:30:00+09:00"
-            },
-            {
-              "title": "마벨 1.93% 상승…마이크로소프트도 1.65% 올라",
-              "original": "마벨 1.93% 상승…마이크로소프트도 1.65% 올라",
+              "title": "짐 크레이머, 메타·마이크로소프트 등 AI 투자 유망주 꼽아",
+              "original": "짐 크레이머, 메타·마이크로소프트 등 AI 투자 유망주 꼽아",
               "source": "토큰포스트",
-              "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBVTmlTZWt0NmRyRm9pclpBdldrYko4a1UwMGcwMmF2cEh4bjhETS1QRk10WkhwRkNjb3dSNXNJUklseWZxbl9FMjhYRTZFbWVFdTJFNEVmOA?oc=5",
-              "published": "2026-10-06T05:12:00+09:00"
+              "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBUS0E5Zmd0Z0UyWFRQN3ZFN2R4dU10NmlFVUtwSTVJRW9QMnp4TjluWFhVWS12cmRYeEN5VUk0bjRiS2poTmxKYXFxU1lhVlIx?oc=5",
+              "published": "2026-10-07T07:44:00+09:00"
+            },
+            {
+              "title": "마이크로소프트는 프로젝트 헬릭스가 단일 콘솔이 아닌 Xbox 기기 제품군이 될 것이라고 확인했습니다.",
+              "original": "마이크로소프트는 프로젝트 헬릭스가 단일 콘솔이 아닌 Xbox 기기 제품군이 될 것이라고 확인했습니다.",
+              "source": "GameGPU",
+              "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOE4xUm1xNXdyZTZrWDAyblZmMUxkVXBkRl8yNWs2UE5HbDhZWUZCR1Y3bTBpM2VZNEJWWF9yYk5BZTBfR1pfeFBfd3BWanRvT01Nd3BpUXpQUkI3M0VhNGFGZGtFdGZWY0cwSEI0QUhWdVFlU01MODdPM3JIcWVWS2pJZG1rZjYzZkptbExydkl0WlNCSXdMdTNzaE5IbWsyUWhMbDJsTmVhUlY1RmhCdmM0b0ZLcnFJaDB0OGZEVUlZTi03VVlDcw?oc=5",
+              "published": "2026-10-07T05:43:57+09:00"
             }
           ]
         },
         {
           "stock": "아이온큐",
           "ticker": "IONQ",
-          "title": "아이온큐 - 경쟁사 급등 속 홀로 하락",
-          "body": "아이온큐는 동종 양자컴퓨터주인 큐트렉스 퀀텀이 40% 급등한 가운데서도 -1.83% 내린 <b>42.97달러</b> 마감. 구글 알파벳과의 양자 컴퓨팅 패권 경쟁이 부각되는 와중에 미즈호가 성장성을 이유로 등급을 재확인했음에도 투자심리가 엇갈린 모습이다.",
+          "title": "아이온큐 - SDT와 양자기술 협력 가속",
+          "body": "아이온큐는 SDT가 2027년까지 핵심 노하우 이전과 추가 부품 협력을 논의하며 양자기술 내재화에 속도를 내고 있다는 소식 속에 -1.83% 내린 <b>42.97달러</b> 마감.",
           "pct": -1.83,
           "price": 42.970001220703125,
           "currency": "USD",
@@ -154,56 +154,42 @@ window.NOTEFOLIO_BRIEFING = {
             {
               "time": "11:00PM",
               "price": 44.16999816894531,
-              "pct": 2.79,
+              "pct": 2.73,
               "is_close": false,
               "date": "2026-10-06",
-              "title": "하락 마감 후 반등 시도",
-              "text": "전일 하락 마감 이후 기술 협력 소식이 알려지며 매수세가 유입되는 흐름으로 전환됨"
+              "title": "기술협력 소식에 상승",
+              "text": "SDT와의 양자기술 내재화 및 협력 논의 소식이 전해지며 매수세가 유입되고 주가 상승"
             },
             {
               "time": "마감",
-              "price": 43.290000915527344,
+              "price": 43.314998626708984,
               "pct": 0.74,
               "is_close": true,
               "date": "2026-10-06",
-              "title": "상승폭 줄이며 보합권 마감",
-              "text": "장중 강세를 보였던 흐름이 약해지며 결국 소폭 상승에 그친 채로 거래를 마무리함"
+              "title": "오름폭 다소 줄며 유지",
+              "text": "장중 협력 소식에 힘입은 상승세가 이어졌으나 막판 들어 오름폭이 다소 줄어들며 마감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "미국 양자컴퓨터주 큐트렉스 퀀텀 40% 급등, 아이온큐·리게티 컴퓨팅은 하락",
-              "original": "미국 양자컴퓨터주 큐트렉스 퀀텀 40% 급등, 아이온큐·리게티 컴퓨팅은 하락",
-              "source": "CBC뉴스",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ZUzBvcThyUXljVmtrdVZkVzNOVXRLYlE4a1FhQ1R1bFJ2cV9vSS1yVi1NYnpVOVlSbWFHMUQ4MVNXS3VfbFdCUS1jZzRGdGxfcWM3eWE4VFFmOW4tQ3oxaGJ2M2pRWm9B?oc=5",
-              "published": "2026-10-06T02:03:27+09:00"
-            },
-            {
-              "title": "미즈호, 양자 컴퓨팅 성장에 IONQ 주식 등급 재확인",
-              "original": "미즈호, 양자 컴퓨팅 성장에 IONQ 주식 등급 재확인",
-              "source": "Investing.com 한국어",
-              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5pak9KRGVROVlLUWlDeHFOdXRMNWxHUW9ZYXl3bXgtbDYtVFFCT1VFUlhPYWpCWGhVOWZLa3pLd0FURDNNMXFqRy15bkc2UDB6Sm5OeWFRQkEwcEFYeTlRTEpPQTJod0NlSHVrcjZlbmt2TDZB?oc=5",
-              "published": "2026-10-05T20:29:00+09:00"
-            },
-            {
-              "title": "양자 컴퓨팅 패권 경쟁 빅매치…구글 알파벳 vs 아이온큐 승부처는 어디인가",
-              "original": "양자 컴퓨팅 패권 경쟁 빅매치…구글 알파벳 vs 아이온큐 승부처는 어디인가",
-              "source": "글로벌이코노믹",
-              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVGU1bW5XRU1sbklxVWZ6SnJHSTlqSFNITDBBeUFRblBrdFIzODdBb00yVERGSWN3UTlnTEFyclpLbnlvQUVhMXdrWGVKWEpaQk5rUUJtVEVaV1h1VWNJTGEzcUtrYnJDNkxDYjFSbEIzdjlCX3BEWEh4NjhIZnIwTm9LN1BJSUxi?oc=5",
-              "published": "2026-10-05T13:19:37+09:00"
+              "title": "SDT, 아이온큐 양자기술 내재화 속도…2027년까지 핵심 노하우 이전·추가 부품 협력 논의",
+              "original": "SDT, 아이온큐 양자기술 내재화 속도…2027년까지 핵심 노하우 이전·추가 부품 협력 논의",
+              "source": "파이낸셜포스트",
+              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1WalpPZkRUTWZmc204LWloZ1d6U3RuMHp6eDFSY3A0VXFZdlRSQzN1dk9QLUd4N1JIaEdxdTk2Mkc4WF9ENWk2aWVKanVTdVdhVjhSdmc3dGtiWVJYYms1dDUwdHBNS0hTY2tPeGJJYTY1OUVM?oc=5",
+              "published": "2026-10-06T13:29:37+09:00"
             }
           ]
         },
         {
           "stock": "엔비디아",
           "ticker": "NVDA",
-          "title": "엔비디아 - 이틀 연속 사상 최고치",
-          "body": "엔비디아는 시가총액 5.76조달러로 6조달러까지 3.8%만을 남기며 +2.12% 오른 <b>238.90달러</b> 마감. AI주 강세에 나스닥도 사상 최고치를 경신하는 가운데 그록 인수를 둘러싼 주주권 침해 소송 소식에도 주가는 이틀 연속 최고치를 갈아치웠다.",
-          "pct": 2.12,
-          "price": 238.89999389648438,
+          "title": "엔비디아 - 스페이스X發 AI칩 수요 부각",
+          "body": "엔비디아는 스페이스X가 AI칩 구매를 위해 약 54조원 자금 조달을 추진한다는 소식 속에 +0.14% 오른 <b>239.24달러</b> 마감. AI 인프라 확장 가속 기대가 투자심리를 뒷받침한 것으로 해석된다.",
+          "pct": 0.14,
+          "price": 239.24000549316406,
           "currency": "USD",
-          "as_of": "2026-10-05",
+          "as_of": "2026-10-06",
           "slots": [
             {
               "time": "11:00PM",
@@ -211,8 +197,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.42,
               "is_close": false,
               "date": "2026-10-06",
-              "title": "나흘째 신기록 행진",
-              "text": "지수 사상 최고치 경신 속 최선호주 재선정 소식까지 더해지며 강세 흐름이 이어짐"
+              "title": "스페이스X 소식에 강세",
+              "text": "스페이스X의 대규모 자금 조달 및 칩 구매 추진 소식이 전해지며 장 초반부터 매수세 유입"
             },
             {
               "time": "마감",
@@ -220,32 +206,32 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.14,
               "is_close": true,
               "date": "2026-10-06",
-              "title": "상승폭 축소되며 보합 마감",
-              "text": "장중 강한 상승세를 보였던 흐름이 오후 들어 둔화되며 소폭 상승에 그친 채 마무리됨"
+              "title": "오름폭 축소되며 마감",
+              "text": "장 초반 스페이스X發 훈풍으로 급등했으나 오후 들어 상승폭이 크게 줄며 보합 수준에서 마무리"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "엔비디아 주가 이틀째 사상 최고…시총 5.76조달러, 6조달러 3.8% 남았다",
-              "original": "엔비디아 주가 이틀째 사상 최고…시총 5.76조달러, 6조달러 3.8% 남았다",
-              "source": "매일신문",
-              "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB6MlVWQ0EtcDNoSk1JbWNLREZXZUJfUDIwSzdJOWdRSWxkWEM4Tkdvb082QWpxQ1F4NHlKRWxwc2paclBaTl9hU2xTdmtSQ2hDUDhTSXY0S1RZbDNJV3hpaGJ3?oc=5",
-              "published": "2026-10-06T07:20:47+09:00"
+              "title": "[서학개미 안테나] 머스크의 스페이스X, 엔비디아 AI칩 사려고 54조원 빚낸다",
+              "original": "[서학개미 안테나] 머스크의 스페이스X, 엔비디아 AI칩 사려고 54조원 빚낸다",
+              "source": "www.ebn.co.kr",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxeHRTN0NLQVNKOEtWUi05Y2lpQ0szdWFIM0Z5YURnajJHLU83bnUzXzM0UkZ5eGJPLWtDUm1jVzkyZWVkdTZxN3FlaldMNDdiSTFGUGw1eVFIMkZjYWQ2ODNlU0FsWGpf?oc=5",
+              "published": "2026-10-07T10:13:08+09:00"
             },
             {
-              "title": "‘AI주’ 강세에 나스닥 사상 최고···엔비디아 이틀 연속 사상 최고치 경신",
-              "original": "‘AI주’ 강세에 나스닥 사상 최고···엔비디아 이틀 연속 사상 최고치 경신",
-              "source": "v.daum.net",
-              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE42NUZqbUl1NTF5eF8zNHc4ZWFjVEs5M0JYQkhnY3hvVmlHUUdvb1hmLUVFZjNiekRkd2kxT3NzQm5TNmU5ZzBVUTRxcG9zWlE?oc=5",
-              "published": "2026-10-06T07:20:12+09:00"
+              "title": "엔비디아, ‘콜 오브 듀티: 모던 워페어 4’ 등 신작에 DLSS 4.5 지원 확대",
+              "original": "엔비디아, ‘콜 오브 듀티: 모던 워페어 4’ 등 신작에 DLSS 4.5 지원 확대",
+              "source": "경향게임스",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KQzFpaU83UldJaVJmaS1RZ0hfWVpwcWY2dnFKWXpERnRhVzJqeXREOUo3b09aajRLYk0yb3pqVTRKUmxuT2xscW8zbDhWTnpZLUVJU3JuVmJnVEFVNXpnVjBQSF8xYWl6Sm9mdw?oc=5",
+              "published": "2026-10-07T09:59:25+09:00"
             },
             {
-              "title": "엔비디아, 그록 인수하며 주주권 침해한 혐의로 피소",
-              "original": "엔비디아, 그록 인수하며 주주권 침해한 혐의로 피소",
-              "source": "dt.co.kr",
-              "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5GdTBpS2otSURFQy0wWjRuNFF4T0NRRVdSWEg3ekdLbHdSQjdjZXNHWE0zY1ZHZzliaTV2LUJqeWZ6cld3ektSSkRaUUpjUQ?oc=5",
-              "published": "2026-10-06T07:19:30+09:00"
+              "title": "스페이스X, 엔비디아 칩 구매 위해 53조원 자금 조달 추진…AI 인프라 확장 가속",
+              "original": "스페이스X, 엔비디아 칩 구매 위해 53조원 자금 조달 추진…AI 인프라 확장 가속",
+              "source": "마켓잉크",
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA2T3BEYUs4bWVRcHRGWTA1cHYwR3pqUlluV3R5WjhqcmVXeDBpM1FTQk0yazhjakdkZVVaVnBWYjRLY2pZczQyb2x1VUdBdkh5WHBRQ3N0aFhuRGZmZDVfdnhCLTZWZm9KY3ZUMmxmbw?oc=5",
+              "published": "2026-10-07T09:54:10+09:00"
             }
           ]
         },
@@ -253,7 +239,7 @@ window.NOTEFOLIO_BRIEFING = {
           "stock": "소파이테크놀로지",
           "ticker": "SOFI",
           "title": "소파이테크놀로지 - 재료 없이 소폭 상승",
-          "body": "소파이테크놀로지는 특별한 재료 없이 +0.95% 오른 <b>15.92달러</b> 마감.",
+          "body": "소파이테크놀로지는 +0.95% 오른 <b>15.92달러</b> 마감.",
           "pct": 0.95,
           "price": 15.920000076293945,
           "currency": "USD",
@@ -262,29 +248,28 @@ window.NOTEFOLIO_BRIEFING = {
             {
               "time": "11:00PM",
               "price": 15.972299575805664,
-              "pct": 0.33,
+              "pct": 0.42,
               "is_close": false,
               "date": "2026-10-06",
-              "title": "상승 흐름 이어가는 중",
-              "text": "특별한 소식 없이도 장중 완만한 상승 흐름이 이어지며 거래가 진행되는 모습을 보임"
+              "title": "장중 내림세 전환",
+              "text": "특별한 재료 없이 장중 상승분을 지키지 못하고 하락 전환되며 약세 흐름이 이어짐"
             },
             {
               "time": "마감",
               "price": 15.760000228881836,
-              "pct": -1.01,
+              "pct": -0.91,
               "is_close": true,
               "date": "2026-10-06",
-              "title": "상승분 반납하며 약세 마감",
-              "text": "장중 올랐던 흐름을 지키지 못하고 오후 들어 밀리며 결국 소폭 하락한 채 마감함"
+              "title": "저점 찍고 소폭 회복",
+              "text": "장중 내내 약세를 보이던 흐름에서 저점을 찍은 뒤 막판 들어 낙폭을 일부 만회하며 마감"
             }
           ],
           "slot_total": 2,
           "news": []
         }
       ],
-      "markdown": "briefings/2026-10-06-us.md",
-      "refreshed_at": "2026-10-06 07:33:10 KST",
-      "slots_refreshed_at": "2026-10-07 06:35:18 KST"
+      "markdown": "briefings/2026-10-07-us.md",
+      "refreshed_at": "2026-10-07 10:26:45 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
