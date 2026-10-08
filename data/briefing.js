@@ -1,15 +1,15 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-08 06:56:33 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-10-08 10:49:36 KST",
+  "refreshed": [
     "us"
   ],
-  "default": "kr",
+  "slots_refreshed": [],
+  "default": "us",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
-      "label": "미국 증시 요약 2026. 10. 7. 10:26AM",
+      "label": "미국 증시 요약 2026. 10. 8. 10:49AM",
       "chips": [
         "전체",
         "IBM",
@@ -22,26 +22,26 @@ window.NOTEFOLIO_BRIEFING = {
         "오후 6시, 국내 시장을 움직인 이유를 확인하세요."
       ],
       "next": "kr",
-      "headline": "해외 5종목 중 3종목 상승, 2종목 하락 — 소파이테크놀로지가 +0.95%로 가장 많이 올랐고 아이온큐가 -1.83%로 가장 부진했습니다.",
-      "market_headline": "3분기 실적 기대에 S&P500·나스닥 사상 최고치",
+      "headline": "해외 5종목 중 1종목 상승, 4종목 하락 — 마이크로소프트가 +0.09%로 가장 많이 올랐고 아이온큐가 -4.50%로 가장 부진했습니다.",
+      "market_headline": "美 국채금리 20여 년 만 최고치에 3대 지수 동반 하락",
       "market_card": {
-        "title": "3대 지수 상승 마감...S&P500·나스닥 사상 최고치 경신",
+        "title": "뉴욕증시 3대 지수 하락 마감...국채금리 급등 부담",
         "bullets": [
-          "3분기 실적 발표 앞두고 기대감 확산",
-          "미 국채금리 진정에 기술주 강세",
-          "국제유가·금값 동반 강보합세"
+          "美 국채금리 20여 년 만에 최고치 경신",
+          "다우존스 0.66~0.7%대 하락 마감",
+          "국제유가 WTI 1.3% 하락, 88달러대"
         ]
       },
       "cards": [
         {
           "stock": "IBM",
           "ticker": "IBM",
-          "title": "IBM - 목표가 상향에도 보합권 등락",
-          "body": "IBM은 매수세가 심리적 지지선을 방어하며 목표주가 242달러가 제시된 가운데 -0.13% 내린 <b>221.29달러</b> 마감.",
-          "pct": -0.13,
-          "price": 221.2899932861328,
+          "title": "IBM - 양자컴퓨팅 DARPA 3단계 진출",
+          "body": "IBM은 DARPA 양자 컴퓨팅 프로그램 3단계에 진출했다는 소식에도 -0.35% 내린 <b>220.51달러</b> 마감. 중견기업용 SAP 클라우드 ERP 전환 솔루션 출시 등 사업 확장 소식도 있었지만 주가에는 큰 영향을 주지 못한 모습이다.",
+          "pct": -0.35,
+          "price": 220.50999450683594,
           "currency": "USD",
-          "as_of": "2026-10-06",
+          "as_of": "2026-10-07",
           "slots": [
             {
               "time": "11:00PM",
@@ -49,8 +49,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.07,
               "is_close": false,
               "date": "2026-10-07",
-              "title": "장 후반 낙폭 확대",
-              "text": "오픈소스 보안 강화와 SAP 클라우드 ERP 출시 소식에도 매수세는 붙지 못하며 약세가 이어짐"
+              "title": "약세 흐름 지속",
+              "text": "양자 컴퓨팅 3단계 진출과 SAP 솔루션 출시 소식에도 매수세가 붙지 못하며 하락세가 이어짐"
             },
             {
               "time": "마감",
@@ -58,44 +58,44 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.35,
               "is_close": true,
               "date": "2026-10-07",
-              "title": "약세로 마감",
-              "text": "장중 내내 하락세를 벗어나지 못했고 저녁 발표된 호재성 소식에도 낙폭을 줄이지 못한 채 마감"
+              "title": "낙폭 다소 줄며 마감",
+              "text": "장중 한때 하락폭이 더 컸으나 막판 들어 낙폭을 일부 만회하며 거래를 마무리함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "IBM이 AI 지원 개발의 ROI를 측정한 방법",
-              "original": "IBM이 AI 지원 개발의 ROI를 측정한 방법",
-              "source": "IBM",
-              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOck93V01IY2FCMzgtYW9iWXJDdkVSZUhJUHY4d0JzYWhOUXYtSHRUZzk5QWlEUFlaX2FSeXF0UTV3RU5FanF5WExFUERuNm9HSnFGT3lNdC1BNUt2cUlYekc4cTZZUGxnWHkzdlU0NGxYblFfbDJvTTRYbHdSX0QtM0RzR3luZURIN0xEanI1MWt4cjVITDRmbEtWY0xxQQ?oc=5",
-              "published": "2026-10-07T04:59:53+09:00"
-            },
-            {
-              "title": "매수세가 심리적 지지선을 방어하며 IBM 주가 $242 목표",
-              "original": "매수세가 심리적 지지선을 방어하며 IBM 주가 $242 목표",
-              "source": "Traders Union",
-              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNS2U5UFZBYzZlZmk1Njlkc3ByMlVWZFFFa0dUbmt4ZzFJUERsaVk1eEIzWVdqc2U0aFZQLU9Dd1MtQndWaG9na0x5ZWRTTDJ3UGpQQ042QjBkN0UwT05Wd1hyVGU0aVowUmFUVHFfMHFOalltY2dkbkd3dEUzeExjdw?oc=5",
-              "published": "2026-10-06T19:43:16+09:00"
-            },
-            {
-              "title": "ParseBench IBM Docling과의 비교표 이미지",
-              "original": "ParseBench IBM Docling과의 비교표 이미지",
+              "title": "IBM, '레디 포 SAP 솔루션' 출시…중견기업 클라우드 ERP 전환 지원",
+              "original": "IBM, '레디 포 SAP 솔루션' 출시…중견기업 클라우드 ERP 전환 지원",
               "source": "전자신문",
-              "url": "https://news.google.com/rss/articles/CBMi8gRBVV95cUxOTzZzc2ZaQWlHQWlHZnYtQlZLMTRaNjZoak9NZmR0cG5BeEQybVFROHRPV1MtNGp4YVVqalpnSmpNRTFZbUNJNjRjTE1TM2hjV19QdGxfR2NWSEhUb0lObjdLTXoyNElJN2d5bHl6RzcweUVaaU5iNGlIS1J4NklNTU9CM2VQVjZMNVRrSkdWZGQ0WDdHbTJZbERqTElyTEdiZDdoYmF2dGlpYlYzQlV3ZjY5alZvWFZkZnpITlA0MURfOUphMkVjLVNuQjY4UzMxSmV5VnVVcW9KSV9ZclllYnlrVHVkNjNOdFBBSTRCczZQQ21qLXdIQjI4YmhzWDBuVGlSYnhxLTZ3V1BlekhDWUhRWGJ0MlU0dUpXYUtYMUpMWDBuRTN1WjJWd0syMmg5SDluQWNtNW5aTmRhMnhjR3JMbWkzTEFnLWxGLXQxZDQyakljWG5XLVVEaVVQdzFvSk9kZ3pUaDRpLU5vaXkxd0Jnclp1cWJ0cm5JVmxVNDcwd0hueEhJMjMwVXcwUkpzcjJJRkYteF85WDdkblJkdXdma1RCRTFsRFMzcVhJdlNqbUtqWnBCOUxjLWNERkhrRlZLZEZUM0VjMXY2eVAyR3lXSDhqRXZwNFdick0xdG00STltLUctc2NIdFlFQXhoZFNNLUdzcDdfM1otNnlqdl9kTXRhTnJ0S0N6Qjl5VjFmT2lBZDl3TVF6VUZISjlmd3dESTJXYnRZYmtHamNUR0k4blBseS1LaXBrT0U1N2NpZWcyT2xGcGl2XzFVaHBDNlZzTHhKZzlLWTJwcUdZSUtFeTJKenk3aVpHd3V2MzQtZw?oc=5",
-              "published": "2026-10-06T16:12:58+09:00"
+              "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9HTkM2UW9OQjNuUVB5ZmkyVV9IMFdhQk82S0xVX1d3ZVpfS2hCZ0Y4X29QQXc2VnZVWjBUYjFtazNSMks0SlJMNXlfdXJfdw?oc=5",
+              "published": "2026-10-08T07:38:39+09:00"
+            },
+            {
+              "title": "IBM, DARPA 양자 컴퓨팅 프로그램 3단계 진출",
+              "original": "IBM, DARPA 양자 컴퓨팅 프로그램 3단계 진출",
+              "source": "Investing.com 한국어",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9SZ2hGY25XdzVaZDV2N19YSVVCSS1wd2F0U1JxVVE1cDZVY0lWTHNTUGZud1gzVUpIOER2cS1BYTY5NEl1ZGRPRG9RNklmeVltT2pMMUdXNTBJMGpBQ2JubXN5emdoRUZScUF6RjFXajc?oc=5",
+              "published": "2026-10-08T06:41:00+09:00"
+            },
+            {
+              "title": "IBM® Digital Asset Haven은 토큰 기반 결제를 발전시키고 온프레미스 배포 유연성을 확대합니다",
+              "original": "IBM® Digital Asset Haven은 토큰 기반 결제를 발전시키고 온프레미스 배포 유연성을 확대합니다",
+              "source": "IBM",
+              "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQOVRiYXJVLXMwNkMzdlV1S25fTjdudG02bXVxTVlOaF9JMjZYYUtMdmxsR0VMQkhJQTZOX3BScFIxbTBhRm50Z1VCd1hhTGwzRXJza242S0VkTEd3UDM0NlBobXY5SzhYWV9XaE80NURNX2xWVTFlam9RVXhkNm5NWVJ2QXdGRWVoQjRiV3AxY0tkOHFPVXhwN1UtQlo2RmltRjhQT04tRWM4UjU4em5rS3dJM2s2bDZISnhUWGVVbHFDajNMbHpZSFBrQnR2WTVpcFRBTkNLTWtZcFk?oc=5",
+              "published": "2026-10-08T04:59:24+09:00"
             }
           ]
         },
         {
           "stock": "마이크로소프트",
           "ticker": "MSFT",
-          "title": "마이크로소프트 - AI 투자 유망주 꼽혀",
-          "body": "마이크로소프트는 짐 크레이머가 AI 투자 유망주로 꼽은 가운데 +0.78% 오른 <b>529.30달러</b> 마감. 사내 클로드 지출을 줄이는 한편 프로젝트 헬릭스를 Xbox 기기 제품군으로 확인하는 등 자체 생태계 강화 행보가 이어지는 모습이다.",
-          "pct": 0.78,
-          "price": 529.2999877929688,
+          "title": "마이크로소프트 - 서피스 랩톱 울트라 공개",
+          "body": "마이크로소프트는 엔비디아 RTX 칩을 탑재한 '서피스 랩톱 울트라'를 공개하고 맥북 프로와 경쟁을 예고한 가운데 +0.09% 오른 <b>529.76달러</b> 마감.",
+          "pct": 0.09,
+          "price": 529.760009765625,
           "currency": "USD",
-          "as_of": "2026-10-06",
+          "as_of": "2026-10-07",
           "slots": [
             {
               "time": "11:00PM",
@@ -103,8 +103,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.27,
               "is_close": false,
               "date": "2026-10-07",
-              "title": "강보합 전환 시도",
-              "text": "엔비디아 AI칩 탑재 신제품 공개 소식에도 장중엔 약세였으나 저가 매수세가 조금씩 유입됨"
+              "title": "신제품 공개 속 약보합",
+              "text": "엔비디아 칩 탑재한 서피스 랩톱 울트라 공개 소식이 이어졌지만 주가는 소폭 약세로 흘러감"
             },
             {
               "time": "마감",
@@ -112,44 +112,44 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.09,
               "is_close": true,
               "date": "2026-10-07",
-              "title": "보합권 마감",
-              "text": "AI 신제품 공개와 협업 소식이 이어진 가운데 장 후반 낙폭을 만회하며 강보합으로 마감"
+              "title": "막판 반등하며 마감",
+              "text": "장중 내내 눌려있던 주가가 마감 직전 반등에 성공하며 강보합으로 하루를 마무리함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "마이크로소프트-메타, 사내 클로드 지출 확 줄인다",
-              "original": "마이크로소프트-메타, 사내 클로드 지출 확 줄인다",
+              "title": "마이크로소프트 ‘서피스 랩톱 울트라’ 공개…엔비디아 RTX 스파크 탑재",
+              "original": "마이크로소프트 ‘서피스 랩톱 울트라’ 공개…엔비디아 RTX 스파크 탑재",
+              "source": "AI 매터스",
+              "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5Lem9sNXJXMVNqc3RDS2RFY1Fma1BwSmVXS19QY2RpVnBmNlVodkxPdUN2SWx6LTZvY0x5bjdIZVl5UHB2MTdUZ0RXTko5TzJ4UzZWTQ?oc=5",
+              "published": "2026-10-08T09:35:31+09:00"
+            },
+            {
+              "title": "마이크로소프트(MSFT.O), 엔비디아 탑재 '서피스 랩톱 울트라' 공개…맥북 프로와 정면승부",
+              "original": "마이크로소프트(MSFT.O), 엔비디아 탑재 '서피스 랩톱 울트라' 공개…맥북 프로와 정면승부",
+              "source": "메디컬투데이",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA1RlVjRVFUZkl3NEtvZGFtU05Qb0VRVGRpNlpQOVNRSzZjaXRkS3pKbmtRdk4zc0llNWtNOXB1OGpPTjBuczZqQ1pQX0dnTklEYkpCc0dSRUNvcEhfV3VsbWhCTGxTZXU2SlA4NA?oc=5",
+              "published": "2026-10-08T07:27:25+09:00"
+            },
+            {
+              "title": "마이크로소프트, '서피스 랩톱 울트라' 예판 시작...엔비디아 AI 칩 탑재",
+              "original": "마이크로소프트, '서피스 랩톱 울트라' 예판 시작...엔비디아 AI 칩 탑재",
               "source": "디지털투데이",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA0dWZxbHlDNXNBWlNZRjhDaVFLTmxrNDNIdDBXWlFaLURielhGbk4yMXVGcU9NOVc4bXUzNGpjMmxoVF9OYkdWb1gwYXQxcjQxbVBQWlVsaFA5Nzc3VjZhVDlYNTNJczVORzF4T1B4MFlhSXM?oc=5",
-              "published": "2026-10-07T08:00:26+09:00"
-            },
-            {
-              "title": "짐 크레이머, 메타·마이크로소프트 등 AI 투자 유망주 꼽아",
-              "original": "짐 크레이머, 메타·마이크로소프트 등 AI 투자 유망주 꼽아",
-              "source": "토큰포스트",
-              "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBUS0E5Zmd0Z0UyWFRQN3ZFN2R4dU10NmlFVUtwSTVJRW9QMnp4TjluWFhVWS12cmRYeEN5VUk0bjRiS2poTmxKYXFxU1lhVlIx?oc=5",
-              "published": "2026-10-07T07:44:00+09:00"
-            },
-            {
-              "title": "마이크로소프트는 프로젝트 헬릭스가 단일 콘솔이 아닌 Xbox 기기 제품군이 될 것이라고 확인했습니다.",
-              "original": "마이크로소프트는 프로젝트 헬릭스가 단일 콘솔이 아닌 Xbox 기기 제품군이 될 것이라고 확인했습니다.",
-              "source": "GameGPU",
-              "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOE4xUm1xNXdyZTZrWDAyblZmMUxkVXBkRl8yNWs2UE5HbDhZWUZCR1Y3bTBpM2VZNEJWWF9yYk5BZTBfR1pfeFBfd3BWanRvT01Nd3BpUXpQUkI3M0VhNGFGZGtFdGZWY0cwSEI0QUhWdVFlU01MODdPM3JIcWVWS2pJZG1rZjYzZkptbExydkl0WlNCSXdMdTNzaE5IbWsyUWhMbDJsTmVhUlY1RmhCdmM0b0ZLcnFJaDB0OGZEVUlZTi03VVlDcw?oc=5",
-              "published": "2026-10-07T05:43:57+09:00"
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1aQjlxeURzTzh2WHBOTGpJUlhKOVVyY2pvSDF2VTlpbklaUlVGaWFUYjM5MW9ubDExOFlsYWdIVXJHZnRmQmdwQTFSckp3WWdKU3J6dzNpX29Sc3lLVE5ZOTVNcFJwa05RY2k4eE94bUVDeG8?oc=5",
+              "published": "2026-10-08T07:17:41+09:00"
             }
           ]
         },
         {
           "stock": "아이온큐",
           "ticker": "IONQ",
-          "title": "아이온큐 - SDT와 양자기술 협력 가속",
-          "body": "아이온큐는 SDT가 2027년까지 핵심 노하우 이전과 추가 부품 협력을 논의하며 양자기술 내재화에 속도를 내고 있다는 소식 속에 -1.83% 내린 <b>42.97달러</b> 마감.",
-          "pct": -1.83,
-          "price": 42.970001220703125,
+          "title": "아이온큐 - 금리 우려에 양자주 동반 약세",
+          "body": "아이온큐는 고금리 장기화 우려에 양자 컴퓨팅주가 동반 약세를 보이며 -4.50% 내린 <b>41.34달러</b> 마감. DARPA 양자 프로그램 진전으로 최대 3억 달러 계약을 확보했다는 소식도 있었지만 업종 전반의 투자심리 위축을 넘어서지 못한 모습이다.",
+          "pct": -4.5,
+          "price": 41.34000015258789,
           "currency": "USD",
-          "as_of": "2026-10-05",
+          "as_of": "2026-10-07",
           "slots": [
             {
               "time": "11:00PM",
@@ -157,8 +157,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -4.0,
               "is_close": false,
               "date": "2026-10-07",
-              "title": "낙폭 확대 지속",
-              "text": "고금리 장기화 우려에 양자컴퓨팅 업종 전반이 약세를 보이며 하락폭이 하루 종일 커짐"
+              "title": "고금리 우려에 낙폭 확대",
+              "text": "양자 프로그램 계약 소식에도 불구 고금리 장기화 우려 속 양자 컴퓨팅주 전반이 약세를 보임"
             },
             {
               "time": "마감",
@@ -166,30 +166,44 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -4.5,
               "is_close": true,
               "date": "2026-10-07",
-              "title": "하루 중 최저가권",
-              "text": "장 초반 불거진 금리 우려가 해소되지 않으며 낙폭이 더 커진 채 하루를 마무리함"
+              "title": "하락폭 더 커지며 마감",
+              "text": "장 후반 들어 낙폭이 더욱 커지며 하루 중 가장 낮은 수준에서 거래를 마감함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "SDT, 아이온큐 양자기술 내재화 속도…2027년까지 핵심 노하우 이전·추가 부품 협력 논의",
-              "original": "SDT, 아이온큐 양자기술 내재화 속도…2027년까지 핵심 노하우 이전·추가 부품 협력 논의",
-              "source": "파이낸셜포스트",
-              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1WalpPZkRUTWZmc204LWloZ1d6U3RuMHp6eDFSY3A0VXFZdlRSQzN1dk9QLUd4N1JIaEdxdTk2Mkc4WF9ENWk2aWVKanVTdVdhVjhSdmc3dGtiWVJYYms1dDUwdHBNS0hTY2tPeGJJYTY1OUVM?oc=5",
-              "published": "2026-10-06T13:29:37+09:00"
+              "title": "아이온큐 주가, 41.34 USD 4.50% 하락 마감",
+              "original": "아이온큐 주가, 41.34 USD 4.50% 하락 마감",
+              "source": "TopStarNews",
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5wZFNWa3lMUzRjMnF0aUl4U0hRT2trRFZNeGExVDhkbFoxUlg4enAxaUxhRjhpRkNydDd1MURpNV9vY2drVF8yeW5KLUp5dTFMMDBOUkh3dGFPTVF3RlhYTWlUTWd3UXZ2TXlWRjd3TWZ6dw?oc=5",
+              "published": "2026-10-08T09:49:26+09:00"
+            },
+            {
+              "title": "IonQ, DARPA 양자 프로그램 진전…최대 3억 달러 계약 확보",
+              "original": "IonQ, DARPA 양자 프로그램 진전…최대 3억 달러 계약 확보",
+              "source": "Investing.com 한국어",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5jTWFCcTZjWEZ1ZVRybFVhZWZDR0lSOUZZRUVLQkEzZWZMNVc4azZwNmp3aW1kUnZ2bG5uX0NSSVJzTVNRR182WkptSFZFak1nQXg4Y2ZMYzZzTHp5NXN2dDNCVW95NkxfQmF2TUJ0X0I?oc=5",
+              "published": "2026-10-08T06:53:00+09:00"
+            },
+            {
+              "title": "아이온큐·퀀티넘 등 양자 컴퓨팅주, 고금리 장기화 우려에 '와르르'",
+              "original": "아이온큐·퀀티넘 등 양자 컴퓨팅주, 고금리 장기화 우려에 '와르르'",
+              "source": "글로벌이코노믹",
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxON3dCVTBVVWVmbkhwbVRQR0JITWhtVzhFTjZhNndrT205aHFEbFhXR2hXYW1HMzhvUTVMR0hBQ2JYUUJCc3lFdGI4MGJmRHlqVG40VkpWLVdWc00yQmp6M19JYWxLUWc1TThWLTg4X3lWbFFEU21hdnp4NmNuUnV6TnZPTE5QeUZ6?oc=5",
+              "published": "2026-10-08T06:15:24+09:00"
             }
           ]
         },
         {
           "stock": "엔비디아",
           "ticker": "NVDA",
-          "title": "엔비디아 - 스페이스X發 AI칩 수요 부각",
-          "body": "엔비디아는 스페이스X가 AI칩 구매를 위해 약 54조원 자금 조달을 추진한다는 소식 속에 +0.14% 오른 <b>239.24달러</b> 마감. AI 인프라 확장 가속 기대가 투자심리를 뒷받침한 것으로 해석된다.",
-          "pct": 0.14,
-          "price": 239.24000549316406,
+          "title": "엔비디아 - 삼성 HBM·영업익 부각에 약세",
+          "body": "엔비디아는 삼성전자가 HBM 경쟁력을 앞세워 분기 영업익 107조원을 기록하며 연간 세계 1위 영업익까지 넘본다는 소식 속에 -0.74% 내린 <b>237.47달러</b> 마감. 삼성전자가 엔비디아·알파벳·MS·애플을 모두 제쳤다는 평가가 나오며 투자심리에 부담을 준 모습이다.",
+          "pct": -0.74,
+          "price": 237.47000122070312,
           "currency": "USD",
-          "as_of": "2026-10-06",
+          "as_of": "2026-10-07",
           "slots": [
             {
               "time": "11:00PM",
@@ -197,8 +211,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.21,
               "is_close": false,
               "date": "2026-10-07",
-              "title": "혼조 속 약세 지속",
-              "text": "스페이스X의 대규모 칩 구매 추진 소식에도 금리 급등 여파로 약세 흐름이 이어짐"
+              "title": "삼성 실적 부각 속 약세",
+              "text": "삼성전자의 사상 최대 영업이익 소식이 부각되며 비교 대상으로 거론되는 가운데 주가는 약세를 지속함"
             },
             {
               "time": "마감",
@@ -206,44 +220,44 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.74,
               "is_close": true,
               "date": "2026-10-07",
-              "title": "소폭 약세 마감",
-              "text": "장중 내내 하락세였으나 스페이스X 투자 확대 소식이 하방 압력을 다소 완화시킴"
+              "title": "낙폭 소폭 확대 마감",
+              "text": "장중 약세 흐름이 이어지며 낙폭이 조금 더 커진 채로 하루 거래를 마무리함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "[서학개미 안테나] 머스크의 스페이스X, 엔비디아 AI칩 사려고 54조원 빚낸다",
-              "original": "[서학개미 안테나] 머스크의 스페이스X, 엔비디아 AI칩 사려고 54조원 빚낸다",
-              "source": "www.ebn.co.kr",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxeHRTN0NLQVNKOEtWUi05Y2lpQ0szdWFIM0Z5YURnajJHLU83bnUzXzM0UkZ5eGJPLWtDUm1jVzkyZWVkdTZxN3FlaldMNDdiSTFGUGw1eVFIMkZjYWQ2ODNlU0FsWGpf?oc=5",
-              "published": "2026-10-07T10:13:08+09:00"
+              "title": "삼성전자 적수가 없다…엔비디아·알파벳·MS·애플 모두 제쳐",
+              "original": "삼성전자 적수가 없다…엔비디아·알파벳·MS·애플 모두 제쳐",
+              "source": "뉴스1",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE83VXlLaVpyb0IyZzdZLTNiQmhGOWtzUmF5WF9wbWV0cm50dTRWQjRjV3RnLVcxMUdXWjBKUWY3bDUzTW9BVmRuZHUyVkNMaDV1SHI3TDhuQ3RXQl9DNk5GMmVsczY?oc=5",
+              "published": "2026-10-08T10:19:05+09:00"
             },
             {
-              "title": "엔비디아, ‘콜 오브 듀티: 모던 워페어 4’ 등 신작에 DLSS 4.5 지원 확대",
-              "original": "엔비디아, ‘콜 오브 듀티: 모던 워페어 4’ 등 신작에 DLSS 4.5 지원 확대",
-              "source": "경향게임스",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KQzFpaU83UldJaVJmaS1RZ0hfWVpwcWY2dnFKWXpERnRhVzJqeXREOUo3b09aajRLYk0yb3pqVTRKUmxuT2xscW8zbDhWTnpZLUVJU3JuVmJnVEFVNXpnVjBQSF8xYWl6Sm9mdw?oc=5",
-              "published": "2026-10-07T09:59:25+09:00"
+              "title": "환율도 이긴 삼성의 ‘HBM 파워’…엔비디아 넘어 세계 1위 영업익 눈앞",
+              "original": "환율도 이긴 삼성의 ‘HBM 파워’…엔비디아 넘어 세계 1위 영업익 눈앞",
+              "source": "헤럴드경제",
+              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zX1JDSXpiLXBBeWRLb0pHRm5vN0V1bURHdnNwcDVDY1BydldsZ0pVazBOV2pkdU1nUGFjQzhXRC1fUXJCeTVvd3Y5Zlh2X1U1aENHa3dn?oc=5",
+              "published": "2026-10-08T10:14:23+09:00"
             },
             {
-              "title": "스페이스X, 엔비디아 칩 구매 위해 53조원 자금 조달 추진…AI 인프라 확장 가속",
-              "original": "스페이스X, 엔비디아 칩 구매 위해 53조원 자금 조달 추진…AI 인프라 확장 가속",
-              "source": "마켓잉크",
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA2T3BEYUs4bWVRcHRGWTA1cHYwR3pqUlluV3R5WjhqcmVXeDBpM1FTQk0yazhjakdkZVVaVnBWYjRLY2pZczQyb2x1VUdBdkh5WHBRQ3N0aFhuRGZmZDVfdnhCLTZWZm9KY3ZUMmxmbw?oc=5",
-              "published": "2026-10-07T09:54:10+09:00"
+              "title": "삼성전자, 분기 영업익 107조 '신기원' … 엔비디아 넘어 연간 세계 1위 넘본다",
+              "original": "삼성전자, 분기 영업익 107조 '신기원' … 엔비디아 넘어 연간 세계 1위 넘본다",
+              "source": "뉴데일리",
+              "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBiYzY0aHZLYmFLNWREY2NqSUVnT2VjNU5udjJLRFpHNmhpVDktTm9DcjI2YkNjRkZ3YTBaY1BPYmlGSnVwWFhDdUFxWm9pZzBfSThEc29DOEdJX1lWSWZGNDVVWTNiREpKbGlpZXoxQnZXWG5tNWNqckwxUdIBgAFBVV95cUxNSjlIb21oZ1pKR3RoUVlHQnhyaGJQZUxzMVl6YmRIb0NfX1VZRHFFVk1SOEZwSHljM2N5dHRXRU53bTlFSEVBaFhVRDBHR3ZVekw2ZDJXM01rT25ocFo3dW1WT0YyOXJmVTZMZ2NsalVKdFF4NWM0ckxOYWZCT1pYWQ?oc=5",
+              "published": "2026-10-08T10:13:55+09:00"
             }
           ]
         },
         {
           "stock": "소파이테크놀로지",
           "ticker": "SOFI",
-          "title": "소파이테크놀로지 - 재료 없이 소폭 상승",
-          "body": "소파이테크놀로지는 +0.95% 오른 <b>15.92달러</b> 마감.",
-          "pct": 0.95,
-          "price": 15.920000076293945,
+          "title": "소파이테크놀로지 - 뚜렷한 재료 없이 소폭 하락",
+          "body": "소파이테크놀로지는 특별한 재료 없이 -0.63% 내린 <b>15.66달러</b> 마감.",
+          "pct": -0.63,
+          "price": 15.65999984741211,
           "currency": "USD",
-          "as_of": "2026-10-05",
+          "as_of": "2026-10-07",
           "slots": [
             {
               "time": "11:00PM",
@@ -251,8 +265,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.24,
               "is_close": false,
               "date": "2026-10-07",
-              "title": "약세 흐름 지속",
-              "text": "특별한 소식 없이 장 후반까지 완만한 하락세가 이어지며 전일 대비 약세를 유지함"
+              "title": "특별한 재료 없이 약세",
+              "text": "별다른 뉴스 없이 장중 하락세가 이어지며 전일 대비 낮은 수준에서 거래가 지속됨"
             },
             {
               "time": "마감",
@@ -260,17 +274,16 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.63,
               "is_close": true,
               "date": "2026-10-07",
-              "title": "소폭 반등 마감",
-              "text": "장중 낙폭을 일부 만회하며 저가 매수세가 유입된 모습으로 하락폭을 줄여 마감"
+              "title": "낙폭 줄이며 마감",
+              "text": "장중 한때보다 하락폭을 다소 줄이며 소폭 약세로 하루 거래를 마감함"
             }
           ],
           "slot_total": 2,
           "news": []
         }
       ],
-      "markdown": "briefings/2026-10-07-us.md",
-      "refreshed_at": "2026-10-07 10:26:45 KST",
-      "slots_refreshed_at": "2026-10-08 06:56:33 KST"
+      "markdown": "briefings/2026-10-08-us.md",
+      "refreshed_at": "2026-10-08 10:49:36 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
