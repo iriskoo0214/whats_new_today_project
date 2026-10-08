@@ -718,27 +718,16 @@
       var d = new Date(slotDay + 'T00:00:00');
       PF.date = d.getFullYear() + '년 ' + (d.getMonth() + 1) + '월 ' + d.getDate() + '일';
     }
-    // 화면 색은 '지금 이 화면이 보여주는 거래일'의 마감 등락을 따른다.
-    // card.pct는 실시간 시세라, 장중에 돌린 브리핑에서는 슬롯의 거래일과 어긋난다
-    // (8/7에 -6% 마감한 종목이 8/10 오전에 올랐다고 빨갛게 나오던 문제).
-    var last = PF.slots.length ? PF.slots[PF.slots.length - 1] : null;
-    PF.dayPct = (last && last.pctRaw != null) ? last.pctRaw : card.pct;
-    applyPfTrend();
   }
 
-  /* 화면 팔레트(파랑/빨강 띠와 그림자)는 그날 종목의 등락 방향 하나로 고정한다.
-     시점마다 바꾸면 넘기는 동안 색이 뒤집혀서 오늘 오른 종목인지 내린 종목인지가
-     읽히지 않는다. 색은 종목당 하루에 한 번만 정해진다. */
-  function applyPfTrend() {
-    var down = PF.dayPct != null && PF.dayPct < 0;
-    document.getElementById('screenPf').dataset.trend = down ? 'down' : 'up';
-  }
-
-  /* 반면 삼각형과 % 색은 그 시점 값을 따라간다. 바로 옆 숫자의 부호라서
-     화면 색에 맞춰 뒤집으면 +0.76%에 ▼가 붙는 거짓말이 된다. */
+  /* 화면 팔레트(파랑/빨강 띠와 그림자), 삼각형, % 색은 모두 그 시점 값의 부호를
+     따른다. 마감 방향으로 색을 고정했더니 +0.09%에 ▲가 붙은 화면이 파랗게 나와
+     숫자와 색이 어긋났다. 넘기는 동안 색이 바뀌는 건 시점마다 방향이 다르다는 뜻이다. */
   function applySlotTrend(slot) {
     var down = slot && slot.pctRaw != null && slot.pctRaw < 0;
-    document.getElementById('screenPf').dataset.slotTrend = down ? 'down' : 'up';
+    var screen = document.getElementById('screenPf');
+    screen.dataset.slotTrend = down ? 'down' : 'up';
+    screen.dataset.trend = down ? 'down' : 'up';
     document.getElementById('pfTriangle').src =
       down ? 'assets/triangle-down.svg' : 'assets/triangle-up.svg';
   }
