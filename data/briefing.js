@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-10 01:06:43 KST",
+  "generated_at": "2026-10-10 05:49:14 KST",
   "refreshed": [],
   "slots_refreshed": [
     "us"
@@ -49,8 +49,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.28,
               "is_close": false,
               "date": "2026-10-09",
-              "title": "약보합 흐름 지속",
-              "text": "트루이스트가 AI 수요 시점에 대한 우려를 들어 보유 의견을 제시한 뒤 낙폭이 소폭 이어지는 모습"
+              "title": "장중 소폭 약세",
+              "text": "양자 벤치마킹 진입 소식에도 매수세가 크게 붙지 않으며 하락세를 이어감"
+            },
+            {
+              "time": "마감",
+              "price": 227.1300048828125,
+              "pct": 0.23,
+              "is_close": true,
+              "date": "2026-10-09",
+              "title": "막판 반등 성공",
+              "text": "보유 의견 개시 소식이 나온 이후 분위기가 바뀌며 하락분을 만회하고 상승 전환"
             }
           ],
           "slot_total": 2,
@@ -94,8 +103,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.0,
               "is_close": false,
               "date": "2026-10-09",
-              "title": "상승세 꾸준히 유지",
-              "text": "투자의견 재확인 소식에 이어 서비스 개편 소식까지 나왔지만 오름폭은 크게 흔들리지 않고 유지되는 중"
+              "title": "상승 흐름 지속",
+              "text": "윈도우 AI 도입과 확률 점수 AI 공개 소식 속에 꾸준한 오름세를 이어가는 모습"
+            },
+            {
+              "time": "마감",
+              "price": 535.0700073242188,
+              "pct": 2.38,
+              "is_close": true,
+              "date": "2026-10-09",
+              "title": "상승폭 확대 마감",
+              "text": "장 후반 들어 오름세가 더욱 강해지며 하루 중 가장 높은 수준으로 흐름을 마무리"
             }
           ],
           "slot_total": 2,
@@ -139,8 +157,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.68,
               "is_close": false,
               "date": "2026-10-09",
-              "title": "기술 호재에도 약세",
-              "text": "양자 얽힘 속도 신기록 달성 소식이 잇따랐음에도 매수세로 이어지지 못하며 소폭 하락세를 이어가는 중"
+              "title": "약보합 흐름",
+              "text": "양자 허브 구축 소식에도 상승 동력이 약해지며 소폭 밀리는 흐름을 보임"
+            },
+            {
+              "time": "마감",
+              "price": 39.88999938964844,
+              "pct": 1.12,
+              "is_close": true,
+              "date": "2026-10-09",
+              "title": "기술 호재에 반등",
+              "text": "양자 얽힘 속도 신기록 소식이 전해진 뒤 매수세가 유입되며 상승 전환에 성공"
             }
           ],
           "slot_total": 2,
@@ -173,12 +200,21 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "11:00PM",
-              "price": 230.8000030517578,
-              "pct": 0.14,
+              "price": 230.8350067138672,
+              "pct": 0.15,
               "is_close": false,
               "date": "2026-10-09",
-              "title": "눈치보기 장세 지속",
-              "text": "오픈AI발 매출 전망 쇼크로 반도체주가 흔들린 여파 속에서도 목표가 유지 소식에 보합권을 오가는 흐름"
+              "title": "약보합 지속",
+              "text": "오픈AI 매출 우려가 이어지며 반도체 업종 전반의 약세 속에 소폭 하락세 유지"
+            },
+            {
+              "time": "마감",
+              "price": 229.27999877929688,
+              "pct": -0.52,
+              "is_close": true,
+              "date": "2026-10-09",
+              "title": "낙폭 소폭 확대",
+              "text": "장 후반 들어서도 뚜렷한 반등 모멘텀을 찾지 못하며 하락폭이 다소 커진 채 마무리"
             }
           ],
           "slot_total": 2,
@@ -222,8 +258,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.76,
               "is_close": false,
               "date": "2026-10-09",
-              "title": "상승폭 조금씩 확대",
-              "text": "수익률이 시장 기대에 못 미쳐 고평가 지적이 나왔지만 이와 무관하게 오름세를 꾸준히 키워가는 모습"
+              "title": "저평가 논란 속 상승",
+              "text": "수익률이 기대치를 밑돈다는 고평가 지적에도 불구하고 꾸준한 오름세를 보임"
+            },
+            {
+              "time": "마감",
+              "price": 15.800000190734863,
+              "pct": 1.22,
+              "is_close": true,
+              "date": "2026-10-09",
+              "title": "상승폭 확대 마감",
+              "text": "장 후반 들어 매수세가 더해지며 하루 중 가장 높은 수준에서 흐름을 마무리"
             }
           ],
           "slot_total": 2,
@@ -232,7 +277,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-09-us.md",
       "refreshed_at": "2026-10-09 07:00:25 KST",
-      "slots_refreshed_at": "2026-10-10 01:06:43 KST"
+      "slots_refreshed_at": "2026-10-10 05:49:14 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
