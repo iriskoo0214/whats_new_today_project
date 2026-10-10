@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-10 05:49:14 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-10-10 09:43:15 KST",
+  "refreshed": [
     "us"
   ],
-  "default": "kr",
+  "slots_refreshed": [],
+  "default": "us",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
-      "label": "미국 증시 요약 2026. 10. 9. 7:00AM",
+      "label": "미국 증시 요약 2026. 10. 10. 9:43AM",
       "chips": [
         "전체",
         "IBM",
@@ -22,21 +22,21 @@
       ],
       "next": "kr",
       "headline": "해외 5종목 중 1종목 상승, 4종목 하락 — IBM이 +2.77%로 가장 많이 올랐고 아이온큐가 -4.57%로 가장 부진했습니다.",
-      "market_headline": "반도체 약세와 국채금리·유가 급등에 뉴욕증시 혼조",
+      "market_headline": "기술주 반등에 3대 지수 일제히 상승 마감",
       "market_card": {
-        "title": "뉴욕증시 혼조 마감...나스닥 1.25% 하락",
+        "title": "3대 지수 상승 마감...기술주 반등이 증시 견인",
         "bullets": [
-          "엔비디아·브로드컴 등 반도체주 동반 하락",
-          "국제유가 중동 긴장에 WTI 3.6%대 급등",
-          "美 국채금리 24년만 최고치에 투자심리 위축"
+          "AI 매출 우려 완화에 기술주 반등",
+          "러시아 경유 공급 합의 소식에 투심 개선",
+          "국제유가·국채금리 부담 속에도 상승"
         ]
       },
       "cards": [
         {
           "stock": "IBM",
           "ticker": "IBM",
-          "title": "IBM - 美 정부·IBM, 앤더론에 20억달러 베팅",
-          "body": "IBM은 미 정부와 함께 양자판 TSMC를 키우겠다며 앤더론에 20억달러를 베팅했다는 소식 속에 +2.77% 오른 <b>226.61달러</b> 마감. 코오롱베니트가 IBM 기술로 기업 AX 지원에 나서는 등 AI 인프라 협력도 확대되는 모습이다.",
+          "title": "IBM - 양자 진전 속 '보유' 의견 제시",
+          "body": "IBM은 DARPA 양자 벤치마킹 이니셔티브 C단계에 진입해 스타링 하드웨어 테스트에 착수했다는 소식 속 +2.77% 오른 <b>226.61달러</b> 마감. 다만 트루이스트는 AI 수요 시기를 핵심 과제로 꼽으며 '보유' 의견을 새로 제시해 엇갈린 평가가 공존하는 모습이다.",
           "pct": 2.77,
           "price": 226.61000061035156,
           "currency": "USD",
@@ -48,49 +48,49 @@
               "pct": -0.28,
               "is_close": false,
               "date": "2026-10-09",
-              "title": "장중 소폭 약세",
-              "text": "양자 벤치마킹 진입 소식에도 매수세가 크게 붙지 않으며 하락세를 이어감"
+              "title": "약보합 흐름",
+              "text": "양자 벤치마킹 진입 소식에도 매수세가 크게 붙지 않으며 소폭 밀리는 흐름이 이어짐"
             },
             {
               "time": "마감",
-              "price": 227.1300048828125,
-              "pct": 0.23,
+              "price": 227.10000610351562,
+              "pct": 0.22,
               "is_close": true,
               "date": "2026-10-09",
               "title": "막판 반등 성공",
-              "text": "보유 의견 개시 소식이 나온 이후 분위기가 바뀌며 하락분을 만회하고 상승 전환"
+              "text": "장중 약세를 뒤로하고 막판에 상승 전환하며 플러스권에서 하루 흐름을 마무리함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "[WIKI 현장] 코오롱베니트, IBM 기술로 기업 AX 지원…AI 인프라부터 개발까지",
-              "original": "[WIKI 현장] 코오롱베니트, IBM 기술로 기업 AX 지원…AI 인프라부터 개발까지",
-              "source": "위키리크스한국",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51ZlhQYXJrMjdBRGdpbTJXM1N5QkszNi0tcGFJMWxCdHB3OEtfbTF5d1RJV3JVeXI2aFNFdmg5V2hGWFRHQ0JLUTVpa09zd2ZnS2N6OFZXcWFiN1FUVjB1ejhGYWgzbE1PZm13SXZnQjA?oc=5",
-              "published": "2026-10-08T11:15:46+09:00"
+              "title": "IBM, DARPA 양자 벤치마킹 이니셔티브 C단계에 진입하여 스타링 하드웨어 테스트 착수",
+              "original": "IBM, DARPA 양자 벤치마킹 이니셔티브 C단계에 진입하여 스타링 하드웨어 테스트 착수",
+              "source": "StorageReview.com",
+              "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNHVaaVJTTFl5Q1FtN09zTzRtOGU4TGpVaU1VYzVXczhCV1hNUjQwSjRobEhmdzFNQWl5bm51eVZXTFMwNmVORk9iQllPaXl3ZzAxbW9NaWItLTh0ZUtUcVkzdF9Oa1J1bDJyR0pZbWRua1B4c3JFM1MwcEtpaERnOTd0dU5zdTl0TTFZcm9Ga2bSAZYBQVVfeXFMTnNtNFVRVXNmRC1OTXhvYi1DR1FTbnNueU5jNVZVdEhTSjl4R0JXZlFKTjN4dm5aY0hmMS1QbWZIdzdaQ056cDhQYS1JcWo2UWVnUjk3QWlxQ2pZUnhPYTVFSlVjVEc1Yy1GSWh0MmhRLThRa3J0ZW5pRXFTaHQyWU1VQnZSTDRMZ25KNUVJZ2pOdzNjTGJR?oc=5",
+              "published": "2026-10-10T03:15:18+09:00"
             },
             {
-              "title": "[글로벌 HR 트렌드] 글로벌 기업들은 HR에 어떻게 AI를 적용할까요? | 유니레버, IBM, AT&T, 세일즈포스, 넷플릭스, 한국 기업 HR",
-              "original": "[글로벌 HR 트렌드] 글로벌 기업들은 HR에 어떻게 AI를 적용할까요? | 유니레버, IBM, AT&T, 세일즈포스, 넷플릭스, 한국 기업 HR",
-              "source": "오픈애즈",
-              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBybzBSRGJsNkMwbkd2T01oUjBvRUhUQWtpWU1zR1VtWGI1aWFGM1NUdU1GRk1Mc2dteHB1VDZvbXB2WmhYVTFYbzI1NnEyVGdYRnBRMVNXZUNJZHRxX0VCTHlIRlV3dld5OTlhUG9n?oc=5",
-              "published": "2026-10-08T11:10:00+09:00"
+              "title": "Truist, IBM에 ’보유’ 의견 개시…AI 수요 시기가 핵심 과제",
+              "original": "Truist, IBM에 ’보유’ 의견 개시…AI 수요 시기가 핵심 과제",
+              "source": "Investing.com 한국어",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBtNkJpbG04NW5rQmRIbl80RUJteDhCY2pBaVRSUG1PVGJqc1VSa19TNjZTTmVzb2FhWW55WC1nVUxVbVRQLUwzQk5PUXdEUjh2b3JKemI3Q3Z6TDRnU2lPSVo0Y3F2OVdEUjh6U1RVcnU?oc=5",
+              "published": "2026-10-09T21:40:00+09:00"
             },
             {
-              "title": "\"양자판 TSMC 키운다\"…美 정부·IBM, 앤더론에 20억달러 베팅",
-              "original": "\"양자판 TSMC 키운다\"…美 정부·IBM, 앤더론에 20억달러 베팅",
-              "source": "스마트투데이",
-              "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE85OUFEOUJLeDVpRWZTRnQtejd0OWY2RERlMmJwYWNDVlB3UmV0SHNoWm01UlhVSm04WURYWlFTa2VPZmNfNlVydmhDZE1NRFh0WTlnNnZYZ1A3QjdabWEw?oc=5",
-              "published": "2026-10-08T10:44:00+09:00"
+              "title": "PC에서 소리와 화면을 조절하는 ibm 블록 체인 플랫폼 환경 안내",
+              "original": "PC에서 소리와 화면을 조절하는 ibm 블록 체인 플랫폼 환경 안내",
+              "source": "Calgary Roughnecks",
+              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaHRwR2Zoc3M3elE1cmh4V2ltTENheU5QSGJ5OGxsZzd1b1BHT0dwMGZvLVVGYXNVVDJCeTM3YUlsSXRVVGJSMXR0cW9QRkJkOGFtb29aTC1fZFd5XzFRVnVyM28tQl9TLTAySWRaSldmMGVSRGhOOHFCQnlNaWlETkVkLUxJQQ?oc=5",
+              "published": "2026-10-09T20:36:40+09:00"
             }
           ]
         },
         {
           "stock": "마이크로소프트",
           "ticker": "MSFT",
-          "title": "마이크로소프트 - 영주권 신청 중단 논란",
-          "body": "마이크로소프트는 미국인 해고하고 외국인 채용한다는 비판 속에 트럼프 행정부가 영주권 신청 프로그램(PERM) 대상에서 배제하기로 했다는 소식이 전해지며 -1.35% 내린 <b>522.61달러</b> 마감. 회사 측은 밴스 부통령의 영주권 중단 관련 주장을 정면 반박하고 나선 것으로 전해졌다.",
+          "title": "마이크로소프트 - 윈도 'AI OS' 전환 가속",
+          "body": "마이크로소프트는 윈도를 로컬 AI 기반 '에이전트 OS'로 전환하고 판단·결정 특화 AI 모델 '디시전-1'을 공개했지만 -1.35% 내린 <b>522.61달러</b> 마감.",
           "pct": -1.35,
           "price": 522.6099853515625,
           "currency": "USD",
@@ -99,52 +99,52 @@
             {
               "time": "11:00PM",
               "price": 527.8150024414062,
-              "pct": 1.0,
+              "pct": 0.98,
               "is_close": false,
               "date": "2026-10-09",
-              "title": "상승 흐름 지속",
-              "text": "윈도우 AI 도입과 확률 점수 AI 공개 소식 속에 꾸준한 오름세를 이어가는 모습"
+              "title": "강세 흐름 지속",
+              "text": "에이전트 OS 전략과 판단형 AI 모델 공개 소식이 이어지며 상승 탄력이 유지됨"
             },
             {
               "time": "마감",
-              "price": 535.0700073242188,
-              "pct": 2.38,
+              "price": 535.0800170898438,
+              "pct": 2.37,
               "is_close": true,
               "date": "2026-10-09",
               "title": "상승폭 확대 마감",
-              "text": "장 후반 들어 오름세가 더욱 강해지며 하루 중 가장 높은 수준으로 흐름을 마무리"
+              "text": "장중 오름세를 그대로 이어가며 하루 중 가장 높은 상승률로 거래를 마무리함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "마이크로소프트, 영주권 중단관련 밴스부통령 정면 반박하고 나서 > 시애틀 뉴스/핫이슈",
-              "original": "마이크로소프트, 영주권 중단관련 밴스부통령 정면 반박하고 나서 > 시애틀 뉴스/핫이슈",
-              "source": "SeattleN",
-              "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9oRkJwM0NhQmtpZlVBYzR6ZVhXRkoza2taNmFSTzVlVG45d05MY01ZZ1d2VGxYbHdxb3dDcEt2cXp2ZTVyRDAtQzd3?oc=5",
-              "published": "2026-10-09T06:22:07+09:00"
+              "title": "마이크로소프트, 윈도를 '에이전트 OS'로...로컬 AI 앞세워 개발자 공략",
+              "original": "마이크로소프트, 윈도를 '에이전트 OS'로...로컬 AI 앞세워 개발자 공략",
+              "source": "디지털투데이",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1LVHhXMEctU2VudDFsZUo4TFFDV2N5ODJnN0tCN2VsU1JSZnZvclVUOXdEUi01Zl80T2N1YVZsWDNzX2xtRzFoV3lVeWhic3AyMWJqU1JPTUpncWpnTm9OOHJ2Mnpfbkw1WWRWc3dXcUVOWVE?oc=5",
+              "published": "2026-10-10T07:32:30+09:00"
             },
             {
-              "title": "트럼프행정부, 마이크로소프트 등 9개 기술기업들에 대해 영주권신청 프로그램(PERM) 배제키로",
-              "original": "트럼프행정부, 마이크로소프트 등 9개 기술기업들에 대해 영주권신청 프로그램(PERM) 배제키로",
-              "source": "비욘드포스트",
-              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE05N3o2dkdMdm5UMXlPLThkRmR6YzNtWlJnOXlidXUwclJkQnp5X3BBVXNXNkxfbTBmZGYtSjdRZEp1Z3lacTFRdi14QlNmMHNzdTNPNnlkQWFUX3czdzRIMFJrRzhmQXhHLUJoNm9iU3J2WDN1cDM3cmN5cWM?oc=5",
-              "published": "2026-10-09T05:55:05+09:00"
+              "title": "마이크로소프트도 판단·결정 특화 AI 모델 레이스 가세...디시전-1 공개",
+              "original": "마이크로소프트도 판단·결정 특화 AI 모델 레이스 가세...디시전-1 공개",
+              "source": "디지털투데이",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE43NlktSDJMcUNfR21uY2lfS0Z5RkZ0YWt1WDg0dG1fYXY1dGFnWktSN2NxMS1pLWhOSkRhbUpvZmRScm9pMlhUUVdJeDlnd0hoVUtxZWNoWks5emZROFZTV3EzZ0VBU1B2ZUVmdGlBNURlUVU?oc=5",
+              "published": "2026-10-10T07:11:18+09:00"
             },
             {
-              "title": "美, 마이크로소프트 등 일부 기업 영주권 신청 중단…\"미국인 해고하고 외국인 채용\"",
-              "original": "美, 마이크로소프트 등 일부 기업 영주권 신청 중단…\"미국인 해고하고 외국인 채용\"",
-              "source": "뉴스핌",
-              "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5sNnRGblpEeXFIS0p4a0VrempTQlMxdGtGNW1qUG9QYlNRWk42bnNZaHFQdFM2a1ZsZkQxdXVqajVHRkp5bnZEU1ZoVlJwOHhBdUtwVFpXNmNTZHRo?oc=5",
-              "published": "2026-10-09T05:28:00+09:00"
+              "title": "마이크로소프트, 선택지별 확률 점수 매기는 AI 공개",
+              "original": "마이크로소프트, 선택지별 확률 점수 매기는 AI 공개",
+              "source": "토큰포스트",
+              "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBHTjRlZzkyRThPTmpDUmRyV2FHU2tWS01xYlFUWFVfRU9tTzNpRWNJc0pfSXM3Z0NpUmtUTnN0eEdPUDJORkQ5STc2dmNWcDlz?oc=5",
+              "published": "2026-10-10T05:19:10+09:00"
             }
           ]
         },
         {
           "stock": "아이온큐",
           "ticker": "IONQ",
-          "title": "아이온큐 - 국방부 양자컴 검증 최종단계",
-          "body": "아이온큐는 미 국방부 양자컴퓨터 검증 최종 단계에 진입해 최대 3억달러 계약 가능성이 주목받았음에도 -4.57% 내린 <b>39.45달러</b> 마감.",
+          "title": "아이온큐 - 양자 얽힘 신기록에도 하락",
+          "body": "아이온큐는 초당 1,000회 이상의 양자 얽힘 속도를 구현해 기존 기록을 4배 뛰어넘는 기술적 성과를 발표했으나 -4.57% 내린 <b>39.45달러</b> 마감.",
           "pct": -4.57,
           "price": 39.45000076293945,
           "currency": "USD",
@@ -156,42 +156,42 @@
               "pct": -0.68,
               "is_close": false,
               "date": "2026-10-09",
-              "title": "약보합 흐름",
-              "text": "양자 허브 구축 소식에도 상승 동력이 약해지며 소폭 밀리는 흐름을 보임"
+              "title": "기술 호재 주목",
+              "text": "양자 얽힘 속도 기록 경신 소식이 전해지며 장중 낙폭을 줄여가는 모습을 보임"
             },
             {
               "time": "마감",
-              "price": 39.88999938964844,
-              "pct": 1.12,
+              "price": 39.93000030517578,
+              "pct": 1.22,
               "is_close": true,
               "date": "2026-10-09",
-              "title": "기술 호재에 반등",
-              "text": "양자 얽힘 속도 신기록 소식이 전해진 뒤 매수세가 유입되며 상승 전환에 성공"
+              "title": "반등 성공 마감",
+              "text": "저녁 약세를 딛고 플러스권으로 올라서며 상승세로 하루를 마무리함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "[서학!스타] 아이온큐, 美 국방부 양자컴퓨터 검증 '최종 단계' 진입…최대 3억 달러 계약에 쏠리는 시선",
-              "original": "[서학!스타] 아이온큐, 美 국방부 양자컴퓨터 검증 '최종 단계' 진입…최대 3억 달러 계약에 쏠리는 시선",
+              "title": "[서학!스타] 아이온큐, 초당 1000회 양자 얽힘 구현…기존 기록 4배 뛰어넘은 기술의 정체는?",
+              "original": "[서학!스타] 아이온큐, 초당 1000회 양자 얽힘 구현…기존 기록 4배 뛰어넘은 기술의 정체는?",
               "source": "CBC뉴스",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB4U09QcmxvUXNyTl9wTFZ1d3NuSDVNRXZlZWl3cXpZOFExYWZ4b0VlR0YzY2VKV0FNRmE3cXpjdktuOHEyQVB0NkNsZTI4anh4WVBUeUgybDFQWlR6S1hPRUdIYlRlVVVU?oc=5",
-              "published": "2026-10-08T23:22:29+09:00"
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5xV2pWdkFzV2hueHdDajdvMmRESGc0UnFaOEh3bldoZGdJU25SQm1yN1dzV0FIT080M1NsVWYxME5HRVBtdVRMcUNBVktPTUtjWjBzQnk5ekVXUUxoYlh4aTYxREFsN05S?oc=5",
+              "published": "2026-10-09T22:50:39+09:00"
             },
             {
-              "title": "아이온큐 주가, 41.34 USD 4.50% 하락 마감",
-              "original": "아이온큐 주가, 41.34 USD 4.50% 하락 마감",
-              "source": "TopStarNews",
-              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5wZFNWa3lMUzRjMnF0aUl4U0hRT2trRFZNeGExVDhkbFoxUlg4enAxaUxhRjhpRkNydDd1MURpNV9vY2drVF8yeW5KLUp5dTFMMDBOUkh3dGFPTVF3RlhYTWlUTWd3UXZ2TXlWRjd3TWZ6dw?oc=5",
-              "published": "2026-10-08T09:49:26+09:00"
+              "title": "IONQ, 초당 1,000회 이상 양자 얽힘 속도 달성",
+              "original": "IONQ, 초당 1,000회 이상 양자 얽힘 속도 달성",
+              "source": "Investing.com 한국어",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tc1ltMFYxWUlQWWN1SHhTN1RZcENyREdabWJUcVRkTFFwOTJXdkN5Z1N6ZHNjQktrWUhuSjd5aHU2eGJvdkFuTE4yOHVMUENHM0d5Rm1ZdkRlRklqLWV1a3NMRWJMQ1A0ZWhWdXFOYnE?oc=5",
+              "published": "2026-10-09T22:05:00+09:00"
             }
           ]
         },
         {
           "stock": "엔비디아",
           "ticker": "NVDA",
-          "title": "엔비디아 - AI주 동반 약세 속 하락",
-          "body": "엔비디아는 오픈AI 매출 수치 공개 이후 AI 거품 우려가 커지며 -2.94% 내린 <b>230.48달러</b> 마감. 브로드컴, 마이크론, AMD 등 AI 관련주가 줄줄이 하락하며 뉴욕증시 전반이 휘청이는 모습이다.",
+          "title": "엔비디아 - 칩 우회수출 유죄 인정 보도",
+          "body": "엔비디아는 슈퍼마이크로 계약업체 직원이 엔비디아 칩 우회 수출 혐의로 유죄를 인정했다는 보도 속 -2.94% 내린 <b>230.48달러</b> 마감. 앤트로픽 보안 서비스에서도 한국이 제외됐다는 소식이 겹치며 투자심리가 위축된 모습이다.",
           "pct": -2.94,
           "price": 230.47999572753906,
           "currency": "USD",
@@ -199,53 +199,53 @@
           "slots": [
             {
               "time": "11:00PM",
-              "price": 230.8350067138672,
-              "pct": 0.15,
+              "price": 230.8000030517578,
+              "pct": 0.1,
               "is_close": false,
               "date": "2026-10-09",
-              "title": "약보합 지속",
-              "text": "오픈AI 매출 우려가 이어지며 반도체 업종 전반의 약세 속에 소폭 하락세 유지"
+              "title": "혼재된 재료 속 약세",
+              "text": "우회 수출 유죄 인정 보도와 보안 이슈 등 부정적 소식이 겹치며 주가가 소폭 눌림"
             },
             {
               "time": "마감",
-              "price": 229.27999877929688,
-              "pct": -0.52,
+              "price": 229.33999633789062,
+              "pct": -0.53,
               "is_close": true,
               "date": "2026-10-09",
-              "title": "낙폭 소폭 확대",
-              "text": "장 후반 들어서도 뚜렷한 반등 모멘텀을 찾지 못하며 하락폭이 다소 커진 채 마무리"
+              "title": "소폭 하락 마감",
+              "text": "장중 약세 흐름을 벗어나지 못하고 결국 소폭 하락한 채로 거래를 마감함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "뉴욕증시 혼조 마감…엔비디아·브로드컴·마이크론 동반 하락",
-              "original": "뉴욕증시 혼조 마감…엔비디아·브로드컴·마이크론 동반 하락",
-              "source": "디지털데일리",
-              "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBMb0xqRkFPby0zUkpjZXl1Rk8yT1VTeWdDWkhsalptTk5obXdWU1JNcTd4NFFvNG9YVlN2NzFpYTJSTEhXZUpobUxDYW5uOThCZFhmWVl5NmxHTEpJN3JvUkFB?oc=5",
-              "published": "2026-10-09T06:58:26+09:00"
+              "title": "[주간브리핑] 영업익 107조 삼성｜12월17일 카카오 분할 표결｜엔비디아 이어 앤트로픽 보안에서도 한국 빠져",
+              "original": "[주간브리핑] 영업익 107조 삼성｜12월17일 카카오 분할 표결｜엔비디아 이어 앤트로픽 보안에서도 한국 빠져",
+              "source": "콕스뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9KNXFfQ3AxT1ZSNnJsTl9JT19tSGFXdXlRT0lHX3ZjZmNoRnpMeTRROHc0TmtuSTVsdTYxRTRXNU93ZzMxS0loX3Q1UEFpcUZDRWpmN00wWXc0X3JhMGpiY3hJaG45Zzh3Nnc?oc=5",
+              "published": "2026-10-10T08:00:00+09:00"
             },
             {
-              "title": "오픈AI 매출 수치 공개에 엔비디아·오라클·코어위브 등 AI주 하락",
-              "original": "오픈AI 매출 수치 공개에 엔비디아·오라클·코어위브 등 AI주 하락",
-              "source": "디지털투데이",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA3V19wU3dhRjNBZURYaEp4eEszTE40bk9Nd0xOWjRGYnlVNGkwWTA0elotVVpaVGdocFFrMkIxekNhMEVUamQtMVRNTldxUXVHTURIdW51LTVwOXB6ZXlNUGlzaHJMR0x4andTSHNyejQwNzA?oc=5",
-              "published": "2026-10-09T06:43:44+09:00"
+              "title": "슈퍼마이크로 계약업체 직원, 엔비디아 칩 우회 수출 유죄 인정 보도",
+              "original": "슈퍼마이크로 계약업체 직원, 엔비디아 칩 우회 수출 유죄 인정 보도",
+              "source": "토큰포스트",
+              "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1sVVlpV1pIZ1hwT0ZqaEpfMld1UjNEak80azZ3d1p2NG1oQU9JdXBYS2dOMWNhTG9mMlV0VFd1c2NQREM2LV9nbFpQcHRITFBsdGt3T1NLeUY?oc=5",
+              "published": "2026-10-10T07:16:03+09:00"
             },
             {
-              "title": "엔비디아·마이크론·AMD 줄줄이 하락…뉴욕증시 AI주 ‘휘청’",
-              "original": "엔비디아·마이크론·AMD 줄줄이 하락…뉴욕증시 AI주 ‘휘청’",
-              "source": "핀포인트뉴스",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9rMGhYbHFpOGdxa1RDc19SZ2pDWlNjdTlkQVU1WXRmRERWeXJqaHVlZGtmV0cwMnFOT3VldWdMQlNUQkNCVDNuazVoU0MzQ2xWVzZGTEFzM2NMbDdraW5zdVYyX251bDVOc3NJXzhRUkJFVWPSAXdBVV95cUxOTUZXcWxXRV96T0FLWTJCOEJnUkpzcUlOOGRYSHBtWXB0bk9ZUGhtaVE1NU42V3haZkNXVjgzNi1ndXZfUmxxRm9NWFhsa2xaUTItUHNLaEE2bFBWZGhwQWlQQ2pST2NyNzNyb09LTmVHZk9ILWZpUQ?oc=5",
-              "published": "2026-10-09T06:32:34+09:00"
+              "title": "엔비디아 업은 바이오 기업 아이암빅, 나스닥 IPO 추진…최대 2140억 원 조달",
+              "original": "엔비디아 업은 바이오 기업 아이암빅, 나스닥 IPO 추진…최대 2140억 원 조달",
+              "source": "글로벌이코노믹",
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaUJnbFh4dl91eGVKY3ROdDVwUi16UU1jQUIzTWNTeV9LY2lIeDFPQUJ6RzNXSmRTczFnekVyNWdrQWVKMGpPQXl5eXpTX3VmN1NGYnZCZ0NYMUhxN1VjTmdaT3dmaVNxQkNMWERQQ0s1Q3RCMExacFN3WnBzV2FscF9HUHdWVThz?oc=5",
+              "published": "2026-10-10T07:01:55+09:00"
             }
           ]
         },
         {
           "stock": "소파이테크놀로지",
           "ticker": "SOFI",
-          "title": "소파이테크놀로지 - 뚜렷한 재료 없이 소폭 하락",
-          "body": "소파이테크놀로지는 특별한 재료 없이 -0.32% 내린 <b>15.61달러</b> 마감.",
+          "title": "소파이테크놀로지 - 실적 기대 하회, 고평가 우려",
+          "body": "소파이테크놀로지는 수익률이 시장 기대치를 밑돌며 고평가 논란이 제기된 가운데 -0.32% 내린 <b>15.61달러</b> 마감.",
           "pct": -0.32,
           "price": 15.609999656677246,
           "currency": "USD",
@@ -254,29 +254,36 @@
             {
               "time": "11:00PM",
               "price": 15.729000091552734,
-              "pct": 0.76,
+              "pct": 0.7,
               "is_close": false,
               "date": "2026-10-09",
-              "title": "저평가 논란 속 상승",
-              "text": "수익률이 기대치를 밑돈다는 고평가 지적에도 불구하고 꾸준한 오름세를 보임"
+              "title": "고평가 우려 속 상승",
+              "text": "수익률이 기대치를 밑돈다는 평가에도 불구하고 저녁 들어 상승 흐름이 나타남"
             },
             {
               "time": "마감",
               "price": 15.800000190734863,
-              "pct": 1.22,
+              "pct": 1.15,
               "is_close": true,
               "date": "2026-10-09",
               "title": "상승폭 확대 마감",
-              "text": "장 후반 들어 매수세가 더해지며 하루 중 가장 높은 수준에서 흐름을 마무리"
+              "text": "장중 오름세를 그대로 유지하며 하루 중 가장 높은 수준에서 거래를 마무리함"
             }
           ],
           "slot_total": 2,
-          "news": []
+          "news": [
+            {
+              "title": "SoFi(SOFI) 주가는 수익률이 시장 기대치를 밑돌면서 고평가된 것으로 보인다",
+              "original": "SoFi(SOFI) 주가는 수익률이 시장 기대치를 밑돌면서 고평가된 것으로 보인다",
+              "source": "Simply Wall Street",
+              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa3o0aUNLbzF0WTQ3WVM5bVRtdkZleHpnN0g1Nzg5MVlHNDV1aWZwMExtSVVXNVJKMnBHZGI2QXJNOGVaNmFHNndsTDRzWU9oaE1XSHQ2S1FSTXZaX1N1bHVJRmZobERYZnZiYllVNUJ4M2pRLTR3Q0NRT0NHSVdyLWltOEplWkE3RlJXSVNZSjF0d0J0ejdSSkNCbE5MOC1sdGg3MUpHTk16SHhmNm9kcXpwNNIBswFBVV95cUxOa3o0aUNLbzF0WTQ3WVM5bVRtdkZleHpnN0g1Nzg5MVlHNDV1aWZwMExtSVVXNVJKMnBHZGI2QXJNOGVaNmFHNndsTDRzWU9oaE1XSHQ2S1FSTXZaX1N1bHVJRmZobERYZnZiYllVNUJ4M2pRLTR3Q0NRT0NHSVdyLWltOEplWkE3RlJXSVNZSjF0d0J0ejdSSkNCbE5MOC1sdGg3MUpHTk16SHhmNm9kcXpwNA?oc=5",
+              "published": "2026-10-09T10:20:14+09:00"
+            }
+          ]
         }
       ],
-      "markdown": "briefings/2026-10-09-us.md",
-      "refreshed_at": "2026-10-09 07:00:25 KST",
-      "slots_refreshed_at": "2026-10-10 05:49:14 KST"
+      "markdown": "briefings/2026-10-10-us.md",
+      "refreshed_at": "2026-10-10 09:43:15 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
