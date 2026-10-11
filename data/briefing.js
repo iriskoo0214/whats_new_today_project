@@ -1,10 +1,10 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-11 07:26:21 KST",
-  "refreshed": [
-    "us"
+  "generated_at": "2026-10-11 10:48:12 KST",
+  "refreshed": [],
+  "slots_refreshed": [
+    "kr"
   ],
-  "slots_refreshed": [],
   "default": "us",
   "markets": {
     "us": {
@@ -300,7 +300,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-08",
               "title": "장 초반 상승 출발",
-              "text": "개장 직후 완만한 오름세로 출발하며 전일 대비 플러스권에서 거래를 시작함"
+              "text": "개장 직후 완만한 오름세로 시작하며 전일 대비 플러스권에서 거래 시작"
             },
             {
               "time": "10:30AM",
@@ -309,7 +309,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-08",
               "title": "오전 중 상승폭 확대",
-              "text": "오전 들어 매수세가 붙으며 상승폭을 키워 장중 최고 수준까지 올라섬"
+              "text": "외국인 매수 관심이 부각되며 오전 중 상승폭을 키워 장중 고점권 형성"
             },
             {
               "time": "1:00PM",
@@ -317,8 +317,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.17,
               "is_close": false,
               "date": "2026-10-08",
-              "title": "오후 들어 급락 전환",
-              "text": "오후 들어 분위기가 급변해 상승분을 모두 반납하고 마이너스권으로 돌아섬"
+              "title": "오후 들어 하락 전환",
+              "text": "반도체주 전반이 4일째 흔들린다는 우려 속 오후 들어 상승분을 반납하고 하락 전환"
             },
             {
               "time": "마감",
@@ -326,8 +326,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.69,
               "is_close": true,
               "date": "2026-10-08",
-              "title": "낙폭 확대 마감",
-              "text": "용인 공사 관련 주민 반발과 환경 논란 보도가 이어지는 가운데 하락폭을 키우며 거래를 마침"
+              "title": "낙폭 확대로 마감",
+              "text": "오후 들어 시작된 매도세가 이어지며 장중 저점 부근에서 하락폭을 키운 채 마감"
             }
           ],
           "slot_total": 4,
@@ -372,7 +372,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-08",
               "title": "보합권 출발",
-              "text": "장 초반 전일 종가 수준에서 보합으로 거래를 시작하며 방향성을 탐색함"
+              "text": "전일 종가 수준에서 거래를 시작하며 특별한 방향성 없이 보합권에서 움직임"
             },
             {
               "time": "10:30AM",
@@ -380,8 +380,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.46,
               "is_close": false,
               "date": "2026-10-08",
-              "title": "오전 중 소폭 약세",
-              "text": "오전 들어 매도 우위로 전환되며 완만한 하락세로 밀리는 모습을 보임"
+              "title": "오전 중 약세 전환",
+              "text": "개장 초 보합을 유지하다 오전 중 매도세가 유입되며 소폭 하락 전환"
             },
             {
               "time": "1:00PM",
@@ -389,8 +389,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.95,
               "is_close": false,
               "date": "2026-10-08",
-              "title": "오후 낙폭 확대",
-              "text": "역대급 실적 발표에도 코스피 전반의 약세 속에 하락폭이 크게 벌어짐"
+              "title": "오후 들어 낙폭 확대",
+              "text": "외국인 수급이 하이닉스로 쏠리는 분위기 속 오후 들어 하락폭이 눈에 띄게 커짐"
             },
             {
               "time": "마감",
@@ -398,8 +398,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -2.23,
               "is_close": true,
               "date": "2026-10-08",
-              "title": "약세 흐름 유지",
-              "text": "영업이익 급증 소식에도 매수세가 살아나지 못하며 하루 중 낙폭이 가장 큰 수준에서 마감함"
+              "title": "하루 최대 낙폭 마감",
+              "text": "오후 내내 이어진 약세가 지속되며 하루 중 가장 큰 하락폭을 기록한 채 마감"
             }
           ],
           "slot_total": 4,
@@ -443,8 +443,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.58,
               "is_close": false,
               "date": "2026-10-08",
-              "title": "장 초반 약세 출발",
-              "text": "개장 직후부터 매도세가 강하게 나오며 큰 폭의 하락으로 거래를 시작함"
+              "title": "장 초반부터 약세",
+              "text": "발사체 재사용 기술 시연 소식에도 개장 직후부터 뚜렷한 하락세로 출발"
             },
             {
               "time": "10:30AM",
@@ -453,7 +453,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-08",
               "title": "낙폭 큰 폭 확대",
-              "text": "오전 들어 하락세가 가팔라지며 낙폭이 두 자릿수에 가깝게 커짐"
+              "text": "오전 중 매도세가 강하게 유입되며 하락폭이 급격히 커져 장중 저점권 형성"
             },
             {
               "time": "1:00PM",
@@ -462,7 +462,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-08",
               "title": "낙폭 추가 확대",
-              "text": "KAI 경영참여와 무인기 추락 이슈 등 겹악재 속에 오후에도 하락세가 지속됨"
+              "text": "오전의 급락 흐름이 오후 들어서도 이어지며 하락폭이 한층 더 벌어짐"
             },
             {
               "time": "마감",
@@ -470,8 +470,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -7.66,
               "is_close": true,
               "date": "2026-10-08",
-              "title": "하루 중 최대 낙폭",
-              "text": "방산 분업 갈등 우려 보도까지 더해지며 하루 중 가장 큰 낙폭을 기록한 채 거래를 마침"
+              "title": "큰 폭 하락 마감",
+              "text": "장중 내내 이어진 매도 압력을 끝내 되돌리지 못하고 하루 중 최대 낙폭으로 마감"
             }
           ],
           "slot_total": 4,
@@ -516,7 +516,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-08",
               "title": "장 초반 약세 출발",
-              "text": "개장과 동시에 매도세가 유입되며 전일 대비 하락한 채 거래를 시작함"
+              "text": "개장과 함께 매도세가 유입되며 전일 대비 하락한 채로 거래를 시작"
             },
             {
               "time": "10:30AM",
@@ -524,8 +524,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -4.07,
               "is_close": false,
               "date": "2026-10-08",
-              "title": "오전 낙폭 확대",
-              "text": "오전 들어 하락폭이 커지며 장중 약세 흐름이 뚜렷하게 이어짐"
+              "title": "낙폭 확대 이어져",
+              "text": "오전 중 하락폭이 더 커지며 장중 저점을 낮추는 흐름이 이어짐"
             },
             {
               "time": "1:00PM",
@@ -533,8 +533,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -4.86,
               "is_close": false,
               "date": "2026-10-08",
-              "title": "오후 한때 저점 기록",
-              "text": "환율과 신사업 투자 부담에 따른 실적 우려 보도 속 낙폭이 하루 중 최대치로 벌어짐"
+              "title": "하루 중 최대 낙폭",
+              "text": "시그니처 10주년 소식에도 매수세가 붙지 않으며 하락폭이 하루 중 가장 크게 벌어짐"
             },
             {
               "time": "마감",
@@ -542,8 +542,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.83,
               "is_close": true,
               "date": "2026-10-08",
-              "title": "낙폭 일부 회복",
-              "text": "저점을 찍은 이후 오후 늦게 매수세가 유입되며 하락폭을 다소 줄이는 모습을 보임"
+              "title": "낙폭 일부 만회",
+              "text": "오후 들어 저가 매수세가 유입되며 장중 저점 대비 하락폭을 다소 줄여 마감"
             }
           ],
           "slot_total": 4,
@@ -588,16 +588,16 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-08",
               "title": "장 초반 약세 출발",
-              "text": "개장 직후부터 하락 압력을 받으며 전일 대비 약세로 거래를 시작함"
+              "text": "개장 직후부터 매도 우위 흐름이 나타나며 전일 대비 하락 출발"
             },
             {
               "time": "10:30AM",
-              "price": 326250.0,
-              "pct": -3.05,
+              "price": 326500.0,
+              "pct": -2.97,
               "is_close": false,
               "date": "2026-10-08",
-              "title": "오전 낙폭 소폭 확대",
-              "text": "오전 들어 하락폭이 조금씩 커지며 약세 흐름이 이어지는 모습을 보임"
+              "title": "약세 흐름 지속",
+              "text": "인도 판매 호조 소식에도 하락 흐름이 이어지며 낙폭이 소폭 더 커짐"
             },
             {
               "time": "1:00PM",
@@ -605,8 +605,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.49,
               "is_close": false,
               "date": "2026-10-08",
-              "title": "오후에도 약세 지속",
-              "text": "신차 공개 등 제품 관련 소식이 이어졌으나 주가는 하락세를 벗어나지 못함"
+              "title": "오후 들어 낙폭 확대",
+              "text": "오후 들어 매도세가 강해지며 장중 저점 부근까지 하락폭이 확대됨"
             },
             {
               "time": "마감",
@@ -614,8 +614,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.57,
               "is_close": true,
               "date": "2026-10-08",
-              "title": "하루 중 최대 낙폭",
-              "text": "오후 늦게까지 반등 모멘텀을 찾지 못하며 하루 중 가장 큰 낙폭으로 거래를 마침"
+              "title": "하루 최대 낙폭 마감",
+              "text": "오후 내내 이어진 약세 흐름을 돌리지 못하고 하루 중 가장 큰 낙폭으로 마감"
             }
           ],
           "slot_total": 4,
@@ -646,7 +646,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-09-kr.md",
       "refreshed_at": "2026-10-09 17:54:04 KST",
-      "slots_refreshed_at": "2026-10-10 15:58:21 KST"
+      "slots_refreshed_at": "2026-10-11 10:48:12 KST"
     }
   }
 };
