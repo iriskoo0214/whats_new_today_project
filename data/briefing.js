@@ -1,11 +1,11 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-11 10:48:12 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-10-11 17:41:35 KST",
+  "refreshed": [
     "kr"
   ],
-  "default": "us",
+  "slots_refreshed": [],
+  "default": "kr",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
@@ -258,7 +258,7 @@ window.NOTEFOLIO_BRIEFING = {
     },
     "kr": {
       "icon": "assets/moon.svg",
-      "label": "한국 증시 요약 2026. 10. 9. 5:54PM",
+      "label": "한국 증시 요약 2026. 10. 11. 5:41PM",
       "chips": [
         "전체",
         "SK하이닉스",
@@ -273,21 +273,21 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "next": "us",
       "headline": "국내 5종목 중 0종목 상승, 5종목 하락 — SK하이닉스가 -1.69%로 낙폭이 가장 작았고 한화에어로스페이스가 -7.66%로 가장 부진했습니다.",
-      "market_headline": "코스피 1.98% 급락, 6803선으로 밀려",
+      "market_headline": "삼성전자 역대급 실적에도 코스피 5%대 급락 6600선",
       "market_card": {
-        "title": "코스피·코스닥 동반 약세 마감...에코프로 그룹주 희비 엇갈려",
+        "title": "코스피 6600선 턱걸이 마감...7000선 탈환 '분수령' 주목",
         "bullets": [
-          "코스피 1.98% 하락, 6803.90 마감",
-          "코스닥도 2.34% 내리며 동반 약세",
-          "반도체 소부장·2차전지 강세로 코스닥 선방"
+          "삼성전자 영업이익 107조 실적 발표",
+          "코스피 급락에 6600선 턱걸이 마감",
+          "미 CPI와 AI 실적 발표 대기 관망"
         ]
       },
       "cards": [
         {
           "stock": "SK하이닉스",
           "ticker": "000660",
-          "title": "SK하이닉스 - 재료 없이 하락",
-          "body": "SK하이닉스는 특별한 수급 재료 없이 -1.69% 내린 <b>1,686,000원</b> 마감. 최태원 회장의 호남 반도체 공장 증설 발언이 있었지만 주가와 직접적인 연관은 뚜렷하지 않았다.",
+          "title": "SK하이닉스 - ADR 괴리 논란 속 하락",
+          "body": "SK하이닉스는 ADR 대비 42% 저평가 논란이 불거진 가운데 -1.69% 내린 <b>1,686,000원</b> 마감. 최태원 회장이 중국·미국의 증설 속도에 점유율 축소를 우려하며 서둘러야 한다고 언급해 업계 경쟁 심화에 대한 우려가 번지는 모습이다.",
           "pct": -1.69,
           "price": 1686000.0,
           "currency": "KRW",
@@ -300,7 +300,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-08",
               "title": "장 초반 상승 출발",
-              "text": "개장 직후 완만한 오름세로 시작하며 전일 대비 플러스권에서 거래 시작"
+              "text": "전 거래일 대비 오름세로 출발하며 장 초반 강세 흐름을 이어감"
             },
             {
               "time": "10:30AM",
@@ -308,8 +308,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.63,
               "is_close": false,
               "date": "2026-10-08",
-              "title": "오전 중 상승폭 확대",
-              "text": "외국인 매수 관심이 부각되며 오전 중 상승폭을 키워 장중 고점권 형성"
+              "title": "오전 상승폭 확대",
+              "text": "오전 중 상승폭을 더 키우며 하루 중 가장 높은 수준까지 올라섬"
             },
             {
               "time": "1:00PM",
@@ -318,7 +318,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-08",
               "title": "오후 들어 하락 전환",
-              "text": "반도체주 전반이 4일째 흔들린다는 우려 속 오후 들어 상승분을 반납하고 하락 전환"
+              "text": "오후 들어 상승분을 모두 반납하고 하락세로 돌아서며 낙폭이 커짐"
             },
             {
               "time": "마감",
@@ -326,40 +326,40 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.69,
               "is_close": true,
               "date": "2026-10-08",
-              "title": "낙폭 확대로 마감",
-              "text": "오후 들어 시작된 매도세가 이어지며 장중 저점 부근에서 하락폭을 키운 채 마감"
+              "title": "낙폭 키우며 약세 마감",
+              "text": "오후 내내 매도세가 이어지며 하루 중 가장 큰 낙폭으로 거래를 마침"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "최태원 SK 회장 \"호남 반도체, 수요 있으면 더 크게 짓겠다\"",
-              "original": "최태원 SK 회장 \"호남 반도체, 수요 있으면 더 크게 짓겠다\"",
-              "source": "한국경제",
-              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9HRmJSWnhSaHg4WnpOaTRUSFBha0l5Y1NoRm5UbG9GcWJBMk1hbXo1d2MzQlltTTlwcFRZRzBzV3RSZGdTLTJFel9hV1RZbDZDUFNqUFhxQ3JGQQ?oc=5",
-              "published": "2026-10-09T17:37:32+09:00"
+              "title": "[여의대로] ADR보다 42% 싼 하이닉스 주가, 누구 책임인가",
+              "original": "[여의대로] ADR보다 42% 싼 하이닉스 주가, 누구 책임인가",
+              "source": "아시아투데이",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBvMUhrejgzQURRdkJ1STFadmpvcUk5OXJpX0V1dTJ4azV4QWVqdWJzME1oeW9sWGh2VHp4Q2dtck9rVVJnU1Y3MGhoME9mOVpoV194Z19ZLXRjR0RRUUtLSmtTU0s1SzVGYWVTZg?oc=5",
+              "published": "2026-10-11T17:38:40+09:00"
             },
             {
-              "title": "최태원 “호남 반도체, 전력·용수 늦어도 먼저 착공”",
-              "original": "최태원 “호남 반도체, 전력·용수 늦어도 먼저 착공”",
-              "source": "광주드림",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16ajJYTVNCQmtjdm40Yi16QzNDTnhVWHBvZkNTcXpXOE1Yblh0X29BWm4yYXloejFaR3IwalVtaFJaRlk1SENHZ19acmUzaElqWkFoTEFSb0dnSkJWcGZucDZQRmROb1hoMUE?oc=5",
-              "published": "2026-10-09T17:36:58+09:00"
+              "title": "최태원 \"中·美 증설 빨라지면 점유율 줄어…우리도 서둘러야\"",
+              "original": "최태원 \"中·美 증설 빨라지면 점유율 줄어…우리도 서둘러야\"",
+              "source": "아시아경제",
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBCZVdxR0xHTW1mYVZyT3p6SkU1Z0wwTTBYWFVGYWxjOTdSYXQydWItbzZUQlhJYmw3WENXazJxWFFvbGhPQTFZVzR2elJFa2M0V2NHT1hsTXNuVkFQenlWMQ?oc=5",
+              "published": "2026-10-11T17:30:26+09:00"
             },
             {
-              "title": "최태원 SK 회장 “용인 12년 앞당겨도 부족…광주 반도체 공장, 전력 늦어도 먼저 짓겠다”",
-              "original": "최태원 SK 회장 “용인 12년 앞당겨도 부족…광주 반도체 공장, 전력 늦어도 먼저 짓겠다”",
-              "source": "경인방송 뉴스",
-              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ZSzdPa2gxYXZweDNjNkw2ME4xZXRPN1BtNElDUXBDaGhpTVpfbGpMVDdVVHZodzRLNjJ0YlBJQ0pWWktjYTlDbUJuTUNUNHhXT2l2Vm1ZampVOHlybjhXTThKNXnSAWhBVV95cUxPTDY0dV9SVnhRbzVaclQzdkhnXzBXektQNEN4QWNBcWFuTlBCR0NBb1RVZ1RtQkMxZmVnM2J3VEo3OUVzalRoYWZVNnNPU0gxSlNRVkxqMGIzbXA3akd6enVjMEQyOF9SVg?oc=5",
-              "published": "2026-10-09T17:35:08+09:00"
+              "title": "삼성전자, 외국인 지분율 금융위기 이후 최저 - 머니투데이",
+              "original": "삼성전자, 외국인 지분율 금융위기 이후 최저 - 머니투데이",
+              "source": "머니투데이",
+              "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBnSzZZakNGaUJmTTdwTnRPSFo1RkdsclR2bVBYWW1nVFJzZFUySWkxRTUzekRuN3lyakFuTmJJei1sRGZsZy1Lc3VJR3RPT1EwazlreVFVYkM0aS1kZVRtNF9oSERvQ2FkUmFFYW0zc09XQUQ1dkHSAXtBVV95cUxOYVpVTEJfTEV3TWN1QVpVV3BVd3Y4NW0wQ1hhUTI5T2FfVjNmZjcxMlgwNWdPOHc0N0stelozWnY0UWZsZ25NdmQ1Z25ieTdDV2szYTRLLXhiOWQ3UXlYNllocEo5a1FSY2M1V0RZUXBpanBTQ3pmR3IxUmc?oc=5",
+              "published": "2026-10-11T17:30:25+09:00"
             }
           ]
         },
         {
           "stock": "삼성전자",
           "ticker": "005930",
-          "title": "삼성전자 - GOS 공정위行에 HBM4 변수",
-          "body": "삼성전자는 '갤럭시 성능제한' GOS 사태가 4년 만에 공정위 심판대에 오른 가운데 -2.23% 내린 <b>263,000원</b> 마감. 베이스 다이 내재화로 HBM4 판도가 흔들릴 수 있다는 분석과 82조원 규모 텍사스 투자의 명암이 함께 거론되며 투자심리가 엇갈린 모습이다.",
+          "title": "삼성전자 - 외국인 지분율 금융위기 이후 최저",
+          "body": "삼성전자는 외국인 지분율이 금융위기 이후 최저 수준으로 떨어진 가운데 -2.23% 내린 <b>263,000원</b> 마감. 메모리 초호황 속 100조원대 투자 발표 다음 날 최태원 회장이 광주를 찾아 증설 경쟁에 나선 것으로 전해지며 업계 전반의 투자 경쟁이 부각됐다.",
           "pct": -2.23,
           "price": 263000.0,
           "currency": "KRW",
@@ -372,7 +372,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-08",
               "title": "보합권 출발",
-              "text": "전일 종가 수준에서 거래를 시작하며 특별한 방향성 없이 보합권에서 움직임"
+              "text": "전 거래일 종가 수준에서 거래를 시작하며 보합권에서 움직임"
             },
             {
               "time": "10:30AM",
@@ -381,7 +381,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-08",
               "title": "오전 중 약세 전환",
-              "text": "개장 초 보합을 유지하다 오전 중 매도세가 유입되며 소폭 하락 전환"
+              "text": "오전 들어 상승분을 지키지 못하고 소폭 하락세로 돌아섬"
             },
             {
               "time": "1:00PM",
@@ -389,8 +389,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.95,
               "is_close": false,
               "date": "2026-10-08",
-              "title": "오후 들어 낙폭 확대",
-              "text": "외국인 수급이 하이닉스로 쏠리는 분위기 속 오후 들어 하락폭이 눈에 띄게 커짐"
+              "title": "낙폭 확대",
+              "text": "오후 들어 외국인 지분율 관련 소식 속에 낙폭이 한층 커짐"
             },
             {
               "time": "마감",
@@ -398,40 +398,40 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -2.23,
               "is_close": true,
               "date": "2026-10-08",
-              "title": "하루 최대 낙폭 마감",
-              "text": "오후 내내 이어진 약세가 지속되며 하루 중 가장 큰 하락폭을 기록한 채 마감"
+              "title": "하루 중 최저가 마감",
+              "text": "장 후반까지 하락세가 이어지며 하루 중 가장 낮은 가격으로 거래를 마침"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "'갤럭시 성능제한' GOS사태…4년만에 공정위 심판대에",
-              "original": "'갤럭시 성능제한' GOS사태…4년만에 공정위 심판대에",
-              "source": "매일경제",
-              "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pdjdTVVFpMlpXMEc1bTNhWU9JblVPSHgtYjRaTXdwcXg4amQ3UmwyelJseXdkOGpXU0RUeGNPZzlHQ3dlUHpNOC1NR3REZw?oc=5",
-              "published": "2026-10-09T17:34:30+09:00"
+              "title": "가전업계 '히트펌프' 공급 속도전…300조 시장 정조준",
+              "original": "가전업계 '히트펌프' 공급 속도전…300조 시장 정조준",
+              "source": "한국경제",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ocVZqcS04aFE1N2JUZ0s4T0x5WVVmT2FmUWNrejhtNnFkRG03QWprQ2xFa25RRmVzRkl6RFNKSnB4RDNqZXpnZ1VhOGM3RWpaRF9NQ0tvcVVEUQ?oc=5",
+              "published": "2026-10-11T17:31:40+09:00"
             },
             {
-              "title": "82조원 품은 텍사스 벌판… 美 반도체 독립의 승부수 띄운 삼성의 명암",
-              "original": "82조원 품은 텍사스 벌판… 美 반도체 독립의 승부수 띄운 삼성의 명암",
-              "source": "글로벌이코노믹",
-              "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOXM5bDlUa0hvUGdTWlRYQnR2REZOZVhQZWEyUEliTDI0cGtOUUo3MTJlWDhMUDZYeWtycnl4R3hsMmg2Ql9HV2dRUEpET3pkMlQzOTFuYXB2UkpCa1pVVjhMSm5qeGJZUzBfcUg3Q29XdWJWU2tTd1BNcUFMY1lSUm9lRDVTRkU?oc=5",
-              "published": "2026-10-09T17:33:56+09:00"
+              "title": "삼성전자, 외국인 지분율 금융위기 이후 최저 - 머니투데이",
+              "original": "삼성전자, 외국인 지분율 금융위기 이후 최저 - 머니투데이",
+              "source": "머니투데이",
+              "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBnSzZZakNGaUJmTTdwTnRPSFo1RkdsclR2bVBYWW1nVFJzZFUySWkxRTUzekRuN3lyakFuTmJJei1sRGZsZy1Lc3VJR3RPT1EwazlreVFVYkM0aS1kZVRtNF9oSERvQ2FkUmFFYW0zc09XQUQ1dkHSAXtBVV95cUxOYVpVTEJfTEV3TWN1QVpVV3BVd3Y4NW0wQ1hhUTI5T2FfVjNmZjcxMlgwNWdPOHc0N0stelozWnY0UWZsZ25NdmQ1Z25ieTdDV2szYTRLLXhiOWQ3UXlYNllocEo5a1FSY2M1V0RZUXBpanBTQ3pmR3IxUmc?oc=5",
+              "published": "2026-10-11T17:30:25+09:00"
             },
             {
-              "title": "삼성, 베이스 다이까지 한 손에 쥐자… HBM4 판도 흔들리는 소리",
-              "original": "삼성, 베이스 다이까지 한 손에 쥐자… HBM4 판도 흔들리는 소리",
-              "source": "글로벌이코노믹",
-              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPME5NUnNnazlrdzgyYm1sV1dSbFpJTFF1SVE3MWRoRnR6M3lVQ1hKTnNsMHBFNEVsaVNJVkNuYm1tX0FpNlFoRVdyOHctemx5V3FjTUZhUk1Ka3RwT3VQZkZmTm9yeGkwQ2pScmpScXZxTDV2eVJUNnNtUkVoVjFiT2xsVjBlWW13?oc=5",
-              "published": "2026-10-09T17:27:03+09:00"
+              "title": "삼성 100조 다음 날 최태원 광주행…메모리 초호황에 증설 경쟁",
+              "original": "삼성 100조 다음 날 최태원 광주행…메모리 초호황에 증설 경쟁",
+              "source": "한국일보",
+              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9CaExWLWpaMUI5eWlaOWNDZ0xpR3ZDdDJBVlNvMVpJRy1mTmExdHM3QlU5a1hHRGh2MHFNWUM1YXRKR2lGc0dhai0wRWtNcHNQMG5sWm9GUzBQMk9Wc1ZRX0NvZS1rVVRJRWJPRDZ30gFzQVVfeXFMUFBHUDBuVV80MHNKbGVwa05uNGdmZ2ZtSVdGamgybHZoWGRnbzRtSTdXTExkOFVRQWJoTlktbXR1aHY3QnNjbHNoWml3aF9CVkltME9odjV4OFR5elFnWUdhVXo5VTlFMHNmdzVXSDRGRmZ1QQ?oc=5",
+              "published": "2026-10-11T17:05:00+09:00"
             }
           ]
         },
         {
           "stock": "한화에어로스페이스",
           "ticker": "012450",
-          "title": "한화에어로스페이스 - 급락, 호주 장갑차 사업 종료",
-          "body": "한화에어로스페이스는 호주 장갑차 생산이 2028년 종료된다는 소식 속에 -7.66% 내린 <b>904,000원</b> 마감. 방공망·무인기 등 새 활로를 모색한다는 분석이 나왔지만 주가 하락 폭을 되돌리지는 못했다.",
+          "title": "한화에어로스페이스 - 급락, 국방AI 투자 발표에도",
+          "body": "한화에어로스페이스는 김승연 회장이 55조원 규모 우주항공 투자의 근간으로 국방AI 개발을 꼽았음에도 -7.66% 내린 <b>904,000원</b> 마감.",
           "pct": -7.66,
           "price": 904000.0,
           "currency": "KRW",
@@ -443,8 +443,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.58,
               "is_close": false,
               "date": "2026-10-08",
-              "title": "장 초반부터 약세",
-              "text": "발사체 재사용 기술 시연 소식에도 개장 직후부터 뚜렷한 하락세로 출발"
+              "title": "장 초반 급락 출발",
+              "text": "전 거래일 대비 큰 폭으로 하락 출발하며 약세 분위기로 시작함"
             },
             {
               "time": "10:30AM",
@@ -452,8 +452,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -6.44,
               "is_close": false,
               "date": "2026-10-08",
-              "title": "낙폭 큰 폭 확대",
-              "text": "오전 중 매도세가 강하게 유입되며 하락폭이 급격히 커져 장중 저점권 형성"
+              "title": "낙폭 더 커짐",
+              "text": "오전 중 낙폭이 두 배 가까이 확대되며 하락세가 가팔라짐"
             },
             {
               "time": "1:00PM",
@@ -461,8 +461,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -7.46,
               "is_close": false,
               "date": "2026-10-08",
-              "title": "낙폭 추가 확대",
-              "text": "오전의 급락 흐름이 오후 들어서도 이어지며 하락폭이 한층 더 벌어짐"
+              "title": "하락세 지속",
+              "text": "오후 들어서도 낙폭을 회복하지 못하고 약세 흐름이 이어짐"
             },
             {
               "time": "마감",
@@ -470,40 +470,40 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -7.66,
               "is_close": true,
               "date": "2026-10-08",
-              "title": "큰 폭 하락 마감",
-              "text": "장중 내내 이어진 매도 압력을 끝내 되돌리지 못하고 하루 중 최대 낙폭으로 마감"
+              "title": "하루 중 최저가 마감",
+              "text": "장 마지막까지 낙폭이 줄지 않으며 하루 중 가장 큰 하락폭으로 마감함"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "누리호 다음 승부처는 '재사용'…한화에어로·현대로템 기술 확보 주력",
-              "original": "누리호 다음 승부처는 '재사용'…한화에어로·현대로템 기술 확보 주력",
-              "source": "뉴시스",
-              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9QcUFMUDc3WHpmQlhKNkpaV0ItZUFRdDhmVGc5MDNid0FNb1VfS2JjVEJGVGZDT0JYQkJWdHJheGREMXp5VTFUUVFqaTRSWTFxcFhQTlNlN1k4MGpKLXFSbdIBeEFVX3lxTE4wd0h0WVpab1ZOMUE4TUpkZHk5c3FPZVhid1VKVzNVdDZJa2pLWEJfZU1hYnRiZzRZeDBZWGtuUW5mU3IxaHI1N1NzVURHZ3BHUXBMUmhUOWVNVFphZXlWOWVpNE9jZ3hRd2tDMGc3cHd2UlN3Qnc4Vg?oc=5",
-              "published": "2026-10-09T16:30:00+09:00"
+              "title": "'5차 발사' 누리호 만든 한화…뉴스페이스 시대 선봉장으로",
+              "original": "'5차 발사' 누리호 만든 한화…뉴스페이스 시대 선봉장으로",
+              "source": "한국경제",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE16R2FUSXNjTVg3amxQNUZJWGRFQkxxbnJ2S3hOUGtkbHkyRngyUVQtQ1Iya3owb3dmaVNZN3p0LWVrOEl3T3ljYlBhekZFaXJiN3NVNXpRdGdxUQ?oc=5",
+              "published": "2026-10-11T16:40:02+09:00"
             },
             {
-              "title": "호주 장갑차 생산 2028년 종료…한화, 방공망∙무인기로 활로 찾는다",
-              "original": "호주 장갑차 생산 2028년 종료…한화, 방공망∙무인기로 활로 찾는다",
-              "source": "한국신용신문",
-              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5VLVZOV3lNV0VBc0JFRjBKOFc1VnBMZ2MxX3prWnBNaG9COXJYUGotWUVCS0lSOWFHX2RmVzJzZkhXQnUwVHU4OTdCemc2WU9CYWVoelNGZnpvUmpmVHhSUzVCakt0eVBxS19r?oc=5",
-              "published": "2026-10-09T14:02:00+09:00"
+              "title": "[데이터 뉴스룸] 운송 업체 50곳 올 상반기 미등기임원 평균 급여 1억 3940만원…대한항공 2억 원 넘는데 한화에어로스페이스·HMM은?",
+              "original": "[데이터 뉴스룸] 운송 업체 50곳 올 상반기 미등기임원 평균 급여 1억 3940만원…대한항공 2억 원 넘는데 한화에어로스페이스·HMM은?",
+              "source": "녹색경제신문",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE91M1k2NUZMeWZIWDVXVHhMVHJGYXVYTHktS1l2bjE1b3JsTFdUX2ZZX3Bfc2wxU0NjcG1HcUFnR1hOMC1EYk9MbTNHbmk1WjZ2ajJXRExLVGl3aEtUZkUyUVNmdWtWSTd6?oc=5",
+              "published": "2026-10-11T15:49:44+09:00"
             },
             {
-              "title": "“한화, 美 자주포 트럭용 섀시 체코 최대기업서 받아”",
-              "original": "“한화, 美 자주포 트럭용 섀시 체코 최대기업서 받아”",
-              "source": "서울경제",
-              "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB4c3dUWmx3X2J1OEVWRG5CMTJOdHctUFA2UWw0dm1PZzFQNmdFSnMwYTRHT3dFajQxeE5IUnNsb0JLZFpJTE5QSjgwdlpMcElveXfSAVNBVV95cUxPYm5Pd1NVNC05R3c4SXV3WVJjejgzcFl1c2NOaWNjdWZ6TnREZ2E0dEUyUVZ3Q29PdktrLVRHX3lPZHpRNEFoWFcwNkFUanUzZXR2TQ?oc=5",
-              "published": "2026-10-09T13:30:00+09:00"
+              "title": "김승연 \"한화 55조 우주항공 투자의 근간은 국방AI 개발\"",
+              "original": "김승연 \"한화 55조 우주항공 투자의 근간은 국방AI 개발\"",
+              "source": "파이낸셜뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ER1hUUWU1UjF2ZkZJZGR1YmRGeVFQaUZJY3NVbGZUOUVBWldVdFZJLU81Wlcxck1VU3l0Szg4ZlhRZFd4Rlk5MFlCc3U0X0tkUWRxX2ZHZXlvdw?oc=5",
+              "published": "2026-10-11T14:20:06+09:00"
             }
           ]
         },
         {
           "stock": "LG전자",
           "ticker": "066570",
-          "title": "LG전자 - 재료 없이 급락",
-          "body": "LG전자는 뚜렷한 악재 없이 -3.83% 내린 <b>201,000원</b> 마감. OTT 확산에 따른 TV 홈 엔터테인먼트 체질 전환 소식이 있었지만 하락과 직접 연관짓기는 어렵다.",
+          "title": "LG전자 - 히트펌프 경쟁 속 하락",
+          "body": "LG전자는 가전업계가 300조원 규모 히트펌프 시장을 겨냥해 공급 속도전에 나선 가운데 -3.83% 내린 <b>201,000원</b> 마감. 시그니처 브랜드의 미국 진출 10주년을 맞아 제품군과 판매망을 확대하고 뉴욕 구겐하임에서 재도약을 알리는 행보도 이어졌다.",
           "pct": -3.83,
           "price": 201000.0,
           "currency": "KRW",
@@ -516,7 +516,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-08",
               "title": "장 초반 약세 출발",
-              "text": "개장과 함께 매도세가 유입되며 전일 대비 하락한 채로 거래를 시작"
+              "text": "전 거래일 대비 하락 출발하며 장 초반부터 약세 흐름을 보임"
             },
             {
               "time": "10:30AM",
@@ -524,8 +524,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -4.07,
               "is_close": false,
               "date": "2026-10-08",
-              "title": "낙폭 확대 이어져",
-              "text": "오전 중 하락폭이 더 커지며 장중 저점을 낮추는 흐름이 이어짐"
+              "title": "낙폭 확대",
+              "text": "오전 들어 하락폭이 더 커지며 약세가 뚜렷해짐"
             },
             {
               "time": "1:00PM",
@@ -533,8 +533,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -4.86,
               "is_close": false,
               "date": "2026-10-08",
-              "title": "하루 중 최대 낙폭",
-              "text": "시그니처 10주년 소식에도 매수세가 붙지 않으며 하락폭이 하루 중 가장 크게 벌어짐"
+              "title": "하루 중 최저가 근접",
+              "text": "오후 초반까지 낙폭이 이어지며 하루 중 가장 낮은 수준까지 밀림"
             },
             {
               "time": "마감",
@@ -543,39 +543,39 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-10-08",
               "title": "낙폭 일부 만회",
-              "text": "오후 들어 저가 매수세가 유입되며 장중 저점 대비 하락폭을 다소 줄여 마감"
+              "text": "장 후반 들어 낙폭을 다소 줄이며 저점 대비 반등한 채 거래를 이어감"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "LG전자, 국제 청소년 로봇대회 '2026 퍼스트 글로벌 챌린지' 후원",
-              "original": "LG전자, 국제 청소년 로봇대회 '2026 퍼스트 글로벌 챌린지' 후원",
-              "source": "IT타임스",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9uZzVFTDlXY1lyRUtWb0xPRzA2ajktVFE4THlabUdDTkx1OEs0cDRSWVhNUEY5N3VzYXQ2eVNOUGFkeEp6WGt3dFlFa1p2VGJNV1RiUXJKMmtMS25MemYxR0Z0MnZCNEZt?oc=5",
-              "published": "2026-10-09T12:36:57+09:00"
+              "title": "가전업계 '히트펌프' 공급 속도전…300조 시장 정조준",
+              "original": "가전업계 '히트펌프' 공급 속도전…300조 시장 정조준",
+              "source": "한국경제",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ocVZqcS04aFE1N2JUZ0s4T0x5WVVmT2FmUWNrejhtNnFkRG03QWprQ2xFa25RRmVzRkl6RFNKSnB4RDNqZXpnZ1VhOGM3RWpaRF9NQ0tvcVVEUQ?oc=5",
+              "published": "2026-10-11T17:31:40+09:00"
             },
             {
-              "title": "OTT 뜨자 TV 이용률 증가…‘홈 엔터테인먼트 플랫폼’ 체질 전환",
-              "original": "OTT 뜨자 TV 이용률 증가…‘홈 엔터테인먼트 플랫폼’ 체질 전환",
-              "source": "뉴스토마토",
-              "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8tREx1WFVGUXluOWMtdlcyYzA0T2oyZnJoVlBQYldMUi1NemtWLVR6dWpDNlJGSjctUEJPeWhUaGludVRabmRkSzFQRFphMlcxaE9HczRidjVKVU5ROTZj?oc=5",
-              "published": "2026-10-09T12:15:37+09:00"
+              "title": "LG전자, 시그니처 美 10주년 맞이…제품군 10개·판매망 확대",
+              "original": "LG전자, 시그니처 美 10주년 맞이…제품군 10개·판매망 확대",
+              "source": "뉴스핌",
+              "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1PNXBXUXJLellSaHhId2JEUFpxQm9naFdoUlNmcFlvMFJDQ3k2WlBkQ2pwd0I3OUZtalAwcWRTLW9hLVZwMzlYNTBiam9OR0JRSlYtbDk1LWp3Yl9n?oc=5",
+              "published": "2026-10-11T16:40:00+09:00"
             },
             {
-              "title": "하이엠솔루텍, AI 데이터센터 냉각 유지보수 통합…액체냉각까지 서비스 확대",
-              "original": "하이엠솔루텍, AI 데이터센터 냉각 유지보수 통합…액체냉각까지 서비스 확대",
-              "source": "워크투데이",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52UGRROHNZREZsM2JXcEJ4RzhCYzZMc2Z3blZ3a2xlelJ4OWQ3WGd5OC1rY1MwMC0yemhRU2NRelVhZUpacmY5d0hzbUlnc00wd21OVzA4YVlsWS1mT1hUaS1MZXhLTXZ6TnJTbQ?oc=5",
-              "published": "2026-10-09T11:22:00+09:00"
+              "title": "LG전자, 뉴욕 구겐하임서 '시그니처의 재도약' 알렸다",
+              "original": "LG전자, 뉴욕 구겐하임서 '시그니처의 재도약' 알렸다",
+              "source": "연합인포맥스",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBoNUxJUmp1V3lZc1UxamoyX1NKNTlnRE11dUpCNWdYX0VVZThEZmY5TjE1anpLci1UTXZnNXd0X2NtNTg2VldtZ1dPSXU4dDF0N1ZESFBUOVh6YjlsNkViTThmY2ZSQXRIM3lyNjZ2bG4?oc=5",
+              "published": "2026-10-11T16:10:33+09:00"
             }
           ]
         },
         {
           "stock": "현대차",
           "ticker": "005380",
-          "title": "현대차 - 재료 없이 급락",
-          "body": "현대차는 뚜렷한 악재 없이 -3.57% 내린 <b>324,500원</b> 마감. 넥쏘 일본 출시 흥행과 유재석의 호평 등 우호적 소식이 이어졌음에도 주가는 하락세를 보였다.",
+          "title": "현대차 - 피지컬AI 전환에도 하락",
+          "body": "현대차는 정의선 회장 취임 6주년을 맞아 '피지컬 AI 전환' 가속과 모빌리티를 넘어선 미래 투자 확대를 발표했음에도 -3.57% 내린 <b>324,500원</b> 마감. 인도 진출 30년 만에 누적판매 1천만대를 앞두고 있다는 소식도 전해졌다.",
           "pct": -3.57,
           "price": 324500.0,
           "currency": "KRW",
@@ -588,7 +588,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-08",
               "title": "장 초반 약세 출발",
-              "text": "개장 직후부터 매도 우위 흐름이 나타나며 전일 대비 하락 출발"
+              "text": "전 거래일 대비 하락 출발하며 장 초반부터 조정 흐름을 보임"
             },
             {
               "time": "10:30AM",
@@ -596,8 +596,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -2.97,
               "is_close": false,
               "date": "2026-10-08",
-              "title": "약세 흐름 지속",
-              "text": "인도 판매 호조 소식에도 하락 흐름이 이어지며 낙폭이 소폭 더 커짐"
+              "title": "낙폭 소폭 확대",
+              "text": "오전 중 낙폭이 조금씩 커지며 약세 기조가 이어짐"
             },
             {
               "time": "1:00PM",
@@ -605,8 +605,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.49,
               "is_close": false,
               "date": "2026-10-08",
-              "title": "오후 들어 낙폭 확대",
-              "text": "오후 들어 매도세가 강해지며 장중 저점 부근까지 하락폭이 확대됨"
+              "title": "낙폭 더 커짐",
+              "text": "오후 들어 하락폭이 한층 확대되며 약세가 심화됨"
             },
             {
               "time": "마감",
@@ -614,39 +614,38 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.57,
               "is_close": true,
               "date": "2026-10-08",
-              "title": "하루 최대 낙폭 마감",
-              "text": "오후 내내 이어진 약세 흐름을 돌리지 못하고 하루 중 가장 큰 낙폭으로 마감"
+              "title": "하루 중 최저가 마감",
+              "text": "장 마지막까지 낙폭이 줄지 않으며 하루 중 가장 큰 하락으로 거래를 마침"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "현대차, 레이싱 게임에 '크레이터 콘셉트' 등장...오프로드 체험",
-              "original": "현대차, 레이싱 게임에 '크레이터 콘셉트' 등장...오프로드 체험",
-              "source": "뉴스투데이",
-              "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE40Y0NOS0VqbGxPNVc1c2VSN0E3aFIwNHgzbVlXekM5ejRNdnU2NC1aVnNWVDlzcW1TOWVhUXZYNzhCb19zWWxYdEEydjhldXZ1aVFuT1ZReTVkSE1DUVE?oc=5",
-              "published": "2026-10-09T17:26:50+09:00"
-            },
-            {
-              "title": "포르쉐 타던 유재석도 반했다…‘대체불가’ 현대차, ‘세계 최고’ 극찬 [최기성의 허브車]",
-              "original": "포르쉐 타던 유재석도 반했다…‘대체불가’ 현대차, ‘세계 최고’ 극찬 [최기성의 허브車]",
+              "title": "현대차, 인도 진출 30년 … 누적판매 1천만대 초읽기",
+              "original": "현대차, 인도 진출 30년 … 누적판매 1천만대 초읽기",
               "source": "매일경제",
-              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05SUFOV0t6TDBQV1NjcnhnRnE2YkJjaVhXcC1BMno4akhNUmVpai1fa0RSUWlydHE1X2xfUWppWGZUckwzRTZKSTNOSnV6X1dvWWFGU1lB?oc=5",
-              "published": "2026-10-09T17:06:31+09:00"
+              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB5MWFnSG5nVk94cGlBTHlKdGtjWHhUS3p1YjRFdG5FMDRSOFhBMFdZaVptSzlDcmpib0dBRXlXeDZlcHVHRHhHWjE0ZjRtajRXSjc0NUVB?oc=5",
+              "published": "2026-10-11T17:29:44+09:00"
             },
             {
-              "title": "현대차 디 올 뉴 넥쏘 일본 출시 직후 두 자릿수 점유율 달성",
-              "original": "현대차 디 올 뉴 넥쏘 일본 출시 직후 두 자릿수 점유율 달성",
-              "source": "모터그래프",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MUElpZ2pjT3lDdjRqTkpCXzJzVFB4RXZKR3QyTlM0anVpc1JJQ09jY21NcFNqYjdyOUU4X1VHcjNTTU9sak9ESHJRUGJCNTIxbVdYRjZGeXdWYVBtSGNkWmQwWnE1RVpMM3NkTw?oc=5",
-              "published": "2026-10-09T17:04:15+09:00"
+              "title": "취임 6주년 정의선 '피지컬 AI 전환' 가속 - www.thecommoditiesnews.com",
+              "original": "취임 6주년 정의선 '피지컬 AI 전환' 가속 - www.thecommoditiesnews.com",
+              "source": "www.thecommoditiesnews.com",
+              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE45b2N3UDRBdWhRY2x1OEFCblg5MWVNOFUwdk9Mci1LZUJnUHV4UDRLa2lrSG1aUXNWVG41dEswd1RhMi1Ld29EbElBcGkzWEcxc1RHNVRxdTVUWWRjSUZNbldNTUlkZEREN2VweTh0bmw2bEtNWHNF?oc=5",
+              "published": "2026-10-11T17:08:30+09:00"
+            },
+            {
+              "title": "현대차그룹, 과감한 미래 투자…모빌리티 넘어 '피지컬AI'로 간다",
+              "original": "현대차그룹, 과감한 미래 투자…모빌리티 넘어 '피지컬AI'로 간다",
+              "source": "한국경제",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5MRjlnendhX2lEbE9XbURka3E3MkJJVXlzUi16VFVTdnB6Y2hFVkNtUlJ1MXpRZWtLck1nMFFMMkkxM3NoTXBEdm5TY254V09EWDAzNmpaRXhndw?oc=5",
+              "published": "2026-10-11T16:48:46+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-10-09-kr.md",
-      "refreshed_at": "2026-10-09 17:54:04 KST",
-      "slots_refreshed_at": "2026-10-11 10:48:12 KST"
+      "markdown": "briefings/2026-10-11-kr.md",
+      "refreshed_at": "2026-10-11 17:41:35 KST"
     }
   }
 };
