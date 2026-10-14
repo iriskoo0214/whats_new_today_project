@@ -32,6 +32,8 @@
     color:var(--label-strong);
     overflow:hidden;
   }
+  /* 폼 요소는 본문 폰트를 상속하지 않는다 — 전부 Pretendard로 맞춘다 */
+  button,input,select,textarea{font-family:inherit;}
   /* 폰에서는 비율을 지키느라 좌우에 여백이 남는다. 회색 대신 앱 배경색으로
      채워 잘려 보이는 느낌을 줄인다. (위 body 규칙보다 뒤에 와야 이긴다) */
   @media (max-width:520px){ body{background:var(--bg);} }
@@ -196,7 +198,7 @@
   }
 
   /* ---------- 종목 필터 탭 (Tab List Container, 1:1056) ----------
-     "전체" 활성 배지가 검정 배경 필로 바뀐다(예전엔 그냥 검정 텍스트 반전이었다). */
+     활성 칩은 채움 없이 진한 테두리 + 진한 글자로만 구분한다 (6:291). */
   .filters{
     position:relative;order:6;margin-top:12px;width:100%;flex-shrink:0;        /* 제목 밑단(397) → 필터 위(409) = 12 */
     padding:10px 16px;z-index:4;
@@ -211,22 +213,22 @@
   .chip{
     flex:0 0 auto;
     display:flex;align-items:center;justify-content:center;
-    padding:12px 10px;border-radius:4px;
+    padding:11px 9.5px;border-radius:4px;               /* 피그마는 inside stroke(12/10 안에 테두리 포함) → 테두리만큼 빼서 높이 38px·폭 피그마와 동일 */
     border:1px solid rgba(70,74,78,.4);
-    font-size:12px;font-weight:600;letter-spacing:-.3px;line-height:normal;
+    font-family:inherit;                                /* button은 폰트를 상속하지 않는다 — 안 주면 Arial로 뜬다 */
+    font-size:12px;font-weight:600;letter-spacing:-.3px;line-height:14px;
     color:rgba(70,74,78,.8);background:transparent;
     white-space:nowrap;cursor:pointer;transition:background .18s,color .18s,border-color .18s;
   }
-  .chip.is-active{background:#15171a;border-color:#202326;color:#fff;}
-  /* 테두리가 SVG 안에 들어 있어 CSS 테두리는 걷어낸다(이중선 방지) */
+  .chip.is-active{border-color:#202326;color:#15171a;}
+  /* 22×38 테두리 박스 안에 18px 아래 셰브론 (6:304) */
   .chip-more{
-    flex:0 0 auto;height:38px;width:22px;
+    flex:0 0 auto;height:38px;width:22px;box-sizing:border-box;
     display:flex;align-items:center;justify-content:center;
-    border:0;padding:0;background:transparent;cursor:pointer;
+    border:1px solid rgba(70,74,78,.4);border-radius:4px;
+    padding:0 2px;background:transparent;cursor:pointer;
   }
-  /* 아이콘이 흰색이라 밝은 배경인 홈에서는 검정으로 뒤집는다.
-     stroke-opacity .2 는 그대로 남아 기존 테두리 톤과 같아진다. */
-  .chip-more img{width:22px;height:38px;display:block;filter:brightness(0);}
+  .chip-more img{width:18px;height:18px;display:block;}
 
   /* ---------- 칩 가로 스크롤 (홈 필터 · 포트폴리오 종목 공통) ----------
      칩이 화면 밖으로 넘칠 때 "옆에 더 있다"를 알려야 한다. 배경이 화면마다 달라서
@@ -405,6 +407,17 @@
     border-radius:8px;z-index:6;
     box-shadow:inset 0 1px 0 rgba(255,255,255,.6),
                 inset 0 -1px 0 rgba(255,255,255,.4);
+  }
+  /* 탭바와 화면 가장자리 사이(좌우 16 · 아래 42)로 카드가 선명하게 비쳐 보이던
+     빈틈을 탭바와 같은 blur(8px)로 덮는다. 위쪽은 mask로 흐려 경계선이 생기지 않게
+     탭바 윗변보다 16px 먼저 시작한다. 배경색은 깔지 않아 탭바 유리 톤은 그대로다. */
+  .tab-bar-backdrop{
+    position:absolute;left:0;right:0;bottom:0;
+    top:calc(702px - 16px);
+    -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
+    -webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 16px);
+            mask-image:linear-gradient(to bottom,transparent 0,#000 16px);
+    z-index:5;pointer-events:none;
   }
   .tab{
     width:112px;height:64px;
@@ -725,6 +738,11 @@
       top:auto;
       bottom:calc(8px + env(safe-area-inset-bottom,0px));
     }
+    /* 블러 띠도 탭바 기준으로 — 탭바 높이 68 + 아래 8 + 안전영역 + 위 페더 16 */
+    .tab-bar-backdrop{
+      top:auto;
+      height:calc(68px + 8px + 16px + env(safe-area-inset-bottom,0px));
+    }
     /* 탭 3개가 112px 고정이라 합쳐 336px. 시안 폭(343)에서는 꽉 찼지만 화면이
        넓어지면 늘어나지 않고 왼쪽으로 몰려 Settings 오른쪽이 빈다
        (화면폭 - 384 만큼. Pro Max 430에서 46px). 폭을 균등하게 나눠 갖는다. */
@@ -834,7 +852,8 @@
     }
 
     /* 문서가 굴러가도 탭바는 화면 아래에 붙어 있어야 한다 */
-    html.doc-scroll .tab-bar{position:fixed;}
+    html.doc-scroll .tab-bar,
+    html.doc-scroll .tab-bar-backdrop{position:fixed;}
 
     /* 헤더(제목 + 날짜)는 맨 위에 붙여두고 그 아래만 흘려보낸다.
        sticky는 흐름에서 자리를 빼지 않으므로 레이아웃은 그대로고, 굴릴 때만 멈춘다.

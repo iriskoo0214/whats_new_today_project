@@ -78,7 +78,7 @@ document.write('<link rel="stylesheet" href="styles.css?t=' + Date.now() + '">')
   <div class="filters">
     <div class="chip-scroll" id="chips"></div>
     <button class="chip-more" aria-label="다음 종목 보기">
-      <img src="assets/chip-more.svg" alt="" />
+      <img src="assets/chip-more-down.svg" alt="" />
     </button>
   </div>
 
@@ -168,6 +168,9 @@ document.write('<link rel="stylesheet" href="styles.css?t=' + Date.now() + '">')
       <span class="ico-battery"><img src="assets/battery.svg" alt="" data-w="assets/battery-w.svg" data-b="assets/battery.svg" /></span>
     </div>
   </div>
+
+  <!-- 탭바 주변(좌우·아래) 빈틈을 탭바와 같은 블러로 덮는 띠 -->
+  <div class="tab-bar-backdrop" aria-hidden="true"></div>
 
   <!-- Tab bar (두 탭 공용) -->
   <nav class="tab-bar">

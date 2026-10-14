@@ -349,6 +349,7 @@
     });
     chips.scrollLeft = 0;
     attachChipScroll(chips);
+    updateChipEdges(chips);         // 이미 0이면 scroll 이벤트가 안 와서 이전 시장의 흐림이 남는다
     attachChipPager(document.querySelector('.chip-more'), chips);
     hintChipScroll(chips);
   }
@@ -982,6 +983,8 @@
       }
     });
   });
+  // 웹폰트가 늦게 뜨면 칩 폭이 바뀐다 — 대체 폰트 기준으로 잰 흐림·화살표를 다시 맞춘다
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(refreshChipControls);
 
   /* ---------- 시장 전환 ---------- */
 
