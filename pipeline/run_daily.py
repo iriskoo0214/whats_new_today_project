@@ -115,10 +115,13 @@ def main() -> int:
         for m in targets:
             if not briefs_by_market.get(m):
                 continue
-            mkt_news = market_news.fetch_market_news(m, now)
-            log("  {} 매크로 뉴스 {}건".format(SECTION_LABEL[m], len(mkt_news)))
+            win, slots = market_news.fetch_slot_news(m, now)
+            log("  {} 매크로 뉴스 {} ({}~{}) — {}".format(
+                SECTION_LABEL[m], win.day.strftime("%m/%d"),
+                win.start.strftime("%m/%d %H:%M"), win.end.strftime("%m/%d %H:%M"),
+                ", ".join("{} {}건".format(s.label, len(s.news)) for s in slots)))
             result = market_summary_mod.summarize(
-                SUMMARY_SCOPE[m], mkt_news, forbid=MARKET_SUMMARY_FORBID.get(m))
+                m, SUMMARY_SCOPE[m], win, slots, forbid=MARKET_SUMMARY_FORBID.get(m))
             if result:
                 market_summaries[m] = result
         log("시장 전체 헤드라인 완료 — {}개 시장".format(len(market_summaries)))
