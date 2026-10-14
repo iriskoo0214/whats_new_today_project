@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-14 15:06:00 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-10-14 20:42:58 KST",
+  "refreshed": [
     "kr"
   ],
-  "default": "us",
+  "slots_refreshed": [],
+  "default": "kr",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
@@ -286,7 +286,7 @@
     },
     "kr": {
       "icon": "assets/moon.svg",
-      "label": "한국 증시 요약 2026. 10. 13. 4:38PM",
+      "label": "한국 증시 요약 2026. 10. 14. 8:42PM",
       "chips": [
         "전체",
         "SK하이닉스",
@@ -300,26 +300,26 @@
         "다시 찾아올게요."
       ],
       "next": "us",
-      "headline": "국내 5종목 중 0종목 상승, 5종목 하락 — 현대차가 -2.35%로 낙폭이 가장 작았고 SK하이닉스가 -9.53%로 가장 부진했습니다.",
-      "market_headline": "외국인 4.5조 매도에 코스피 5.46% 급락, 6000선 턱걸이",
+      "headline": "국내 5종목 중 3종목 상승, 2종목 하락 — 현대차가 +0.64%로 가장 많이 올랐고 SK하이닉스가 -2.13%로 가장 부진했습니다.",
+      "market_headline": "외국인·개인 동반 매도에 코스피 6거래일 연속 하락",
       "market_card": {
-        "title": "코스피 '검은 화요일'...6035선 간신히 마감",
+        "title": "코스피 6000선 턱걸이 마감...6거래일 연속 하락세",
         "bullets": [
-          "외국인 4조5000억원대 대규모 순매도",
-          "SK하이닉스 등 반도체주 급락 주도",
-          "장중 매도 사이드카 발동 변동성 확대"
+          "외국인과 개인 동반 매도세 지속",
+          "ASML 실적 실망에 투자심리 위축",
+          "장중 반등 시도 후 막판 급락"
         ]
       },
       "cards": [
         {
           "stock": "SK하이닉스",
           "ticker": "000660",
-          "title": "SK하이닉스 - 中 D램 우려에 9%대 급락",
-          "body": "SK하이닉스는 중국發 D램 공급 우려가 매도세의 명확한 트리거로 지목되며 -9.53% 내린 <b>1,452,000원</b> 마감. 이날 코스피 전체가 5%대 급락한 '검은 화요일' 장세 속에 낙폭이 두드러졌다.",
-          "pct": -9.53,
-          "price": 1452000.0,
+          "title": "SK하이닉스 - HBF 규격화 추진, 차익실현",
+          "body": "SK하이닉스는 HBF·3D 적층 D램으로 AI 메모리 병목을 해결하겠다는 전략을 내놨지만 -2.13% 내린 <b>1,425,000원</b> 마감. 솔리다임 중복상장 이슈로 총수는 이득을 보고 주주는 손해를 본다는 지적이 나오며 투자심리에 부담을 준 모습이다.",
+          "pct": -2.13,
+          "price": 1425000.0,
           "currency": "KRW",
-          "as_of": "2026-10-13",
+          "as_of": "2026-10-14",
           "slots": [
             {
               "time": "9:10AM",
@@ -327,8 +327,8 @@
               "pct": 1.92,
               "is_close": false,
               "date": "2026-10-14",
-              "title": "장 초반 급등 출발",
-              "text": "장 초반 큰 폭으로 뛰며 거래를 시작했으나 상승폭을 상당히 반납한 채 움직임"
+              "title": "강세로 장 시작",
+              "text": "전일 상승 흐름이 이어지며 장 초반부터 큰 폭으로 오르며 출발함"
             },
             {
               "time": "10:30AM",
@@ -337,7 +337,7 @@
               "is_close": false,
               "date": "2026-10-14",
               "title": "상승폭 대부분 반납",
-              "text": "오전 중 오름폭이 크게 줄어들며 장 초반 기세를 이어가지 못하는 모습"
+              "text": "장 초반 급등분을 거의 다 내주며 오전 중 상승폭이 크게 줄어듦"
             },
             {
               "time": "1:00PM",
@@ -345,44 +345,53 @@
               "pct": 0.41,
               "is_close": false,
               "date": "2026-10-14",
-              "title": "오후 들어 소폭 반등",
-              "text": "점심 무렵 낙폭을 조금 만회했으나 여전히 장 초반 고점에는 미치지 못하는 수준 유지"
+              "title": "보합권 등락 지속",
+              "text": "오전에 꺾인 흐름이 오후 들어서도 뚜렷한 반등 없이 좁은 범위에서 머무름"
+            },
+            {
+              "time": "마감",
+              "price": 1425000.0,
+              "pct": -2.13,
+              "is_close": true,
+              "date": "2026-10-14",
+              "title": "막판 낙폭 확대",
+              "text": "오후까지 버티던 상승세가 장 막판 꺾이며 하루 중 가장 낮은 수준으로 밀려 마감"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "이천시, SK하이닉스 내년 지방세 1.5조 원 이상 추계…내년 예산 ‘3조 시대’ 활짝",
-              "original": "이천시, SK하이닉스 내년 지방세 1.5조 원 이상 추계…내년 예산 ‘3조 시대’ 활짝",
-              "source": "중부일보",
-              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBhcGxDTnY5WmFrdnlzLUw4RmZ3Qld2NVpPY1lrRWdYSzZyaHl4QmQtSzdGWUJRX2QwTXFvRFllR09pYktFdzFMT2RpVjFVcGE1V3phYkFOMVU0enBOSnhBM0p2YUJNa1BqeEFNZGp3?oc=5",
-              "published": "2026-10-13T16:20:00+09:00"
+              "title": "SK하이닉스 \"AI 병목 깰 HBF, 내년 1월 규격 마련\"",
+              "original": "SK하이닉스 \"AI 병목 깰 HBF, 내년 1월 규격 마련\"",
+              "source": "블루밍비트",
+              "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE81UDBUM0lwWkVtQnJaeWhvOHNsd3ZKOEJQclRwU0tkdUFkc21nS2pNZEQ2WVZNTkZHT2YwNTV1X3piVHQ3QjdaUjJ0SWVkNkV4?oc=5",
+              "published": "2026-10-14T20:18:53+09:00"
             },
             {
-              "title": "(마감시황) 코스피, 5.46% 급락 '검은 화요일'…SK하이닉스 9.8%↓",
-              "original": "(마감시황) 코스피, 5.46% 급락 '검은 화요일'…SK하이닉스 9.8%↓",
-              "source": "뉴스투데이",
-              "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAzVy1GRU1IYklWQXdmNmM3dFgzQy1zQ1RPdEJ1R3lUZHEzSUFRczRCVS1IVXA2dW1LMGFBZDNtbE1WYnZ6anVPdGJxSkx5QjJvR1VqdEh3cWFTdTVwblE?oc=5",
-              "published": "2026-10-13T16:20:00+09:00"
+              "title": "SK하이닉스 “HBF·3D 적층 D램으로 AI 병목 해결”",
+              "original": "SK하이닉스 “HBF·3D 적층 D램으로 AI 병목 해결”",
+              "source": "뉴스톱",
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBuYzhrRC1GbHk2ODZMZUFqVTZuZG41N0tOMWhBeDgySDctY1hlUmk4cGN0a0lVNUkxN09Eb0pQM2h2eFM1TzI3Y0M2bEgzajNfYXdNX3BuR25xWGtmdzl6RjVoejVFVnhtRllEVldZTQ?oc=5",
+              "published": "2026-10-14T19:59:52+09:00"
             },
             {
-              "title": "SK Hynix Plunges 9% on China DRAM Scare: “A Clear Trigger for the Selloff”",
-              "original": "SK Hynix Plunges 9% on China DRAM Scare: “A Clear Trigger for the Selloff”",
-              "source": "TIKR.com",
-              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZy1BRGJzbDViNkhucUh4YjRRRnc3QjJMUDBmcDVFVmlTNnVsbm53MzBKRFVKcWJGeDVTRjRqamZQV3lzNWpHV295dDdRTUtmbDhNa2xfdzNWN08xU242ZjdaOFpaME5yUE4yZTZwd2tPazhIRld6WXJ5bjlJX2ZQU3FrWVJwLVhpSFB4Ul9TR01zTUJDX1VZWHlfT0w0NDhHcVE?oc=5",
-              "published": "2026-10-13T16:19:06+09:00"
+              "title": "SK, 솔리다임 중복상장 따져보니…총수는 이득, 주주는 손해",
+              "original": "SK, 솔리다임 중복상장 따져보니…총수는 이득, 주주는 손해",
+              "source": "한겨레",
+              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LY3RNVTNpRDhoRnp4Tzh0d1dzaTNmYnVzRGtBMWlqeGFiQlV3ckJQSmdlTzdEdmhFd2lUeXowS2Y1Mm5BdW51REZ6NnFmRldkZHZZUEFJUEt3SWsxdVJrbjVOaDEwaDg?oc=5",
+              "published": "2026-10-14T19:52:00+09:00"
             }
           ]
         },
         {
           "stock": "삼성전자",
           "ticker": "005930",
-          "title": "삼성전자 - 자사주 매입 종료 우려에 급락",
-          "body": "삼성전자는 자사주 매입을 주도하던 수급 주체가 빠지며 증시를 받쳐줄 매수세가 사라졌다는 우려 속에 -7.17% 내린 <b>233,000원</b> 마감. 같은 날 미국에서 AMD와 공동 시연을 통해 HBM 이후 메모리 전략을 공개했지만 수급 불안을 상쇄하지 못한 모습이다.",
-          "pct": -7.17,
-          "price": 233000.0,
+          "title": "삼성전자 - 4F² D램 개발 완료, 홍라희 증여",
+          "body": "삼성전자는 차세대 '4F² D램' 기술 개발을 완료했다는 소식 속에 +0.21% 오른 <b>234,500원</b> 마감. 홍라희 전 관장이 이재용 회장에게 2조6천억원 규모 주식을 증여하며 이건희 유산 승계를 마무리했다는 소식도 전해졌다.",
+          "pct": 0.21,
+          "price": 234500.0,
           "currency": "KRW",
-          "as_of": "2026-10-13",
+          "as_of": "2026-10-14",
           "slots": [
             {
               "time": "9:10AM",
@@ -391,7 +400,7 @@
               "is_close": false,
               "date": "2026-10-14",
               "title": "장 초반 강세 출발",
-              "text": "장 초반 큰 폭으로 상승하며 거래를 시작해 투자심리가 양호한 흐름을 보임"
+              "text": "장 시작과 함께 매수세가 유입되며 하루 중 가장 높은 상승폭을 기록함"
             },
             {
               "time": "10:30AM",
@@ -399,8 +408,8 @@
               "pct": 0.85,
               "is_close": false,
               "date": "2026-10-14",
-              "title": "상승폭 크게 줄어",
-              "text": "오전 들어 오름폭이 상당히 축소되며 장 초반 기세가 다소 꺾이는 모습을 보임"
+              "title": "상승폭 다소 둔화",
+              "text": "초반 강한 오름세가 한풀 꺾이며 상승률이 눈에 띄게 줄어드는 모습을 보임"
             },
             {
               "time": "1:00PM",
@@ -408,44 +417,53 @@
               "pct": 1.5,
               "is_close": false,
               "date": "2026-10-14",
-              "title": "오후 들어 재상승",
-              "text": "점심 무렵 들어 오름폭을 다시 키우며 오전보다 나아진 흐름을 이어가는 중"
+              "title": "오후 들어 반등",
+              "text": "오전 중 줄었던 상승폭을 오후 들어 다시 회복하며 상승세를 키워감"
+            },
+            {
+              "time": "마감",
+              "price": 234500.0,
+              "pct": 0.21,
+              "is_close": true,
+              "date": "2026-10-14",
+              "title": "상승폭 축소 마감",
+              "text": "장중 반등에도 불구하고 막판 힘이 빠지며 상승폭을 상당 부분 반납한 채 마무리"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "“삼전 쓸어담던 큰손 빠지니 폭락?”…‘자사주 매입 끝’ 증시, 누가 받치나",
-              "original": "“삼전 쓸어담던 큰손 빠지니 폭락?”…‘자사주 매입 끝’ 증시, 누가 받치나",
-              "source": "매일경제 마켓",
-              "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5MamhfQkIyeXY3V0pqUzZiNG1CdE11MHY5bWNYdUY0YkNaNE9wcGxfd0Npa2FpS1JLMU1OeXc1M3NzdG4wdTg2YV9TRHdQdWRFQWc?oc=5",
-              "published": "2026-10-13T16:29:45+09:00"
+              "title": "[단독] 삼성전자, '4F² D램' 기술 개발 완료했다…양산 시점 '전략적 조율'",
+              "original": "[단독] 삼성전자, '4F² D램' 기술 개발 완료했다…양산 시점 '전략적 조율'",
+              "source": "파이낸셜포스트",
+              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE91aDFVbktpZ3lvMzZteUtMSDV4eDRzVXIzYnlDb2N4WEdpTUpfcFFOZ2pyQ1RHSkZPVkluRkh5TkFyb1VZUEJDOWF6N3RRazBKWl9NR212Tml5UjZoUG1UOU5GV2l5dFhkTGZiOTBzVEhtcWVz?oc=5",
+              "published": "2026-10-14T19:23:12+09:00"
             },
             {
-              "title": "삼성전자, 美서 AI 메모리 전략 공개…AMD와 공동 시연도",
-              "original": "삼성전자, 美서 AI 메모리 전략 공개…AMD와 공동 시연도",
-              "source": "매일일보",
-              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9WWWZzemIxbXh6c3pkVVEtNmNDRUZ3LTFieF9IcEJvUVMtLVN1eDJVSzV6dGR0YUJCVjIyYU50cmQ0Ry1COWxFQlhtdkEtc0JzMmVRNWtpRnBZZ3Rvdnhsdnc4bW0?oc=5",
-              "published": "2026-10-13T16:29:15+09:00"
+              "title": "홍라희, 이재용에 삼성전자 주식 2조6천억 증여…이건희 유산 모두 넘겨",
+              "original": "홍라희, 이재용에 삼성전자 주식 2조6천억 증여…이건희 유산 모두 넘겨",
+              "source": "한겨레",
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBpb0VicFZTTXFxZzI5TzZXM3IxOHdPcm1hTDhvb3Q0eXh6ai14bVVpb0ExVFlYOFU4aXg1WE54SHFSUVJTQUZtM0QtUW1ObEo0bFpSX29yRnlfMVEtejhhLWtJUWZ6V2NXMzlsRGRPWm9aUQ?oc=5",
+              "published": "2026-10-14T18:23:00+09:00"
             },
             {
-              "title": "삼성전자, ‘HBM 이후’ 메모리 전략으로 속도·확장성·영속성 제시",
-              "original": "삼성전자, ‘HBM 이후’ 메모리 전략으로 속도·확장성·영속성 제시",
-              "source": "경향신문",
-              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB4VnlaX3c5Rzk4YUpYYVVJUlNrSmhpaktNRjdOTncyc250LUUwS2g4NGthOWwzMzYwc0RGX2Q4ZENmWVZBM212UG9fZzhKY2tEVlVwbS1iand0d9IBX0FVX3lxTFBpanF2TVVxQVRJbDdnaEZlWkdkdXpxRGd6by1tZjJmUU1feUQyeE1LalVVcEJQYzRVbWVnazlWaFA4enhUMU9CX0N1OHBRUHY4ZHpXRmxyLVpoUldqMnZv?oc=5",
-              "published": "2026-10-13T16:23:00+09:00"
+              "title": "中 창신메모리 ‘4F²’ 기술 도입에 삼성전자도 “개발 중”",
+              "original": "中 창신메모리 ‘4F²’ 기술 도입에 삼성전자도 “개발 중”",
+              "source": "IT조선",
+              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1wakZ4dTlHSzUxMk9DTGVpcDNBanNRZG1xZUR0ajNmdlBYdVR3VWxkNDlqU01NdUpPbFJaUXdJUUpwblRHVkJWVUhsMGRhYUtqUXhQMkJadlRpQlVLNVhBRE8xUEswQ3lNLVgzdW1TTnNLOUNI0gF0QVVfeXFMTXBqRnh1OUdLNTEyT0NMZWlwM0Fqc1FkbXFlRHRqM2Z2UFh1VHdVbGQ0OWpTTU11Sk9sUlpRd0lRSnBuVEdWQlZVSGwwZGFhS2pReFAyQlp2VGlCVUs1WEFETzFQSzBDeU0tWDN1bVNOc0s5Q0g?oc=5",
+              "published": "2026-10-14T18:16:05+09:00"
             }
           ]
         },
         {
           "stock": "한화에어로스페이스",
           "ticker": "012450",
-          "title": "한화에어로스페이스 - K9 자주포 美 제식명 획득…",
-          "body": "한화에어로스페이스는 K9 차륜형 자주포가 미 육군 제식명 'XM1776'을 획득했다는 호재에도 -2.91% 내린 <b>833,000원</b> 마감.",
-          "pct": -2.91,
-          "price": 833000.0,
+          "title": "한화에어로스페이스 - 이사회 의장 독립이사 선임",
+          "body": "한화에어로스페이스는 그룹 차원에서 주요 상장사 이사회 의장을 독립이사에 맡기는 지배구조 개선책을 내놓으며 +0.48% 오른 <b>842,000원</b> 마감. KAI 노동자들은 한화의 KAI 인수 시도를 국정감사에서 따져야 한다고 목소리를 높였다.",
+          "pct": 0.48,
+          "price": 842000.0,
           "currency": "KRW",
-          "as_of": "2026-10-13",
+          "as_of": "2026-10-14",
           "slots": [
             {
               "time": "9:10AM",
@@ -453,8 +471,8 @@
               "pct": -2.27,
               "is_close": false,
               "date": "2026-10-14",
-              "title": "장 초반 약세 출발",
-              "text": "장 초반 하락세로 거래를 시작하며 투자심리가 다소 위축된 모습으로 출발함"
+              "title": "약세로 장 출발",
+              "text": "장 초반부터 매도세가 우위를 보이며 하루 중 가장 큰 낙폭을 기록하며 시작함"
             },
             {
               "time": "10:30AM",
@@ -462,8 +480,8 @@
               "pct": -1.31,
               "is_close": false,
               "date": "2026-10-14",
-              "title": "낙폭 일부 축소",
-              "text": "오전 중 하락폭이 다소 줄어들었으나 여전히 전 거래일 수준을 밑도는 흐름 지속"
+              "title": "낙폭 다소 축소",
+              "text": "오전 내내 이어지던 하락세가 조금씩 진정되며 낙폭을 소폭 줄여나감"
             },
             {
               "time": "1:00PM",
@@ -471,44 +489,53 @@
               "pct": 1.07,
               "is_close": false,
               "date": "2026-10-14",
-              "title": "오후 들어 상승 전환",
-              "text": "거버넌스 개선 소식이 전해진 가운데 낙폭을 모두 만회하고 상승 전환에 성공함"
+              "title": "오후 들어 반등 성공",
+              "text": "오후 들어 분위기가 바뀌며 하락에서 상승으로 전환하는 흐름을 보임"
+            },
+            {
+              "time": "마감",
+              "price": 842000.0,
+              "pct": 0.48,
+              "is_close": true,
+              "date": "2026-10-14",
+              "title": "상승 전환 유지",
+              "text": "오후 반등 흐름을 끝까지 지켜내며 상승세를 유지한 채 하루를 마무리함"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "이부환 한화에어로 대표 \"한미동맹, 평화·안보 지켜온 버팀목\"",
-              "original": "이부환 한화에어로 대표 \"한미동맹, 평화·안보 지켜온 버팀목\"",
-              "source": "파이낸셜포스트",
-              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9yNHA0bTV4N0JrRnJWSXEwdG80VjZFQ2pjZV95V3hLNjYyak5rbmpPd29GUnlaWHFYTmpGWHpvbDNTMVhNdk5YNnBsaU1kRmxzdlFFT0lLcEpMNlZrT0hJNmRKRUdJcU5lZnFYb0labGc5UUlD?oc=5",
-              "published": "2026-10-13T16:21:10+09:00"
+              "title": "KAI 노동자들 “한화 인수 시도, 국감서 제대로 따져야”",
+              "original": "KAI 노동자들 “한화 인수 시도, 국감서 제대로 따져야”",
+              "source": "참여와혁신",
+              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9hYUlhOUhuT2Q5ZWFfMktjMTNJR0dNRU5kOVlHd3NCaUtRcTRsQnJXMHNTaHk3bzFhU1N2UlA1RFN4enBYUGZWTXpET0VnVkQ4ZXU3UWd6U2tLZy12S01MemhtUGFrS29IMDJibVBB?oc=5",
+              "published": "2026-10-14T19:09:14+09:00"
             },
             {
-              "title": "한화 K9 차륜형 자주포, 美 육군 제식명 'XM1776' 획득",
-              "original": "한화 K9 차륜형 자주포, 美 육군 제식명 'XM1776' 획득",
-              "source": "포쓰저널",
-              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9SUk0waE9EZXhnQXRMWFlSMDUyOXJ0dHpvaWFFb1dVeHNoT0RTd1VKeHhHUzJuZ0FVZThsb2tTNjZVTVN1M0s2VzdINUJwcG0tbDNxX1RfU0RaaUV3TU5oM3FNM0o?oc=5",
-              "published": "2026-10-13T16:20:52+09:00"
+              "title": "한화, 계열사 이사회 의장 '독립이사'에 맡긴다",
+              "original": "한화, 계열사 이사회 의장 '독립이사'에 맡긴다",
+              "source": "한국경제",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDT0M2Ni10Z1BGdVhYemVXNUFIdmtyZnRYd2pkSzdoYUJTeVZpeXIzVThuM09qbE9tZVJpTEloc0drZUJUbHZtTEFaZ2ppeGZOZU1IOGR3YUJhZw?oc=5",
+              "published": "2026-10-14T18:27:07+09:00"
             },
             {
-              "title": "한화 K9 차륜형 자주포, 美 육군서 ‘XM1776’ 명칭 부여",
-              "original": "한화 K9 차륜형 자주포, 美 육군서 ‘XM1776’ 명칭 부여",
-              "source": "천지일보",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZY1ZMWjBCSzhBRWhVdVNXSm5oMktrWU5hbUlGd1p4Q3lqNVNkWGswbGdvTXVuQVVJZWpvZEFfRE1OS3FnbnVnc19lYzZhSDZZTmR2Y21LZHRpT05XLUxwclpWS2RITWZUa3c?oc=5",
-              "published": "2026-10-13T16:20:31+09:00"
+              "title": "한화그룹, 주요 상장사 이사회 의장에 독립이사 선임",
+              "original": "한화그룹, 주요 상장사 이사회 의장에 독립이사 선임",
+              "source": "디일렉",
+              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA5UVhBalBhQWFad18zRFFLMFZqREVUQzMycXg0YzRhSldmcmM3cWtSa1FUVWt4MGxyS3J4RnJlb0JqcDRRcEFjWkRrdFZrSlMtdklrTGcyalAtSy1tNUJleTUtNFN5QQ?oc=5",
+              "published": "2026-10-14T18:10:33+09:00"
             }
           ]
         },
         {
           "stock": "LG전자",
           "ticker": "066570",
-          "title": "LG전자 - 뚜렷한 재료 없이 4%대 하락",
-          "body": "LG전자는 KES 2026에서 AI 데이터센터 냉각, 로봇 등 미래 먹거리 솔루션을 선보였지만 -4.05% 내린 <b>177,800원</b> 마감.",
-          "pct": -4.05,
-          "price": 177800.0,
+          "title": "LG전자 - 애플과 AI홈 동맹 강화",
+          "body": "LG전자는 애플과 부품을 넘어 AI홈 분야까지 협력을 넓히며 글로벌 스마트홈 시장 판을 흔들겠다는 구상을 내놨지만 -0.62% 내린 <b>177,200원</b> 마감. GS건설·GRC와는 AI데이터센터 액침냉각 기술도 확보하며 사업 다각화를 이어가는 모습이다.",
+          "pct": -0.62,
+          "price": 177200.0,
           "currency": "KRW",
-          "as_of": "2026-10-13",
+          "as_of": "2026-10-14",
           "slots": [
             {
               "time": "9:10AM",
@@ -516,8 +543,8 @@
               "pct": -0.39,
               "is_close": false,
               "date": "2026-10-14",
-              "title": "장 초반 약보합 출발",
-              "text": "장 초반 소폭 하락하며 거래를 시작해 방향성 없이 보합권에서 움직이는 모습"
+              "title": "약보합 출발",
+              "text": "장 시작부터 소폭 하락하며 뚜렷한 방향성 없이 보합권에서 움직임을 시작함"
             },
             {
               "time": "10:30AM",
@@ -525,8 +552,8 @@
               "pct": -0.5,
               "is_close": false,
               "date": "2026-10-14",
-              "title": "하락폭 소폭 확대",
-              "text": "오전 중 낙폭이 조금 더 커지며 전 거래일 수준을 밑도는 흐름이 이어짐"
+              "title": "낙폭 소폭 확대",
+              "text": "오전 내내 약세가 이어지며 하락폭이 조금씩 더 커지는 흐름을 보임"
             },
             {
               "time": "1:00PM",
@@ -534,44 +561,53 @@
               "pct": 0.11,
               "is_close": false,
               "date": "2026-10-14",
-              "title": "오후 들어 반등 전환",
-              "text": "AI 홈 동맹 등 기술 관련 소식이 전해진 가운데 낙폭을 만회하고 보합권으로 올라섬"
+              "title": "보합권 턱걸이 반등",
+              "text": "오후 들어 낙폭을 모두 만회하며 보합 수준까지 올라오는 모습을 보임"
+            },
+            {
+              "time": "마감",
+              "price": 177200.0,
+              "pct": -0.62,
+              "is_close": true,
+              "date": "2026-10-14",
+              "title": "다시 약세로 마감",
+              "text": "오후 한때 회복했던 흐름이 꺾이며 결국 약세로 돌아선 채 하루를 마무리함"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "[포토뉴스] LG전자, KES 2026에서 혁신 솔루션 선보여",
-              "original": "[포토뉴스] LG전자, KES 2026에서 혁신 솔루션 선보여",
-              "source": "CNB뉴스",
-              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0yb3ZUaGJ0ajdHRUtaTWplTEk1ZVpoNm0wN0dKeVlKTnZRdTBrOEQ4aGlqeDRwQXhCSXVzbjhqWFBEbTV2dkNXanVCNVdscTA1aFlrdGZwVVZaaDM5TVpYLS1zSHFEYU5hUG9N?oc=5",
-              "published": "2026-10-13T16:18:40+09:00"
+              "title": "GS건설, LG전자·GRC와 손잡고 AI데이터센터 액침냉각 기술 확보",
+              "original": "GS건설, LG전자·GRC와 손잡고 AI데이터센터 액침냉각 기술 확보",
+              "source": "뉴스티앤티",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMdkpNb0Y2QU91NXB5MEFBWnVFU3hDenhwVE5EdVdjeV96TXI3SnNrc0c0bUFyV3Y5ZnRxTHdQOXNWMFZaTy1FVVo0U2cxNkN1SHJQMk9BaVhBdGFiMnM3cEctUWV2MHF6MGc?oc=5",
+              "published": "2026-10-14T20:28:59+09:00"
             },
             {
-              "title": "LG전자, AI 데이터센터 냉각부터 로봇까지…미래 먹거리 총출동",
-              "original": "LG전자, AI 데이터센터 냉각부터 로봇까지…미래 먹거리 총출동",
-              "source": "매일경제",
-              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBfdFJYTGQ0MkJ3eDdkak05X2pkZVlENkc0SE9RQUR5eDBURTRPZmp0Rm5OY0d0TmNYU0dsYmdwNk1aV2hPQW5YbzhIS2V0eE9kUTBITlZR?oc=5",
-              "published": "2026-10-13T16:12:24+09:00"
+              "title": "끈끈해진 LG·애플 동맹, 부품 넘어 AI홈까지",
+              "original": "끈끈해진 LG·애플 동맹, 부품 넘어 AI홈까지",
+              "source": "뉴스톱",
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Pa0NUcG9IQUM0cl9mN01ERUJoZWdHa04yRlBzMlhBUjd6TUctU3IyN3JmZHRxdG1GX2g3VXFjM01DTGJIRWthMlFYVnNuV01PSGlaa0dlMkhYcnV0QUNHZjRCWDdmVUs5WUdLWE8zWQ?oc=5",
+              "published": "2026-10-14T19:59:18+09:00"
             },
             {
-              "title": "[포토] LG전자 스마트 코티지 하우스",
-              "original": "[포토] LG전자 스마트 코티지 하우스",
-              "source": "전자신문",
-              "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB2SGRWN0VhWGtIam81NHBTTlU1YjVJbUN1aVdXMURuOWxjWkpUanJVNEx2UzRiell1cXlaUXE3UFl1QWg4bi1lcmVOVVM0dw?oc=5",
-              "published": "2026-10-13T16:02:15+09:00"
+              "title": "LG, 애플과 AI홈 ‘맞손’…글로벌 스마트홈 시장 판 흔든다",
+              "original": "LG, 애플과 AI홈 ‘맞손’…글로벌 스마트홈 시장 판 흔든다",
+              "source": "서울경제TV",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xWG54Z1VvaElXTFNKUm1SemlZak0yU1VYcTZneG5hcWFqYVZWUHVmUWxfQms3MHA0UGNQU01YRURtWHc4VEh2OE1CYmxNVmctLU1aYng2c05BRVRQajZpQXQ5T1Q?oc=5",
+              "published": "2026-10-14T19:27:02+09:00"
             }
           ]
         },
         {
           "stock": "현대차",
           "ticker": "005380",
-          "title": "현대차 - 신형 SUV 호평에도 하락",
-          "body": "현대차는 신형 SUV가 넓은 뒷자리 공간으로 호평받았지만 -2.35% 내린 <b>311,000원</b> 마감. 중국산 하이브리드차의 EU 수출이 35만대로 제한될 조짐을 보이며 유럽 시장 공략에는 긍정적 변수가 될 수 있다는 분석도 나온다.",
-          "pct": -2.35,
-          "price": 311000.0,
+          "title": "현대차 - 인도 20조원 투자, 공장 준공",
+          "body": "현대차는 인도에 20조7000억원을 투자하겠다는 승부수와 함께 푸네공장을 준공해 연 100만대 생산 체제를 갖추며 +0.64% 오른 <b>313,500원</b> 마감. 제로원을 통해 AI·로보틱스 미래기술 11건을 공개하며 미래 사업 역량도 과시했다.",
+          "pct": 0.64,
+          "price": 313500.0,
           "currency": "KRW",
-          "as_of": "2026-10-13",
+          "as_of": "2026-10-14",
           "slots": [
             {
               "time": "9:10AM",
@@ -579,8 +615,8 @@
               "pct": 0.64,
               "is_close": false,
               "date": "2026-10-14",
-              "title": "장 초반 완만한 상승",
-              "text": "장 초반 완만하게 오르며 거래를 시작해 안정적인 흐름으로 하루를 시작함"
+              "title": "상승세로 출발",
+              "text": "장 초반부터 매수세가 유입되며 완만한 오름세를 보이며 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -588,8 +624,8 @@
               "pct": 1.69,
               "is_close": false,
               "date": "2026-10-14",
-              "title": "상승폭 점차 확대",
-              "text": "오전 들어 오름폭이 꾸준히 커지며 장 초반보다 뚜렷하게 개선된 흐름을 보임"
+              "title": "상승폭 확대",
+              "text": "오전 중 오름세가 더욱 뚜렷해지며 상승폭을 키워나가는 흐름을 이어감"
             },
             {
               "time": "1:00PM",
@@ -597,39 +633,47 @@
               "pct": 1.93,
               "is_close": false,
               "date": "2026-10-14",
-              "title": "협력사 행사 속 강세 지속",
-              "text": "협력사 신기술 공개 소식이 이어진 가운데 오름폭을 하루 중 가장 크게 유지 중"
+              "title": "상승세 하루 중 최고치",
+              "text": "오후 들어서도 매수세가 이어지며 하루 중 가장 높은 상승폭을 기록함"
+            },
+            {
+              "time": "마감",
+              "price": 313500.0,
+              "pct": 0.64,
+              "is_close": true,
+              "date": "2026-10-14",
+              "title": "상승폭 대부분 반납",
+              "text": "오후 한때 고점을 찍은 뒤 막판 매물이 나오며 상승폭을 크게 줄인 채 마무리"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "“작다고 무시했는데”... 현대차 신형 SUV, 뒷자리까지 제대로 뽑았다",
-              "original": "“작다고 무시했는데”... 현대차 신형 SUV, 뒷자리까지 제대로 뽑았다",
-              "source": "오토트리뷴",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5BeXVNLXVWaGZ0bUNaOUNnalU2aExKYlUwSGdVbUxxSEdoY0xMRnpZWGhzalJ1SW1UU1o3TUItbzZHZm1pSjNYNmNQVEpZV3FEREtMMHVyRVlZMXRQT3Vvc3ZDUXE0UkIzcXVrUUtSSEU?oc=5",
-              "published": "2026-10-13T16:28:55+09:00"
+              "title": "현대차그룹, 인도에 20조7000억원 투자…글로벌 자동차 시장 승부수",
+              "original": "현대차그룹, 인도에 20조7000억원 투자…글로벌 자동차 시장 승부수",
+              "source": "www.hdnews.co.kr",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9UTS1qeEZZdWxUZkplWHkxUEtxb2h6XzdqdWpVX1hEbXZ5TkQ4eXppTDVLQjBsdE4zUGNscUhJcEZ2d3VrYXcxZjZ1dkdsSVpOUi1XRVRISEEwcG5OZ1lnQmdJN2VmVlFWMmJV?oc=5",
+              "published": "2026-10-14T20:28:34+09:00"
             },
             {
-              "title": "中 하이브리드 EU 수출 '35만대'로 묶이나…현대차·기아에 유럽 공략 '박차'",
-              "original": "中 하이브리드 EU 수출 '35만대'로 묶이나…현대차·기아에 유럽 공략 '박차'",
-              "source": "아이뉴스24",
-              "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE13WmwwcERuSl9zTzlRUkFhcmttcUJ3Q1FFU0JPRHVIekd0dENiVnFEdHdMMV9Qd21PYlpIUEhZaWIyUTdFOVpCd1JwRQ?oc=5",
-              "published": "2026-10-13T16:23:50+09:00"
+              "title": "현대차그룹 제로원, AI·로보틱스 미래기술 11건 공개⋯양재사옥서 데모데이",
+              "original": "현대차그룹 제로원, AI·로보틱스 미래기술 11건 공개⋯양재사옥서 데모데이",
+              "source": "엠투데이",
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9TMVI0RFdDb0E3MU5Kbm1iYXdSa1ZyOXVzcm91ZEQwZklqNzVKODBJa0J1Tk9PYlIyYkRrNkw0Y2FMX25nb1VBcnI5Q2hvNHB1bEJxYnF6RWpJSnZZUDlzRFJSQzFLa1NpYjFseUdNUQ?oc=5",
+              "published": "2026-10-14T20:00:00+09:00"
             },
             {
-              "title": "현대차·테이트, '타렉 아투이: Hold' 개막…터바인홀을 '소리 풍경'으로",
-              "original": "현대차·테이트, '타렉 아투이: Hold' 개막…터바인홀을 '소리 풍경'으로",
-              "source": "글로벌이코노믹",
-              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYnZlb3pLY2RodE4xZk9LSk9VWWctZGlVX1I2eThBYmgyYVI4S2x6R2xZUHVoUWtubjk0c0RCbmpjV2luUGptNHEtNVUtakNaRkpIS1F6SGlQQ3pIT0pKbmYtTUpiS25wNE15Y1NDeHdCVUc4aW9qRHlaZXhHaXpJYW44ZkZRZw?oc=5",
-              "published": "2026-10-13T16:17:10+09:00"
+              "title": "현대차, 인도 푸네공장 준공…연 100만대 생산 체제 구축",
+              "original": "현대차, 인도 푸네공장 준공…연 100만대 생산 체제 구축",
+              "source": "한겨레",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xM0lXZ1U3NE8tajJNWHo0NDdSdXFJVGs4ci00NkI0YXVQd1h0UWpxUzdxS2x4VXlJcEc1a0JLTTlSN2NnVjVWM3p0VEpmNkNWcHFza2ZFVkVkYTk2Qjc4SzF4WVBTbW05TFE?oc=5",
+              "published": "2026-10-14T19:49:00+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-10-13-kr.md",
-      "refreshed_at": "2026-10-13 16:38:36 KST",
-      "slots_refreshed_at": "2026-10-14 15:06:00 KST"
+      "markdown": "briefings/2026-10-14-kr.md",
+      "refreshed_at": "2026-10-14 20:42:58 KST"
     }
   }
 }
