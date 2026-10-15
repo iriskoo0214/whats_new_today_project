@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-15 23:53:38 KST",
+  "generated_at": "2026-10-16 04:03:14 KST",
   "refreshed": [],
   "slots_refreshed": [
     "us"
@@ -45,12 +45,12 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "11:00PM",
-              "price": 229.50999450683594,
-              "pct": 0.72,
+              "price": 229.47999572753906,
+              "pct": 0.7,
               "is_close": false,
               "date": "2026-10-15",
-              "title": "소폭 상승세 유지",
-              "text": "오픈AI 아태 영업 수장에 MS·IBM 출신 인사가 발탁됐다는 소식이 전해진 가운데 완만한 오름세를 이어가는 중"
+              "title": "소폭 강세 유지",
+              "text": "AI 사고를 경영진에 보고한다는 조사 결과가 나온 가운데 완만한 오름세를 이어가는 중"
             }
           ],
           "slot_total": 2,
@@ -90,12 +90,12 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "11:00PM",
-              "price": 534.7349853515625,
-              "pct": 0.2,
+              "price": 534.72998046875,
+              "pct": 0.19,
               "is_close": false,
               "date": "2026-10-15",
-              "title": "상승세 속 호재 이어져",
-              "text": "애저 성장세에 목표가가 상향된 데 이어 국내 제조 AX 협력 소식까지 더해지며 소폭 오름세를 유지 중"
+              "title": "강세 흐름 지속",
+              "text": "신규 대규모 언어모델 공개와 사전학습 완료 소식이 이어지며 소폭 오름세를 유지 중"
             }
           ],
           "slot_total": 2,
@@ -139,8 +139,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.79,
               "is_close": false,
               "date": "2026-10-15",
-              "title": "유증 우려에 낙폭 지속",
-              "text": "유상증자에 따른 주주가치 희석 우려로 급락한 뒤 케임브리지대 양자혁신센터 개소 소식에도 하락세를 벗어나지 못하는 중"
+              "title": "약세 지속 흐름",
+              "text": "유상증자에 따른 주주가치 희석 우려로 급락한 뒤 낙폭을 좁히지 못한 채 약세를 이어가는 중"
             }
           ],
           "slot_total": 2,
@@ -180,12 +180,12 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "11:00PM",
-              "price": 214.0850067138672,
+              "price": 214.08999633789062,
               "pct": -3.26,
               "is_close": false,
               "date": "2026-10-15",
-              "title": "반도체 약세에 하락",
-              "text": "나스닥 급락 속 반도체주 투매가 확산되며 낙폭을 키워 하루 중 가장 큰 하락폭을 이어가는 중"
+              "title": "낙폭 확대 흐름",
+              "text": "구글·메타와의 협력 소식에도 매수세가 붙지 않으며 하루 중 낙폭이 가장 크게 벌어진 상태"
             }
           ],
           "slot_total": 2,
@@ -229,8 +229,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.53,
               "is_close": false,
               "date": "2026-10-15",
-              "title": "실적 경계 속 약세",
-              "text": "실적 발표를 앞두고 매도 우위 흐름이 이어지며 하루 종일 하락세를 벗어나지 못하는 중"
+              "title": "약보합 유지",
+              "text": "특별한 소식 없이 전일 대비 소폭 낮은 수준에서 큰 변동 없이 움직임을 이어가는 중"
             }
           ],
           "slot_total": 2,
@@ -254,7 +254,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-15-us.md",
       "refreshed_at": "2026-10-15 22:21:45 KST",
-      "slots_refreshed_at": "2026-10-15 23:53:38 KST"
+      "slots_refreshed_at": "2026-10-16 04:03:14 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
