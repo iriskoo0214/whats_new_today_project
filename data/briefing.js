@@ -1,10 +1,10 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-15 22:24:21 KST",
-  "refreshed": [
+  "generated_at": "2026-10-15 22:28:12 KST",
+  "refreshed": [],
+  "slots_refreshed": [
     "kr"
   ],
-  "slots_refreshed": [],
   "default": "kr",
   "markets": {
     "us": {
@@ -344,7 +344,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-15",
               "title": "장 초반 급락 출발",
-              "text": "개장 직후부터 큰 폭의 하락세로 시작하며 매수세가 전혀 따라붙지 못함"
+              "text": "전날 뉴욕증시에서 동반 약세 기류가 전해지며 개장과 동시에 큰 폭으로 밀려 내림"
             },
             {
               "time": "10:30AM",
@@ -352,8 +352,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -11.65,
               "is_close": false,
               "date": "2026-10-15",
-              "title": "낙폭 두 자릿수로 확대",
-              "text": "오전 중 하락폭이 가파르게 커지며 장 초반보다 훨씬 깊은 조정을 받는 모습"
+              "title": "낙폭 확대",
+              "text": "오전 중 반도체 공급 과잉 우려가 번지며 낙폭이 두 자릿수로 커지고 하락세가 가팔라짐"
             },
             {
               "time": "1:05PM",
@@ -361,8 +361,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -11.65,
               "is_close": false,
               "date": "2026-10-15",
-              "title": "낙폭 유지된 채 횡보",
-              "text": "오전에 벌어진 낙폭이 점심 무렵까지 그대로 유지되며 반등 시도가 나타나지 않음"
+              "title": "저점권 횡보",
+              "text": "오전에 벌어진 낙폭을 되돌리지 못한 채 오후 초반까지 비슷한 수준에서 머무는 흐름"
             },
             {
               "time": "마감",
@@ -370,8 +370,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -13.12,
               "is_close": true,
               "date": "2026-10-15",
-              "title": "하루 중 최대 낙폭 마감",
-              "text": "오후 들어 하락폭이 한층 더 커지며 이날 가장 큰 낙폭으로 거래를 마무리함"
+              "title": "낙폭 재차 확대",
+              "text": "오후 들어서도 매수세가 살아나지 못하며 하루 중 가장 큰 낙폭을 기록하며 거래를 마침"
             }
           ],
           "slot_total": 4,
@@ -415,8 +415,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -7.04,
               "is_close": false,
               "date": "2026-10-15",
-              "title": "장 초반 동반 약세",
-              "text": "개장과 함께 매물이 쏟아지며 큰 폭의 하락으로 하루를 시작함"
+              "title": "장 초반 약세 출발",
+              "text": "중국 업체의 추격 우려가 불거진 가운데 개장 직후부터 매물이 쏟아지며 하락 출발"
             },
             {
               "time": "10:30AM",
@@ -424,8 +424,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -9.81,
               "is_close": false,
               "date": "2026-10-15",
-              "title": "오전 내내 낙폭 확대",
-              "text": "오전 중반까지 하락세가 더욱 가팔라지며 장 초반보다 낙폭이 눈에 띄게 커짐"
+              "title": "낙폭 확대",
+              "text": "오전 내내 하락 압력이 이어지며 낙폭이 두 자릿수로 커지고 저항 없이 밀려 내림"
             },
             {
               "time": "1:05PM",
@@ -433,8 +433,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -10.87,
               "is_close": false,
               "date": "2026-10-15",
-              "title": "반등 없이 저점 경신",
-              "text": "점심 무렵까지도 매수세가 살아나지 못하며 하루 중 가장 낮은 수준까지 밀림"
+              "title": "저점 경신",
+              "text": "스마트폰 감산과 부품 수급 차질 우려가 더해지며 오후 들어 하루 중 저점을 다시 낮춤"
             },
             {
               "time": "마감",
@@ -442,8 +442,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -11.51,
               "is_close": true,
               "date": "2026-10-15",
-              "title": "낙폭 더 키우며 마감",
-              "text": "오후 들어서도 하락세가 이어지며 이날 최대 낙폭을 기록한 채 거래를 마침"
+              "title": "낙폭 최대로 마감",
+              "text": "반등 시도 없이 하락세가 이어지며 하루 중 가장 큰 낙폭을 기록한 채 거래를 마침"
             }
           ],
           "slot_total": 4,
@@ -487,8 +487,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.24,
               "is_close": false,
               "date": "2026-10-15",
-              "title": "장 초반 보합권 출발",
-              "text": "개장 직후에는 전일 대비 큰 변동 없이 비교적 안정적인 흐름을 보임"
+              "title": "보합권 출발",
+              "text": "전일 수준과 큰 차이 없이 소폭 하락하며 비교적 안정된 흐름으로 장을 시작함"
             },
             {
               "time": "10:30AM",
@@ -496,8 +496,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -2.73,
               "is_close": false,
               "date": "2026-10-15",
-              "title": "오전 들어 낙폭 발생",
-              "text": "오전 중반을 지나며 하락 전환해 보합권에서 벗어나 낙폭이 나타나기 시작함"
+              "title": "낙폭 확대",
+              "text": "오전 중 매수세가 약해지며 하락폭이 점차 커지고 보합권에서 밀려나는 모습"
             },
             {
               "time": "1:05PM",
@@ -505,8 +505,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.44,
               "is_close": false,
               "date": "2026-10-15",
-              "title": "낙폭 다소 더 커짐",
-              "text": "점심 무렵까지 하락폭이 조금씩 더 벌어지며 이날 가장 큰 낙폭에 근접함"
+              "title": "낙폭 추가 확대",
+              "text": "오후 들어서도 약세가 이어지며 하루 중 가장 낮은 수준까지 내려앉는 흐름을 보임"
             },
             {
               "time": "마감",
@@ -514,8 +514,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.21,
               "is_close": true,
               "date": "2026-10-15",
-              "title": "낙폭 소폭 줄이며 마감",
-              "text": "오후 들어 저점에서 다소 반등하며 낙폭을 일부 줄인 채 거래를 마무리함"
+              "title": "낙폭 일부 축소",
+              "text": "장 후반 들어 저점에서 소폭 반등하며 오후 한때보다 낙폭을 다소 줄이며 마감"
             }
           ],
           "slot_total": 4,
@@ -560,7 +560,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-15",
               "title": "장 초반 약세 출발",
-              "text": "개장과 함께 하락세로 시작하며 비교적 큰 폭의 낙폭을 보임"
+              "text": "특별한 호재 없이 개장과 함께 매물이 나오며 하락 흐름으로 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -568,8 +568,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -5.36,
               "is_close": false,
               "date": "2026-10-15",
-              "title": "오전 중 낙폭 확대",
-              "text": "오전 중반까지 하락폭이 더 커지며 장 초반보다 약세가 심화되는 모습"
+              "title": "낙폭 확대",
+              "text": "오전 중 하락 압력이 이어지며 낙폭이 점차 커지고 약세 흐름이 뚜렷해짐"
             },
             {
               "time": "1:05PM",
@@ -577,8 +577,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -4.8,
               "is_close": false,
               "date": "2026-10-15",
-              "title": "오후 들어 낙폭 일부 회복",
-              "text": "점심 무렵 저점에서 다소 반등하며 낙폭을 일부 만회하는 흐름을 보임"
+              "title": "낙폭 일부 만회",
+              "text": "오후 들어 저점에서 다소 반등하며 오전보다는 낙폭을 소폭 줄이는 흐름을 보임"
             },
             {
               "time": "마감",
@@ -586,8 +586,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -6.6,
               "is_close": true,
               "date": "2026-10-15",
-              "title": "하루 중 최대 낙폭 마감",
-              "text": "오후 늦게 다시 하락폭이 커지며 이날 가장 큰 낙폭으로 거래를 마침"
+              "title": "다시 낙폭 확대",
+              "text": "오후 후반 들어 반등분을 반납하며 하루 중 가장 큰 낙폭을 기록하며 거래 마감"
             }
           ],
           "slot_total": 4,
@@ -632,7 +632,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-15",
               "title": "장 초반 약세 출발",
-              "text": "개장 직후부터 하락세가 뚜렷하게 나타나며 비교적 큰 낙폭으로 시작함"
+              "text": "개장과 동시에 매도세가 유입되며 하락 흐름으로 하루 거래를 시작함"
             },
             {
               "time": "10:30AM",
@@ -640,8 +640,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -5.9,
               "is_close": false,
               "date": "2026-10-15",
-              "title": "오전 내내 낙폭 확대",
-              "text": "오전 중반을 지나며 하락폭이 한층 더 커져 장 초반보다 약세가 심화됨"
+              "title": "낙폭 확대",
+              "text": "오전 내내 하락 압력이 이어지며 낙폭이 점차 커지고 약세가 심화되는 모습"
             },
             {
               "time": "1:05PM",
@@ -649,8 +649,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -6.38,
               "is_close": false,
               "date": "2026-10-15",
-              "title": "반등 없이 낙폭 유지",
-              "text": "점심 무렵까지도 매수세가 살아나지 못하며 커진 낙폭이 그대로 이어짐"
+              "title": "낙폭 추가 확대",
+              "text": "오후 들어서도 반등 시도 없이 낙폭이 더 벌어지며 하루 중 저점에 근접함"
             },
             {
               "time": "마감",
@@ -658,8 +658,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -7.66,
               "is_close": true,
               "date": "2026-10-15",
-              "title": "하루 중 최대 낙폭 마감",
-              "text": "오후 들어서도 하락세가 지속되며 이날 가장 큰 낙폭으로 거래를 마무리함"
+              "title": "낙폭 최대로 마감",
+              "text": "장 후반까지 매수세가 붙지 않으며 하루 중 가장 큰 낙폭을 기록한 채 거래를 마침"
             }
           ],
           "slot_total": 4,
@@ -689,7 +689,8 @@ window.NOTEFOLIO_BRIEFING = {
         }
       ],
       "markdown": "briefings/2026-10-15-kr.md",
-      "refreshed_at": "2026-10-15 22:24:21 KST"
+      "refreshed_at": "2026-10-15 22:24:21 KST",
+      "slots_refreshed_at": "2026-10-15 22:28:12 KST"
     }
   }
 };
