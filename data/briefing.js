@@ -1,15 +1,15 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-15 18:47:38 KST",
+  "generated_at": "2026-10-15 22:21:45 KST",
   "refreshed": [
-    "kr"
+    "us"
   ],
   "slots_refreshed": [],
-  "default": "kr",
+  "default": "us",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
-      "label": "미국 증시 요약 2026. 10. 15. 8:53AM",
+      "label": "미국 증시 요약 2026. 10. 15. 10:21PM",
       "chips": [
         "전체",
         "IBM",
@@ -23,21 +23,21 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "next": "kr",
       "headline": "해외 5종목 중 0종목 상승, 5종목 하락 — IBM이 -1.26%로 낙폭이 가장 작았고 아이온큐가 -9.53%로 가장 부진했습니다.",
-      "market_headline": "美 CPI 재가속에 긴축 우려 심화, 나스닥 1.9% 급락",
+      "market_headline": "美 9월 CPI 예상 상회에 AI·반도체주 급락",
       "market_card": {
-        "title": "뉴욕증시 하락 마감...물가 충격에 AI·반도체주 동반 약세",
+        "title": "3대 지수 동반 하락 마감...나스닥 1.9%↓",
         "bullets": [
-          "물가 재가속에 연준 추가 인상 우려 확산",
-          "코어위브 금리 급등에 AI주 동반 급락",
-          "국제유가 상승 및 국채금리 변동성 확대"
+          "AI 수익성 우려에 코어위브 15%·속슬 13%↓",
+          "WTI 5거래일째 상승 배럴당 95달러대",
+          "美 9월 CPI 예상 상회에 급락 마감"
         ]
       },
       "cards": [
         {
           "stock": "IBM",
           "ticker": "IBM",
-          "title": "IBM - 실적 앞두고 변동성 경계",
-          "body": "IBM은 다음 주 실적 발표를 앞두고 6.6%의 변동성 가능성이 제기되는 가운데 -1.26% 내린 <b>227.88달러</b> 마감.",
+          "title": "IBM - 다음주 실적 앞두고 변동성 경계",
+          "body": "IBM은 다음 주 실적 발표를 앞두고 주가가 최대 6.6% 변동할 수 있다는 전망 속에 -1.26% 내린 <b>227.88달러</b> 마감.",
           "pct": -1.26,
           "price": 227.8800048828125,
           "currency": "USD",
@@ -49,8 +49,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.58,
               "is_close": false,
               "date": "2026-10-14",
-              "title": "소폭 강세 출발",
-              "text": "장 초반 상승세로 출발하며 다음 주 실적 발표를 앞두고 변동성 확대 전망이 제기됨"
+              "title": "상승 흐름 유지",
+              "text": "장 초반부터 오름세를 보이며 상승 흐름을 꾸준히 이어가는 모습이 나타남"
             },
             {
               "time": "마감",
@@ -58,12 +58,19 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.26,
               "is_close": true,
               "date": "2026-10-14",
-              "title": "상승분 반납, 약세 전환",
-              "text": "오후 들어 상승 흐름을 지키지 못하고 꺾이며 하루 중 가장 낮은 수준으로 마무리됨"
+              "title": "상승분 반납하며 하락 마감",
+              "text": "다음 주 실적 발표를 앞두고 변동성 경고가 나온 가운데 상승분을 모두 반납하며 약세로 마감"
             }
           ],
           "slot_total": 2,
           "news": [
+            {
+              "title": "오픈AI, 아태 초대 영업 수장에 MS·IBM 출신 안드레아스 하틀",
+              "original": "오픈AI, 아태 초대 영업 수장에 MS·IBM 출신 안드레아스 하틀",
+              "source": "뉴시스",
+              "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBRRTJKUmdkQWFKTTdsT2ZWRlZxSWFBclo3X08zZ1RtWEphOG1IUl9sRUc0aXZXWFFuZV8yeHE1MlZIWU51Q3dHSWQ1YkpBb2t5TWthNHlkN0RmUHpCVEZtM1BpRW4zM3FXRDM5X1l1eXNSUGE5a19addIBeEFVX3lxTFBRRTJKUmdkQWFKTTdsT2ZWRlZxSWFBclo3X08zZ1RtWEphOG1IUl9sRUc0aXZXWFFuZV8yeHE1MlZIWU51Q3dHSWQ1YkpBb2t5TWthNHlkN0RmUHpCVEZtM1BpRW4zM3FXRDM5X1l1eXNSUGE5a19adQ?oc=5",
+              "published": "2026-10-15T12:00:00+09:00"
+            },
             {
               "title": "IBM 주가, 다음 주 실적 발표에 6.6% 변동 가능성",
               "original": "IBM 주가, 다음 주 실적 발표에 6.6% 변동 가능성",
@@ -77,21 +84,14 @@ window.NOTEFOLIO_BRIEFING = {
               "source": "지디넷코리아",
               "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB6OFZtRC1VeXUzdmhnTFJ4X0hEaEFrV1BJQ0c2MjFocFJ3dGtzU0IwYnFHNUxIWmZqTkhnU25BZkw5MllXZ3Z4Sk5NWWZidk54cTN4dk5B?oc=5",
               "published": "2026-10-14T23:10:13+09:00"
-            },
-            {
-              "title": "IBM·Siemens, nanostack 트랜지스터 개발 협력",
-              "original": "IBM·Siemens, nanostack 트랜지스터 개발 협력",
-              "source": "Investing.com 한국어",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB4aEIxMmlXR2VjY1g5MUp1clVOeEtfZjAwYTRaVWhVMGVMNGwwdzUzdUtLdEtpczJaTjFOZk5oc2RNNnA0NFQxMGhQb3NNdXRMdWo3NzRWRGp0eGJjc3FzNnlBcDNwNjZwd3ptUnRjTVk?oc=5",
-              "published": "2026-10-14T21:25:00+09:00"
             }
           ]
         },
         {
           "stock": "마이크로소프트",
           "ticker": "MSFT",
-          "title": "마이크로소프트 - 시총 4조달러 돌파 후 조정",
-          "body": "마이크로소프트는 사상 최고가 경신과 시가총액 4조 달러 돌파 소식이 전해졌으나 -1.80% 내린 <b>533.69달러</b> 마감. 10월 패치로 1,411건의 취약점을 수정하며 이미 악용된 제로데이까지 포함됐다는 소식도 함께 전해졌다.",
+          "title": "마이크로소프트 - 애저 성장 주목에도 하락",
+          "body": "마이크로소프트는 애저 성장세가 주목받으며 목표가가 상향됐지만 -1.80% 내린 <b>533.69달러</b> 마감.",
           "pct": -1.8,
           "price": 533.6900024414062,
           "currency": "USD",
@@ -103,8 +103,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.25,
               "is_close": false,
               "date": "2026-10-14",
-              "title": "사상 최고가 경신",
-              "text": "시가총액 4조 달러를 돌파하며 사상 최고가를 기록, 장 초반 강세 분위기가 이어짐"
+              "title": "소폭 약세 지속",
+              "text": "애저 성장 기대와 목표가 상향 소식에도 주가는 약보합권에서 제자리걸음을 이어감"
             },
             {
               "time": "마감",
@@ -112,40 +112,40 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.8,
               "is_close": true,
               "date": "2026-10-14",
-              "title": "고점 대비 낙폭 확대",
-              "text": "최고가 경신 이후 오후 들어 매도세가 유입되며 상승분을 모두 반납하고 약세로 전환됨"
+              "title": "낙폭 확대되며 하락 마감",
+              "text": "장중 완만했던 하락폭이 후반으로 갈수록 점차 커지며 하루 중 가장 낮은 수준에서 마감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "마이크로소프트 10월 패치로 취약점 1,411건 수정…이미 악용된 제로데이도 포함",
-              "original": "마이크로소프트 10월 패치로 취약점 1,411건 수정…이미 악용된 제로데이도 포함",
-              "source": "위키트리",
-              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWRTRybkFOT1BiMXZwal9vdGxqeHppcmNhcmZkMWxlcE5uYUV0WV9zWGNvT0pTVVBwbjRSZFhLZEdId0x0czAzZDNJdlJIaGNLaklyY0JR?oc=5",
-              "published": "2026-10-15T08:23:00+09:00"
+              "title": "[실적프리뷰]마이크로소프트, 애저 성장세 주목...목표가↑-TD코웬",
+              "original": "[실적프리뷰]마이크로소프트, 애저 성장세 주목...목표가↑-TD코웬",
+              "source": "이데일리",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUVFlVmJESEFyVFBSb2F1WkZ5RFF3a0xZNzlIbmQ0aFEtcWhMU2dlVXZHa2xCV0ltZXpuMFBDT3EyazRVMWFCNTNleXJ6eUwyYnJpQ3hUSlBwZnZFUzl1LWI0QVpISWNQV3JEVU9TWGRZNno4djQzeGg3dVlYQkhicg?oc=5",
+              "published": "2026-10-15T19:21:46+09:00"
             },
             {
-              "title": "마이크로소프트 주가 사상 최고가 경신, 시가총액 4조 달러 돌파",
-              "original": "마이크로소프트 주가 사상 최고가 경신, 시가총액 4조 달러 돌파",
-              "source": "디지털포커스",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85TDdhTzFHQUZyRVIzbWVhS3NzdlVHVWx1dl9lTUstcFc4eDF3MVdQOVVVdENhSlBJYkZ1WHRfSGtZVEw2aU5SVVVqOEtzTHhtRGEyby1zYmtNYjlaYmh1Wm4tbzBZak5rLXo1TDR1TlI?oc=5",
-              "published": "2026-10-15T08:04:26+09:00"
+              "title": "VNTG, 한국마이크로소프트와 제조 AX 협력…현장 적용부터 사업화까지 공동 추진",
+              "original": "VNTG, 한국마이크로소프트와 제조 AX 협력…현장 적용부터 사업화까지 공동 추진",
+              "source": "AI포스트",
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9NTE1BYlRzM244YVExOWxJR0NnZDI4bkYwQ2N6QjdoNFM1eTBKUjlfdnB2cEdlaHZHNzMzc19wZzYza3BLT05UQmZfU3I5cTBWR3JtRFg5eVhKYV9CWkFmVFJLeWtQRjZlTDcwTmlMSTAwQdIBckFVX3lxTE9NTE1BYlRzM244YVExOWxJR0NnZDI4bkYwQ2N6QjdoNFM1eTBKUjlfdnB2cEdlaHZHNzMzc19wZzYza3BLT05UQmZfU3I5cTBWR3JtRFg5eVhKYV9CWkFmVFJLeWtQRjZlTDcwTmlMSTAwQQ?oc=5",
+              "published": "2026-10-15T18:46:15+09:00"
             },
             {
-              "title": "AWS Activate·Microsoft for Startups: 최대 크레딧은 조건부",
-              "original": "AWS Activate·Microsoft for Startups: 최대 크레딧은 조건부",
-              "source": "quasa.io",
-              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdG1QcXZFUjdSbE92REVTNEV6eUlLREduUUdGbTJYdUdSLXBhaWNhZmVIcnNwTFNoVlpBcVctWFlEZzJMZ3ZwU0c1bVJPZDNHWHlwTlB4TkhUSVpZa2VHbk96X3hmYWMyRFNGRjdUZ2pxOEprcThlR216UnRGV2pmTW93dncxN1lteExMV2tsLXpyeEVzeGF2MHRnTQ?oc=5",
-              "published": "2026-10-15T08:00:00+09:00"
+              "title": "VNTG, 한국마이크로소프트와 제조 AX 협력… 현장 적용부터 사업화까지 함께 추진",
+              "original": "VNTG, 한국마이크로소프트와 제조 AX 협력… 현장 적용부터 사업화까지 함께 추진",
+              "source": "에너지안전신문",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE14LWs5VU1VZ29nZmxWX3I3bXU1M25xOTR3ZHVmUHo2aVlVZU9jeUhtZ0F3Vl91Y3gtcUtmU3FoR3ZFWXFITnNrb3J1eEFQZ3BWNWU2Q2hOZDdxdDdTMkJZWTFXbXI?oc=5",
+              "published": "2026-10-15T17:37:56+09:00"
             }
           ]
         },
         {
           "stock": "아이온큐",
           "ticker": "IONQ",
-          "title": "아이온큐 - 20억달러 유증에 급락",
-          "body": "아이온큐는 20억 달러 규모 유상증자 추진 소식에 주주가치 희석 우려가 커지며 -9.53% 내린 <b>31.42달러</b> 마감. M&A 직후 나온 유증 발표로 투자심리가 급격히 위축된 모습이다.",
+          "title": "아이온큐 - 유증 우려에 급락",
+          "body": "아이온큐는 M&A 직후 유상증자 우려로 주주가치 희석 논란이 불거지며 -9.53% 내린 <b>31.42달러</b> 마감. 수요일 주가 급락 배경을 묻는 분석이 나올 만큼 시장의 충격이 컸던 모습이다.",
           "pct": -9.53,
           "price": 31.420000076293945,
           "currency": "USD",
@@ -157,8 +157,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -6.02,
               "is_close": false,
               "date": "2026-10-14",
-              "title": "유증 소식에 급락",
-              "text": "20억달러 규모 유상증자 추진 소식에 주주가치 희석 우려가 커지며 장중 급락세를 보임"
+              "title": "급락 지속",
+              "text": "유상증자에 따른 주주가치 희석 우려가 불거지며 오전부터 큰 폭의 하락세가 이어짐"
             },
             {
               "time": "마감",
@@ -166,18 +166,25 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -9.53,
               "is_close": true,
               "date": "2026-10-14",
-              "title": "낙폭 더 벌어지며 마감",
-              "text": "M&A 직후 유증 발표로 투심이 악화되며 오후 들어 하락폭이 더 확대된 채 거래를 마침"
+              "title": "낙폭 더 커지며 마감",
+              "text": "장 후반 들어서도 매도세가 이어지며 하락폭이 오전보다 더욱 확대된 채 마감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
+              "title": "아이온큐, 수요일 주가 9.5% 하락한 이유는?",
+              "original": "아이온큐, 수요일 주가 9.5% 하락한 이유는?",
+              "source": "Benzinga",
+              "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOQ0d2c0VtLWh5a1V5aEhJNzQ2QjlVNW5kZ0toREtOYnd5d3Z5bW5sNVV1VW93S2Z5M0xPbWdFTjRSY2g5eTdUMWNXaVFpeTM5UUZnWEZoNFNSNElaU0dscnJiam5DalI4UF95eVRUWVNvUHFIaExySk1DcnppOXF3SVloeU5iZlloMHN0N2UtdUJZRW5yOXBjWkhzTDRCc2tFZllEWE55VlFhal9TOEFCVzFJazFtd2hyNGh2OWZNSUJlcjJqSDZuUVBwYjAyRlJrZlhUOHlYZ1VhNGNMRlhqRF9tRkNpQVFkUE1kUGNoSUtMbVlRZm02ZlVmV2VsTWY2eGNuQjlVRGNfRnl6ZDZFcEZyMA?oc=5",
+              "published": "2026-10-15T10:31:23+09:00"
+            },
+            {
               "title": "M&A 직후 '유증 폭탄'…아이온큐, 주주가치 희석 우려에 또 급락",
               "original": "M&A 직후 '유증 폭탄'…아이온큐, 주주가치 희석 우려에 또 급락",
               "source": "연합인포맥스",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02ODRLMTdsZFQ4bEdtSGZxWjUwTUR5Qkg1dG55VXh5anZ2ZldReWFYaDJWZndycWVoSkZmRExzbVprOEtLTmlQMk93UWVrZXlVWElEaDAzbHNiOVFYLXhBdnNtZ2VCX0hnb3ZienlxNUrSAXRBVV95cUxPM0x3Y1NpN1N4NkZLMFZOV1hTeWtVTzdjc19haG9WU3dsdzloZ3hPc2tCUHN0M3lacXNQRjRfNjlXWjFHdzVyUVFfdmY0d1VGNzBzNmYzSFZhRUZUd0dXOVhEbzliVHdDMXhWVUdfY05LYW0yMA?oc=5",
-              "published": "2026-10-15T07:48:46+09:00"
+              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8zTHdjU2k3U3g2RkswVk5XWFN5a1VPN2NzX2Fob1ZTd2x3OWhneE9za0JQc3QzeVpxc1BGNF82OVdaMUd3NXJRUV92ZjR3VUY3MHM2ZjNIVmFFRlR3R1c5WERvOWJUd0MxeFZVR19jTkthbTIw0gF0QVVfeXFMTzNMd2NTaTdTeDZGSzBWTldYU3lrVU83Y3NfYWhvVlN3bHc5aGd4T3NrQlBzdDN5WnFzUEY0XzY5V1oxR3c1clFRX3ZmNHdVRjcwczZmM0hWYUVGVHdHVzlYRG85YlR3QzF4VlVHX2NOS2FtMjA?oc=5",
+              "published": "2026-10-15T07:51:34+09:00"
             },
             {
               "title": "[오후장특징주]델테크놀로지, 코어위브, 아이온큐",
@@ -185,21 +192,14 @@ window.NOTEFOLIO_BRIEFING = {
               "source": "이데일리",
               "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObFVMWTY3TVFkak40RS1tTmpjanQ1MHdZcjQyeDE2RmdIOThELTJCLThyU1Y5WUVLellhWUxBQ0RUdDl3U1hEc3FxMjdkOURTUVhKb2NCS2RMNGg4VHhhTVFQbVZJM19XOXFXMlVyM2dKcDNQbmI0OUVfNHFLeVRPWg?oc=5",
               "published": "2026-10-15T05:13:37+09:00"
-            },
-            {
-              "title": "[美특징주]아이온큐, 20억달러 유상증자 추진…주가 9% 급락",
-              "original": "[美특징주]아이온큐, 20억달러 유상증자 추진…주가 9% 급락",
-              "source": "이데일리",
-              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZEZxazRjSHN5UVFUMkc1VHhfdnR0ZWNvWEhId3BKV2EyNEpPeV9tVXBKZXZFVFpzeTFWd0dxZmlLRzgzbjVlbW15aDBaaFVVdXZZNVFOazEwQU9hUDlxNHJVZ2J6LUxKa00wNlFOZnpidE56ckNQaE5xRE5tckozWQ?oc=5",
-              "published": "2026-10-15T03:59:22+09:00"
             }
           ]
         },
         {
           "stock": "엔비디아",
           "ticker": "NVDA",
-          "title": "엔비디아 - CPI 쇼크에 AI주 동반 하락",
-          "body": "엔비디아는 CPI 3.7% 발표 이후 AI 투자 수익성 우려가 겹치며 -3.16% 내린 <b>221.30달러</b> 마감. 같은 날 애플이 시가총액 5조 달러를 돌파하며 엔비디아에 이어 두 번째 기록을 세운 점도 대조적으로 부각됐다.",
+          "title": "엔비디아 - 젠슨 황 발언에 220달러 이탈",
+          "body": "엔비디아는 젠슨 황 CEO가 AI 안전을 위해 중국 기업과 협력이 필요하다고 발언한 가운데 개장 전 220달러를 이탈하며 -3.16% 내린 <b>221.30달러</b> 마감.",
           "pct": -3.16,
           "price": 221.3000030517578,
           "currency": "USD",
@@ -211,8 +211,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.79,
               "is_close": false,
               "date": "2026-10-14",
-              "title": "물가지표 부담에 하락",
-              "text": "CPI 수치가 예상보다 높게 나오며 AI 투자 수익성 우려와 함께 기술주 전반이 약세를 보임"
+              "title": "개장 전부터 약세",
+              "text": "젠슨 황의 발언이 전해진 가운데 개장 전부터 지지선을 하회하며 약세로 출발"
             },
             {
               "time": "마감",
@@ -220,40 +220,40 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.16,
               "is_close": true,
               "date": "2026-10-14",
-              "title": "애플에 시총 2위 내줘",
-              "text": "애플이 시총 5조달러를 돌파해 1위 자리를 내준 가운데 낙폭이 오후 들어 더 커지며 마감"
+              "title": "낙폭 확대되며 마감",
+              "text": "신규 소프트웨어 발표 소식에도 매수세가 붙지 않으며 하락폭이 하루 중 가장 크게 벌어져 마감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "애플, 시총 5조 달러 돌파…엔비디아에 이어 두 번째",
-              "original": "애플, 시총 5조 달러 돌파…엔비디아에 이어 두 번째",
-              "source": "지디넷코리아",
-              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQWU1wWm5BWkpmZWhtLUlVbUNRRHVQLWY2WXhxRER1a19leG9HbFVHYnlUUGZHSEY4b3NpUzVYNjZLanEyNlljLXpETl9GYlVpZG1UUTdB?oc=5",
-              "published": "2026-10-15T08:33:05+09:00"
+              "title": "[TODAY엔비디아]젠슨 황 \"AI 안전 위해 중국 기업과 반드시 협력해야\"…개장전 220달러 이탈",
+              "original": "[TODAY엔비디아]젠슨 황 \"AI 안전 위해 중국 기업과 반드시 협력해야\"…개장전 220달러 이탈",
+              "source": "이데일리",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaUp6SU05UkFPdFpIOXN4ekVkU01JcG03Z1RWa3NjZXRwQ3JGSnVYSnRXTVd3ODBmZ0xWbXZyU1NBMUhrWWdxTFlHVmI5ZHhYNF9nUFhNekUyYzBzMVJ2OVE4R281OGpRVEtuRXFUU1pCMVh3YmNHNEUwSlIxOVJBeg?oc=5",
+              "published": "2026-10-15T21:10:43+09:00"
             },
             {
-              "title": "애플 사상 첫 시총 5조달러 돌파 마감…엔비디아 이어 두번째",
-              "original": "애플 사상 첫 시총 5조달러 돌파 마감…엔비디아 이어 두번째",
-              "source": "티제이비",
-              "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5yUHdRY2ZUUk1SU1hxMXE5RkRCVjl5dVFTemY0ejNOa0NwWHpySWZVaXVhcW9Mc2d3Wkh1dXdlVHpMcFJYQkxsb3RhcHVEeGY3M25GdVYwVDRyTVln?oc=5",
-              "published": "2026-10-15T08:19:33+09:00"
+              "title": "대구 로봇제어 스타트업 윔, AWS·엔비디아 AI 피치대회 1위",
+              "original": "대구 로봇제어 스타트업 윔, AWS·엔비디아 AI 피치대회 1위",
+              "source": "이데일리",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOWFxVEVOM0Fnei1JeGZ4bkRfeWFFSWRIVEVDQ1NqN0dxcnAwdFZnVDJxYXFsYzd6bzZZQUo5ckRyN0hhMUhtSnlLVWthdUc0WE4zM2pVQUhjOHBXLW1OTkxsSEMwNHhnSmZNY3B1Q19YbkN0V3E3Q09SRktDdlRURw?oc=5",
+              "published": "2026-10-15T20:17:43+09:00"
             },
             {
-              "title": "CPI 3.7%에 엔비디아 -3.16%, 델 -11.27%, AI 투자 수익성 우려까지 겹친 기술주 하락",
-              "original": "CPI 3.7%에 엔비디아 -3.16%, 델 -11.27%, AI 투자 수익성 우려까지 겹친 기술주 하락",
-              "source": "네이버 프리미엄콘텐츠",
-              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaW9ReE8yVmF5MXdaOGlTc3VyTy12QzNwdEYtZFFtU3VJSC1KSl9YOV9yWnE0LTkxa2JqSUh4QXVta3VwcWwwYXhXa1NvSkdIZWZvTHltUHh1d01VOFlucm9vU2hseW9jdTVCT01tWmMxeDRzSFNDZE5nVkJtRlMtMEFB?oc=5",
-              "published": "2026-10-15T08:14:00+09:00"
+              "title": "엔비디아, DSX AI 팩토리 위한 새로운 오픈소스 소프트웨어 구성 요소 발표",
+              "original": "엔비디아, DSX AI 팩토리 위한 새로운 오픈소스 소프트웨어 구성 요소 발표",
+              "source": "elec4",
+              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB2ZnlTVkJSNmdsOGo4akQ5d1Rsc2R1dVlDeEdmTG53bjBubWF2NXNpLWM5SF8tWDJ0d05Sbmlha2EtdEdGWUxrVG10MXd6R1l6ZXZJRlB3WUFJa19rcXNXTkZ0ODQ1WnQzREV3ZEpB?oc=5",
+              "published": "2026-10-15T20:15:47+09:00"
             }
           ]
         },
         {
           "stock": "소파이테크놀로지",
           "ticker": "SOFI",
-          "title": "소파이테크놀로지 - 실적 앞두고 52주 최저",
-          "body": "소파이테크놀로지는 실적 발표를 앞두고 매도 압력이 우세한 가운데 -6.69% 내린 <b>14.22달러</b> 마감. 장중 52주 최저치인 14.88달러를 기록하며 투자심리가 위축된 모습이다.",
+          "title": "소파이테크놀로지 - 52주 최저치로 실적 앞두고…",
+          "body": "소파이테크놀로지는 실적 발표를 앞두고 매도 압력이 우세한 가운데 -6.69% 내린 <b>14.22달러</b> 마감. 이날 52주 최저치인 14.88달러를 하회하는 모습도 나타났다.",
           "pct": -6.69,
           "price": 14.220000267028809,
           "currency": "USD",
@@ -265,8 +265,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -4.66,
               "is_close": false,
               "date": "2026-10-14",
-              "title": "실적 경계 속 약세",
-              "text": "실적 발표를 앞두고 매도 압력이 우세한 흐름이 이어지며 52주 최저치까지 떨어짐"
+              "title": "52주 신저가 경신",
+              "text": "실적 발표를 앞두고 매도 압력이 이어지며 52주 최저치를 새로 갈아치우는 약세 흐름"
             },
             {
               "time": "마감",
@@ -274,8 +274,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -6.69,
               "is_close": true,
               "date": "2026-10-14",
-              "title": "저가권에서 낙폭 확대",
-              "text": "장중 신저가를 기록한 이후 반등하지 못하고 오후 들어 하락폭이 더욱 커진 채 마감됨"
+              "title": "낙폭 더 키우며 마감",
+              "text": "장 후반으로 갈수록 하락폭이 오히려 커지며 하루 중 가장 낮은 수준에서 마감"
             }
           ],
           "slot_total": 2,
@@ -293,19 +293,12 @@ window.NOTEFOLIO_BRIEFING = {
               "source": "Investing.com 한국어",
               "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VR2RPN0pLWEJpLUtOV0NSZGlQVV95eXpERjJLc1hVRUxoRzF0UTJvcWZCb0hDNllUVzdHb1hIMDZuRGNiSDYxZkpPVkJFVmpwMkpFOG1QSHlfRDVfOFdDeVQ2NlJ6V3B4ekdtSVcwN0c?oc=5",
               "published": "2026-10-14T22:41:00+09:00"
-            },
-            {
-              "title": "OKX, TXN·SOFI·VICR·TLT 무기한 계약 상장",
-              "original": "OKX, TXN·SOFI·VICR·TLT 무기한 계약 상장",
-              "source": "토큰포스트",
-              "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5PQ2puaEt1anZoaUYwS3lfc3dtUENZd2FGcUVpcHpqV2lydC03RWhjYS1wU1BCb3k4UWUwVWNoR28xU0FfNEhTUDVBT0tWcU9mQXcxR1N0cGU?oc=5",
-              "published": "2026-10-14T12:52:07+09:00"
             }
           ]
         }
       ],
       "markdown": "briefings/2026-10-15-us.md",
-      "refreshed_at": "2026-10-15 08:53:04 KST"
+      "refreshed_at": "2026-10-15 22:21:45 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
