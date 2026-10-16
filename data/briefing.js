@@ -1,10 +1,10 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-16 23:38:49 KST",
-  "refreshed": [
-    "kr"
+  "generated_at": "2026-10-17 01:32:26 KST",
+  "refreshed": [],
+  "slots_refreshed": [
+    "us"
   ],
-  "slots_refreshed": [],
   "default": "kr",
   "markets": {
     "us": {
@@ -45,12 +45,12 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "11:00PM",
-              "price": 233.7899932861328,
-              "pct": -0.14,
+              "price": 233.9149932861328,
+              "pct": -0.09,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "장중 약보합 유지",
-              "text": "전날 상승 마감 소식이 전해진 가운데 양자 컴퓨팅 대비 부족 지적 기사도 나왔으나 주가는 보합권에서 큰 움직임 없이 유지되는 중"
+              "title": "보합권 등락 지속",
+              "text": "양자 컴퓨팅 위험 대응 미흡 지적과 에이전틱 AI 부각 소식에도 낙폭은 미미한 수준에 머무는 중"
             }
           ],
           "slot_total": 2,
@@ -94,8 +94,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.34,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "소폭 약세 지속",
-              "text": "신규 AI 모델 사전학습 완료 소식과 영국 당국의 클라우드 규제 압박 기사가 겹쳤지만 주가 영향은 제한적으로 약보합세가 이어지는 중"
+              "title": "소폭 약세 유지",
+              "text": "영국의 기업용 SW 지배력 조사 소식이 나왔지만 주가 영향은 제한적인 가운데 완만한 내림세가 이어지는 중"
             }
           ],
           "slot_total": 2,
@@ -135,12 +135,12 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "11:00PM",
-              "price": 32.95600128173828,
-              "pct": -4.06,
+              "price": 32.97999954223633,
+              "pct": -3.99,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "양자컴주 동반 약세",
-              "text": "케임브리지 혁신센터 개소와 풀스택 전략 소식에도 미국 양자컴퓨터주 전반의 약세 흐름에 동참하며 낙폭이 뚜렷하게 확대되는 중"
+              "title": "낙폭 확대",
+              "text": "장 초반 양자컴퓨터주 전반의 약세 흐름 속에 하락폭이 더 벌어지며 하루 중 가장 큰 낙폭을 기록 중"
             }
           ],
           "slot_total": 2,
@@ -184,8 +184,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.45,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "소폭 하락 지속",
-              "text": "RTX 기반 AI PC 공략과 FPT 협력 데이터셋 확장 등 신제품·협업 소식이 이어졌지만 주가는 약보합권에서 벗어나지 못하는 중"
+              "title": "소폭 약세 지속",
+              "text": "RTX 스파크 국내 출시와 볼보 자율주행 협력 확대 소식에도 주가는 약보합권에서 벗어나지 못하는 중"
             }
           ],
           "slot_total": 2,
@@ -230,7 +230,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-16",
               "title": "완만한 상승세",
-              "text": "특별한 재료 없이도 매수세가 유입되며 상승폭을 키워가는 모습으로 하루 중 비교적 견조한 흐름을 이어가는 중"
+              "text": "특별한 뉴스 없이도 매수세가 꾸준히 유입되며 소폭의 오름세를 하루 종일 꾸준히 이어가는 중"
             }
           ],
           "slot_total": 2,
@@ -239,7 +239,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-16-us.md",
       "refreshed_at": "2026-10-16 07:01:02 KST",
-      "slots_refreshed_at": "2026-10-16 23:10:47 KST"
+      "slots_refreshed_at": "2026-10-17 01:32:26 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
