@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-17 10:15:21 KST",
+  "generated_at": "2026-10-17 15:51:31 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -337,7 +337,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-16",
               "title": "장 초반 상승 출발",
-              "text": "개인 투자자의 반도체 ETF 매수세가 전해진 가운데 상승하며 장을 시작함"
+              "text": "오전 초반부터 매수세가 유입되며 비교적 가파른 오름세로 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -346,7 +346,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-16",
               "title": "오전 상승폭 확대",
-              "text": "파운드리 역할론과 워싱턴발 정책 변수가 부각되는 와중에도 오전 내내 오름세를 키워감"
+              "text": "장 초반 오름세가 오전 내내 이어지며 상승폭을 꾸준히 키워가는 흐름을 보임"
             },
             {
               "time": "1:00PM",
@@ -354,8 +354,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 5.33,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "오후 들어 상승 탄력",
-              "text": "장 초반보다 상승폭을 크게 늘리며 오후 들어 하루 중 가장 높은 수준까지 올라섬"
+              "title": "오후 들어 상승 가속",
+              "text": "점심 무렵까지 상승세가 더욱 강해지며 이날 가장 높은 상승률을 기록하는 구간에 진입함"
             },
             {
               "time": "마감",
@@ -363,8 +363,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.18,
               "is_close": true,
               "date": "2026-10-16",
-              "title": "상승폭 일부 반납",
-              "text": "오후 한때 고점을 찍은 뒤 상승분을 일부 반납하며 전 저점보다는 높은 수준에서 마무리됨"
+              "title": "오후 들어 상승폭 축소",
+              "text": "오후 들어 청주 공사장 근로자 부상 소식이 전해진 이후 상승폭이 크게 줄며 마감함"
             }
           ],
           "slot_total": 4,
@@ -408,8 +408,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.17,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "",
-              "text": ""
+              "title": "장 초반 강세 출발",
+              "text": "장 시작과 함께 매수세가 유입되며 완만한 오름세로 하루 거래를 시작함"
             },
             {
               "time": "10:30AM",
@@ -417,8 +417,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 3.13,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "",
-              "text": ""
+              "title": "오전 상승폭 확대",
+              "text": "오전 중반까지 상승세가 꾸준히 이어지며 상승폭이 점차 커지는 모습을 보임"
             },
             {
               "time": "1:00PM",
@@ -426,8 +426,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 5.54,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "",
-              "text": ""
+              "title": "장중 고점 경신",
+              "text": "점심 무렵 상승폭이 더욱 커지며 이날 가장 높은 수준까지 올라서는 흐름을 나타냄"
             },
             {
               "time": "마감",
@@ -435,8 +435,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 4.58,
               "is_close": true,
               "date": "2026-10-16",
-              "title": "",
-              "text": ""
+              "title": "오후 들어 상승폭 축소",
+              "text": "장중 최고점 대비 오후 들어 오름폭이 다소 줄었으나 강한 상승세는 유지한 채 마감함"
             }
           ],
           "slot_total": 4,
@@ -480,8 +480,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 6.5,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "장 초반 강한 상승",
-              "text": "수출 핵심 무기체계 소식과 주가 회복 보도가 겹치며 강한 상승세로 장을 출발함"
+              "title": "장 초반 급등 출발",
+              "text": "장 시작부터 강한 매수세가 몰리며 90만원선 회복 소식과 함께 급등세로 출발함"
             },
             {
               "time": "10:30AM",
@@ -490,7 +490,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-16",
               "title": "오전 상승폭 확대",
-              "text": "글로벌 원팀 전략을 둘러싼 노조 반발 소식에도 매수세가 꺾이지 않고 상승폭을 키움"
+              "text": "글로벌 원팀 전략과 오스탈 인수 추진 소식 속에 오전 내내 상승폭이 빠르게 커짐"
             },
             {
               "time": "1:00PM",
@@ -498,8 +498,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 10.18,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "오후까지 상승 지속",
-              "text": "오전의 상승 흐름이 오후까지 이어지며 장중 상승폭을 한층 더 늘려나감"
+              "title": "상승세 더욱 가팔라짐",
+              "text": "점심 무렵까지 매수세가 지속되며 두 자릿수 상승률에 근접하는 강세를 이어감"
             },
             {
               "time": "마감",
@@ -507,8 +507,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 10.43,
               "is_close": true,
               "date": "2026-10-16",
-              "title": "상승폭 유지 중",
-              "text": "오후 들어서도 매수세가 꾸준히 이어지며 하루 중 가장 높은 상승폭을 유지한 채 마감함"
+              "title": "상승폭 더 확대되며 마감",
+              "text": "오후 들어서도 매수세가 꺾이지 않으며 하루 중 가장 높은 상승률로 거래를 마침"
             }
           ],
           "slot_total": 4,
@@ -552,8 +552,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 2.84,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "장 초반 반등 출발",
-              "text": "최근 급락세 이후 반등했다는 평가 속에 이날도 상승세로 장을 시작함"
+              "title": "장 초반 강세 출발",
+              "text": "장 시작과 함께 매수세가 유입되며 완만한 상승 흐름으로 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -562,7 +562,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-16",
               "title": "오전 상승폭 확대",
-              "text": "가전 광고 전략 변화 소식이 전해지는 가운데 오전 내내 완만한 상승 흐름을 이어감"
+              "text": "오전 중반까지 오름세가 이어지며 상승폭이 점차 커지는 흐름을 이어감"
             },
             {
               "time": "1:00PM",
@@ -570,8 +570,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 5.14,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "오후 들어 상승폭 최대",
-              "text": "오전 상승 흐름이 이어지며 장중 상승폭이 하루 중 가장 크게 벌어지는 구간을 지남"
+              "title": "장중 고점 근접",
+              "text": "베터 초이스 어워드 수상 소식이 전해진 가운데 오름폭이 하루 중 가장 커짐"
             },
             {
               "time": "마감",
@@ -579,8 +579,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 3.14,
               "is_close": true,
               "date": "2026-10-16",
-              "title": "상승폭 상당폭 축소",
-              "text": "장중 고점을 찍은 뒤 상승분을 상당폭 반납하며 오전보다 낮은 수준에서 흐름을 마무리함"
+              "title": "오후 들어 상승폭 축소",
+              "text": "타임지 최고 발명품 선정 소식에도 장중 고점 대비 오름폭이 줄어든 채 마감함"
             }
           ],
           "slot_total": 4,
@@ -624,8 +624,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 5.01,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "장 초반 강세 출발",
-              "text": "트럼프 대통령이 조지아 투자 소식을 언급하기 전부터 매수세가 유입되며 강세로 출발함"
+              "title": "장 초반 급등 출발",
+              "text": "장 시작부터 강한 매수세가 유입되며 큰 폭의 상승세로 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -633,8 +633,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 7.6,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "정치 발언에 상승폭 확대",
-              "text": "트럼프 대통령의 조지아 투자 발언이 잇따라 전해지며 상승폭이 오전 들어 빠르게 커짐"
+              "title": "오전 상승폭 확대",
+              "text": "새만금 태양광 투자 소식이 전해진 가운데 오전 내내 상승폭이 꾸준히 커짐"
             },
             {
               "time": "1:00PM",
@@ -642,8 +642,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 10.02,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "유세 발언 속 고점 경신",
-              "text": "중간선거 유세에서 투자 성과가 거듭 부각되며 상승폭이 하루 중 가장 크게 벌어짐"
+              "title": "상승폭 두 자릿수 진입",
+              "text": "제로원 스프린트 선정 소식이 전해진 이후 상승률이 두 자릿수까지 확대됨"
             },
             {
               "time": "마감",
@@ -651,8 +651,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 8.46,
               "is_close": true,
               "date": "2026-10-16",
-              "title": "상승폭 일부 반납",
-              "text": "장중 고점을 찍은 뒤 상승분을 일부 되돌렸지만 큰 폭의 오름세는 유지한 채 흐름을 마침"
+              "title": "오후 들어 상승폭 축소",
+              "text": "제네시스 대규모 리콜 소식이 전해진 뒤 장중 고점 대비 오름폭이 줄며 마감함"
             }
           ],
           "slot_total": 4,
@@ -683,7 +683,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-16-kr.md",
       "refreshed_at": "2026-10-16 23:38:49 KST",
-      "slots_refreshed_at": "2026-10-17 10:15:21 KST"
+      "slots_refreshed_at": "2026-10-17 15:51:31 KST"
     }
   }
 };
