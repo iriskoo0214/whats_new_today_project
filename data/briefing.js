@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-18 00:26:57 KST",
+  "generated_at": "2026-10-18 03:24:24 KST",
   "refreshed": [],
   "slots_refreshed": [
     "us"
@@ -49,8 +49,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.09,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "약보합권 등락",
-              "text": "지멘스와 나노스택 공동연구 소식에도 뚜렷한 반등 없이 소폭 하락세로 움직임"
+              "title": "장중 보합권 유지",
+              "text": "지멘스와의 나노스택 연구 소식이 전해진 가운데 저평가 논란 속 주가는 소폭 하락에 그치며 보합권을 지킴"
             },
             {
               "time": "마감",
@@ -59,7 +59,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-10-16",
               "title": "낙폭 소폭 확대",
-              "text": "오전 보도 이후 매수세가 이어지지 못하며 하락폭이 장중보다 더 커진 채 마감"
+              "text": "장중 약보합을 유지하다 마감 직전 매물이 나오며 낙폭이 하루 중 가장 크게 벌어진 채 거래를 마침"
             }
           ],
           "slot_total": 2,
@@ -96,8 +96,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.39,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "하락세 지속",
-              "text": "오후 들어 게임 서비스 관련 소식이 잇따랐으나 주가 흐름에는 별다른 영향을 주지 못함"
+              "title": "오후 들어 하락 전환",
+              "text": "게임 모드 업데이트 소식에도 매수세가 붙지 않으며 오후 들어 낙폭이 점차 커지는 흐름이 이어짐"
             },
             {
               "time": "마감",
@@ -106,7 +106,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-10-16",
               "title": "낙폭 확대 마감",
-              "text": "장중 내내 약세를 벗어나지 못하다 저녁 선물 상장 소식 이후에도 하락폭이 더 벌어지며 마감"
+              "text": "선물 상장 소식이 전해졌으나 반등으로 이어지지 못하고 하루 중 가장 큰 낙폭으로 거래를 마침"
             }
           ],
           "slot_total": 2,
@@ -150,8 +150,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.99,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "급락세 지속",
-              "text": "양자컴퓨터주 전반의 동반 약세 속에 케임브리지 연구센터 소식에도 낙폭을 키움"
+              "title": "양자주 동반 약세",
+              "text": "양자컴퓨터 관련주 전반이 동반 하락한 가운데 장 초반부터 약세가 이어지며 낙폭이 쉽게 줄지 않음"
             },
             {
               "time": "마감",
@@ -159,8 +159,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -8.94,
               "is_close": true,
               "date": "2026-10-16",
-              "title": "낙폭 더 확대",
-              "text": "장중 내내 이어진 하락세가 저녁 들어 더욱 깊어지며 하루 중 가장 큰 낙폭으로 마감"
+              "title": "낙폭 한층 확대",
+              "text": "장 초반 큰 폭의 하락 이후 반등 없이 매도세가 이어지며 하루 중 낙폭이 가장 크게 벌어진 채 마감"
             }
           ],
           "slot_total": 2,
@@ -204,8 +204,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.45,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "약세 흐름 지속",
-              "text": "벤츠와의 자율주행 협력 확대, 국내 신제품 공개 소식에도 하락 흐름을 되돌리지 못함"
+              "title": "저평가 논란 속 약세",
+              "text": "고점 대비 조정 국면이라는 분석이 나온 가운데 장중 약세 흐름을 벗어나지 못하고 하락세가 이어짐"
             },
             {
               "time": "마감",
@@ -214,7 +214,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-10-16",
               "title": "낙폭 소폭 확대",
-              "text": "삼성전자 영업이익 역전 보도가 나온 가운데 장중 약세가 이어지며 낙폭이 더 커짐"
+              "text": "고점 대비 하락폭을 둘러싼 저평가 논란이 이어진 뒤에도 매수세가 살아나지 못하며 낙폭이 더 커짐"
             }
           ],
           "slot_total": 2,
@@ -258,8 +258,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.06,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "저점 경계 속 약세",
-              "text": "52주 최저치 기록과 실적 발표 전 신중론이 겹치며 하락세로 하루를 이어감"
+              "title": "저점 이후 반등세",
+              "text": "52주 최저치 기록 소식이 전해진 이후 실적 발표를 앞두고 저가 매수세가 유입되며 낙폭을 크게 줄임"
             },
             {
               "time": "마감",
@@ -267,8 +267,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.58,
               "is_close": true,
               "date": "2026-10-16",
-              "title": "저녁 들어 반등",
-              "text": "장중 낙폭이 컸으나 저녁 들어 매수세가 유입되며 하락폭을 상당 부분 만회함"
+              "title": "장중 낙폭 축소",
+              "text": "52주 최저치 이후 실적 기대감 속 저점 매수세가 붙으며 장중 한때의 급락분을 상당 부분 만회함"
             }
           ],
           "slot_total": 2,
@@ -292,7 +292,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-17-us.md",
       "refreshed_at": "2026-10-17 07:00:53 KST",
-      "slots_refreshed_at": "2026-10-18 00:26:57 KST"
+      "slots_refreshed_at": "2026-10-18 03:24:24 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
