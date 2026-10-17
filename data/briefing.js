@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-18 03:24:24 KST",
+  "generated_at": "2026-10-18 06:24:12 KST",
   "refreshed": [],
   "slots_refreshed": [
     "us"
@@ -49,8 +49,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.09,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "장중 보합권 유지",
-              "text": "지멘스와의 나노스택 연구 소식이 전해진 가운데 저평가 논란 속 주가는 소폭 하락에 그치며 보합권을 지킴"
+              "title": "소폭 약세 흐름",
+              "text": "지멘스와 나노스택 연구 소식이 전해졌지만 주가는 눈에 띄는 반응 없이 약보합권에서 움직임"
             },
             {
               "time": "마감",
@@ -59,7 +59,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-10-16",
               "title": "낙폭 소폭 확대",
-              "text": "장중 약보합을 유지하다 마감 직전 매물이 나오며 낙폭이 하루 중 가장 크게 벌어진 채 거래를 마침"
+              "text": "장중 약세를 보이던 흐름이 이어지며 낙폭이 조금 더 커진 채로 하루를 마무리"
             }
           ],
           "slot_total": 2,
@@ -96,8 +96,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.39,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "오후 들어 하락 전환",
-              "text": "게임 모드 업데이트 소식에도 매수세가 붙지 않으며 오후 들어 낙폭이 점차 커지는 흐름이 이어짐"
+              "title": "연구·투자 소식 속 약세",
+              "text": "AI 기상 예측 연구와 앤트로픽 모델 투자 소식이 나왔지만 주가는 하락세를 벗어나지 못함"
             },
             {
               "time": "마감",
@@ -105,8 +105,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.93,
               "is_close": true,
               "date": "2026-10-16",
-              "title": "낙폭 확대 마감",
-              "text": "선물 상장 소식이 전해졌으나 반등으로 이어지지 못하고 하루 중 가장 큰 낙폭으로 거래를 마침"
+              "title": "낙폭 확대로 마감",
+              "text": "바이낸스 선물 상장 소식에도 매수세가 붙지 않으며 하루 중 낙폭이 가장 크게 벌어진 채 마감"
             }
           ],
           "slot_total": 2,
@@ -150,8 +150,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.99,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "양자주 동반 약세",
-              "text": "양자컴퓨터 관련주 전반이 동반 하락한 가운데 장 초반부터 약세가 이어지며 낙폭이 쉽게 줄지 않음"
+              "title": "양자컴주 동반 약세",
+              "text": "양자컴퓨터주 전반이 동반 하락하는 가운데 범블 인수 소식 이후에도 낙폭을 키움"
             },
             {
               "time": "마감",
@@ -159,8 +159,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -8.94,
               "is_close": true,
               "date": "2026-10-16",
-              "title": "낙폭 한층 확대",
-              "text": "장 초반 큰 폭의 하락 이후 반등 없이 매도세가 이어지며 하루 중 낙폭이 가장 크게 벌어진 채 마감"
+              "title": "낙폭 더 확대되며 마감",
+              "text": "장중 이어지던 큰 폭의 하락세가 오히려 더 깊어지며 하루 중 가장 큰 낙폭으로 마감"
             }
           ],
           "slot_total": 2,
@@ -204,8 +204,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.45,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "저평가 논란 속 약세",
-              "text": "고점 대비 조정 국면이라는 분석이 나온 가운데 장중 약세 흐름을 벗어나지 못하고 하락세가 이어짐"
+              "title": "저평가 논의 속 약세",
+              "text": "고점 대비 조정과 저평가 여부를 둘러싼 분석이 나온 가운데 주가는 약세 흐름을 이어감"
             },
             {
               "time": "마감",
@@ -213,8 +213,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.43,
               "is_close": true,
               "date": "2026-10-16",
-              "title": "낙폭 소폭 확대",
-              "text": "고점 대비 하락폭을 둘러싼 저평가 논란이 이어진 뒤에도 매수세가 살아나지 못하며 낙폭이 더 커짐"
+              "title": "낙폭 키우며 마감",
+              "text": "볼보와의 협력 소식에도 반등하지 못하고 장중 약세가 더 짙어진 채로 하루를 마무리"
             }
           ],
           "slot_total": 2,
@@ -258,8 +258,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.06,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "저점 이후 반등세",
-              "text": "52주 최저치 기록 소식이 전해진 이후 실적 발표를 앞두고 저가 매수세가 유입되며 낙폭을 크게 줄임"
+              "title": "실적 앞두고 약세",
+              "text": "52주 최저치와 실적 발표를 앞둔 매수 시점 고민이 이어지는 가운데 주가는 하락세로 출발"
             },
             {
               "time": "마감",
@@ -267,8 +267,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.58,
               "is_close": true,
               "date": "2026-10-16",
-              "title": "장중 낙폭 축소",
-              "text": "52주 최저치 이후 실적 기대감 속 저점 매수세가 붙으며 장중 한때의 급락분을 상당 부분 만회함"
+              "title": "저점 대비 낙폭 축소",
+              "text": "장중 큰 폭의 하락을 보였으나 마감 무렵 들어 낙폭을 일부 만회하는 모습을 보임"
             }
           ],
           "slot_total": 2,
@@ -292,7 +292,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-17-us.md",
       "refreshed_at": "2026-10-17 07:00:53 KST",
-      "slots_refreshed_at": "2026-10-18 03:24:24 KST"
+      "slots_refreshed_at": "2026-10-18 06:24:12 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
