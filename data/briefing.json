@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-17 15:51:31 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-10-17 20:32:52 KST",
+  "refreshed": [
     "kr"
   ],
-  "default": "us",
+  "slots_refreshed": [],
+  "default": "kr",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
@@ -294,7 +294,7 @@
     },
     "kr": {
       "icon": "assets/moon.svg",
-      "label": "한국 증시 요약 2026. 10. 16. 11:38PM",
+      "label": "한국 증시 요약 2026. 10. 17. 8:32PM",
       "chips": [
         "전체",
         "SK하이닉스",
@@ -309,21 +309,14 @@
       ],
       "next": "us",
       "headline": "국내 5종목 중 5종목 상승 — 한화에어로스페이스가 +10.43%로 가장 많이 올랐고 SK하이닉스가 +2.18%로 상승폭이 가장 작았습니다.",
-      "market_headline": "외국인 9거래일 만에 순매수 전환…코스피 5600선 회복",
-      "market_card": {
-        "title": "코스피 8거래일 만에 2.05% 반등 마감...5660선 회복",
-        "bullets": [
-          "외국인 9거래일 만에 순매수 전환",
-          "삼성전자 13거래일 만에 외인 매수 전환",
-          "원·달러 환율 13.2원 급락 1331원대"
-        ]
-      },
+      "market_headline": "",
+      "market_card": null,
       "cards": [
         {
           "stock": "SK하이닉스",
           "ticker": "000660",
-          "title": "SK하이닉스 - 외국인 매도 속 반등세",
-          "body": "SK하이닉스는 외국인이 삼성전자와 함께 8.8조원을 던져 한 주 새 24% 급락했다는 평가 속에서도 +2.18% 오른 <b>1,265,000원</b> 마감. '20만닉스'를 1년 전부터 전망했다는 전문가 발언이 재조명되며 저가 매수 심리가 유입된 모습이다.",
+          "title": "SK하이닉스 - 中 CXMT 맹추격에도 동반 강세",
+          "body": "SK하이닉스는 중국 CXMT의 3분기 매출이 전년비 600% 급증하며 삼성·SK를 맹추격한다는 소식 속에서도 +2.18% 오른 <b>1,265,000원</b> 마감. 청주 공사장에서 와이어로프가 끊어져 2명이 다치는 사고가 있었지만 주가 흐름에는 영향을 주지 못한 모습이다.",
           "pct": 2.18,
           "price": 1265000.0,
           "currency": "KRW",
@@ -335,8 +328,8 @@
               "pct": 2.42,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "장 초반 상승 출발",
-              "text": "오전 초반부터 매수세가 유입되며 비교적 가파른 오름세로 하루를 시작함"
+              "title": "장 초반 강세 출발",
+              "text": "전일 대비 상승 출발하며 장 초반부터 투자 심리가 우호적으로 형성됨"
             },
             {
               "time": "10:30AM",
@@ -344,8 +337,8 @@
               "pct": 3.15,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "오전 상승폭 확대",
-              "text": "장 초반 오름세가 오전 내내 이어지며 상승폭을 꾸준히 키워가는 흐름을 보임"
+              "title": "상승폭 확대",
+              "text": "오전 중반까지 오름세가 이어지며 상승폭이 장 초반보다 한층 커짐"
             },
             {
               "time": "1:00PM",
@@ -353,8 +346,8 @@
               "pct": 5.33,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "오후 들어 상승 가속",
-              "text": "점심 무렵까지 상승세가 더욱 강해지며 이날 가장 높은 상승률을 기록하는 구간에 진입함"
+              "title": "상승폭 더 키워",
+              "text": "오후 들어서도 매수세가 이어지며 하루 중 가장 큰 상승폭을 기록함"
             },
             {
               "time": "마감",
@@ -363,39 +356,39 @@
               "is_close": true,
               "date": "2026-10-16",
               "title": "오후 들어 상승폭 축소",
-              "text": "오후 들어 청주 공사장 근로자 부상 소식이 전해진 이후 상승폭이 크게 줄며 마감함"
+              "text": "장 후반 들어 오전 상승분을 상당폭 반납하며 상승폭이 눈에 띄게 줄어듦"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "SK하이닉스 주가, 오늘 왜 하락하나?",
-              "original": "SK하이닉스 주가, 오늘 왜 하락하나?",
-              "source": "Investing.com 한국어",
-              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5XOWdLYXdzOU5XOHBTREdRM1FfaUtmRXR3LTRoSmJ6dXlJZjk4VEdjQTRXQ2Z3YUJKU3dSZEFWR0xRSHk2MHFsNDk0N09zbWZVeFJNZVAwU3RST25ULUxVR2RKeS1EbGc0eVRPSkNsRlA4b1lBWGU4?oc=5",
-              "published": "2026-10-16T23:09:00+09:00"
+              "title": "CXMT, 3분기 매출 23조 전망...전년비 600% '껑충'",
+              "original": "CXMT, 3분기 매출 23조 전망...전년비 600% '껑충'",
+              "source": "지디넷코리아",
+              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9iYjZ5RFBhcmlWUUhNRVJ5c2FFS21iUkZYdFM2bGNlU3VobkJadno5Q21wVENTWWdXZkNtVmtRc1lFdjlpcVFxeXZPODRBcW8zSVpBVTVR?oc=5",
+              "published": "2026-10-17T19:42:59+09:00"
             },
             {
-              "title": "\"7만전자·20만닉스\" 말한 전문가 \"1년 전부터 얘기한 건데…참 의아해\"",
-              "original": "\"7만전자·20만닉스\" 말한 전문가 \"1년 전부터 얘기한 건데…참 의아해\"",
-              "source": "마켓인",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9vVGJGRThFSEI1MGJWMHRzYUx5MFA0VXlyalAyU2J4SnVsM3RhOHNqc2JZNmp3MEVkVHhNNzFaci1UblltSjZ6Y3BheHFVSnpZLUhFelZROTg0N29jcmRkYlhFZXJtcmZUVWVycjdTVTdXVU0?oc=5",
-              "published": "2026-10-16T23:06:45+09:00"
+              "title": "청주 SK하이닉스 공사장서 와이어로프 끊어져 2명 부상",
+              "original": "청주 SK하이닉스 공사장서 와이어로프 끊어져 2명 부상",
+              "source": "뉴스토마토",
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5OUzZnUS1fbDJFR3ZsX1dJR3ZCZ2NvU3NtZ0lNU2IyRW9CY1VTQ05tYzdqT0I1OVdDcnNOWTZGVjk0Y0U0WWpvUFk4NnN1WnhEOENuYThGdFFMVmN2cDAxOQ?oc=5",
+              "published": "2026-10-17T19:39:32+09:00"
             },
             {
-              "title": "외국인이 8.8조 던진 삼전·하이닉스…한 주 새 각각 17%·24% 뚝",
-              "original": "외국인이 8.8조 던진 삼전·하이닉스…한 주 새 각각 17%·24% 뚝",
-              "source": "한국경제",
-              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9HTnp5eUlTMWhhME1STGJaVlFqUWEtYk1OMGhsYkRoeC1vRHdTN3ZJaWd4ZXVHS2xPWkVsWlVoZkpzSHpfT1dSWmFfa2hraERXVVAzaWlZTXdlZw?oc=5",
-              "published": "2026-10-16T22:53:25+09:00"
+              "title": "중국 CXMT, 3분기 매출 600%대↑…삼성·SK 맹추격",
+              "original": "중국 CXMT, 3분기 매출 600%대↑…삼성·SK 맹추격",
+              "source": "뉴스토마토",
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBKWURjQTdaTTVDRkdFR0xRdUtZbm9HVUR2OXNSYWdTbmZ4TElaSVhRZUxIb1RTb2kzOEhkT19xWUFqblVFd0NVbFNOZ1lEaTFvaVF6ZTdGd21BeXBWVnNtNw?oc=5",
+              "published": "2026-10-17T19:38:53+09:00"
             }
           ]
         },
         {
           "stock": "삼성전자",
           "ticker": "005930",
-          "title": "삼성전자 - 외국인 매도에도 반등 성공",
-          "body": "삼성전자는 외국인이 하이닉스와 함께 8.8조원을 매도해 한 주 새 17% 하락했다는 분석에도 +4.58% 오른 <b>217,000원</b> 마감. 갤럭시 S26 울트라·AI 냉장고 등이 타임 '올해 최고 발명품'에 선정되며 반도체주 중 유독 강한 반등을 보인 모습이다.",
+          "title": "삼성전자 - AI 메모리 품귀에 강세",
+          "body": "삼성전자는 중국 CXMT의 3분기 매출이 600%대 급증하며 맹추격해오는 가운데서도 '없어서 못 판다'는 반도체 품귀 현상이 부각되며 +4.58% 오른 <b>217,000원</b> 마감. AI 수요는 넘치는데 빚은 누가 갚느냐는 코어위브발 반도체 시장 충격 우려도 제기됐지만 이날 주가에는 반영되지 않은 모습이다.",
           "pct": 4.58,
           "price": 217000.0,
           "currency": "KRW",
@@ -407,8 +400,8 @@
               "pct": 2.17,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "장 초반 강세 출발",
-              "text": "장 시작과 함께 매수세가 유입되며 완만한 오름세로 하루 거래를 시작함"
+              "title": "장 초반 상승 출발",
+              "text": "장 초반부터 오름세로 시작하며 투자 심리가 비교적 우호적으로 형성됨"
             },
             {
               "time": "10:30AM",
@@ -417,7 +410,7 @@
               "is_close": false,
               "date": "2026-10-16",
               "title": "오전 상승폭 확대",
-              "text": "오전 중반까지 상승세가 꾸준히 이어지며 상승폭이 점차 커지는 모습을 보임"
+              "text": "오전 중반까지 꾸준히 올라 장 초반보다 상승폭이 한층 커짐"
             },
             {
               "time": "1:00PM",
@@ -426,7 +419,7 @@
               "is_close": false,
               "date": "2026-10-16",
               "title": "장중 고점 경신",
-              "text": "점심 무렵 상승폭이 더욱 커지며 이날 가장 높은 수준까지 올라서는 흐름을 나타냄"
+              "text": "오후 들어서도 상승세가 이어지며 하루 중 가장 높은 상승폭을 기록함"
             },
             {
               "time": "마감",
@@ -434,40 +427,40 @@
               "pct": 4.58,
               "is_close": true,
               "date": "2026-10-16",
-              "title": "오후 들어 상승폭 축소",
-              "text": "장중 최고점 대비 오후 들어 오름폭이 다소 줄었으나 강한 상승세는 유지한 채 마감함"
+              "title": "상승폭 다소 줄어",
+              "text": "장 막판 고점 대비 일부 상승분을 반납했으나 여전히 높은 수준을 유지 중"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "외국인이 8.8조 던진 삼전·하이닉스…한 주 새 각각 17%·24% 뚝",
-              "original": "외국인이 8.8조 던진 삼전·하이닉스…한 주 새 각각 17%·24% 뚝",
+              "title": "중국 CXMT, 3분기 매출 600%대↑…삼성·SK 맹추격",
+              "original": "중국 CXMT, 3분기 매출 600%대↑…삼성·SK 맹추격",
+              "source": "뉴스토마토",
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBKWURjQTdaTTVDRkdFR0xRdUtZbm9HVUR2OXNSYWdTbmZ4TElaSVhRZUxIb1RTb2kzOEhkT19xWUFqblVFd0NVbFNOZ1lEaTFvaVF6ZTdGd21BeXBWVnNtNw?oc=5",
+              "published": "2026-10-17T19:38:53+09:00"
+            },
+            {
+              "title": "\"AI 수요는 넘치는데 빚은 누가 갚나\"…코어위브발 반도체 시장 충격 - https://www.seoulilbo.co.kr/",
+              "original": "\"AI 수요는 넘치는데 빚은 누가 갚나\"…코어위브발 반도체 시장 충격 - https://www.seoulilbo.co.kr/",
+              "source": "https://www.seoulilbo.co.kr/",
+              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE05RnZxRzhzWjdKM0pQOElqTlhVWV9pY0NMaWhZWFRxYUpvd0puMjVnS2pvXzZkZXBjY0d3YTFUV1JkWDVEOE40MXVQdnFNOGwtZlBmdnI5MFlBWUR4aGtYX1NkTUZPaXVnQmg4YnV3?oc=5",
+              "published": "2026-10-17T19:36:17+09:00"
+            },
+            {
+              "title": "中 반도체 이 정도였나…'없어서 못 판다' 삼전닉스 맹추격",
+              "original": "中 반도체 이 정도였나…'없어서 못 판다' 삼전닉스 맹추격",
               "source": "한국경제",
-              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9HTnp5eUlTMWhhME1STGJaVlFqUWEtYk1OMGhsYkRoeC1vRHdTN3ZJaWd4ZXVHS2xPWkVsWlVoZkpzSHpfT1dSWmFfa2hraERXVVAzaWlZTXdlZw?oc=5",
-              "published": "2026-10-16T22:53:25+09:00"
-            },
-            {
-              "title": "삼성전자 갤럭시 S26 울트라·AI 냉장고·6K 게이밍 모니터, 타임 '올해 최고 발명품' 선정",
-              "original": "삼성전자 갤럭시 S26 울트라·AI 냉장고·6K 게이밍 모니터, 타임 '올해 최고 발명품' 선정",
-              "source": "솔루션뉴스",
-              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1WRTdIR0hUZHRDcUVRQXZJakNtZ21hZXNqaVFIR0pxWjdtTXJfZEpvNzltRVF6enc0YkxrVHpWbUh2ZlU0ZHM4c0lPTG41SnM2RGhleE5NTlhmT003SkJCTU5jcm4tYmp2Ymhz?oc=5",
-              "published": "2026-10-16T22:47:24+09:00"
-            },
-            {
-              "title": "외국인 선택에 삼성전자 웃고 SK하이닉스 울었다…엇갈린 반도체주",
-              "original": "외국인 선택에 삼성전자 웃고 SK하이닉스 울었다…엇갈린 반도체주",
-              "source": "경북매일",
-              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBEbEp3VGR0QTdNSTk4dUZSUXFaaEdCZ184NWdwbTRIbEFKbDlHMktiSXZ3cnRUZTF2RWRyS3VVMG9yMEhzNGlvckt5c0NWeHVBRXkxeG9XVjdHUQ?oc=5",
-              "published": "2026-10-16T22:08:00+09:00"
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55ZG5qNVB6WHhwZmZYVXc4eGJfakxEMTdMRk1SSjdSVHZOUm1maXM2WmxYYWdFQUNkeVRxMnhwMm5sUTJXbDZ5ZDRBeWtwdllua1UwdFZ1al9Tdw?oc=5",
+              "published": "2026-10-17T18:06:38+09:00"
             }
           ]
         },
         {
           "stock": "한화에어로스페이스",
           "ticker": "012450",
-          "title": "한화에어로스페이스 - 연기금 매수에 급등",
-          "body": "한화에어로스페이스는 연기금의 코스피 매수세에 힘입어 +10.43% 오른 <b>900,000원</b> 마감.",
+          "title": "한화에어로스페이스 - 美 오스탈USA 인수 추진",
+          "body": "한화에어로스페이스는 미국 오스탈USA 인수 협상을 본격화하며 군함·잠수함 사업 확대를 노린다는 소식에 +10.43% 오른 <b>900,000원</b> 마감. 한편 한화의 KAI 지분 15.89% 처리를 둘러싸고 방산 독점이냐 생태계 종속이냐는 논란과 KAI 노조의 반발도 이어지는 모습이다.",
           "pct": 10.43,
           "price": 900000.0,
           "currency": "KRW",
@@ -479,8 +472,8 @@
               "pct": 6.5,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "장 초반 급등 출발",
-              "text": "장 시작부터 강한 매수세가 몰리며 90만원선 회복 소식과 함께 급등세로 출발함"
+              "title": "강한 상승 출발",
+              "text": "오스탈USA 인수 협상 소식이 전해진 가운데 강한 상승세로 장을 시작함"
             },
             {
               "time": "10:30AM",
@@ -488,8 +481,8 @@
               "pct": 9.08,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "오전 상승폭 확대",
-              "text": "글로벌 원팀 전략과 오스탈 인수 추진 소식 속에 오전 내내 상승폭이 빠르게 커짐"
+              "title": "상승폭 더 확대",
+              "text": "오전 중반까지 상승세가 이어지며 두 자릿수에 가까운 상승폭으로 커짐"
             },
             {
               "time": "1:00PM",
@@ -497,8 +490,8 @@
               "pct": 10.18,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "상승세 더욱 가팔라짐",
-              "text": "점심 무렵까지 매수세가 지속되며 두 자릿수 상승률에 근접하는 강세를 이어감"
+              "title": "두 자릿수 상승 지속",
+              "text": "KAI 지분 관련 이슈 속에서도 상승세가 꺾이지 않고 두 자릿수대를 이어감"
             },
             {
               "time": "마감",
@@ -506,40 +499,40 @@
               "pct": 10.43,
               "is_close": true,
               "date": "2026-10-16",
-              "title": "상승폭 더 확대되며 마감",
-              "text": "오후 들어서도 매수세가 꺾이지 않으며 하루 중 가장 높은 상승률로 거래를 마침"
+              "title": "상승폭 유지하며 마감",
+              "text": "오후 상승 흐름을 그대로 이어가며 하루 중 가장 높은 상승폭으로 마감함"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "연기금 코스피 매수…한화에어로스페이스 주가 7%대 상승 : 한국증시",
-              "original": "연기금 코스피 매수…한화에어로스페이스 주가 7%대 상승 : 한국증시",
-              "source": "재경일보",
-              "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5Ya2M1QmFQeVgwaXpReVR3cjgzdUlvRi11bV9GVVZfMVFzN2gwMWxpaGNEWGNUN0ZJb1c1ZjNMX0JXNXZFMHJfRGZmVQ?oc=5",
-              "published": "2026-10-16T19:40:06+09:00"
+              "title": "한화 KAI 지분 15.89%…정부는 왜 판단 미루나",
+              "original": "한화 KAI 지분 15.89%…정부는 왜 판단 미루나",
+              "source": "자본시장뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB5Z2VWSTB6aEZsRzRuS2dJZDJjTXNkUmg2Znh0TVFuOXpCSEl2dGQzbDdoa0tTSjlvWlJKeEFZY0JNaFRvTzVoNE5Lc2xHZU5saHFRckxVS1J6SGJ0dVZmSklkcHlUNlk?oc=5",
+              "published": "2026-10-17T16:00:00+09:00"
             },
             {
-              "title": "\"대전노동청, 한화에어로 잇단 폭발 사고 감독 미비\" 질타",
-              "original": "\"대전노동청, 한화에어로 잇단 폭발 사고 감독 미비\" 질타",
-              "source": "뉴시스",
-              "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5LT3k1SUxtbFJNbmxFLWZkR0ltNzIyWnRjN3FZemx0NEl0QU9YLU9rTDBWVFBSVjZqTEh4MVdwYmZXSXV4S3JVNnhKOGpFRE1US1pJdkxQWi0tWGNoeHdEaXhxc1ozNWhGSVBJaWRQWVlvZ1lNWnFmeNIBeEFVX3lxTE5LT3k1SUxtbFJNbmxFLWZkR0ltNzIyWnRjN3FZemx0NEl0QU9YLU9rTDBWVFBSVjZqTEh4MVdwYmZXSXV4S3JVNnhKOGpFRE1US1pJdkxQWi0tWGNoeHdEaXhxc1ozNWhGSVBJaWRQWVlvZ1lNWnFmeA?oc=5",
-              "published": "2026-10-16T17:46:54+09:00"
+              "title": "\"방산 독점이냐 생태계 종속이냐\"···한화 '글로벌 원팀'·KAI 노조 '반발'",
+              "original": "\"방산 독점이냐 생태계 종속이냐\"···한화 '글로벌 원팀'·KAI 노조 '반발'",
+              "source": "서울파이낸스",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE01bWVaNWxvb2NvQUR3U0R2RzJlSzYxMlJPMkYwWUpyR25pQjRyMDYtcjF1Y0FwLXp2N1V1LUpmZ3h5YWo4dmpNdGpUa1NhSHFxY1ZVLWt3bGE0eEdmQzZUbldsTmRBZnFVcHc?oc=5",
+              "published": "2026-10-17T09:30:00+09:00"
             },
             {
-              "title": "경남도의회 경제환경위, 방산기업·전통시장 찾아 현장 목소리 청취",
-              "original": "경남도의회 경제환경위, 방산기업·전통시장 찾아 현장 목소리 청취",
-              "source": "스마트비즈",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wN05KQUkwaG1CX21wTk5OUWpDdlFjVHpqQUxjNkRITENRWDhSUng4ZDJ0WC1DOW80bnoyMEFycTI1TlpsQU5URjh1Y3ZWQlJNYW9VVGNxRk1vd2V6UEV0MGtKaTlzRDF5R3hLVQ?oc=5",
-              "published": "2026-10-16T17:45:52+09:00"
+              "title": "한화, 美 오스탈USA 인수 협상 본격화…군함·잠수함 사업 확대 노린다",
+              "original": "한화, 美 오스탈USA 인수 협상 본격화…군함·잠수함 사업 확대 노린다",
+              "source": "더퍼블릭",
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5WQ2xQU2k2Wkx4REVTa2JsOGtHa3FsRFJwM1ViZnZsS3NtanpjZXUwT1lKcl9LRGZPXzZhQ3ZDbVpmdExhTXpZTktfNlJwVHhoeW5ickE0dVRFREhyeXB1b25MT2NhYVNSeVZCMlc2NNIBb0FVX3lxTE5WQ2xQU2k2Wkx4REVTa2JsOGtHa3FsRFJwM1ViZnZsS3NtanpjZXUwT1lKcl9LRGZPXzZhQ3ZDbVpmdExhTXpZTktfNlJwVHhoeW5ickE0dVRFREhyeXB1b25MT2NhYVNSeVZCMlc2NA?oc=5",
+              "published": "2026-10-17T09:25:21+09:00"
             }
           ]
         },
         {
           "stock": "LG전자",
           "ticker": "066570",
-          "title": "LG전자 - 무선 TV 기술력 호평",
-          "body": "LG전자는 무선 월페이퍼 TV가 미국 타임지 '올해 최고 발명품'에 선정되고 13년 연속 올레드 1위 기술력을 인정받으며 +3.14% 오른 <b>170,700원</b> 마감.",
+          "title": "LG전자 - 재료 없이 강세",
+          "body": "LG전자는 뚜렷한 재료 없이 +3.14% 오른 <b>170,700원</b> 마감.",
           "pct": 3.14,
           "price": 170700.0,
           "currency": "KRW",
@@ -551,8 +544,8 @@
               "pct": 2.84,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "장 초반 강세 출발",
-              "text": "장 시작과 함께 매수세가 유입되며 완만한 상승 흐름으로 하루를 시작함"
+              "title": "장 초반 상승 출발",
+              "text": "장 초반부터 오름세로 출발하며 완만한 상승 흐름을 보여줌"
             },
             {
               "time": "10:30AM",
@@ -560,8 +553,8 @@
               "pct": 3.75,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "오전 상승폭 확대",
-              "text": "오전 중반까지 오름세가 이어지며 상승폭이 점차 커지는 흐름을 이어감"
+              "title": "상승폭 소폭 확대",
+              "text": "오전 중반까지 상승세가 이어지며 장 초반보다 상승폭이 조금 더 커짐"
             },
             {
               "time": "1:00PM",
@@ -569,8 +562,8 @@
               "pct": 5.14,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "장중 고점 근접",
-              "text": "베터 초이스 어워드 수상 소식이 전해진 가운데 오름폭이 하루 중 가장 커짐"
+              "title": "장중 고점 기록",
+              "text": "오후 들어 상승폭이 더욱 확대되며 하루 중 가장 높은 수준에 도달함"
             },
             {
               "time": "마감",
@@ -578,40 +571,40 @@
               "pct": 3.14,
               "is_close": true,
               "date": "2026-10-16",
-              "title": "오후 들어 상승폭 축소",
-              "text": "타임지 최고 발명품 선정 소식에도 장중 고점 대비 오름폭이 줄어든 채 마감함"
+              "title": "상승폭 상당부분 반납",
+              "text": "장 후반 들어 오후 고점 대비 상승분을 상당폭 반납하며 오름폭이 줄어듦"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "[심층분석] LG전자 무선 월페이퍼 TV, 초슬림 설계에서 무선 전송까지…프리미엄 OLED의 경쟁축 바뀐다",
-              "original": "[심층분석] LG전자 무선 월페이퍼 TV, 초슬림 설계에서 무선 전송까지…프리미엄 OLED의 경쟁축 바뀐다",
-              "source": "뉴스밸류",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XMjZxVjZXVVJsaUVvSXhFTm42U0xneUV4dGc2ODl0QjRLbUhOZXdIbDhSWks2azlWaHVVTC12dHpvemdiWi1YUUo2UjFrQkdrX3RPMkt4WXVHYzBvSm1RcWVPMlU5YzJDc1E?oc=5",
-              "published": "2026-10-16T22:14:18+09:00"
+              "title": "우리집 냉장고·TV가 해킹 통로?…가전 보안 ’빨간불’",
+              "original": "우리집 냉장고·TV가 해킹 통로?…가전 보안 ’빨간불’",
+              "source": "연합뉴스TV",
+              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBrOUJfMU83QWdYYmRxdjdZa3c1VjFmU2ZKdzlDbHNCSkFXbHFKYUpUZmtfaHRIMlN3YzdoVzJINlViT2FsNXgzRlVpTTdWempKb3FSYTllZUZ6UUJfT0lrVDBFTGFydXM?oc=5",
+              "published": "2026-10-17T19:11:00+09:00"
             },
             {
-              "title": "LG 무선 TV, 미국 타임 선정 '올해 최고 발명품'…‘13년 연속 올레드 1위’ 기술력 집약 평가",
-              "original": "LG 무선 TV, 미국 타임 선정 '올해 최고 발명품'…‘13년 연속 올레드 1위’ 기술력 집약 평가",
-              "source": "비즈월드",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE01d2dUNjFmOVJGMFFiUngzbVBKd2Z2OWwtV0hFTVV3UXpnWGVUSjRhUmlIYUN1bndXSFVUQjNtRUZYU3FkV0RCZGJiU2V0TE1IRnZMWWt6LUh4ZjljbVlyai04dm5nNTlvMnc?oc=5",
-              "published": "2026-10-16T20:27:00+09:00"
+              "title": "“난방 바람이 몸에 닿아요”…사람 비껴 방 안쪽으로",
+              "original": "“난방 바람이 몸에 닿아요”…사람 비껴 방 안쪽으로",
+              "source": "비건뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB3MG10Sk1UQUlqZi15akhCSGVsQzNPMjFRcEdHTktfZUF3dGZCa0t1cE9XUm50MzFJczRYNktXR0pmelZTTjd0V1YtY3BvN3BUN2dzcHFmOUEwWXVxRFJuUHFLbTBoUQ?oc=5",
+              "published": "2026-10-17T17:23:50+09:00"
             },
             {
-              "title": "LGD·엔솔, 불성실공시법인 지정 예고…횡령·배임 지연 공시",
-              "original": "LGD·엔솔, 불성실공시법인 지정 예고…횡령·배임 지연 공시",
-              "source": "지디넷코리아",
-              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83T29SYWpHWXdhMHBYUGx1aWxvNkJ5bF9SVTAtN3FYZWNweXdoLWZmSURvZzZzZDhQdVA4NzEtdnFSbXF5R1oxMWVrX09VWElaSm5fVjh3?oc=5",
-              "published": "2026-10-16T19:14:41+09:00"
+              "title": "세탁기... 아이돌?",
+              "original": "세탁기... 아이돌?",
+              "source": "브런치",
+              "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5YTDc1ZldSWUI2MGZFYVR6TnRLUmhoTEFYeldqZjhDRlVnbHVPc1VpTXBPTGZqMTJhM2FmaGpSbURJOE9COS1hM0F3TjQzV191?oc=5",
+              "published": "2026-10-17T17:15:28+09:00"
             }
           ]
         },
         {
           "stock": "현대차",
           "ticker": "005380",
-          "title": "현대차 - 주가 급락 전망에도 급등",
-          "body": "현대차는 정의선 회장에게 주가 하락이 오히려 이득일 수 있다는 분석이 나온 가운데 +8.46% 오른 <b>314,000원</b> 마감.",
+          "title": "현대차 - 트럼프 조지아 투자 발표 효과",
+          "body": "현대차는 트럼프 대통령이 중간선거 유세에서 현대차그룹의 조지아 7500억원 투자를 성과로 발표한 소식에 +8.46% 오른 <b>314,000원</b> 마감. 다만 해당 투자 모금액은 민주당이 압도했다는 평가도 함께 나왔다.",
           "pct": 8.46,
           "price": 314000.0,
           "currency": "KRW",
@@ -623,8 +616,8 @@
               "pct": 5.01,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "장 초반 급등 출발",
-              "text": "장 시작부터 강한 매수세가 유입되며 큰 폭의 상승세로 하루를 시작함"
+              "title": "강한 상승 출발",
+              "text": "장 초반부터 강한 매수세가 유입되며 상승폭을 크게 키우며 출발함"
             },
             {
               "time": "10:30AM",
@@ -632,8 +625,8 @@
               "pct": 7.6,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "오전 상승폭 확대",
-              "text": "새만금 태양광 투자 소식이 전해진 가운데 오전 내내 상승폭이 꾸준히 커짐"
+              "title": "상승폭 지속 확대",
+              "text": "오전 중반까지 오름세가 이어지며 상승폭이 한층 더 커짐"
             },
             {
               "time": "1:00PM",
@@ -641,8 +634,8 @@
               "pct": 10.02,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "상승폭 두 자릿수 진입",
-              "text": "제로원 스프린트 선정 소식이 전해진 이후 상승률이 두 자릿수까지 확대됨"
+              "title": "두 자릿수 상승 돌파",
+              "text": "트럼프發 조지아 투자 발표 기대 속 두 자릿수대 상승폭까지 올라섬"
             },
             {
               "time": "마감",
@@ -650,39 +643,38 @@
               "pct": 8.46,
               "is_close": true,
               "date": "2026-10-16",
-              "title": "오후 들어 상승폭 축소",
-              "text": "제네시스 대규모 리콜 소식이 전해진 뒤 장중 고점 대비 오름폭이 줄며 마감함"
+              "title": "상승폭 일부 반납",
+              "text": "장 후반 들어 고점 대비 상승분을 다소 반납했으나 높은 오름세를 유지 중"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "애플은 신규 수주 제한, 현대차는 2086곳 ESG 진단…2027년, 공급망 리스크 대응은?",
-              "original": "애플은 신규 수주 제한, 현대차는 2086곳 ESG 진단…2027년, 공급망 리스크 대응은?",
-              "source": "임팩트온",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TS05UMU5vdzlTYXdfbm5NXzFiZElQMzg1RXNwMFlVVGh4Y1NiX2dydVVHb0EtYWVIbTFmQTFrVmN5RXdVY1RlRkFSQU9jUHIwZXJjMkpLbHpmWXdnc0hGdGVQejhSWTVZM1E?oc=5",
-              "published": "2026-10-16T22:44:46+09:00"
+              "title": "트럼프, 중간선거 유세서 현대차그룹 ‘조지아 7500억 투자’ 발표",
+              "original": "트럼프, 중간선거 유세서 현대차그룹 ‘조지아 7500억 투자’ 발표",
+              "source": "ER 이코노믹리뷰",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xd1d1V25kOWJCN05udkVYbVNtVDgzeHdXZkZ6TW9nUU9wX2dKSmw1VlRSOHk5YUsyQVdUUjQ0WWZmRHhxaWhKMnloZ0x2eWo1OEVuX3IzY2VVM1hpT3dmcmJQMHFWYy02MWU0LQ?oc=5",
+              "published": "2026-10-17T19:21:06+09:00"
             },
             {
-              "title": "\"현대차 주가 60% 추락\"... 정의선 회장에겐 오히려 이득일까?",
-              "original": "\"현대차 주가 60% 추락\"... 정의선 회장에겐 오히려 이득일까?",
-              "source": "오토트리뷴",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB0SlhteDdlbnFWdVJBamlJYnlXVzgtYlhkTGFYRzRXTDZvRF8yWTNTdUxQaDJaUWRpMVhxY1NRWm1hQ0dPcW5PNjVYMmVwaUwtWTV0SVZkRmJlM1R0R1dBYVRGdHVfaFVWWTkxWkVFN2I?oc=5",
-              "published": "2026-10-16T21:58:36+09:00"
+              "title": "트럼프 \"현대차 투자\" 성과 자랑...모금액은 민주당이 압도",
+              "original": "트럼프 \"현대차 투자\" 성과 자랑...모금액은 민주당이 압도",
+              "source": "YTN",
+              "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1SWFp4UXhYazBKbXdvNV84Q0F4b0pfQ2xMcDFlZ0xVT2djdUNjak12WFdwbjQxMWxmWUo0cGNZT0lZVUFYVlNDbGgzWjE0cXVwQm52Z1FneGpTaFRleGc?oc=5",
+              "published": "2026-10-17T18:49:00+09:00"
             },
             {
-              "title": "전북특별자치도-새만금개발청, 현대차 투자 지원 위한 실무협의체 회의 개최",
-              "original": "전북특별자치도-새만금개발청, 현대차 투자 지원 위한 실무협의체 회의 개최",
-              "source": "퍼블릭뉴스통신",
-              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBteVhQT2pCMlJ3SmdUdVIxaHB6cUxFQklpZW1kMWpXS0QtOGVIWXpabGFXZ2d0QU5YWnBtcEx3NEJwczNQZE9jSDFjaHJ2X2NkTVZ2M0tjaTAyQ0xIcDVBSHRmeDBGa3F5WEJ3?oc=5",
-              "published": "2026-10-16T21:56:26+09:00"
+              "title": "현대차, ‘2027 쏘나타 디 엣지’ 출시",
+              "original": "현대차, ‘2027 쏘나타 디 엣지’ 출시",
+              "source": "컨슈머뉴스",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1RZjJjSGgyZnFaVkhSMHV6cFZmV1BjdlZGVWY3UGN1azkzbHliTXlxSzBRSjlRSGlsSTI4VThIVnBGc1k4LU9oSGtIZG1CYnMtdkUtYjgyVlBfSW1GY1Fwc0NBLVZqaGRCYWE3bXpyVUc?oc=5",
+              "published": "2026-10-17T17:50:14+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-10-16-kr.md",
-      "refreshed_at": "2026-10-16 23:38:49 KST",
-      "slots_refreshed_at": "2026-10-17 15:51:31 KST"
+      "markdown": "briefings/2026-10-17-kr.md",
+      "refreshed_at": "2026-10-17 20:32:52 KST"
     }
   }
 }
