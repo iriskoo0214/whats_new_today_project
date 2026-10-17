@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-18 06:24:12 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-10-18 07:00:57 KST",
+  "refreshed": [
     "us"
   ],
-  "default": "kr",
+  "slots_refreshed": [],
+  "default": "us",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
-      "label": "미국 증시 요약 2026. 10. 17. 7:00AM",
+      "label": "미국 증시 요약 2026. 10. 18. 7:00AM",
       "chips": [
         "전체",
         "IBM",
@@ -22,21 +22,14 @@
       ],
       "next": "kr",
       "headline": "해외 5종목 중 0종목 상승, 5종목 하락 — IBM이 -0.85%로 낙폭이 가장 작았고 아이온큐가 -8.94%로 가장 부진했습니다.",
-      "market_headline": "AI 부채 우려·유가 급등에 나스닥 2.1%대 급락",
-      "market_card": {
-        "title": "3대 지수 동반 하락 마감...나스닥 2%대 급락하며 6월 이후 최악 주간",
-        "bullets": [
-          "반도체 급락 속 속슬 12.7% 폭락",
-          "브렌트유 109달러대 5개월만 최고치",
-          "필리 지수 20년래 최장 하락세 지속"
-        ]
-      },
+      "market_headline": "",
+      "market_card": null,
       "cards": [
         {
           "stock": "IBM",
           "ticker": "IBM",
-          "title": "IBM - 양자 오류 감소 확인에도 하락",
-          "body": "IBM은 퀀텀X랩스의 양자 프로세서 테스트에서 오류 감소가 확인됐다는 소식에도 -0.85% 내린 <b>232.14달러</b> 마감. 양자 컴퓨팅 위험에 대비된 조직이 10%도 안 된다는 경고가 나오며 산업 전반의 준비 부족 우려가 부각된 모습이다.",
+          "title": "IBM - 재료 없이 소폭 하락",
+          "body": "IBM은 특별한 악재 없이 -0.85% 내린 <b>232.14달러</b> 마감. 지멘스와의 나노스택 연구 추진 소식에도 공정가치 대비 저평가 여부가 거론되는 수준에 그쳤다.",
           "pct": -0.85,
           "price": 232.13999938964844,
           "currency": "USD",
@@ -48,8 +41,8 @@
               "pct": -0.09,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "소폭 약세 흐름",
-              "text": "지멘스와 나노스택 연구 소식이 전해졌지만 주가는 눈에 띄는 반응 없이 약보합권에서 움직임"
+              "title": "장중 약보합 흐름",
+              "text": "지멘스와 나노스택 연구 소식 속 저평가 논의가 나왔으나 주가는 큰 움직임 없이 소폭 하락세를 유지함"
             },
             {
               "time": "마감",
@@ -57,33 +50,33 @@
               "pct": -0.85,
               "is_close": true,
               "date": "2026-10-16",
-              "title": "낙폭 소폭 확대",
-              "text": "장중 약세를 보이던 흐름이 이어지며 낙폭이 조금 더 커진 채로 하루를 마무리"
+              "title": "낙폭 확대 마감",
+              "text": "장중 미세한 약세에서 벗어나지 못하고 오후 들어 하락폭이 더 커지며 하루를 마무리함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "Quantum X Labs, IBM 양자 프로세서 테스트서 오류 감소 확인",
-              "original": "Quantum X Labs, IBM 양자 프로세서 테스트서 오류 감소 확인",
-              "source": "Investing.com 한국어",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NN2dxODB5WXNlM2lkMXVmZml1Znk5TlpPQnpUamZtbnpYblRXYWF6dWJXdzhYVVU5Wk9zS1ZGOVhoUnM5RlpLUGFJcm9jMUFaVTZTYjBSY2ZHSHY2RkU1TTdSWTJlcVpGOF9KT0dlSkE?oc=5",
-              "published": "2026-10-16T21:01:00+09:00"
+              "title": "[Story in Book] 스티브 잡스와 IBM 세기의 동맹은 왜 막판에 틀어졌나",
+              "original": "[Story in Book] 스티브 잡스와 IBM 세기의 동맹은 왜 막판에 틀어졌나",
+              "source": "디지털투데이",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8wYW1aTUpIMTZoVk1pZ0tKOEZIa0QyeXBZVVdZNE5ZOFdxSW1JbDNqWnptMXRZZ1pEZ19laXZBYVp6UzYwemRPaVo1MzlUeHVGX0dxX0RIM2I0cUdBY1kyMlAtOHc3MjZCMGdEQU5vdjZsRTQ?oc=5",
+              "published": "2026-10-17T12:01:18+09:00"
             },
             {
-              "title": "IBM: 양자 컴퓨팅으로 인한 위험에 대응할 준비가 된 조직은 10%도 채 되지 않습니다.",
-              "original": "IBM: 양자 컴퓨팅으로 인한 위험에 대응할 준비가 된 조직은 10%도 채 되지 않습니다.",
-              "source": "Vietnam.vn",
-              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQS0VzYXFtTzJaSEVnXzBMSU5fRDlnRkJkUWZBX2wtcWZhYUdqZml5Rm4tLTNIUU5YaHl0ZnphbHFzTGlwdW9xMDlocEhHYWxNRHd0TTJKMGhtbGVzdk5wRlhJM2hhOUFMZTNkZGRVNm9feXdtMHpyYnpTMXNvUFVBRVRNVS10Z1VTYzFHbHJLc09ITV9teXFGM2J0bw?oc=5",
-              "published": "2026-10-16T09:37:37+09:00"
+              "title": "IBM(NYSE:IBM) 지멘스와 나노스택 연구 추진, 아직 공정가치 대비 낮게 거래될까?",
+              "original": "IBM(NYSE:IBM) 지멘스와 나노스택 연구 추진, 아직 공정가치 대비 낮게 거래될까?",
+              "source": "Simply Wall Street",
+              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSDlId1hvelo4TWkwVDU1cWw3WEkwdi1xTmdTYmFmRHVjdUNHa2U2c2dCcDljZGdMcWJseTRGUFZVMEU1T1p4aDF6Y25ZUlZMc1RFTDYtQXc2Y2d5TEdrVWwzQWIxTWFXZ2JQMXNmN2tQQ05VLWJ5eGtLY05RVFNfN2ZuNV96bnBvamFFTk5kRS1fdXd5LU1scUhKMGNHaWtxZElITS1LbWtyWHltRW1F0gGvAUFVX3lxTE5IOUh3WG96WjhNaTBUNTVxbDdYSTB2LXFOZ1NiYWZEdWN1Q0drZTZzZ0JwOWNkZ0xxYmx5NEZQVlUwRTVPWnhoMXpjbllSVkxzVEVMNi1BdzZjZ3lMR2tVbDNBYjFNYVdnYlAxc2Y3a1BDTlUtYnl4a0tjTlFUU183Zm41X3pucG9qYUVOTmRFLV91d3ktTWxxSEowY0dpa3FkSUhNLUtta3JYeW1FbUU?oc=5",
+              "published": "2026-10-17T07:05:22+09:00"
             }
           ]
         },
         {
           "stock": "마이크로소프트",
           "ticker": "MSFT",
-          "title": "마이크로소프트 - 마이아 활용 확대에도 하락",
-          "body": "마이크로소프트는 자체 AI 칩 '마이아'를 주요 추론 시스템으로 활용한다는 소식에도 -1.93% 내린 <b>529.05달러</b> 마감. 7만5000개 조직을 노린 피싱망을 차단했다는 소식도 전해지며 보안 역량이 재조명된 모습이다.",
+          "title": "마이크로소프트 - 재료 없이 하락",
+          "body": "마이크로소프트는 뚜렷한 악재 없이 -1.93% 내린 <b>529.05달러</b> 마감. 코파일럿용 앤트로픽 모델에 연 20억달러를 지출한다는 보도가 나오며 AI 비용 부담에 대한 시장의 관심이 커진 모습이다.",
           "pct": -1.93,
           "price": 529.0499877929688,
           "currency": "USD",
@@ -91,12 +84,12 @@
           "slots": [
             {
               "time": "11:00PM",
-              "price": 537.3599853515625,
-              "pct": -0.39,
+              "price": 537.5800170898438,
+              "pct": -0.34,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "연구·투자 소식 속 약세",
-              "text": "AI 기상 예측 연구와 앤트로픽 모델 투자 소식이 나왔지만 주가는 하락세를 벗어나지 못함"
+              "title": "상승분 되돌림",
+              "text": "AI 기상 예측 연구와 앤트로픽 모델 지출 소식에도 매수세가 이어지지 못하며 약세로 전환됨"
             },
             {
               "time": "마감",
@@ -104,40 +97,40 @@
               "pct": -1.93,
               "is_close": true,
               "date": "2026-10-16",
-              "title": "낙폭 확대로 마감",
-              "text": "바이낸스 선물 상장 소식에도 매수세가 붙지 않으며 하루 중 낙폭이 가장 크게 벌어진 채 마감"
+              "title": "낙폭 키우며 마감",
+              "text": "장 후반 들어 하락폭이 더 벌어지며 전일 대비 큰 폭의 하락세로 거래를 마침"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "마이크로소프트, 마이아를 주요 AI 추론 시스템으로 활용한다",
-              "original": "마이크로소프트, 마이아를 주요 AI 추론 시스템으로 활용한다",
-              "source": "elec4",
-              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5FaEluLXN1SzA1TlpuOGpPMko1M1BjUnZHRlNRWENfMktZUWRhNkZUTU5tcm5UQVpCSVBGcURjMElWdlUxdDR4cWxROG9mbGk2UzM5d3VZYV9pTzVTdnBTRnptSmp6WXRhWE9adjV3?oc=5",
-              "published": "2026-10-17T03:27:15+09:00"
+              "title": "Microsoft Research, Nature에 AI 기상 예측 연구 발표",
+              "original": "Microsoft Research, Nature에 AI 기상 예측 연구 발표",
+              "source": "Unite.AI",
+              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcmowQXZfNGlva2lDbDBoNmREMndwbHpYSzdQRThzenpFZmZJRmVodVNpUkJFV1Ffb1FvMXZWQndXN3RNdm5Pc0RTOE1TSDJGcExqVTlqUVpEZ3F5azJEUmVBLS1kU3lGLTB3MmIyQkxOZE5taTZxbi1qOTFBbURmR2dwZnFRSW9fTURscHJkNFpHZ0FBWVlR?oc=5",
+              "published": "2026-10-18T05:32:12+09:00"
             },
             {
-              "title": "7만5000개 조직 겨눈 피싱망, 마이크로소프트가 차단",
-              "original": "7만5000개 조직 겨눈 피싱망, 마이크로소프트가 차단",
+              "title": "마이크로소프트, 코파일럿용 앤트로픽 모델 연 20억달러 지출 보도",
+              "original": "마이크로소프트, 코파일럿용 앤트로픽 모델 연 20억달러 지출 보도",
               "source": "토큰포스트",
-              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB0N1A3RG5HYXN6SDFxNVdTV1lwRXc4NDJHMTI5S2xKSTYydHQ0X3JnVWp4cDZMeHV6bzhqSHgxeTY3N3pOX2dCNk94SmZXR3JvZnBr?oc=5",
-              "published": "2026-10-17T00:28:22+09:00"
+              "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1hOGUtemxrY2lCSTBmZmdqcGQ3N2xPbUlzUWRkRGdFSkhkcm1ZcnFWZE1fZ25vVEtJMDRLaE83cWNWNDNERU1tdkJsOEVod0lp?oc=5",
+              "published": "2026-10-18T05:12:13+09:00"
             },
             {
-              "title": "마이크로소프트와의 전력 계약 발표 후 NiSource 주가 상승",
-              "original": "마이크로소프트와의 전력 계약 발표 후 NiSource 주가 상승",
-              "source": "Investing.com 한국어",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1vTUFuWFNHdGFBYlRPcm1FSkVNazFneWttX19YVm5zZFpfaVN5ak5aeElSN3M4ZmFZeU81Y3VsTi1YWFM1S2M4ajByUi1BOVk2VERHcEIwb3EteS1MWHc2NlJNS25TdkFzRmZTckpzMFM?oc=5",
-              "published": "2026-10-16T23:55:00+09:00"
+              "title": "마이크로소프트($MSFT) 주가 연동 선물, 바이낸스 상장",
+              "original": "마이크로소프트($MSFT) 주가 연동 선물, 바이낸스 상장",
+              "source": "토큰포스트",
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE43VklUOE5nTVRYUjIzMmdwdUNLVEE5ZlMzakJmQUYtZDdTZlA1d2hXREVDZHllel84Sm9PS28zck9uLUxER1ZSb0JoSG9nQW5TTkM4dUFocWhjeERlN3A3Nw?oc=5",
+              "published": "2026-10-17T21:58:34+09:00"
             }
           ]
         },
         {
           "stock": "아이온큐",
           "ticker": "IONQ",
-          "title": "아이온큐 - 케임브리지 센터 개소에도 급락",
-          "body": "아이온큐는 케임브리지 양자혁신센터 개소와 256큐비트 인프라 공개 소식에도 -8.94% 내린 <b>31.28달러</b> 마감. 엘리시티 인수를 둘러싼 기회와 부담이 함께 거론되며 투자심리가 흔들린 모습이다.",
+          "title": "아이온큐 - 양자컴퓨터주 동반 급락",
+          "body": "아이온큐는 미국 양자컴퓨터주가 일제히 하락한 가운데 -8.94% 내린 <b>31.28달러</b> 마감. 인플렉션이 9%대, 호라이즌 퀀텀이 10%대 급락하는 등 업종 전반의 투자심리가 위축된 모습이다.",
           "pct": -8.94,
           "price": 31.280000686645508,
           "currency": "USD",
@@ -149,8 +142,8 @@
               "pct": -3.99,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "양자컴주 동반 약세",
-              "text": "양자컴퓨터주 전반이 동반 하락하는 가운데 범블 인수 소식 이후에도 낙폭을 키움"
+              "title": "급락세 지속",
+              "text": "양자컴퓨터주 전반의 동반 하락 흐름 속에서 낙폭이 좁혀지지 못하고 장중 내내 약세를 이어감"
             },
             {
               "time": "마감",
@@ -158,40 +151,40 @@
               "pct": -8.94,
               "is_close": true,
               "date": "2026-10-16",
-              "title": "낙폭 더 확대되며 마감",
-              "text": "장중 이어지던 큰 폭의 하락세가 오히려 더 깊어지며 하루 중 가장 큰 낙폭으로 마감"
+              "title": "낙폭 더 커져 마감",
+              "text": "범블 인수 소식에도 반등하지 못하고 오히려 하락폭이 확대되며 하루 중 가장 낮은 수준에서 마무리됨"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "IonQ(아이온큐) 급락, 저는 이렇게 봤습니다｜엘리시티 인수의 기회와 부담! Regal Summer Movie Express 2026 (G0x2JlShUj)",
-              "original": "IonQ(아이온큐) 급락, 저는 이렇게 봤습니다｜엘리시티 인수의 기회와 부담! Regal Summer Movie Express 2026 (G0x2JlShUj)",
-              "source": "Unisba Media",
-              "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNY3ptYU5sXzhKSkdNNE5pdE9FaFg0bzhZSUJHbEwwd1Vfa0ZoWXdLRXdaQ3NWTWFSeEhlSFd4RGxqbEJxN0NCWDUtejRrN1VXWHJ4ZXc3UVBJZHVkQ1hmTDFsX19WMHhvUm5nYi02ZWVjczYwZXZ6MkRyTXNtaXR5NUgtaHdFR1k?oc=5",
-              "published": "2026-10-17T02:30:34+09:00"
+              "title": "아이온큐·범블 13억달러 거래…프루프포인트, 베로니스 인수",
+              "original": "아이온큐·범블 13억달러 거래…프루프포인트, 베로니스 인수",
+              "source": "토큰포스트",
+              "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBUNVFINmNYUlRiNHpRU0l5bVh0dlhzdWZRSjJoYko0V3JTa29uUUdpTU5GTjRiLXlYb25VM2lwWTd4dFBGbHltazZhdlMzUGpwdUdfaDd2WGw?oc=5",
+              "published": "2026-10-18T05:29:06+09:00"
             },
             {
-              "title": "아이온큐-케임브리지 양자혁신센터 개소: 256큐비트가 바꿀 금융·의료 지형과 한국의 선택",
-              "original": "아이온큐-케임브리지 양자혁신센터 개소: 256큐비트가 바꿀 금융·의료 지형과 한국의 선택",
-              "source": "대한청년일보",
-              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vOU83Sm5NYk1sVEtRQ1dFcUp0ZGxhdm5MSGJ5MGRrWk1rbkV6UGdqN1IwdFE2dXNaYXpRZkxiVXlmZXBfUEowTDJvd3RGODZXajRUdEFR?oc=5",
-              "published": "2026-10-17T01:11:30+09:00"
+              "title": "미국 양자컴퓨터주 일제히 하락…아이온큐 8%대↓·인플렉션 9%대↓, 호라이즌 퀀텀 10%대 급락",
+              "original": "미국 양자컴퓨터주 일제히 하락…아이온큐 8%대↓·인플렉션 9%대↓, 호라이즌 퀀텀 10%대 급락",
+              "source": "CBC뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBER29EYlhBRmU0cF9kVW0xOW5UcnhzcjRUVjNhUU9sZWYteGtWWUxQZ0FPZ3J2c091NmxuQ185eDNXX0Z1SlRXcF9TcEtQbTRUWUJ6bGh5UENQMmJKZE1ZcnhpZ0tUYy1m?oc=5",
+              "published": "2026-10-18T00:15:00+09:00"
             },
             {
-              "title": "아이온큐-케임브리지 양자혁신센터 개소, 256큐비트 인프라로 산업 상용화 경쟁 가속",
-              "original": "아이온큐-케임브리지 양자혁신센터 개소, 256큐비트 인프라로 산업 상용화 경쟁 가속",
-              "source": "한국공공정책신문",
-              "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBFcWxPUzNXa21LY3BZWDhvdVlJM1JrenZNNjk0cXQ4dHVLRnBRUlB6c1J5dFpVcDhReGJMNEgyWnlqbjg?oc=5",
-              "published": "2026-10-17T01:08:51+09:00"
+              "title": "[김대호 진단] 반도체 열전(66) 아이온큐(Q).. 양자컴 D-데이",
+              "original": "[김대호 진단] 반도체 열전(66) 아이온큐(Q).. 양자컴 D-데이",
+              "source": "글로벌이코노믹",
+              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWGUwbGFaTnRmQmFfdDQ2T0ROUXZhRzhiVFJQaUw4b1p4R2dSYnE4d2JhandhMWlmNWpUTjg1bEx5dGl6WUFHY0U1Tmk2UG9sU1VZb2FSMVphOW1laFVFV19peXNJanlKcy1PS056VEhBLVBSbGQtcDJpSXJYSGdsaG1UbnNXSDZWSEZ5OVU0MTVLOUFuQ0Vr?oc=5",
+              "published": "2026-10-18T00:00:00+09:00"
             }
           ]
         },
         {
           "stock": "엔비디아",
           "ticker": "NVDA",
-          "title": "엔비디아 - RTX 스파크 출시에도 하락",
-          "body": "엔비디아는 클라우드 연결 없이 AI를 구동하는 신제품 'RTX 스파크'를 출시했음에도 -1.43% 내린 <b>214.13달러</b> 마감. AI 활용성은 높지만 가격 부담이 크다는 평가가 나오며 반응이 엇갈린 모습이다.",
+          "title": "엔비디아 - 고점 대비 9% 하락",
+          "body": "엔비디아는 -1.43% 내린 <b>214.13달러</b> 마감했으며, 고점 대비 9% 하락한 주가가 TSMC보다 저평가됐다는 분석이 나왔다. 올해 들어 13% 상승한 수준으로, 'RTX 스파크' 등 신제품 출시에도 단기 조정이 이어지는 모습이다.",
           "pct": -1.43,
           "price": 214.1300048828125,
           "currency": "USD",
@@ -203,8 +196,8 @@
               "pct": -0.45,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "저평가 논의 속 약세",
-              "text": "고점 대비 조정과 저평가 여부를 둘러싼 분석이 나온 가운데 주가는 약세 흐름을 이어감"
+              "title": "고점 대비 조정",
+              "text": "신제품 RTX 스파크 공개와 저평가 논의가 나왔지만 주가는 완만한 약세 흐름을 벗어나지 못함"
             },
             {
               "time": "마감",
@@ -212,40 +205,40 @@
               "pct": -1.43,
               "is_close": true,
               "date": "2026-10-16",
-              "title": "낙폭 키우며 마감",
-              "text": "볼보와의 협력 소식에도 반등하지 못하고 장중 약세가 더 짙어진 채로 하루를 마무리"
+              "title": "낙폭 확대 마감",
+              "text": "장 후반으로 갈수록 하락폭이 커지며 고점 대비 조정세가 더욱 뚜렷해진 채 거래를 마침"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "엔비디아 'RTX 스파크' 출시-윈도 AI PC 시장 본격 공략",
-              "original": "엔비디아 'RTX 스파크' 출시-윈도 AI PC 시장 본격 공략",
-              "source": "포커스온경제",
-              "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE05SC14c0daODkyLVAtTm01SVFZWDF5VUFxRjczRHM0SUVtYnlVNUo2VVMtWTdYVU9BRldTcWk1bGloWGlsVndPMjVGV2pCWnh6Z2MzYnBqNHh2cmRZYmc?oc=5",
-              "published": "2026-10-17T06:56:04+09:00"
+              "title": "[엔비디아 AI PC] \"클라우드 없이 노트북서 AI 척척\"…엔비디아, 차세대 PC 'RTX 스파크' 출시",
+              "original": "[엔비디아 AI PC] \"클라우드 없이 노트북서 AI 척척\"…엔비디아, 차세대 PC 'RTX 스파크' 출시",
+              "source": "CBC뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE13Mkk3ZXhhcmM5RUhpczc5M3R6NTRZRGxqa21sRGxjMkJFOEpKeExOeW1JVmFDbnpSREpHd0FUNjBLNjZXRGtlaV9mWFctS1Rna0RYVkdUcGlmdTdBeFZuOHdtREJwbGM?oc=5",
+              "published": "2026-10-18T06:05:00+09:00"
             },
             {
-              "title": "엔비디아 ‘RTX 스파크’ 공식 출시… “AI 활용성 높지만 가격 부담”",
-              "original": "엔비디아 ‘RTX 스파크’ 공식 출시… “AI 활용성 높지만 가격 부담”",
-              "source": "IT조선",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ISy1NNi1rZExDVnJqQlhXS1RnRjJqek5VZWlGcWdueEI0WlZadDFreTg0SmQ1OFl5Sk52dEFQUmtXRFdxOFVzVlZTS0RERFZ4Sy1jTXZEd19acjhWXzJMU25jLUU0bWdFQkJxaG1oV2rSAXRBVV95cUxQWjJOcEt4LXpKQUcyNUtaREFlUmpocWRJeVBYbTJGa2ZrS1dTOHBnUE4zb1hJME1NVThxTnZOLUxRSGFuTUVISmFMbmxLb3NNeXhfaEVUUXFHX1NnUTdLMVVvRGlaSmROa0hObjJyaWVfeWo2ZQ?oc=5",
-              "published": "2026-10-17T06:05:13+09:00"
+              "title": "엔비디아 주가 고점 대비 9% 하락…TSMC보다 저평가됐나",
+              "original": "엔비디아 주가 고점 대비 9% 하락…TSMC보다 저평가됐나",
+              "source": "글로벌이코노믹",
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONWNvNTd1ZXZ2RnRhYjdwb2ZiMEJ1SUcwdDdFd3cwbVVKUXJVS21mcE5WczhucWhxN3YwY3ROaTA5VXdRU004eHdFeXdHaUd4djdEcmlybThrOFk1Zk4ySDdCOVE4WjVKMjZmRF9mSWQ4UXRRekY3Yjg5bXZZZkpUbDdGSkJxZXVS?oc=5",
+              "published": "2026-10-18T03:00:00+09:00"
             },
             {
-              "title": "엔비디아, 클라우드 연결 없이 AI 구동하는 ‘RTX 스파크’ 출시 : 기업·산업",
-              "original": "엔비디아, 클라우드 연결 없이 AI 구동하는 ‘RTX 스파크’ 출시 : 기업·산업",
-              "source": "재경일보",
-              "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBiLTItV1RnM09Mc3hTTDEwY0c0VVRaR2RiN0lxV3Y3bkJJTWJZZzczNWJYRGR5aXBXTk5GTDhQb19XdXJxNFVUMGxZWQ?oc=5",
-              "published": "2026-10-17T05:46:00+09:00"
+              "title": "엔비디아 주가, 올해 13% 상승...현재 주가는 어디쯤 와 있나",
+              "original": "Nvidia Stock Is Up 13% This Year. Where Does the Stock Stand Now?",
+              "source": "TIKR.com",
+              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSnlSanFxLUZGSERPS25RNl9BZjVHVU9PVEtBdWJfUEU0Y3lkMTg0d2dXN00wcGlJd2E2YnM1QlprV3BRX0Z4bFM1VFFDNnRSQUxRajJ2bl9nQ1BscHFodW4ySmxGc1BiUFJDTkU3V01LbzM3bllEczBnd3NmWF9yd3M3c1FBS0h3aTlRMzBaWjltb3ZfZVpn?oc=5",
+              "published": "2026-10-18T01:43:51+09:00"
             }
           ]
         },
         {
           "stock": "소파이테크놀로지",
           "ticker": "SOFI",
-          "title": "소파이테크놀로지 - 52주 최저 이후 추가 하락",
-          "body": "소파이테크놀로지는 지난 15일 52주 최저치를 기록한 데 이어 -3.58% 내린 <b>14.55달러</b> 마감. 지난 1년간 주가가 46% 하락한 가운데 27일 예정된 3분기 실적 발표가 반등의 분수령이 될지 주목되는 모습이다.",
+          "title": "소파이테크놀로지 - 52주 최저 이후 약세",
+          "body": "소파이테크놀로지는 10월 15일 52주 최저치를 기록한 이후 -3.58% 내린 <b>14.55달러</b> 마감. 지난 1년간 주가가 46% 하락한 가운데 27일 예정된 3분기 실적 발표가 반등의 분수령이 될지 시장의 관심이 모아진다.",
           "pct": -3.58,
           "price": 14.550000190734863,
           "currency": "USD",
@@ -257,8 +250,8 @@
               "pct": 1.06,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "실적 앞두고 약세",
-              "text": "52주 최저치와 실적 발표를 앞둔 매수 시점 고민이 이어지는 가운데 주가는 하락세로 출발"
+              "title": "약세 흐름 지속",
+              "text": "52주 최저치 기록 이후 실적 발표를 앞두고 저가 매수 논쟁이 이어지며 주가는 약세를 지속함"
             },
             {
               "time": "마감",
@@ -266,32 +259,31 @@
               "pct": -3.58,
               "is_close": true,
               "date": "2026-10-16",
-              "title": "저점 대비 낙폭 축소",
-              "text": "장중 큰 폭의 하락을 보였으나 마감 무렵 들어 낙폭을 일부 만회하는 모습을 보임"
+              "title": "낙폭 일부 만회",
+              "text": "장중 큰 폭의 하락세를 보였으나 마감 이후 시간외에서는 하락분을 일부 되돌리는 모습을 보임"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "소파이 주가, 10월 15일 52주 최저치 기록…10월 27일 실적 발표가 해결해야 할 과제는",
+              "title": "소파이 주가, 10월 15일 52주 최저치 기록...10월 27일 실적 발표가 풀어야 할 과제는",
               "original": "SoFi Stock Hit a 52-Week Low on October 15. Here’s What the October 27 Report Has to Settle",
               "source": "TIKR.com",
-              "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQY0NEM1p6NGRDcTZyVzlpNjFnbG9MRXBCTl9fZEViamZEMGt1VkotZWU5b2pRTXg5emZYWWJZcmZKY193ck93dktEQkhDSnRUSnA4c2d3OFpqNkhnczlLclU4Rm52MXQ5Q19fMDdJWnhvd1pGbTFRUWN4X043X0hINzk0ZnNYQXNRS29kbHAycFFMZExTSndscjA1dVFuNHRiYk1VcUl2WWplM1lSakl0TTI1OWxLQ0hKa1VF?oc=5",
-              "published": "2026-10-17T06:06:36+09:00"
+              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS2RMYkxMSTVRVmpjTl84aHhMU1VLOXhXR045TG5qaXhLdlJxc0FadG5PSTc0UVFKMnRxUWhGOTVGbVNiOTdTclBtVXlYUERnblRwMVVPRkpxN0RfbFU5ZEREVEZHV09DbWUxRmMySTZTckY1VlkxMWpTY0l5bXJfUWhDLWNrS1NCTkk5Ml9zOV9qMzNoTWNaUlN2QUtDMnlfYTdkaEs5enI3QXludHdSazZNQWNwak5lQnc?oc=5",
+              "published": "2026-10-17T09:00:00+09:00"
             },
             {
-              "title": "소파이 주가, 지난 1년간 46% 하락…지금 매수해야 할까, 3분기 실적 기다려야 할까",
+              "title": "소파이 주가, 지난 1년간 46% 하락...지금 매수할까, 3분기까지 기다릴까",
               "original": "SoFi Stock Is Down 46% Over the Past Year. Buy Now or Wait for Q3?",
               "source": "TIKR.com",
-              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaWJsSEhPSXd5Q05ZelZhUUd3T1BaR2JMU25BQk5uOXBsMUhuTlFiaHgwbDFTWlEyUW5zNkU3ZW1pZ0ZDZjZGMjZfWmhKSlhtN1dSYmhhY3I1UnRobS13d0xXWVIzTzlhYWdabEZ1QnJoNjhqNkFuZ2U1c2VUY3hsRDFob3N4MVdxQmpYWHl5bDFXQUpqRkltVw?oc=5",
-              "published": "2026-10-17T02:11:33+09:00"
+              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNS092a1dQXzZkV2stc0dqNW9uMnJUM2Fob2xPZ2hQYlhwd1NJY2ZkNllCV3FHaVVXelJ2bks1RGRDV0VicDNpWHFPdnVIMkE4N29LdFVhT0pVQVM1dXMyck1xeEFQbTFlYnIyZ3RtZll1VldhRVJObHprRVU2czd5c212R1RJakpBTHR3RVpIVjBHT09LekRWVEhzb3JXbzk3MW1PU2FKVW8?oc=5",
+              "published": "2026-10-17T07:15:05+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-10-17-us.md",
-      "refreshed_at": "2026-10-17 07:00:53 KST",
-      "slots_refreshed_at": "2026-10-18 06:24:12 KST"
+      "markdown": "briefings/2026-10-18-us.md",
+      "refreshed_at": "2026-10-18 07:00:57 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
