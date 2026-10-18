@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-18 22:56:38 KST",
+  "generated_at": "2026-10-19 02:16:23 KST",
   "refreshed": [],
   "slots_refreshed": [
     "us"
@@ -43,7 +43,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-16",
               "title": "소폭 약세 흐름",
-              "text": "큰 변동 없이 보합권 흐름을 이어가며 장중 내내 완만한 하락세를 유지하는 모습"
+              "text": "저평가 논란 속 주가는 큰 변동 없이 보합권에서 완만한 약세를 이어감"
             },
             {
               "time": "마감",
@@ -51,8 +51,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.85,
               "is_close": true,
               "date": "2026-10-16",
-              "title": "낙폭 다소 확대",
-              "text": "AI 교육과정 관련 소식이 전해졌지만 주가에는 별다른 영향을 주지 못하며 낙폭이 소폭 더 커짐"
+              "title": "낙폭 소폭 확대",
+              "text": "AI 교육과정 관련 소식이 전해졌지만 매수세로 이어지지 못하며 낙폭이 하루 중 가장 커짐"
             }
           ],
           "slot_total": 2,
@@ -85,12 +85,12 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "11:00PM",
-              "price": 537.3599853515625,
-              "pct": -0.39,
+              "price": 537.5800170898438,
+              "pct": -0.34,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "하락폭 점차 확대",
-              "text": "영주권 중단 반박과 데이터센터 임차 철회 소식이 잇따르며 투자심리가 흔들리는 모습"
+              "title": "목표가 상향에도 약세",
+              "text": "실적 앞두고 목표주가 600달러 전망이 나왔지만 주가는 오히려 하락 압력을 받음"
             },
             {
               "time": "마감",
@@ -98,8 +98,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.93,
               "is_close": true,
               "date": "2026-10-16",
-              "title": "낙폭 크게 벌어짐",
-              "text": "부정적 헤드라인이 누적되며 매수세가 붙지 못한 채 하루 중 가장 큰 낙폭으로 밀려남"
+              "title": "낙폭 뚜렷하게 확대",
+              "text": "현금 체력 강조한 긍정적 평가에도 하락세가 이어지며 하루 중 가장 큰 폭으로 밀림"
             }
           ],
           "slot_total": 2,
@@ -143,8 +143,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.99,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "양자컴주 동반 급락",
-              "text": "미국 양자컴퓨터 관련주들이 일제히 큰 폭으로 밀리는 가운데 동반 약세 흐름을 이어감"
+              "title": "인수 소식에도 약세",
+              "text": "범블 인수 발표 이후 관련주로 주목받았지만 정작 주가는 하락세를 이어가는 모습"
             },
             {
               "time": "마감",
@@ -152,8 +152,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -8.94,
               "is_close": true,
               "date": "2026-10-16",
-              "title": "낙폭 더욱 심화",
-              "text": "업계 전반의 약세 분위기 속에 범블과의 대규모 거래 소식에도 불구하고 낙폭이 오히려 확대됨"
+              "title": "낙폭 크게 확대",
+              "text": "사이버 보안주 관련 기사로 재조명됐음에도 하락폭이 더욱 커지며 하루 중 최저 수준에 근접"
             }
           ],
           "slot_total": 2,
@@ -197,8 +197,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.45,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "완만한 약세 지속",
-              "text": "GTC 베를린 행사와 신제품 소식이 전해졌지만 주가는 큰 반응 없이 소폭 하락세를 유지함"
+              "title": "경쟁 이슈 속 약세",
+              "text": "삼성전자가 분기 영업이익에서 앞섰다는 소식이 전해지며 약세 흐름이 이어짐"
             },
             {
               "time": "마감",
@@ -206,8 +206,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.43,
               "is_close": true,
               "date": "2026-10-16",
-              "title": "낙폭 소폭 확대",
-              "text": "관련 호재성 뉴스에도 매수세가 뚜렷하지 않으며 장 후반으로 갈수록 하락폭이 다소 커짐"
+              "title": "낙폭 다소 확대",
+              "text": "신약 개발 협업 소식에도 매수세가 붙지 못하며 하락폭이 장중보다 더 벌어짐"
             }
           ],
           "slot_total": 2,
@@ -251,8 +251,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.06,
               "is_close": false,
               "date": "2026-10-16",
-              "title": "낙폭 크게 확대",
-              "text": "별다른 뉴스 없이 장중 매도 압력이 커지며 하루 중 가장 큰 낙폭을 기록하는 모습"
+              "title": "장중 낙폭 축소",
+              "text": "특별한 소식 없이 장중 약세를 보였으나 저점 대비 낙폭을 다소 줄여가는 흐름"
             },
             {
               "time": "마감",
@@ -260,8 +260,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -3.58,
               "is_close": true,
               "date": "2026-10-16",
-              "title": "저점 대비 반등",
-              "text": "장중 큰 폭으로 밀렸던 주가가 이후 반등에 성공하며 낙폭을 상당 부분 만회함"
+              "title": "반등 흐름 전환",
+              "text": "장중 내내 이어지던 약세에서 벗어나 플러스권까지 올라서는 반등 흐름을 보임"
             }
           ],
           "slot_total": 2,
@@ -285,7 +285,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-18-us.md",
       "refreshed_at": "2026-10-18 07:00:57 KST",
-      "slots_refreshed_at": "2026-10-18 22:56:38 KST"
+      "slots_refreshed_at": "2026-10-19 02:16:23 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
