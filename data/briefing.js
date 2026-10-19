@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-19 23:10:49 KST",
+  "generated_at": "2026-10-20 04:15:28 KST",
   "refreshed": [],
   "slots_refreshed": [
     "us"
@@ -38,12 +38,12 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "11:00PM",
-              "price": 232.9499969482422,
+              "price": 232.9600067138672,
               "pct": 0.35,
               "is_close": false,
               "date": "2026-10-19",
               "title": "실적 발표 앞두고 긴장",
-              "text": "실적 발표를 앞두고 옵션 시장의 변동성 경계감이 부각되는 가운데 상승세는 소폭에 그치며 보합권 흐름이 이어지는 중"
+              "text": "양자 프로세서 관련 소식에도 오름세는 소폭에 그쳤고, 이후 실적 발표를 앞둔 변동성 경계감이 부각되며 상승폭이 제한된 모습"
             }
           ],
           "slot_total": 2,
@@ -80,8 +80,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.47,
               "is_close": false,
               "date": "2026-10-19",
-              "title": "상승세 유지 중",
-              "text": "데이터센터 계약 철회와 규제 이슈 관련 소식이 잇따랐음에도 주가는 크게 흔들리지 않고 완만한 오름세를 유지하는 중"
+              "title": "악재 속 완만한 반등",
+              "text": "영국 데이터센터 철수와 AI 칩 경쟁력 논란이 잇따랐음에도 장중 매수세가 유입되며 오름세를 꾸준히 이어가는 중"
             }
           ],
           "slot_total": 2,
@@ -125,8 +125,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.63,
               "is_close": false,
               "date": "2026-10-19",
-              "title": "양자주 동반 약세",
-              "text": "대규모 인수 소식과 연구센터 개소 발표에도 양자컴퓨터주 전반의 동반 하락 흐름에 휩쓸리며 낙폭을 키워가는 중"
+              "title": "양자주 동반 약세 지속",
+              "text": "케임브리지대 협력, 대형 인수 소식에도 양자컴퓨터주 전반의 투매 흐름에 휩쓸리며 낙폭을 키운 채 하락세 유지 중"
             }
           ],
           "slot_total": 2,
@@ -170,8 +170,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.55,
               "is_close": false,
               "date": "2026-10-19",
-              "title": "소폭 반등 흐름",
-              "text": "신제품 공개 소식과 공급 계약 상실 보도가 엇갈린 가운데 주가는 큰 동요 없이 소폭 오름세를 유지하고 있는 중"
+              "title": "신제품·목표가 호재 반영",
+              "text": "서울 신제품 출시와 월가의 비중확대 의견이 잇따르며 매수세가 유입돼 완만한 상승 흐름을 이어가는 중"
             }
           ],
           "slot_total": 2,
@@ -215,8 +215,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.17,
               "is_close": false,
               "date": "2026-10-19",
-              "title": "약세 흐름 지속",
-              "text": "별다른 소식이 전해지지 않은 가운데 매수세가 붙지 못하며 소폭 하락세가 꾸준히 이어지고 있는 모습"
+              "title": "특별한 재료 없이 약세",
+              "text": "별다른 뉴스 없이 장중 내내 매도 우위가 이어지며 전일 대비 낙폭을 소폭 키운 채 하락세를 유지 중"
             }
           ],
           "slot_total": 2,
@@ -240,7 +240,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-18-us.md",
       "refreshed_at": "2026-10-18 07:00:57 KST",
-      "slots_refreshed_at": "2026-10-19 23:10:49 KST"
+      "slots_refreshed_at": "2026-10-20 04:15:28 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
