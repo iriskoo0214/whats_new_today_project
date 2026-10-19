@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-19 15:04:25 KST",
+  "generated_at": "2026-10-19 15:40:46 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -323,8 +323,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.63,
               "is_close": false,
               "date": "2026-10-19",
-              "title": "장 초반 약보합 출발",
-              "text": "전일 대비 소폭 하락하며 장을 시작해 투자심리가 다소 위축된 모습을 보임"
+              "title": "장 초반 소폭 약세",
+              "text": "개장 직후 하락 출발하며 전 거래일 상승분을 반납하는 모습으로 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -332,8 +332,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.9,
               "is_close": false,
               "date": "2026-10-19",
-              "title": "오전 낙폭 확대",
-              "text": "장 초반 약세가 오전 들어 더 깊어지며 하루 중 가장 낮은 수준까지 밀려 내려감"
+              "title": "낙폭 확대",
+              "text": "오전 중반 들어 하락폭이 더 커지며 장중 저점 부근까지 밀리는 흐름이 이어짐"
             },
             {
               "time": "1:00PM",
@@ -342,7 +342,16 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-19",
               "title": "낙폭 대부분 만회",
-              "text": "오후 들어 반등에 성공해 보합권까지 올라서며 오전 낙폭을 거의 되돌리는 흐름을 이어감"
+              "text": "오후 들어 반등이 나타나며 오전의 약세를 거의 되돌리고 보합권까지 올라섬"
+            },
+            {
+              "time": "마감",
+              "price": 1277000.0,
+              "pct": 0.95,
+              "is_close": true,
+              "date": "2026-10-19",
+              "title": "상승 전환 마감",
+              "text": "장 막판 소부장 협력사 보증 지원 소식이 전해지며 상승 전환해 하루를 마무리함"
             }
           ],
           "slot_total": 4,
@@ -387,7 +396,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-19",
               "title": "장 초반 약세 출발",
-              "text": "전일 대비 하락 출발하며 장 초반 약한 흐름을 보여 투자심리가 다소 위축됨"
+              "text": "개장 직후 하락세로 시작하며 전 거래일 대비 가장 큰 낙폭을 기록한 시점"
             },
             {
               "time": "10:30AM",
@@ -395,8 +404,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.0,
               "is_close": false,
               "date": "2026-10-19",
-              "title": "보합권 회복",
-              "text": "오전 중 낙폭을 모두 되돌리며 전일 종가 수준까지 반등해 안정세를 찾음"
+              "title": "오전 중 낙폭 회복",
+              "text": "오전 중반 하락분을 모두 만회하며 보합권으로 올라서는 흐름을 보임"
             },
             {
               "time": "1:00PM",
@@ -404,8 +413,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.23,
               "is_close": false,
               "date": "2026-10-19",
-              "title": "장중 소폭 반등 지속",
-              "text": "반도체주 전반이 출렁이는 가운데서도 강보합을 유지하며 하루 중 고점권을 유지 중"
+              "title": "상승 전환 유지",
+              "text": "점심 무렵 상승 전환에 성공하며 오전 낙폭을 완전히 벗어난 흐름이 이어짐"
+            },
+            {
+              "time": "마감",
+              "price": 218000.0,
+              "pct": 0.46,
+              "is_close": true,
+              "date": "2026-10-19",
+              "title": "오름폭 확대 마감",
+              "text": "오후 들어 상승폭을 키우며 하루 중 가장 높은 수준에서 거래를 마침"
             }
           ],
           "slot_total": 4,
@@ -450,7 +468,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-19",
               "title": "장 초반 급락 출발",
-              "text": "전일 대비 큰 폭으로 하락하며 출발해 장 초반 투자심리가 크게 위축된 모습을 보임"
+              "text": "개장과 동시에 큰 폭으로 밀리며 하루 중 가장 가파른 하락세를 보인 시점"
             },
             {
               "time": "10:30AM",
@@ -459,7 +477,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-19",
               "title": "낙폭 빠르게 축소",
-              "text": "오전 중 낙폭이 상당 부분 줄어들며 하락폭을 절반 이상 되돌리는 회복세를 보임"
+              "text": "오전 중반 들어 하락폭이 빠르게 줄어들며 반등 흐름이 뚜렷하게 나타남"
             },
             {
               "time": "1:00PM",
@@ -467,8 +485,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.11,
               "is_close": false,
               "date": "2026-10-19",
-              "title": "보합권 근접 회복",
-              "text": "누리호 조립 관련 소식이 전해진 가운데 낙폭을 거의 다 만회하며 보합권까지 올라섬"
+              "title": "보합권까지 복귀",
+              "text": "점심 무렵에는 낙폭이 거의 사라지며 전 거래일 수준에 근접하는 모습을 보임"
+            },
+            {
+              "time": "마감",
+              "price": 905000.0,
+              "pct": 0.56,
+              "is_close": true,
+              "date": "2026-10-19",
+              "title": "상승 전환 마감",
+              "text": "재계 5위 성장 관련 소식 속 상승 전환에 성공하며 하루 중 최고점에서 마무리함"
             }
           ],
           "slot_total": 4,
@@ -513,7 +540,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-19",
               "title": "장 초반 큰 폭 하락",
-              "text": "전일 대비 큰 폭으로 하락 출발하며 장 초반 투자심리가 크게 위축된 흐름을 보임"
+              "text": "개장 직후 하루 중 가장 큰 낙폭을 기록하며 약세로 출발한 모습을 보임"
             },
             {
               "time": "10:30AM",
@@ -521,8 +548,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -1.05,
               "is_close": false,
               "date": "2026-10-19",
-              "title": "낙폭 절반 이상 축소",
-              "text": "오전 들어 하락폭을 상당 부분 되돌리며 하루 중 저점에서 벗어나는 모습을 보임"
+              "title": "낙폭 빠르게 줄어듦",
+              "text": "오전 중반 하락폭이 눈에 띄게 줄어들며 저점을 벗어나는 흐름이 이어짐"
             },
             {
               "time": "1:00PM",
@@ -530,8 +557,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -0.47,
               "is_close": false,
               "date": "2026-10-19",
-              "title": "낙폭 축소 흐름 지속",
-              "text": "가전·헤리티지 홍보 소식이 이어지는 가운데 낙폭이 더 줄며 보합권에 근접해감"
+              "title": "낙폭 추가 축소",
+              "text": "점심 무렵에도 낙폭이 계속 줄어들며 전 거래일 수준에 바짝 다가섬"
+            },
+            {
+              "time": "마감",
+              "price": 170500.0,
+              "pct": -0.12,
+              "is_close": true,
+              "date": "2026-10-19",
+              "title": "보합권 근접 마감",
+              "text": "오후 들어 신제품 출시 소식 속 낙폭을 거의 메우며 보합 수준에서 거래를 마침"
             }
           ],
           "slot_total": 4,
@@ -575,8 +611,8 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": -2.23,
               "is_close": false,
               "date": "2026-10-19",
-              "title": "장 초반 하락 출발",
-              "text": "전일 대비 하락하며 장을 시작해 초반 투자심리가 다소 위축된 모습을 보임"
+              "title": "장 초반 약세 출발",
+              "text": "개장 직후 하락하며 전 거래일 대비 가장 낮은 수준에서 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -585,7 +621,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-19",
               "title": "상승 전환 성공",
-              "text": "오전 중 낙폭을 모두 만회하고 상승 전환에 성공하며 하루 중 분위기가 뚜렷이 반전됨"
+              "text": "오전 중반 빠르게 반등하며 하락분을 모두 만회하고 상승 전환에 성공함"
             },
             {
               "time": "1:00PM",
@@ -593,8 +629,17 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 3.18,
               "is_close": false,
               "date": "2026-10-19",
-              "title": "오후 들어 상승폭 확대",
-              "text": "신차 공개와 유럽 공략 소식이 이어지는 가운데 상승폭을 키우며 하루 중 최고치를 이어가는 중"
+              "title": "오름폭 큰 폭 확대",
+              "text": "점심 무렵 들어 상승폭이 크게 확대되며 하루 중 강한 흐름을 이어감"
+            },
+            {
+              "time": "마감",
+              "price": 326000.0,
+              "pct": 3.82,
+              "is_close": true,
+              "date": "2026-10-19",
+              "title": "상승폭 더 키워 마감",
+              "text": "오후 들어서도 오름세가 이어지며 하루 중 가장 높은 수준에서 거래를 마침"
             }
           ],
           "slot_total": 4,
@@ -625,7 +670,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-17-kr.md",
       "refreshed_at": "2026-10-17 20:32:52 KST",
-      "slots_refreshed_at": "2026-10-19 15:04:25 KST"
+      "slots_refreshed_at": "2026-10-19 15:40:46 KST"
     }
   }
 };
