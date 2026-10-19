@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-19 09:20:48 KST",
+  "generated_at": "2026-10-19 10:06:23 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -318,13 +318,13 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-16",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 1214000.0,
-              "pct": -4.03,
+              "time": "9:10AM",
+              "price": 1257000.0,
+              "pct": -0.63,
               "is_close": false,
               "date": "2026-10-19",
-              "title": "장 초반 약세 출발",
-              "text": "美 AI 인프라 투자 우려로 코어위브가 급락한 영향이 반도체주 전반에 번지며 장 초반부터 약세로 출발"
+              "title": "코스피 급락 속 약세",
+              "text": "코스피가 3%대 급락 출발한 가운데 120만원선이 위태로우며 장기 계약 호재에도 하락 출발"
             }
           ],
           "slot_total": 4,
@@ -363,13 +363,13 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-16",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 209000.0,
-              "pct": -3.69,
+              "time": "9:10AM",
+              "price": 213500.0,
+              "pct": -1.61,
               "is_close": false,
               "date": "2026-10-19",
-              "title": "장 초반 약세 출발",
-              "text": "美 AI 인프라 투자 우려에 코어위브 폭락 여파가 번지며 반도체 업종 전반과 함께 장 초반 약세로 시작"
+              "title": "20만원선 위협받는 중",
+              "text": "코스피 3%대 급락 출발과 함께 20만원선이 위태로우며 노조 이슈까지 겹쳐 장 초반 약세"
             }
           ],
           "slot_total": 4,
@@ -408,13 +408,13 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-16",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 890000.0,
-              "pct": -1.11,
+              "time": "9:10AM",
+              "price": 857000.0,
+              "pct": -4.78,
               "is_close": false,
               "date": "2026-10-19",
-              "title": "장 초반 소폭 약세",
-              "text": "목표가 하향 소식과 방산 수출 이연에 따른 실적 주춤 전망이 겹치며 장 초반부터 약세 흐름을 보임"
+              "title": "장 초반 낙폭 확대",
+              "text": "방산 수출 기대감 속에서도 계열사 한화시스템 급락 여파가 번지며 장 초반 낙폭이 크게 벌어짐"
             }
           ],
           "slot_total": 4,
@@ -453,13 +453,13 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-16",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 161800.0,
-              "pct": -5.21,
+              "time": "9:10AM",
+              "price": 163700.0,
+              "pct": -4.1,
               "is_close": false,
               "date": "2026-10-19",
-              "title": "장 초반 낙폭 확대",
-              "text": "구광모 회장 주재 계열사 사업보고회 시작 소식에도 매수세가 붙지 못하며 장 초반 낙폭이 크게 벌어짐"
+              "title": "장 초반 약세 지속",
+              "text": "뉴욕 타임스스퀘어 브랜드 캠페인 소식에도 매수세가 붙지 않으며 장 초반 낙폭이 크게 유지 중"
             }
           ],
           "slot_total": 4,
@@ -498,13 +498,13 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-16",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 306500.0,
-              "pct": -2.39,
+              "time": "9:10AM",
+              "price": 307000.0,
+              "pct": -2.23,
               "is_close": false,
               "date": "2026-10-19",
-              "title": "장 초반 약세 출발",
-              "text": "자율주행 전략과 미래 모빌리티 관련 소식이 잇따랐지만 반응하지 못하고 장 초반 약세로 출발"
+              "title": "장 초반 약세 흐름",
+              "text": "유럽 소형차 전략과 모빌리티 행사 소식에도 코스피 급락 여파로 장 초반 하락세가 이어지는 중"
             }
           ],
           "slot_total": 4,
@@ -535,7 +535,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-17-kr.md",
       "refreshed_at": "2026-10-17 20:32:52 KST",
-      "slots_refreshed_at": "2026-10-19 09:20:48 KST"
+      "slots_refreshed_at": "2026-10-19 10:06:23 KST"
     }
   }
 };
