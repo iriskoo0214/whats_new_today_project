@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-20 09:20:47 KST",
+  "generated_at": "2026-10-20 10:40:49 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -316,13 +316,22 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-19",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 1257000.0,
-              "pct": -3.6,
+              "time": "9:10AM",
+              "price": 1224000.0,
+              "pct": -6.13,
               "is_close": false,
               "date": "2026-10-20",
               "title": "장 초반 약세 출발",
-              "text": "개장 직후 하락세로 시작했고, 반도체 공급망 강화를 위한 금융지원 소식에도 매수세 유입은 아직 보이지 않는 모습"
+              "text": "개장 직후부터 매도세가 유입되며 6%대 하락권에서 거래가 시작됨"
+            },
+            {
+              "time": "10:20AM",
+              "price": 1201000.0,
+              "pct": -7.9,
+              "is_close": false,
+              "date": "2026-10-20",
+              "title": "낙폭 확대",
+              "text": "솔리다임 나스닥 상장 논란이 주주가치 우려로 번지며 오전 들어 낙폭이 7%대 후반까지 커짐"
             }
           ],
           "slot_total": 4,
@@ -361,13 +370,22 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-19",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 218000.0,
-              "pct": -2.46,
+              "time": "9:10AM",
+              "price": 214000.0,
+              "pct": -4.25,
               "is_close": false,
               "date": "2026-10-20",
-              "title": "장 초반 낙폭 확대",
-              "text": "개장과 동시에 약세로 출발했으며, 아트 스토어 콘텐츠 공개 등 소식에도 주가 흐름에는 별다른 영향을 주지 못함"
+              "title": "장 초반 약세 출발",
+              "text": "이달 들어 이어진 조정 흐름 속에 개장부터 4%대 하락으로 시작함"
+            },
+            {
+              "time": "10:20AM",
+              "price": 212500.0,
+              "pct": -4.92,
+              "is_close": false,
+              "date": "2026-10-20",
+              "title": "낙폭 소폭 확대",
+              "text": "내년 영업익 호황 전망과 저가 매수 유입 기대에도 오전 내내 하락폭이 더 벌어짐"
             }
           ],
           "slot_total": 4,
@@ -406,13 +424,22 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-19",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 880000.0,
-              "pct": -1.35,
+              "time": "9:10AM",
+              "price": 855000.0,
+              "pct": -4.15,
               "is_close": false,
               "date": "2026-10-20",
-              "title": "장 초반 하락 출발",
-              "text": "3분기 실적 우려와 목표주가 하향 소식이 겹치며 개장 초반부터 약세 흐름을 이어가는 모습"
+              "title": "장 초반 약세 출발",
+              "text": "개장 직후 4%대 하락으로 출발하며 약세 분위기가 형성됨"
+            },
+            {
+              "time": "10:20AM",
+              "price": 807000.0,
+              "pct": -9.53,
+              "is_close": false,
+              "date": "2026-10-20",
+              "title": "낙폭 급격히 확대",
+              "text": "목표주가 하향 리포트가 나온 뒤 매도세가 거세지며 낙폭이 두 배 넘게 불어남"
             }
           ],
           "slot_total": 4,
@@ -451,13 +478,22 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-19",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 168300.0,
-              "pct": -2.09,
+              "time": "9:10AM",
+              "price": 168000.0,
+              "pct": -2.27,
               "is_close": false,
               "date": "2026-10-20",
-              "title": "장 초반 약세 흐름",
-              "text": "개장 직후 하락세로 출발했고, 가전 구독 관련 소식과 AI 투자 점검 보도에도 매수세는 뚜렷하지 않은 상황"
+              "title": "장 초반 약세 출발",
+              "text": "개장 직후 2%대 하락으로 시작하며 약세 흐름이 이어짐"
+            },
+            {
+              "time": "10:20AM",
+              "price": 163300.0,
+              "pct": -5.0,
+              "is_close": false,
+              "date": "2026-10-20",
+              "title": "낙폭 확대",
+              "text": "ITS 세계총회 자율주행 기술 시연 소식에도 매수세가 붙지 않고 하락폭이 더 커짐"
             }
           ],
           "slot_total": 4,
@@ -496,13 +532,22 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-19",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 318500.0,
-              "pct": -1.85,
+              "time": "9:10AM",
+              "price": 322000.0,
+              "pct": -0.77,
               "is_close": false,
               "date": "2026-10-20",
-              "title": "장 초반 약세 출발",
-              "text": "개장 직후 하락세로 시작했으며, 자율주행 트럭 물류 실증 소식에도 주가 반등으로는 이어지지 않는 중"
+              "title": "장 초반 보합권 출발",
+              "text": "개장 초반에는 낙폭이 크지 않아 보합권에 가까운 모습으로 출발함"
+            },
+            {
+              "time": "10:20AM",
+              "price": 312500.0,
+              "pct": -3.7,
+              "is_close": false,
+              "date": "2026-10-20",
+              "title": "낙폭 확대",
+              "text": "자율주행 트럭 실증 등 호재성 소식에도 오전 들어 하락폭이 점차 커지는 흐름을 보임"
             }
           ],
           "slot_total": 4,
@@ -533,7 +578,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-19-kr.md",
       "refreshed_at": "2026-10-19 18:00:55 KST",
-      "slots_refreshed_at": "2026-10-20 09:20:47 KST"
+      "slots_refreshed_at": "2026-10-20 10:40:49 KST"
     }
   }
 };
