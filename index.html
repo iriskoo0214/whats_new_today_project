@@ -145,6 +145,8 @@ document.write('<link rel="stylesheet" href="styles.css?t=' + Date.now() + '">')
       <div class="pf-time" id="pfTime">
         <div class="pf-time__band" id="pfBand"></div>
         <div class="pf-time__label" id="pfTimeLabel"></div>
+        <!-- 처음 한 번만: 이 블록을 좌우로 밀 수 있다는 안내. 한 번 밀면 다시 안 뜬다 -->
+        <div class="pf-swipe-hint" id="pfSwipeHint" aria-hidden="true">← 좌우로 밀어 보세요 →</div>
         <div class="pf-price">
           <p class="pf-price__value"><span id="pfPrice"></span><em>원</em></p>
         </div>
