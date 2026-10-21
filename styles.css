@@ -667,6 +667,8 @@
        -webkit-overflow-scrolling:touch도 뺐다. 요즘 iOS에선 아무 일도 하지 않으면서,
        옛 iOS에서는 별도 스크롤 레이어를 만들어 세로 제스처를 삼키던 물건이다. */
     overscroll-behavior-x:contain;
+    /* 카드를 놓으면 한 장씩 맞춰 서야 시간 표시와 어긋나지 않는다 */
+    scroll-snap-type:x mandatory;scroll-padding-left:16px;
   }
   .pf-briefs::-webkit-scrollbar{display:none;}
   .pf-briefs__row{display:flex;align-items:stretch;gap:4px;padding:0 16px;width:max-content;}
@@ -678,6 +680,7 @@
        147px 밑으로 쪼그라들지 않고, 본문이 3줄을 넘는 드문 경우에는 max-height
        없이 그만큼 더 늘어난다(잘리지 않음 — 다른 카드들과 같은 원칙). */
     flex:0 0 auto;width:var(--card-w);min-height:147px;
+    scroll-snap-align:start;scroll-snap-stop:always;
     display:flex;flex-direction:column;gap:8px;
     padding:16px 12px;background:rgba(255,255,255,.8);
     box-shadow:0 4px 4px 0 rgba(174,210,254,.25);

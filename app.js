@@ -803,29 +803,56 @@
     hintChipScroll(wrap);
   }
 
-  // 브리핑은 시간대가 지날수록 쌓이고, 항상 최신 카드가 보이도록 스크롤된다
+  /* 브리핑 카드는 그 날의 시간대 전부를 나란히 둔다. 시간 쪽을 밀면 카드가,
+     카드를 밀면 시간이 같은 자리로 따라간다(스크롤 위치 ↔ pfSlot). 현재 시간대
+     카드가 항상 왼쪽 끝(16px)에 서도록 스크롤한다. */
+  var pfBriefsKey = '';
+  // 코드가 카드를 옮기는 동안(또는 손가락을 따라 끄는 동안)에는 스크롤 이벤트를
+  // 사용자가 카드를 민 것으로 읽으면 안 된다
+  var pfBriefsBusy = 0;
+  function holdPfBriefs(ms) {
+    pfBriefsBusy++;
+    setTimeout(function () { pfBriefsBusy--; }, ms);
+  }
+
   function renderPfBriefs(animate) {
-    pfBriefRow.innerHTML = '';
-    PF.slots.slice(0, pfSlot + 1).forEach(function (s) {
-      var card = document.createElement('article');
-      card.className = 'pf-brief';
-      card.innerHTML =
-        '<div class="pf-brief__stamp">' + s.stamp + '</div>' +
-        '<div class="pf-brief__body">' +
-          '<div class="pf-brief__title">' + s.title + '</div>' +
-          '<div class="pf-brief__text">' + s.text + '</div>' +
-        '</div>';
-      pfBriefRow.appendChild(card);
-    });
+    var key = PF.slots.map(function (s) { return s.stamp + '|' + s.title + '|' + s.text; }).join('\n');
+    if (key !== pfBriefsKey) {
+      pfBriefsKey = key;
+      pfBriefRow.innerHTML = '';
+      PF.slots.forEach(function (s) {
+        var card = document.createElement('article');
+        card.className = 'pf-brief';
+        card.innerHTML =
+          '<div class="pf-brief__stamp">' + s.stamp + '</div>' +
+          '<div class="pf-brief__body">' +
+            '<div class="pf-brief__title">' + s.title + '</div>' +
+            '<div class="pf-brief__text">' + s.text + '</div>' +
+          '</div>';
+        pfBriefRow.appendChild(card);
+      });
+    }
     void pfBriefRow.offsetWidth;          // 새 카드 레이아웃 강제 반영 후에 스크롤
     var left = pfSlot * briefPitch();
+    if (Math.abs(pfBriefs.scrollLeft - left) < 1) return;
     // 문서가 숨겨져 있으면 smooth 스크롤이 조용히 무시되므로 그때는 즉시 이동
     var smooth = animate && !document.hidden;
+    holdPfBriefs(smooth ? 600 : 100);
     if (pfBriefs.scrollTo) pfBriefs.scrollTo({ left: left, behavior: smooth ? 'smooth' : 'auto' });
     else pfBriefs.scrollLeft = left;
   }
 
-  function renderPf(animate) {
+  // 카드를 직접 밀어 넘기면 시간 표시도 그 카드의 시간대로 맞춘다
+  pfBriefs.addEventListener('scroll', function () {
+    if (pfBriefsBusy) return;
+    var idx = Math.round(pfBriefs.scrollLeft / briefPitch());
+    idx = Math.max(0, Math.min(idx, PF.slots.length - 1));
+    if (idx === pfSlot) return;
+    pfSlot = idx;
+    renderPf(false, true);
+  }, { passive: true });
+
+  function renderPf(animate, keepBriefs) {
     var s = PF.slots[pfSlot];
     document.getElementById('pfDate').textContent = PF.date;
     document.getElementById('pfHeadline').textContent = s.headline;
@@ -845,7 +872,7 @@
     document.getElementById('pfPrev').disabled = (pfSlot === 0);
     document.getElementById('pfNext').disabled = (pfSlot === PF.slots.length - 1);
     applySlotTrend(s);
-    renderPfBriefs(animate);
+    if (!keepBriefs) renderPfBriefs(animate);
   }
 
   function stepSlot(delta) {
@@ -865,6 +892,8 @@
     var startX = 0, startY = 0, axis = null, pid = null;
     var moveOnly = [];   // 남색 진행 컬럼 — 위치만 따라온다
     var moveFade = [];   // 가격·종목 문구 — 따라오면서 흐려진다
+    var baseLeft = 0;    // 끌기 시작 때 카드 줄의 스크롤 위치
+    var holding = false; // 끄는 동안 카드 스크롤 이벤트를 시간 연동에서 제외
 
     function follow(dx, animate) {
       screenPf.classList.toggle('is-dragging', !animate && !!dx);
@@ -885,6 +914,13 @@
         if (Math.abs(dx) < 6 && Math.abs(dy) < 6) return;
         axis = Math.abs(dx) > Math.abs(dy) ? 'x' : 'y';
         if (axis === 'x' && screenPf.setPointerCapture) screenPf.setPointerCapture(pid);
+        if (axis === 'x') {
+          // 시간 쪽을 끌면 카드 줄도 손가락을 따라 같이 움직인다. 스냅이 켜져 있으면
+          // 코드로 옮기는 중에도 가까운 카드로 다시 끌어당기므로 끌 동안은 끈다
+          holding = true; pfBriefsBusy++;
+          baseLeft = pfBriefs.scrollLeft;
+          pfBriefs.style.scrollSnapType = 'none';
+        }
       }
       if (axis !== 'x') return;
 
@@ -892,6 +928,7 @@
       // 양 끝에서는 고무줄처럼 덜 끌린다
       var atEnd = (dx > 0 && pfSlot === 0) || (dx < 0 && pfSlot === PF.slots.length - 1);
       follow(dx * (atEnd ? 0.12 : 0.32), false);
+      pfBriefs.scrollLeft = baseLeft - dx;     // 양 끝에서는 스크롤 한계에서 멈춘다
     }
 
     function onUp(e) {
@@ -909,8 +946,11 @@
       follow(0, true);
       if (!wasX) return;
 
+      if (holding) { holding = false; pfBriefs.style.scrollSnapType = ''; pfBriefsBusy--; }
       if (dx <= -PF_THRESH)      stepSlot(1);     // 왼쪽으로 밀면 다음 시간대
       else if (dx >= PF_THRESH)  stepSlot(-1);    // 오른쪽으로 밀면 이전 시간대
+      // 모자라게 밀었거나 끝을 넘으려 했으면 카드를 현재 시간대 자리로 되돌린다
+      if (pfBriefs.scrollLeft !== pfSlot * briefPitch()) renderPfBriefs(true);
     }
 
     screenPf.addEventListener('pointerdown', function (e) {
