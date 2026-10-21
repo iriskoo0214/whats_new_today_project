@@ -645,6 +645,25 @@
   /* 달러는 순서가 반대다 — "38.08달러"가 아니라 "$38.08"(접두사). DOM은 그대로
      두고(span 다음 em) row-reverse로 시각 순서만 뒤집는다 — 그러면 margin도
      반대쪽(뒤에 오는 span과의 간격 = em의 margin-right)으로 줘야 한다. */
+  /* 스와이프 안내 — 홈 카드의 .swipe-hint와 같은 알약. 시간 라벨과 같은 줄 오른쪽에 둬
+     가격을 가리지 않는다. 띠 색(빨강/파랑)과 밝은 배경 어디에 걸려도 읽히게 흰 바탕 */
+  .pf-swipe-hint{
+    position:absolute;right:16px;top:22.5px;transform:translateY(-50%);
+    padding:4px 9px;border-radius:100px;background:rgba(255,255,255,.85);
+    font-size:11px;font-weight:600;letter-spacing:-.25px;line-height:1.4;color:rgba(21,23,26,.6);
+    white-space:nowrap;pointer-events:none;
+    opacity:0;transition:opacity .3s ease;
+  }
+  .screen--pf.is-swipe-hinting .pf-swipe-hint{opacity:1;}
+  /* 손으로 밀 때 따라오는 것(진행 배경 컬럼·가격 블록·종목명)이 전부 같이 살짝 밀렸다 돌아온다 */
+  .screen--pf.is-swipe-nudging .pf-col,
+  .screen--pf.is-swipe-nudging .pf-time,
+  .screen--pf.is-swipe-nudging .pf-stock{animation:pfSwipeNudge 1.1s cubic-bezier(.22,.8,.28,1) 2;}
+  @keyframes pfSwipeNudge{
+    0%,100%{transform:translateX(0);}
+    35%{transform:translateX(-40px);}
+    60%{transform:translateX(0);}
+  }
   .pf-price__value[data-currency="usd"]{flex-direction:row-reverse;}
   .pf-price__value[data-currency="usd"] em{margin-left:0;margin-right:4px;}
 
@@ -701,6 +720,9 @@
   @keyframes softFade{from{opacity:.55;}to{opacity:1;}}
   @media (prefers-reduced-motion: reduce){
     .swipe-hint{animation:none;}                       /* 반복 움직임 제거 */
+    .screen--pf.is-swipe-nudging .pf-col,
+    .screen--pf.is-swipe-nudging .pf-time,
+    .screen--pf.is-swipe-nudging .pf-stock{animation:none;}  /* 밀기 안내는 문구만 남긴다 */
     .pf-col,.pf-time__band{transition:none;}           /* 폭이 늘어나는 이동 제거 */
     .screen--pf.is-switching .pf-middle{animation:softFade .2s ease both;}
     .tab-indicator{transition:none;}                   /* 알약 미끄러짐 제거, 위치만 변경 */

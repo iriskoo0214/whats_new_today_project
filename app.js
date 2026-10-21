@@ -192,6 +192,33 @@
     ];
   }
 
+  /* ---------- 포트폴리오 스와이프 안내 ----------
+     가격 블록을 좌우로 밀어 시간대를 넘긴다는 걸 처음 한 번 알린다. 블록이 살짝
+     밀렸다 돌아오고 시간 라벨 옆에 문구가 뜬다. 사용자가 한 번이라도 밀면(카드를
+     밀어도) 그 자리에서 사라지고 이 브라우저에서는 다시 띄우지 않는다. */
+  var PF_SWIPE_KEY = 'pfSwipeLearned';
+  var pfSwipeTimers = [];
+  function pfSwipeLearned() {
+    try { return localStorage.getItem(PF_SWIPE_KEY) === '1'; } catch (e) { return false; }
+  }
+  function showPfSwipeHint() {
+    var screen = document.getElementById('screenPf');
+    if (!screen || pfSwipeLearned() || pfSwipeTimers.length) return;
+    // 탭 전환 페이드가 끝나자마자 움직인다. 이 안내가 나가는 동안은 칩 줄을 흔들지 않는다
+    pfSwipeTimers = [
+      setTimeout(function () { screen.classList.add('is-swipe-hinting', 'is-swipe-nudging'); }, 400),
+      setTimeout(function () { screen.classList.remove('is-swipe-nudging'); }, 400 + 2300)
+    ];
+    return true;
+  }
+  function dismissPfSwipeHint() {
+    pfSwipeTimers.forEach(clearTimeout);
+    pfSwipeTimers = [];
+    var screen = document.getElementById('screenPf');
+    if (screen) screen.classList.remove('is-swipe-hinting', 'is-swipe-nudging');
+    try { localStorage.setItem(PF_SWIPE_KEY, '1'); } catch (e) {}
+  }
+
   /* 오른쪽 화살표 — 스와이프의 가속기. 한 번에 한 화면씩 넘기고,
      끝까지 가면 화살표가 뒤집혀 처음으로 되감는다.
      칩이 다 보이는 경우에는 할 일이 없으므로 버튼을 비활성으로 둔다. */
@@ -842,9 +869,16 @@
     else pfBriefs.scrollLeft = left;
   }
 
+  // 스크롤 이벤트만으로는 사용자가 민 건지 코드가 옮긴 건지 모른다 — 손이 닿았는지 따로 본다
+  var pfBriefsTouched = false;
+  ['pointerdown', 'wheel'].forEach(function (type) {
+    pfBriefs.addEventListener(type, function () { pfBriefsTouched = true; }, { passive: true });
+  });
+
   // 카드를 직접 밀어 넘기면 시간 표시도 그 카드의 시간대로 맞춘다
   pfBriefs.addEventListener('scroll', function () {
     if (pfBriefsBusy) return;
+    if (pfBriefsTouched) dismissPfSwipeHint();   // 카드를 밀어도 같은 스와이프를 익힌 것이다
     var idx = Math.round(pfBriefs.scrollLeft / briefPitch());
     idx = Math.max(0, Math.min(idx, PF.slots.length - 1));
     if (idx === pfSlot) return;
@@ -946,6 +980,7 @@
       follow(0, true);
       if (!wasX) return;
 
+      dismissPfSwipeHint();                    // 밀어 봤으니 안내는 할 일을 다 했다
       if (holding) { holding = false; pfBriefs.style.scrollSnapType = ''; pfBriefsBusy--; }
       if (dx <= -PF_THRESH)      stepSlot(1);     // 왼쪽으로 밀면 다음 시간대
       else if (dx >= PF_THRESH)  stepSlot(-1);    // 오른쪽으로 밀면 이전 시간대
@@ -1017,9 +1052,12 @@
       if (key === 'portfolio') { pfSlot = latestSlot(); renderPf(false); }
       // 이제야 폭을 잴 수 있다 — 화살표·가장자리를 다시 계산한다
       refreshChipControls();
+      // 처음 들어오면 칩 줄 대신 가격 블록이 밀린다 — 이 화면에서 배울 동작은 시간대 넘기기다.
+      // 블록 안내를 이미 본 사람에게만 예전처럼 칩 줄 힌트를 한 번 준다.
+      // 문구는 밀어 볼 때까지 남아 있고, 움직임은 처음 들어올 때 한 번만
       if (key === 'portfolio' && !pfChipHinted) {
         pfChipHinted = true;
-        hintChipScroll(document.getElementById('pfChips'));
+        if (!showPfSwipeHint()) hintChipScroll(document.getElementById('pfChips'));
       }
     });
   });
