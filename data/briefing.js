@@ -1,15 +1,15 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-22 03:33:17 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-10-22 07:01:03 KST",
+  "refreshed": [
     "us"
   ],
-  "default": "kr",
+  "slots_refreshed": [],
+  "default": "us",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
-      "label": "미국 증시 요약 2026. 10. 21. 7:01AM",
+      "label": "미국 증시 요약 2026. 10. 22. 7:01AM",
       "chips": [
         "전체",
         "IBM",
@@ -22,26 +22,26 @@ window.NOTEFOLIO_BRIEFING = {
         "오후 6시, 국내 시장을 움직인 이유를 확인하세요."
       ],
       "next": "kr",
-      "headline": "해외 5종목 중 3종목 상승, 2종목 하락 — 소파이테크놀로지가 +2.66%로 가장 많이 올랐고 마이크로소프트가 -0.31%로 가장 부진했습니다.",
-      "market_headline": "다우 529p 급등 속 기술주 약세…3대 지수 혼조 마감",
+      "headline": "해외 5종목 중 5종목 상승 — IBM이 +3.94%로 가장 많이 올랐고 마이크로소프트가 +0.20%로 상승폭이 가장 작았습니다.",
+      "market_headline": "스페이스X 호실적에 기술주 급등…나스닥 1%대 반등",
       "market_card": {
-        "title": "뉴욕증시 혼조 마감...다우 1.02% 상승, 나스닥은 홀로 하락",
+        "title": "3대 지수 동반 상승 마감...나스닥 1%대 반등",
         "bullets": [
-          "알파벳·애플 하락 속 테슬라 1%대 상승",
-          "美·이란 중재 기대에 WTI 9일만에 1.8%↓",
-          "3M·방산 실적 호조에 다우 530포인트 급등"
+          "스페이스X 7%대 급등에 엔비디아 AMD도 강세",
+          "WTI 0.7%↓ 배럴당 97달러대로 하락",
+          "美 국무부 걸프 대피 명령 해프닝에 변동성 확대"
         ]
       },
       "cards": [
         {
           "stock": "IBM",
           "ticker": "IBM",
-          "title": "IBM - AI 호재에 상승, 과열 경고도",
-          "body": "IBM은 학습 메모리 기반 AI 벤치마크 1위 소식과 Leena AI 전략적 투자 소식에 힘입어 +2.34% 오른 <b>241.92달러</b> 마감. 다만 매수세로 인한 상승 모멘텀이 과도하게 확장됐다는 주간 분석도 나오며 경계감이 엿보인다.",
-          "pct": 2.34,
-          "price": 241.9199981689453,
+          "title": "IBM - 메인프레임 실적 깜짝 상회",
+          "body": "IBM은 밀렸던 메인프레임 계약이 회복되며 3분기 매출과 순익이 시장 예상을 상회했다는 소식에 +3.94% 오른 <b>251.46달러</b> 마감. 실적 발표 전 시간외 거래에서도 상승폭을 키우며 투자심리가 개선된 모습이다.",
+          "pct": 3.94,
+          "price": 251.4600067138672,
           "currency": "USD",
-          "as_of": "2026-10-20",
+          "as_of": "2026-10-21",
           "slots": [
             {
               "time": "11:00PM",
@@ -49,89 +49,107 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.78,
               "is_close": false,
               "date": "2026-10-21",
-              "title": "실적 발표 앞두고 상승",
-              "text": "실적 발표를 앞두고 소프트웨어 계약 지연 우려가 거론되는 가운데서도 완만한 오름세를 이어가는 중"
+              "title": "시간외 강세 출발",
+              "text": "메인프레임 계약 회복과 실적 호조 소식이 전해지며 시간외 거래에서 상승세가 나타남"
+            },
+            {
+              "time": "마감",
+              "price": 251.4600067138672,
+              "pct": 3.94,
+              "is_close": true,
+              "date": "2026-10-21",
+              "title": "상승폭 확대 마감",
+              "text": "시간 외 초기 상승보다 낙폭이 더 커지며 실적 호조 기대감이 주가에 강하게 반영됨"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "IBM Research, 학습된 메모리로 τ²-Bench 고객 서비스 벤치마크 1위 기록 보고",
-              "original": "IBM Research, 학습된 메모리로 τ²-Bench 고객 서비스 벤치마크 1위 기록 보고",
-              "source": "Unite.AI",
-              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVjA2ejBqeFd4QzRIQ0N5UXFELURtaHVMalY4eUhqUzJGVllYLVg0RVp3cHdJWlpNY2gyNnFpVzdCanVGbFlZb0l0MXZjRUxYZ3ZUOF9RNkJPdUFzLVZteGNnTTMtcTZVZUZPVnVCVWs1OXZ5Qm9jZS1lLTNxd3V5bm53VXBpNXBkX0RVVl9zLVlWUWJPS3VWbHFyUQ?oc=5",
-              "published": "2026-10-21T00:52:17+09:00"
+              "title": "[오늘장특징주]메타, 테슬라, IBM, 램리서치",
+              "original": "[오늘장특징주]메타, 테슬라, IBM, 램리서치",
+              "source": "이데일리",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUV9CSVJFc2UzOGl3M1JLYThoRDNNX0hnSV9QSHJGc3NhRnVOVzQzT1ZGZGJ2WUdiQkJQY2g3RUppRk5COFdfMHhKdkQwTGdjTzlReXlXZmYtenBUS1prc3Y1R0JlRmRBX0pwVVBrNmlRZE5uMGxKeUFjZXJ6NDZ6SQ?oc=5",
+              "published": "2026-10-22T06:28:37+09:00"
             },
             {
-              "title": "IBM Ventures, 기업용 AI 업체 Leena AI에 전략적 투자",
-              "original": "IBM Ventures, 기업용 AI 업체 Leena AI에 전략적 투자",
-              "source": "Investing.com 한국어",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40LTB3NFplZEw1U2s2RlZMWGsxYi1iOGZsOS1UeGg5NV8wbDc1Q2NkdkdZYTJLWEF2Q1JoVlpTck9HOUwyYUoxV08wUjJuS2JHcWI4LU9TbHA3TS1TOGt3ajAxM0JSZEdpT04tMWRoemI?oc=5",
-              "published": "2026-10-20T23:57:00+09:00"
+              "title": "[미국 특징주] IBM, 3분기 매출·순익 예상 상회…시간 외서 2% 상승",
+              "original": "[미국 특징주] IBM, 3분기 매출·순익 예상 상회…시간 외서 2% 상승",
+              "source": "뉴스핌",
+              "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4wZm5CdnVBajRKMHBuWEw1ZGxGYzIyU1RXcjdmYmhLelB6VmFvSW5qekYwOUZFaHZBM0U4N0pSS3h2M1pnYXBhclNXQ1F5VEgtNWd4Q2QtSEhKR0g3?oc=5",
+              "published": "2026-10-22T06:19:00+09:00"
             },
             {
-              "title": "IBM 주가는 매수세에 힘입어 상승했지만 모멘텀은 과도하게 확장된 모습: 주간 분석",
-              "original": "IBM 주가는 매수세에 힘입어 상승했지만 모멘텀은 과도하게 확장된 모습: 주간 분석",
-              "source": "Traders Union",
-              "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZ0hMX3BramlhTlhJUWpadTV2b2ZUTEZUaXRsUklOeEtUNHJWRDNEWmMzTlBrV0ZjdTFMZFdrRTFZR1FhQ0ZoZ1hlSjd2UXRqbkg2a0ZQUy1QdUhUR0NtOEZncm1oLXpjWHFTaTFrSk5yR3FSRGEzanVaTEdOQVZXN1lXMXRYV2FxOHVQMlZBOFN0UQ?oc=5",
-              "published": "2026-10-20T23:48:01+09:00"
+              "title": "IBM, 밀렸던 메인프레임 계약 회복에 실적 예상 상회…시간외 5%↑",
+              "original": "IBM, 밀렸던 메인프레임 계약 회복에 실적 예상 상회…시간외 5%↑",
+              "source": "뉴스1",
+              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zWk9qTEo1LWV0bnBVUXZLRlpobVVvYi0zNHhUWngyUmw3VTlTR0x2cHpCUUhNaUJ5OVFlZWpFQ1BLcHRic3c2a29GanVjZU05SHNOcTFSMVFqdzRCYlJFQ2owZWVKTm8?oc=5",
+              "published": "2026-10-22T06:15:32+09:00"
             }
           ]
         },
         {
           "stock": "마이크로소프트",
           "ticker": "MSFT",
-          "title": "마이크로소프트 - AI 규제 이슈 속 소폭 하락",
-          "body": "마이크로소프트는 -0.31% 내린 <b>531.87달러</b> 마감한 가운데, FTC가 오픈AI와 앤스로픽에 소환장을 발부하며 빅테크 AI 사업 전반에 규제 리스크가 부각됐다. AI 에이전트를 '에이전틱 내부자'로 규정한 내부 방침과 주식 토큰화 반대 행보도 함께 전해졌다.",
-          "pct": -0.31,
-          "price": 531.8699951171875,
+          "title": "마이크로소프트 - 보합권 등락",
+          "body": "마이크로소프트는 과매도권 RSI로 매도세가 둔화된 가운데 +0.20% 오른 <b>532.95달러</b> 마감. 오는 10월 29일 실적 발표를 앞두고 주가 변동성 확대 가능성이 제기되며 관망세가 이어지는 모습이다.",
+          "pct": 0.2,
+          "price": 532.9500122070312,
           "currency": "USD",
-          "as_of": "2026-10-20",
+          "as_of": "2026-10-21",
           "slots": [
             {
               "time": "11:00PM",
-              "price": 529.7100219726562,
-              "pct": -0.41,
+              "price": 529.6099853515625,
+              "pct": -0.42,
               "is_close": false,
               "date": "2026-10-21",
-              "title": "실적 경계 속 소폭 약세",
-              "text": "구겐하임의 매수 의견 유지에도 10월 실적 발표를 앞두고 변동성 경계감에 약보합 흐름 유지 중"
+              "title": "보합권 등락",
+              "text": "토큰화 주식 거래 반대 이슈와 과매도 신호 속 큰 방향성 없이 소폭 하락세를 유지함"
+            },
+            {
+              "time": "마감",
+              "price": 532.9500122070312,
+              "pct": 0.2,
+              "is_close": true,
+              "date": "2026-10-21",
+              "title": "반등 성공 마감",
+              "text": "장중 약세를 딛고 저가 매수세가 유입되며 소폭이나마 플러스권으로 전환해 마무리함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "골드만삭스·맥도날드·마이크로소프트, 주식 토큰화 추진에 반대",
-              "original": "골드만삭스·맥도날드·마이크로소프트, 주식 토큰화 추진에 반대",
-              "source": "블루밍비트",
-              "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1UT0huT19VWUtoZmtTTUY0TzFzYjM0ZG5MMzFpLTVqYlVWaW85Ri11dTc5eUtkZFN1blA4VVpRU05UMUNob1NiQl9QR2FSamtR?oc=5",
-              "published": "2026-10-21T04:13:05+09:00"
+              "title": "OKXICE의 토큰화 주식 거래 반대 이후 보합세를 보이는 마이크로소프트 주가",
+              "original": "OKXICE의 토큰화 주식 거래 반대 이후 보합세를 보이는 마이크로소프트 주가",
+              "source": "Traders Union",
+              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSUoxZktLaGxNQncwRzFYVTRFSWdMVW9nLXYwNGYzYXZKOE9WcjJaMGxPeGRXbGpSMDVtanhfMi0xdFUxVDM1VnRVbnlHLWliUG0zRHhmU29HV3llSnR0SlBkTnRjbmVKWkxDaWxSMmFaWklicXl3eElFaXNZUnFBVGRhSEFfZWFkV3ZRZUh4R1Z3enVsbVZzVlZR?oc=5",
+              "published": "2026-10-22T04:04:41+09:00"
             },
             {
-              "title": "트럼프의 FTC, 오픈AI와 앤스로픽에 소환장 발부. 마이크로소프트, 아마존, 구글이 직면한 5000억 달러 위협의 실체",
-              "original": "Trump’s FTC Subpoenas OpenAI and Anthropic. Inside the $500 Billion Threat Faced by Microsoft, Amazon, and Google",
-              "source": "TIKR.com",
-              "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVDE5RlBaNFFMRER3UG9IZVhDYmZQR2pBTkFLS1JDVW5ZVVc2NXUtOEc5WkFrVWdmRmxSQ2d3MDJ2d3dnYVdWS2pHY1cyQUk4QkhLNkJXcUJkT2o5YTI5a0t3T19rdE5aVmlwNW5XNmdRbXZqXzFZS2NKSElrRkhCV0lSTzA2SHFZNWNidXNod1F4ZF91b1RiSzZobVFuZ3gxNXVyMWR5Q1ZTMDhLdHdTTVQ2NU04aC1WaS1Fbmg0YVBxNnNhNG5xd2tlMmkyRy1kRTUw?oc=5",
-              "published": "2026-10-21T03:45:00+09:00"
+              "title": "마이크로소프트 주가, 과매도 RSI에 매도세 둔화",
+              "original": "마이크로소프트 주가, 과매도 RSI에 매도세 둔화",
+              "source": "Traders Union",
+              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSlhHMHp1ZXpiRUd6TzhHMk9tRXhtT0ZJUHZmZkxPblNNSmkxZzkzX3J1R3FfRTdwX0hJZVRxMDNBOVRrS2V1aThBam1lVkpmRzgyMmpCRFFqampLRHBJWDFOdXg3ejNRRE9BWVBobEFWdFNRbVZ1b3NYOUJyMG9rNGptZmd4YndyV0F5VElTaDlYNXp4dGxBYmd3?oc=5",
+              "published": "2026-10-22T01:06:47+09:00"
             },
             {
-              "title": "마이크로소프트, 기업에서 활동하는 AI 에이전트를 ‘에이전틱 내부자’로 규정해",
-              "original": "마이크로소프트, 기업에서 활동하는 AI 에이전트를 ‘에이전틱 내부자’로 규정해",
-              "source": "elec4",
-              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1JUHJ6bkxudmgzUVRmQzZjMTR1N1NUV1lvNFotTHFZTkdOYjlsQm9mLTEwUUotT0dPN1EzRkR6aEVvRl9fYzJsTW5GcDBxNXFma2kzTmhPU21NZl9NNmZhdUdQSzRQTEZyUndqVmRn?oc=5",
-              "published": "2026-10-21T03:37:36+09:00"
+              "title": "마이크로소프트, 10월 29일 실적 발표 후 주가 4.6% 변동 가능성",
+              "original": "마이크로소프트, 10월 29일 실적 발표 후 주가 4.6% 변동 가능성",
+              "source": "Investing.com 한국어",
+              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1HLU9hUE82Q1dMSWRSLUtQeVFpSWlJQ0txcnBaV0JUSkpSSjlfbGx4eVh4c0FhS3lvbGl4R1o3eU5lYnhrWjU0OGJNaXJVTUFMVHZUc1pDVFlTM1lHMkdta3ZkdVlQWFVwS18wS2paWDVoMW5KNUNv?oc=5",
+              "published": "2026-10-21T23:11:00+09:00"
             }
           ]
         },
         {
           "stock": "아이온큐",
           "ticker": "IONQ",
-          "title": "아이온큐 - 재료 없이 소폭 반등",
-          "body": "아이온큐는 +1.56% 오른 <b>31.26달러</b> 마감했다.",
-          "pct": 1.56,
-          "price": 31.260000228881836,
+          "title": "아이온큐 - 구미시와 양자공장 협력",
+          "body": "아이온큐는 구미시와 손잡고 양자 컴퓨팅 산업 거점 조성에 나섰다는 소식 속에 +3.26% 오른 <b>32.28달러</b> 마감. 양자 컴퓨팅주가 혼조세를 보인 가운데서도 아이온큐와 퀀티넘은 강세를 나타냈다는 분석이다.",
+          "pct": 3.26,
+          "price": 32.279998779296875,
           "currency": "USD",
-          "as_of": "2026-10-20",
+          "as_of": "2026-10-21",
           "slots": [
             {
               "time": "11:00PM",
@@ -139,30 +157,46 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 0.7,
               "is_close": false,
               "date": "2026-10-21",
-              "title": "양자주 혼조 속 상승",
-              "text": "전일 양자 컴퓨팅주 혼조세 마감 이후 오늘은 완만한 상승 흐름을 이어가는 중"
+              "title": "양자주 강세 기류",
+              "text": "양자 컴퓨팅 업종 혼조 속에서도 구미시와의 협력 소식에 힘입어 비교적 견조한 흐름 지속"
+            },
+            {
+              "time": "마감",
+              "price": 32.279998779296875,
+              "pct": 3.26,
+              "is_close": true,
+              "date": "2026-10-21",
+              "title": "상승폭 뚜렷 마감",
+              "text": "시간외 상승분보다 더 큰 폭으로 올라서며 하루 중 가장 강한 상승세로 거래 마감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "아이온큐 주가, 30.78달러 1.60% 하락 마감",
-              "original": "아이온큐 주가, 30.78달러 1.60% 하락 마감",
-              "source": "톱스타뉴스",
-              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE00ejZ0U2o5QUloSlZNZlBKMEZ2SmRDYTlRYnE0Qk0zSTZ0SE8tSl83bUwtbW53Umw1NDRfUGo2bHNyZDMtTWJPcVZ4aGFkX0JpZ3BTdXY2a0ZfajJjVkowekRncklvbWNTQW8waE1PLTlLdw?oc=5",
-              "published": "2026-10-20T09:42:29+09:00"
+              "title": "구미시, ‘양자 공장’ 품나…IonQ와 손잡고 미래산업 점프",
+              "original": "구미시, ‘양자 공장’ 품나…IonQ와 손잡고 미래산업 점프",
+              "source": "쿠키뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9FY2toaW5zanViSFpRN3dmNXBJWEdKZkw1bkd4cFZpNzBQNldXdkZRSWNHZzEweC02dEVjNERQWTBQajNwN0N3c2I4VGl2eHdSTXNSdzJkWVNHanpMelR3YjR0WQ?oc=5",
+              "published": "2026-10-21T18:15:57+09:00"
+            },
+            {
+              "title": "양자 컴퓨팅주 혼조세 마감…아이온큐·퀀티넘 '미소' 리게티 '주춤'",
+              "original": "양자 컴퓨팅주 혼조세 마감…아이온큐·퀀티넘 '미소' 리게티 '주춤'",
+              "source": "글로벌이코노믹",
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYk1iVF9iODdjS0l2SDJmSElwRVNtOTA3SUJJaFhvdHV0Rkp0S1N6VjA2RlhNb0ZqdC1JYXRzR2EwZmdzUnhLa2lTQ1BYWnRBN1pOM1gtdkozS1Y0SjgtUjFQLWswTW5IMjFjM0hmMExDSGV5dkNNWlc1SG01cU00WjRrWkVpSTJN?oc=5",
+              "published": "2026-10-21T07:45:53+09:00"
             }
           ]
         },
         {
           "stock": "엔비디아",
           "ticker": "NVDA",
-          "title": "엔비디아 - 기술주 약세 속 소폭 하락",
-          "body": "엔비디아는 미국 기술주가 대체로 약세를 보인 가운데 -0.29% 내린 <b>216.47달러</b> 마감. 중국 레드테크의 350억 달러 규모 칩 주문 폭주와 두산의 파트너사 행사 참가 소식도 전해지며 수요 기대는 유지되는 모습이다.",
-          "pct": -0.29,
-          "price": 216.47000122070312,
+          "title": "엔비디아 - 삼성전기와 AI기판 공급 체결",
+          "body": "엔비디아는 젠슨 황이 삼성전기와의 AI 기판 장기 공급 계약을 공식 발표하며 +2.54% 오른 <b>221.97달러</b> 마감. GTC 행사에서는 휴머노이드 로봇 양산 소식도 전해지며 AI 생태계 확장에 대한 기대가 이어지는 모습이다.",
+          "pct": 2.54,
+          "price": 221.97000122070312,
           "currency": "USD",
-          "as_of": "2026-10-20",
+          "as_of": "2026-10-21",
           "slots": [
             {
               "time": "11:00PM",
@@ -170,44 +204,53 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.77,
               "is_close": false,
               "date": "2026-10-21",
-              "title": "호재 겹치며 강세 지속",
-              "text": "골드만삭스의 매수 의견 유지와 크라우드스트라이크 협력 소식까지 겹치며 상승폭을 키워가는 중"
+              "title": "호재 겹치며 강세",
+              "text": "삼성전기와의 공급 협력 및 GTC 로봇 공개 소식이 이어지며 상승세가 꾸준히 유지됨"
+            },
+            {
+              "time": "마감",
+              "price": 221.97000122070312,
+              "pct": 2.54,
+              "is_close": true,
+              "date": "2026-10-21",
+              "title": "상승폭 더 키워",
+              "text": "여러 호재성 뉴스가 쌓이며 시간외 대비 상승폭을 키운 채 장을 마무리하는 모습"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "[속보] 미국 기술주 대체로 하락…마이크론·엔비디아 약세, 테슬라는 1.54% 상승",
-              "original": "[속보] 미국 기술주 대체로 하락…마이크론·엔비디아 약세, 테슬라는 1.54% 상승",
+              "title": "[삼성전기 엔비디아] \"젠슨 황이 공식 발표\"…삼성전기, 엔비디아와 손잡고 AI 기판 장기 공급",
+              "original": "[삼성전기 엔비디아] \"젠슨 황이 공식 발표\"…삼성전기, 엔비디아와 손잡고 AI 기판 장기 공급",
               "source": "CBC뉴스",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBkZXhvdTVfVlZSeXlHbDhuSnlpVEZyTWstdjlVZFhqUThXYU1KRVpqWEV2aTlRWlJYZlVQMVpvVE9MREpfYWQ2TGVMd004ZkRoUUlabXp1SkpuZ2JKT1p1bWFzVjVHWVpH?oc=5",
-              "published": "2026-10-21T06:42:00+09:00"
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44WDU4UWV1UXdVVUNpdXNqNVNpLVkwRTB2VHdxdHdJRWlhOFRhSHVMakhsdjRIc0tzMXhwSjIzQjhEd1hiN1ZERk5CT3BjWjlqNzhNSTNzenFta3FfSXgtMkdpN1JBWkdF?oc=5",
+              "published": "2026-10-22T06:48:00+09:00"
             },
             {
-              "title": "두산, 엔비디아 파트너사 행사에 잇달아 참가…\"CCL 공급사 입지 강화\"",
-              "original": "두산, 엔비디아 파트너사 행사에 잇달아 참가…\"CCL 공급사 입지 강화\"",
-              "source": "뉴시스",
-              "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE83Q092a3VqMHc1NHo2OVg1TzF4MXNISlNmZVBoRVVNUU9iOEVVS0VWQnA5NGxCN2FkVV9PcmNoMVpZck9ha1NqTHBNS095VlAxN1djUkN3VTF0emlWdGh3QmxjVHJNR3RPWDJzOENQTXRmaHBoTTh5bdIBeEFVX3lxTE83Q092a3VqMHc1NHo2OVg1TzF4MXNISlNmZVBoRVVNUU9iOEVVS0VWQnA5NGxCN2FkVV9PcmNoMVpZck9ha1NqTHBNS095VlAxN1djUkN3VTF0emlWdGh3QmxjVHJNR3RPWDJzOENQTXRmaHBoTTh5bQ?oc=5",
-              "published": "2026-10-21T05:00:00+09:00"
+              "title": "중국산 칩도 가능...딥시크, 엔비디아·화웨이 칩 지원하는 AI 추론 기술 공개",
+              "original": "중국산 칩도 가능...딥시크, 엔비디아·화웨이 칩 지원하는 AI 추론 기술 공개",
+              "source": "이데일리",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcXRTUVRVbjhHbEVRREZTQzVyazAyM1dzRUpUcjRxdEpOMGlETTRrUlJpblpTXzVkRkVSVTR5MktLa01GZ0ZodGtUR1lqWmVQTEtha2lUbnBuRWV5LW5JczluRGh5bXJOYlNiS191QnpSVkVXZjMtNFB0SFVJc2cxag?oc=5",
+              "published": "2026-10-22T06:27:38+09:00"
             },
             {
-              "title": "中 레드테크, 엔비디아 칩 주문 폭주...350억 달러 규모",
-              "original": "中 레드테크, 엔비디아 칩 주문 폭주...350억 달러 규모",
-              "source": "SBS Biz",
-              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9xSG9lU3ktS3dPV1FVN1Q2eXF0YzlIMG4xMy05Smp6REVLNGRnS1VvY2xHNmJ2RHdIemJ5bWhpMm9GNFA2R0dXVDREUm5VSm9sSkZZLWlHUm90RE92LVN1RGJ5enRTbnfSAVhBVV95cUxOb2Z3ZE04eXBBR3g5RUQtYnZsS1NKNmhjRFQybjlzcGNUVjlzdUlnUmtVZlczTGk3RnlOYmZfRWw4bVpnOW5JRWszRjNFemNwV1hTUjJqTk1K?oc=5",
-              "published": "2026-10-21T04:51:42+09:00"
+              "title": "엔비디아 GTC서 베를린 달군 휴머노이드…애자일 로봇 2천대 양산",
+              "original": "엔비디아 GTC서 베를린 달군 휴머노이드…애자일 로봇 2천대 양산",
+              "source": "글로벌이코노믹",
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQV0lJZENLaG1vYjk1RF9HNTRjMDFfSkg0VGtINUN3RER2NTZWN0JrLXlVZGNHa1pWRXRZVGg3blFodTgtMGhtczl3bC1SbGhYMGJnR1JaQmtCZTQ3STZmZVdacmJHa0ZNMXgyOUNhd3hmaHlEWTRySjNmSHRGVUxPZFMxc3A5MkxF?oc=5",
+              "published": "2026-10-22T06:07:44+09:00"
             }
           ]
         },
         {
           "stock": "소파이테크놀로지",
           "ticker": "SOFI",
-          "title": "소파이테크놀로지 - 실적 앞두고 상승",
-          "body": "소파이테크놀로지는 실적 발표를 앞두고 주가 변동성이 8.2%에 달할 수 있다는 전망 속에 +2.66% 오른 <b>14.68달러</b> 마감했다.",
-          "pct": 2.66,
-          "price": 14.680000305175781,
+          "title": "소파이테크놀로지 - 뚜렷한 재료 없이 소폭 상승",
+          "body": "소파이테크놀로지는 +1.50% 오른 <b>14.90달러</b> 마감.",
+          "pct": 1.5,
+          "price": 14.899999618530273,
           "currency": "USD",
-          "as_of": "2026-10-20",
+          "as_of": "2026-10-21",
           "slots": [
             {
               "time": "11:00PM",
@@ -215,25 +258,25 @@ window.NOTEFOLIO_BRIEFING = {
               "pct": 1.26,
               "is_close": false,
               "date": "2026-10-21",
-              "title": "완만한 오름세 지속",
-              "text": "상장 관련 접근성 확대 소식이 전해진 이후 오후 들어서도 완만한 오름세를 유지하는 중"
+              "title": "완만한 상승 흐름",
+              "text": "특별한 재료 없이도 매수세가 꾸준히 유입되며 장중 내내 완만한 오름세를 이어감"
+            },
+            {
+              "time": "마감",
+              "price": 14.899999618530273,
+              "pct": 1.5,
+              "is_close": true,
+              "date": "2026-10-21",
+              "title": "소폭 상승 마감",
+              "text": "뚜렷한 재료 없이도 상승 흐름을 유지하며 하루 중 고점 부근에서 거래를 마무리함"
             }
           ],
           "slot_total": 2,
-          "news": [
-            {
-              "title": "SoFi Technologies 주가, 실적 발표 때 8.2% 변동 가능성",
-              "original": "SoFi Technologies 주가, 실적 발표 때 8.2% 변동 가능성",
-              "source": "Investing.com 한국어",
-              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBsM0FrV0dqNElSZ1dPbFNWejZ4d0FFNmF1VEZSWGw3VTN6dVg5NWM0cUg0b0IwOUV4TEE4QWExNHJ5Si1uRjlIMTBMQVFqQjJlcXF3WU9pSk5rTmlVbnZWaVphc3B4aWRUWWxWQlVLSGdCUzc0RFBR?oc=5",
-              "published": "2026-10-20T23:16:00+09:00"
-            }
-          ]
+          "news": []
         }
       ],
-      "markdown": "briefings/2026-10-21-us.md",
-      "refreshed_at": "2026-10-21 07:01:04 KST",
-      "slots_refreshed_at": "2026-10-22 03:33:17 KST"
+      "markdown": "briefings/2026-10-22-us.md",
+      "refreshed_at": "2026-10-22 07:01:03 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
