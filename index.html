@@ -112,7 +112,8 @@ document.write('<link rel="stylesheet" href="styles.css?t=' + Date.now() + '">')
         <button class="pf-nav pf-nav--prev" id="pfPrev" aria-label="이전 시간대">
           <img src="assets/chevron-right.svg" alt="" />
         </button>
-        <span class="pf-date" id="pfDate">2026년 7월 31일</span>
+        <!-- 날짜 + 시각 (62:4445 "오늘  마감") — 둘이 함께 지금 보고 있는 시점을 말한다 -->
+        <span class="pf-date" id="pfDate"><span id="pfDateDay">오늘</span><span id="pfDateTime">마감</span></span>
         <button class="pf-nav pf-nav--next" id="pfNext" aria-label="다음 시간대">
           <img src="assets/chevron-right.svg" alt="" />
         </button>
