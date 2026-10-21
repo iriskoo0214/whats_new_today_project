@@ -297,7 +297,7 @@
         '<div class="card-read"><span class="card-read__check">✓</span><span class="card-read__label">읽음</span></div>' +
       '</div>' +
       '<div class="card-body">' + data.body + '</div>' +
-      (index === 0 ? '<div class="swipe-hint">← 밀어서 확인</div>' : '');
+      (index === 0 ? '<div class="swipe-hint">← 밀어서 읽음</div>' : '');
 
     row.appendChild(action);
     row.appendChild(card);
