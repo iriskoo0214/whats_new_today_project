@@ -529,11 +529,11 @@
     height:24px;
     display:flex;align-items:center;justify-content:center;gap:20px;
   }
-  /* 날짜와 시각은 79px 안에서 양끝 정렬 (62:4445). 마지막 시점이면 오른쪽 화살표가
-     visibility:hidden으로 자리만 남아 날짜 덩어리가 화면 가운데에 선다 — 시안과 같다.
-     "10월 14일 1:00PM"처럼 길어지면 79px을 넘겨 늘어나되 둘 사이는 8px 이상 띄운다 */
+  /* 날짜와 시각은 10px 띄워 왼쪽부터 붙인다, 묶음 폭 81px (73:5125). 마지막 시점이면
+     오른쪽 화살표가 visibility:hidden으로 자리만 남아 날짜 덩어리가 화면 가운데에 선다.
+     "10월 14일 1:00PM"처럼 길어지면 81px을 넘겨 늘어난다 */
   .pf-date{
-    display:flex;align-items:flex-end;justify-content:space-between;gap:8px;min-width:79px;
+    display:flex;align-items:center;justify-content:flex-start;gap:10px;min-width:81px;
     font-size:16px;font-weight:600;line-height:1.4;color:#202326;white-space:nowrap;
   }
   .pf-nav{
@@ -543,6 +543,8 @@
   /* chevron-right.svg는 흰색 SVG다 — 예전 파랑 히어로용. 이제 밝은 배경이라 검게 뒤집는다 */
   .pf-nav img{width:12px;height:24px;display:block;filter:brightness(0);}
   .pf-nav--prev{order:-1;transform:rotate(180deg);}
+  /* 시안 묶음 폭은 143(12+20+81+30)이라 오른쪽 자리를 30으로 맞춘다 — 20+12=32면 1px 왼쪽으로 선다 */
+  .pf-nav--next{margin-left:-2px;}
   .pf-nav:disabled{visibility:hidden;}
   .pf-nav:active{opacity:.5;}
 
