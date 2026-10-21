@@ -745,6 +745,7 @@
     if (slotDay) {
       var d = new Date(slotDay + 'T00:00:00');
       PF.date = d.getFullYear() + '년 ' + (d.getMonth() + 1) + '월 ' + d.getDate() + '일';
+      PF.day = d;
     }
   }
 
@@ -772,6 +773,16 @@
      탭을 열면 여기서 시작한다 — 9:10AM부터 보여주면 방금 무슨 일이 있었는지
      알려고 들어온 사람이 매번 끝까지 넘겨야 한다. */
   function latestSlot() { return Math.max(PF.slots.length - 1, 0); }
+
+  // 헤더 날짜는 시각과 한 줄에 서므로 짧게 — 오늘·어제는 말로, 그 전은 "10월 14일"
+  function pfDayLabel(day) {
+    if (!day) return '';
+    var today = new Date(); today.setHours(0, 0, 0, 0);
+    var diff = Math.round((today - day) / 86400000);
+    if (diff === 0) return '오늘';
+    if (diff === 1) return '어제';
+    return (day.getMonth() + 1) + '월 ' + day.getDate() + '일';
+  }
   var screenPf   = document.getElementById('screenPf');
   var pfBriefRow = document.getElementById('pfBriefRow');
   var pfBriefs   = document.getElementById('pfBriefs');
@@ -888,7 +899,9 @@
 
   function renderPf(animate, keepBriefs) {
     var s = PF.slots[pfSlot];
-    document.getElementById('pfDate').textContent = PF.date;
+    document.getElementById('pfDate').setAttribute('aria-label', PF.date + ' ' + s.time);
+    document.getElementById('pfDateDay').textContent = pfDayLabel(PF.day) || PF.date;
+    document.getElementById('pfDateTime').textContent = s.time;
     document.getElementById('pfHeadline').textContent = s.headline;
     document.getElementById('pfTimeLabel').textContent = s.time;
     document.getElementById('pfPrice').textContent = s.price;
