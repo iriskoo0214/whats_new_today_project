@@ -16,8 +16,9 @@
 import argparse
 import sys
 import traceback
-from datetime import datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
@@ -25,8 +26,8 @@ import brief
 import emit
 import news as news_mod
 import prices
-from config import (BRIEFINGS_DIR, INTRADAY_ENABLED, KST, MARKET_SUMMARY_FORBID,
-                    ensure_dirs)
+from config import (BRIEFINGS_DIR, INTRADAY_ENABLED, KST, MARKET_SESSION,
+                    MARKET_SUMMARY_FORBID, ensure_dirs)
 from portfolio import load_holdings, split_by_market
 
 SECTION_TITLE = {"us": "해외 (미국 증시)", "kr": "국내 (한국 증시)"}
@@ -46,6 +47,20 @@ def resolve_markets(choice: str, now: datetime):
     if choice == "all":
         return ["us", "kr"]
     return [choice]
+
+
+def last_session_day(market: str, now: datetime) -> date:
+    """그 시장 현지 시각으로 장 마감이 이미 지난 가장 최근 날짜.
+
+    주말·공휴일이어도 달력 날짜를 그대로 돌려준다. 그날 장이 열렸는지는
+    휴장일 표가 아니라 받아온 시세의 거래일(as_of)이 말해준다.
+    """
+    s = MARKET_SESSION[market]
+    local = now.astimezone(ZoneInfo(s["tz"]))
+    day = local.date()
+    if (local.hour, local.minute) < s["close"]:
+        day -= timedelta(days=1)
+    return day
 
 
 def main() -> int:
@@ -86,6 +101,26 @@ def main() -> int:
     log("가격 조회 완료 — 성공 {} / 실패 {}{}".format(
         len(quotes) - len(failed), len(failed),
         (" (" + ", ".join(failed) + ")") if failed else ""))
+
+    # 휴장일엔 마감 브리핑을 만들지도, 알리지도 않는다. 정시 실행(cron-job.org)은
+    # pick_job.py를 거치지 않고 여기로 바로 오므로 요일만으론 못 막는다. 공휴일
+    # 표를 두는 대신 받은 종가의 거래일을 본다 — 설·추석·대체공휴일·임시공휴일,
+    # 미국 휴장일까지 표 없이 걸러진다. 시세를 하나도 못 받았으면 휴장과 구분이
+    # 안 되므로 예전처럼 진행한다.
+    if not args.slots_only:
+        for m in list(targets):
+            day = last_session_day(m, now)
+            got = [quotes[h.ticker].as_of for h in by_market[m]
+                   if h.ticker in quotes and quotes[h.ticker].as_of]
+            if got and max(got) < day:
+                log("{} 휴장 — {} 장이 열리지 않았습니다(받은 마지막 거래일 {}). "
+                    "마감 브리핑 갱신과 알림을 건너뜁니다.".format(
+                        SECTION_LABEL[m], day.isoformat(), max(got).isoformat()))
+                targets.remove(m)
+        if not targets:
+            log("갱신할 시장이 없어 종료합니다.")
+            return 0
+        wanted = [h for m in targets for h in by_market[m]]
 
     log("뉴스 수집 중…")
     articles = news_mod.fetch_all(wanted, now)
