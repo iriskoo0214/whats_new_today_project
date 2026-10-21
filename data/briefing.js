@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-21 09:20:51 KST",
+  "generated_at": "2026-10-21 10:28:51 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -317,13 +317,22 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-20",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 1272000.0,
-              "pct": 6.89,
+              "time": "9:10AM",
+              "price": 1284000.0,
+              "pct": 7.9,
               "is_close": false,
               "date": "2026-10-21",
               "title": "장 초반 급등 출발",
-              "text": "개장과 함께 검색 상위 종목으로 꼽히며 강한 상승세로 거래를 시작한 모습"
+              "text": "개장 직후부터 강한 매수세가 유입되며 코스피 급락 우려를 딛고 큰 폭으로 뛰어오름"
+            },
+            {
+              "time": "10:05AM",
+              "price": 1292000.0,
+              "pct": 8.57,
+              "is_close": false,
+              "date": "2026-10-21",
+              "title": "오전 상승폭 확대",
+              "text": "美 AI서버 실적 호조와 외국인 매수세가 맞물리며 삼성전자와 함께 상승폭을 더 키우는 중"
             }
           ],
           "slot_total": 4,
@@ -362,13 +371,22 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-20",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 218750.0,
-              "pct": 4.67,
+              "time": "9:10AM",
+              "price": 219000.0,
+              "pct": 4.78,
               "is_close": false,
               "date": "2026-10-21",
-              "title": "코스피 급등 속 동반 강세",
-              "text": "지수가 2% 넘게 오르는 가운데 반도체 대장주로서 장 초반부터 큰 폭 상승 중"
+              "title": "장 초반 강세 출발",
+              "text": "개장과 동시에 큰 폭으로 올라서며 코스피 급반등 흐름 속에서 상승세를 타기 시작함"
+            },
+            {
+              "time": "10:05AM",
+              "price": 220500.0,
+              "pct": 5.5,
+              "is_close": false,
+              "date": "2026-10-21",
+              "title": "오전 상승폭 확대",
+              "text": "코스피가 5,700선을 회복하는 가운데 외국인 매수세까지 가세하며 오름폭을 더 넓혀가는 중"
             }
           ],
           "slot_total": 4,
@@ -407,13 +425,22 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-20",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 795000.0,
-              "pct": 0.38,
+              "time": "9:10AM",
+              "price": 798000.0,
+              "pct": 0.76,
               "is_close": false,
               "date": "2026-10-21",
-              "title": "보합권 소폭 상승",
-              "text": "지배구조 이슈와 투자 관련 소식이 겹친 가운데 장 초반 완만한 오름세를 유지"
+              "title": "장 초반 소폭 상승",
+              "text": "개장 직후 완만한 오름세로 출발했으나 상승폭이 크지 않은 조용한 흐름을 이어감"
+            },
+            {
+              "time": "10:05AM",
+              "price": 792000.0,
+              "pct": 0.0,
+              "is_close": false,
+              "date": "2026-10-21",
+              "title": "상승분 반납하며 보합",
+              "text": "장 초반 오름세를 지키지 못하고 상승분을 대부분 반납하며 보합권으로 내려앉음"
             }
           ],
           "slot_total": 4,
@@ -452,13 +479,22 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-20",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 165600.0,
-              "pct": 2.67,
+              "time": "9:10AM",
+              "price": 164400.0,
+              "pct": 1.92,
               "is_close": false,
               "date": "2026-10-21",
-              "title": "장 초반 완만한 상승",
-              "text": "로봇 경쟁 관련 소식이 나온 가운데 개장 직후 꾸준한 오름세를 보이는 중"
+              "title": "장 초반 상승 출발",
+              "text": "개장 직후 완만한 오름세로 출발하며 AI 에어컨 신제품 공개 기대감이 반영되는 모습"
+            },
+            {
+              "time": "10:05AM",
+              "price": 163250.0,
+              "pct": 1.21,
+              "is_close": false,
+              "date": "2026-10-21",
+              "title": "상승폭 소폭 축소",
+              "text": "AI 데이터센터 냉각 솔루션 공개 소식에도 오전 들어 상승폭이 다소 줄어드는 흐름"
             }
           ],
           "slot_total": 4,
@@ -497,13 +533,22 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-20",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 312000.0,
-              "pct": 2.13,
+              "time": "9:10AM",
+              "price": 310500.0,
+              "pct": 1.64,
               "is_close": false,
               "date": "2026-10-21",
-              "title": "장 초반 상승 흐름",
-              "text": "신형 투싼 가격 공개와 계약 개시 소식이 전해진 가운데 완만한 오름세로 출발"
+              "title": "장 초반 소폭 상승",
+              "text": "개장 직후 완만한 오름세로 출발하며 차분한 흐름 속에 거래를 이어가는 모습"
+            },
+            {
+              "time": "10:05AM",
+              "price": 304000.0,
+              "pct": -0.49,
+              "is_close": false,
+              "date": "2026-10-21",
+              "title": "상승 반납 후 약세 전환",
+              "text": "신형 투싼 출시 소식에도 매수세가 이어지지 못하고 오전 중 하락세로 돌아섬"
             }
           ],
           "slot_total": 4,
@@ -534,7 +579,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-20-kr.md",
       "refreshed_at": "2026-10-20 18:01:07 KST",
-      "slots_refreshed_at": "2026-10-21 09:20:51 KST"
+      "slots_refreshed_at": "2026-10-21 10:28:51 KST"
     }
   }
 };
