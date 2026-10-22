@@ -95,7 +95,7 @@ document.write('<link rel="stylesheet" href="styles.css?t=' + Date.now() + '">')
 
   <!-- ============ Portfolios 탭 (1:469 — 2026-09 리디자인) ============ -->
   <section class="screen screen--pf" id="screenPf" data-trend="up">
-    <!-- topbackground(1:470/1:534) — 화면 전체 폭(375×441)에 깔리는 은은한 배경.
+    <!-- topbackground(1:470/1:534) — 화면 전체 폭(375×451)에 깔리는 은은한 배경.
          트렌드 색 위에 밝은 그라데이션을 겹쳐서 위쪽만 살짝 색이 비친다.
          진행 바(.pf-col--mid)와 무관하게 항상 전체 폭으로 깔리는 별개 레이어라
          맨 앞(=가장 아래)에 둔다. -->
@@ -128,12 +128,11 @@ document.write('<link rel="stylesheet" href="styles.css?t=' + Date.now() + '">')
         <button class="pf-tabs__more" aria-label="다음 종목 보기"><img src="assets/chip-more.svg" alt="" /></button>
       </div>
 
-      <!-- 종목명 + 어제보다 등락률. 자연어 헤드라인(pfHeadline)은 새 시안에 없어서
+      <!-- 종목명 + 등락률("어제보다" 글자는 90:3577에서 빠졌다). 자연어 헤드라인(pfHeadline)은 새 시안에 없어서
            숨겨뒀다 — pfHeadlineText() 로직 자체는 지우지 않았다. -->
       <div class="pf-stock">
         <div class="pf-stock__name" id="pfStock">SK하이닉스</div>
         <div class="pf-price__info">
-          <p class="pf-price__yday">어제보다</p>
           <div class="pf-price__change">
             <img id="pfTriangle" src="assets/triangle-up.svg" alt="" />
             <span id="pfPct"></span>

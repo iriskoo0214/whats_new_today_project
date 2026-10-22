@@ -489,11 +489,11 @@
   }
   .screen--pf.is-switching .pf-middle{animation:pfSwitchIn .24s cubic-bezier(.22,.9,.28,1) both;}
 
-  /* topbackground(1:470/1:534) — 화면 전체 폭 375×441에 깔리는 은은한 배경.
+  /* topbackground(1:470/1:534) — 화면 전체 폭 375×451(90:3578)에 깔리는 은은한 배경.
      밝은 그라데이션(60%→100% 불투명 --bg)을 트렌드 색 위에 겹쳐서, 위쪽일수록
      트렌드 색이 살짝 비치다가 아래로 갈수록 --bg로 완전히 덮인다. 진행 바 폭과
      무관하게 항상 전체 폭으로 깔린다. */
-  .pf-topbg{position:absolute;left:0;top:0;width:100%;height:441px;}
+  .pf-topbg{position:absolute;left:0;top:0;width:100%;height:451px;}
   .screen--pf[data-trend="up"] .pf-topbg{
     background:
       linear-gradient(180deg,rgba(231,243,255,.6) 0%,#e7f3ff 95.74%),
@@ -577,9 +577,10 @@
   /* chip-more.svg도 흰색 SVG다 — .chip-more(Home)와 같은 이유로 검게 뒤집는다 */
   .pf-tabs__more img{width:22px;height:38px;display:block;filter:brightness(0);}
 
-  /* 종목명 + 어제보다 등락률 (Frame 2085670422, top:248) */
+  /* 종목명 + 등락률 (90:3628, top:258). 90:3577부터 가운데 덩어리(종목명·가격 띠·브리핑)가
+     통째로 10px 내려왔다 — 칩 줄은 그대로 100 */
   .pf-stock{
-    position:absolute;left:16px;top:248px;
+    position:absolute;left:16px;top:258px;
     display:flex;align-items:center;gap:6px;
     color:#15171a;
     transition:transform .28s cubic-bezier(.22,.8,.28,1), opacity .28s ease;
@@ -589,8 +590,8 @@
      pfHeadlineText()를 지우지 않고 화면에서만 숨긴다 — 되살릴 수도 있어서. */
   .pf-stock__desc{display:none;}
 
-  .pf-price__info{display:flex;align-items:center;gap:3px;}
-  .pf-price__yday{font-size:14px;font-weight:400;letter-spacing:-.35px;line-height:1.5;color:rgba(21,23,26,.7);}
+  /* "어제보다" 글자는 90:3577에서 빠졌다 — 삼각형과 퍼센트만 남는다 */
+  .pf-price__info{display:flex;align-items:center;}
   .pf-price__change{display:flex;align-items:center;gap:2px;}
   .pf-price__change img{width:10px;height:10px;display:block;flex:0 0 auto;}
   .pf-price__change span{
@@ -612,13 +613,12 @@
   .screen--pf[data-band-wide="1"] .pf-chip{border-color:rgba(255,255,255,.6);color:rgba(255,255,255,.7);}
   .screen--pf[data-band-wide="1"] .pf-chip.is-active{border-color:#fff;color:#fff;}
   .screen--pf[data-band-wide="1"] .pf-stock{color:#fff;}
-  .screen--pf[data-band-wide="1"] .pf-price__yday{color:rgba(255,255,255,.7);}
   .screen--pf[data-band-wide="1"] .pf-price__change span{color:#fff;}
   .screen--pf[data-band-wide="1"] .pf-price__value{color:#fff;}
 
-  /* 가격 영역 — Stock Price Background #2(1:472/1:536, 솔리드 289~441) + Time + 큰 가격 */
+  /* 가격 영역 — Stock Price Background #2(90:3603, 솔리드 299~451) + 어제 종가 + 큰 가격 */
   .pf-time{
-    position:absolute;left:0;top:289px;width:100%;height:152px;
+    position:absolute;left:0;top:299px;width:100%;height:152px;
     padding:0;border:none;overflow:hidden;
     text-align:left;font-family:inherit;
     transition:transform .28s cubic-bezier(.22,.8,.28,1), opacity .28s ease;
@@ -632,11 +632,14 @@
 
   .pf-time__label{
     /* top:12.5는 구 Figma 파일(286:1043, y=301)에서 잘못 끌어온 값이었다.
-       새 파일(1:469)의 실제 값은 top-[311.5px] — pf-time 기준(289) 22.5px. */
+       새 파일(1:469)의 실제 값은 top-[311.5px] — pf-time 기준(289) 22.5px.
+       90:3577에선 321.5/299로 둘 다 10px 내려와 22.5px은 그대로다. */
     position:absolute;left:16px;top:22.5px;transform:translateY(-50%);
-    font-size:15px;font-weight:600;letter-spacing:-.375px;line-height:1.4;color:#fff;
+    font-size:13px;font-weight:400;letter-spacing:-.375px;line-height:1.4;color:#fff;
     white-space:nowrap;
   }
+  /* "어제 종가 253,450원" (90:3627) — 말머리는 13px Regular, 값은 15px Medium */
+  .pf-time__label strong{font-size:15px;font-weight:500;}
   /* Figma의 top:94는 텍스트 박스의 세로 '중앙' 기준(-translate-y-1/2)이다.
      translateY를 빼먹으면 60px 폰트(줄높이 84px)가 top부터 그려져
      .pf-time의 152px 아래로 넘쳐 overflow:hidden에 잘린다. */
@@ -677,15 +680,15 @@
 
   /* 시간대별 브리핑 (1:469 title/Container). 523/550은 최초 파랑 히어로 전체
      높이(160+363=523)에서 그냥 이어붙인 값이라 Figma 좌표가 아니었다 — 새 시안
-     실제 값(496/525)으로 교체. */
+     실제 값(496/525)으로 교체. 90:3577에서 10px 더 내려와 506/535. */
   .pf-section-title{
-    position:absolute;left:16px;top:496px;height:20px;display:flex;align-items:center;
+    position:absolute;left:16px;top:506px;height:20px;display:flex;align-items:center;
     font-size:14px;font-weight:600;letter-spacing:-.35px;line-height:1.4;color:var(--muted);
   }
   .pf-briefs{
     /* height:122px 고정이었다 — 카드가 내용만큼 늘어나도록 아래에서 뺐으니
        이 행도 같이 auto로 풀어야 overflow-y:hidden에 안 잘린다. */
-    position:absolute;left:0;top:525px;width:100%;height:auto;
+    position:absolute;left:0;top:535px;width:100%;height:auto;
     overflow-x:auto;overflow-y:visible;scrollbar-width:none;
     /* touch-action은 일부러 주지 않는다(auto). 여기에 pan-x를 주면 카드 위에서
        시작한 세로 끌기가 조상 스크롤러로 넘어가지 못한다 — 브라우저가 만진 요소부터
@@ -817,10 +820,10 @@
          몇 줄이 되느냐에 따라 넘쳐서 가격이 잘린다. */
       flex:0 0 auto;max-height:560px;      /* 시안 502 + 여유 58 */
       display:flex;flex-direction:column;
-      /* 시안에서 진행 바(502)는 가격 블록(밑변 441) 아래로 61px 더 내려가
+      /* 시안에서 진행 바(502)는 가격 블록(밑변 451) 아래로 51px 더 내려가
          옅어지며 사라진다. flex로 쌓으면 가격 블록이 마지막이라 그냥 두면
          그 꼬리가 통째로 없어진다. */
-      padding-bottom:61px;
+      padding-bottom:51px;
     }
     /* 데스크톱은 .pf-top·.pf-middle이 둘 다 top:0 절대배치라 그라데이션(502px)이
        날짜 섹션(.pf-top, 100px) 뒤로도 자연스럽게 깔린다. 모바일 흐름에서는
@@ -840,9 +843,9 @@
       left:auto;top:auto;width:auto;padding:0 16px;
       flex:0 0 auto;
       /* 절대배치 기준 간격을 그대로 옮긴다.
-           칩 줄 바닥(56+58) → 종목명(248) = 134
-           종목명 바닥(248+34) → 가격 띠(289) = 7 */
-      margin:134px 0 7px;
+           칩 줄 바닥(56+58) → 종목명(258) = 144
+           종목명 바닥(258+34) → 가격 띠(299) = 7 */
+      margin:144px 0 7px;
     }
     .pf-time{top:auto;flex:0 0 152px;}
     .pf-time__band{height:100%;}
