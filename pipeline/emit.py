@@ -57,6 +57,10 @@ def _slots_payload(sb: StockBrief) -> list:
             "time": s.label,
             "price": s.price,
             "pct": None if s.pct is None else round(s.pct, 2),
+            # 등락률의 기준선(그 슬롯 날짜의 전 거래일 종가). Portfolios 바에 그대로 적는다.
+            # 반올림 전 pct로 되돌려 구하므로 기준값과 같다 — 슬롯이 직전 거래일 것일 때
+            # 시세의 prev_close와 다른데(intraday.fetch_slots), 그 경우도 맞게 나온다.
+            "prev_close": None if s.pct is None else round(s.price / (1 + s.pct / 100.0), 2),
             "is_close": s.is_close,
             # 장중에 돌리면 슬롯은 직전 거래일 것이라 카드 as_of와 다를 수 있다
             "date": s.day.isoformat() if getattr(s, "day", None) else None,
@@ -94,6 +98,7 @@ def _market_payload(key: str, briefs: List[StockBrief], now: datetime,
                 "body": card_body(b),
                 "pct": None if b.pct is None else round(b.pct, 2),
                 "price": b.quote.close,
+                "prev_close": b.quote.prev_close,
                 "currency": b.quote.currency,
                 "as_of": b.quote.as_of.isoformat() if b.quote.as_of else None,
                 "slots": _slots_payload(b),

@@ -661,6 +661,26 @@
       : Math.round(v).toLocaleString('ko-KR');
   }
 
+  /* 바 위 라벨 — 전날 종가 (62:4393 "254,000원"). 시각은 헤더 날짜 줄로 옮겨 갔다.
+     데이터의 prev_close를 쓰고, 없는 예전 데이터는 가격과 등락률로 되돌려 구한다.
+     등락률이 소수 둘째 자리 반올림이라 오차가 있는데, 원화는 호가 단위로 맞추면
+     정확히 복원되지만(오차 < 호가/2) 달러는 1센트 틀릴 수 있어 비워 둔다. */
+  function krxTick(p) {
+    return p < 2000 ? 1 : p < 5000 ? 5 : p < 20000 ? 10 : p < 50000 ? 50
+         : p < 200000 ? 100 : p < 500000 ? 500 : 1000;
+  }
+  function pfPrevCloseText(card, price, pct, prevClose) {
+    var isUsd = card.currency === 'USD';
+    var v = prevClose;
+    if (v == null && !isUsd && price != null && pct != null) {
+      v = price / (1 + pct / 100);
+      var t = krxTick(v);
+      v = Math.round(v / t) * t;
+    }
+    if (v == null) return '';
+    return isUsd ? '$' + Number(v).toFixed(2) : Math.round(v).toLocaleString('ko-KR') + '원';
+  }
+
   // 받침에 따라 조사를 고른다 — '원으로' / '달러로'
   function pfRo(unit) { return unit === '원' ? '으로' : '로'; }
 
@@ -698,6 +718,7 @@
       var p = pfPriceText(card);
       return [{
         time: '마감', band: BAND_FULL, price: p,
+        prev: pfPrevCloseText(card, card.price, card.pct, card.prev_close),
         pct: card.pct == null ? '-' : Math.abs(card.pct).toFixed(2) + ' %',
         pctRaw: card.pct,
         headline: pfHeadlineText(p, unit, card.pct, true),
@@ -720,6 +741,7 @@
         // 11:00PM 하나뿐일 때 1/1이 되어 하루가 다 간 것처럼 꽉 찬다.
         band: (i + 1) / (card.slot_total || src.length) * BAND_FULL,
         price: p,
+        prev: pfPrevCloseText(card, s.price, s.pct, s.prev_close),
         pct: s.pct == null ? '-' : Math.abs(s.pct).toFixed(2) + ' %',
         pctRaw: s.pct,
         headline: pfHeadlineText(p, unit, s.pct, s.is_close),
@@ -903,7 +925,8 @@
     document.getElementById('pfDateDay').textContent = pfDayLabel(PF.day) || PF.date;
     document.getElementById('pfDateTime').textContent = s.time;
     document.getElementById('pfHeadline').textContent = s.headline;
-    document.getElementById('pfTimeLabel').textContent = s.time;
+    document.getElementById('pfTimeLabel').textContent = s.prev || '';
+    document.getElementById('pfTimeLabel').setAttribute('aria-label', s.prev ? '전날 종가 ' + s.prev : '');
     document.getElementById('pfPrice').textContent = s.price;
     document.getElementById('pfPct').textContent = s.pct;
     document.getElementById('pfColHead').style.width = s.band + '%';
