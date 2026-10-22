@@ -16,10 +16,9 @@ from typing import List, Optional
 from config import (INTRADAY_INTERVAL, INTRADAY_TIMES_KR, INTRADAY_TIMES_US,
                     INTRADAY_TOLERANCE_MIN, KST)
 from portfolio import Holding
+from prices import Quote, yf_symbol
 
 warnings.filterwarnings("ignore")
-
-_symbol_cache = {}
 
 
 @dataclass
@@ -28,28 +27,9 @@ class Slot:
     label: str          # 화면에 쓰는 시각 표기 ("9:10AM", "마감")
     price: float
     pct: Optional[float]      # 전일 종가 대비 등락률
+    prev_close: Optional[float] = None   # pct의 기준선(그 슬롯 날짜의 전 거래일 종가)
     is_close: bool = False
     day: Optional[date] = None   # 이 시세가 어느 거래일 것인지(카드 날짜 도장에 쓴다)
-
-
-def _symbol(holding: Holding) -> Optional[str]:
-    """yfinance가 아는 심볼로 바꾼다. 국내는 .KS / .KQ 를 실제로 찔러 확인한다."""
-    if not holding.is_kr:
-        return holding.ticker
-    if holding.ticker in _symbol_cache:
-        return _symbol_cache[holding.ticker]
-
-    import yfinance as yf
-    for suffix in (".KS", ".KQ"):
-        sym = holding.ticker + suffix
-        try:
-            if not yf.Ticker(sym).history(period="2d", interval="1d").empty:
-                _symbol_cache[holding.ticker] = sym
-                return sym
-        except Exception:
-            continue
-    _symbol_cache[holding.ticker] = None
-    return None
 
 
 def _label(ts, is_close: bool) -> str:
@@ -113,9 +93,7 @@ def _pick_day(holding: Holding, df):
     return None, None
 
 
-def fetch_slots(holding: Holding, prev_close: Optional[float],
-                close_price: Optional[float] = None,
-                quote_day: Optional[date] = None) -> List[Slot]:
+def fetch_slots(holding: Holding, quote: Quote) -> List[Slot]:
     """가장 최근 거래일의 정해진 시각(KST) 시세를 뽑는다.
 
     시점은 시장마다 다르다 — 국내는 9:10 / 10:30 / 1:00 / 마감,
@@ -125,14 +103,13 @@ def fetch_slots(holding: Holding, prev_close: Optional[float],
     값은 그 시각 봉의 **시가**를 쓴다. 5분봉의 종가는 5분 뒤 가격이라
     '9:10의 주가'로 내걸기에 맞지 않는다.
 
-    '마감' 슬롯은 공식 종가(close_price)로 덮어쓴다. yfinance의 장중 마지막 봉은
-    거래소 공식 종가와 어긋나고, 그대로 두면 같은 화면에서 카드 가격과 슬롯 가격이
-    달라진다. 단, 슬롯이 시세(quote_day)와 다른 날이면 남의 날 종가를 끌어오는
-    셈이라 쓰지 않는다.
+    '마감' 슬롯과 등락률 기준선은 시세의 일봉 종가(quote.closes)에서 가져온다.
+    5분봉의 마지막 값은 거래소 공식 종가와 어긋나서(종가 단일가가 빠진다), 그대로
+    쓰면 카드 가격과 마감 슬롯이 다르고 다음 날 등락률 기준도 틀어진다.
 
     데이터가 없으면 빈 리스트를 준다(호출한 쪽이 마감 한 슬롯으로 떨어진다).
     """
-    sym = _symbol(holding)
+    sym = yf_symbol(holding)
     if not sym:
         return []
 
@@ -141,6 +118,11 @@ def fetch_slots(holding: Holding, prev_close: Optional[float],
         df = yf.Ticker(sym).history(period="5d", interval=INTRADAY_INTERVAL)
     except Exception:
         return []
+    return slots_from_bars(holding, df, quote)
+
+
+def slots_from_bars(holding: Holding, df, quote: Quote) -> List[Slot]:
+    """받아 둔 5분봉(df)에서 슬롯을 뽑는다. 네트워크를 타지 않는 부분."""
     if df.empty:
         return []
 
@@ -154,11 +136,12 @@ def fetch_slots(holding: Holding, prev_close: Optional[float],
 
     marks = [_minutes(ts) for ts in day.index]
     targets = INTRADAY_TIMES_KR if holding.is_kr else INTRADAY_TIMES_US
-    same_day = quote_day is None or quote_day == last_day
 
-    # 등락률 기준선. 넘겨받은 prev_close는 시세(오늘) 기준이라, 슬롯이 다른 날이면
-    # 맞지 않는다. 그럴 땐 그 날의 전 거래일 종가를 같은 데이터에서 다시 구한다.
-    if not same_day:
+    # 등락률 기준선은 슬롯 날짜(last_day)의 전 거래일 종가. 시세의 prev_close를 그대로
+    # 쓰면 안 된다 — 아침엔 오늘 일봉이 아직 없어 시세가 어제 기준(as_of=어제)이고,
+    # 그 prev_close는 그저께 종가다. 일봉에 없을 때만 5분봉 마지막 값으로 때운다.
+    prev_close = quote.close_before(last_day)
+    if prev_close is None:
         days = sorted({ts.date() for ts in df.index})
         i = days.index(last_day)
         before = df[[ts.date() == days[i - 1] for ts in df.index]] if i > 0 else None
@@ -177,16 +160,17 @@ def fetch_slots(holding: Holding, prev_close: Optional[float],
         used.add(i)
         price = float(day["Open"].iloc[i])
         slots.append(Slot(label=_label(day.index[i], False), price=price,
-                          pct=pct_of(price), day=last_day))
+                          pct=pct_of(price), prev_close=prev_close, day=last_day))
 
     # 마감은 마지막에. 시각은 봉 시각이 아니라 '마감'으로만 쓴다
     # (정확한 마감 시각을 알 수 없어 틀린 시각을 적느니 생략하는 편이 낫다)
     # 아직 장이 열려 있으면 붙이지 않는다 — 나오지도 않은 종가를 적을 수는 없다
     if _session_over(holding, day.index[-1], last_day):
-        close = close_price if (close_price is not None and same_day) \
-            else float(day["Close"].iloc[-1])
+        close = quote.closes.get(last_day)
+        if close is None:
+            close = float(day["Close"].iloc[-1])
         slots.append(Slot(label="마감", price=close, pct=pct_of(close),
-                          is_close=True, day=last_day))
+                          prev_close=prev_close, is_close=True, day=last_day))
     return slots
 
 
@@ -197,7 +181,7 @@ def fetch_all(holdings: List[Holding], quotes) -> dict:
         q = quotes.get(h.ticker)
         if not q or not q.ok:
             continue
-        slots = fetch_slots(h, q.prev_close, q.close, q.as_of)
+        slots = fetch_slots(h, q)
         # 슬롯 하나라도 그 시각이 지났으면 보여준다. 예전엔 2개를 요구했는데,
         # 해외는 슬롯이 11:00PM·마감 둘뿐이라 장중에는 11:00PM 하나만 잡히고
         # 그대로 버려져서 어제 것이 계속 떠 있었다.
