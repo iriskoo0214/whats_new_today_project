@@ -288,12 +288,13 @@
   }
   .row__action-inner{
     width:var(--action-w);flex:0 0 auto;
-    display:flex;align-items:center;justify-content:center;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;   /* 체크 + "읽음" (88:3426) */
     transform:scale(.4);opacity:0;
     transition:transform .18s cubic-bezier(.2,.8,.3,1),opacity .15s linear;
   }
   .row.is-revealing .row__action-inner{transform:scale(1);opacity:1;}
   .row__action-inner img{width:24px;height:24px;display:block;}
+  .row__action-label{font-size:10px;font-weight:500;letter-spacing:-.25px;line-height:1.4;color:#000;white-space:nowrap;}   /* 88:3424 */
 
   /* card content (92:1884 / 92:1891 …) */
   .row__card{

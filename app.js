@@ -285,7 +285,8 @@
 
     var action = document.createElement('div');
     action.className = 'row__action';
-    action.innerHTML = '<div class="row__action-inner"><img src="assets/check.svg" alt="확인"></div>';
+    // 체크 아래 "읽음" 글자 (88:3426) — 글자가 뜻을 말하므로 아이콘 alt는 비운다
+    action.innerHTML = '<div class="row__action-inner"><img src="assets/check.svg" alt=""><span class="row__action-label">읽음</span></div>';
 
     var parts = splitCardTitle(data.title);
     var card = document.createElement('div');
