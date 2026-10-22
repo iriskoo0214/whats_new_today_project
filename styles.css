@@ -352,6 +352,36 @@
   }
   .card-body b{font-weight:600;}
 
+  /* 출처 기사 (101:3504) — 본문 아래 24px, 발행처·시각 12px Regular → 8px → 제목 14px Bold.
+     시안엔 기사가 하나라 기사 사이 간격은 16px로 정했다 */
+  /* 접힌 상태가 기본, 카드를 탭하면 펼친다(.row.is-expanded). 0fr↔1fr로 높이를 몰라도
+     부드럽게 열리고, 접혀 있을 땐 visibility로 링크가 탭 순서에서 빠진다 */
+  .card-news-wrap{
+    display:grid;grid-template-rows:0fr;visibility:hidden;margin-top:0;
+    transition:grid-template-rows .28s cubic-bezier(.22,.8,.28,1),margin-top .28s cubic-bezier(.22,.8,.28,1),visibility 0s linear .28s;
+  }
+  /* 본문과의 24px도 펼칠 때만 — 목록 안 패딩으로 두면 0fr로 접혀도 남는다 */
+  .row.is-expanded .card-news-wrap{
+    grid-template-rows:1fr;visibility:visible;margin-top:24px;
+    transition:grid-template-rows .28s cubic-bezier(.22,.8,.28,1),margin-top .28s cubic-bezier(.22,.8,.28,1),visibility 0s;
+  }
+  .card-news-wrap > .card-news{min-height:0;overflow:hidden;}
+  .row__card[aria-expanded]{cursor:pointer;}
+  .row__card:focus-visible{outline:2px solid #15171a;outline-offset:2px;}
+  .card-news{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:16px;}
+  .card-news__link{
+    display:flex;flex-direction:column;gap:8px;
+    color:rgba(32,35,38,.9);text-decoration:none;word-break:break-word;
+    -webkit-tap-highlight-color:transparent;-webkit-user-drag:none;
+  }
+  .card-news__meta{font-size:12px;font-weight:400;letter-spacing:-.3px;line-height:1.5;}
+  .card-news__title{font-size:14px;font-weight:700;letter-spacing:-.35px;line-height:1.5;}
+  .card-news__link:active .card-news__title{opacity:.6;}
+  .card-news__link:focus-visible{outline:2px solid #15171a;outline-offset:-2px;border-radius:2px;}   /* 안쪽으로 — 목록이 overflow:hidden이라 바깥 테두리는 잘린다 */
+  @media (prefers-reduced-motion: reduce){
+    .card-news-wrap,.row.is-expanded .card-news-wrap{transition:none;}
+  }
+
   /* dismiss animation */
   .row.is-collapsing{
     transition:height .26s cubic-bezier(.4,0,.2,1),

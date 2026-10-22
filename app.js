@@ -279,6 +279,57 @@
     return m ? { badge: m[1], tail: m[2] } : { badge: '', tail: title || '' };
   }
 
+  /* ---------- 카드 아래 출처 기사 (101:3504) ----------
+     요약이 근거로 삼은 기사를 "발행처 · n시간 전" + 제목으로 늘어놓고, 누르면 그
+     기사로 새 탭에서 간다. 기사 데이터는 바깥에서 온 글이라 innerHTML 대신
+     textContent로만 넣고, 링크는 http(s)만 받는다. */
+  function newsAgo(iso) {
+    var t = Date.parse(iso);
+    if (isNaN(t)) return '';
+    var min = Math.max(0, Math.floor((Date.now() - t) / 60000));
+    if (min < 1) return '방금';
+    if (min < 60) return min + '분 전';
+    var h = Math.floor(min / 60);
+    if (h < 24) return h + '시간 전';
+    return Math.floor(h / 24) + '일 전';
+  }
+  function buildCardNews(items) {
+    var list = (items || []).filter(function (n) {
+      return n && n.title && /^https?:\/\//.test(n.url || '');
+    });
+    if (!list.length) return null;
+    var ul = document.createElement('ul');
+    ul.className = 'card-news';
+    list.forEach(function (n) {
+      var li = document.createElement('li');
+      var a = document.createElement('a');
+      a.className = 'card-news__link';
+      a.href = n.url;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      a.draggable = false;              // 데스크톱에서 끌면 링크가 딸려 나가지 않게
+      var meta = document.createElement('span');
+      meta.className = 'card-news__meta';
+      meta.textContent = [n.source, newsAgo(n.published)].filter(Boolean).join(' · ');
+      var title = document.createElement('span');
+      title.className = 'card-news__title';
+      title.textContent = n.title;
+      a.appendChild(meta);
+      a.appendChild(title);
+      li.appendChild(a);
+      ul.appendChild(li);
+    });
+    return ul;
+  }
+
+  function toggleCard(row) {
+    var card = row._card || row.querySelector('.row__card');
+    if (!card || !card.querySelector('.card-news-wrap')) return;   // 펼칠 기사가 없는 카드
+    var open = !row.classList.contains('is-expanded');
+    row.classList.toggle('is-expanded', open);
+    card.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+
   function buildRow(data, index) {
     var row = document.createElement('li');
     row.className = 'row';
@@ -300,8 +351,35 @@
       '<div class="card-body">' + data.body + '</div>' +
       (index === 0 ? '<div class="swipe-hint">← 밀어서 읽음</div>' : '');
 
+    // 기사 목록은 접어 두고, 카드를 탭하면 펼친다 (toggleCard)
+    var news = buildCardNews(data.news);
+    if (news) {
+      var wrap = document.createElement('div');
+      wrap.className = 'card-news-wrap';
+      wrap.id = 'card-news-' + index;
+      wrap.appendChild(news);
+      card.insertBefore(wrap, card.querySelector('.swipe-hint'));
+      // 키보드로도 열 수 있게 — 카드 안에 링크가 있어 <button>으로 감쌀 수는 없다
+      card.tabIndex = 0;
+      card.setAttribute('aria-expanded', 'false');
+      card.setAttribute('aria-controls', wrap.id);
+      card.addEventListener('keydown', function (e) {
+        if (e.target !== card || (e.key !== 'Enter' && e.key !== ' ')) return;
+        e.preventDefault();
+        toggleCard(row);
+      });
+    }
+
     row.appendChild(action);
     row.appendChild(card);
+
+    // 카드를 밀다 놓았거나 열린 카드를 닫으려고 탭했을 때 이어지는 click이
+    // 기사 링크로 새면 안 된다 — attachDrag가 표시해 둔 한 번을 여기서 삼킨다
+    row.addEventListener('click', function (e) {
+      if (!row._swallowClick) return;
+      row._swallowClick = false;
+      if (e.target.closest && e.target.closest('a')) e.preventDefault();
+    }, true);
 
     row._card = card;
     row._action = action;
@@ -512,6 +590,7 @@
     function onDown(e) {
       if (row.classList.contains('is-read')) return;   // 읽은 카드는 더 끌지 않는다
       if (e.pointerType === 'mouse' && e.button !== 0) return;
+      row._swallowClick = false;         // 지난 조작에서 click이 안 왔으면 남은 표시를 지운다
       pointerId = e.pointerId;
       startX = e.clientX;
       startY = e.clientY;
@@ -568,11 +647,15 @@
         // 되돌려버리는 레이스가 있었다 — 체크를 눌러도 읽음 처리가 안 되던
         // 원인. 한 곳(여기)에서만 판단하도록 합친다.)
         if (axis === null && row._offset > 0) {
+          row._swallowClick = true;      // 닫으려는 탭이 기사 링크를 열지 않게
           if (row._action.contains(e.target)) markRead(row);
           else close(row);
+        } else if (axis === null && !(e.target.closest && e.target.closest('a'))) {
+          toggleCard(row);               // 닫힌 카드를 탭하면 기사 목록을 펼치고 접는다
         }
         return;
       }
+      row._swallowClick = true;          // 밀다 놓은 손이 기사 링크를 열지 않게
 
       // 끝까지 끌어도 바로 읽음 처리하지 않는다 — 열어서(체크 영역 노출) 초록
       // 면을 직접 눌러야 읽음으로 넘어간다(요청). 실수로 세게 스와이프해도
