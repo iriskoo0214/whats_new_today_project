@@ -158,7 +158,7 @@
     font-size:14px;font-weight:600;letter-spacing:-.35px;line-height:1.5;color:#202326;white-space:nowrap;
   }
   .home-badge__toggle{
-    width:20px;height:20px;padding:2.222px;border-radius:50%;background:#d9d9d9;
+    width:20px;height:20px;padding:2.222px;border-radius:50%;background:#6f737d;   /* gray-500 — 흰 화살표가 #d9d9d9 위에서는 거의 안 보였다 */
     display:flex;align-items:center;justify-content:center;
   }
   .home-badge__toggle img{width:13.333px;height:13.333px;display:block;}
