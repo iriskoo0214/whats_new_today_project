@@ -925,8 +925,8 @@
     document.getElementById('pfDateDay').textContent = pfDayLabel(PF.day) || PF.date;
     document.getElementById('pfDateTime').textContent = s.time;
     document.getElementById('pfHeadline').textContent = s.headline;
-    document.getElementById('pfTimeLabel').textContent = s.prev || '';
-    document.getElementById('pfTimeLabel').setAttribute('aria-label', s.prev ? '전날 종가 ' + s.prev : '');
+    // "어제 종가 253,450원" (90:3627) — 글자가 그대로 읽히니 aria-label은 따로 두지 않는다
+    document.getElementById('pfTimeLabel').innerHTML = s.prev ? '어제 종가 <strong>' + s.prev + '</strong>' : '';
     document.getElementById('pfPrice').textContent = s.price;
     document.getElementById('pfPct').textContent = s.pct;
     document.getElementById('pfColHead').style.width = s.band + '%';
