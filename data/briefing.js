@@ -1,10 +1,10 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-23 07:01:02 KST",
-  "refreshed": [
-    "us"
+  "generated_at": "2026-10-23 09:20:48 KST",
+  "refreshed": [],
+  "slots_refreshed": [
+    "kr"
   ],
-  "slots_refreshed": [],
   "default": "us",
   "markets": {
     "us": {
@@ -354,44 +354,14 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-22",
           "slots": [
             {
-              "time": "9:10AM",
-              "price": 1283000.0,
-              "pct": -0.85,
-              "prev_close": 1294000.0,
+              "time": "9:00AM",
+              "price": 1207000.0,
+              "pct": -1.31,
+              "prev_close": 1223000.0,
               "is_close": false,
-              "date": "2026-10-22",
-              "title": "장 초반 소폭 약세",
-              "text": "개장 직후부터 하락 출발하며 보합권을 지키지 못하고 밀리는 모습으로 시작됨"
-            },
-            {
-              "time": "10:30AM",
-              "price": 1268000.0,
-              "pct": -2.01,
-              "prev_close": 1294000.0,
-              "is_close": false,
-              "date": "2026-10-22",
-              "title": "낙폭 점차 확대",
-              "text": "오전 중반 들어 하락폭이 커지며 전 저점 대비 추가로 밀려나는 흐름이 이어짐"
-            },
-            {
-              "time": "1:00PM",
-              "price": 1238000.0,
-              "pct": -4.33,
-              "prev_close": 1294000.0,
-              "is_close": false,
-              "date": "2026-10-22",
-              "title": "급락세로 전환",
-              "text": "오후 들어 낙폭이 크게 불어나며 코스피 전반의 약세 분위기 속 하락이 가팔라짐"
-            },
-            {
-              "time": "마감",
-              "price": 1223000.0,
-              "pct": -5.49,
-              "prev_close": 1294000.0,
-              "is_close": true,
-              "date": "2026-10-22",
-              "title": "급락 마감",
-              "text": "코스피가 3% 넘게 급락한 가운데 반도체 대형주 약세가 이어지며 낙폭이 하루 중 가장 크게 벌어진 채 마감"
+              "date": "2026-10-23",
+              "title": "장 초반 약세 출발",
+              "text": "솔리다임 상장 전격 중단 소식이 전해지며 장 초반부터 매물이 쏟아지는 모습"
             }
           ],
           "slot_total": 4,
@@ -431,44 +401,14 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-22",
           "slots": [
             {
-              "time": "9:10AM",
-              "price": 224000.0,
-              "pct": 0.22,
-              "prev_close": 223500.0,
+              "time": "9:00AM",
+              "price": 207500.0,
+              "pct": -3.26,
+              "prev_close": 214500.0,
               "is_close": false,
-              "date": "2026-10-22",
-              "title": "강보합 출발",
-              "text": "장 초반에는 소폭 상승 흐름을 보이며 전일 대비 플러스권에서 거래가 시작됨"
-            },
-            {
-              "time": "10:30AM",
-              "price": 220500.0,
-              "pct": -1.34,
-              "prev_close": 223500.0,
-              "is_close": false,
-              "date": "2026-10-22",
-              "title": "상승분 반납",
-              "text": "오전 중반 들어 상승분을 모두 내주며 하락 전환, 낙폭이 점차 커지는 모습을 보임"
-            },
-            {
-              "time": "1:00PM",
-              "price": 214750.0,
-              "pct": -3.91,
-              "prev_close": 223500.0,
-              "is_close": false,
-              "date": "2026-10-22",
-              "title": "낙폭 크게 확대",
-              "text": "오후 들어 하락세가 가팔라지며 장중 낙폭이 하루 중 가장 큰 폭으로 벌어짐"
-            },
-            {
-              "time": "마감",
-              "price": 214500.0,
-              "pct": -4.03,
-              "prev_close": 223500.0,
-              "is_close": true,
-              "date": "2026-10-22",
-              "title": "급락 속 마감",
-              "text": "코스피 급락 속 큰 폭 하락으로 마감했으나 내년 이익 성장 기대는 유효하다는 평가가 나옴"
+              "date": "2026-10-23",
+              "title": "장 초반 낙폭 확대",
+              "text": "美 반도체주 급락 여파가 그대로 전이되며 개장 직후 낙폭이 크게 벌어진 상태"
             }
           ],
           "slot_total": 4,
@@ -508,44 +448,14 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-22",
           "slots": [
             {
-              "time": "9:10AM",
-              "price": 807000.0,
-              "pct": -0.86,
-              "prev_close": 814000.0,
+              "time": "9:00AM",
+              "price": 799000.0,
+              "pct": -1.48,
+              "prev_close": 811000.0,
               "is_close": false,
-              "date": "2026-10-22",
-              "title": "약세로 출발",
-              "text": "장 초반에는 전일 대비 소폭 하락하며 보합권 아래에서 거래가 시작됨"
-            },
-            {
-              "time": "10:30AM",
-              "price": 830000.0,
-              "pct": 1.97,
-              "prev_close": 814000.0,
-              "is_close": false,
-              "date": "2026-10-22",
-              "title": "오전 중 반등",
-              "text": "오전 중반 들어 하락분을 만회하고 플러스권으로 올라서며 상승 전환에 성공함"
-            },
-            {
-              "time": "1:00PM",
-              "price": 824000.0,
-              "pct": 1.23,
-              "prev_close": 814000.0,
-              "is_close": false,
-              "date": "2026-10-22",
-              "title": "상승폭 다소 축소",
-              "text": "오후 들어서도 상승세는 유지했으나 오전 고점 대비 상승폭이 소폭 줄어드는 흐름을 보임"
-            },
-            {
-              "time": "마감",
-              "price": 811000.0,
-              "pct": -0.37,
-              "prev_close": 814000.0,
-              "is_close": true,
-              "date": "2026-10-22",
-              "title": "상승분 반납 마감",
-              "text": "장 후반 들어 상승분을 대부분 반납하며 보합권 아래로 내려선 채 하루를 마감"
+              "date": "2026-10-23",
+              "title": "장 초반 소폭 조정",
+              "text": "K방산 수출 기대와 달 궤도수송선 수주 소식에도 장 초반 약세로 출발한 모습"
             }
           ],
           "slot_total": 4,
@@ -585,44 +495,14 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-22",
           "slots": [
             {
-              "time": "9:10AM",
-              "price": 164300.0,
-              "pct": -0.48,
-              "prev_close": 165100.0,
+              "time": "9:00AM",
+              "price": 154500.0,
+              "pct": -3.44,
+              "prev_close": 160000.0,
               "is_close": false,
-              "date": "2026-10-22",
-              "title": "소폭 약세 출발",
-              "text": "장 초반부터 전일 대비 소폭 하락하며 보합권 아래에서 거래를 시작함"
-            },
-            {
-              "time": "10:30AM",
-              "price": 164000.0,
-              "pct": -0.67,
-              "prev_close": 165100.0,
-              "is_close": false,
-              "date": "2026-10-22",
-              "title": "약세 흐름 지속",
-              "text": "오전 중반까지도 낙폭에 큰 변화 없이 비슷한 수준의 약세 흐름이 이어짐"
-            },
-            {
-              "time": "1:00PM",
-              "price": 161900.0,
-              "pct": -1.94,
-              "prev_close": 165100.0,
-              "is_close": false,
-              "date": "2026-10-22",
-              "title": "낙폭 점차 확대",
-              "text": "오후 들어 하락폭이 커지며 전 저점 대비 추가로 밀려나는 모습을 보임"
-            },
-            {
-              "time": "마감",
-              "price": 160000.0,
-              "pct": -3.09,
-              "prev_close": 165100.0,
-              "is_close": true,
-              "date": "2026-10-22",
-              "title": "낙폭 키우며 마감",
-              "text": "AI홈 연합 등 전략 소식에도 매수세 유입 없이 낙폭이 하루 중 가장 크게 벌어진 채 마감"
+              "date": "2026-10-23",
+              "title": "장 초반 약세 흐름",
+              "text": "가전·AI홈 관련 호재성 소식에도 반도체주 급락 여파로 장 초반부터 눌리는 흐름"
             }
           ],
           "slot_total": 4,
@@ -662,44 +542,14 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-22",
           "slots": [
             {
-              "time": "9:10AM",
-              "price": 303500.0,
-              "pct": -1.94,
-              "prev_close": 309500.0,
+              "time": "9:00AM",
+              "price": 293500.0,
+              "pct": -2.65,
+              "prev_close": 301500.0,
               "is_close": false,
-              "date": "2026-10-22",
-              "title": "장 초반 약세",
-              "text": "개장 직후부터 하락 출발하며 전일 대비 낙폭을 보인 채 거래가 시작됨"
-            },
-            {
-              "time": "10:30AM",
-              "price": 302000.0,
-              "pct": -2.42,
-              "prev_close": 309500.0,
-              "is_close": false,
-              "date": "2026-10-22",
-              "title": "낙폭 다소 확대",
-              "text": "오전 중반 들어 하락폭이 소폭 더 커지며 약세 흐름이 이어지는 모습을 보임"
-            },
-            {
-              "time": "1:00PM",
-              "price": 302000.0,
-              "pct": -2.42,
-              "prev_close": 309500.0,
-              "is_close": false,
-              "date": "2026-10-22",
-              "title": "낙폭 유지 중",
-              "text": "점심 무렵까지 직전과 비슷한 수준의 하락폭을 유지하며 뚜렷한 반등 없이 횡보함"
-            },
-            {
-              "time": "마감",
-              "price": 301500.0,
-              "pct": -2.58,
-              "prev_close": 309500.0,
-              "is_close": true,
-              "date": "2026-10-22",
-              "title": "낙폭 소폭 확대 마감",
-              "text": "신형 투싼 계약 호조 소식에도 반등하지 못하고 낙폭이 소폭 더 커진 채 하루를 마감"
+              "date": "2026-10-23",
+              "title": "장 초반 하락 출발",
+              "text": "자회사 실적 개선과 신사업 확대 소식에도 개장 직후 매도세에 낙폭이 벌어진 모습"
             }
           ],
           "slot_total": 4,
@@ -729,7 +579,8 @@ window.NOTEFOLIO_BRIEFING = {
         }
       ],
       "markdown": "briefings/2026-10-22-kr.md",
-      "refreshed_at": "2026-10-22 18:01:00 KST"
+      "refreshed_at": "2026-10-22 18:01:00 KST",
+      "slots_refreshed_at": "2026-10-23 09:20:48 KST"
     }
   }
 };
