@@ -1,10 +1,10 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-23 18:01:03 KST",
-  "refreshed": [
-    "kr"
+  "generated_at": "2026-10-23 22:19:52 KST",
+  "refreshed": [],
+  "slots_refreshed": [
+    "us"
   ],
-  "slots_refreshed": [],
   "default": "kr",
   "markets": {
     "us": {
@@ -51,8 +51,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 251.4600067138672,
               "is_close": false,
               "date": "2026-10-22",
-              "title": "개장 전 급락 출발",
-              "text": "소프트웨어 반등이 밀린 계약 덕분이라는 분석과 함께 개장 전부터 큰 폭의 하락세로 시작함"
+              "title": "약보합권 등락",
+              "text": "대덕 양자기업들이 아이온큐와 함께 IBM을 찾아 공급망 진출을 타진했다는 소식이 전해졌으나 주가는 약세를 보이며 하락 흐름을 이어감"
             },
             {
               "time": "마감",
@@ -62,7 +62,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-10-22",
               "title": "낙폭 축소 마감",
-              "text": "장중 목표주가 상향 소식이 잇따랐음에도 하락세를 완전히 되돌리지 못하고 낙폭을 줄인 채 거래를 마침"
+              "text": "장중 한때 낙폭이 컸으나 오후 들어 매수세가 유입되며 반등에 성공, 결국 소폭 상승 전환하며 하루 거래를 마침"
             }
           ],
           "slot_total": 2,
@@ -108,8 +108,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 532.9500122070312,
               "is_close": false,
               "date": "2026-10-22",
-              "title": "약세 흐름 지속",
-              "text": "클라우드 게임 요금제 테스트와 신형 Xbox 가격 우려가 번갈아 거론되며 하락 압력이 이어짐"
+              "title": "하락세 지속",
+              "text": "의사처럼 단계적으로 질병을 진단하는 AI 개발 소식이 전해졌음에도 매수세가 붙지 않으며 약세 흐름이 이어짐"
             },
             {
               "time": "마감",
@@ -119,7 +119,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-10-22",
               "title": "낙폭 확대 마감",
-              "text": "사이버 범죄 서비스 차단 소식이 전해졌으나 매수세로 이어지지 못하며 낙폭이 하루 중 가장 크게 벌어짐"
+              "text": "중국发 사이버 공격 관련 소식이 알려진 저녁 시간대 이후 투자 심리가 더욱 위축되며 하루 중 낙폭이 가장 크게 벌어진 채 마감"
             }
           ],
           "slot_total": 2,
@@ -160,13 +160,13 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "11:00PM",
-              "price": 31.709999084472656,
-              "pct": -1.77,
+              "price": 31.719999313354492,
+              "pct": -1.73,
               "prev_close": 32.279998779296875,
               "is_close": false,
               "date": "2026-10-22",
-              "title": "양자컴퓨터주 약세",
-              "text": "기술주 매도세 속 양자컴퓨터 관련주 전반이 부진한 흐름을 보이며 하락 출발함"
+              "title": "약세 흐름 지속",
+              "text": "투자자 매입가 대비 저평가됐다는 분석과 경쟁사와의 기술 비교 기사가 나온 가운데 주가는 하락세를 벗어나지 못함"
             },
             {
               "time": "마감",
@@ -175,8 +175,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 32.279998779296875,
               "is_close": true,
               "date": "2026-10-22",
-              "title": "혼조 속 낙폭 확대",
-              "text": "장초반 관련주들이 혼조세를 보인 가운데 낙폭이 오히려 커지며 하루 중 저점에 가까운 수준으로 마감"
+              "title": "낙폭 더 커진 마감",
+              "text": "대덕 양자기업들의 공급망 진출 모색 소식에도 불구하고 매수세가 유입되지 못하며 하루 중 가장 큰 낙폭으로 거래를 마침"
             }
           ],
           "slot_total": 2,
@@ -210,13 +210,13 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "11:00PM",
-              "price": 216.69500732421875,
-              "pct": -2.38,
+              "price": 216.6999969482422,
+              "pct": -2.37,
               "prev_close": 221.97000122070312,
               "is_close": false,
               "date": "2026-10-22",
-              "title": "기술 호재에도 약세",
-              "text": "유럽 AI 팩토리 지원 및 로봇 센싱 공개 소식이 나왔지만 주가는 하락세로 출발함"
+              "title": "약세 지속 흐름",
+              "text": "카자흐스탄과의 GPU 공급 및 로보택시 협력 소식이 전해졌으나 주가 반등으로 이어지지 못하며 하락세가 지속됨"
             },
             {
               "time": "마감",
@@ -226,7 +226,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-10-22",
               "title": "낙폭 확대 마감",
-              "text": "게임 관련 기술 지원 소식에도 매수세가 붙지 않으며 하락폭이 오후 들어 더욱 커진 채 거래를 마침"
+              "text": "GTC 기조연설 관련 관심 집중 소식이 나온 이후에도 매도세가 이어지며 하루 중 낙폭을 가장 크게 키운 채 마감"
             }
           ],
           "slot_total": 2,
@@ -272,8 +272,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 14.899999618530273,
               "is_close": false,
               "date": "2026-10-22",
-              "title": "신상품 출시 속 등락",
-              "text": "토큰화 예금 상품 출시 소식이 알려졌으나 초반 상승분을 지키지 못하고 하락 전환함"
+              "title": "장중 약세 전환",
+              "text": "임원의 자사주 매도와 생명보험 서비스 출시 소식이 전해진 가운데 오전 강세를 지키지 못하고 약세로 돌아섬"
             },
             {
               "time": "마감",
@@ -282,8 +282,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 14.899999618530273,
               "is_close": true,
               "date": "2026-10-22",
-              "title": "막판 상승 전환",
-              "text": "장중 내내 부진했던 흐름이 마감 무렵 반등하며 하락폭을 줄이고 소폭 오름세로 거래를 이어가는 중"
+              "title": "저녁에 반등 성공",
+              "text": "토큰화 예금 상품의 높은 수익률 소식이 알려진 이후 매수세가 유입되며 장중 낙폭을 만회하고 상승 전환함"
             }
           ],
           "slot_total": 2,
@@ -313,7 +313,8 @@ window.NOTEFOLIO_BRIEFING = {
         }
       ],
       "markdown": "briefings/2026-10-23-us.md",
-      "refreshed_at": "2026-10-23 07:01:02 KST"
+      "refreshed_at": "2026-10-23 07:01:02 KST",
+      "slots_refreshed_at": "2026-10-23 22:19:52 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
