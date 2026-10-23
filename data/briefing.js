@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-23 23:10:41 KST",
+  "generated_at": "2026-10-24 03:15:10 KST",
   "refreshed": [],
   "slots_refreshed": [
     "us"
@@ -46,13 +46,13 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "11:00PM",
-              "price": 251.34500122070312,
-              "pct": -0.3,
+              "price": 251.3000030517578,
+              "pct": -0.32,
               "prev_close": 252.11000061035156,
               "is_close": false,
               "date": "2026-10-23",
-              "title": "소폭 약세 유지",
-              "text": "대덕 양자기업들의 아이온큐·IBM 방문과 글로벌 공급망 진출 소식이 이어졌으나 주가는 약보합권에서 벗어나지 못함"
+              "title": "소폭 약세 흐름",
+              "text": "대덕 양자기업들이 아이온큐·IBM 방문해 공급망 진출을 타진했다는 소식에도 주가는 약보합권에서 등락을 이어가는 중"
             }
           ],
           "slot_total": 2,
@@ -93,13 +93,13 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "11:00PM",
-              "price": 520.5399780273438,
-              "pct": -0.1,
+              "price": 520.6300048828125,
+              "pct": -0.09,
               "prev_close": 521.0800170898438,
               "is_close": false,
               "date": "2026-10-23",
-              "title": "보합권 등락 지속",
-              "text": "의료 진단 AI 개발 소식에 이어 중국발 사이버 공격 피해 보도까지 나왔지만 주가는 소폭 약세에 머무는 중"
+              "title": "박스권 등락 지속",
+              "text": "AI 진단 시스템이 의사보다 뛰어나다는 소식이 전해졌지만 주가는 좀처럼 반등하지 못하고 박스권 흐름을 유지 중"
             }
           ],
           "slot_total": 2,
@@ -140,13 +140,13 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "11:00PM",
-              "price": 30.708999633789062,
-              "pct": -1.45,
+              "price": 30.719999313354492,
+              "pct": -1.41,
               "prev_close": 31.15999984741211,
               "is_close": false,
               "date": "2026-10-23",
-              "title": "약세폭 소폭 확대",
-              "text": "대덕 양자기업들의 방문 소식에도 반등하지 못하고 투자가 대비 낮은 수준이라는 지적 이후 내림세가 이어지는 중"
+              "title": "투자단가 밑돌며 약세",
+              "text": "20억 달러 투자자 매입가를 크게 밑도는 가운데 양자기업들의 공급망 진출 소식에도 낙폭을 좁히지 못하는 중"
             }
           ],
           "slot_total": 2,
@@ -185,8 +185,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 212.2100067138672,
               "is_close": false,
               "date": "2026-10-23",
-              "title": "강보합 흐름 유지",
-              "text": "카자흐스탄 GPU 배치와 로보택시 협력 소식 등 우호적 뉴스가 이어지며 소폭 상승세를 이어가는 중"
+              "title": "지지선 위 소폭 반등",
+              "text": "공정 지연 우려와 매도 의견이 이어졌음에도 핵심 지지선을 지키며 소폭 상승 흐름을 유지하는 중"
             }
           ],
           "slot_total": 2,
@@ -232,8 +232,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 14.770000457763672,
               "is_close": false,
               "date": "2026-10-23",
-              "title": "약세 흐름 지속",
-              "text": "생명보험 탑재와 토큰화 예금 소식에도 임원 자사주 매도 공시 이후 내림세가 하루 종일 이어지는 중"
+              "title": "약세 흐름 이어가",
+              "text": "프루덴셜 생명보험 탑재와 토큰화 예금 소식에도 임원 자사주 매도 여파 속 약보합 흐름을 이어가는 중"
             }
           ],
           "slot_total": 2,
@@ -264,7 +264,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-23-us.md",
       "refreshed_at": "2026-10-23 07:01:02 KST",
-      "slots_refreshed_at": "2026-10-23 23:10:41 KST"
+      "slots_refreshed_at": "2026-10-24 03:15:10 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
