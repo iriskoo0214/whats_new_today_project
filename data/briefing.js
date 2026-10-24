@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-25 03:03:55 KST",
+  "generated_at": "2026-10-25 05:40:08 KST",
   "refreshed": [],
   "slots_refreshed": [
     "us"
@@ -50,8 +50,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 252.11000061035156,
               "is_close": false,
               "date": "2026-10-23",
-              "title": "장후 약세",
-              "text": "늦은 시간대에는 소폭 약세 흐름을 보이며 전 거래일 수준을 밑도는 모습이었음"
+              "title": "장 후반 약보합",
+              "text": "특별한 소식 없이 장 후반 들어 약세권에서 등락하며 하루 중 저점 부근을 유지하는 흐름이 이어짐"
             },
             {
               "time": "마감",
@@ -60,8 +60,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 252.11000061035156,
               "is_close": true,
               "date": "2026-10-23",
-              "title": "반등 성공 마감",
-              "text": "장후 약세를 뒤집고 막판 반등에 성공하며 전 거래일보다 높은 수준에서 하루를 마무리함"
+              "title": "막판 반등 성공",
+              "text": "저점 흐름을 보이던 주가가 장 막판 반등에 성공하며 플러스권으로 전환, 상승 마감으로 하루를 마무리"
             }
           ],
           "slot_total": 2,
@@ -107,8 +107,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 521.0800170898438,
               "is_close": false,
               "date": "2026-10-23",
-              "title": "실적 발표 앞두고 약보합",
-              "text": "28일 실적 발표를 앞둔 가운데 늦은 시간대 소폭 약세를 보이며 관망 분위기가 이어짐"
+              "title": "실적 발표 앞두고 약세",
+              "text": "주식 토큰화 반대 소식과 함께 28일 실적 발표를 앞두고 장 후반 소폭 약세권에서 거래됨"
             },
             {
               "time": "마감",
@@ -118,7 +118,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-10-23",
               "title": "반등하며 마감",
-              "text": "실적 발표 기대감 속에 약세 흐름을 딛고 반등에 성공하며 전 거래일 대비 상승 마감함"
+              "text": "장 후반 약세 흐름을 딛고 막판에 상승 전환하며 하루 중 고점 부근에서 거래를 마무리"
             }
           ],
           "slot_total": 2,
@@ -164,8 +164,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 31.15999984741211,
               "is_close": false,
               "date": "2026-10-23",
-              "title": "장후 소폭 약세",
-              "text": "특별한 재료 없이 늦은 시간대 소폭 밀리는 흐름을 보이며 전 거래일 수준에 다가섬"
+              "title": "장 후반 숨고르기",
+              "text": "특별한 재료 없이 장 후반 들어 소폭 약세권으로 밀리며 하루 중 저점 부근에서 거래됨"
             },
             {
               "time": "마감",
@@ -174,8 +174,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 31.15999984741211,
               "is_close": true,
               "date": "2026-10-23",
-              "title": "반등하며 상승 마감",
-              "text": "장후 약세를 뒤집고 막판 매수세가 유입되며 전 거래일보다 높은 수준에서 거래를 마침"
+              "title": "반등하며 마감",
+              "text": "장 후반 약세를 뒤로하고 막판 반등에 성공하며 플러스권으로 올라선 채 거래를 마무리"
             }
           ],
           "slot_total": 2,
@@ -221,8 +221,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 212.2100067138672,
               "is_close": false,
               "date": "2026-10-23",
-              "title": "젠슨황 발언 속 강세",
-              "text": "젠슨황의 CXMT 메모리 도입 발언과 로봇 흥행 소식이 전해지는 가운데 늦은 시간 강세를 보임"
+              "title": "협력 소식 속 강보합",
+              "text": "베어로보틱스, 인피니언 등과의 협력 소식이 이어진 가운데 장 후반 소폭 강세권에서 거래됨"
             },
             {
               "time": "마감",
@@ -231,8 +231,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 212.2100067138672,
               "is_close": true,
               "date": "2026-10-23",
-              "title": "상승분 반납하며 하락 마감",
-              "text": "로드맵 유출 소식까지 겹친 가운데 늦은 시간 강세를 지키지 못하고 하락 전환해 거래를 마침"
+              "title": "상승분 반납하며 마감",
+              "text": "장 후반까지 이어지던 강세 흐름을 지키지 못하고 막판 밀리며 약세로 전환해 거래를 마무리"
             }
           ],
           "slot_total": 2,
@@ -279,7 +279,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-23",
               "title": "토큰화 예금 소식에도 약세",
-              "text": "이자 지급 토큰화 예금 출시 소식에도 매수세가 붙지 않으며 약세 흐름이 이어짐"
+              "text": "토큰화 예금 출시 소식에도 매수세가 붙지 않으며 장 후반 약세권에서 하루 중 저점 부근을 유지"
             },
             {
               "time": "마감",
@@ -289,7 +289,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-10-23",
               "title": "약세 흐름 그대로 마감",
-              "text": "토큰화 예금 소식 이후에도 반등하지 못하고 늦은 시간대 약세 수준을 유지한 채 마감함"
+              "text": "장 후반의 약세 흐름이 막판까지 이어지며 큰 변화 없이 하락세를 유지한 채 거래를 마무리"
             }
           ],
           "slot_total": 2,
@@ -320,7 +320,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-24-us.md",
       "refreshed_at": "2026-10-24 07:00:55 KST",
-      "slots_refreshed_at": "2026-10-25 03:03:55 KST"
+      "slots_refreshed_at": "2026-10-25 05:40:08 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
