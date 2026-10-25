@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-26 01:02:46 KST",
+  "generated_at": "2026-10-26 03:56:14 KST",
   "refreshed": [],
   "slots_refreshed": [
     "us"
@@ -51,7 +51,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-23",
               "title": "장 후반 약세 전환",
-              "text": "이익과 세금 관련 소식이 나온 가운데 장 후반 들어 낙폭이 확대되는 모습을 보임"
+              "text": "이익과 세금 관련 소식과 가이던스 유지 소식이 나온 이후 오후 들어 상승분을 반납하며 하락 전환함"
             },
             {
               "time": "마감",
@@ -60,8 +60,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 252.11000061035156,
               "is_close": true,
               "date": "2026-10-23",
-              "title": "상승 마감",
-              "text": "장 후반 약세에서 벗어나며 반등에 성공해 플러스권에서 하루를 마무리함"
+              "title": "소폭 반등 마감",
+              "text": "저평가 논의가 이어지는 가운데 장중 밀렸던 흐름을 뒤집고 플러스권을 회복하며 하루를 마무리함"
             }
           ],
           "slot_total": 2,
@@ -102,13 +102,13 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "11:00PM",
-              "price": 520.6300048828125,
-              "pct": -0.09,
+              "price": 520.5399780273438,
+              "pct": -0.1,
               "prev_close": 521.0800170898438,
               "is_close": false,
               "date": "2026-10-23",
-              "title": "오전 호재 속 보합권",
-              "text": "Edge 확장과 AI 진단 관련 소식이 잇따랐으나 주가는 큰 반응 없이 보합권에서 움직임"
+              "title": "오전 호재 속 강세",
+              "text": "Edge 확장 소식과 AI 진단 성과 발표가 잇따르며 장 초반부터 매수세가 유입되는 모습을 보임"
             },
             {
               "time": "마감",
@@ -117,8 +117,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 521.0800170898438,
               "is_close": true,
               "date": "2026-10-23",
-              "title": "상승세로 마감",
-              "text": "오전 호재성 소식에도 잠잠하던 주가가 장 후반 들어 상승폭을 키우며 거래를 마침"
+              "title": "상승폭 확대 마감",
+              "text": "오전 긍정적 뉴스 흐름이 이어지며 장중 상승세를 지켜내고 오히려 상승폭을 키우며 마무리됨"
             }
           ],
           "slot_total": 2,
@@ -164,8 +164,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 31.15999984741211,
               "is_close": false,
               "date": "2026-10-23",
-              "title": "약세 흐름 지속",
-              "text": "케임브리지 센터와의 양자 컴퓨팅 상용화 검증 소식에도 매수세가 크게 붙지 못함"
+              "title": "상용화 소식에 강세",
+              "text": "케임브리지 센터를 통한 상용화 검증 소식이 전해진 이후 장중 매수세가 유입되며 상승 흐름을 이어감"
             },
             {
               "time": "마감",
@@ -174,8 +174,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 31.15999984741211,
               "is_close": true,
               "date": "2026-10-23",
-              "title": "소폭 반등 마감",
-              "text": "장중 약세를 보이던 흐름에서 벗어나 장 후반 반등하며 플러스권으로 거래를 마감함"
+              "title": "상승 흐름 유지 중",
+              "text": "오전 발표된 상용화 검증 소식의 영향이 이어지며 소폭이지만 플러스권을 지켜내는 흐름을 보임"
             }
           ],
           "slot_total": 2,
@@ -221,8 +221,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 212.2100067138672,
               "is_close": false,
               "date": "2026-10-23",
-              "title": "GTC 소식에 강세",
-              "text": "젠슨 황의 베를린 전략 발표와 양자 시뮬레이션 소식이 겹치며 장중 상승 흐름을 이어감"
+              "title": "혼조 속 약세 압력",
+              "text": "기술주 혼조 소식 속 엔비디아는 하락한다는 보도가 나오며 장중 내내 상승 탄력이 둔화된 모습을 보임"
             },
             {
               "time": "마감",
@@ -231,8 +231,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 212.2100067138672,
               "is_close": true,
               "date": "2026-10-23",
-              "title": "상승분 반납 마감",
-              "text": "장중 호재에 힘입은 상승세를 지키지 못하고 장 후반 들어 밀리며 약세로 거래를 마침"
+              "title": "하락 마감 전환",
+              "text": "유럽 진출 및 실적 기대 소식에도 불구하고 하락 압력을 극복하지 못하고 결국 소폭 하락세로 마무리됨"
             }
           ],
           "slot_total": 2,
@@ -278,8 +278,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 14.770000457763672,
               "is_close": false,
               "date": "2026-10-23",
-              "title": "약세 흐름 지속",
-              "text": "특별한 소식 없이 장중 내내 하락세가 이어지며 낙폭이 유지되는 모습을 보임"
+              "title": "고평가 우려 부각",
+              "text": "주가가 현재 시점에서 과대평가됐다는 분석이 제기된 이후 장중 매수세가 약화되는 흐름이 나타남"
             },
             {
               "time": "마감",
@@ -288,8 +288,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 14.770000457763672,
               "is_close": true,
               "date": "2026-10-23",
-              "title": "약세 마감",
-              "text": "장중 내내 이어지던 하락 흐름이 끝까지 이어지며 하루를 마이너스권에서 마무리함"
+              "title": "약세 흐름 지속",
+              "text": "과대평가 우려가 부각된 이후 반등 모멘텀을 찾지 못하고 하락세를 그대로 이어가며 마무리됨"
             }
           ],
           "slot_total": 2,
@@ -320,7 +320,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-24-us.md",
       "refreshed_at": "2026-10-24 07:00:55 KST",
-      "slots_refreshed_at": "2026-10-26 01:02:46 KST"
+      "slots_refreshed_at": "2026-10-26 03:56:14 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
