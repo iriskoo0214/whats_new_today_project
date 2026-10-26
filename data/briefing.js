@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-26 13:10:42 KST",
+  "generated_at": "2026-10-26 13:39:07 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -368,7 +368,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-26",
               "title": "장 초반 강세 출발",
-              "text": "장 시작과 함께 상승폭을 키우며 2%대 중반 오름세로 거래를 시작함"
+              "text": "장 시작과 함께 상승폭을 키우며 강세 흐름으로 거래를 시작함"
             },
             {
               "time": "10:30AM",
@@ -377,18 +377,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 1277000.0,
               "is_close": false,
               "date": "2026-10-26",
-              "title": "오전 상승폭 유지",
-              "text": "오전 내내 상승세를 유지하며 장중 고점권에서 견조한 흐름을 이어감"
+              "title": "오전 상승폭 확대",
+              "text": "오전 내내 상승세를 유지하며 장중 최고 수준의 오름폭을 이어감"
             },
             {
-              "time": "12:50PM",
-              "price": 1279000.0,
-              "pct": 0.16,
+              "time": "1:00PM",
+              "price": 1282000.0,
+              "pct": 0.39,
               "prev_close": 1277000.0,
               "is_close": false,
               "date": "2026-10-26",
-              "title": "상승폭 대부분 반납",
-              "text": "특별배당 미확정 보도가 나온 뒤 상승폭이 크게 줄며 보합권까지 밀림"
+              "title": "상승폭 대폭 축소",
+              "text": "특별배당 확정 사항 없다는 소식과 코스피 낙폭 확대 속에 상승폭이 크게 줄어듦"
             }
           ],
           "slot_total": 4,
@@ -435,7 +435,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-26",
               "title": "약보합 출발",
-              "text": "장 초반부터 소폭 하락세로 출발해 보합권 부근에서 등락을 이어감"
+              "text": "장 초반부터 소폭 하락세로 출발해 보합권에서 등락을 거듭함"
             },
             {
               "time": "10:30AM",
@@ -444,18 +444,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 215500.0,
               "is_close": false,
               "date": "2026-10-26",
-              "title": "보합권 유지",
-              "text": "오전 내내 낙폭이 크게 변하지 않으며 좁은 범위에서 횡보 흐름 지속"
+              "title": "오전 내내 보합권",
+              "text": "오전 중 별다른 변동 없이 소폭 하락세를 그대로 유지하는 모습을 보임"
             },
             {
-              "time": "12:50PM",
-              "price": 213500.0,
-              "pct": -0.93,
+              "time": "1:00PM",
+              "price": 213750.0,
+              "pct": -0.81,
               "prev_close": 215500.0,
               "is_close": false,
               "date": "2026-10-26",
               "title": "낙폭 소폭 확대",
-              "text": "새 이어폰 제품 출시 소식에도 매수세가 붙지 않으며 하락폭이 다소 커짐"
+              "text": "갤럭시A 감산 소식 등이 전해진 가운데 오후 들어 낙폭이 다소 커짐"
             }
           ],
           "slot_total": 4,
@@ -501,8 +501,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 792000.0,
               "is_close": false,
               "date": "2026-10-26",
-              "title": "장 초반 낙폭 확대",
-              "text": "장 시작부터 하락세를 보이다 오전 중 낙폭이 크게 벌어지며 약세 심화됨"
+              "title": "장 초반 하락 출발",
+              "text": "장 초반부터 하락세로 출발하며 약세 흐름을 이어감"
             },
             {
               "time": "10:30AM",
@@ -511,18 +511,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 792000.0,
               "is_close": false,
               "date": "2026-10-26",
-              "title": "저점 찍고 일부 반등",
-              "text": "오전 한때 낙폭이 5%대까지 커졌다가 이후 소폭 반등하며 하락폭 일부 축소"
+              "title": "낙폭 크게 확대",
+              "text": "장중 5%대 하락 소식이 전해질 정도로 오전 중 낙폭이 급격히 커짐"
             },
             {
-              "time": "12:50PM",
-              "price": 754000.0,
-              "pct": -4.8,
+              "time": "1:00PM",
+              "price": 752000.0,
+              "pct": -5.05,
               "prev_close": 792000.0,
               "is_close": false,
               "date": "2026-10-26",
-              "title": "낙폭 축소 흐름 지속",
-              "text": "누리호 지식재산권 관련 보도가 나온 가운데 저점 대비 반등세를 이어가는 중"
+              "title": "낙폭 소폭 축소",
+              "text": "지식재산권 갈등 보도 등이 나온 가운데 오전 저점 대비 낙폭을 일부 만회함"
             }
           ],
           "slot_total": 4,
@@ -569,7 +569,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-26",
               "title": "장 초반 약세 출발",
-              "text": "장 시작과 함께 소폭 하락하며 거래를 시작해 약세권에서 흐름을 이어감"
+              "text": "장 시작과 함께 하락세로 출발하며 약세 흐름을 보임"
             },
             {
               "time": "10:30AM",
@@ -578,18 +578,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 157100.0,
               "is_close": false,
               "date": "2026-10-26",
-              "title": "낙폭 점차 줄어듦",
-              "text": "오전 중반 들어 하락폭이 점차 축소되며 보합권에 가까워지는 모습을 보임"
+              "title": "낙폭 점차 축소",
+              "text": "오전 내내 낙폭을 서서히 줄이며 하락폭을 축소해 나감"
             },
             {
-              "time": "12:50PM",
-              "price": 157000.0,
-              "pct": -0.06,
+              "time": "1:00PM",
+              "price": 157050.0,
+              "pct": -0.03,
               "prev_close": 157100.0,
               "is_close": false,
               "date": "2026-10-26",
-              "title": "보합권 턱밑 회복",
-              "text": "AI 냉장고 신제품 출시 소식이 이어진 가운데 낙폭을 거의 다 만회하며 보합 근접"
+              "title": "보합권 근접",
+              "text": "AI 냉장고 등 신제품 출시 소식이 이어지며 낙폭을 거의 모두 만회함"
             }
           ],
           "slot_total": 4,
@@ -636,7 +636,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-26",
               "title": "장 초반 하락 출발",
-              "text": "장 시작부터 하락세를 보이며 1%대 중반 약세권에서 거래를 시작함"
+              "text": "장 시작부터 하락세로 출발하며 약세 흐름으로 거래를 시작함"
             },
             {
               "time": "10:30AM",
@@ -645,18 +645,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 295500.0,
               "is_close": false,
               "date": "2026-10-26",
-              "title": "오전 낙폭 확대",
-              "text": "오전 들어 하락폭이 더 커지며 장중 가장 큰 낙폭을 기록하는 약세 흐름 지속"
+              "title": "낙폭 확대",
+              "text": "오전 중 하락폭이 더 커지며 장중 가장 큰 낙폭을 기록함"
             },
             {
-              "time": "12:50PM",
+              "time": "1:00PM",
               "price": 289000.0,
               "pct": -2.2,
               "prev_close": 295500.0,
               "is_close": false,
               "date": "2026-10-26",
-              "title": "낙폭 일부 축소",
-              "text": "넥쏘 국내 5만대 돌파 소식이 전해진 가운데 저점 대비 낙폭을 다소 줄여가는 중"
+              "title": "낙폭 일부 회복",
+              "text": "넥쏘 국내 5만대 돌파 소식 등이 전해진 가운데 오전 저점 대비 낙폭을 다소 줄임"
             }
           ],
           "slot_total": 4,
@@ -687,7 +687,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-23-kr.md",
       "refreshed_at": "2026-10-23 18:01:03 KST",
-      "slots_refreshed_at": "2026-10-26 13:10:42 KST"
+      "slots_refreshed_at": "2026-10-26 13:39:07 KST"
     }
   }
 };
