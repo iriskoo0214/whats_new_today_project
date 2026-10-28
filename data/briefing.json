@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-28 15:40:43 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-10-28 18:00:58 KST",
+  "refreshed": [
     "kr"
   ],
-  "default": "us",
+  "slots_refreshed": [],
+  "default": "kr",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
@@ -323,7 +323,7 @@
     },
     "kr": {
       "icon": "assets/moon.svg",
-      "label": "한국 증시 요약 2026. 10. 27. 6:01PM",
+      "label": "한국 증시 요약 2026. 10. 28. 6:00PM",
       "chips": [
         "전체",
         "SK하이닉스",
@@ -337,27 +337,27 @@
         "다시 찾아올게요."
       ],
       "next": "us",
-      "headline": "국내 5종목 중 5종목 상승 — SK하이닉스가 +5.18%로 가장 많이 올랐고 현대차가 +0.87%로 상승폭이 가장 작았습니다.",
-      "market_headline": "앤트로픽 IPO 기대감에 코스피 3% 급반등",
+      "headline": "국내 5종목 중 5종목 상승 — SK하이닉스가 +10.89%로 가장 많이 올랐고 현대차가 +1.89%로 상승폭이 가장 작았습니다.",
+      "market_headline": "SK하이닉스 역대급 실적에 코스피 6.63% 급등 6000선 탈환",
       "market_card": {
-        "title": "코스피 3.09% 급반등 마감...4거래일 만에 매수 사이드카 발동되며 5600선 탈환",
+        "title": "코스피 마감...6.63% 급등해 6012선 마감하며 10거래일 만에 6000선 회복",
         "bullets": [
-          "외국인·기관 동반 매수 지수 견인",
-          "SK하이닉스 5.18% 급등 반도체株 강세",
-          "원·달러 환율 0.6원 오른 1323.7원"
+          "외국인·기관 이틀째 순매수 지속",
+          "삼성전자·SK하이닉스 9~10%대 급등 견인",
+          "원·달러 환율 14원 상승 1340원대 근접"
         ]
       },
       "cards": [
         {
           "stock": "SK하이닉스",
           "ticker": "000660",
-          "title": "SK하이닉스 - HBM 확보전 재점화 기대",
-          "body": "SK하이닉스는 앤트로픽의 나스닥 상장 추진 소식에 HBM 수요 확대 기대감이 커지며 +5.18% 오른 <b>1,341,000원</b> 마감. 3분기 실적 발표를 앞두고 루빈향 HBM4 품질 인증이 승부처로 꼽히는 가운데 투자심리가 살아난 모습이다.",
-          "pct": 5.18,
-          "price": 1341000.0,
-          "prev_close": 1275000.0,
+          "title": "SK하이닉스 - HBM 3년치 완판, 최대 실적",
+          "body": "SK하이닉스는 3분기 영업이익 83조원으로 사상 최대 실적을 기록하고 D램·HBM 3년치 완판 소식이 전해지며 +10.89% 오른 <b>1,487,000원</b> 마감. 100조원 규모 주주환원 계획과 함께 메모리 피크아웃 우려를 일축하는 모습을 보이며 투자심리가 크게 개선된 것으로 풀이된다.",
+          "pct": 10.89,
+          "price": 1487000.0,
+          "prev_close": 1341000.0,
           "currency": "KRW",
-          "as_of": "2026-10-27",
+          "as_of": "2026-10-28",
           "slots": [
             {
               "time": "9:10AM",
@@ -367,17 +367,17 @@
               "is_close": false,
               "date": "2026-10-28",
               "title": "장 초반 강세 출발",
-              "text": "개장과 함께 상승 흐름을 타며 투자 심리가 긍정적으로 시작됨"
+              "text": "개장 직후부터 매수세가 유입되며 상승 출발, 전 거래일 대비 확실한 오름세로 하루를 시작함"
             },
             {
               "time": "10:30AM",
-              "price": 1450000.0,
-              "pct": 8.13,
+              "price": 1451000.0,
+              "pct": 8.2,
               "prev_close": 1341000.0,
               "is_close": false,
               "date": "2026-10-28",
-              "title": "상승폭 대폭 확대",
-              "text": "오전 중 매수세가 강하게 유입되며 상승폭이 눈에 띄게 커짐"
+              "title": "상승폭 큰 폭 확대",
+              "text": "오전 중 매수세가 더욱 강해지며 상승폭이 두 배 이상으로 커져 장중 강한 탄력을 보여줌"
             },
             {
               "time": "1:00PM",
@@ -386,55 +386,55 @@
               "prev_close": 1341000.0,
               "is_close": false,
               "date": "2026-10-28",
-              "title": "상승세 이어가는 중",
-              "text": "점심 무렵까지 오름세를 지속하며 두 자릿수 상승률에 근접함"
+              "title": "상승세 꾸준히 유지",
+              "text": "오전의 급등세가 오후 들어서도 꺾이지 않고 이어지며 고점 부근에서 견조한 흐름을 지속함"
             },
             {
               "time": "마감",
-              "price": 1494000.0,
-              "pct": 11.41,
+              "price": 1487000.0,
+              "pct": 10.89,
               "prev_close": 1341000.0,
               "is_close": true,
               "date": "2026-10-28",
-              "title": "사상 최대 실적 발표",
-              "text": "분기 매출 100조 돌파 소식이 전해지며 상승폭을 하루 중 최대로 키움"
+              "title": "두 자릿수 상승 마감",
+              "text": "장 마감 직후 완판 소식과 역대 최대 실적 발표가 겹치며 하루 중 가장 높은 수준에서 거래를 마침"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "앤트로픽 ‘나스닥 상장’, 삼성·SK 또 웃었다…“‘HBM 확보전’ 다시 점화”",
-              "original": "앤트로픽 ‘나스닥 상장’, 삼성·SK 또 웃었다…“‘HBM 확보전’ 다시 점화”",
-              "source": "CEO스코어데일리",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBnRjZKQzlLZW9sdzZ4QjVUcFBDNllpS0M1OGhmbHRKQ0hHZDhfUFF0dWRjMUxjRkVCYk9reTFfU3VSV3M2bmRMcVJXMS1SbHhYSTdHdDhXRmRpUmtzWjRJcGVBSGJ0T2U4?oc=5",
-              "published": "2026-10-27T17:47:37+09:00"
+              "title": "SK하이닉스 \"3년치 D램·HBM 완판\"",
+              "original": "SK하이닉스 \"3년치 D램·HBM 완판\"",
+              "source": "한국경제",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ka1ZsbW9yenhwRDluSEF1Vm9uUGdRTzQ1QlZobmJTR2pjVUhXZ3FNNXMtajZ4cnppcW8tMlkxWDF3SW9MRk4wTDZPb0YyYTNianE0X0d2T3dQUQ?oc=5",
+              "published": "2026-10-28T17:55:24+09:00"
             },
             {
-              "title": "'실적 발표가 폭락 신호탄' 하이닉스의 '고구마 IR', 내일은 달라지나",
-              "original": "'실적 발표가 폭락 신호탄' 하이닉스의 '고구마 IR', 내일은 달라지나",
-              "source": "땅집고",
-              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VVlJWWlZkWE9hSWh0WlFwc0xheWZzYmNwXy1uZDFjWFVGMVJpZ25DNVNSVnc5YUFyUTBHXzNlQ2cyN18xNWVGYzJJb0FfRFZmS29PMXl4NDF1R3gxMC1UVDFYSXNSc056enNmRllVX2ZHZmU3MHc1cnY5MGdacDjSAXNBVV95cUxQQjNiWHlIbmhLWWprcGtfNzRUZlhvMFdyY2ZOTm40ZW5ta01KMmtIWF9VcmRqVlZ6MWRQVjFWM0Zza0R1WktIY0JlQUxFRjZJUWV4UVdhcmVmVDVDRzlzQjNYRDhNSzNlZDJjNlJZTlJwUG0w?oc=5",
-              "published": "2026-10-27T17:35:43+09:00"
+              "title": "SK하이닉스, 3분기 영업익 83조 ‘최대’…“주주환원 100조”",
+              "original": "SK하이닉스, 3분기 영업익 83조 ‘최대’…“주주환원 100조”",
+              "source": "서울경제TV",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5OQkpxcDV5eTFJOFNvblZsUEZiMHBtMEpYdjYwY3dlZ0xWd1pZM2h1TUdkNEF0QW9ZYmxXMGEzcHB3X0xlNnhZZXhnLXV0NFRTeDRmbVd2V0tRS2lxVmQxNUs5ZzQ?oc=5",
+              "published": "2026-10-28T17:54:15+09:00"
             },
             {
-              "title": "SK하이닉스 3분기 실적 발표 임박…루빈향 HBM4 품질 인증이 승부처",
-              "original": "SK하이닉스 3분기 실적 발표 임박…루빈향 HBM4 품질 인증이 승부처",
-              "source": "아주경제",
-              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9vSHRGM0dfT2VvM0U0OGd1ZEIwSmlPLVlRTUFHaEFrN19Md3dHQVEyOHFnMG9WX2lXREVSSWdXZ1ZCUFhHekxTSjNvWnpoeDJCYUZ0MFFFNHNqZ9IBWEFVX3lxTE1ZUjFreUpyejB5TmJlV3RLSW1uYXdncUtsT0FvbGJ5SThGSm0wME9oRmUxN1BGUXB0M042OGxLaDBsVENMTWZWa05IZDZxbzU0bDNLWjByLUs?oc=5",
-              "published": "2026-10-27T17:33:54+09:00"
+              "title": "‘HBM 3년치 완판’ SK하이닉스, ‘메모리 피크아웃’ 일축한 ‘근자감’",
+              "original": "‘HBM 3년치 완판’ SK하이닉스, ‘메모리 피크아웃’ 일축한 ‘근자감’",
+              "source": "뉴시안",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1taHVqYXIwendTXzdTaGdFWVNfMG5QWjhlVE82al84NGloX0V4ZmxUaEJEQ2loUjV5OFRzaFhsb3RFeTlESFg4S2pSdXdIQ05JRXp5WVFiX0JGY0pwakJEVEZyVUl6QzlPbVRNMQ?oc=5",
+              "published": "2026-10-28T17:50:25+09:00"
             }
           ]
         },
         {
           "stock": "삼성전자",
           "ticker": "005930",
-          "title": "삼성전자 - GOS 제재 법적대응에도 강세",
-          "body": "삼성전자는 공정위의 GOS 관련 200억원 과징금 제재에 법적 대응을 예고한 가운데 +4.23% 오른 <b>222,000원</b> 마감.",
-          "pct": 4.23,
-          "price": 222000.0,
-          "prev_close": 213000.0,
+          "title": "삼성전자 - 삼성그룹株 동반 급등",
+          "body": "삼성전자는 삼성전기·삼성물산 등 그룹주 호실적 소식에 동반 강세를 보이며 +9.01% 오른 <b>242,000원</b> 마감. 브랜드 가치 1052억달러로 7년 연속 글로벌 톱5에 오른 점도 투자심리에 긍정적으로 작용한 모습이다.",
+          "pct": 9.01,
+          "price": 242000.0,
+          "prev_close": 222000.0,
           "currency": "KRW",
-          "as_of": "2026-10-27",
+          "as_of": "2026-10-28",
           "slots": [
             {
               "time": "9:10AM",
@@ -443,8 +443,8 @@
               "prev_close": 222000.0,
               "is_close": false,
               "date": "2026-10-28",
-              "title": "장 초반 강세 출발",
-              "text": "개장 직후부터 큰 폭의 상승세를 보이며 투자자 관심이 집중됨"
+              "title": "장 초반부터 급등",
+              "text": "개장과 동시에 강한 매수세가 들어오며 큰 폭의 상승으로 거래를 시작, 분위기가 뜨거움"
             },
             {
               "time": "10:30AM",
@@ -453,8 +453,8 @@
               "prev_close": 222000.0,
               "is_close": false,
               "date": "2026-10-28",
-              "title": "상승폭 크게 확대",
-              "text": "오전 중 매수세가 이어지며 상승률이 한층 가파르게 올라섬"
+              "title": "상승폭 두 배로 확대",
+              "text": "오전 중반 들어 상승 탄력이 더욱 붙으며 상승폭이 크게 확대, 장중 고점을 다시 씀"
             },
             {
               "time": "1:00PM",
@@ -463,55 +463,55 @@
               "prev_close": 222000.0,
               "is_close": false,
               "date": "2026-10-28",
-              "title": "상승세 소폭 둔화",
-              "text": "점심 무렵 오름세가 다소 주춤하며 상승폭 확대 속도가 느려짐"
+              "title": "상승세 거의 그대로",
+              "text": "오전의 급등 흐름이 오후 들어서도 큰 변화 없이 이어지며 높은 수준에서 안정적으로 유지됨"
             },
             {
               "time": "마감",
-              "price": 242250.0,
-              "pct": 9.12,
+              "price": 242000.0,
+              "pct": 9.01,
               "prev_close": 222000.0,
               "is_close": true,
               "date": "2026-10-28",
-              "title": "강세 흐름 유지 중",
-              "text": "초고수 매도 소식에도 상승폭을 지키며 하루 중 최고 수준을 유지함"
+              "title": "연고점 부근서 마감",
+              "text": "그룹주 동반 급등과 브랜드가치 7년 연속 톱5 소식이 전해진 가운데 하루 중 최고치 부근에서 마침"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "[줌업] 공정위, 삼성전자 GOS 200억 과징금에… '공방 격화'",
-              "original": "[줌업] 공정위, 삼성전자 GOS 200억 과징금에… '공방 격화'",
-              "source": "오늘경제",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9oemM5VjhCT0VZQmVCOXVyLW5hYURyUEpfUFJFQVE3TDZjRUdsa3R3MXRNTDNDMWNlbUpoelU4a1pkOTA3NHo1a1NfWE85RmhFRVhpeHREbXVGSk1fSkNCa3BjOUtIbFdvYVFaeHMzWldodWs?oc=5",
-              "published": "2026-10-27T17:32:51+09:00"
+              "title": "[특징주] 삼성전기·물산 호실적…삼성그룹株 동반 급등",
+              "original": "[특징주] 삼성전기·물산 호실적…삼성그룹株 동반 급등",
+              "source": "뉴스핌",
+              "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDV0QwUDJtOFVfNnJwRzd5eEVtam8tZVZTM1VUQS1pXzcxeEZRNWE5WEJLbHZscFIyNFdjMGpCYW9TeHFiNEpNeTU4bm9jbktuckZ3WWVsRTd4ZEln?oc=5",
+              "published": "2026-10-28T17:52:00+09:00"
             },
             {
-              "title": "“소송도 종결됐는데 왜?”…삼성전자, ‘GOS 사태’ 공정위 제재에 법적 대응",
-              "original": "“소송도 종결됐는데 왜?”…삼성전자, ‘GOS 사태’ 공정위 제재에 법적 대응",
-              "source": "동아일보",
-              "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8tdWR5QmZLUm5CVVlUWG9NNUloUEliOEkzUGtvbEs1elVoN2JqX1FVQlFQYjBzbTF5Z0hPdmNzeUtfc2h5TkcyWTZ5U1V0MTc5QUFHTDNQZDVYYnBtVTlOS05HQVRieHRUTF9ONjdpNFBtaVhKY0HSAWZBVV95cUxNbjFBVlJoWU1BWnhjVENodGxDempXUjRuZjhxNDhVRkxmQ01YN1ZudWFjd0Y2b3N5ZXRWempRU1ozZVJBeWdpTHlkX19RNHliTXRJRmxUNllQQ2dkeEt6V1hueU93a2c?oc=5",
-              "published": "2026-10-27T17:31:39+09:00"
+              "title": "삼성전자, 브랜드 가치 7년 연속 글로벌 톱5...현대차 29위, 기아 87위",
+              "original": "삼성전자, 브랜드 가치 7년 연속 글로벌 톱5...현대차 29위, 기아 87위",
+              "source": "소비자가 만드는 신문",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBrR1dROExQNjJOZ0xfTzk1Q0dBSUxlUFk5M2ltOThuOFhPM080ZVhTQWRlMl9fS2lLcGU1SUlYMGNBR3lxXzJsblI5S1BKamRaYXdUY0toTGQyT2k0bGh6bFBZLWJvVlI2NTJSNHZvdVYza0k?oc=5",
+              "published": "2026-10-28T17:47:19+09:00"
             },
             {
-              "title": "삼성전자 '게임 성능 제한' 미고지에 과징금 200억원…\"소송 등 법적 대응\"",
-              "original": "삼성전자 '게임 성능 제한' 미고지에 과징금 200억원…\"소송 등 법적 대응\"",
-              "source": "굿모닝경제",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96dVdWVHliY2lPMnFISmlxYndmZTMxdzc0R3ZLZUJFUGxZblBTcXZUblB4SU4yalE1TXR3M2dzY2E4REZMbU8yeElFVlFveXNoMEE4eU9jQjN4akw1V1JYc0lOMXM1eXBHcVozTQ?oc=5",
-              "published": "2026-10-27T17:28:04+09:00"
+              "title": "삼성전자, 브랜드가치 1052억달러…7년 연속 세계 5위",
+              "original": "삼성전자, 브랜드가치 1052억달러…7년 연속 세계 5위",
+              "source": "지피코리아",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvWXltTTFndElFQkdTMDktRTRGa1V6U1JZUnYtOG5MQXZXN1dUT2VyTzhreEtfZVdldGJBMDYzVllYdFFOaTVhT3VpUV81ME9lb01HODNsbk1kZVZjQ0lERHU5dEdpaWd2RHfSAW5BVV95cUxQQmw3WERxSG13alVIeWZRdW54VTdiRHJwRTZHZXNob2hjdkliQ3E1U2ZuNm9uckxFMnlVT0RUTVJkX2MtMWhMbU5uNE1zNE1kSUhwTExhMkx1ZTlzRVNBWGUtaXhRSjRCX19vUEZzZw?oc=5",
+              "published": "2026-10-28T17:38:58+09:00"
             }
           ]
         },
         {
           "stock": "한화에어로스페이스",
           "ticker": "012450",
-          "title": "한화에어로스페이스 - LAH 엔진 책임론 속 소폭…",
-          "body": "한화에어로스페이스는 KAI 노조가 LAH 엔진 결함 책임을 거론하며 독립경영을 강조한 가운데 +1.05% 오른 <b>768,000원</b> 마감. 계열사 한화시스템은 적자인 필리조선소 분리로 이익 변동성이 커졌다는 분석도 나오며 그룹 전반에 관심이 쏠린 모습이다.",
-          "pct": 1.05,
-          "price": 768000.0,
-          "prev_close": 760000.0,
+          "title": "한화에어로스페이스 - 방산 훈풍 속 소폭 상승",
+          "body": "한화에어로스페이스는 K-방산 수출 훈풍이 중견 부품기업까지 번진다는 소식 속에 +2.47% 오른 <b>787,000원</b> 마감. 다만 한화와 KAI 간 엔진 결함을 둘러싼 갈등이 격화되며 납품 차질과 경영권 논란이 불거진 점은 부담 요인으로 지목된다.",
+          "pct": 2.47,
+          "price": 787000.0,
+          "prev_close": 768000.0,
           "currency": "KRW",
-          "as_of": "2026-10-27",
+          "as_of": "2026-10-28",
           "slots": [
             {
               "time": "9:10AM",
@@ -520,8 +520,8 @@
               "prev_close": 768000.0,
               "is_close": false,
               "date": "2026-10-28",
-              "title": "장 초반 완만한 상승",
-              "text": "개장 직후 소폭의 오름세로 거래를 시작하며 큰 변동은 없었음"
+              "title": "완만한 상승 출발",
+              "text": "개장 초반 소폭의 오름세로 거래를 시작하며 큰 변동 없이 안정적인 흐름을 보여줌"
             },
             {
               "time": "10:30AM",
@@ -531,7 +531,7 @@
               "is_close": false,
               "date": "2026-10-28",
               "title": "상승폭 제한적 유지",
-              "text": "오전 내내 비슷한 수준에서 머물며 뚜렷한 방향성을 보이지 않음"
+              "text": "오전 중에도 상승폭이 크게 늘지 않고 비슷한 수준에서 횡보하며 완만한 흐름이 이어짐"
             },
             {
               "time": "1:00PM",
@@ -540,55 +540,55 @@
               "prev_close": 768000.0,
               "is_close": false,
               "date": "2026-10-28",
-              "title": "오후 들어 상승 탄력",
-              "text": "K9 인도 추가 수출 소식이 전해지며 상승폭이 하루 중 가장 크게 확대됨"
+              "title": "오후 들어 상승폭 확대",
+              "text": "오후 들어 매수세가 유입되며 상승폭이 오전보다 뚜렷하게 커져 장중 고점을 형성함"
             },
             {
               "time": "마감",
-              "price": 784000.0,
-              "pct": 2.08,
+              "price": 787000.0,
+              "pct": 2.47,
               "prev_close": 768000.0,
               "is_close": true,
               "date": "2026-10-28",
-              "title": "상승폭 다시 축소",
-              "text": "오후 고점을 찍은 뒤 상승분을 일부 반납하며 오전 수준으로 되돌아옴"
+              "title": "고점 대비 상승폭 축소",
+              "text": "한화와 KAI 간 갈등 보도가 전해진 가운데 장중 고점을 지키지 못하고 상승폭이 다소 줄어든 채 마침"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "KAI 노조 \"한화, 실적 따지기 전에 LAH 엔진 결함부터 책임져라\"",
-              "original": "KAI 노조 \"한화, 실적 따지기 전에 LAH 엔진 결함부터 책임져라\"",
-              "source": "아시아경제",
-              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1DTW12dUYwaFZ2QUhMajI3dmVrSUxZb0VpakVUc0hFWjEwZnRBZkdSSkRJbmZTMVBFb29RLW1MeXZTMnI2eXJ5TG5BNE9xOUpydmw5cWFjcmd3WlJqSFFmZg?oc=5",
-              "published": "2026-10-27T17:26:03+09:00"
+              "title": "한화·KAI 갈등 격화…엔진 결함에 납품 차질·경영권 논란",
+              "original": "한화·KAI 갈등 격화…엔진 결함에 납품 차질·경영권 논란",
+              "source": "스페셜경제",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XOEhsTzRsQ1BLUGdEY0JTc2hEeE8wenAwMXE5Ul9xU1BRU1psdUNsdWFGNEdUT0drd2NPQkV6SnNjNkFxS1M0eHBPeDFWUjZUd3ZlMkNHemQta0ltYUdMUUVHX29uUDlDQUtIUA?oc=5",
+              "published": "2026-10-28T17:13:32+09:00"
             },
             {
-              "title": "KAI 노조, 국가사업 손실·엔진 공급 차질 부각…독립경영 강조",
-              "original": "KAI 노조, 국가사업 손실·엔진 공급 차질 부각…독립경영 강조",
-              "source": "더퍼블릭",
-              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAzNG1PdHBhUlRnMWJBQXhxMEtNX2JRckJwcEpqbTFUR004MWFBN2FfbklDZjN1UTRuQ29pX3VpU2Q1SXFFMnNoOHJiR3VTU3ZONExYelB5RW5QbkhkVVhyM1ZUSGpNN2hKZlRJ0gFvQVVfeXFMUGdpejdydlB5T09NcmZneEloNVg4WV9GaHJIVzZtVW9UdnFPTXNGVl9zUE5EWml4b1hKOW9POVF3SkNQSjZIdlNqeEY3bm1PZjRfejlsa1EwYUUtSlN5clhVY0wzVXgxS2RwVzQwQ1dB?oc=5",
-              "published": "2026-10-27T17:16:42+09:00"
+              "title": "한화에어로스페이스 주가 19,000원 상승 후 장마감",
+              "original": "한화에어로스페이스 주가 19,000원 상승 후 장마감",
+              "source": "아시아뉴스통신",
+              "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5XaU80U2RiV2MzUHNCWENJdWFGZ1BCb25IbEptSzR5N25CMC1rbWFHUnlKLXRzUENlOThFZjJIRFBPamkzVmR5Y3VyTWVVdnBxU1BXalJvLVV1V251?oc=5",
+              "published": "2026-10-28T16:47:38+09:00"
             },
             {
-              "title": "한화시스템, 적자 필리조선소 떼자 이익 '냉온탕'",
-              "original": "한화시스템, 적자 필리조선소 떼자 이익 '냉온탕'",
-              "source": "비즈워치",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tZ01rVkpIeGVSdGx6cEUzc093TjVRZzl6UmZpc2xLRDcwVFFGMWFzazBiZEREblpvYWdoU3pKdkw4a1laUDJIbmdzODhSZFE1QWxrcDRadWc2YkU2cnlyanI2bmFySmJvSktBbw?oc=5",
-              "published": "2026-10-27T17:12:03+09:00"
+              "title": "K-방산 수출 훈풍, 중견 부품기업까지 번진다",
+              "original": "K-방산 수출 훈풍, 중견 부품기업까지 번진다",
+              "source": "폴리뉴스 Polinews",
+              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB5VVpfOTZkQVpGZ0NVOWd3eFgycmx5Rjd4c2xQM2xTdFEtZzE5encxbW91dXJRaGRxWHpRSk5KcWhDbkg0NUdQSGNpMHRRb2tyLXRnTFZSN0dQVHBNaHJMMmJlcXBzUjlMdkd2STlR?oc=5",
+              "published": "2026-10-28T16:45:20+09:00"
             }
           ]
         },
         {
           "stock": "LG전자",
           "ticker": "066570",
-          "title": "LG전자 - 가전 할인 행사 속 소폭 상승",
-          "body": "LG전자는 '코리아 그랜드 페스티벌'을 통해 블랙프라이데이 가전 할인에 나선 가운데 +0.96% 오른 <b>157,500원</b> 마감.",
-          "pct": 0.96,
-          "price": 157500.0,
-          "prev_close": 156000.0,
+          "title": "LG전자 - 가전·전장 쌍끌이, 최대 이익",
+          "body": "LG전자는 가전·전장 사업이 쌍끌이 호조를 보이며 연간 최대 이익 5조원이 가시권에 들었다는 소식에 +2.67% 오른 <b>161,700원</b> 마감. 3분기 누적 영업이익이 처음으로 4조원을 돌파했지만 4분기 글로벌 수요 둔화로 부문별 수익성 방어에 총력을 기울이겠다는 컨콜 발언도 나왔다.",
+          "pct": 2.67,
+          "price": 161700.0,
+          "prev_close": 157500.0,
           "currency": "KRW",
-          "as_of": "2026-10-27",
+          "as_of": "2026-10-28",
           "slots": [
             {
               "time": "9:10AM",
@@ -597,8 +597,8 @@
               "prev_close": 157500.0,
               "is_close": false,
               "date": "2026-10-28",
-              "title": "장 초반 완만한 상승",
-              "text": "개장과 함께 소폭 오르며 안정적인 흐름으로 거래를 시작함"
+              "title": "소폭 상승 출발",
+              "text": "개장 직후 완만한 오름세로 시작하며 큰 등락 없이 안정적인 분위기 속에 거래가 이어짐"
             },
             {
               "time": "10:30AM",
@@ -608,64 +608,64 @@
               "is_close": false,
               "date": "2026-10-28",
               "title": "상승폭 점차 확대",
-              "text": "오전 중 매수세가 유입되며 상승률이 꾸준히 커지는 모습을 보임"
+              "text": "오전 중반 들어 매수세가 조금씩 붙으며 상승폭이 꾸준히 커지는 흐름을 보여줌"
             },
             {
               "time": "1:00PM",
-              "price": 162900.0,
-              "pct": 3.43,
+              "price": 163000.0,
+              "pct": 3.49,
               "prev_close": 157500.0,
               "is_close": false,
               "date": "2026-10-28",
-              "title": "상승세 꾸준히 유지",
-              "text": "점심 무렵까지 오름세를 이어가며 하루 중 상승폭을 키워감"
+              "title": "장중 최고치 근접",
+              "text": "오후 들어서도 상승 흐름이 이어지며 하루 중 가장 높은 수준까지 올라서는 모습을 보임"
             },
             {
               "time": "마감",
-              "price": 161900.0,
-              "pct": 2.79,
+              "price": 161700.0,
+              "pct": 2.67,
               "prev_close": 157500.0,
               "is_close": true,
               "date": "2026-10-28",
-              "title": "호실적에도 소폭 후퇴",
-              "text": "영업익 4조 돌파 소식 후 오후 들어 상승폭이 다소 줄어들며 마무리됨"
+              "title": "상승폭 다소 줄며 마감",
+              "text": "역대 최대 이익 전망과 실적 발표가 전해졌지만 고점 대비 상승폭이 다소 줄어든 채 거래를 마침"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "LG전자, 블랙프라이데이 가전 할인...'코리아 그랜드 페스티벌' 운영",
-              "original": "LG전자, 블랙프라이데이 가전 할인...'코리아 그랜드 페스티벌' 운영",
-              "source": "https://www.ppss.kr/",
-              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE12LWl1QzhpMGtxaVZpOUZMMTJQSXpJVkk1VU5MbG9WeDZOb2pYRldZbzJrX3loZGNrcnpjUTdQTUVVTkZET1pnVEgxaGp6eEktbnBhbllMQU4zSVI5VXg1T1FKZzY?oc=5",
-              "published": "2026-10-27T17:06:05+09:00"
+              "title": "LG전자, 연간 최대 이익 5兆 가시권…가전·전장 '쌍끌이'[종합]",
+              "original": "LG전자, 연간 최대 이익 5兆 가시권…가전·전장 '쌍끌이'[종합]",
+              "source": "아이뉴스24",
+              "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5tY1FKX0FkSGk3dDRXZC1TdFdzU2oyQVF1Y0pEOWVTZEdJZVlMZDBESW1NMWpVcnpQV0xXLUpxUGZ0TmF4X3Fyb0tDSQ?oc=5",
+              "published": "2026-10-28T17:44:59+09:00"
             },
             {
-              "title": "LG전자, 내달 말까지 온·오프라인 가전 할인",
-              "original": "LG전자, 내달 말까지 온·오프라인 가전 할인",
-              "source": "IT조선",
-              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBkVjRnX2Y3VlN2V3ZMTUdvd0tKV1pRdGZpamhKWWh2LU1ES0FlV2VMVXJCNXBGMms3elpUSWZtcGw3cUh1M0JxUWVJNzhwUVhlTndOcHJMQW5uQmctcVRnU0dsSk94aHJVZU9sZkdlam03Wjh10gF0QVVfeXFMUGRWNGdfZjdWU3ZXdkxNR293S0pXWlF0ZmlqaEpZaHYtTURLQWVXZUxVckI1cEYyazd6WlRJZm1wbDdxSHUzQnFRZUk3OHBRWGVOd05wckxBbm5CZy1xVGdTR2xKT3hoclVlT2xmR2VqbTdaOHU?oc=5",
-              "published": "2026-10-27T16:57:40+09:00"
+              "title": "LG전자 3분기 누적 영업이익 4조 첫 돌파…AIDC 냉각 수주 3조 넘겨",
+              "original": "LG전자 3분기 누적 영업이익 4조 첫 돌파…AIDC 냉각 수주 3조 넘겨",
+              "source": "동아일보",
+              "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5NUll1THFSNlNDdTNDb0ZuM19xVzM2ZDZNdWU4NVRSTkpseWp1MFluMk40ZzFGWThoR1FlYjNkYTEtMUExY29mWXpIc2RQMVJwdHV1VmdZa2J6UFNZcUVYUEMtVDQwUUx5djVEUnlBaWtIX1BmVnfSAWZBVV95cUxNM0RvTUFBQnpkYnVhazVld3g0UXNHZFZCT1ZlR1I4OXVkUXFiaVNPVDZTVXNlRkpnQVpSOE1qS1I5T2lvNHo4cmNSem5CZDY5clVSWEZpelY3dGZ6cWJFZGwwbXhZYnc?oc=5",
+              "published": "2026-10-28T17:44:13+09:00"
             },
             {
-              "title": "LG전자, '코리아 그랜드 페스티벌' 동참...29일부터 가전 할인",
-              "original": "LG전자, '코리아 그랜드 페스티벌' 동참...29일부터 가전 할인",
-              "source": "핀포인트뉴스",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5mSlY2eUJaSk5UZkZvelB3elZKTTJEd293YUFYRmdlTWtFV1JMTHRfXzBTdzRUUnRhT0NwTkpiVjJFREpmTC1uTFdyTXdESy0yNzhHd3dON1MwSGtNdlNKMFlBVk96Tkswcl9JZlZleDAzbTTSAXdBVV95cUxPa0w1eFB0bWR6dUhYajI5MTlYd010UDNUQ0JSM1BaRl9JalkwMEVHajJJUnhsdTNTRFJXNGtmV1ZqS1RMNG5wVnlDMDllNUxad0dyT25OQUFGa1FSTHQxQldJZ2x0dVZZS2x2V1FwNC12bFhmM1AyYw?oc=5",
-              "published": "2026-10-27T16:37:43+09:00"
+              "title": "[컨콜] LG전자 4분기 글로벌 수요 둔화 예상···부문별 수익성 방어 '총력'",
+              "original": "[컨콜] LG전자 4분기 글로벌 수요 둔화 예상···부문별 수익성 방어 '총력'",
+              "source": "녹색경제신문",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pNThJMUNsbXpZVnhCQldHUEV1UzZOZWNIMFhVdk9BRWFKSFlvNWtmSjN3VjI2VlJCUmRMdUM5VXRPSnhUYlpKd3FpakZJWWhFcW5aZEt6NGxIcHB0ZEN4SS1aYXJXRjky?oc=5",
+              "published": "2026-10-28T17:42:24+09:00"
             }
           ]
         },
         {
           "stock": "현대차",
           "ticker": "005380",
-          "title": "현대차 - 공장 재편안 발표 속 강보합",
-          "body": "현대차는 효율성과 고용을 절충한 공장 재편안이 나온 가운데 +0.87% 오른 <b>290,500원</b> 마감.",
-          "pct": 0.87,
-          "price": 290500.0,
-          "prev_close": 288000.0,
+          "title": "현대차 - 브랜드 가치 20위권 첫 진입",
+          "body": "현대차는 브랜드 가치 250억달러로 글로벌 20위권에 처음 진입했다는 소식에 +1.89% 오른 <b>296,000원</b> 마감. 수소차 생태계 확장을 위해 생산·충전·관제까지 아우르는 사업을 추진하며 내달 킨텍스에서 수소 상용 모빌리티 기술을 공개할 예정이다.",
+          "pct": 1.89,
+          "price": 296000.0,
+          "prev_close": 290500.0,
           "currency": "KRW",
-          "as_of": "2026-10-27",
+          "as_of": "2026-10-28",
           "slots": [
             {
               "time": "9:10AM",
@@ -674,8 +674,8 @@
               "prev_close": 290500.0,
               "is_close": false,
               "date": "2026-10-28",
-              "title": "장 초반 강세 출발",
-              "text": "개장 직후 상승세로 출발하며 긍정적인 투자 심리를 반영함"
+              "title": "상승 흐름으로 출발",
+              "text": "개장 직후 매수세가 유입되며 완만한 오름세로 하루를 시작, 분위기가 비교적 안정적임"
             },
             {
               "time": "10:30AM",
@@ -685,7 +685,7 @@
               "is_close": false,
               "date": "2026-10-28",
               "title": "상승폭 소폭 확대",
-              "text": "오전 중 완만한 오름세를 지속하며 상승폭을 조금씩 넓혀감"
+              "text": "오전 중반 들어 상승폭이 조금 더 커지며 장중 최고 수준에 다다르는 흐름을 보여줌"
             },
             {
               "time": "1:00PM",
@@ -694,8 +694,8 @@
               "prev_close": 290500.0,
               "is_close": false,
               "date": "2026-10-28",
-              "title": "상승폭 제자리걸음",
-              "text": "점심 무렵 오전과 비슷한 수준에서 머물며 추가 상승은 제한됨"
+              "title": "상승폭 다시 축소",
+              "text": "오전 고점 대비 상승폭이 줄어들며 오후 들어 상승세가 다소 주춤해지는 모습을 보임"
             },
             {
               "time": "마감",
@@ -704,39 +704,38 @@
               "prev_close": 290500.0,
               "is_close": true,
               "date": "2026-10-28",
-              "title": "상승폭 다소 줄어듦",
-              "text": "오후 들어 상승분을 일부 반납하며 하루 중 가장 낮은 상승률로 거래를 이어감"
+              "title": "상승폭 줄며 마감",
+              "text": "브랜드가치 글로벌 20위권 진입 소식에도 장중 고점을 지키지 못하고 상승폭이 축소된 채 마침"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "‘효율·고용’ 절충…현대차·기아 공장 재편안 나왔다",
-              "original": "‘효율·고용’ 절충…현대차·기아 공장 재편안 나왔다",
-              "source": "이데일리",
-              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQnN1M21EcDlObEF3Z3VRWUpCQXhZa0dDdVJiQXotNDh3VGk3dEMtZkU0QWQtU3l6ODBtOUNsMkx4dzUzVmZaX0psamJnNzRGMTZVd1I3bmN3a3BsMjdoNURZSjhnN1hMaWM5bU9sMkpFRHl6UHpMaU5rYi1HMHVPXw?oc=5",
-              "published": "2026-10-27T17:57:45+09:00"
+              "title": "생산·충전·관제까지… 현대차그룹, 수소차 넘어 생태계 확장",
+              "original": "생산·충전·관제까지… 현대차그룹, 수소차 넘어 생태계 확장",
+              "source": "아시아투데이",
+              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sQXBnX0JEc2pGU0x2UHlXS2ZCcmxSRFRWZlp2TC1qWGdLcFlZZDJjcnRTc1hIRGMxRl8wazlKOVd3azRHY1BxWDhKNV9la0FLZnZGdTdUdTctbklnaWFTNXZfWkR1aWdTLXVqLWdR?oc=5",
+              "published": "2026-10-28T17:49:35+09:00"
             },
             {
-              "title": "[차 vs 차] 2026년 현대차의 두 야심작, '디 올 뉴 아반떼'와 '디 올 뉴 투싼'의 엇갈린 명암...흥행을 가른 3가지 결정적 요인",
-              "original": "[차 vs 차] 2026년 현대차의 두 야심작, '디 올 뉴 아반떼'와 '디 올 뉴 투싼'의 엇갈린 명암...흥행을 가른 3가지 결정적 요인",
-              "source": "다나와 자동차",
-              "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBBU0pXNmNGMnpfeVczX2x5SkJrVG5OVUJBMVJsSGM4SDExZkVCR2FsMldOMVZNQXd2cW1nU2JOOGtWdWJDQWRnMHlGckg1anJwOWpUQ2szSVAtb0w4dFBCYWdB?oc=5",
-              "published": "2026-10-27T17:10:51+09:00"
+              "title": "현대차그룹, 내달 킨텍스서 수소 상용 모빌리티 기술 공개",
+              "original": "현대차그룹, 내달 킨텍스서 수소 상용 모빌리티 기술 공개",
+              "source": "코리아리포트",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9UT1gyRlJ1aVV1MlFnVnBUNmROS1JZYXBVVWl4QzEyenRKSkdpbFZQeEk3ZlhhT0pBSmE0dFJYYlQ1MTZlZ1dVZXFOSWJoaVRDMW9JZnlQcG9SZ2NBSVhqdERpMjlkR1hWcHkxZnE5R1M?oc=5",
+              "published": "2026-10-28T17:46:26+09:00"
             },
             {
-              "title": "(AD)현대차, `더 뉴 아반떼 N TCR`, TCR 월드투어 중국 라운드 우승…시즌 챔피언십 눈앞",
-              "original": "(AD)현대차, `더 뉴 아반떼 N TCR`, TCR 월드투어 중국 라운드 우승…시즌 챔피언십 눈앞",
-              "source": "미디어이슈",
-              "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE50b0daRWEtdmF1LTlhcDdkaHN3VUduY1BsVGsyZzNQRlNWUGJMdHBmbHhkWnA0TTdNQ3VmTVljUlo5dmU2SW5obg?oc=5",
-              "published": "2026-10-27T17:03:00+09:00"
+              "title": "현대차 브랜드 가치 250억달러···글로벌 20위권 내 첫 진입",
+              "original": "현대차 브랜드 가치 250억달러···글로벌 20위권 내 첫 진입",
+              "source": "이뉴스투데이",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB6V0tTeThzOG56NkZib0ZtdGtfaVozTFkyVTBVQXpsVGRXV0drRTQxdU5nRXFnekhud2FQT3ZlZzJNRmdZel9JV3h2bUI2UnItUlZkQUJ5OWlKcnhYOG5wWHVtaEx6c0NMNGpEaVNpbUjSAXRBVV95cUxNVXh2dGZadTdLYTI0dmtFbmpmQ1hnNFAxUmhvZkdzekpiWmVsd0pObkU4dS1TVUxkZjNBRUdZaFlZMV9HZm5Qb05VTENuaTRjZ0hDemk3YTQzTjJIZlN4ZDhoV3E5ajlpMkNaMXdxa1AyYjVBMA?oc=5",
+              "published": "2026-10-28T17:41:17+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-10-27-kr.md",
-      "refreshed_at": "2026-10-27 18:01:04 KST",
-      "slots_refreshed_at": "2026-10-28 15:40:43 KST"
+      "markdown": "briefings/2026-10-28-kr.md",
+      "refreshed_at": "2026-10-28 18:00:58 KST"
     }
   }
 }
