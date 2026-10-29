@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-29 15:40:50 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-10-29 18:01:01 KST",
+  "refreshed": [
     "kr"
   ],
-  "default": "us",
+  "slots_refreshed": [],
+  "default": "kr",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
@@ -316,7 +316,7 @@
     },
     "kr": {
       "icon": "assets/moon.svg",
-      "label": "한국 증시 요약 2026. 10. 28. 6:00PM",
+      "label": "한국 증시 요약 2026. 10. 29. 6:01PM",
       "chips": [
         "전체",
         "SK하이닉스",
@@ -330,27 +330,26 @@
         "다시 찾아올게요."
       ],
       "next": "us",
-      "headline": "국내 5종목 중 5종목 상승 — SK하이닉스가 +10.89%로 가장 많이 올랐고 현대차가 +1.89%로 상승폭이 가장 작았습니다.",
-      "market_headline": "SK하이닉스 역대급 실적에 코스피 6.63% 급등 6000선 탈환",
+      "headline": "국내 5종목 중 1종목 상승, 4종목 하락 — SK하이닉스가 +2.62%로 가장 많이 올랐고 삼성전자가 -4.13%로 가장 부진했습니다.",
+      "market_headline": "삼성전자 주주환원 실망에 코스피 6000선 하루 만에 반납",
       "market_card": {
-        "title": "코스피 마감...6.63% 급등해 6012선 마감하며 10거래일 만에 6000선 회복",
+        "title": "코스피 1.2% 하락 마감...6000선 하루 만에 재이탈하며 5930선대 후퇴",
         "bullets": [
-          "외국인·기관 이틀째 순매수 지속",
-          "삼성전자·SK하이닉스 9~10%대 급등 견인",
-          "원·달러 환율 14원 상승 1340원대 근접"
+          "삼성전자 4%대 급락...SK하이닉스는 강세",
+          "美 금리 동결에 원달러 환율 1336.8원 마감"
         ]
       },
       "cards": [
         {
           "stock": "SK하이닉스",
           "ticker": "000660",
-          "title": "SK하이닉스 - HBM 3년치 완판, 최대 실적",
-          "body": "SK하이닉스는 3분기 영업이익 83조원으로 사상 최대 실적을 기록하고 D램·HBM 3년치 완판 소식이 전해지며 +10.89% 오른 <b>1,487,000원</b> 마감. 100조원 규모 주주환원 계획과 함께 메모리 피크아웃 우려를 일축하는 모습을 보이며 투자심리가 크게 개선된 것으로 풀이된다.",
-          "pct": 10.89,
-          "price": 1487000.0,
-          "prev_close": 1341000.0,
+          "title": "SK하이닉스 - 분기 매출 첫 100조 돌파",
+          "body": "SK하이닉스는 분기 매출 100조원을 처음 돌파하고 영업이익률 80%를 기록했다는 소식에 +2.62% 오른 <b>1,526,000원</b> 마감. 100원 팔아 80원을 남긴 실적에 4분기 영업익 100조 돌파 기대감까지 더해지며 투자심리가 크게 개선된 모습이다.",
+          "pct": 2.62,
+          "price": 1526000.0,
+          "prev_close": 1487000.0,
           "currency": "KRW",
-          "as_of": "2026-10-28",
+          "as_of": "2026-10-29",
           "slots": [
             {
               "time": "9:10AM",
@@ -360,7 +359,7 @@
               "is_close": false,
               "date": "2026-10-29",
               "title": "장 초반 강한 상승",
-              "text": "개장 직후 강세로 출발하며 하루 중 가장 높은 상승폭을 기록함"
+              "text": "개장 직후부터 큰 폭으로 뛰어오르며 3%대 상승으로 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -369,8 +368,8 @@
               "prev_close": 1487000.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "상승폭 대거 축소",
-              "text": "장 초반 상승분의 상당 부분을 반납하며 상승폭이 눈에 띄게 줄어듦"
+              "title": "상승폭 대폭 축소",
+              "text": "오전 중 상승분을 상당 부분 반납하며 1%대로 오름폭이 크게 줄어듦"
             },
             {
               "time": "1:00PM",
@@ -380,54 +379,54 @@
               "is_close": false,
               "date": "2026-10-29",
               "title": "소폭 반등 시도",
-              "text": "오전 저점에서 소폭 올라서며 상승세를 조금씩 다시 회복하는 흐름"
+              "text": "저점을 찍은 뒤 낮 시간대 들어 완만하게 반등하며 1%대 중반을 유지함"
             },
             {
               "time": "마감",
-              "price": 1520000.0,
-              "pct": 2.22,
+              "price": 1526000.0,
+              "pct": 2.62,
               "prev_close": 1487000.0,
               "is_close": true,
               "date": "2026-10-29",
-              "title": "상승폭 재확대 마감",
-              "text": "순현금 바탕 신용등급 상향 기대와 삼성 대비 선전 분석 속 상승폭을 키우며 마감"
+              "title": "오후 들어 낙폭 만회",
+              "text": "장 후반 상승폭을 다시 키우며 저점 대비 반등폭을 가장 크게 넓히고 마감"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "SK하이닉스 \"3년치 D램·HBM 완판\"",
-              "original": "SK하이닉스 \"3년치 D램·HBM 완판\"",
-              "source": "한국경제",
-              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ka1ZsbW9yenhwRDluSEF1Vm9uUGdRTzQ1QlZobmJTR2pjVUhXZ3FNNXMtajZ4cnppcW8tMlkxWDF3SW9MRk4wTDZPb0YyYTNianE0X0d2T3dQUQ?oc=5",
-              "published": "2026-10-28T17:55:24+09:00"
+              "title": "SK하이닉스, 분기 매출 첫 100조 돌파…영업이익률 80% 찍었다",
+              "original": "SK하이닉스, 분기 매출 첫 100조 돌파…영업이익률 80% 찍었다",
+              "source": "데일리팝",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBSy00SEotcUJFOEY0NG9mVkxsZUF1U1YzNGptZWNtTEFPNHR2dUQyQlFKZlhEVTkySGF1cTA0cjVOV0lmTEs0bDJUZERyZkJvUmlPVUZBZE5wV2d1Vm9obDVBTWlBbjdy?oc=5",
+              "published": "2026-10-29T17:48:00+09:00"
             },
             {
-              "title": "SK하이닉스, 3분기 영업익 83조 ‘최대’…“주주환원 100조”",
-              "original": "SK하이닉스, 3분기 영업익 83조 ‘최대’…“주주환원 100조”",
-              "source": "서울경제TV",
-              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5OQkpxcDV5eTFJOFNvblZsUEZiMHBtMEpYdjYwY3dlZ0xWd1pZM2h1TUdkNEF0QW9ZYmxXMGEzcHB3X0xlNnhZZXhnLXV0NFRTeDRmbVd2V0tRS2lxVmQxNUs5ZzQ?oc=5",
-              "published": "2026-10-28T17:54:15+09:00"
+              "title": "SK하이닉스 NVMe SSD 512GB PC611 살펴보기 : 테크/과학",
+              "original": "SK하이닉스 NVMe SSD 512GB PC611 살펴보기 : 테크/과학",
+              "source": "재경일보",
+              "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9zZEt4eWIxRjVFT2JXWHBIR1NVV3pfd1p3UUNuS09VaFR1SVpMUm5VSFljRFh5enN4US1kMGtKbWdhMjNEZnJkaGVHTQ?oc=5",
+              "published": "2026-10-29T17:41:19+09:00"
             },
             {
-              "title": "‘HBM 3년치 완판’ SK하이닉스, ‘메모리 피크아웃’ 일축한 ‘근자감’",
-              "original": "‘HBM 3년치 완판’ SK하이닉스, ‘메모리 피크아웃’ 일축한 ‘근자감’",
-              "source": "뉴시안",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1taHVqYXIwendTXzdTaGdFWVNfMG5QWjhlVE82al84NGloX0V4ZmxUaEJEQ2loUjV5OFRzaFhsb3RFeTlESFg4S2pSdXdIQ05JRXp5WVFiX0JGY0pwakJEVEZyVUl6QzlPbVRNMQ?oc=5",
-              "published": "2026-10-28T17:50:25+09:00"
+              "title": "100원 팔아 80원 남긴 SK하이닉스⋯4분기 영업익 100조 넘본다",
+              "original": "100원 팔아 80원 남긴 SK하이닉스⋯4분기 영업익 100조 넘본다",
+              "source": "브릿지경제",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5mVTZEQ3JzaTRVeXFfQ21rOXlBcno2UVgwVW94WTVULUhndUlwNnY5Tzk3Y0hqRC1vYU0tZWxubEdNWXI2LWtRWG1lNDB3TzRoa1RGdWpzWnlsUQ?oc=5",
+              "published": "2026-10-29T17:38:00+09:00"
             }
           ]
         },
         {
           "stock": "삼성전자",
           "ticker": "005930",
-          "title": "삼성전자 - 삼성그룹株 동반 급등",
-          "body": "삼성전자는 삼성전기·삼성물산 등 그룹주 호실적 소식에 동반 강세를 보이며 +9.01% 오른 <b>242,000원</b> 마감. 브랜드 가치 1052억달러로 7년 연속 글로벌 톱5에 오른 점도 투자심리에 긍정적으로 작용한 모습이다.",
-          "pct": 9.01,
-          "price": 242000.0,
-          "prev_close": 222000.0,
+          "title": "삼성전자 - 삼성바이오 유증에 6662억 출자",
+          "body": "삼성전자는 삼성바이오로직스 유상증자에 삼성물산과 함께 1조5852억원(삼성전자 단독 6662억원)을 출자한다는 소식 속에 -4.13% 내린 <b>232,000원</b> 마감.",
+          "pct": -4.13,
+          "price": 232000.0,
+          "prev_close": 242000.0,
           "currency": "KRW",
-          "as_of": "2026-10-28",
+          "as_of": "2026-10-29",
           "slots": [
             {
               "time": "9:10AM",
@@ -436,8 +435,8 @@
               "prev_close": 242000.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "장 초반 상승 출발",
-              "text": "개장 직후에는 소폭이나마 상승세로 출발하며 하루를 시작함"
+              "title": "장 초반 강세 출발",
+              "text": "개장 직후 완만한 상승세로 출발하며 긍정적인 분위기로 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -446,8 +445,8 @@
               "prev_close": 242000.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "낙폭 급격히 확대",
-              "text": "장 초반 상승분이 사라지고 오전 중 낙폭이 크게 벌어지는 흐름으로 전환됨"
+              "title": "급격한 하락 전환",
+              "text": "오전 중 분위기가 급반전되며 상승분을 모두 반납하고 낙폭이 크게 확대됨"
             },
             {
               "time": "1:00PM",
@@ -456,8 +455,8 @@
               "prev_close": 242000.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "하루 중 저점 근접",
-              "text": "반도체 76.8조 투자 계획 발표에도 낙폭이 더 커지며 저점권에 머묾"
+              "title": "낙폭 추가 확대",
+              "text": "하락세가 이어지며 오전 저점을 하회해 하루 중 가장 큰 낙폭을 기록함"
             },
             {
               "time": "마감",
@@ -466,45 +465,45 @@
               "prev_close": 242000.0,
               "is_close": true,
               "date": "2026-10-29",
-              "title": "낙폭 일부 만회",
-              "text": "실적은 호조였으나 하이닉스 대비 주주환원 아쉬움 지적 속 낙폭을 다소 줄이며 마감"
+              "title": "오후 들어 낙폭 축소",
+              "text": "장 후반 들어 저점에서 다소 반등하며 하락폭을 소폭 줄이는 데 성공함"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "[특징주] 삼성전기·물산 호실적…삼성그룹株 동반 급등",
-              "original": "[특징주] 삼성전기·물산 호실적…삼성그룹株 동반 급등",
-              "source": "뉴스핌",
-              "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDV0QwUDJtOFVfNnJwRzd5eEVtam8tZVZTM1VUQS1pXzcxeEZRNWE5WEJLbHZscFIyNFdjMGpCYW9TeHFiNEpNeTU4bm9jbktuckZ3WWVsRTd4ZEln?oc=5",
-              "published": "2026-10-28T17:52:00+09:00"
+              "title": "평택시-삼성전자, 반도체 방류수 미량오염물질 선제적 관리 위해 ‘손 잡았다’",
+              "original": "평택시-삼성전자, 반도체 방류수 미량오염물질 선제적 관리 위해 ‘손 잡았다’",
+              "source": "매일일보",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xeGI3TXplaVh3TzYteHdhWVdPeUZjT185M3ZfZjBlOVVBMTFOTFRSQ0lPVDJjeE5mc2l2VHViSmpRU2Q3akdnb0dOLXpWazExWnlpanhlcE9tTmcwS0xpTVZnQUg?oc=5",
+              "published": "2026-10-29T17:39:31+09:00"
             },
             {
-              "title": "삼성전자, 브랜드 가치 7년 연속 글로벌 톱5...현대차 29위, 기아 87위",
-              "original": "삼성전자, 브랜드 가치 7년 연속 글로벌 톱5...현대차 29위, 기아 87위",
-              "source": "소비자가 만드는 신문",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBrR1dROExQNjJOZ0xfTzk1Q0dBSUxlUFk5M2ltOThuOFhPM080ZVhTQWRlMl9fS2lLcGU1SUlYMGNBR3lxXzJsblI5S1BKamRaYXdUY0toTGQyT2k0bGh6bFBZLWJvVlI2NTJSNHZvdVYza0k?oc=5",
-              "published": "2026-10-28T17:47:19+09:00"
+              "title": "삼성전자·물산, 삼성바이오 투자자금 조달에 1조5852억원 출자",
+              "original": "삼성전자·물산, 삼성바이오 투자자금 조달에 1조5852억원 출자",
+              "source": "매일일보",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBlMk5vaFBjZWI4UmhnR2RrSXdOb0VhdXN2cnFmSVROM05vdVYyb1JBMXJjdFY4Yll0Q25ZVEs5TWhlUVVOZGp4aUM0aWJaYjFxUWlkZHdkQUJCRXN4akxZd254blQ?oc=5",
+              "published": "2026-10-29T17:38:28+09:00"
             },
             {
-              "title": "삼성전자, 브랜드가치 1052억달러…7년 연속 세계 5위",
-              "original": "삼성전자, 브랜드가치 1052억달러…7년 연속 세계 5위",
-              "source": "지피코리아",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvWXltTTFndElFQkdTMDktRTRGa1V6U1JZUnYtOG5MQXZXN1dUT2VyTzhreEtfZVdldGJBMDYzVllYdFFOaTVhT3VpUV81ME9lb01HODNsbk1kZVZjQ0lERHU5dEdpaWd2RHfSAW5BVV95cUxQQmw3WERxSG13alVIeWZRdW54VTdiRHJwRTZHZXNob2hjdkliQ3E1U2ZuNm9uckxFMnlVT0RUTVJkX2MtMWhMbU5uNE1zNE1kSUhwTExhMkx1ZTlzRVNBWGUtaXhRSjRCX19vUEZzZw?oc=5",
-              "published": "2026-10-28T17:38:58+09:00"
+              "title": "삼성전자, 삼성바이오로직스 유상증자에 6천662억원 출자",
+              "original": "삼성전자, 삼성바이오로직스 유상증자에 6천662억원 출자",
+              "source": "KB Think",
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBsZWtFcHhybWlCeW05b1c3U1JJV04yUnhqMmMxSXpQTDVDTl92US1EcnBhQ1Myb19fM0hFMzRrTG9memFyRGw2Z2ZfRmVJSDdQdXBpY19hNlUzdHZpZzk2NkRnSTF4VDdNZV9KWE5SMmxNQQ?oc=5",
+              "published": "2026-10-29T17:32:15+09:00"
             }
           ]
         },
         {
           "stock": "한화에어로스페이스",
           "ticker": "012450",
-          "title": "한화에어로스페이스 - 방산 훈풍 속 소폭 상승",
-          "body": "한화에어로스페이스는 K-방산 수출 훈풍이 중견 부품기업까지 번진다는 소식 속에 +2.47% 오른 <b>787,000원</b> 마감. 다만 한화와 KAI 간 엔진 결함을 둘러싼 갈등이 격화되며 납품 차질과 경영권 논란이 불거진 점은 부담 요인으로 지목된다.",
-          "pct": 2.47,
-          "price": 787000.0,
-          "prev_close": 768000.0,
+          "title": "한화에어로스페이스 - 지상방산 부진에 숨고르기",
+          "body": "한화에어로스페이스는 3분기 영업익 4520억원을 기록했으나 지상방산 부문 이익이 일회성 비용 460억원 등으로 급감하면서 -3.43% 내린 <b>760,000원</b> 마감. 물량 인도 지연에 따른 '숨고르기'라는 평가 속에 4분기 인도 집중과 수출 확대로 실적 반등을 예고하는 모습이다.",
+          "pct": -3.43,
+          "price": 760000.0,
+          "prev_close": 787000.0,
           "currency": "KRW",
-          "as_of": "2026-10-28",
+          "as_of": "2026-10-29",
           "slots": [
             {
               "time": "9:10AM",
@@ -514,7 +513,7 @@
               "is_close": false,
               "date": "2026-10-29",
               "title": "장 초반 급락 출발",
-              "text": "개장 직후 큰 폭으로 밀리며 하루 중 가장 낮은 수준에서 거래 시작"
+              "text": "개장과 동시에 낙폭이 크게 벌어지며 약세로 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -523,8 +522,8 @@
               "prev_close": 787000.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "낙폭 다소 축소",
-              "text": "저점에서 벗어나며 낙폭을 조금씩 줄여나가는 흐름을 이어감"
+              "title": "낙폭 점차 축소",
+              "text": "저점을 지나 오전 중반 들어 하락폭이 다소 줄어드는 흐름을 보임"
             },
             {
               "time": "1:00PM",
@@ -533,55 +532,55 @@
               "prev_close": 787000.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "낙폭 완만히 축소",
-              "text": "오전 흐름을 이어가며 낙폭을 더 좁히는 완만한 회복세를 보임"
+              "title": "반등 흐름 지속",
+              "text": "낮 시간대까지 낙폭이 계속 줄어들며 저점 대비 꾸준한 회복세를 이어감"
             },
             {
               "time": "마감",
-              "price": 763000.0,
-              "pct": -3.05,
+              "price": 760000.0,
+              "pct": -3.43,
               "prev_close": 787000.0,
               "is_close": true,
               "date": "2026-10-29",
-              "title": "낙폭 크게 줄여 마감",
-              "text": "영업익 반토막 소식에도 4분기 개선 기대가 더해지며 낙폭을 크게 줄이고 마감"
+              "title": "오후 들어 반등 확대",
+              "text": "장 후반 실적 발표 이후 반등폭이 더 커지며 하락폭을 하루 중 가장 작게 좁힘"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "한화·KAI 갈등 격화…엔진 결함에 납품 차질·경영권 논란",
-              "original": "한화·KAI 갈등 격화…엔진 결함에 납품 차질·경영권 논란",
-              "source": "스페셜경제",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XOEhsTzRsQ1BLUGdEY0JTc2hEeE8wenAwMXE5Ul9xU1BRU1psdUNsdWFGNEdUT0drd2NPQkV6SnNjNkFxS1M0eHBPeDFWUjZUd3ZlMkNHemQta0ltYUdMUUVHX29uUDlDQUtIUA?oc=5",
-              "published": "2026-10-28T17:13:32+09:00"
+              "title": "한화에어로, 3분기 영업익 4520억원···4분기, 인도 집중으로 ‘실적 반등’ 예고",
+              "original": "한화에어로, 3분기 영업익 4520억원···4분기, 인도 집중으로 ‘실적 반등’ 예고",
+              "source": "이뉴스투데이",
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBBWmNaQWtxVU1BZ1ctb1kxVElhUUdCSkRYdk9wVTN0TnZZcWFLRXY1a3hwdDZiNnZ0U2o3MzBIWldEVUtkX25FQnpUV1REemwwUzR6UkVRb3NVbHppbVR6bWZmbjVVS1FyNDIxWV9HaVd3UdIBdEFVX3lxTE55ejkydTdVMWpGVzd1NDVuMkNMbFhaWk96SENzRk1xaHhoS2FIVmJpVl9qYkxzZFVJZlZJMmFmUjc0cnI4Mko4VjMzbGNPaGFIT1lWeDJBc29aSFNPU3dINHh6cENKbnRBWFp6YWdDMHhfSzNR?oc=5",
+              "published": "2026-10-29T17:49:36+09:00"
             },
             {
-              "title": "한화에어로스페이스 주가 19,000원 상승 후 장마감",
-              "original": "한화에어로스페이스 주가 19,000원 상승 후 장마감",
-              "source": "아시아뉴스통신",
-              "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5XaU80U2RiV2MzUHNCWENJdWFGZ1BCb25IbEptSzR5N25CMC1rbWFHUnlKLXRzUENlOThFZjJIRFBPamkzVmR5Y3VyTWVVdnBxU1BXalJvLVV1V251?oc=5",
-              "published": "2026-10-28T16:47:38+09:00"
+              "title": "한화에어로, 지상방산 이익 급감...일회성 비용 460억",
+              "original": "한화에어로, 지상방산 이익 급감...일회성 비용 460억",
+              "source": "뉴스투데이",
+              "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE43SVRaU19uMmp0a3Fzb3pVVGtnRGdtNko3V0txVlhjZGJ0cWtWeFRHSldNSTlKTW0waGpBdHZ1RzJsRzhyX0h5cVUtU2RiQjJ4Ti0yRXV1LTdUcDRwbVE?oc=5",
+              "published": "2026-10-29T17:47:00+09:00"
             },
             {
-              "title": "K-방산 수출 훈풍, 중견 부품기업까지 번진다",
-              "original": "K-방산 수출 훈풍, 중견 부품기업까지 번진다",
-              "source": "폴리뉴스 Polinews",
-              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB5VVpfOTZkQVpGZ0NVOWd3eFgycmx5Rjd4c2xQM2xTdFEtZzE5encxbW91dXJRaGRxWHpRSk5KcWhDbkg0NUdQSGNpMHRRb2tyLXRnTFZSN0dQVHBNaHJMMmJlcXBzUjlMdkd2STlR?oc=5",
-              "published": "2026-10-28T16:45:20+09:00"
+              "title": "한화에어로, 물량 인도 지연에 3분기 ‘숨고르기’…4분기 '수출 몰아치기' 예고",
+              "original": "한화에어로, 물량 인도 지연에 3분기 ‘숨고르기’…4분기 '수출 몰아치기' 예고",
+              "source": "금융신문",
+              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9UZEpEeWp3RDRQbkl0c1lfejNjdlpYbXdyRzFSbVMxY3FVd1UwbWxKa1NyUGJLU1pVSkRUMjFtNVJOQUl2ZTNpQWRPQ0J0YnBUQk9uTUhVNFJ2eldhRGNMaFhIaFhCLVRrZlQwWjNEMlFHQ3hfNVhvY1lnRnQ?oc=5",
+              "published": "2026-10-29T17:40:15+09:00"
             }
           ]
         },
         {
           "stock": "LG전자",
           "ticker": "066570",
-          "title": "LG전자 - 가전·전장 쌍끌이, 최대 이익",
-          "body": "LG전자는 가전·전장 사업이 쌍끌이 호조를 보이며 연간 최대 이익 5조원이 가시권에 들었다는 소식에 +2.67% 오른 <b>161,700원</b> 마감. 3분기 누적 영업이익이 처음으로 4조원을 돌파했지만 4분기 글로벌 수요 둔화로 부문별 수익성 방어에 총력을 기울이겠다는 컨콜 발언도 나왔다.",
-          "pct": 2.67,
-          "price": 161700.0,
-          "prev_close": 157500.0,
+          "title": "LG전자 - 3분기 상고하저 흐름 뼈아파",
+          "body": "LG전자는 3분기 성장률은 돋보였지만 '상고하저' 흐름이 뼈아팠다는 평가 속에 -4.02% 내린 <b>155,200원</b> 마감.",
+          "pct": -4.02,
+          "price": 155200.0,
+          "prev_close": 161700.0,
           "currency": "KRW",
-          "as_of": "2026-10-28",
+          "as_of": "2026-10-29",
           "slots": [
             {
               "time": "9:10AM",
@@ -591,7 +590,7 @@
               "is_close": false,
               "date": "2026-10-29",
               "title": "장 초반 약세 출발",
-              "text": "개장 직후부터 하락세로 출발하며 약세 분위기 속에서 하루를 시작함"
+              "text": "개장 직후부터 하락세로 출발하며 약세 분위기 속에 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -600,8 +599,8 @@
               "prev_close": 161700.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "낙폭 확대 흐름",
-              "text": "오전 들어 하락폭이 더 커지며 장중 약세가 뚜렷해지는 모습을 보임"
+              "title": "낙폭 크게 확대",
+              "text": "오전 중 하락폭이 급격히 커지며 하루 중 가장 큰 낙폭에 근접함"
             },
             {
               "time": "1:00PM",
@@ -610,55 +609,55 @@
               "prev_close": 161700.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "하루 중 낙폭 최대",
-              "text": "CEO 교체 소식이 전해진 가운데서도 낙폭이 하루 중 가장 크게 벌어짐"
+              "title": "낙폭 고점권 유지",
+              "text": "낮 시간대까지 큰 폭의 하락세가 이어지며 저점 부근에서 등락이 이어짐"
             },
             {
               "time": "마감",
-              "price": 155000.0,
-              "pct": -4.14,
+              "price": 155200.0,
+              "pct": -4.02,
               "prev_close": 161700.0,
               "is_close": true,
               "date": "2026-10-29",
-              "title": "낙폭 상당폭 회복",
-              "text": "AI 데이터센터 냉각 수주 소식이 전해지며 낙폭을 상당 부분 되돌리며 마감"
+              "title": "오후 들어 낙폭 축소",
+              "text": "장 후반 들어 실적 관련 평가가 나온 가운데 하락폭을 다소 만회하며 마감"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "LG전자, 연간 최대 이익 5兆 가시권…가전·전장 '쌍끌이'[종합]",
-              "original": "LG전자, 연간 최대 이익 5兆 가시권…가전·전장 '쌍끌이'[종합]",
-              "source": "아이뉴스24",
-              "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5tY1FKX0FkSGk3dDRXZC1TdFdzU2oyQVF1Y0pEOWVTZEdJZVlMZDBESW1NMWpVcnpQV0xXLUpxUGZ0TmF4X3Fyb0tDSQ?oc=5",
-              "published": "2026-10-28T17:44:59+09:00"
+              "title": "“성장률은 돋보였지만 ‘상고하저’는 뼈아팠다…LG전자 3분기 실적의 명과 암”",
+              "original": "“성장률은 돋보였지만 ‘상고하저’는 뼈아팠다…LG전자 3분기 실적의 명과 암”",
+              "source": "뉴스퀘스트",
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE44VjgyZE9wVWdMOW9FcFhoX0FtenpQQTdZT015RHlhb3h6aFExSTlOa2pOUWFqY2VGSzFCY21zQWRBNEFrX2Q4VEdZMDRMb0xVZ0pJVGVuZXNYVll2QXlIWDN5ZzQ3UHBLcW5XTFM1SQ?oc=5",
+              "published": "2026-10-29T17:42:03+09:00"
             },
             {
-              "title": "LG전자 3분기 누적 영업이익 4조 첫 돌파…AIDC 냉각 수주 3조 넘겨",
-              "original": "LG전자 3분기 누적 영업이익 4조 첫 돌파…AIDC 냉각 수주 3조 넘겨",
-              "source": "동아일보",
-              "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5NUll1THFSNlNDdTNDb0ZuM19xVzM2ZDZNdWU4NVRSTkpseWp1MFluMk40ZzFGWThoR1FlYjNkYTEtMUExY29mWXpIc2RQMVJwdHV1VmdZa2J6UFNZcUVYUEMtVDQwUUx5djVEUnlBaWtIX1BmVnfSAWZBVV95cUxNM0RvTUFBQnpkYnVhazVld3g0UXNHZFZCT1ZlR1I4OXVkUXFiaVNPVDZTVXNlRkpnQVpSOE1qS1I5T2lvNHo4cmNSem5CZDY5clVSWEZpelY3dGZ6cWJFZGwwbXhZYnc?oc=5",
-              "published": "2026-10-28T17:44:13+09:00"
+              "title": "LG전자, '2026 GITC' 본선 개최...장애 청소년 AI 역량 강화 앞장",
+              "original": "LG전자, '2026 GITC' 본선 개최...장애 청소년 AI 역량 강화 앞장",
+              "source": "소비자가 만드는 신문",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE93eDNVV1p6V3Z1ZjdQRXdhVEVLWEN1cTFlMTlLT2RxSzRBNms5ZWFyOTUxSGdJRXV0b3k0dk9RRkF2dHlITVExTXUwdDdNWGg5OUhvdDhPYWM5OUxiTC1yWlFyM2VBdHBzeGl0VlNFS0tkWms?oc=5",
+              "published": "2026-10-29T17:13:39+09:00"
             },
             {
-              "title": "[컨콜] LG전자 4분기 글로벌 수요 둔화 예상···부문별 수익성 방어 '총력'",
-              "original": "[컨콜] LG전자 4분기 글로벌 수요 둔화 예상···부문별 수익성 방어 '총력'",
-              "source": "녹색경제신문",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pNThJMUNsbXpZVnhCQldHUEV1UzZOZWNIMFhVdk9BRWFKSFlvNWtmSjN3VjI2VlJCUmRMdUM5VXRPSnhUYlpKd3FpakZJWWhFcW5aZEt6NGxIcHB0ZEN4SS1aYXJXRjky?oc=5",
-              "published": "2026-10-28T17:42:24+09:00"
+              "title": "LG전자노동조합 구미지부, 북삼읍 경로당 가전제품 기탁",
+              "original": "LG전자노동조합 구미지부, 북삼읍 경로당 가전제품 기탁",
+              "source": "경북신문",
+              "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hblNLZlUtcmw5NFltY1ljSjVWbTJ6N01UY05zaGJmV04wVEtqU3FyaE1NQXVKc2Y2T3JHRW9vZXFnNHV2S1NueHlZbWpFUEdMYk9GYXZIUHg?oc=5",
+              "published": "2026-10-29T17:05:42+09:00"
             }
           ]
         },
         {
           "stock": "현대차",
           "ticker": "005380",
-          "title": "현대차 - 브랜드 가치 20위권 첫 진입",
-          "body": "현대차는 브랜드 가치 250억달러로 글로벌 20위권에 처음 진입했다는 소식에 +1.89% 오른 <b>296,000원</b> 마감. 수소차 생태계 확장을 위해 생산·충전·관제까지 아우르는 사업을 추진하며 내달 킨텍스에서 수소 상용 모빌리티 기술을 공개할 예정이다.",
-          "pct": 1.89,
-          "price": 296000.0,
-          "prev_close": 290500.0,
+          "title": "현대차 - 새만금 AI밸리·SDV 투자 지속",
+          "body": "현대차는 새만금 AI 밸리 투자를 차질 없이 추진하겠다고 밝히고 포티투닷에 2852억원을 추가 출자하는 등 SDV 투자를 확대하는 가운데 -1.18% 내린 <b>292,500원</b> 마감.",
+          "pct": -1.18,
+          "price": 292500.0,
+          "prev_close": 296000.0,
           "currency": "KRW",
-          "as_of": "2026-10-28",
+          "as_of": "2026-10-29",
           "slots": [
             {
               "time": "9:10AM",
@@ -667,8 +666,8 @@
               "prev_close": 296000.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "장 초반 약세 출발",
-              "text": "개장 직후 하락세로 출발하며 약세 흐름 속에서 하루를 시작함"
+              "title": "장 초반 소폭 약세",
+              "text": "개장 직후 완만한 하락세로 출발하며 약보합권에서 움직임을 시작함"
             },
             {
               "time": "10:30AM",
@@ -677,8 +676,8 @@
               "prev_close": 296000.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "낙폭 확대 흐름",
-              "text": "오전 들어 하락폭이 더 벌어지며 장중 약세가 심화되는 모습을 보임"
+              "title": "낙폭 다소 확대",
+              "text": "오전 중 하락폭이 조금씩 커지며 하루 중 낙폭이 가장 큰 구간에 진입함"
             },
             {
               "time": "1:00PM",
@@ -687,49 +686,48 @@
               "prev_close": 296000.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "낙폭 다소 축소",
-              "text": "오전 저점에서 벗어나며 낙폭을 조금씩 줄여나가는 흐름으로 전환됨"
+              "title": "낙폭 일부 회복",
+              "text": "낮 시간대 들어 저점에서 반등하며 하락폭을 다소 줄이는 흐름을 보임"
             },
             {
               "time": "마감",
-              "price": 292000.0,
-              "pct": -1.35,
+              "price": 292500.0,
+              "pct": -1.18,
               "prev_close": 296000.0,
               "is_close": true,
               "date": "2026-10-29",
-              "title": "낙폭 크게 줄여 마감",
-              "text": "영업이익률 방어와 자사주 매입 재검토 소식이 전해지며 낙폭을 크게 줄이고 마감"
+              "title": "오후 들어 반등 확대",
+              "text": "장 후반 투자 관련 소식이 전해진 뒤 반등폭이 커지며 낙폭을 가장 작게 좁힘"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "생산·충전·관제까지… 현대차그룹, 수소차 넘어 생태계 확장",
-              "original": "생산·충전·관제까지… 현대차그룹, 수소차 넘어 생태계 확장",
-              "source": "아시아투데이",
-              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sQXBnX0JEc2pGU0x2UHlXS2ZCcmxSRFRWZlp2TC1qWGdLcFlZZDJjcnRTc1hIRGMxRl8wazlKOVd3azRHY1BxWDhKNV9la0FLZnZGdTdUdTctbklnaWFTNXZfWkR1aWdTLXVqLWdR?oc=5",
-              "published": "2026-10-28T17:49:35+09:00"
+              "title": "현대차그룹 \"새만금 AI 밸리 차질 없이 추진\"",
+              "original": "현대차그룹 \"새만금 AI 밸리 차질 없이 추진\"",
+              "source": "MTN 머니투데이방송",
+              "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBXU2tCMTBkdHEydVd2QXE5OWlJaXVZV2d2MjgyenAySklyMi10ZVZZazZjbE5FeFM4eHhwTTE5Q2V2YkpRd3g1azZ2QUt5MnMwVFRrWklCbVhCWUZiVnpR?oc=5",
+              "published": "2026-10-29T17:50:55+09:00"
             },
             {
-              "title": "현대차그룹, 내달 킨텍스서 수소 상용 모빌리티 기술 공개",
-              "original": "현대차그룹, 내달 킨텍스서 수소 상용 모빌리티 기술 공개",
-              "source": "코리아리포트",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9UT1gyRlJ1aVV1MlFnVnBUNmROS1JZYXBVVWl4QzEyenRKSkdpbFZQeEk3ZlhhT0pBSmE0dFJYYlQ1MTZlZ1dVZXFOSWJoaVRDMW9JZnlQcG9SZ2NBSVhqdERpMjlkR1hWcHkxZnE5R1M?oc=5",
-              "published": "2026-10-28T17:46:26+09:00"
+              "title": "민주당 메가성장특위 새만금 첫 방문... 현대차 투자 적기 이행 `탄력`",
+              "original": "민주당 메가성장특위 새만금 첫 방문... 현대차 투자 적기 이행 `탄력`",
+              "source": "전북금강일보",
+              "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5WNXpsa3c0TGxDWDBnbklwdEh4TXRoU0pQNTY3Q1hzZGFtSGNUeVpyeTdjeE9zcy1QWUJ4RjBrQmI?oc=5",
+              "published": "2026-10-29T17:49:00+09:00"
             },
             {
-              "title": "현대차 브랜드 가치 250억달러···글로벌 20위권 내 첫 진입",
-              "original": "현대차 브랜드 가치 250억달러···글로벌 20위권 내 첫 진입",
-              "source": "이뉴스투데이",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB6V0tTeThzOG56NkZib0ZtdGtfaVozTFkyVTBVQXpsVGRXV0drRTQxdU5nRXFnekhud2FQT3ZlZzJNRmdZel9JV3h2bUI2UnItUlZkQUJ5OWlKcnhYOG5wWHVtaEx6c0NMNGpEaVNpbUjSAXRBVV95cUxNVXh2dGZadTdLYTI0dmtFbmpmQ1hnNFAxUmhvZkdzekpiWmVsd0pObkU4dS1TVUxkZjNBRUdZaFlZMV9HZm5Qb05VTENuaTRjZ0hDemk3YTQzTjJIZlN4ZDhoV3E5ajlpMkNaMXdxa1AyYjVBMA?oc=5",
-              "published": "2026-10-28T17:41:17+09:00"
+              "title": "현대차, 포티투닷에 2852억원 추가 출자…'SDV 투자 확대'",
+              "original": "현대차, 포티투닷에 2852억원 추가 출자…'SDV 투자 확대'",
+              "source": "매일일보",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4tUTlqMGhoMkJQMjN3aU5Kajc2NGdBU3VRWFN5alRQcGQxSkZHeFZUWHBuUXZPRDlKN21ieUNUMHZQYVlwZFFQR2hrc3lZWWdNdzVERWlIa3A4MWcyM2RrTVhzRWs?oc=5",
+              "published": "2026-10-29T17:47:25+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-10-28-kr.md",
-      "refreshed_at": "2026-10-28 18:00:58 KST",
-      "slots_refreshed_at": "2026-10-29 15:40:50 KST"
+      "markdown": "briefings/2026-10-29-kr.md",
+      "refreshed_at": "2026-10-29 18:01:01 KST"
     }
   }
 }
