@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-29 13:10:48 KST",
+  "generated_at": "2026-10-29 15:40:50 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -360,8 +360,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 1487000.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "장 초반 강세 출발",
-              "text": "메모리 업황 기대 속에 상승 출발하며 장중 고점을 형성한 흐름"
+              "title": "장 초반 강한 상승",
+              "text": "개장 직후 강세로 출발하며 하루 중 가장 높은 상승폭을 기록함"
             },
             {
               "time": "10:30AM",
@@ -370,18 +370,28 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 1487000.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "상승폭 크게 축소",
-              "text": "개장 초 강세가 오전 중 빠르게 식으며 오름폭이 절반 이하로 줄어듦"
+              "title": "상승폭 대거 축소",
+              "text": "장 초반 상승분의 상당 부분을 반납하며 상승폭이 눈에 띄게 줄어듦"
             },
             {
-              "time": "12:50PM",
-              "price": 1505000.0,
-              "pct": 1.21,
+              "time": "1:00PM",
+              "price": 1511000.0,
+              "pct": 1.61,
               "prev_close": 1487000.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "상승세 둔화 지속",
-              "text": "호실적과 목표주가 상향 소식에도 상승폭을 더 좁히며 약보합권 근접"
+              "title": "소폭 반등 시도",
+              "text": "오전 저점에서 소폭 올라서며 상승세를 조금씩 다시 회복하는 흐름"
+            },
+            {
+              "time": "마감",
+              "price": 1520000.0,
+              "pct": 2.22,
+              "prev_close": 1487000.0,
+              "is_close": true,
+              "date": "2026-10-29",
+              "title": "상승폭 재확대 마감",
+              "text": "순현금 바탕 신용등급 상향 기대와 삼성 대비 선전 분석 속 상승폭을 키우며 마감"
             }
           ],
           "slot_total": 4,
@@ -427,8 +437,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 242000.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "장 초반 소폭 강세",
-              "text": "개장 직후 완만한 상승으로 출발하며 하루를 시작한 모습"
+              "title": "장 초반 상승 출발",
+              "text": "개장 직후에는 소폭이나마 상승세로 출발하며 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -438,17 +448,27 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-29",
               "title": "낙폭 급격히 확대",
-              "text": "어닝 서프라이즈에도 완제품 적자 소식이 겹치며 하락 전환 후 낙폭 급격히 커짐"
+              "text": "장 초반 상승분이 사라지고 오전 중 낙폭이 크게 벌어지는 흐름으로 전환됨"
             },
             {
-              "time": "12:50PM",
-              "price": 228750.0,
-              "pct": -5.48,
+              "time": "1:00PM",
+              "price": 230500.0,
+              "pct": -4.75,
               "prev_close": 242000.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "장중 저점 근접",
-              "text": "대규모 주주환원 계획 발표에도 반등하지 못하고 하락폭이 하루 중 가장 크게 벌어짐"
+              "title": "하루 중 저점 근접",
+              "text": "반도체 76.8조 투자 계획 발표에도 낙폭이 더 커지며 저점권에 머묾"
+            },
+            {
+              "time": "마감",
+              "price": 232000.0,
+              "pct": -4.13,
+              "prev_close": 242000.0,
+              "is_close": true,
+              "date": "2026-10-29",
+              "title": "낙폭 일부 만회",
+              "text": "실적은 호조였으나 하이닉스 대비 주주환원 아쉬움 지적 속 낙폭을 다소 줄이며 마감"
             }
           ],
           "slot_total": 4,
@@ -495,7 +515,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-29",
               "title": "장 초반 급락 출발",
-              "text": "개장과 동시에 큰 폭으로 밀리며 하루를 약세로 시작한 흐름"
+              "text": "개장 직후 큰 폭으로 밀리며 하루 중 가장 낮은 수준에서 거래 시작"
             },
             {
               "time": "10:30AM",
@@ -504,18 +524,28 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 787000.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "낙폭 일부 축소",
-              "text": "방산 협력 소식이 전해지며 개장 초 급락분을 일부 되돌리는 모습"
+              "title": "낙폭 다소 축소",
+              "text": "저점에서 벗어나며 낙폭을 조금씩 줄여나가는 흐름을 이어감"
             },
             {
-              "time": "12:50PM",
-              "price": 748000.0,
-              "pct": -4.96,
+              "time": "1:00PM",
+              "price": 749000.0,
+              "pct": -4.83,
               "prev_close": 787000.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "낙폭 추가로 줄어듦",
-              "text": "항재밍 안테나 개발 협력 소식이 이어지며 낙폭이 점차 완만해지는 흐름"
+              "title": "낙폭 완만히 축소",
+              "text": "오전 흐름을 이어가며 낙폭을 더 좁히는 완만한 회복세를 보임"
+            },
+            {
+              "time": "마감",
+              "price": 763000.0,
+              "pct": -3.05,
+              "prev_close": 787000.0,
+              "is_close": true,
+              "date": "2026-10-29",
+              "title": "낙폭 크게 줄여 마감",
+              "text": "영업익 반토막 소식에도 4분기 개선 기대가 더해지며 낙폭을 크게 줄이고 마감"
             }
           ],
           "slot_total": 4,
@@ -562,7 +592,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-29",
               "title": "장 초반 약세 출발",
-              "text": "개장 직후부터 하락세로 출발하며 하루를 시작한 모습"
+              "text": "개장 직후부터 하락세로 출발하며 약세 분위기 속에서 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -571,18 +601,28 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 161700.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "낙폭 큰 폭 확대",
-              "text": "실적 발표에도 투자심리가 위축되며 하락폭이 빠르게 커지는 흐름"
+              "title": "낙폭 확대 흐름",
+              "text": "오전 들어 하락폭이 더 커지며 장중 약세가 뚜렷해지는 모습을 보임"
             },
             {
-              "time": "12:50PM",
-              "price": 151650.0,
-              "pct": -6.22,
+              "time": "1:00PM",
+              "price": 152300.0,
+              "pct": -5.81,
               "prev_close": 161700.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "하루 중 최대 낙폭",
-              "text": "실적 증가에도 주가가 급락세를 이어가며 낙폭이 하루 중 가장 크게 벌어짐"
+              "title": "하루 중 낙폭 최대",
+              "text": "CEO 교체 소식이 전해진 가운데서도 낙폭이 하루 중 가장 크게 벌어짐"
+            },
+            {
+              "time": "마감",
+              "price": 155000.0,
+              "pct": -4.14,
+              "prev_close": 161700.0,
+              "is_close": true,
+              "date": "2026-10-29",
+              "title": "낙폭 상당폭 회복",
+              "text": "AI 데이터센터 냉각 수주 소식이 전해지며 낙폭을 상당 부분 되돌리며 마감"
             }
           ],
           "slot_total": 4,
@@ -629,7 +669,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-29",
               "title": "장 초반 약세 출발",
-              "text": "개장과 함께 소폭 하락하며 하루를 시작한 흐름"
+              "text": "개장 직후 하락세로 출발하며 약세 흐름 속에서 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -638,18 +678,28 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 296000.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "낙폭 더 확대",
-              "text": "오전 중 하락폭이 커지며 장중 저점 부근까지 밀리는 모습"
+              "title": "낙폭 확대 흐름",
+              "text": "오전 들어 하락폭이 더 벌어지며 장중 약세가 심화되는 모습을 보임"
             },
             {
-              "time": "12:50PM",
-              "price": 289500.0,
-              "pct": -2.2,
+              "time": "1:00PM",
+              "price": 289000.0,
+              "pct": -2.36,
               "prev_close": 296000.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "낙폭 일부 회복",
-              "text": "전기차 안전 기술 소식이 전해진 뒤 하락폭을 소폭 되돌리는 흐름"
+              "title": "낙폭 다소 축소",
+              "text": "오전 저점에서 벗어나며 낙폭을 조금씩 줄여나가는 흐름으로 전환됨"
+            },
+            {
+              "time": "마감",
+              "price": 292000.0,
+              "pct": -1.35,
+              "prev_close": 296000.0,
+              "is_close": true,
+              "date": "2026-10-29",
+              "title": "낙폭 크게 줄여 마감",
+              "text": "영업이익률 방어와 자사주 매입 재검토 소식이 전해지며 낙폭을 크게 줄이고 마감"
             }
           ],
           "slot_total": 4,
@@ -680,7 +730,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-28-kr.md",
       "refreshed_at": "2026-10-28 18:00:58 KST",
-      "slots_refreshed_at": "2026-10-29 13:10:48 KST"
+      "slots_refreshed_at": "2026-10-29 15:40:50 KST"
     }
   }
 };
