@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-30 01:51:55 KST",
+  "generated_at": "2026-10-30 06:44:40 KST",
   "refreshed": [],
   "slots_refreshed": [
     "us"
@@ -44,8 +44,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 253.22000122070312,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "소폭 상승세 유지",
-              "text": "양자 에이전트 안전장치 소식에 이어 밤사이 큐비트 칩 간 정보 전달 성공 소식까지 더해지며 상승 흐름이 이어지는 중"
+              "title": "소폭 상승세",
+              "text": "양자 정보 전달 성공 소식이 야간에 전해진 가운데 완만한 오름세로 거래됨"
+            },
+            {
+              "time": "마감",
+              "price": 258.2799987792969,
+              "pct": 2.0,
+              "prev_close": 253.22000122070312,
+              "is_close": true,
+              "date": "2026-10-29",
+              "title": "상승폭 확대",
+              "text": "장중 상승세를 이어가며 오전보다 오름폭을 키워 하루 중 가장 높은 수준에서 거래를 이어가는 중"
             }
           ],
           "slot_total": 2,
@@ -91,8 +101,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 531.010009765625,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "목표가 상향에도 약세",
-              "text": "Azure 호조 근거로 잇단 목표주가 상향과 대규모 회사채 발행 소식이 나왔지만 정작 주가는 하락세를 이어가는 중"
+              "title": "장중 낙폭 축소",
+              "text": "AI 인프라주 전반의 급락과 대규모 회사채 발행 소식에 눌렸으나 낙폭을 다소 줄인 모습"
+            },
+            {
+              "time": "마감",
+              "price": 530.1400146484375,
+              "pct": -0.16,
+              "prev_close": 531.010009765625,
+              "is_close": true,
+              "date": "2026-10-29",
+              "title": "보합권 마감",
+              "text": "개장 전 불거진 AI 인프라주 쇼크 여파를 딛고 장 막판 낙폭을 더 줄이며 거래를 마침"
             }
           ],
           "slot_total": 2,
@@ -139,7 +159,17 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-29",
               "title": "약세 흐름 지속",
-              "text": "양자보안 체계 운영과 슈퍼컴 연계 추진 등 사업 확장 소식이 이어졌음에도 주가는 하락폭을 유지하고 있는 모습"
+              "text": "양자보안 체계 운영 및 슈퍼컴 연계 소식에도 매수세가 붙지 않으며 하락세를 이어감"
+            },
+            {
+              "time": "마감",
+              "price": 31.719999313354492,
+              "pct": -2.19,
+              "prev_close": 32.43000030517578,
+              "is_close": true,
+              "date": "2026-10-29",
+              "title": "낙폭 소폭 확대",
+              "text": "공군연구소 계약과 기술 협력 소식들이 이어졌지만 하락세를 돌리지 못하고 마감함"
             }
           ],
           "slot_total": 2,
@@ -185,8 +215,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 215.3800048828125,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "약보합세 이어가는 중",
-              "text": "대규모 투자 소식과 MS향 냉각 솔루션 공급 기대에도 주가 반응은 잠잠하며 하락세를 그대로 이어가는 중"
+              "title": "하락세 지속",
+              "text": "중국 스파이 접촉 의혹과 젠슨 황의 반박이 이어지며 시간외부터 눌린 흐름을 이어감"
+            },
+            {
+              "time": "마감",
+              "price": 213.66000366210938,
+              "pct": -0.8,
+              "prev_close": 215.3800048828125,
+              "is_close": true,
+              "date": "2026-10-29",
+              "title": "낙폭 소폭 축소",
+              "text": "규제 강화 우려 속 약세로 출발했으나 장중 저점 대비 낙폭을 다소 줄이며 거래를 마침"
             }
           ],
           "slot_total": 2,
@@ -232,8 +272,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 17.139999389648438,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "실적 기대감에 상승",
-              "text": "장기 부진 이후 반등 전망이 나온 데 이어 실적 호조 소식까지 더해지며 상승 흐름을 이어가는 중"
+              "title": "상승세 뚜렷",
+              "text": "금리 전망 상향과 실적 호조 기대감이 맞물리며 상승폭을 꾸준히 키워가는 모습"
+            },
+            {
+              "time": "마감",
+              "price": 17.610000610351562,
+              "pct": 2.74,
+              "prev_close": 17.139999389648438,
+              "is_close": true,
+              "date": "2026-10-29",
+              "title": "상승폭 확대 마감",
+              "text": "실적 호조 기대와 금리 전망 상향 소식이 겹치며 오름폭을 더 키운 채 거래를 마침"
             }
           ],
           "slot_total": 2,
@@ -264,7 +314,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-29-us.md",
       "refreshed_at": "2026-10-29 07:01:04 KST",
-      "slots_refreshed_at": "2026-10-30 01:51:55 KST"
+      "slots_refreshed_at": "2026-10-30 06:44:40 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
