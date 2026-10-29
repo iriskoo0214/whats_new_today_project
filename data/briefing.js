@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-29 10:40:51 KST",
+  "generated_at": "2026-10-29 11:22:23 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -361,17 +361,17 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-29",
               "title": "장 초반 강세 출발",
-              "text": "개장 직후 3%대 상승 출발하며 투자심리가 양호한 흐름으로 시작됨"
+              "text": "HBM 기대감 속 상승 출발하며 장 초반 강한 오름세를 보임"
             },
             {
-              "time": "10:20AM",
-              "price": 1518000.0,
-              "pct": 2.08,
+              "time": "10:30AM",
+              "price": 1509000.0,
+              "pct": 1.48,
               "prev_close": 1487000.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "오전 중 상승폭 둔화",
-              "text": "증권가 목표가 상향과 이익 발표 호재에도 상승폭이 줄며 오전 고점보다 낮아짐"
+              "title": "상승폭 크게 축소",
+              "text": "3년치 완판 소식에도 삼성전자와 주가 흐름이 엇갈리며 오전 중 상승폭이 크게 줄어듦"
             }
           ],
           "slot_total": 4,
@@ -418,17 +418,17 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-29",
               "title": "장 초반 소폭 상승",
-              "text": "개장 직후 완만한 오름세로 출발하며 분위기는 비교적 차분하게 유지됨"
+              "text": "장 초반 완만한 오름세로 출발하며 실적 기대감이 반영되는 모습"
             },
             {
-              "time": "10:20AM",
-              "price": 233500.0,
-              "pct": -3.51,
+              "time": "10:30AM",
+              "price": 231000.0,
+              "pct": -4.55,
               "prev_close": 242000.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "상승 반납 후 하락 전환",
-              "text": "역대 최대 실적 발표와 HBM4 공급 기대에도 상승분을 모두 반납하고 하락세로 돌아섬"
+              "title": "실적 발표 후 급락",
+              "text": "3분기 역대급 실적과 HBM4 매출 급증 발표에도 매수세가 붙지 않으며 오전 중 낙폭이 크게 확대됨"
             }
           ],
           "slot_total": 4,
@@ -474,18 +474,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 787000.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "장 초반 큰 폭 하락",
-              "text": "개장 직후부터 낙폭이 크게 벌어지며 약세 흐름으로 하루를 시작함"
+              "title": "장 초반 낙폭 확대",
+              "text": "특별한 악재 없이 장 초반부터 낙폭이 크게 벌어지며 출발함"
             },
             {
-              "time": "10:20AM",
-              "price": 739000.0,
-              "pct": -6.1,
+              "time": "10:30AM",
+              "price": 745000.0,
+              "pct": -5.34,
               "prev_close": 787000.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "낙폭 소폭 축소",
-              "text": "주가 하락 관련 보도가 나온 가운데 저점 대비 낙폭을 소폭 줄이며 약세를 이어가는 중"
+              "title": "낙폭 다소 축소",
+              "text": "방산 협력 계약 소식이 전해진 가운데 장 초반 큰 낙폭을 오전 중 일부 만회함"
             }
           ],
           "slot_total": 4,
@@ -532,17 +532,17 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-29",
               "title": "장 초반 약세 출발",
-              "text": "개장 직후 3%대 하락으로 출발하며 매도 우위 분위기가 형성됨"
+              "text": "특별한 호재 없이 장 초반부터 약세 흐름을 보이며 하락 출발"
             },
             {
-              "time": "10:20AM",
-              "price": 152300.0,
-              "pct": -5.81,
+              "time": "10:30AM",
+              "price": 152800.0,
+              "pct": -5.5,
               "prev_close": 161700.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "낙폭 확대 지속",
-              "text": "전장 최대 영업익과 자사주 소각 소식에도 낙폭이 오히려 커지며 하루 중 저점에 근접함"
+              "title": "낙폭 더 커짐",
+              "text": "장애 청소년 IT 지원 소식이 이어졌으나 주가와는 무관하게 오전 중 낙폭이 더 확대됨"
             }
           ],
           "slot_total": 4,
@@ -589,17 +589,17 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-29",
               "title": "장 초반 약세 출발",
-              "text": "개장 직후 소폭 하락세로 출발하며 조심스러운 분위기 속 거래가 시작됨"
+              "text": "장 초반부터 하락세로 출발하며 약세 흐름을 이어감"
             },
             {
-              "time": "10:20AM",
-              "price": 288000.0,
-              "pct": -2.7,
+              "time": "10:30AM",
+              "price": 287750.0,
+              "pct": -2.79,
               "prev_close": 296000.0,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "오전 들어 낙폭 확대",
-              "text": "브랜드 가치 상승과 수소 상용차 기술 전시 소식에도 하락폭이 점차 커지는 흐름이 이어짐"
+              "title": "낙폭 더 확대",
+              "text": "앨라배마 공장 대규모 투자 소식에도 매수세가 유입되지 않으며 오전 중 낙폭이 더 커짐"
             }
           ],
           "slot_total": 4,
@@ -630,7 +630,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-28-kr.md",
       "refreshed_at": "2026-10-28 18:00:58 KST",
-      "slots_refreshed_at": "2026-10-29 10:40:51 KST"
+      "slots_refreshed_at": "2026-10-29 11:22:23 KST"
     }
   }
 };
