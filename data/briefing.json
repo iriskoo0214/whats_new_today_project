@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-30 06:44:40 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-10-30 07:00:56 KST",
+  "refreshed": [
     "us"
   ],
-  "default": "kr",
+  "slots_refreshed": [],
+  "default": "us",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
-      "label": "미국 증시 요약 2026. 10. 29. 7:01AM",
+      "label": "미국 증시 요약 2026. 10. 30. 7:00AM",
       "chips": [
         "전체",
         "IBM",
@@ -21,20 +21,27 @@
         "오후 6시, 국내 시장을 움직인 이유를 확인하세요."
       ],
       "next": "kr",
-      "headline": "해외 5종목 중 2종목 상승, 3종목 하락 — 소파이테크놀로지가 +4.51%로 가장 많이 올랐고 아이온큐가 -1.58%로 가장 부진했습니다.",
-      "market_headline": "",
-      "market_card": null,
+      "headline": "해외 5종목 중 2종목 상승, 3종목 하락 — 소파이테크놀로지가 +2.74%로 가장 많이 올랐고 아이온큐가 -2.19%로 가장 부진했습니다.",
+      "market_headline": "알파벳 실적 쇼크에 나스닥 1.38%↓...AI 투자 우려 재점화",
+      "market_card": {
+        "title": "뉴욕증시 3대 지수 동반 하락 마감...나스닥 1.38%↓",
+        "bullets": [
+          "알파벳 급락에 서비스나우 26%대 폭락",
+          "안전자산 선호에 국채금리·달러 동반 약세",
+          "알파벳 실적 발표 후 AI주 매도세 확산"
+        ]
+      },
       "cards": [
         {
           "stock": "IBM",
           "ticker": "IBM",
-          "title": "IBM - 양자칩 연결 전송 충실도 99%",
-          "body": "IBM은 양자칩 2개를 연결해 상태 전송 충실도 99%를 달성하며 모듈형 양자컴퓨터 확장 돌파구를 마련했다는 소식 속에 +1.19% 오른 <b>253.22달러</b> 마감. US 오픈 파트너십을 2031년까지 연장하며 사업 안정성도 부각된 모습이다.",
-          "pct": 1.19,
-          "price": 253.22000122070312,
-          "prev_close": 250.25,
+          "title": "IBM - 큐비트 칩 간 양자정보 전달 성공",
+          "body": "IBM은 큐비트 칩을 넘나드는 양자 정보 전달에 성공해 양자컴퓨터 무한 확장의 길을 열었다는 평가 속에 +2.00% 오른 <b>258.28달러</b> 마감. 랜섬웨어 데이터 도난을 사전 감지하는 플래시시스템이 오라클 AI 데이터베이스 아키텍처에도 활용되며 사업 기반이 넓어지는 모습이다.",
+          "pct": 2.0,
+          "price": 258.2799987792969,
+          "prev_close": 253.22000122070312,
           "currency": "USD",
-          "as_of": "2026-10-28",
+          "as_of": "2026-10-29",
           "slots": [
             {
               "time": "11:00PM",
@@ -43,8 +50,8 @@
               "prev_close": 253.22000122070312,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "소폭 상승세",
-              "text": "양자 정보 전달 성공 소식이 야간에 전해진 가운데 완만한 오름세로 거래됨"
+              "title": "완만한 강세 흐름",
+              "text": "플래시시스템 보안 기술과 양자컴퓨팅 연구 성과가 잇따라 전해지며 꾸준한 오름세를 이어감"
             },
             {
               "time": "마감",
@@ -53,55 +60,55 @@
               "prev_close": 253.22000122070312,
               "is_close": true,
               "date": "2026-10-29",
-              "title": "상승폭 확대",
-              "text": "장중 상승세를 이어가며 오전보다 오름폭을 키워 하루 중 가장 높은 수준에서 거래를 이어가는 중"
+              "title": "상승폭 확대 마감",
+              "text": "양자 정보 전달 성공 소식까지 더해지며 장중 흐름보다 상승폭을 키우며 거래를 마무리함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "IBM, US Open 파트너십 2031년까지 연장",
-              "original": "IBM, US Open 파트너십 2031년까지 연장",
-              "source": "Investing.com 한국어",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXWnVKcVMyM3A4SERMSVVQb3psTXZ6WjZUTkRnQUlVc2d5MTYyOGJ0d3Rzb1AxUE5sSkJaUGNSdkR1cUVfRW1nSXdWb1l4dU5CdzhjSUlpX2lCTk82ZTZDX2NyVS1jY19BQU91dmtKdi0?oc=5",
-              "published": "2026-10-28T23:05:00+09:00"
+              "title": "IBM FlashSystem은 랜섬웨어가 데이터를 암호화하기 전에 드라이브에서 데이터 도난을 감지하며, 오탐률은 1% 미만입니다.",
+              "original": "IBM FlashSystem은 랜섬웨어가 데이터를 암호화하기 전에 드라이브에서 데이터 도난을 감지하며, 오탐률은 1% 미만입니다.",
+              "source": "StorageReview.com",
+              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZGNnRmhJZGt3azdVSHluanNxM09QNVRHenlNVlJxeHZqWlI0aFB0Uy1lYmN1SkRQNnBrWEpGWFM2aGFrOUtFbnE3WXU1enp6S0hiYUFCMlp5TDltMDB0dk1UU1lTOFVuNEJhTlRabDNTSk9PdW5qSkNHLVoydDkyMFRzMDBsX2FONDd0a3ZCMUR4YTZoMy1QeEZMRUphRzlmZ1ZTSEFBLXVyTlHSAbABQVVfeXFMTkVKVU5lYXdFSlNNM05QOGpCWVpvUHBxTEZfRE5KQ0s5TlBoVlNabUxKcnVfUnkyVE5qTlFhRGlKVF9oTzYyMThmQVpBNkZ4cDgtSW84dTBNQlhUUHlXNFlGNEdhZDdRQ0xMa0g1V0NvZFZTSS0yRWlvMGFPQWNGczdKbFRNeUM1d1JZbV8tdDJVQlFLZ2hTZkh3VmdHRjhUVDBzUHVoY2hJMWtNRVVtX0E?oc=5",
+              "published": "2026-10-30T04:18:45+09:00"
             },
             {
-              "title": "[양자보안특허]② 구글·도시바·NEC·IBM 등 선두 주자들 행보 제각각",
-              "original": "[양자보안특허]② 구글·도시바·NEC·IBM 등 선두 주자들 행보 제각각",
-              "source": "비즈월드",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVc0ZXWC1mWFllLWhSaVhYS19FSEl0dlp0Vm90UXlCMUp0aTF6eE1VNjNKNHJVTEZ2Qmw2dTlvZVY4RlVUUjd1SDRyOERrbFphck01WUxZd1B0TEVHa1dINXJjY2ZvOEdHMWc?oc=5",
-              "published": "2026-10-28T13:37:00+09:00"
+              "title": "AI를 위한 하나의 어레이: 오라클 AI 데이터베이스 뒤에 숨은 IBM 플래시시스템과 브로드컴 파이버 채널 아키텍처",
+              "original": "One Array for AI: Inside the IBM FlashSystem and Broadcom Fibre Channel Architecture Behind Oracle AI Datab...",
+              "source": "StorageReview.com",
+              "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVV9JOEVFNkJ5T1A4d000cGZvNkN0SWdLZnBRbWJtdkhoQllUbTk3cDRPRFUtdDIwbmJMN0FoZXpSUHJEdjIwRkt6YVF2LWFabUJ4aTNsdWVsQlZzSV9Zc29oVlk1bG1DeXljVU5YX3JNN2I4dVY1RkViSkY2YU1OZmJOQnp6UGNXekc1S09meEZYTl9YcU5PTXFxU05iR0tKVHpkNi16R1kyMVcta1Z6Ujc5aTItSWUz0gG4AUFVX3lxTE9VX0k4RUU2QnlPUDh3TTRwZm82Q3RJZ0tmcFFtYm12SGhCWVRtOTdwNE9EVS10MjBuYkw3QWhlelJQckR2MjBGS3phUXYtYVptQnhpM2x1ZWxCVnNJX1lzb2hWWTVsbUN5eWNVTlhfck03Yjh1VjVGRWJKRjZhTU5mYk5CenpQY1d6RzVLT2Z4RlhOX1hxTk9NcXFTTmJHS0pUemQ2LXpHWTIxVy1rVnpSNzlpMi1JZTM?oc=5",
+              "published": "2026-10-30T03:46:33+09:00"
             },
             {
-              "title": "IBM, 양자칩 2개 연결해 상태 전송 충실도 99%… 모듈형 양자컴퓨터 확장 돌파구",
-              "original": "IBM, 양자칩 2개 연결해 상태 전송 충실도 99%… 모듈형 양자컴퓨터 확장 돌파구",
-              "source": "사이언스모니터",
-              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBIQm1lcmlnV2hWVkZpQmpNc2pXeG1MMkJkS3I5bldSdXdUUkR6aTllVloxWTg1SHIxZi01RFhLejlzR1FoYlVvNTdIMnMyc0o5aUxqQzNDOHVPdUlIRHJJZEpfWk5BbWlQb1M2TGFsTHNYRzQ1ZFZF?oc=5",
-              "published": "2026-10-28T11:24:51+09:00"
+              "title": "‘양자컴퓨터 무한 확장 길 열었다’ IBM, 큐비트 칩 넘나드는 양자 정보 전달 성공 [후암동 논문 연구소]",
+              "original": "‘양자컴퓨터 무한 확장 길 열었다’ IBM, 큐비트 칩 넘나드는 양자 정보 전달 성공 [후암동 논문 연구소]",
+              "source": "헤럴드경제",
+              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBNbldWbW1zVTFJNWdXcWJqM0UzN3o3TTY0c2tabmhRNkRqN1pUVzBpcEs1VV9ERTItcjZEcUJlaWtxalBma3VkYkxreWRWYW5SbVhWaEZn?oc=5",
+              "published": "2026-10-29T20:10:00+09:00"
             }
           ]
         },
         {
           "stock": "마이크로소프트",
           "ticker": "MSFT",
-          "title": "마이크로소프트 - 애저 매출 첫 공개, 실적 호조",
-          "body": "마이크로소프트는 1분기 매출 922억달러로 시장 기대를 넘어섰지만 -0.06% 내린 <b>531.01달러</b>로 보합권 마감. 애저 매출을 처음 공개하며 시간외 주가가 5% 오른 바 있어 실적 모멘텀에 대한 관심이 이어지는 모습이다.",
-          "pct": -0.06,
-          "price": 531.010009765625,
-          "prev_close": 531.3300170898438,
+          "title": "마이크로소프트 - AI 투자 확대, 회사채 발행",
+          "body": "마이크로소프트는 AI 인프라 투자 확대를 위해 최소 250억달러 규모 회사채 발행을 추진한다는 소식 속에 -0.16% 내린 <b>530.14달러</b> 마감. AI 기반시설 관련주가 개장 전부터 급락하며 휘청였다는 소식과 함께 AI 모델 20종 이상을 지원하는 코파일럿 하네스도 공개됐다.",
+          "pct": -0.16,
+          "price": 530.1400146484375,
+          "prev_close": 531.010009765625,
           "currency": "USD",
-          "as_of": "2026-10-28",
+          "as_of": "2026-10-29",
           "slots": [
             {
               "time": "11:00PM",
-              "price": 527.4400024414062,
-              "pct": -0.67,
+              "price": 527.4174194335938,
+              "pct": -0.68,
               "prev_close": 531.010009765625,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "장중 낙폭 축소",
-              "text": "AI 인프라주 전반의 급락과 대규모 회사채 발행 소식에 눌렸으나 낙폭을 다소 줄인 모습"
+              "title": "약세 흐름 지속",
+              "text": "AI 인프라주 전반의 급락 소식과 대규모 회사채 발행 추진 소식이 겹치며 하락세를 이어감"
             },
             {
               "time": "마감",
@@ -110,55 +117,55 @@
               "prev_close": 531.010009765625,
               "is_close": true,
               "date": "2026-10-29",
-              "title": "보합권 마감",
-              "text": "개장 전 불거진 AI 인프라주 쇼크 여파를 딛고 장 막판 낙폭을 더 줄이며 거래를 마침"
+              "title": "낙폭 소폭 축소",
+              "text": "장중 큰 폭의 하락 이후 저점에서 다소 반등하며 낙폭을 줄인 채로 하루를 마무리함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "애저 매출 첫 공개…마이크로소프트($MSFT) 시간외 주가 5% 상승",
-              "original": "애저 매출 첫 공개…마이크로소프트($MSFT) 시간외 주가 5% 상승",
-              "source": "토큰포스트",
-              "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE11NEtpTTFMOVFxTHNzZTQwdXQ2OU9Qc0tfUldRNkxObW5Fa2p2SG4wX1NtWEhfYk9lekZUV205MTNaTWtBaWlYMU1xZTNiVHM0T1ZxaXI2TErSAV5BVV95cUxOMlZ0bmlRRVZ3dmV3NWxqMzBEazBFRWl5cjNBekRPV0hrLVlyVHlxbE5raWFKRVNTSW4tTzZiemRPWld5U2JNNUtWdWtHMGdCX0hmN1NmeGphV3I0WGZR?oc=5",
-              "published": "2026-10-29T06:50:38+09:00"
+              "title": "AI 기반시설 관련주, 개장 전부터 급락...마이크로소프트·알파벳 쇼크에 '휘청'",
+              "original": "AI 기반시설 관련주, 개장 전부터 급락...마이크로소프트·알파벳 쇼크에 '휘청'",
+              "source": "코인리더스",
+              "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE42TnN6cWtWS3JVM25rOVY1QmxObzQ0NUk4M2Voenp1QkR1cUQ2a0NyWGIydzQyVXRxRHFCUzJCRGtJWjRjMnJHQXhB?oc=5",
+              "published": "2026-10-30T05:00:00+09:00"
             },
             {
-              "title": "[오늘장특징주]마이크로소프트, 알파벳, 엔비디아",
-              "original": "[오늘장특징주]마이크로소프트, 알파벳, 엔비디아",
+              "title": "[美특징주]마이크로소프트, AI 투자 확대에 최소 250억달러 회사채 발행 추진",
+              "original": "[美특징주]마이크로소프트, AI 투자 확대에 최소 250억달러 회사채 발행 추진",
               "source": "이데일리",
-              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMmxhcUtPSDV3Y3FHa1RLUnFOVXpiWTdBMkFMSnY1aTQxRkZWRWtBRjVFUFdHdlk0aXNvTW9DNHFjT1llVU5VR3o1RTl5aXU0d3pDRmFZLVZtRmZqaFFaemZhWTdFbzdUT0t0alNCcEt3VnhBU1JDRUE1b0JibWdBbw?oc=5",
-              "published": "2026-10-29T06:41:47+09:00"
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWTZoVzdXeDN1Z21VSlNOQXdqMk9tQ0kxZVloaVFxRXVOODd5eExIMURZSGMtMndqM2JXME1IOER1TFlHdjMzMHg5b053cW9wNkdTWXp2bG03Mk1LVUk4RnJoejlaSVFvcDhVLThSdkRXS2ZNcWJXOGowRURRMWFaWA?oc=5",
+              "published": "2026-10-30T04:28:13+09:00"
             },
             {
-              "title": "마이크로소프트, 1분기 매출 922억달러…시장 기대 넘어서",
-              "original": "마이크로소프트, 1분기 매출 922억달러…시장 기대 넘어서",
-              "source": "핀포인트뉴스",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBxSUl0eGdqeEhlaGFMc2lvY2JpOHZLQ0ljZmwza3BMdjNmZGwxOVlxRGxWc3ZKYnNtaVJVcWNoVUpCS2ZSbnRiTEx5aVRhWTRHOVk1dTFrOGdJSGZxSFFvUXZsVGRJUlFLNUlxQ05TQ1dNYW_SAXdBVV95cUxNMkdmOElXeUNIeGpmVnpiMU1KVnFUSUZ3UGRBNHdMVjQxTjU4cm9tU2hBUklBZW01cDZ1QmZfeTR3QkpfNG1PbVZZZExSallRb1dGd3pOcVZ4XzB2Nm9sMS1iLXM5cDVkSVBIVkR0UC10X1BRQ2NkYw?oc=5",
-              "published": "2026-10-29T06:39:40+09:00"
+              "title": "마이크로소프트, AI 모델 20종 이상 지원하는 코파일럿 하네스 공개",
+              "original": "마이크로소프트, AI 모델 20종 이상 지원하는 코파일럿 하네스 공개",
+              "source": "AI 매터스",
+              "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE55eUpxX3FKOW1hMUZ4Q0Fid3Y5R3BRV3V6WlN2NnROV0ZoeDBVQi1VQ3FacmJXTUVOZl82T1ptajJrd2ZuWVQ3cElxd0VsV2dhYW5RMA?oc=5",
+              "published": "2026-10-30T01:52:36+09:00"
             }
           ]
         },
         {
           "stock": "아이온큐",
           "ticker": "IONQ",
-          "title": "아이온큐 - 재료 부재 속 소폭 하락",
-          "body": "아이온큐는 미 공군연구소와 양자 네트워크 개발을 확대하며 750만 달러 후속 지원을 확보했지만 -1.58% 내린 <b>32.43달러</b> 마감. 전날 7% 넘게 급등했던 흐름과 달리 이날은 상승분을 일부 반납한 모습이다.",
-          "pct": -1.58,
-          "price": 32.43000030517578,
-          "prev_close": 32.95000076293945,
+          "title": "아이온큐 - 美공군연구소와 양자망 2단계",
+          "body": "아이온큐는 미 공군연구소와 양자 네트워크 2단계 사업에 착수하며 750만달러를 확보했다는 소식에도 -2.19% 내린 <b>31.72달러</b> 마감. 제네바·서울 등 4개 거점 양자보안 체계 운영과 KISTI 슈퍼컴 '한강' 연계 추진 소식도 전해졌다.",
+          "pct": -2.19,
+          "price": 31.719999313354492,
+          "prev_close": 32.43000030517578,
           "currency": "USD",
-          "as_of": "2026-10-28",
+          "as_of": "2026-10-29",
           "slots": [
             {
               "time": "11:00PM",
-              "price": 31.780000686645508,
-              "pct": -2.0,
+              "price": 31.6200008392334,
+              "pct": -2.5,
               "prev_close": 32.43000030517578,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "약세 흐름 지속",
-              "text": "양자보안 체계 운영 및 슈퍼컴 연계 소식에도 매수세가 붙지 않으며 하락세를 이어감"
+              "title": "하락세 이어짐",
+              "text": "공군연구소 계약과 양자보안 체계 소식에도 매수세가 붙지 못하며 약세를 이어가는 중"
             },
             {
               "time": "마감",
@@ -167,45 +174,45 @@
               "prev_close": 32.43000030517578,
               "is_close": true,
               "date": "2026-10-29",
-              "title": "낙폭 소폭 확대",
-              "text": "공군연구소 계약과 기술 협력 소식들이 이어졌지만 하락세를 돌리지 못하고 마감함"
+              "title": "낙폭 소폭 줄며 마감",
+              "text": "슈퍼컴 연계 추진 소식이 더해졌지만 반등으로 이어지지 못한 채 하락 마감함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "아이온큐, 미 공군연구소와 양자 네트워크 개발 확대… 750만 달러 후속 지원 확보",
-              "original": "아이온큐, 미 공군연구소와 양자 네트워크 개발 확대… 750만 달러 후속 지원 확보",
-              "source": "제민일보",
-              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1sV01hLThmendQbTZRZ2w2ekR6TkpLS0QwaWN4Wmx6bWZ6VldCcmFkYjd3R1c0dlUyTE5VVGFpZGhaNDR6SnU4d1RuWU1xU1NWV2tUekE0dDZwOG1BSlFqUzg4YktTaGM?oc=5",
-              "published": "2026-10-28T18:25:06+09:00"
+              "title": "아이온큐, 미 공군연구소와 양자 네트워크 2단계 착수…750만달러 확보",
+              "original": "아이온큐, 미 공군연구소와 양자 네트워크 2단계 착수…750만달러 확보",
+              "source": "IT타임스",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56QmVIaUZJdnZnSmg3ZHFjUDFDc2R5ZVBOSjVWcHh0OEdKSjFRVFBrR25CYnpNYnBfcWt4SnA3a244d2pudU4zRlJRYmtuS0I0NFMwaEs3NXpQbGQwcUUtZWlPZTVoZHFQ?oc=5",
+              "published": "2026-10-30T00:41:22+09:00"
             },
             {
-              "title": "아이온큐, 화요일 주가 7% 상승한 이유는?",
-              "original": "아이온큐, 화요일 주가 7% 상승한 이유는?",
-              "source": "Benzinga",
-              "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPTmhIQm9RcFhab3JvLXRKUUVRa2UyQWFuOWRLWGtIcjRmRFhieUs1QThwMlBqVnByeVQ2UWxPOVFIeHV2VkFwT1haNzQ3WHJDREN6VU0tamdhTWZfa0I4MGlldWlDYTVyYWl4bzhVRDZ2eXZVdkNwUDE3cm50VDhjejdkMlhBSlA0aDFpTDBGMnFSOTVQSll2YnNTckhhYnFxSl9VVFZZRHN4WkIzZGZPc2RDZnByUlp5Rzl1alVrQzlwRTIxaU9uaERNMGpUMkk0MG9MRWs0bUo4Z3ZWZ25XeS1KLVFFTEU5UDV3MkZYajE5SWFuQWt5NmhwcjdkMlpRT0FmQ1R6RjdvTWZxQWZHNA?oc=5",
-              "published": "2026-10-28T11:57:45+09:00"
+              "title": "KISTI, 슈퍼컴 '한강'에 아이온큐 양자컴 연계 추진",
+              "original": "KISTI, 슈퍼컴 '한강'에 아이온큐 양자컴 연계 추진",
+              "source": "컨슈머타임스",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvaDNXX2FXZHRmVEpQWHByX3VmODRhVHYzRV9HQzlVRVhwYmZlU1RFbzZ3UHZwOVFpZW1obEl0eE43ZHdCNHJsZGljMXk4NHRicDNCdC1nclF3WllFWlJheXVPSS1MV2k3bUE?oc=5",
+              "published": "2026-10-29T10:30:06+09:00"
             },
             {
-              "title": "아이온큐 주가, 32.95달러 7.12% 상승 마감",
-              "original": "아이온큐 주가, 32.95달러 7.12% 상승 마감",
-              "source": "톱스타뉴스",
-              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBvTzJtVUVWT2k1ck5KSDVIdDJZNHFuanNlN2NVdlFLLURhX2U5dkZiaHBqR0NEMTNydjJORTlaUG5MRFo4dEUzeGJjaWFDa1d2RXdoRXlaQTZ6Vlg4SWowNXZqSkJRU2hvS2hyMW1CbWxXZw?oc=5",
-              "published": "2026-10-28T09:49:21+09:00"
+              "title": "아이온큐, 제네바·서울 4개 거점에 양자보안 체계 운영",
+              "original": "아이온큐, 제네바·서울 4개 거점에 양자보안 체계 운영",
+              "source": "양자신문",
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ack5oZjVyczlBSWZuNDZGdXNBVElHa2FqZDBZVGRaOVNyOEVEUzUzLWgtMW5TVDFkT0k3YVBkT3VzSE16YmxJOG9zUEZEWlJkYkNka3hUa0N1WkFUcDFMTXY5VUxfV2xJT0NUbkdCaw?oc=5",
+              "published": "2026-10-29T09:20:00+09:00"
             }
           ]
         },
         {
           "stock": "엔비디아",
           "ticker": "NVDA",
-          "title": "엔비디아 - 리오토 가격 동결 여파",
-          "body": "엔비디아는 리오토가 엔비디아 칩을 걷어내고 가격 동결을 택했다는 소식 속에 -1.17% 내린 <b>215.38달러</b> 마감. 40개 언어 받아쓰기 오픈모델 'Nemotron 3.5 Transcribe'를 공개했지만 주가 하락세를 막지는 못한 모습이다.",
-          "pct": -1.17,
-          "price": 215.3800048828125,
-          "prev_close": 217.94000244140625,
+          "title": "엔비디아 - 젠슨 황 中스파이 접촉 논란",
+          "body": "엔비디아는 젠슨 황과 접촉한 중국 사업가가 스파이라는 미 정보당국 발표에 규제 강화 우려가 커지며 -0.80% 내린 <b>213.66달러</b> 마감. 젠슨 황 측은 중국 불법 유출은 없었다고 반박했지만 시간외에서도 하락세가 이어졌다.",
+          "pct": -0.8,
+          "price": 213.66000366210938,
+          "prev_close": 215.3800048828125,
           "currency": "USD",
-          "as_of": "2026-10-28",
+          "as_of": "2026-10-29",
           "slots": [
             {
               "time": "11:00PM",
@@ -214,8 +221,8 @@
               "prev_close": 215.3800048828125,
               "is_close": false,
               "date": "2026-10-29",
-              "title": "하락세 지속",
-              "text": "중국 스파이 접촉 의혹과 젠슨 황의 반박이 이어지며 시간외부터 눌린 흐름을 이어감"
+              "title": "스파이 논란에 약세",
+              "text": "중국 스파이 의혹 보도와 젠슨 황의 해명이 잇따르며 투자 심리가 위축돼 하락세 지속"
             },
             {
               "time": "마감",
@@ -224,45 +231,45 @@
               "prev_close": 215.3800048828125,
               "is_close": true,
               "date": "2026-10-29",
-              "title": "낙폭 소폭 축소",
-              "text": "규제 강화 우려 속 약세로 출발했으나 장중 저점 대비 낙폭을 다소 줄이며 거래를 마침"
+              "title": "낙폭 다소 줄며 마감",
+              "text": "규제 강화 우려가 이어졌지만 장중 저점 대비 낙폭을 일부 줄이며 거래를 마무리함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "리오토가 스스로 판 키운 승부수, 엔비디아 걷어내고 가격 동결 택한 이유",
-              "original": "리오토가 스스로 판 키운 승부수, 엔비디아 걷어내고 가격 동결 택한 이유",
-              "source": "글로벌이코노믹",
-              "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNHFTaWxUNTBoYjZEdnF5OWRBd1dtdUc3LU1sbTVMOGsyYndCQXMtLWhmcktJU0Q2RldwSkJ0ZUJtLUxHZ2dLdy1jcFpBaWlhdDVQa25nZTZFX3VlakRtdkRnc240LTIwRUEzM2JmcVR4eVdUZmp5MndaQmt1eEVvSjRjeHZwd3M?oc=5",
-              "published": "2026-10-29T06:56:35+09:00"
+              "title": "女 기업인 젠슨 황에 접근한 이유…\"엔비디아 정보수집 中스파이\"",
+              "original": "女 기업인 젠슨 황에 접근한 이유…\"엔비디아 정보수집 中스파이\"",
+              "source": "한국경제",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE82clAwUTZCeUh2ckNDRmJIVWtQR3V1MlA0REE4ZUIyVjdZZUlfYTFYT0k0MHVQbGI0eGU1U09HWVNHRThHSlc5Z0ZuMXpOcnBCcl8xMDdsSUtkUQ?oc=5",
+              "published": "2026-10-30T06:46:40+09:00"
             },
             {
-              "title": "엔비디아, 40개 언어 받아쓰기 오픈모델 'Nemotron 3.5 Transcribe' 공개",
-              "original": "엔비디아, 40개 언어 받아쓰기 오픈모델 'Nemotron 3.5 Transcribe' 공개",
-              "source": "디지털포커스",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42cEx1MkItWmxtaHlIYWV4VEI1UFEzaDkyTXhHUVZwVEZVVS1QVVNnSDR6ajRyZmhNampob29yWmI2MklnTWExU1U2ODlLdkFzY1Btd0tsOUtlUFFCOXR3RXg4OWhRWEVWUW82dktMWGk?oc=5",
-              "published": "2026-10-29T06:44:28+09:00"
-            },
-            {
-              "title": "[오늘장특징주]마이크로소프트, 알파벳, 엔비디아",
-              "original": "[오늘장특징주]마이크로소프트, 알파벳, 엔비디아",
+              "title": "[TODAY엔비디아]젠슨 황 '중국 불법 유출 없었다'…규제 강화우려에 시간외↓",
+              "original": "[TODAY엔비디아]젠슨 황 '중국 불법 유출 없었다'…규제 강화우려에 시간외↓",
               "source": "이데일리",
-              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMmxhcUtPSDV3Y3FHa1RLUnFOVXpiWTdBMkFMSnY1aTQxRkZWRWtBRjVFUFdHdlk0aXNvTW9DNHFjT1llVU5VR3o1RTl5aXU0d3pDRmFZLVZtRmZqaFFaemZhWTdFbzdUT0t0alNCcEt3VnhBU1JDRUE1b0JibWdBbw?oc=5",
-              "published": "2026-10-29T06:41:47+09:00"
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNTYxLTUwVjdWOF9VYk5IVGZ3T3l1bHNZOFU1UnpWYUZ3cHl4OGJieW9sWXZjS0Y0MVgyeGRxM0xpMHFVaXRfS00td3piaklNNWFxUTh0aC1sQ3ZVSExHVWQ2MllmbW5iWjNUcXVuY1UyenMxM18weHliQndVVVRmRw?oc=5",
+              "published": "2026-10-30T06:30:06+09:00"
+            },
+            {
+              "title": "미 정보당국 \"젠슨 황과 접촉한 중국 사업가는 스파이\"…엔비디아 반박",
+              "original": "미 정보당국 \"젠슨 황과 접촉한 중국 사업가는 스파이\"…엔비디아 반박",
+              "source": "AI타임스",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5oNjlrcDBfcHNBTk0wMnlRRkpnWkoyaXJ5cHJSdmNEQU5LWHV2MWZBaFFYODZoNVpDNUgwT2pZTEVtbU1CbldYRVNNMFJXVGhQZE54LXZNLW85MHFFNk5MeC1kUGpJZVJoc1E?oc=5",
+              "published": "2026-10-30T05:06:36+09:00"
             }
           ]
         },
         {
           "stock": "소파이테크놀로지",
           "ticker": "SOFI",
-          "title": "소파이테크놀로지 - 3분기 실적 호조, 목표가 상향",
-          "body": "소파이테크놀로지는 강력한 3분기 실적과 상향된 가이던스에 힘입어 +4.51% 오른 <b>17.14달러</b> 마감. 스코샤뱅크가 호실적을 근거로 목표주가를 26달러로 상향한 가운데 일주일 새 11% 오르며 2027년 전망에 대한 기대가 커지는 모습이다.",
-          "pct": 4.51,
-          "price": 17.139999389648438,
-          "prev_close": 16.399999618530273,
+          "title": "소파이테크놀로지 - 실적 호조에 투자심리 개선",
+          "body": "소파이테크놀로지는 CEO가 금리 2회 인하를 예상했지만 실제 인상에도 오히려 전망치를 상향하는 실적 호조를 보이며 +2.74% 오른 <b>17.61달러</b> 마감. 최근 12개월간 48% 하락했던 주가가 2026년에는 더 나은 성과를 낼 수 있을지 관심이 모이는 모습이다.",
+          "pct": 2.74,
+          "price": 17.610000610351562,
+          "prev_close": 17.139999389648438,
           "currency": "USD",
-          "as_of": "2026-10-28",
+          "as_of": "2026-10-29",
           "slots": [
             {
               "time": "11:00PM",
@@ -272,7 +279,7 @@
               "is_close": false,
               "date": "2026-10-29",
               "title": "상승세 뚜렷",
-              "text": "금리 전망 상향과 실적 호조 기대감이 맞물리며 상승폭을 꾸준히 키워가는 모습"
+              "text": "금리 전망 발언과 실적 호조 평가가 맞물리며 저녁 시간대까지 꾸준한 오름세를 이어감"
             },
             {
               "time": "마감",
@@ -281,39 +288,38 @@
               "prev_close": 17.139999389648438,
               "is_close": true,
               "date": "2026-10-29",
-              "title": "상승폭 확대 마감",
-              "text": "실적 호조 기대와 금리 전망 상향 소식이 겹치며 오름폭을 더 키운 채 거래를 마침"
+              "title": "상승폭 키우며 마감",
+              "text": "최근 하락에 대한 반등 기대감까지 더해지며 장중보다 상승폭을 키운 채 마감함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "소파이 주가, 강력한 3분기 실적 호조와 상향된 가이던스에 13% 급등",
-              "original": "SoFi Stock Surges 13% Following Strong Q3 Beat and Upgraded Guidance",
+              "title": "소파이 CEO, \"금리 2회 인하\" 예상했지만 인상 맞고도 오히려 전망치 상향",
+              "original": "SoFi CEO Planned for “Two Rate Cuts.” He Got a Hike, Then Raised His Outlook Anyway",
               "source": "TIKR.com",
-              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPR1hqSjJzb2J3MnZDdTNZb2dNLUhFX0lJaGZYX3hsOEJORVFWNFQxOWhnTHhvTU9fc2tEOXhSTndZc0d5SHpWNUJWV3F6Y21ISHc3MlVtQVo2R1N2azNRR1VDdmdxcjUzWU9YcEtXaWFLNGtJQUN2OUJWa2h1QzJlWUpNNVlITkdfVVQyZg?oc=5",
-              "published": "2026-10-28T23:15:00+09:00"
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRm5lUDJVU1E0YmZFWkU3aHhoaEd4S2k3Uzd1QUMyVXBNbWQyX2w2bUo2STNscnZMcER2Vzg3NW9GdzJnaTg0c0U3OGJER1Z4QjJIb3lsc0VvY3UzNk5oNGlEemh4QVB0QWhGR3gxcVotMm1HbTFINTZ3UDlHNks4OU5WT2tRc1hERGZvOG1nY1YyVWppY05FVjZCdnFvZkNlODFxUXZseDhiMU5laWc?oc=5",
+              "published": "2026-10-30T03:58:12+09:00"
             },
             {
-              "title": "소파이, 일주일 새 11% 상승... 2027년 전망 정말 그렇게 좋은가",
-              "original": "SoFi Is Up 11% in a Week. Is Its 2027 Outlook Really That Good?",
-              "source": "TIKR.com",
-              "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdXdlZ0N3M3hPeEFmd3BHcFBaSTBqRGVlT0tBMVkwVUNHNlgxYjg0REpINVQ0cDZSSEdJck1xcllqZ193ekx2NzAzenZrbFM1T3UwZUdPcGVqM1pna3lLenhDb0NvOXNBY3Z1cmxvdnkyam5BYXo0SzZhLTJwbTNkT0ZrY2hVRXNXVTR6MkNuVU9HNUE?oc=5",
-              "published": "2026-10-28T22:18:45+09:00"
+              "title": "실적 호조가 SoFi 주식 투자자들에게 미칠 영향",
+              "original": "실적 호조가 SoFi 주식 투자자들에게 미칠 영향",
+              "source": "Simply Wall St",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOW9aQnVZNFNCdldXTGRqaVdxbHItYjNDeVQ5bTNTUV9ONU0zS1duLWJJa3E3S09Qby1lUnFFbndKeGE2Z2hJNGg0dkYtR3hhaHFnOU1lS1NNV1ppcTU1S0s3UlNOZ3FrNU5EOEVBNFRQYWdUanZqUklSYkpuanR6WEZVanJ6TGZRSDNEaGtrZHdrR2ZWR2FXczBOemk0ci0tdmc1c1NwdG1leGdNN0HSAbMBQVVfeXFMUHVwdU8xa0N5cktGSk13X2tiVXRpandDaEItdGVFUUhxVk9jTnRhT1g0Xy03RGNtZ1lOYVNUUmpvY2N6OWUtbVVVUWJDenpvT0o0c0pUTV9uWGFlbTQ3ZEpjMkVCWkhfdV8xYmo3cDBOOUJpVWswWGd5UkwwbGFLY3J0UlB5bHU2NEJxSms0aU1ZYTNFZjYzaWJyVTRyNnpoVGtmV25zTkNTUzkzYmFXRHdMZDA?oc=5",
+              "published": "2026-10-29T14:49:32+09:00"
             },
             {
-              "title": "Scotiabank, 호실적에 SoFi 목표주가 $26로 상향",
-              "original": "Scotiabank, 호실적에 SoFi 목표주가 $26로 상향",
-              "source": "Investing.com 한국어",
-              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9KOV9ibkJLLXl3cWFIYkhYUk0wR0lWd0oxMkhLQlEwZTZ3OTBsY0tKcWo4enJySTdVRUl1RkNtR0tXU08xNjR1WlJzV2k4eElRX3U0UFNOMTlTT2E1VnBCSzRwaktpeVE3a1lRTmpuZmxNZ1NJ?oc=5",
-              "published": "2026-10-28T21:21:00+09:00"
+              "title": "최근 12개월간 48% 하락한 소파이 주식, 2026년엔 더 나은 성과 낼 수 있을까",
+              "original": "Down 48% In Last 12 Months, Can SoFi Stock Give Better Results in 2026?",
+              "source": "TIKR.com",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5nLVNpVEIyZDVwTXRIX1JmMGc1TFhPTWZGT0liMGhGblFiQmt6SFRVR1YwVjlPbU5XbzRMQTB6YngzTFRSTEV0Ty1VVVZxTVVreTdhb1o0WjFmZnFkbGhWQlUtbGE2SzRQdEFN?oc=5",
+              "published": "2026-10-29T08:13:09+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-10-29-us.md",
-      "refreshed_at": "2026-10-29 07:01:04 KST",
-      "slots_refreshed_at": "2026-10-30 06:44:40 KST"
+      "markdown": "briefings/2026-10-30-us.md",
+      "refreshed_at": "2026-10-30 07:00:56 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
