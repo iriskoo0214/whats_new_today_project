@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-30 09:20:52 KST",
+  "generated_at": "2026-10-30 10:40:52 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -360,14 +360,24 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-29",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 1437000.0,
-              "pct": -5.83,
+              "time": "9:10AM",
+              "price": 1419000.0,
+              "pct": -7.01,
               "prev_close": 1526000.0,
               "is_close": false,
               "date": "2026-10-30",
               "title": "장 초반 급락 출발",
-              "text": "미국발 AI 거품 우려로 뉴욕 기술주가 급락한 여파가 전해지며 장 시작과 동시에 낙폭이 크게 벌어짐"
+              "text": "개장 직후부터 큰 폭으로 밀리며 낙폭이 7%대까지 벌어진 채 거래가 이어짐"
+            },
+            {
+              "time": "10:20AM",
+              "price": 1393000.0,
+              "pct": -8.72,
+              "prev_close": 1526000.0,
+              "is_close": false,
+              "date": "2026-10-30",
+              "title": "낙폭 더욱 확대",
+              "text": "사장단 인사와 영업익 전망 소식에도 반등하지 못하고 하락폭이 하루 중 가장 크게 커짐"
             }
           ],
           "slot_total": 4,
@@ -407,14 +417,24 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-29",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 227250.0,
-              "pct": -2.05,
+              "time": "9:10AM",
+              "price": 222500.0,
+              "pct": -4.09,
               "prev_close": 232000.0,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "창립일에 동반 약세",
-              "text": "창립 57주년을 맞았지만 미국발 AI 우려로 코스피가 급락하며 장 초반부터 하락 압력을 받는 중"
+              "title": "장 초반 약세 지속",
+              "text": "개장 초부터 매도세가 이어지며 하락폭이 4%대로 벌어진 채 흐름이 이어짐"
+            },
+            {
+              "time": "10:20AM",
+              "price": 219500.0,
+              "pct": -5.39,
+              "prev_close": 232000.0,
+              "is_close": false,
+              "date": "2026-10-30",
+              "title": "낙폭 더 커지는 중",
+              "text": "보급형 신제품 출시와 할인 행사 소식에도 매수세가 붙지 않으며 하락폭이 더 깊어짐"
             }
           ],
           "slot_total": 4,
@@ -454,14 +474,24 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-29",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 704000.0,
-              "pct": -7.37,
+              "time": "9:10AM",
+              "price": 698000.0,
+              "pct": -8.16,
               "prev_close": 760000.0,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "어닝쇼크에 급락 출발",
-              "text": "3분기 실적이 시장 기대에 크게 못 미치는 어닝쇼크로 평가되며 장 시작과 동시에 낙폭이 크게 확대됨"
+              "title": "장 초반 급락 출발",
+              "text": "개장 직후부터 낙폭이 크게 벌어지며 8%대 하락으로 거래를 시작함"
+            },
+            {
+              "time": "10:20AM",
+              "price": 680000.0,
+              "pct": -10.53,
+              "prev_close": 760000.0,
+              "is_close": false,
+              "date": "2026-10-30",
+              "title": "낙폭 두자릿수 확대",
+              "text": "3분기 영업익 감소 소식이 전해진 뒤 매도세가 더해지며 하락폭이 10%를 넘어섬"
             }
           ],
           "slot_total": 4,
@@ -501,14 +531,24 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-29",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 150200.0,
-              "pct": -3.22,
+              "time": "9:10AM",
+              "price": 148800.0,
+              "pct": -4.12,
               "prev_close": 155200.0,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "신사업 소식에도 약세",
-              "text": "티맵과의 AI 모빌리티 협력 소식이 나왔지만 코스피 전반의 급락 분위기에 눌려 하락 출발"
+              "title": "장 초반 약세 출발",
+              "text": "개장 직후 하락세로 출발해 4%대 안팎의 낙폭을 유지하며 거래가 이어짐"
+            },
+            {
+              "time": "10:20AM",
+              "price": 149100.0,
+              "pct": -3.93,
+              "prev_close": 155200.0,
+              "is_close": false,
+              "date": "2026-10-30",
+              "title": "낙폭 소폭 줄어듦",
+              "text": "가전 할인 확대와 차량 협력 소식이 나온 가운데 하락폭이 장 초반보다 다소 줄어듦"
             }
           ],
           "slot_total": 4,
@@ -548,14 +588,24 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-29",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 280000.0,
-              "pct": -4.27,
+              "time": "9:10AM",
+              "price": 284500.0,
+              "pct": -2.74,
               "prev_close": 292500.0,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "기술 호재 속 약세 출발",
-              "text": "주차로봇 시연과 그랜저 OTA 업데이트 소식에도 불구하고 시장 전반 약세에 동반 하락 중"
+              "title": "장 초반 소폭 약세",
+              "text": "개장 초부터 완만한 하락세를 보이며 2%대 낙폭으로 거래를 시작함"
+            },
+            {
+              "time": "10:20AM",
+              "price": 283000.0,
+              "pct": -3.25,
+              "prev_close": 292500.0,
+              "is_close": false,
+              "date": "2026-10-30",
+              "title": "낙폭 다소 더 커짐",
+              "text": "새만금 투자와 신기술 소식에도 하락폭이 장 초반보다 소폭 확대되는 흐름을 보임"
             }
           ],
           "slot_total": 4,
@@ -586,7 +636,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-29-kr.md",
       "refreshed_at": "2026-10-29 18:01:01 KST",
-      "slots_refreshed_at": "2026-10-30 09:20:52 KST"
+      "slots_refreshed_at": "2026-10-30 10:40:52 KST"
     }
   }
 };
