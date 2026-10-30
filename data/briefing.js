@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-30 23:10:47 KST",
+  "generated_at": "2026-10-31 00:50:16 KST",
   "refreshed": [],
   "slots_refreshed": [
     "us"
@@ -51,8 +51,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 258.2799987792969,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "소폭 약세 지속",
-              "text": "랜섬웨어 탐지 기술과 오라클 협력 아키텍처 소식이 전해졌지만 매수세로 이어지지 못하며 약세 흐름이 이어지는 중"
+              "title": "소폭 약세 유지",
+              "text": "플래시시스템 보안 기능과 AI 데이터베이스 협력 소식에도 매수세는 붙지 않고 약보합 흐름이 이어지는 중"
             }
           ],
           "slot_total": 2,
@@ -98,8 +98,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 530.1400146484375,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "하락폭 확대",
-              "text": "애저 실적 호조와 대규모 채권 발행, 협력 확대 소식이 잇따랐음에도 주가는 오히려 낙폭을 키우며 밀리는 모습"
+              "title": "채권 발행 소식에 약세",
+              "text": "애저 호실적 다음날 대규모 회사채 발행 소식이 전해졌지만 주가는 오히려 낙폭을 키우며 하루 중 약세 지속"
             }
           ],
           "slot_total": 2,
@@ -145,8 +145,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 31.719999313354492,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "낙폭 큰 약세",
-              "text": "공군연구소와의 양자 네트워크 계약 확보 소식에도 불구하고 하락세가 두드러지며 낙폭이 크게 벌어진 상태 유지 중"
+              "title": "낙폭 뚜렷",
+              "text": "별다른 소식 없이 장중 내내 매도세가 이어지며 하루 종일 두드러진 약세를 보이는 중"
             }
           ],
           "slot_total": 2,
@@ -192,8 +192,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 213.66000366210938,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "약세 흐름 지속",
-              "text": "음성인식 모델 공개와 그래픽카드 판매 중단 소식이 겹친 가운데 하락세가 이어지며 낙폭이 쉽게 줄지 않는 중"
+              "title": "정보유출 논란에 약세",
+              "text": "네이버 투자 소식에도 불구 정보당국발 유출 의혹 보도가 겹치며 낙폭이 커진 모습이 이어지는 중"
             }
           ],
           "slot_total": 2,
@@ -239,8 +239,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 17.610000610351562,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "약세 이어가는 중",
-              "text": "금리 전망 발언과 함께 실적 전망치 상향 소식이 나왔음에도 매도 압력에 밀리며 하락세를 좀처럼 벗어나지 못함"
+              "title": "금리 전망 엇갈려 약세",
+              "text": "CEO의 금리 인하 전망이 빗나갔다는 소식에도 실적 전망치는 상향됐지만 주가는 약세를 이어가는 중"
             }
           ],
           "slot_total": 2,
@@ -271,7 +271,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-30-us.md",
       "refreshed_at": "2026-10-30 07:00:56 KST",
-      "slots_refreshed_at": "2026-10-30 23:10:47 KST"
+      "slots_refreshed_at": "2026-10-31 00:50:16 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
