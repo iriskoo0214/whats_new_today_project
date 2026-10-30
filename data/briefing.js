@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-30 10:40:52 KST",
+  "generated_at": "2026-10-30 10:52:32 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -367,17 +367,17 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-30",
               "title": "장 초반 급락 출발",
-              "text": "개장 직후부터 큰 폭으로 밀리며 낙폭이 7%대까지 벌어진 채 거래가 이어짐"
+              "text": "미국발 반도체 투자심리 위축 우려 속에 개장 직후부터 낙폭이 크게 벌어짐"
             },
             {
-              "time": "10:20AM",
-              "price": 1393000.0,
-              "pct": -8.72,
+              "time": "10:30AM",
+              "price": 1401000.0,
+              "pct": -8.19,
               "prev_close": 1526000.0,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "낙폭 더욱 확대",
-              "text": "사장단 인사와 영업익 전망 소식에도 반등하지 못하고 하락폭이 하루 중 가장 크게 커짐"
+              "title": "낙폭 더 확대",
+              "text": "SK그룹 사장단 인사와 클러스터 관련 보도가 나온 가운데 하락폭이 오전 들어 더 커짐"
             }
           ],
           "slot_total": 4,
@@ -423,18 +423,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 232000.0,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "장 초반 약세 지속",
-              "text": "개장 초부터 매도세가 이어지며 하락폭이 4%대로 벌어진 채 흐름이 이어짐"
+              "title": "장 초반 큰 폭 하락",
+              "text": "미국발 쇼크로 코스피 매도 사이드카까지 발동되며 개장 직후 낙폭이 크게 벌어짐"
             },
             {
-              "time": "10:20AM",
-              "price": 219500.0,
-              "pct": -5.39,
+              "time": "10:30AM",
+              "price": 219750.0,
+              "pct": -5.28,
               "prev_close": 232000.0,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "낙폭 더 커지는 중",
-              "text": "보급형 신제품 출시와 할인 행사 소식에도 매수세가 붙지 않으며 하락폭이 더 깊어짐"
+              "title": "낙폭 확대 지속",
+              "text": "신제품 출시 소식에도 매수세가 붙지 않으며 하락폭이 오전 들어 더욱 커짐"
             }
           ],
           "slot_total": 4,
@@ -480,18 +480,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 760000.0,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "장 초반 급락 출발",
-              "text": "개장 직후부터 낙폭이 크게 벌어지며 8%대 하락으로 거래를 시작함"
+              "title": "장 초반 급락세",
+              "text": "실적 부진 우려 속에 개장 직후부터 큰 폭의 하락세로 출발하며 낙폭이 두드러짐"
             },
             {
-              "time": "10:20AM",
-              "price": 680000.0,
-              "pct": -10.53,
+              "time": "10:30AM",
+              "price": 677000.0,
+              "pct": -10.92,
               "prev_close": 760000.0,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "낙폭 두자릿수 확대",
-              "text": "3분기 영업익 감소 소식이 전해진 뒤 매도세가 더해지며 하락폭이 10%를 넘어섬"
+              "title": "낙폭 더욱 커짐",
+              "text": "증권가의 매수 적기 분석에도 불구하고 하락폭이 오전 들어 오히려 확대되는 모습"
             }
           ],
           "slot_total": 4,
@@ -538,17 +538,17 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-10-30",
               "title": "장 초반 약세 출발",
-              "text": "개장 직후 하락세로 출발해 4%대 안팎의 낙폭을 유지하며 거래가 이어짐"
+              "text": "전반적인 시장 약세 속에 개장 직후부터 하락세로 출발하며 낙폭을 키움"
             },
             {
-              "time": "10:20AM",
-              "price": 149100.0,
-              "pct": -3.93,
+              "time": "10:30AM",
+              "price": 149500.0,
+              "pct": -3.67,
               "prev_close": 155200.0,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "낙폭 소폭 줄어듦",
-              "text": "가전 할인 확대와 차량 협력 소식이 나온 가운데 하락폭이 장 초반보다 다소 줄어듦"
+              "title": "낙폭 일부 만회",
+              "text": "티맵과의 모빌리티 협력 소식이 전해진 뒤 오전 들어 하락폭을 소폭 줄이는 흐름"
             }
           ],
           "slot_total": 4,
@@ -594,18 +594,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 292500.0,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "장 초반 소폭 약세",
-              "text": "개장 초부터 완만한 하락세를 보이며 2%대 낙폭으로 거래를 시작함"
+              "title": "장 초반 약세 출발",
+              "text": "시장 전반의 약세 분위기 속에 개장 직후 하락세로 출발한 뒤 낙폭을 유지"
             },
             {
-              "time": "10:20AM",
-              "price": 283000.0,
-              "pct": -3.25,
+              "time": "10:30AM",
+              "price": 284500.0,
+              "pct": -2.74,
               "prev_close": 292500.0,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "낙폭 다소 더 커짐",
-              "text": "새만금 투자와 신기술 소식에도 하락폭이 장 초반보다 소폭 확대되는 흐름을 보임"
+              "title": "보합권 횡보 지속",
+              "text": "새만금 AI 데이터센터 투자 소식이 이어졌지만 가격은 큰 변화 없이 횡보세 지속"
             }
           ],
           "slot_total": 4,
@@ -636,7 +636,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-29-kr.md",
       "refreshed_at": "2026-10-29 18:01:01 KST",
-      "slots_refreshed_at": "2026-10-30 10:40:52 KST"
+      "slots_refreshed_at": "2026-10-30 10:52:32 KST"
     }
   }
 };
