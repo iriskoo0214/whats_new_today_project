@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-10-31 22:35:13 KST",
+  "generated_at": "2026-11-01 03:27:38 KST",
   "refreshed": [],
   "slots_refreshed": [
     "us"
@@ -51,8 +51,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 258.2799987792969,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "보합권 약세",
-              "text": "장중 큰 변동 없이 소폭 약세 흐름이 이어지며 전일 수준과 비슷한 가격대에서 움직임"
+              "title": "소폭 약세 흐름",
+              "text": "특별한 재료 없이 소폭 하락세로 거래되며 큰 변동 없이 흘러가는 모습을 보임"
             },
             {
               "time": "마감",
@@ -61,8 +61,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 258.2799987792969,
               "is_close": true,
               "date": "2026-10-30",
-              "title": "소폭 약세 유지",
-              "text": "특별한 재료 없이 하루 종일 좁은 범위에서 등락하다 약보합으로 하루를 마감"
+              "title": "약보합권 유지 중",
+              "text": "장 후반까지 낙폭이 크게 변하지 않고 소폭 약세 수준에서 등락을 이어가는 중"
             }
           ],
           "slot_total": 2,
@@ -86,8 +86,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 530.1400146484375,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "채권 발행 소식 속 하락",
-              "text": "애저 실적 호조에 이어 250억 달러 회사채 발행 조건이 확정됐지만 주가는 오히려 낙폭을 키우는 모습"
+              "title": "낙폭 확대 흐름",
+              "text": "250억 달러 회사채 발행 소식이 전해진 이후 약세 흐름을 이어가며 하락폭이 점차 커지는 모습"
             },
             {
               "time": "마감",
@@ -96,8 +96,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 530.1400146484375,
               "is_close": true,
               "date": "2026-10-30",
-              "title": "낙폭 확대 마감",
-              "text": "오픈AI향 수익 호조와 채권 발행 소식에도 매수세가 붙지 않으며 하루 중 가장 큰 낙폭으로 마감"
+              "title": "낙폭 더 커져 마감",
+              "text": "Copilot 관련 소식들이 잇따라 나왔음에도 매수세가 붙지 않으며 하루 중 가장 큰 낙폭으로 거래를 마침"
             }
           ],
           "slot_total": 2,
@@ -143,8 +143,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 31.719999313354492,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "기술주 동반 급락",
-              "text": "인텔·아마존 실적 발표 이후 기술주 매도세가 확산되며 동종 양자컴퓨팅주와 함께 큰 폭으로 하락"
+              "title": "급락세 지속",
+              "text": "인텔·아마존 실적 발표 여파로 기술주 전반에 매도세가 확산되며 장중 낙폭이 크게 벌어짐"
             },
             {
               "time": "마감",
@@ -153,8 +153,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 31.719999313354492,
               "is_close": true,
               "date": "2026-10-30",
-              "title": "낙폭 더 커지며 마감",
-              "text": "실적 발표일 공지 이후 하락폭이 오후 들어 더욱 확대되며 하루 중 가장 낮은 수준에서 마감"
+              "title": "낙폭 다소 축소",
+              "text": "장중 한때 낙폭이 더 커졌다가 마감을 앞두고 일부 만회하며 하락폭을 소폭 줄임"
             }
           ],
           "slot_total": 2,
@@ -193,8 +193,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 213.66000366210938,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "잇단 이슈 속 약세",
-              "text": "DOJ 질의와 앤트로픽 부채 지원 검토 소식이 전해지며 현금흐름에 대한 우려 속에 하락폭이 확대됨"
+              "title": "시총 1위 내줘 약세",
+              "text": "애플에 시가총액 1위 자리를 내줬다는 소식과 함께 AI 과잉 투자 우려가 번지며 약세로 출발"
             },
             {
               "time": "마감",
@@ -203,8 +203,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 213.66000366210938,
               "is_close": true,
               "date": "2026-10-30",
-              "title": "낙폭 키우며 마감",
-              "text": "RTX 스파크 신기능 공개에도 반등하지 못하고 하루 중 가장 큰 낙폭을 기록하며 거래를 마침"
+              "title": "낙폭 확대 마감",
+              "text": "네이버 투자 소식에도 반등하지 못하고 장 후반 들어 낙폭이 더욱 커지며 하루를 마감함"
             }
           ],
           "slot_total": 2,
@@ -250,8 +250,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 17.610000610351562,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "과매도 속 추가 하락",
-              "text": "매도 압력과 과매도 우려가 제기된 가운데 반등하지 못하고 낙폭을 키워가는 흐름이 이어짐"
+              "title": "약세 흐름 지속",
+              "text": "별다른 소식 없이 하락세가 이어지며 장 내내 매수세가 살아나지 못하는 모습을 보임"
             },
             {
               "time": "마감",
@@ -260,8 +260,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 17.610000610351562,
               "is_close": true,
               "date": "2026-10-30",
-              "title": "낙폭 확대 마감",
-              "text": "장중 내내 하락세를 벗어나지 못하며 하루 중 가장 낮은 수준 부근에서 거래를 마감"
+              "title": "낙폭 키우며 마감",
+              "text": "장 후반으로 갈수록 하락폭이 더 커지며 하루 중 가장 낮은 수준에서 거래를 마침"
             }
           ],
           "slot_total": 2,
@@ -278,7 +278,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-31-us.md",
       "refreshed_at": "2026-10-31 07:01:07 KST",
-      "slots_refreshed_at": "2026-10-31 22:35:13 KST"
+      "slots_refreshed_at": "2026-11-01 03:27:38 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
