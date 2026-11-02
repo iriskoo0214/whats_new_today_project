@@ -1,10 +1,10 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-02 18:00:58 KST",
-  "refreshed": [
-    "kr"
+  "generated_at": "2026-11-02 23:10:47 KST",
+  "refreshed": [],
+  "slots_refreshed": [
+    "us"
   ],
-  "slots_refreshed": [],
   "default": "kr",
   "markets": {
     "us": {
@@ -51,8 +51,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 258.2799987792969,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "소폭 약세 흐름",
-              "text": "장중 내내 큰 변동 없이 약보합권에서 등락하며 하루를 보냄"
+              "title": "소폭 약세 지속",
+              "text": "장중 핵심 리더로 재부각됐다는 평가에도 매수세로 이어지지 못하며 약보합권에 머무름"
             },
             {
               "time": "마감",
@@ -61,8 +61,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 258.2799987792969,
               "is_close": true,
               "date": "2026-10-30",
-              "title": "낙폭 거의 그대로",
-              "text": "이전 시점과 비슷한 수준의 약세가 이어지며 특별한 반전 없이 마무리됨"
+              "title": "낙폭 유지한 채 마감",
+              "text": "긍정적 평가가 나왔음에도 주가 반등은 제한적이었고 하루 내내 약세권을 벗어나지 못한 채 마무리"
             }
           ],
           "slot_total": 2,
@@ -86,8 +86,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 530.1400146484375,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "실적 발표 속 약세",
-              "text": "매출 증가 소식에도 주가는 하락세를 보이며 장중 낙폭이 이어지는 모습"
+              "title": "낙폭 확대 흐름",
+              "text": "기기 관련 소식과 오류 발표가 잇따른 가운데 하락폭이 점차 커지며 저점 부근까지 밀림"
             },
             {
               "time": "마감",
@@ -96,8 +96,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 530.1400146484375,
               "is_close": true,
               "date": "2026-10-30",
-              "title": "하락폭 더 확대",
-              "text": "우량주로 꼽히는 분석 기사가 나왔음에도 매도세가 이어지며 낙폭이 오히려 커짐"
+              "title": "하루 중 가장 큰 낙폭",
+              "text": "저녁 내내 이어진 여러 제품 관련 뉴스에도 반등 모멘텀을 찾지 못하고 낙폭을 더 키우며 마감"
             }
           ],
           "slot_total": 2,
@@ -143,8 +143,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 31.719999313354492,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "낙폭 깊어지는 중",
-              "text": "장 후반으로 갈수록 하락폭이 커지며 하루 중 가장 큰 낙폭을 기록 중"
+              "title": "낙폭 확대 흐름",
+              "text": "별다른 소식 없이 매도세가 이어지며 하락폭이 점차 커지는 모습을 보임"
             },
             {
               "time": "마감",
@@ -153,8 +153,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 31.719999313354492,
               "is_close": true,
               "date": "2026-10-30",
-              "title": "약세 흐름 지속",
-              "text": "직전보다는 낙폭을 다소 줄였으나 여전히 뚜렷한 약세권에서 하루를 마감"
+              "title": "하루 중 저점 근접 마감",
+              "text": "장중 내내 약세가 이어졌고 낙폭을 회복하지 못한 채 하루 중 가장 낮은 수준에서 마무리"
             }
           ],
           "slot_total": 2,
@@ -193,8 +193,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 213.66000366210938,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "파트너십 소식에도 약세",
-              "text": "보안 강화 협력과 파트너사 호재가 전해졌지만 주가는 하락세를 벗어나지 못함"
+              "title": "낙폭 확대 지속",
+              "text": "매출 전망 상향과 신규 계약 소식에도 불구하고 하락세가 이어지며 낙폭이 점차 커짐"
             },
             {
               "time": "마감",
@@ -203,8 +203,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 213.66000366210938,
               "is_close": true,
               "date": "2026-10-30",
-              "title": "낙폭 더 커지며 마감",
-              "text": "긍정적 분석과 파트너사 소식에도 매도 압력이 커지며 하루 중 최저 수준으로 마무리"
+              "title": "하루 중 최대 낙폭 마감",
+              "text": "여러 호재성 뉴스가 늦은 시간 집중됐지만 주가 흐름을 돌리지 못하고 하락폭을 더 키운 채 마감"
             }
           ],
           "slot_total": 2,
@@ -250,8 +250,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 17.610000610351562,
               "is_close": false,
               "date": "2026-10-30",
-              "title": "약세 흐름 지속",
-              "text": "별다른 소식 없이 장중 내내 하락세가 이어지며 낙폭이 점차 커지는 모습"
+              "title": "약세 흐름 이어짐",
+              "text": "특별한 소식 없이 하락세가 지속되며 낙폭이 점차 벌어지는 모습을 보임"
             },
             {
               "time": "마감",
@@ -260,8 +260,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 17.610000610351562,
               "is_close": true,
               "date": "2026-10-30",
-              "title": "낙폭 확대로 마감",
-              "text": "반등 시도 없이 약세가 이어지며 하루 중 가장 큰 하락폭으로 거래를 마침"
+              "title": "하루 중 저점 부근 마감",
+              "text": "반등 시도 없이 약세가 이어졌고 하루 중 가장 낮은 수준 부근에서 거래를 마무리"
             }
           ],
           "slot_total": 2,
@@ -278,7 +278,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-31-us.md",
       "refreshed_at": "2026-10-31 07:01:07 KST",
-      "slots_refreshed_at": "2026-11-02 05:26:41 KST"
+      "slots_refreshed_at": "2026-11-02 23:10:47 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
