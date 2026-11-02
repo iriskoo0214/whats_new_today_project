@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-02 09:20:46 KST",
+  "generated_at": "2026-11-02 09:35:34 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -319,14 +319,14 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-30",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 1417000.0,
-              "pct": -0.07,
+              "time": "9:10AM",
+              "price": 1403000.0,
+              "pct": -1.06,
               "prev_close": 1418000.0,
               "is_close": false,
               "date": "2026-11-02",
-              "title": "장 초반 소폭 약세",
-              "text": "인텔 실적 쇼크發 반도체주 동반 하락 속에 메모리 완판 소식에도 낙폭은 크지 않은 편"
+              "title": "美 반도체 쇼크 여파 약세",
+              "text": "나스닥 급락 여파로 코스피가 1%대 하락 출발하며 장 초반부터 동반 내림세를 보이는 중"
             }
           ],
           "slot_total": 4,
@@ -366,14 +366,14 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-30",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 219500.0,
-              "pct": -2.44,
+              "time": "9:10AM",
+              "price": 217500.0,
+              "pct": -3.33,
               "prev_close": 225000.0,
               "is_close": false,
               "date": "2026-11-02",
-              "title": "장 초반 낙폭 확대",
-              "text": "메모리 완판 소식과 AI 통신망 관련 호재에도 불구하고 개장 직후부터 하락폭이 커지는 모습"
+              "title": "장 초반 3%대 급락",
+              "text": "美 기술주 급락 여파로 코스피가 약세 출발한 가운데 하락폭이 시장 평균보다 크게 벌어진 상태"
             }
           ],
           "slot_total": 4,
@@ -413,14 +413,14 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-30",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 699000.0,
-              "pct": 0.43,
+              "time": "9:10AM",
+              "price": 729000.0,
+              "pct": 4.74,
               "prev_close": 696000.0,
               "is_close": false,
               "date": "2026-11-02",
-              "title": "장 초반 강세 유지",
-              "text": "필리조선소 경영권 방산 계열 이관 소식 속에 방산주 성장 기대감이 더해지며 상승 흐름"
+              "title": "장 초반 강세 출발",
+              "text": "美 군함 수주와 방산 계열 지분 매각 소식이 겹치며 장 초반부터 뚜렷한 오름세를 보이는 중"
             }
           ],
           "slot_total": 4,
@@ -460,14 +460,14 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-30",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 146200.0,
-              "pct": -2.99,
+              "time": "9:10AM",
+              "price": 148400.0,
+              "pct": -1.53,
               "prev_close": 150700.0,
               "is_close": false,
               "date": "2026-11-02",
-              "title": "장 초반 약세 지속",
-              "text": "가전 구독 특화카드 출시 소식에도 매수세가 붙지 못하며 개장 초부터 낙폭이 커지는 중"
+              "title": "장 초반 약세 흐름",
+              "text": "가전 구독 카드 출시 소식에도 매수세가 붙지 못하며 개장 초반부터 하락세가 이어지는 중"
             }
           ],
           "slot_total": 4,
@@ -507,14 +507,14 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-10-30",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 272750.0,
-              "pct": -3.28,
+              "time": "9:10AM",
+              "price": 279500.0,
+              "pct": -0.89,
               "prev_close": 282000.0,
               "is_close": false,
               "date": "2026-11-02",
-              "title": "장 초반 급락 출발",
-              "text": "코스피 전반의 약세 속에 인증중고차 신뢰도 강화 소식에도 하락폭이 크게 벌어진 채 거래"
+              "title": "장 초반 소폭 약세",
+              "text": "인증중고차 정보 공개 확대 소식이 나온 가운데 코스피 약세 속 소폭 내림세로 출발한 상태"
             }
           ],
           "slot_total": 4,
@@ -545,7 +545,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-30-kr.md",
       "refreshed_at": "2026-10-30 18:01:04 KST",
-      "slots_refreshed_at": "2026-11-02 09:20:46 KST"
+      "slots_refreshed_at": "2026-11-02 09:35:34 KST"
     }
   }
 };
