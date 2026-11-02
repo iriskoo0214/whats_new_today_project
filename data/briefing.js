@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-02 09:35:34 KST",
+  "generated_at": "2026-11-02 10:40:51 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -325,8 +325,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 1418000.0,
               "is_close": false,
               "date": "2026-11-02",
-              "title": "美 반도체 쇼크 여파 약세",
-              "text": "나스닥 급락 여파로 코스피가 1%대 하락 출발하며 장 초반부터 동반 내림세를 보이는 중"
+              "title": "장 초반 약세 출발",
+              "text": "개장 직후 하락세로 시작하며 전 거래일 수준을 밑도는 흐름을 보임"
+            },
+            {
+              "time": "10:20AM",
+              "price": 1457000.0,
+              "pct": 2.75,
+              "prev_close": 1418000.0,
+              "is_close": false,
+              "date": "2026-11-02",
+              "title": "상승 전환 성공",
+              "text": "코스피가 미 증시 급락 영향을 벗어나 반등하는 가운데 낙폭을 지우고 강세로 돌아섬"
             }
           ],
           "slot_total": 4,
@@ -372,8 +382,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 225000.0,
               "is_close": false,
               "date": "2026-11-02",
-              "title": "장 초반 3%대 급락",
-              "text": "美 기술주 급락 여파로 코스피가 약세 출발한 가운데 하락폭이 시장 평균보다 크게 벌어진 상태"
+              "title": "장 초반 급락 출발",
+              "text": "개장과 함께 낙폭이 크게 벌어지며 약세로 하루를 시작함"
+            },
+            {
+              "time": "10:20AM",
+              "price": 224250.0,
+              "pct": -0.33,
+              "prev_close": 225000.0,
+              "is_close": false,
+              "date": "2026-11-02",
+              "title": "낙폭 큰 폭 축소",
+              "text": "올림픽 후원, AI 기지국 효율화 등 소식이 이어진 가운데 하락폭을 대부분 만회함"
             }
           ],
           "slot_total": 4,
@@ -420,7 +440,17 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-11-02",
               "title": "장 초반 강세 출발",
-              "text": "美 군함 수주와 방산 계열 지분 매각 소식이 겹치며 장 초반부터 뚜렷한 오름세를 보이는 중"
+              "text": "필리조선소 경영권 방산 계열 이관 소식과 함께 개장 초반부터 큰 폭으로 상승함"
+            },
+            {
+              "time": "10:20AM",
+              "price": 724000.0,
+              "pct": 4.02,
+              "prev_close": 696000.0,
+              "is_close": false,
+              "date": "2026-11-02",
+              "title": "상승폭 소폭 둔화",
+              "text": "장중 상승세가 이어지는 가운데서도 오전 초반 고점 대비 오름폭이 다소 줄어듦"
             }
           ],
           "slot_total": 4,
@@ -466,8 +496,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 150700.0,
               "is_close": false,
               "date": "2026-11-02",
-              "title": "장 초반 약세 흐름",
-              "text": "가전 구독 카드 출시 소식에도 매수세가 붙지 못하며 개장 초반부터 하락세가 이어지는 중"
+              "title": "장 초반 약세 출발",
+              "text": "개장 직후 하락세로 시작하며 전 거래일 대비 약세권에서 출발함"
+            },
+            {
+              "time": "10:20AM",
+              "price": 154800.0,
+              "pct": 2.72,
+              "prev_close": 150700.0,
+              "is_close": false,
+              "date": "2026-11-02",
+              "title": "상승 전환 뚜렷",
+              "text": "BC카드와의 가전 구독 특화카드 출시 소식이 잇따르며 하락분을 지우고 강세로 전환함"
             }
           ],
           "slot_total": 4,
@@ -513,8 +553,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 282000.0,
               "is_close": false,
               "date": "2026-11-02",
-              "title": "장 초반 소폭 약세",
-              "text": "인증중고차 정보 공개 확대 소식이 나온 가운데 코스피 약세 속 소폭 내림세로 출발한 상태"
+              "title": "장 초반 약세 출발",
+              "text": "개장 직후 소폭 하락하며 보합권 아래에서 하루를 시작함"
+            },
+            {
+              "time": "10:20AM",
+              "price": 287500.0,
+              "pct": 1.95,
+              "prev_close": 282000.0,
+              "is_close": false,
+              "date": "2026-11-02",
+              "title": "상승 전환 성공",
+              "text": "저평가 논란과 모터스포츠, 유럽 올해의 차 도전 소식이 겹친 가운데 약세를 딛고 올라섬"
             }
           ],
           "slot_total": 4,
@@ -545,7 +595,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-10-30-kr.md",
       "refreshed_at": "2026-10-30 18:01:04 KST",
-      "slots_refreshed_at": "2026-11-02 09:35:34 KST"
+      "slots_refreshed_at": "2026-11-02 10:40:51 KST"
     }
   }
 };
