@@ -1,15 +1,15 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-04 02:44:46 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-11-04 07:01:06 KST",
+  "refreshed": [
     "us"
   ],
-  "default": "kr",
+  "slots_refreshed": [],
+  "default": "us",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
-      "label": "미국 증시 요약 2026. 11. 3. 7:01AM",
+      "label": "미국 증시 요약 2026. 11. 4. 7:01AM",
       "chips": [
         "전체",
         "IBM",
@@ -22,27 +22,27 @@ window.NOTEFOLIO_BRIEFING = {
         "오후 6시, 국내 시장을 움직인 이유를 확인하세요."
       ],
       "next": "kr",
-      "headline": "해외 5종목 중 0종목 상승, 5종목 하락 — 소파이테크놀로지가 -0.95%로 낙폭이 가장 작았고 아이온큐가 -6.23%로 가장 부진했습니다.",
-      "market_headline": "이란 종전 기대에 유가 7% 급락, AI·반도체 매도세 못 막아",
+      "headline": "해외 5종목 중 4종목 상승, 1종목 하락 — 아이온큐가 +6.46%로 가장 많이 올랐고 IBM이 -0.98%로 가장 부진했습니다.",
+      "market_headline": "美 중간선거 경계 속 반도체주 강세에 나스닥 반등",
       "market_card": {
-        "title": "뉴욕증시 혼조 마감...다우 0.43% 상승, 나스닥 1.07% 하락",
+        "title": "뉴욕증시 혼조 마감...나스닥 0.83% 반등, 다우는 0.38% 하락",
         "bullets": [
-          "AI·반도체주 약세에 나스닥 하락 주도",
-          "유가 7% 급락에 국채금리 8주 만에 최저",
-          "美 중간선거 하루 앞두고 혼조 마감"
+          "반도체 강세에 속슬 7.3% 급등",
+          "10년물 금리 4.96%·달러 동반 상승",
+          "美 중간선거 결과에 뉴욕증시 촉각"
         ]
       },
       "cards": [
         {
           "stock": "IBM",
           "ticker": "IBM",
-          "title": "IBM - IT 시장 핵심 리더로 재부각",
-          "body": "IBM은 급성장하는 IT 시장 곳곳에서 핵심 리더로 다시 부각되고 있다는 평가 속에서도 -2.06% 내린 <b>252.51달러</b> 마감.",
-          "pct": -2.06,
-          "price": 252.50999450683594,
-          "prev_close": 257.80999755859375,
+          "title": "IBM - 뚜렷한 재료 없이 소폭 하락",
+          "body": "IBM은 특별한 모멘텀 없이 -0.98% 내린 <b>250.04달러</b> 마감.",
+          "pct": -0.98,
+          "price": 250.0399932861328,
+          "prev_close": 252.50999450683594,
           "currency": "USD",
-          "as_of": "2026-11-02",
+          "as_of": "2026-11-03",
           "slots": [
             {
               "time": "11:30PM",
@@ -51,31 +51,55 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 252.50999450683594,
               "is_close": false,
               "date": "2026-11-03",
-              "title": "소폭 약세 흐름",
-              "text": "장중 약세가 이어지는 가운데 거버넌스 리더십과 AI 생산성 성과를 다룬 기사들이 잇따라 나왔으나 주가 반등으로 이어지지는 못하는 모습"
+              "title": "약보합 흐름",
+              "text": "세일즈포스와의 매출 성장 비교 기사 속에 완만한 하락세가 장중 내내 이어짐"
+            },
+            {
+              "time": "마감",
+              "price": 250.0399932861328,
+              "pct": -0.98,
+              "prev_close": 252.50999450683594,
+              "is_close": true,
+              "date": "2026-11-03",
+              "title": "낙폭 소폭 축소",
+              "text": "양자 프로세서 암호화 시연 소식에도 매수세는 크지 않아 하락세를 완전히 되돌리지 못함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "IBM(IBM), 급성장 IT 시장 곳곳서 핵심 리더로 다시 부각",
-              "original": "IBM(IBM), 급성장 IT 시장 곳곳서 핵심 리더로 다시 부각",
-              "source": "Simply Wall St",
-              "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdUllZnBuWVFpS2dhYTNhTV9HTElNQ1JoNWswSFpTUlF0azBSS3V1QmtvOGxsX0ROM29JVnYwTXJLSGt6ekhkRFdOeVBsUExZS2p2aGhURTlJV3ZWb2JxaE1Mc1dzWGlhNEhJZHNiTV82SEx1MFdoUGRqVVFxV0hwUVh1RURnVDVwQXJRV3dIZzhwTnNTR3pnN25sbnJPUjZXSHF1M1RrQzVNS0VFaHpXVDl3Y1JnZXk2WXd6QThrOU9hLWxqYnlxMG5venNCOGxxRXNhVkEwQ2o1VFhCVFg1VUFWRzTSAa8BQVVfeXFMTV81WFVjZzVKYnNMUVRhbFducGZzUW12NlZWa1FaVzZiRkk2Mlp0U3lsZG1WTGI1dWNaMHJrV0JQcGF3YUduUDJ5RWR4bHNvTVpjdVlXME5IdDFtMjV4MWk5SWdJQ2g0Vkx2d3lXc2JDZkRCLUJmeGZvbmpwczJmNVNfcGFDRW9NRkc3QS1QSzY4cWhSWFJyVEluekQ1TDJmSkFwcU1Rc0R5T05ZTlczcw?oc=5",
-              "published": "2026-11-02T12:26:21+09:00"
+              "title": "세일즈포스 vs. IBM: 꾸준한 매출 확장 대 더딘 매출 성장 비교",
+              "original": "Salesforce vs. IBM: Comparing Consistent Revenue Expansion Against Slow Sales Growth",
+              "source": "Motley Fool",
+              "url": "https://www.fool.com/coverage/charts/2026/11/03/salesforce-vs-ibm-comparing-consistent-revenue-expansion-against-slow-sales-growth/",
+              "published": "2026-11-04T05:43:52+09:00"
+            },
+            {
+              "title": "구글·IBM 자격증 과정, 코세라에서 듣기 전에 알아두면 좋은 것들",
+              "original": "구글·IBM 자격증 과정, 코세라에서 듣기 전에 알아두면 좋은 것들",
+              "source": "GeekNews",
+              "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1uQkV2bHV5U1VmODJXT3cwV09LdzA2SVlza2JRV0xXSC02anRpWVl3WkE5TThIV1VaeTNVS2xpMFVGZjk4LWU2d1piOA?oc=5",
+              "published": "2026-11-04T03:25:01+09:00"
+            },
+            {
+              "title": "Quantum X Labs, IBM 양자 프로세서에서 암호화 기술 시연",
+              "original": "Quantum X Labs, IBM 양자 프로세서에서 암호화 기술 시연",
+              "source": "Investing.com 한국어",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBsclhoaC1ySjFwMDB4VmVfcTNGNU9pRWFqTEZjSVFsUlR6VEwwXy0xdnZtdnZub3l1VTVPOEhxbk1OaVNENnFXMTNINno2ZlZQY2lTdnlqa2M4N3k0TUxqWk9vZi1UQWo4WW5NVVVwaTg?oc=5",
+              "published": "2026-11-03T21:01:00+09:00"
             }
           ]
         },
         {
           "stock": "마이크로소프트",
           "ticker": "MSFT",
-          "title": "마이크로소프트 - 루멘과 AI 인프라 협력 확대",
-          "body": "마이크로소프트는 루멘과 기업용 AI 네트워크 공동 판매 및 AI 인프라 협력을 확대한다는 소식에도 -2.83% 내린 <b>507.12달러</b> 마감.",
-          "pct": -2.83,
-          "price": 507.1199951171875,
-          "prev_close": 521.9099731445312,
+          "title": "마이크로소프트 - AI 베팅 기대감에 강세",
+          "body": "마이크로소프트는 AI 데이터센터 투자 확대와 'AI에 큰 베팅'을 건 성장 스토리가 부각되며 +2.74% 오른 <b>520.99달러</b> 마감. 성장 스토리가 이제 시작이라는 분석도 나오며 투자심리가 개선된 모습이다.",
+          "pct": 2.74,
+          "price": 520.989990234375,
+          "prev_close": 507.1199951171875,
           "currency": "USD",
-          "as_of": "2026-11-02",
+          "as_of": "2026-11-03",
           "slots": [
             {
               "time": "11:30PM",
@@ -84,45 +108,55 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 507.1199951171875,
               "is_close": false,
               "date": "2026-11-03",
-              "title": "강세 전환 유지",
-              "text": "희망퇴직과 대규모 설비투자 소식, 감가상각 우려 속에서도 낙폭을 딛고 완만한 오름세를 이어가는 흐름이 장중 내내 유지되는 중"
+              "title": "AI 기대감에 상승",
+              "text": "AI 투자 확대와 데이터센터 관련 성장 기대가 부각되며 상승 흐름이 장 초반부터 이어짐"
+            },
+            {
+              "time": "마감",
+              "price": 520.989990234375,
+              "pct": 2.74,
+              "prev_close": 507.1199951171875,
+              "is_close": true,
+              "date": "2026-11-03",
+              "title": "상승폭 확대 마감",
+              "text": "AI 빅벳 스토리가 재조명되며 오후 들어 매수세가 더해져 상승폭을 키운 채 하루를 마무리"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "Microsoft와 Lumen, 기업용 AI 네트워크 공동 판매 확대",
-              "original": "Microsoft와 Lumen, 기업용 AI 네트워크 공동 판매 확대",
-              "source": "Unite.AI",
-              "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYzdBZlB5cnZhZ19fRVF3ZU5CellPa3FRdjNzZmthMHNaUF8wT0l3TWZfUXZFWFJEeEtMUVBrWFg5Sm1neHpaYkNiMHpxcWN4SFpMWDFHM1BTTXNrajZqN1IwRU9PaDZTYkpaa0pfUVRHYjBxcVhPWHc0X2YwNFhxWUdfU3E0b045ckxQXzF2dHBxODg?oc=5",
-              "published": "2026-11-03T03:15:01+09:00"
+              "title": "Microsoft Corp (MSFT) 주식 움직였습니다 상승 3.09%에 11월3일: 전체 분석",
+              "original": "Microsoft Corp (MSFT) 주식 움직였습니다 상승 3.09%에 11월3일: 전체 분석",
+              "source": "TradingKey",
+              "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWUE2bmJLbi1jS01Ua09CYlNuUWVnZFN2VzZoWXp5SmQyUUt2Z2RRQThqWlNtVXNvTFhDRzhlN0JkeXI1ZVpnOHJQN2JibG9GdzlRdXNJNjdrZERiRGgxRkxSRXhzRlROY2xZLVowTlZnTEpSUjdvZzExYVJoV2pra1d3NHNBQnN3dnBpWkNjOA?oc=5",
+              "published": "2026-11-04T05:19:43+09:00"
             },
             {
-              "title": "경력 경로 다변화 제안한 마이크로소프트 임원",
-              "original": "경력 경로 다변화 제안한 마이크로소프트 임원",
-              "source": "토큰포스트",
-              "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE04N2xzOUJabVk2Tm5FblI5S2ZxZThqaHd2U3NZYUhETUtJRzQ2SFBCTDlqeHlCX1JQU1Y2b0RyZVVCazZrT2VJLTUzNWpLaGV50gFWQVVfeXFMT3lDRW1iZkVmX0syZVdPLUpfWlBLb1dXc2FWdTl2TzZkRmpjRnRwY3pWWFdzZ2hCRWl2LUxMVkVmdVU0cm9vZW01SnBQM3lhWWtpaUlJaFE?oc=5",
-              "published": "2026-11-02T23:07:07+09:00"
+              "title": "마이크로소프트와 오라클은 이 성장주 없이는 AI 데이터센터를 식힐 수 없다. 급등할 수 있는 이유는?",
+              "original": "Microsoft and Oracle Can't Cool AI Data Centers Without This Growth Stock. Here's Why It Could Soar.",
+              "source": "Motley Fool",
+              "url": "https://www.fool.com/investing/2026/11/03/microsoft-and-oracle-cant-cool-ai-data-centers-wit/",
+              "published": "2026-11-04T04:51:00+09:00"
             },
             {
-              "title": "Lumen·마이크로소프트, AI 인프라 협력 확대",
-              "original": "Lumen·마이크로소프트, AI 인프라 협력 확대",
-              "source": "Investing.com 한국어",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5POVlQbmNsZkl5aXFuSGdVSVNZQms0OWl1R0lUYVFCeXpfRC1LbXY4ZVE3TExhNW1nM0ZjeEVHVzFfWGw3NlNXaFBHY2JuZXJCbmp0MFF2YlY5MFRrdS03TmdvaXVLMDJkajlSZFBxS1I?oc=5",
-              "published": "2026-11-02T22:37:00+09:00"
+              "title": "마이크로소프트(MSFT), AI에 big bet을 걸다: 성장 스토리는 이제 시작일까?",
+              "original": "Microsoft Corporation (MSFT) Is Betting Big on AI: Is Its Growth Story Just Getting Started?",
+              "source": "Insider Monkey",
+              "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-corporation-msft-betting-big-193555181.html",
+              "published": "2026-11-04T04:35:55+09:00"
             }
           ]
         },
         {
           "stock": "아이온큐",
           "ticker": "IONQ",
-          "title": "아이온큐 - 뚜렷한 재료 없이 급락",
-          "body": "아이온큐는 특별한 재료 없이 -6.23% 내린 <b>28.17달러</b> 마감.",
-          "pct": -6.23,
-          "price": 28.170000076293945,
-          "prev_close": 30.040000915527344,
+          "title": "아이온큐 - 한달 급락 딛고 반등",
+          "body": "아이온큐는 한 달 만에 32% 급락했던 데 따른 반등 기대 속에 +6.46% 오른 <b>29.99달러</b> 마감. 목표주가 34.32달러 강세 시나리오와 15.84달러 약세 시나리오가 함께 제시되며 투자자들의 관심이 집중된 모습이다.",
+          "pct": 6.46,
+          "price": 29.989999771118164,
+          "prev_close": 28.170000076293945,
           "currency": "USD",
-          "as_of": "2026-11-02",
+          "as_of": "2026-11-03",
           "slots": [
             {
               "time": "11:30PM",
@@ -131,23 +165,55 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 28.170000076293945,
               "is_close": false,
               "date": "2026-11-03",
-              "title": "오름폭 확대 중",
-              "text": "실적 발표를 앞두고 주가 전망을 둘러싼 엇갈린 평가가 나오는 가운데 매수세가 유입되며 상승폭을 꾸준히 키워가는 모습"
+              "title": "반등세 뚜렷",
+              "text": "한달간 급락 이후 반등 가능성이 제기된 가운데 저가 매수세가 유입되며 상승 흐름을 이어감"
+            },
+            {
+              "time": "마감",
+              "price": 29.989999771118164,
+              "pct": 6.46,
+              "prev_close": 28.170000076293945,
+              "is_close": true,
+              "date": "2026-11-03",
+              "title": "상승폭 더 키워 마감",
+              "text": "퀀텀 컴퓨팅 관련주 전반에 관심이 쏠리며 오후 들어 상승폭을 더 확대한 채 거래를 마감"
             }
           ],
           "slot_total": 2,
-          "news": []
+          "news": [
+            {
+              "title": "아이온큐, 한 달 만에 32% 급락: IONQ 주식은 가망이 없나, 반등을 앞두고 있나?",
+              "original": "IonQ Just Dropped 32% In a Month: Is IONQ Stock Hopeless or Ready for a Rebound?",
+              "source": "24/7 Wall St.",
+              "url": "https://247wallst.com/investing/2026/11/03/ionq-just-dropped-32-in-a-month-is-ionq-stock-hopeless-or-ready-for-a-rebound/",
+              "published": "2026-11-04T05:05:34+09:00"
+            },
+            {
+              "title": "아이온큐 주가 예측: 34.32달러 강세, 15.84달러 약세",
+              "original": "아이온큐 주가 예측: 34.32달러 강세, 15.84달러 약세",
+              "source": "FinanceFeeds",
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjNDdpVXk4c2JiNEgzbHR6UnJab2ZZNnZKaDNzSFN3LXZTaFcxSE1uVTg0WFhHSDdBam5WNl9MZzVjWmctazUzVUU4RzhGZ1JuWXVEQjlRM2gtVG1WLUZxOVQzV3g5cVVIRHpvaHBQdVNDenJJVWw3c05ZUlhUSEE?oc=5",
+              "published": "2026-11-04T01:40:36+09:00"
+            },
+            {
+              "title": "작스 애널리스트 블로그, 아이온큐·디웨이브 퀀텀·리게티 컴퓨팅·퀀텀 컴퓨팅 조명",
+              "original": "The Zacks Analyst Blog Highlights IonQ, D-Wave Quantum, Rigetti Computing and Quantum Computing",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-ionq-114800140.html",
+              "published": "2026-11-03T20:48:00+09:00"
+            }
+          ]
         },
         {
           "stock": "엔비디아",
           "ticker": "NVDA",
-          "title": "엔비디아 - 서울서 AI데이, 삼성·SK 결집",
-          "body": "엔비디아는 서울에서 'AI 데이'를 열고 삼성·SK·LG와 협력을 다지는 자리를 가졌으나 -1.26% 내린 <b>202.06달러</b> 마감. 엔비디아가 투자한 마벨이 루멘텀을 154조원에 인수하는 초대형 빅딜 소식도 전해지며 AI 반도체 생태계 재편 기대가 커지는 모습이다.",
-          "pct": -1.26,
-          "price": 202.05999755859375,
-          "prev_close": 204.63999938964844,
+          "title": "엔비디아 - 네이버 3대주주 등극·반등",
+          "body": "엔비디아는 네이버에 1조3412억원을 투자해 지분 4.13%를 확보하며 3대 주주로 올라선다는 소식과 함께 기술주 전반의 낙폭 과대 인식에 힘입어 +2.29% 오른 <b>206.69달러</b> 마감. 'LG전자, 엔비디아가 찜한 사운드하운드 AI와 파트너십' 소식도 더해지며 AMD 등 기술주와 함께 반등한 모습이다.",
+          "pct": 2.29,
+          "price": 206.69000244140625,
+          "prev_close": 202.05999755859375,
           "currency": "USD",
-          "as_of": "2026-11-02",
+          "as_of": "2026-11-03",
           "slots": [
             {
               "time": "11:30PM",
@@ -156,45 +222,55 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 202.05999755859375,
               "is_close": false,
               "date": "2026-11-03",
-              "title": "강한 상승세 지속",
-              "text": "시총 1위 등극 소식에 이어 신기술 공개와 신제품 기대감까지 겹치며 상승 흐름이 하루 내내 탄탄하게 이어지는 중"
+              "title": "기술주 반등 동참",
+              "text": "네이버 투자 확정과 LG전자 파트너십 소식이 겹치며 낙폭 과대 인식 속 반등세가 나타남"
+            },
+            {
+              "time": "마감",
+              "price": 206.69000244140625,
+              "pct": 2.29,
+              "prev_close": 202.05999755859375,
+              "is_close": true,
+              "date": "2026-11-03",
+              "title": "상승폭 다소 둔화",
+              "text": "장중 강한 반등 이후 오후 들어 상승 탄력이 다소 둔화되며 상승폭을 일부 반납한 채 유지"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "NVIDIA 앱 패널에 DLSS 그래픽 품질을 제어하는 ​​새로운 설정이 추가되었습니다.",
-              "original": "NVIDIA 앱 패널에 DLSS 그래픽 품질을 제어하는 ​​새로운 설정이 추가되었습니다.",
-              "source": "GameGPU",
-              "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPa1pzUXpBQzNBZnBOMTZxUGZpNC1RdGJwVU1PWWJRYjRuRTVVNmNBZXdhOVpQSWZwdkFWUTY4LXM2djVkYlV2V2FOUnJ1QWU3NHE1cFM3ZXNQUXlaeVJQcjM1NU90eUdJR3gtSVRnWmVZNWxvOGtaZ0JIRVM2VV9fMjZMSFJsYS11NW1KOHY5ejh0T21oTDQ1MkZxellGcjEwRFJsck5nemJZeTlYQU1Yc1J6elhhTGE0MWFn?oc=5",
-              "published": "2026-11-03T06:46:47+09:00"
+              "title": "엔비디아, 네이버에 1조3412억원 투자 확정⋯3대 주주로, 지분 4.13% 전망",
+              "original": "엔비디아, 네이버에 1조3412억원 투자 확정⋯3대 주주로, 지분 4.13% 전망",
+              "source": "아이뉴스24",
+              "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9QRW1OTlVtQmUxeDI2UnpRYk9EMGdta3pvYWZQZ2l3RDBxRl9NWXlPS3NINVVFaGVsX1pyQVNZbmhLazV4U29law?oc=5",
+              "published": "2026-11-04T06:46:36+09:00"
             },
             {
-              "title": "엔비디아, 서울서 'AI 데이' 개막···삼성·SK·LG와 AI 도원결의",
-              "original": "엔비디아, 서울서 'AI 데이' 개막···삼성·SK·LG와 AI 도원결의",
-              "source": "글로벌E",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qY3FJbGVaM3pWM3FXVElRbFg1WWwwMUIxN0RselloOThpa2RaT3JmR3IyT1NaUF9JcFZTZzQxSkdXZlNtcE81LXdtSmJPc19ZZjI5TVhkb2J3ZDFoVlpERHpENWM2Zmo3b3fSAW9BVV95cUxOcC1hQ0tMNW51NzVhMVJyVXl6N2tDV0xHTm44YWN6QlRYX3VqLXRMZ2RaTm9Vb3Z2RWdPTlNMRFhlWEJENkVxdVlCMHJQUW1RTmtNNWNHQnNCX3NXcWFRU2dKNkptajk0bUhiV0hlcEU?oc=5",
-              "published": "2026-11-03T06:43:46+09:00"
+              "title": "[단독]LG전자, 엔비디아가 찜한 '사운드하운드 AI'와 전략적 파트너십",
+              "original": "[단독]LG전자, 엔비디아가 찜한 '사운드하운드 AI'와 전략적 파트너십",
+              "source": "더트래커",
+              "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBCNnAzdnlub1o3Q1BWTmxUREYxbUJEbGVaVXMxZWtzTU9tQkxNVjBraHJfZ1hiYkduekRyeE9aUmZ4ZWZ3Y2RlQXVqWkVXS0UyemV6emdXRWQ?oc=5",
+              "published": "2026-11-04T06:39:01+09:00"
             },
             {
-              "title": "엔비디아 투자한 마벨, 루멘텀 154조에 인수⋯AI 반도체 초대형 빅딜",
-              "original": "엔비디아 투자한 마벨, 루멘텀 154조에 인수⋯AI 반도체 초대형 빅딜",
-              "source": "엠투데이",
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9GUG0xRzZLUmh4dGp0Y1RsWkVpcFFpeGdxaHZ2d0YtOUFjQ0tBUXBHaGUwOWhSV3l6dFF3NG55dWdlaEdPR2pIYW5uWWwxS3EwMkdaNFlQTnBIdTNvVVNCSkl4cEZhUnBsNC1xbjdDbw?oc=5",
-              "published": "2026-11-03T06:25:02+09:00"
+              "title": "＇너무 떨어졌나＇ 기술주 숨통 트였다…엔비디아·AMD 줄줄이 반등",
+              "original": "＇너무 떨어졌나＇ 기술주 숨통 트였다…엔비디아·AMD 줄줄이 반등",
+              "source": "한국경제TV",
+              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBfUDZ0dWJJMVlCclNtZUthamQtUVowOWFfTWhaeWFvUlBSckYwOFZLN25NWDM0S2pYenRHS2w2NGcyZEVmWkN5UVU5MXNSYURJLWUzUGQ2dThXU2pwLTJfR0lkTkJzR0FZanhZM1oyR1hPTHlPZ01Z?oc=5",
+              "published": "2026-11-04T06:31:00+09:00"
             }
           ]
         },
         {
           "stock": "소파이테크놀로지",
           "ticker": "SOFI",
-          "title": "소파이테크놀로지 - 재료 없이 소폭 하락",
-          "body": "소파이테크놀로지는 특별한 재료 없이 -0.95% 내린 <b>16.60달러</b> 마감.",
-          "pct": -0.95,
-          "price": 16.600000381469727,
-          "prev_close": 16.760000228881836,
+          "title": "소파이테크놀로지 - 강한 3분기 실적에 강세",
+          "body": "소파이테크놀로지는 강력한 3분기 실적과 2027년 가이던스로 공정가치가 상승했다는 평가 속에 +1.02% 오른 <b>16.77달러</b> 마감. 실적 발표 이후 일주일 만에 15% 급등해 바닥을 찍은 신호라는 분석도 나오는 모습이다.",
+          "pct": 1.02,
+          "price": 16.770000457763672,
+          "prev_close": 16.600000381469727,
           "currency": "USD",
-          "as_of": "2026-11-02",
+          "as_of": "2026-11-03",
           "slots": [
             {
               "time": "11:30PM",
@@ -203,17 +279,48 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 16.600000381469727,
               "is_close": false,
               "date": "2026-11-03",
-              "title": "완만한 상승 지속",
-              "text": "최근 일주일간 이어진 급등세 속에 실적 발표가 저점 신호였다는 평가가 나오며 오늘도 소폭 오름세를 이어가는 흐름"
+              "title": "실적 모멘텀 지속",
+              "text": "3분기 실적 호조와 2027년 가이던스 상향이 호재로 작용하며 완만한 상승세가 이어짐"
+            },
+            {
+              "time": "마감",
+              "price": 16.770000457763672,
+              "pct": 1.02,
+              "prev_close": 16.600000381469727,
+              "is_close": true,
+              "date": "2026-11-03",
+              "title": "상승세 유지 마감",
+              "text": "일주일 새 급등 이후에도 추가 매수세가 붙으며 상승분을 지킨 채 거래를 마무리"
             }
           ],
           "slot_total": 2,
-          "news": []
+          "news": [
+            {
+              "title": "소파이 주식, 2026년 11월에 매수해도 될까?",
+              "original": "Is SoFi Stock a Buy in November 2026?",
+              "source": "Motley Fool",
+              "url": "https://www.fool.com/investing/2026/11/03/is-sofi-stock-a-buy-in-november-2026/",
+              "published": "2026-11-04T03:43:00+09:00"
+            },
+            {
+              "title": "소파이(SOFI) 주식, 강력한 3분기 실적과 2027년 가이던스에 공정가치 상승",
+              "original": "SoFi (SOFI) Stock Fair Value Edges Higher After Strong Q3 And 2027 Guidance",
+              "source": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/sofi-sofi-stock-fair-value-100701804.html",
+              "published": "2026-11-03T19:07:01+09:00"
+            },
+            {
+              "title": "소파이, 일주일 만에 15% 급등: 실적 발표가 바닥을 찍은 신호였나?",
+              "original": "SoFi Just Gained 15% in a Week: Did Earnings Mark the Bottom?",
+              "source": "TIKR",
+              "url": "https://www.tikr.com/blog/sofi-just-gained-15-in-a-week-did-earnings-mark-the-bottom?ref=yahoofinance&tlnk=yf-261103-7m95mf44",
+              "published": "2026-11-03T18:04:40+09:00"
+            }
+          ]
         }
       ],
-      "markdown": "briefings/2026-11-03-us.md",
-      "refreshed_at": "2026-11-03 07:01:03 KST",
-      "slots_refreshed_at": "2026-11-04 02:44:46 KST"
+      "markdown": "briefings/2026-11-04-us.md",
+      "refreshed_at": "2026-11-04 07:01:06 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
