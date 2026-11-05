@@ -1,10 +1,10 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-05 18:00:57 KST",
-  "refreshed": [
-    "kr"
+  "generated_at": "2026-11-05 23:10:47 KST",
+  "refreshed": [],
+  "slots_refreshed": [
+    "us"
   ],
-  "slots_refreshed": [],
   "default": "kr",
   "markets": {
     "us": {
@@ -51,8 +51,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 250.0399932861328,
               "is_close": false,
               "date": "2026-11-04",
-              "title": "양자·보안 소식에 강세",
-              "text": "연세대 양자칩 가동과 헤론 R2 퀀텀 암호화 적용 소식이 전해지며 매수세가 유입돼 상승 흐름이 이어짐"
+              "title": "장중 상승세 지속",
+              "text": "양자 오류 정정 플랫폼 공동 개발 소식이 전해지며 개장 전부터 완만한 오름세가 이어짐"
             },
             {
               "time": "마감",
@@ -61,8 +61,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 250.0399932861328,
               "is_close": true,
               "date": "2026-11-04",
-              "title": "오름폭 유지하며 마감",
-              "text": "AI 보안 도구 출시로 저평가 분석까지 나오며 장 후반까지 상승세를 지켜내 강세로 거래를 마침"
+              "title": "상승폭 소폭 확대",
+              "text": "AMD와의 협업 소식에 엇갈린 반응 속에서도 오름세를 유지하며 장중 고점 부근에서 마감"
             }
           ],
           "slot_total": 2,
@@ -108,8 +108,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 520.989990234375,
               "is_close": false,
               "date": "2026-11-04",
-              "title": "선거 랠리에 급등 출발",
-              "text": "선거 이후 증시 전반 랠리 속에 매수 신호가 포착되며 신규 진입가 대비 큰 폭으로 뛰어오름"
+              "title": "강한 상승 흐름",
+              "text": "데이터센터 가치 재평가와 매수 신호 포착 소식이 겹치며 장중 내내 뚜렷한 상승세를 보임"
             },
             {
               "time": "마감",
@@ -118,8 +118,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 520.989990234375,
               "is_close": true,
               "date": "2026-11-04",
-              "title": "상승폭 더 키우며 마감",
-              "text": "250억 달러 규모 채권 발행 소식에도 매수세가 꺾이지 않고 오히려 상승폭을 확대하며 거래를 마침"
+              "title": "상승폭 큰 폭 확대",
+              "text": "긍정적 평가가 이어지는 가운데 장 후반 들어 상승폭이 더욱 커지며 높은 수준에서 마감"
             }
           ],
           "slot_total": 2,
@@ -165,8 +165,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 29.989999771118164,
               "is_close": false,
               "date": "2026-11-04",
-              "title": "파트너십 소식에도 약세",
-              "text": "퀀텀CT와의 파트너십 확대 소식에도 불구하고 실적 발표를 앞둔 경계감에 하락세로 돌아섬"
+              "title": "약세 흐름 지속",
+              "text": "한 달새 큰 폭 하락 이후 실적 발표를 앞두고 투자심리가 위축되며 하락세가 이어짐"
             },
             {
               "time": "마감",
@@ -175,8 +175,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 29.989999771118164,
               "is_close": true,
               "date": "2026-11-04",
-              "title": "낙폭 줄이며 마감 임박",
-              "text": "매수·매도 판단을 저울질하는 실적 프리뷰 기사가 나온 가운데 장 후반 낙폭을 일부 만회함"
+              "title": "낙폭 소폭 확대",
+              "text": "장 후반 들어 매수세가 붙지 못하며 낙폭이 조금 더 커진 채로 하루를 마무리함"
             }
           ],
           "slot_total": 2,
@@ -217,13 +217,13 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "11:30PM",
-              "price": 204.72500610351562,
-              "pct": -0.95,
+              "price": 203.5800018310547,
+              "pct": -1.5,
               "prev_close": 206.69000244140625,
               "is_close": false,
               "date": "2026-11-04",
-              "title": "선거 여파로 약세 출발",
-              "text": "다우지수가 급등한 중간선거 여파 속에서도 엔비디아는 홀로 하락하며 약세로 장을 시작함"
+              "title": "약세 전환 뚜렷",
+              "text": "나스닥 선물 약세 속 주요 기술주와 동반 하락하며 장 초반부터 내림세가 이어짐"
             },
             {
               "time": "마감",
@@ -232,8 +232,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 206.69000244140625,
               "is_close": true,
               "date": "2026-11-04",
-              "title": "낙폭 다소 줄인 흐름",
-              "text": "서울 AI 데이 개최 소식이 전해진 가운데 장 초반 급락세에서 벗어나 낙폭을 소폭 줄여가는 모습"
+              "title": "낙폭 확대 마감",
+              "text": "8월 이후 처음으로 주요 가격대를 하회하며 장 후반 들어 낙폭이 더욱 커짐"
             }
           ],
           "slot_total": 2,
@@ -279,8 +279,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 16.770000457763672,
               "is_close": false,
               "date": "2026-11-04",
-              "title": "관심 집중 속 강세 출발",
-              "text": "투자자들의 관심이 집중된 종목으로 소개된 이후 매수세가 유입되며 상승 흐름을 타기 시작함"
+              "title": "상승세 꾸준히 유지",
+              "text": "특별한 소식 없이도 장 초반부터 꾸준한 매수세가 유입되며 상승 흐름이 이어짐"
             },
             {
               "time": "마감",
@@ -289,8 +289,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 16.770000457763672,
               "is_close": true,
               "date": "2026-11-04",
-              "title": "상승폭 확대하며 마감",
-              "text": "장 초반 상승세를 이어가며 오히려 오름폭을 더 키워 하루 중 가장 높은 수준에서 거래를 마침"
+              "title": "상승폭 확대 마감",
+              "text": "장 후반 들어 오름폭이 더 커지며 하루 중 가장 높은 수준에서 거래를 마침"
             }
           ],
           "slot_total": 2,
@@ -306,7 +306,8 @@ window.NOTEFOLIO_BRIEFING = {
         }
       ],
       "markdown": "briefings/2026-11-05-us.md",
-      "refreshed_at": "2026-11-05 07:01:04 KST"
+      "refreshed_at": "2026-11-05 07:01:04 KST",
+      "slots_refreshed_at": "2026-11-05 23:10:47 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
