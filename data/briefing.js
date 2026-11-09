@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-09 09:45:53 KST",
+  "generated_at": "2026-11-09 10:40:46 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -368,8 +368,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 1132000.0,
               "is_close": false,
               "date": "2026-11-09",
-              "title": "보합권서 방향 탐색",
-              "text": "장 초반 낙폭 출발 후 급락세는 진정되며 외인 매도 속 보합권 근처에서 방향성을 모색하는 흐름"
+              "title": "장 초반 약세 출발",
+              "text": "개장 직후 약보합으로 시작하며 투자심리가 다소 위축된 모습을 보임"
+            },
+            {
+              "time": "10:20AM",
+              "price": 1152000.0,
+              "pct": 1.77,
+              "prev_close": 1132000.0,
+              "is_close": false,
+              "date": "2026-11-09",
+              "title": "반등해 상승 전환",
+              "text": "HBM 수주전 재편과 TSMC 진출설에도 협력 수혜 기대가 부각되며 낙폭을 딛고 상승 전환"
             }
           ],
           "slot_total": 4,
@@ -415,8 +425,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 188700.0,
               "is_close": false,
               "date": "2026-11-09",
-              "title": "약세 속 반등 시도",
-              "text": "장 초반 약세로 출발했으나 D램 점유율 1위 소식이 전해진 뒤 주가가 상승 전환하며 반등을 시도하는 모습"
+              "title": "장 초반 약세 출발",
+              "text": "개장 초반 하락세로 시작하며 전일 대비 약세 흐름을 이어감"
+            },
+            {
+              "time": "10:20AM",
+              "price": 190700.0,
+              "pct": 1.06,
+              "prev_close": 188700.0,
+              "is_close": false,
+              "date": "2026-11-09",
+              "title": "저점 매수세 유입",
+              "text": "역사적 저점 평가와 현대차와의 모빌리티 동맹 소식이 더해지며 상승 전환에 성공"
             }
           ],
           "slot_total": 4,
@@ -463,7 +483,17 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-11-09",
               "title": "장 초반 낙폭 확대",
-              "text": "개장 직후부터 매도세가 이어지며 하루 중 가장 큰 낙폭을 기록, 천무 사격시험 소식에도 하락세 지속"
+              "text": "개장 직후부터 약세가 뚜렷하게 나타나며 하루 중 저점권에서 등락을 지속"
+            },
+            {
+              "time": "10:20AM",
+              "price": 638000.0,
+              "pct": -3.33,
+              "prev_close": 660000.0,
+              "is_close": false,
+              "date": "2026-11-09",
+              "title": "약세 흐름 지속 중",
+              "text": "천무 해상 사격시험 등 플랫폼 다각화 소식에도 매수세가 붙지 못하며 낙폭을 거의 그대로 유지 중"
             }
           ],
           "slot_total": 4,
@@ -509,8 +539,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 138600.0,
               "is_close": false,
               "date": "2026-11-09",
-              "title": "장 초반 약세 지속",
-              "text": "차량용 통신 모듈 공급 소식에도 불구하고 개장 이후 낙폭이 좀처럼 줄지 않으며 약세 흐름이 이어지는 중"
+              "title": "장 초반 큰 폭 약세",
+              "text": "개장과 함께 뚜렷한 하락세로 시작하며 하루 중 저점 부근에서 거래됨"
+            },
+            {
+              "time": "10:20AM",
+              "price": 135200.0,
+              "pct": -2.45,
+              "prev_close": 138600.0,
+              "is_close": false,
+              "date": "2026-11-09",
+              "title": "낙폭 일부 만회 중",
+              "text": "차량용 모듈 인증 획득 소식이 나온 뒤 낙폭을 다소 줄이며 반등을 이어가는 중"
             }
           ],
           "slot_total": 4,
@@ -556,8 +596,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 279500.0,
               "is_close": false,
               "date": "2026-11-09",
-              "title": "소폭 약세 유지 중",
-              "text": "다양한 사회공헌 소식이 이어지는 가운데 장 초반 소폭 약세권에서 큰 변동 없이 흐름을 유지하는 중"
+              "title": "장 초반 소폭 약세",
+              "text": "개장 초반 소폭 하락 출발하며 약세 흐름으로 하루를 시작함"
+            },
+            {
+              "time": "10:20AM",
+              "price": 274000.0,
+              "pct": -1.97,
+              "prev_close": 279500.0,
+              "is_close": false,
+              "date": "2026-11-09",
+              "title": "오전 들어 낙폭 확대",
+              "text": "삼성과의 모빌리티 동맹 소식에도 불구하고 오전 중 하락폭이 오히려 커지는 모습"
             }
           ],
           "slot_total": 4,
@@ -588,7 +638,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-11-06-kr.md",
       "refreshed_at": "2026-11-06 18:00:57 KST",
-      "slots_refreshed_at": "2026-11-09 09:45:53 KST"
+      "slots_refreshed_at": "2026-11-09 10:40:46 KST"
     }
   }
 };
