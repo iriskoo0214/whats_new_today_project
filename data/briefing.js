@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-10 09:20:46 KST",
+  "generated_at": "2026-11-10 10:40:38 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -354,14 +354,24 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-09",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 1215000.0,
-              "pct": 6.95,
+              "time": "9:10AM",
+              "price": 1220000.0,
+              "pct": 7.39,
               "prev_close": 1136000.0,
               "is_close": false,
               "date": "2026-11-10",
-              "title": "장 초반 급등세",
-              "text": "美 증시 반등 흐름을 타고 반도체주 전반이 강세를 보이며 장 초반부터 큰 폭으로 올라 코스피 사이드카 발동에도 힘을 보탬"
+              "title": "장 초반 급등 출발",
+              "text": "미국 반도체 강세와 HBM 수요 기대감에 매수세가 몰리며 장 초반부터 큰 폭으로 뛰어오름"
+            },
+            {
+              "time": "10:20AM",
+              "price": 1198000.0,
+              "pct": 5.46,
+              "prev_close": 1136000.0,
+              "is_close": false,
+              "date": "2026-11-10",
+              "title": "상승폭 다소 줄어",
+              "text": "구글 AI칩 소식에도 초반 급등분을 지키지 못하며 오전 중반 들어 오름폭이 눈에 띄게 둔화됨"
             }
           ],
           "slot_total": 4,
@@ -401,14 +411,24 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-09",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 199400.0,
-              "pct": 5.0,
+              "time": "9:10AM",
+              "price": 199800.0,
+              "pct": 5.21,
               "prev_close": 189900.0,
               "is_close": false,
               "date": "2026-11-10",
-              "title": "20만원선 회복",
-              "text": "美 반도체 급반등 훈풍에 장 초반부터 강하게 오르며 20만원선을 되찾아 하루 중 가장 높은 구간에서 거래되는 중"
+              "title": "장 초반 강세 출발",
+              "text": "반도체 업황 기대와 함께 개장 직후 큰 폭으로 올라서며 강한 매수세가 유입됨"
+            },
+            {
+              "time": "10:20AM",
+              "price": 197400.0,
+              "pct": 3.95,
+              "prev_close": 189900.0,
+              "is_close": false,
+              "date": "2026-11-10",
+              "title": "상승폭 다소 둔화",
+              "text": "C랩 스타트업 육성 소식이 나왔지만 추가 매수세로 이어지지 못하며 오름폭이 줄어듦"
             }
           ],
           "slot_total": 4,
@@ -448,14 +468,24 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-09",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 653000.0,
-              "pct": 2.19,
+              "time": "9:10AM",
+              "price": 667000.0,
+              "pct": 4.38,
               "prev_close": 639000.0,
               "is_close": false,
               "date": "2026-11-10",
-              "title": "장 초반 상승 출발",
-              "text": "육군과의 MRO 거점 확대 추진 소식과 美 방산사업 확장 기대가 겹치며 장 초반부터 꾸준한 오름세를 이어가는 중"
+              "title": "장 초반 강세 출발",
+              "text": "개장과 함께 매수세가 유입되며 큰 폭의 오름세로 하루를 시작함"
+            },
+            {
+              "time": "10:20AM",
+              "price": 655000.0,
+              "pct": 2.5,
+              "prev_close": 639000.0,
+              "is_close": false,
+              "date": "2026-11-10",
+              "title": "상승폭 절반 축소",
+              "text": "선박용 수소연료전지 형식승인 소식에도 추가 상승으로 이어지지 못하며 오름폭이 크게 줄어듦"
             }
           ],
           "slot_total": 4,
@@ -495,14 +525,24 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-09",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 143200.0,
-              "pct": 6.31,
+              "time": "9:10AM",
+              "price": 141100.0,
+              "pct": 4.75,
               "prev_close": 134700.0,
               "is_close": false,
               "date": "2026-11-10",
               "title": "장 초반 강세 출발",
-              "text": "CES에서 올레드 TV 등 계열사 기술력이 잇따라 호평받은 가운데 장 초반부터 큰 폭으로 오르며 상승 출발하는 중"
+              "text": "개장 직후 강한 매수세가 유입되며 큰 폭의 오름세로 거래를 시작함"
+            },
+            {
+              "time": "10:20AM",
+              "price": 137500.0,
+              "pct": 2.08,
+              "prev_close": 134700.0,
+              "is_close": false,
+              "date": "2026-11-10",
+              "title": "상승폭 절반 축소",
+              "text": "CES 2027 혁신상 수상 소식이 전해졌지만 오름폭은 오히려 초반보다 줄어듦"
             }
           ],
           "slot_total": 4,
@@ -542,14 +582,24 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-09",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 283500.0,
-              "pct": 4.42,
+              "time": "9:10AM",
+              "price": 282250.0,
+              "pct": 3.96,
               "prev_close": 271500.0,
               "is_close": false,
               "date": "2026-11-10",
-              "title": "장 초반 상승 흐름",
-              "text": "소방관 회복 지원 다큐 공개와 신차 타이어 공급 소식이 전해진 가운데 장 초반부터 꾸준히 오르며 강세를 이어가는 중"
+              "title": "장 초반 강세 출발",
+              "text": "개장과 함께 매수세가 유입되며 큰 폭의 오름세로 하루를 시작함"
+            },
+            {
+              "time": "10:20AM",
+              "price": 276500.0,
+              "pct": 1.84,
+              "prev_close": 271500.0,
+              "is_close": false,
+              "date": "2026-11-10",
+              "title": "상승폭 크게 축소",
+              "text": "삼성과의 로봇·부품 협력 확대 소식에도 매수세가 이어지지 못하며 오름폭이 크게 줄어듦"
             }
           ],
           "slot_total": 4,
@@ -580,7 +630,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-11-09-kr.md",
       "refreshed_at": "2026-11-09 18:01:02 KST",
-      "slots_refreshed_at": "2026-11-10 09:20:46 KST"
+      "slots_refreshed_at": "2026-11-10 10:40:38 KST"
     }
   }
 };
