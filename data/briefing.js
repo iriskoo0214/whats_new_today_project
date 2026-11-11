@@ -1,10 +1,10 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-11 18:01:01 KST",
-  "refreshed": [
-    "kr"
+  "generated_at": "2026-11-11 23:10:42 KST",
+  "refreshed": [],
+  "slots_refreshed": [
+    "us"
   ],
-  "slots_refreshed": [],
   "default": "kr",
   "markets": {
     "us": {
@@ -47,22 +47,22 @@ window.NOTEFOLIO_BRIEFING = {
             {
               "time": "11:30PM",
               "price": 244.3800048828125,
-              "pct": -0.7,
-              "prev_close": 246.11000061035156,
+              "pct": -0.02,
+              "prev_close": 244.4199981689453,
               "is_close": false,
               "date": "2026-11-10",
-              "title": "장중 약세 흐름",
-              "text": "마이크로소프트와 AI 에이전트 협력 소식에도 주가는 하락세를 벗어나지 못함"
+              "title": "소폭 약세 흐름",
+              "text": "마이크로소프트와 손잡고 산업별 AI 에이전트 플랫폼을 공개했지만 주가에는 별다른 호재로 반영되지 않음"
             },
             {
               "time": "마감",
               "price": 244.52999877929688,
-              "pct": -0.64,
-              "prev_close": 246.11000061035156,
+              "pct": 0.05,
+              "prev_close": 244.4199981689453,
               "is_close": true,
               "date": "2026-11-10",
-              "title": "낙폭 소폭 축소",
-              "text": "컨설팅 비자 스폰서십 중단 소식 속에서도 하락폭을 약간 줄이며 거래를 이어가는 중"
+              "title": "보합권서 마무리",
+              "text": "비자 지원 축소 소식과 AI 플랫폼 공개가 엇갈린 가운데 낙폭을 줄이며 약보합으로 하루를 마감"
             }
           ],
           "slot_total": 2,
@@ -108,8 +108,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 545.1799926757812,
               "is_close": false,
               "date": "2026-11-10",
-              "title": "하락폭 확대",
-              "text": "앤트로픽의 오피스 도전 소식과 AI 투자 부담 우려가 겹치며 낙폭이 점차 커짐"
+              "title": "낙폭 확대 흐름",
+              "text": "엔비디아 시총 급락 속 한때 시총 2위를 재탈환했으나 경쟁사 신제품 출시 소식에 상승분을 반납"
             },
             {
               "time": "마감",
@@ -118,8 +118,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 545.1799926757812,
               "is_close": true,
               "date": "2026-11-10",
-              "title": "저점권 등락",
-              "text": "이매진 엔터프라이즈 공개에도 투자자 반응은 싸늘해 하락폭을 키운 채 마감"
+              "title": "하락폭 키우며 마감",
+              "text": "엑셀 경쟁 제품 출시 소식 이후 매도세가 강해지며 장중 내내 눌려 있던 약세가 저점권에서 마무리"
             }
           ],
           "slot_total": 2,
@@ -165,8 +165,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 35.34000015258789,
               "is_close": false,
               "date": "2026-11-10",
-              "title": "상승분 반납",
-              "text": "매출 급증에 따른 급등세가 꺾이며 가트너 선정 소식에도 상승 동력을 잃는 모습"
+              "title": "약세 지속 흐름",
+              "text": "가트너 '마켓 셰이퍼' 선정과 실적 전망 상향 소식에도 매수세가 붙지 못하고 하락세가 이어짐"
             },
             {
               "time": "마감",
@@ -175,8 +175,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 35.34000015258789,
               "is_close": true,
               "date": "2026-11-10",
-              "title": "낙폭 다소 축소",
-              "text": "장 초반 밀렸던 주가가 오후 들어 낙폭을 일부 줄이며 보합권 근처로 복귀"
+              "title": "낙폭 일부 축소",
+              "text": "오전 긍정적 평가 소식 이후 장중 내내 눌려 있다가 막판 들어 하락폭을 다소 줄이며 마감"
             }
           ],
           "slot_total": 2,
@@ -222,8 +222,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 178.6699981689453,
               "is_close": false,
               "date": "2026-11-10",
-              "title": "급락세 지속",
-              "text": "젠슨 황 연인의 AI칩 밀반입 의혹 보도가 터지며 장중 내내 큰 폭으로 밀림"
+              "title": "낙폭 확대 심화",
+              "text": "장중 시총 3위로 밀리고 뱅크오브아메리카 최선호주 제외 소식까지 겹치며 하락폭이 크게 벌어짐"
             },
             {
               "time": "마감",
@@ -232,8 +232,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 178.6699981689453,
               "is_close": true,
               "date": "2026-11-10",
-              "title": "낙폭 일부 만회",
-              "text": "장중 한때 더 크게 밀렸던 주가가 저가 매수세에 낙폭을 다소 줄이며 거래 마감"
+              "title": "저점권서 마감",
+              "text": "코어위브 실적발 반등 시도에도 신뢰 훼손 우려가 더 크게 작용하며 하루 중 가장 큰 낙폭으로 마무리"
             }
           ],
           "slot_total": 2,
@@ -279,8 +279,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 16.75,
               "is_close": false,
               "date": "2026-11-10",
-              "title": "하락세 이어가",
-              "text": "3분기 실적과 2027년 가이던스 호평에도 주가는 약세 흐름을 벗어나지 못함"
+              "title": "약세 흐름 지속",
+              "text": "기관 매수에도 전반적 매도 압력이 겹치며 하락세가 이어지고 장중 내내 반등을 만들지 못함"
             },
             {
               "time": "마감",
@@ -289,8 +289,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 16.75,
               "is_close": true,
               "date": "2026-11-10",
-              "title": "저평가 분석 속 약세",
-              "text": "저평가 가능성을 짚은 분석 기사가 나왔지만 하락폭이 오히려 더 커지며 거래 마감"
+              "title": "낙폭 키우며 마감",
+              "text": "매출 전망 개선과 저평가 분석 소식에도 매수세가 힘을 받지 못하며 하락폭이 하루 중 가장 크게 벌어짐"
             }
           ],
           "slot_total": 2,
@@ -313,7 +313,8 @@ window.NOTEFOLIO_BRIEFING = {
         }
       ],
       "markdown": "briefings/2026-11-11-us.md",
-      "refreshed_at": "2026-11-11 07:01:03 KST"
+      "refreshed_at": "2026-11-11 07:01:03 KST",
+      "slots_refreshed_at": "2026-11-11 23:10:42 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
