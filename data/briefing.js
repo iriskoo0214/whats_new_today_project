@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-11 10:40:48 KST",
+  "generated_at": "2026-11-11 11:45:04 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -360,18 +360,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 1212000.0,
               "is_close": false,
               "date": "2026-11-11",
-              "title": "약보합 출발",
-              "text": "장 초반 매도세에 밀리며 약세로 출발해 전일 대비 하락한 채 거래를 시작함"
+              "title": "장 초반 약세 출발",
+              "text": "개장 직후 전일 대비 소폭 밀리며 하락세로 출발해 약세 흐름을 보임"
             },
             {
-              "time": "10:20AM",
-              "price": 1230000.0,
-              "pct": 1.49,
+              "time": "10:30AM",
+              "price": 1231000.0,
+              "pct": 1.57,
               "prev_close": 1212000.0,
               "is_close": false,
               "date": "2026-11-11",
-              "title": "반등 성공, 상승 전환",
-              "text": "오전 하락분을 모두 만회하고 상승 전환했으며 LPDDR5X 인증 소식이 투자심리에 긍정적으로 작용함"
+              "title": "오전 중 상승 전환",
+              "text": "약세로 출발했으나 오전 들어 매수세가 유입되며 상승 전환, 100조 벌어 100조 주주환원 소식과 LPDDR5X 인증 확보 소식이 전해진 가운데 하루 중 고점권으로 올라섬"
             }
           ],
           "slot_total": 4,
@@ -417,18 +417,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 198900.0,
               "is_close": false,
               "date": "2026-11-11",
-              "title": "소폭 약세 출발",
-              "text": "장 초반 매도 우위 속에 소폭 하락하며 거래를 시작, 반도체 업종 전반이 관망세를 보임"
+              "title": "장 초반 약세 출발",
+              "text": "개장 직후 소폭 하락하며 약세로 출발해 조정 흐름을 보임"
             },
             {
-              "time": "10:20AM",
-              "price": 199900.0,
-              "pct": 0.5,
+              "time": "10:30AM",
+              "price": 200000.0,
+              "pct": 0.55,
               "prev_close": 198900.0,
               "is_close": false,
               "date": "2026-11-11",
-              "title": "반도체 반등 기류",
-              "text": "오전 중 낙폭을 되돌려 상승 전환했으며 초고수들의 반도체 매수 베팅 소식도 전해짐"
+              "title": "오전 중 반등 성공",
+              "text": "약세 출발 이후 오전 들어 매수세가 유입되며 상승 전환에 성공, ABB와의 IoT 협업 소식 등이 전해진 가운데 하루 중 고점 부근까지 올라섬"
             }
           ],
           "slot_total": 4,
@@ -474,18 +474,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 659000.0,
               "is_close": false,
               "date": "2026-11-11",
-              "title": "",
-              "text": ""
+              "title": "약세 흐름 지속",
+              "text": "개장 직후 하락 출발한 뒤 오전 내내 낙폭을 좁히지 못하며 약세가 이어짐"
             },
             {
-              "time": "10:20AM",
-              "price": 650000.0,
-              "pct": -1.37,
+              "time": "10:30AM",
+              "price": 653000.0,
+              "pct": -0.91,
               "prev_close": 659000.0,
               "is_close": false,
               "date": "2026-11-11",
-              "title": "",
-              "text": ""
+              "title": "낙폭 그대로 유지",
+              "text": "폴란드 이후 수주 모멘텀에 대한 우려가 거론된 가운데 반등 없이 오전 내내 같은 수준의 하락폭을 유지 중"
             }
           ],
           "slot_total": 4,
@@ -531,18 +531,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 140000.0,
               "is_close": false,
               "date": "2026-11-11",
-              "title": "강보합 출발",
-              "text": "장 초반 소폭 상승하며 거래를 시작, 사이니지 신제품 출시 소식이 아침 분위기를 뒷받침함"
+              "title": "소폭 상승 출발",
+              "text": "개장 직후 소폭 오름세로 출발하며 강보합권에서 거래가 시작됨"
             },
             {
-              "time": "10:20AM",
-              "price": 139800.0,
-              "pct": -0.14,
+              "time": "10:30AM",
+              "price": 139700.0,
+              "pct": -0.21,
               "prev_close": 140000.0,
               "is_close": false,
               "date": "2026-11-11",
-              "title": "상승분 반납, 약세 전환",
-              "text": "오전 중 상승폭을 반납하고 소폭 하락 전환했으며 신제품 출시 소식에도 매수세는 약한 모습"
+              "title": "오전 들어 약세 전환",
+              "text": "초반 오름세를 지키지 못하고 오전 중 하락 전환, 정수기 신모델과 이페이퍼 앱 출시 소식에도 매수세는 붙지 않는 모습"
             }
           ],
           "slot_total": 4,
@@ -588,18 +588,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 275000.0,
               "is_close": false,
               "date": "2026-11-11",
-              "title": "소폭 상승 출발",
-              "text": "장 초반 완만한 상승세로 거래를 시작하며 전일 대비 플러스권에서 움직임을 이어감"
+              "title": "강보합 출발 후 반락",
+              "text": "개장 직후 소폭 오름세로 출발했으나 상승분을 지키지 못함"
             },
             {
-              "time": "10:20AM",
+              "time": "10:30AM",
               "price": 272000.0,
               "pct": -1.09,
               "prev_close": 275000.0,
               "is_close": false,
               "date": "2026-11-11",
-              "title": "상승 반납, 하락 전환",
-              "text": "오전 중 상승분을 모두 내주고 하락 전환했으며 유니버시아드 후원과 전고체 협력 소식에도 약세가 이어지는 중"
+              "title": "오전 중 낙폭 확대",
+              "text": "초반 강보합에서 오전 들어 하락 전환하며 낙폭이 커짐, 삼성SDI와의 배터리 공동설계 소식에도 주가 흐름은 눌리는 모습"
             }
           ],
           "slot_total": 4,
@@ -630,7 +630,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-11-10-kr.md",
       "refreshed_at": "2026-11-10 18:00:58 KST",
-      "slots_refreshed_at": "2026-11-11 10:40:48 KST"
+      "slots_refreshed_at": "2026-11-11 11:45:04 KST"
     }
   }
 };
