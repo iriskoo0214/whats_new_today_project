@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-12 10:28:47 KST",
+  "generated_at": "2026-11-12 10:40:47 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -354,17 +354,17 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-11-12",
               "title": "장 초반 약세 출발",
-              "text": "개장 직후 하락세로 시작해 코어위브 자금 우려가 부각되며 낙폭이 벌어짐"
+              "text": "전일 대비 하락 출발하며 장 초반 약세 흐름을 이어감"
             },
             {
-              "time": "10:05AM",
-              "price": 1271000.0,
-              "pct": -0.47,
+              "time": "10:20AM",
+              "price": 1272000.0,
+              "pct": -0.39,
               "prev_close": 1277000.0,
               "is_close": false,
               "date": "2026-11-12",
-              "title": "낙폭 일부 축소",
-              "text": "코어위브發 자금 우려가 완화됐다는 소식이 전해지며 하락폭을 줄이는 모습을 보임"
+              "title": "낙폭 축소 흐름",
+              "text": "美 증시 급등에도 국내선 되레 하락하다 AI 반도체 훈풍 소식에 낙폭을 다소 줄임"
             }
           ],
           "slot_total": 4,
@@ -405,23 +405,23 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "9:10AM",
-              "price": 208750.0,
-              "pct": 1.33,
+              "price": 207500.0,
+              "pct": 0.73,
               "prev_close": 206000.0,
               "is_close": false,
               "date": "2026-11-12",
-              "title": "장 초반부터 강세",
-              "text": "개장과 함께 상승 흐름을 타며 오전 들어 꾸준히 오름세를 이어가는 중"
+              "title": "장 초반 강세 출발",
+              "text": "개장 직후부터 상승세로 출발해 오전 내내 플러스권을 유지함"
             },
             {
-              "time": "10:05AM",
-              "price": 210000.0,
-              "pct": 1.94,
+              "time": "10:20AM",
+              "price": 209000.0,
+              "pct": 1.46,
               "prev_close": 206000.0,
               "is_close": false,
               "date": "2026-11-12",
               "title": "오전 상승폭 확대",
-              "text": "이재용 회장의 온양캠퍼스 HBM 거점 발언이 전해진 뒤 상승폭을 더 키우며 오전 고점 부근 유지"
+              "text": "이재용 회장의 온양캠퍼스 HBM 거점 발언과 대통령 발언 속 상승폭을 더 키움"
             }
           ],
           "slot_total": 4,
@@ -467,18 +467,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 659000.0,
               "is_close": false,
               "date": "2026-11-12",
-              "title": "약세에서 반등 성공",
-              "text": "개장 초 소폭 하락 출발했으나 오전 들어 방향을 돌려 상승 전환에 성공함"
+              "title": "장 초반 약보합",
+              "text": "개장 직후 소폭 하락세로 출발해 오전 내내 약세권에 머묾"
             },
             {
-              "time": "10:05AM",
-              "price": 666000.0,
-              "pct": 1.06,
+              "time": "10:20AM",
+              "price": 657000.0,
+              "pct": -0.3,
               "prev_close": 659000.0,
               "is_close": false,
               "date": "2026-11-12",
-              "title": "상승세로 전환 유지",
-              "text": "대관 강화 및 인도 수주 관련 소식이 이어지는 가운데 오전 상승 흐름을 그대로 이어가는 중"
+              "title": "낙폭 소폭 축소",
+              "text": "칠레 장갑차 공동생산 제안 등 수주 기대 속에서도 낙폭을 소폭 줄이는 데 그침"
             }
           ],
           "slot_total": 4,
@@ -524,18 +524,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 141100.0,
               "is_close": false,
               "date": "2026-11-12",
-              "title": "약세 흐름 지속",
-              "text": "개장 직후 하락 출발한 뒤 오전 내내 약세권에서 크게 벗어나지 못하는 모습"
+              "title": "장 초반 약세 지속",
+              "text": "개장 직후부터 하락세로 출발해 오전 내내 약세 흐름이 이어짐"
             },
             {
-              "time": "10:05AM",
-              "price": 140500.0,
-              "pct": -0.43,
+              "time": "10:20AM",
+              "price": 139400.0,
+              "pct": -1.2,
               "prev_close": 141100.0,
               "is_close": false,
               "date": "2026-11-12",
-              "title": "낙폭 소폭 줄어",
-              "text": "디스플레이 관련 행사 소식이 이어지는 가운데 오전 하락폭을 소폭 줄이며 보합권에 근접"
+              "title": "낙폭 다소 확대",
+              "text": "계열사 관련 소식에도 반등 모멘텀을 찾지 못하며 오전 중 낙폭이 더 커짐"
             }
           ],
           "slot_total": 4,
@@ -581,18 +581,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 272500.0,
               "is_close": false,
               "date": "2026-11-12",
-              "title": "장 초반 약세 지속",
-              "text": "개장 직후 하락 출발한 뒤 오전 내내 약세 흐름에서 크게 벗어나지 못함"
+              "title": "장 초반 하락 출발",
+              "text": "개장 직후 하락세로 출발해 오전 내내 약세 흐름을 이어감"
             },
             {
-              "time": "10:05AM",
-              "price": 270000.0,
-              "pct": -0.92,
+              "time": "10:20AM",
+              "price": 268000.0,
+              "pct": -1.65,
               "prev_close": 272500.0,
               "is_close": false,
               "date": "2026-11-12",
-              "title": "낙폭 소폭 축소",
-              "text": "유럽 판매 전략 및 삼성과의 로봇 협력 소식이 나온 가운데 하락폭을 소폭 줄이는 모습"
+              "title": "낙폭 확대 지속",
+              "text": "유럽 판매 호조 소식에도 매수세가 붙지 않으며 오전 중 낙폭이 더 커짐"
             }
           ],
           "slot_total": 4,
@@ -623,7 +623,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-11-11-kr.md",
       "refreshed_at": "2026-11-11 18:01:01 KST",
-      "slots_refreshed_at": "2026-11-12 10:28:47 KST"
+      "slots_refreshed_at": "2026-11-12 10:40:47 KST"
     }
   }
 };
