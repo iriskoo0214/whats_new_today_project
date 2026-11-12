@@ -1,10 +1,10 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-12 18:00:57 KST",
-  "refreshed": [
-    "kr"
+  "generated_at": "2026-11-12 23:10:47 KST",
+  "refreshed": [],
+  "slots_refreshed": [
+    "us"
   ],
-  "slots_refreshed": [],
   "default": "kr",
   "markets": {
     "us": {
@@ -51,8 +51,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 244.52999877929688,
               "is_close": false,
               "date": "2026-11-11",
-              "title": "소폭 강세 유지",
-              "text": "퀀텀 칩 공개와 파워 플랫폼 관련 소식이 이어지는 가운데 완만한 오름세를 유지하는 모습"
+              "title": "장 초반 강보합권",
+              "text": "양자 프로세서 나이트호크 1040큐비트 확장 소식이 전해지며 소폭 상승 출발"
             },
             {
               "time": "마감",
@@ -61,8 +61,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 244.52999877929688,
               "is_close": true,
               "date": "2026-11-11",
-              "title": "상승폭 확대 마감",
-              "text": "장 후반 들어 오름폭이 뚜렷하게 커지며 하루 중 가장 높은 수준에서 거래를 마침"
+              "title": "오후 들어 상승폭 확대",
+              "text": "나이트호크 R3 개발 및 1000큐비트 확장 계획 보도가 이어지며 상승폭을 키우며 거래 마감"
             }
           ],
           "slot_total": 2,
@@ -108,18 +108,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 533.1599731445312,
               "is_close": false,
               "date": "2026-11-11",
-              "title": "장중 약세 흐름",
-              "text": "데이터센터 전력비용 직접 부담 소식에도 매수세가 붙지 않으며 하락세를 이어가는 흐름"
+              "title": "장 초반 상승 흐름",
+              "text": "AI 관련 긍정 평가와 이그나이트 행사 소식 속에 완만한 오름세로 거래 시작"
             },
             {
               "time": "마감",
-              "price": 521.125,
+              "price": 521.1300048828125,
               "pct": -2.26,
               "prev_close": 533.1599731445312,
               "is_close": true,
               "date": "2026-11-11",
-              "title": "낙폭 키우며 마감",
-              "text": "나스닥 전반이 강세를 보인 것과 달리 홀로 약세폭을 키우며 하루 중 가장 낮은 수준으로 마감"
+              "title": "낙폭 확대로 반전",
+              "text": "장 초반 상승분을 지키지 못하고 오후 들어 하락 전환하며 그날 저점권에서 거래 마감"
             }
           ],
           "slot_total": 2,
@@ -165,8 +165,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 34.9900016784668,
               "is_close": false,
               "date": "2026-11-11",
-              "title": "경쟁사發 약세 압력",
-              "text": "리게티의 부진한 실적 전망 여파로 동반 하락 압력을 받으며 약세 흐름을 이어감"
+              "title": "장 초반 강세 출발",
+              "text": "연방 양자 컴퓨팅 계약 확대 기대감 속 월가의 낙관적 전망이 더해지며 상승 출발"
             },
             {
               "time": "마감",
@@ -175,8 +175,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 34.9900016784668,
               "is_close": true,
               "date": "2026-11-11",
-              "title": "낙폭 이어가며 마감",
-              "text": "가이던스 상향에 대한 낙관론이 제기됐지만 반등으로 이어지지 못한 채 낙폭을 유지하며 마감"
+              "title": "상승분 반납하며 반전",
+              "text": "장 초반 올랐던 흐름이 오후 들어 꺾이며 하락 전환, 그날 저점 부근에서 거래 마감"
             }
           ],
           "slot_total": 2,
@@ -222,8 +222,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 168.88999938964844,
               "is_close": false,
               "date": "2026-11-11",
-              "title": "상승세 뚜렷",
-              "text": "리벨리온·SK텔레콤과의 협력 소식과 각종 이슈 속에서도 오름세를 꾸준히 이어가는 모습"
+              "title": "급락 충격 확산",
+              "text": "젠슨 황 CEO 사임 소식에 장중 급락세가 나타나며 변동성이 크게 확대되는 모습"
             },
             {
               "time": "마감",
@@ -232,8 +232,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 168.88999938964844,
               "is_close": true,
               "date": "2026-11-11",
-              "title": "오름폭 더 키움",
-              "text": "장 후반으로 갈수록 상승폭이 커지며 하루 중 가장 높은 수준에서 거래를 마무리"
+              "title": "저가 매수세 유입",
+              "text": "CEO 교체 충격을 딛고 저가 매수세가 유입되며 낙폭을 만회하고 오히려 상승 전환"
             }
           ],
           "slot_total": 2,
@@ -279,8 +279,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 16.3700008392334,
               "is_close": false,
               "date": "2026-11-11",
-              "title": "상승 전환 시도",
-              "text": "장 초반 약세에서 벗어나 오후 들어 점차 낙폭을 줄이며 반등을 모색하는 흐름"
+              "title": "신사업 소식에 관심",
+              "text": "토큰화 예금 상품 출시 소식에 투자자 관심이 쏠리며 완만한 오름세로 거래 출발"
             },
             {
               "time": "마감",
@@ -289,8 +289,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 16.3700008392334,
               "is_close": true,
               "date": "2026-11-11",
-              "title": "막판 하락 반전",
-              "text": "상승 시도에도 불구하고 장 막판 매도세에 밀리며 결국 약보합으로 하루를 마감"
+              "title": "상승분 반납 마감",
+              "text": "스테이블코인 확장 소식에도 매수세가 이어지지 못하며 오후 들어 하락 전환해 마감"
             }
           ],
           "slot_total": 2,
@@ -306,7 +306,8 @@ window.NOTEFOLIO_BRIEFING = {
         }
       ],
       "markdown": "briefings/2026-11-12-us.md",
-      "refreshed_at": "2026-11-12 07:00:54 KST"
+      "refreshed_at": "2026-11-12 07:00:54 KST",
+      "slots_refreshed_at": "2026-11-12 23:10:47 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
