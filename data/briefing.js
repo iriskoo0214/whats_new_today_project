@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-13 09:20:45 KST",
+  "generated_at": "2026-11-13 10:40:44 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -361,14 +361,24 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-12",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 1300000.0,
-              "pct": 3.67,
+              "time": "9:10AM",
+              "price": 1313500.0,
+              "pct": 4.74,
               "prev_close": 1254000.0,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "장 초반 강세 출발",
-              "text": "젠슨황 퇴진 이슈로 AI 시장 불확실성이 부각된 가운데 코스피 상승 흐름을 타고 장 초반부터 강한 오름세로 출발함"
+              "title": "장 초반 급등 출발",
+              "text": "개장과 함께 강한 매수세가 유입되며 큰 폭의 상승으로 출발해 장중 고점을 형성함"
+            },
+            {
+              "time": "10:20AM",
+              "price": 1293000.0,
+              "pct": 3.11,
+              "prev_close": 1254000.0,
+              "is_close": false,
+              "date": "2026-11-13",
+              "title": "상승폭 다소 줄어",
+              "text": "젠슨황 사임 불확실성 완화 소식에도 오전 중 상승폭이 축소되며 상승세 일부 반납함"
             }
           ],
           "slot_total": 4,
@@ -408,14 +418,24 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-12",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 214500.0,
-              "pct": 3.12,
+              "time": "9:10AM",
+              "price": 215500.0,
+              "pct": 3.61,
               "prev_close": 208000.0,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "저가 매수세로 상승",
-              "text": "데이터센터 냉각업체 인수 협상과 AI 안경 출시 소식이 전해진 가운데 저가 매수세 유입되며 장 초반 동반 강세로 출발함"
+              "title": "장 초반 강세 출발",
+              "text": "개장 직후 큰 폭 상승하며 장중 고점 부근에서 출발해 강한 매수세를 확인함"
+            },
+            {
+              "time": "10:20AM",
+              "price": 213500.0,
+              "pct": 2.64,
+              "prev_close": 208000.0,
+              "is_close": false,
+              "date": "2026-11-13",
+              "title": "상승 흐름 다소 둔화",
+              "text": "AI안경 공개와 구글·젠틀몬스터 협업 소식 뒤에도 오전 들어 상승폭이 소폭 줄어듦"
             }
           ],
           "slot_total": 4,
@@ -455,14 +475,24 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-12",
           "slots": [
             {
-              "time": "9:00AM",
+              "time": "9:10AM",
+              "price": 663000.0,
+              "pct": 1.38,
+              "prev_close": 654000.0,
+              "is_close": false,
+              "date": "2026-11-13",
+              "title": "완만한 상승 출발",
+              "text": "개장 초반 완만한 오름세로 출발하며 상승 흐름을 이어가는 모습을 보임"
+            },
+            {
+              "time": "10:20AM",
               "price": 654000.0,
               "pct": 0.0,
               "prev_close": 654000.0,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "보합권 출발",
-              "text": "한화오션 설비투자 확대 소식과 방산업계 전반의 실적 우려가 공존하는 가운데 전일 종가 수준에서 보합세로 거래를 시작함"
+              "title": "상승폭 모두 반납",
+              "text": "폴란드 유도로켓 공장 소식에도 오전 중 상승분이 모두 줄며 전일 수준으로 되돌아옴"
             }
           ],
           "slot_total": 4,
@@ -502,14 +532,24 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-12",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 139000.0,
-              "pct": 1.31,
+              "time": "9:10AM",
+              "price": 140300.0,
+              "pct": 2.26,
               "prev_close": 137200.0,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "장 초반 소폭 상승",
-              "text": "CES 혁신상 수상과 주주환원 여력 확대 기대감이 맞물리며 장 초반 완만한 오름세로 거래를 이어가는 중"
+              "title": "완만한 상승 지속",
+              "text": "개장 초반부터 꾸준한 오름세를 보이며 상승 흐름을 이어가는 모습을 나타냄"
+            },
+            {
+              "time": "10:20AM",
+              "price": 140600.0,
+              "pct": 2.48,
+              "prev_close": 137200.0,
+              "is_close": false,
+              "date": "2026-11-13",
+              "title": "오전 내내 강세 유지",
+              "text": "HVAC 매출 전망 소식 속 오전 들어 상승폭이 소폭 더 확대되며 강세를 유지 중"
             }
           ],
           "slot_total": 4,
@@ -549,14 +589,24 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-12",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 270500.0,
-              "pct": 1.5,
+              "time": "9:10AM",
+              "price": 272000.0,
+              "pct": 2.06,
               "prev_close": 266500.0,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "장 초반 완만한 상승",
-              "text": "미래모빌리티학교 참가 학교 모집 소식이 이어지는 가운데 특별한 재료 없이 장 초반 완만한 상승세를 보이는 중"
+              "title": "장 초반 상승 출발",
+              "text": "개장 직후 완만한 상승으로 시작해 오전 내내 오름세를 이어가는 모습을 보임"
+            },
+            {
+              "time": "10:20AM",
+              "price": 277500.0,
+              "pct": 4.13,
+              "prev_close": 266500.0,
+              "is_close": false,
+              "date": "2026-11-13",
+              "title": "상승폭 뚜렷하게 확대",
+              "text": "엔비디아 협력 변수 부상 속에서도 오전 들어 상승폭이 크게 확대되며 장중 고점을 경신함"
             }
           ],
           "slot_total": 4,
@@ -587,7 +637,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-11-12-kr.md",
       "refreshed_at": "2026-11-12 18:00:57 KST",
-      "slots_refreshed_at": "2026-11-13 09:20:45 KST"
+      "slots_refreshed_at": "2026-11-13 10:40:44 KST"
     }
   }
 };
