@@ -1,15 +1,15 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-14 06:55:27 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-11-14 07:01:03 KST",
+  "refreshed": [
     "us"
   ],
-  "default": "kr",
+  "slots_refreshed": [],
+  "default": "us",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
-      "label": "미국 증시 요약 2026. 11. 13. 7:00AM",
+      "label": "미국 증시 요약 2026. 11. 14. 7:01AM",
       "chips": [
         "전체",
         "IBM",
@@ -22,37 +22,37 @@ window.NOTEFOLIO_BRIEFING = {
         "오후 6시, 국내 시장을 움직인 이유를 확인하세요."
       ],
       "next": "kr",
-      "headline": "해외 5종목 중 1종목 상승, 4종목 하락 — 마이크로소프트가 +0.36%로 가장 많이 올랐고 아이온큐가 -9.40%로 가장 부진했습니다.",
-      "market_headline": "젠슨 황 사임 충격에 엔비디아 4.4% 급락, 3대 지수 일제 하락",
+      "headline": "해외 5종목 중 2종목 상승, 3종목 하락 — IBM이 +1.01%로 가장 많이 올랐고 아이온큐가 -6.42%로 가장 부진했습니다.",
+      "market_headline": "엔비디아 젠슨 황 사임 충격에 기술주 급락",
       "market_card": {
-        "title": "뉴욕증시 3대 지수 동반 하락 마감...다우 189포인트↓, 나스닥 0.39%↓",
+        "title": "다우 홀로 반등, S&P500·나스닥 혼조 마감...나스닥 0.91% 하락",
         "bullets": [
-          "엔비디아 4.4% 급락 AI주 전반 약세",
-          "국채금리 5.12%·달러 19개월來 최고치",
-          "젠슨 황 사임 충격에 불확실성 촉발"
+          "엔비디아 급락에 반도체주 압박 지속",
+          "美 PPI 4년만 최고치에 국채금리 5.15% 상승",
+          "비트코인 7만달러 붕괴, 8월 이후 최저"
         ]
       },
       "cards": [
         {
           "stock": "IBM",
           "ticker": "IBM",
-          "title": "IBM - MS와 AI 제휴, 주권 격차 경고",
-          "body": "IBM은 마이크로소프트와의 AI 제휴가 투자 매력도를 바꿀 수 있다는 전망 속에 -1.43% 내린 <b>244.67달러</b> 마감. 기업들에게 AI 주권 격차를 경고하는 메시지를 내놓으며 배당주로서의 입지도 함께 거론되는 모습이다.",
-          "pct": -1.43,
-          "price": 244.6699981689453,
-          "prev_close": 248.22000122070312,
+          "title": "IBM - 오스마인드 인수, AI 보안 강화",
+          "body": "IBM은 해시코프 볼트에 AI 에이전트 실시간 감시를 결합한 오스마인드 인수를 발표한 가운데 +1.01% 오른 <b>247.13달러</b> 마감. 생성형 AI 어시스턴트 구축 사례와 파트너 생태계 행사도 이어지며 AI 사업 확장 행보가 부각되는 모습이다.",
+          "pct": 1.01,
+          "price": 247.1300048828125,
+          "prev_close": 244.6699981689453,
           "currency": "USD",
-          "as_of": "2026-11-12",
+          "as_of": "2026-11-13",
           "slots": [
             {
               "time": "11:30PM",
-              "price": 246.6300048828125,
-              "pct": 0.8,
+              "price": 246.74000549316406,
+              "pct": 0.85,
               "prev_close": 244.6699981689453,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "장중 소폭 상승",
-              "text": "오스마인드 인수와 왓슨엑스 신규 어시스턴트 소식이 나온 가운데 완만한 오름세를 이어감"
+              "title": "완만한 상승세",
+              "text": "오스마인드 인수와 에코시스템 소식이 전해지며 장중 완만한 오름세를 이어감"
             },
             {
               "time": "마감",
@@ -61,45 +61,45 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 244.6699981689453,
               "is_close": true,
               "date": "2026-11-13",
-              "title": "상승폭 확대 마감",
-              "text": "장중 상승세를 지키며 오후 들어 오름폭을 더 키운 채 하루를 마무리하는 흐름"
+              "title": "상승폭 소폭 확대",
+              "text": "AI 관련 발표가 잇따른 가운데 오름세를 유지하며 하루 중 상단권에서 흐름을 유지 중"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "마이크로소프트와의 AI 제휴가 IBM 주식에 대한 투자 매력도를 바꿀 수 있을까?",
-              "original": "마이크로소프트와의 AI 제휴가 IBM 주식에 대한 투자 매력도를 바꿀 수 있을까?",
-              "source": "Simply Wall St",
-              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOektPUVd1dmNKSDRSLU1UWkxwY3ZkZUstTVZQSHh3SHJwVk9waV9NcWU5OVVvZEVSLXRTUkVyVXFfYWhlVEpPckttR2RrV1lrdWRBNF9GcnhzQm1ZNEdydWd6aE1OaEhPbThYLTBCVjZ5VVplMVhnWU9mZzNaY1V4VDZnTDM2dHJnWWNnM0hsaGJZZjM5cDEzR2VfTl85R0RWcXRhZC01RDJRaldxNnNn0gGvAUFVX3lxTE56S09RV3V2Y0pINFItTVRaTHBjdmRlSy1NVlBIeHdIcnBWT3BpX01xZTk5VW9kRVItdFNSRXJVcV9haGVUSk9yS21HZGtXWWt1ZEE0X0ZyeHNCbVk0R3J1Z3poTU5oSE9tOFgtMEJWNnlVWmUxWGdZT2ZnM1pjVXhUNmdMMzZ0cmdZY2czSGxoYllmMzlwMTNHZV9OXzlHRFZxdGFkLTVEMlFqV3E2c2c?oc=5",
-              "published": "2026-11-13T04:31:27+09:00"
+              "title": "IBM, '오스마인드' 인수…'해시코프 볼트'에 AI 에이전트 실시간 감시 결합",
+              "original": "IBM, '오스마인드' 인수…'해시코프 볼트'에 AI 에이전트 실시간 감시 결합",
+              "source": "IT타임스",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5PMUVDZHU4S19Wc1lqWkpmcW9hUUNLNmF3Y1YzWVIxQXROT1BfcWtBQi15SHY5ZC1lSkdZb01ZbTQ5cXhPLXZTSTcyNkNSSnJ4SEJWQnpXRVEzQjIzLUkwUTBhR2VtRlJy?oc=5",
+              "published": "2026-11-14T00:52:33+09:00"
             },
             {
-              "title": "IBM(IBM)이 기업들에게 AI 주권 격차를 경고하는 이유는?",
-              "original": "Why Is IBM (IBM) Warning Enterprises About AI Sovereignty Gaps?",
-              "source": "Simply Wall St.",
-              "url": "https://finance.yahoo.com/technology/ai/articles/why-ibm-ibm-warning-enterprises-171345227.html",
-              "published": "2026-11-13T02:13:45+09:00"
+              "title": "IBM Partner Plus Day: IBM 에코시스템과 함께한 협력의 여정 기념",
+              "original": "IBM Partner Plus Day: IBM 에코시스템과 함께한 협력의 여정 기념",
+              "source": "IBM",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5aTUg5NVpCLVhlakxCTFJLTHowQWo3Q3pTaU5DcEZFRXRKSWJOZDJsOEttN0JXSmgtQUZFTlRWdW9KLUlfMWdIMFByU3FYOFJJbk5Ddk9WbXIybGNMcEs5c2JLcVAwaDdPY3MxUQ?oc=5",
+              "published": "2026-11-14T00:38:09+09:00"
             },
             {
-              "title": "은퇴자를 위한 더 나은 배당주: IBM vs. 마이크로칩",
-              "original": "Better Dividend Stock for Retirees: IBM vs. Microchip",
-              "source": "TIKR",
-              "url": "https://www.tikr.com/blog/better-dividend-stock-for-retirees-ibm-vs-microchip?ref=yahoofinancedividend&tlnk=yf-261112-rw42j37c",
-              "published": "2026-11-13T01:58:44+09:00"
+              "title": "IBM watsonx Orchestrate로 구축한 새로운 생성형 AI 어시스턴트",
+              "original": "IBM watsonx Orchestrate로 구축한 새로운 생성형 AI 어시스턴트",
+              "source": "IBM",
+              "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdEdKTm5WOV9QYTlkb3BvNjdGLUJWUDFralVWSXRWZTBtTTNXRVhCV1I4aG5Ndnp6UTZCVndHYU1PS0pCRlJKeTViaGxBN19jNEp5enljbVg5cDhBaFhDaVBWMWhDNU9hanhmaVFyUmlUOVFES2FWdHZlSUlDMFpZdUtIdDY?oc=5",
+              "published": "2026-11-14T00:38:09+09:00"
             }
           ]
         },
         {
           "stock": "마이크로소프트",
           "ticker": "MSFT",
-          "title": "마이크로소프트 - 365 장애에도 소폭 상승",
-          "body": "마이크로소프트는 365와 아웃룩, 팀즈, 코파일럿 등 전 지역 서비스 장애가 발생한 가운데 +0.36% 오른 <b>523.00달러</b> 마감. 메일함 접속 장애로 전 세계 트래픽을 분산시키는 조치를 취했지만 주가에는 큰 영향을 주지 않은 모습이다.",
-          "pct": 0.36,
-          "price": 523.0,
-          "prev_close": 521.1300048828125,
+          "title": "마이크로소프트 - 대규모 장애에도 소폭 상승",
+          "body": "마이크로소프트는 원인이 밝혀지지 않은 대규모 서비스 장애로 기업과 정부 기관에 혼란을 일으켰음에도 +0.17% 오른 <b>523.88달러</b> 마감.",
+          "pct": 0.17,
+          "price": 523.8800048828125,
+          "prev_close": 523.0,
           "currency": "USD",
-          "as_of": "2026-11-12",
+          "as_of": "2026-11-13",
           "slots": [
             {
               "time": "11:30PM",
@@ -108,8 +108,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 523.0,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "장애 소식에 약세",
-              "text": "대규모 서비스 장애 원인이 불분명한 채로 체면을 구겼다는 평가가 나오며 내림세로 출발"
+              "title": "장애 여파로 하락",
+              "text": "대규모 서비스 장애 소식이 전해진 이후 상승분을 반납하며 약세로 돌아섬"
             },
             {
               "time": "마감",
@@ -118,55 +118,55 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 523.0,
               "is_close": true,
               "date": "2026-11-13",
-              "title": "약세 딛고 반등 마감",
-              "text": "장중 서비스 장애 여파로 밀렸던 주가가 오후 들어 낙폭을 모두 만회하며 소폭 상승 전환"
+              "title": "낙폭 만회하며 반등",
+              "text": "장중 약세를 보이다 오후 들어 분위기가 바뀌며 상승 전환에 성공함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "마이크로소프트 365, 장애 발생",
-              "original": "Microsoft 365 experiences outage",
-              "source": "호주 톱뉴스",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE94el9CMGpDYUNieUR6dlZsRkQyamZ4WVhkVFJERk9yRlpLR3pkZlFScTB3cEE2YUNQbk9IS1RCNHJYVFFCUGhjOTFCYV85UTZ5a2NsRm5rd2JsR2FoZXNKSVEtQUhZN2wwcEJGdDV3QU0?oc=5",
-              "published": "2026-11-13T06:48:36+09:00"
+              "title": "마이크로소프트 대규모 서비스 장애 원인 아직 미궁...”악의적 활동 증거는 없어\"",
+              "original": "마이크로소프트 대규모 서비스 장애 원인 아직 미궁...”악의적 활동 증거는 없어\"",
+              "source": "디지털투데이",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5PWng4cHhWWXdqRjI4aW0tVk9keDFMYUdGbVZRSWpaRV9XUzlEV3JhakdXTmhtMWViVFRrbF96REZfM2pjZ0JhTzduYndWanBZMTZSWWpYNmdrYUVzTXJkRWhROG1mSWlzQWhfTjA1dmN4TkU?oc=5",
+              "published": "2026-11-14T06:47:55+09:00"
             },
             {
-              "title": "마이크로소프트, 메일함 접속 장애에 전 세계 트래픽 분산",
-              "original": "마이크로소프트, 메일함 접속 장애에 전 세계 트래픽 분산",
-              "source": "토큰포스트",
-              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE83cGR0MEJFUEJkLTROck9nRmk3dnBESDR5TG5EaHpaN2w2Q2NHWWU3d3Y4ZEhJcDRwcHNnLWpBYUFyb0RsWGpEQ3dVaTUyWVFzZXYw0gFYQVVfeXFMTUJ3UGN5cm9vYzFELW42Z3ZQWlQtUTdyN0NaWjZhNFdHeTc2bDZEdVgwRlZCMGlvSEtwS0FwRlU3c1gxekt5cW1lWkNQVVJaTndBNV9XNWcxRA?oc=5",
-              "published": "2026-11-13T06:26:06+09:00"
+              "title": "Widespread Microsoft Outage Roils Businesses, Governments",
+              "original": "Widespread Microsoft Outage Roils Businesses, Governments",
+              "source": "The Wall Street Journal",
+              "url": "https://www.wsj.com/tech/microsoft-working-to-fix-widespread-outage-8df67a4e?siteid=yhoof2&yptr=yahoo",
+              "published": "2026-11-14T06:33:00+09:00"
             },
             {
-              "title": "마이크로소프트 장애로 '전 지역' 사용자들의 아웃룩, 팀즈, 코파일럿 이용 차질",
-              "original": "Microsoft outage disrupts Outlook, Teams, and Copilot for users 'in any region'",
-              "source": "Yahoo Finance",
-              "url": "https://finance.yahoo.com/markets/article/microsoft-outage-disrupts-outlook-teams-and-copilot-for-users-in-any-region-212333470.html",
-              "published": "2026-11-13T06:23:33+09:00"
+              "title": "Cerebras stock surges on Microsoft deal: What it means for Nvidia",
+              "original": "Cerebras stock surges on Microsoft deal: What it means for Nvidia",
+              "source": "Yahoo Finance Video",
+              "url": "https://finance.yahoo.com/video/cerebras-stock-surges-on-microsoft-deal-what-it-means-for-nvidia-213123807.html",
+              "published": "2026-11-14T06:31:23+09:00"
             }
           ]
         },
         {
           "stock": "아이온큐",
           "ticker": "IONQ",
-          "title": "아이온큐 - 퀀텀주 동반 급락, 8%대 하락",
-          "body": "아이온큐는 리게티 CEO의 '퀀텀 아직 ROI 입증 못해' 발언 여파로 동종 퀀텀주들과 함께 -9.40% 내린 <b>30.86달러</b> 마감. 디웨이브 5%, 리게티 5% 하락과 더불어 업계 전반에 대한 수익성 우려가 번지며 투자심리가 위축된 모습이다.",
-          "pct": -9.4,
-          "price": 30.860000610351562,
-          "prev_close": 34.060001373291016,
+          "title": "아이온큐 - 재무 임원 돌연 사퇴, 양자주 동반 약세",
+          "body": "아이온큐는 인더 싱 최고재무책임자가 즉시 사임하며 리더십 공백 우려가 커진 가운데 -6.42% 내린 <b>28.88달러</b> 마감. 웨드부시는 이를 질서있는 승계로 평가했지만 리제티, D-웨이브 등 양자컴퓨팅 종목들이 동반 하락하며 업종 전반의 약세 흐름이 겹친 모습이다.",
+          "pct": -6.42,
+          "price": 28.8799991607666,
+          "prev_close": 30.860000610351562,
           "currency": "USD",
-          "as_of": "2026-11-12",
+          "as_of": "2026-11-13",
           "slots": [
             {
               "time": "11:30PM",
-              "price": 30.010000228881836,
-              "pct": -2.75,
+              "price": 29.774999618530273,
+              "pct": -3.52,
               "prev_close": 30.860000610351562,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "재무 수장 사임 급락",
-              "text": "재무 책임자의 전격 사임 소식에 양자컴퓨팅 동종주들과 함께 큰 폭으로 밀려 내림"
+              "title": "경영진 이탈 충격",
+              "text": "재무 리더 전격 사임 소식에 양자컴 업종 동반 약세까지 겹치며 낙폭이 크게 벌어짐"
             },
             {
               "time": "마감",
@@ -175,45 +175,45 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 30.860000610351562,
               "is_close": true,
               "date": "2026-11-13",
-              "title": "저가 매수세 유입",
-              "text": "승계가 질서 있게 이뤄질 것이라는 평가에도 장중 낙폭을 다 메우지 못한 채 약세 지속"
+              "title": "낙폭 일부 만회",
+              "text": "장 초반 급락 이후 증권가의 질서있는 승계라는 평가가 나오며 저점에서 다소 반등함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "아이온큐, 일주일 새 3% 상승... '업계 기록' 가이던스 정말 좋은가?",
-              "original": "IonQ Is Up 3% in a Week. Is Its “Industry Record” Guidance Really That Good?",
+              "title": "IonQ’s finance reshuffle seen as orderly succession by Wedbush",
+              "original": "IonQ’s finance reshuffle seen as orderly succession by Wedbush",
+              "source": "Proactive",
+              "url": "https://www.proactiveinvestors.com/companies/news/1101773/ionq-s-finance-reshuffle-seen-as-orderly-succession-by-wedbush-1101773.html",
+              "published": "2026-11-14T02:06:00+09:00"
+            },
+            {
+              "title": "IonQ Sinks 8% as Inder Singh Exits “Effective Immediately” in Finance Leadership Shake-Up",
+              "original": "IonQ Sinks 8% as Inder Singh Exits “Effective Immediately” in Finance Leadership Shake-Up",
               "source": "TIKR",
-              "url": "https://www.tikr.com/blog/ionq-is-up-15-in-a-week-is-its-industry-record-guidance-really-that-good?ref=yahoofinance&tlnk=yf-261112-w29cp4hq",
-              "published": "2026-11-13T03:20:25+09:00"
+              "url": "https://www.tikr.com/blog/ionq-sinks-8-as-inder-singh-exits-effective-immediately-in-finance-leadership-shake-up?ref=yahoofinance&tlnk=yf-261113-55596v36",
+              "published": "2026-11-14T00:15:02+09:00"
             },
             {
-              "title": "IONQ Inc (IONQ) 주식 움직였습니다 하락 8.34%에 11월12일: 전체 분석",
-              "original": "IONQ Inc (IONQ) 주식 움직였습니다 하락 8.34%에 11월12일: 전체 분석",
-              "source": "TradingKey",
-              "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUy0yZnlISjREaVBzVkRTN1poSDB0OVo0ZHJlRWI1WFFGTlY3MEM3VDRNN3dlS0pQS0RSRHdQNEowcURValROcHBTbUJEa3hmTjA1UmNWT3l1aTNMa1plWmNQNkMzZlFUVUhNbHk0bmN0eHQ0RlY3T1pNSzZwMTBSbi1JV182amwtVGFwUkVNNA?oc=5",
-              "published": "2026-11-13T03:17:50+09:00"
-            },
-            {
-              "title": "리게티, CEO의 '퀀텀 아직 ROI 입증 못해' 발언에 5% 하락... 아이온큐 8%, 디웨이브 5% 급락",
-              "original": "Rigetti Falls 5% After CEO Admits Quantum Can’t Yet Prove ROI; IonQ Sinks 8%, D-Wave Slides 5%",
+              "title": "IonQ Falls 8% as Quantum Computing Stocks Slide; Rigetti Drops 6%, D-Wave Declines 4%",
+              "original": "IonQ Falls 8% as Quantum Computing Stocks Slide; Rigetti Drops 6%, D-Wave Declines 4%",
               "source": "24/7 Wall St.",
-              "url": "https://247wallst.com/investing/2026/11/12/rigetti-falls-5-after-ceo-admits-quantum-cant-yet-prove-roi-ionq-sinks-8-d-wave-slides-5/",
-              "published": "2026-11-13T02:55:49+09:00"
+              "url": "https://247wallst.com/investing/2026/11/13/ionq-falls-8-as-quantum-computing-stocks-slide-rigetti-drops-6-d-wave-declines-4/",
+              "published": "2026-11-14T00:04:40+09:00"
             }
           ]
         },
         {
           "stock": "엔비디아",
           "ticker": "NVDA",
-          "title": "엔비디아 - 젠슨 황 퇴진설에 급락",
-          "body": "엔비디아는 젠슨 황 CEO 퇴진설이 불거지며 뉴욕증시 동반 하락 속에 -4.34% 내린 <b>166.19달러</b> 마감. 52주 신저가를 기록했다는 보도와 함께 반도체 관련 산업주 전반에 타격이 우려된다는 분석도 나오며 투자심리가 흔들린 모습이다.",
-          "pct": -4.34,
-          "price": 166.19000244140625,
-          "prev_close": 173.72999572753906,
+          "title": "엔비디아 - CEO 후임설에 혼조세",
+          "body": "엔비디아는 Arm CEO와의 접촉설에 대해 아직 공식 연락한 바 없다고 선을 그은 가운데 -2.01% 내린 <b>162.85달러</b> 마감. 젠슨 황의 후임 후보로 옛 동료 CEO가 거론되는 등 승계 관련 추측이 이어지며 나스닥 전반이 0.91% 하락하는 혼조장을 이끈 모습이다.",
+          "pct": -2.01,
+          "price": 162.85000610351562,
+          "prev_close": 166.19000244140625,
           "currency": "USD",
-          "as_of": "2026-11-12",
+          "as_of": "2026-11-13",
           "slots": [
             {
               "time": "11:30PM",
@@ -222,8 +222,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 166.19000244140625,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "후계 구도 혼란 약세",
-              "text": "젠슨 황 사임 여파로 후임 하마평이 나도는 가운데 매도세가 이어지며 나스닥 동반 하락"
+              "title": "CEO 교체설에 흔들",
+              "text": "젠슨 황 후임설과 공식 부인 해명이 맞물리며 장중 약세 흐름이 이어짐"
             },
             {
               "time": "마감",
@@ -232,45 +232,45 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 166.19000244140625,
               "is_close": true,
               "date": "2026-11-13",
-              "title": "낙폭 줄이며 반등",
-              "text": "장중 후계자 불확실성에 밀렸던 주가가 늦은 시간 들어 낙폭을 상당 부분 되돌리는 모습"
+              "title": "약세 흐름 지속",
+              "text": "CEO 교체 루머가 해소되지 않은 채 나스닥 전체 약세 속에 하락세를 이어가는 중"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "뉴욕증시 동반 하락⋯젠슨 황 퇴진에 엔비디아 4.3%↓",
-              "original": "뉴욕증시 동반 하락⋯젠슨 황 퇴진에 엔비디아 4.3%↓",
-              "source": "아이뉴스24",
-              "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1abHJzeDBaVEpVQ1hOX3d4N1dMMTNSS1hfbnVMVGltbEh2SW5NQlI3aUtkbzAySUFDYkxiMWFCNDRYTU1uMmk4MlRGOA?oc=5",
-              "published": "2026-11-13T06:55:11+09:00"
+              "title": "엔비디아, Arm CEO 접촉설에 \"아직 누구와도 공식 연락 안해\"(종합)",
+              "original": "엔비디아, Arm CEO 접촉설에 \"아직 누구와도 공식 연락 안해\"(종합)",
+              "source": "연합뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0ySGdzU0tMb0xLU1FUVnRsMVpjb2tqTDNnWUdVMlk4aUt1a1dzNm5Pd3ZuTV9BMFBLQmdIR0QzSnJ4eWhrc08xYjZXb2cxR1J4OVBCWTQ0dTMzQlHSAWBBVV95cUxQSlVtZEJnY0hHUHV2SGJZWms5UWZrUWxYblFadnFheEtvOGptYzZBaDR0RjF6MjhYejVBdE4tVjNLLWVCRzU5UWQyT0w1QWJHNmVaQmYwTXFtVUVUVWRWeDU?oc=5",
+              "published": "2026-11-14T06:55:05+09:00"
             },
             {
-              "title": "'젠슨 황 퇴진 충격' 엔비디아 52주 신저가[뉴욕마감] - 머니투데이",
-              "original": "'젠슨 황 퇴진 충격' 엔비디아 52주 신저가[뉴욕마감] - 머니투데이",
-              "source": "머니투데이",
-              "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBicXQ3SnUyYnlfRzItWVJzWEFpOGpxTC1RWksxazdFWWVFVDNlMFB6X0lRby1fVWYzeTdMWVM4cjk3QTMzNDdMVWhPamZvNXJHck1qSl82b25veDVRTV9LTl9mT2ZkWEMzOGpCV1k5Y1lpNlpZakHSAXtBVV95cUxPUTFFMTRzU2NYVENGcjVfdHpTbnpITUVLQWVPUDlUSno4VGl3VEdYNjRZUTZWYW5fcDlsSXYwWThlUjhGaHZOZFlaQ3p0RzFFOTFldWxsaTVmQ1F2SFBwNnRqRVdUNU9nTmJ5UlluSm94T2lFNnlrSTVfdEk?oc=5",
-              "published": "2026-11-13T06:54:43+09:00"
+              "title": "엔비디아 2%대 하락에 뉴욕증시 혼조⋯나스닥 0.91%↓ [상보]",
+              "original": "엔비디아 2%대 하락에 뉴욕증시 혼조⋯나스닥 0.91%↓ [상보]",
+              "source": "이투데이",
+              "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0zYWN0cE5tTS1PaXB3cTBIMnU4cjJLU0ZpYk5FRlBQTFJkNUduaEEteTc3Y2M4Y1FJSkVjcDFaVWJsLXdDRnJBdGpQMVJwdTlZUG9vYQ?oc=5",
+              "published": "2026-11-14T06:52:00+09:00"
             },
             {
-              "title": "젠슨 황, 엔비디아 CEO직 하차... 이 산업주 3종목 타격 받나?",
-              "original": "Jensen Huang Is Out as Nvidia CEO. Could These 3 Industrial Stocks Pay the Price?",
-              "source": "Motley Fool",
-              "url": "https://www.fool.com/investing/2026/11/12/jensen-huang-is-out-as-nvidia-ceo-could-these-3-industrial-stocks-pay-the-price/",
-              "published": "2026-11-13T06:50:03+09:00"
+              "title": "“다시 엔비디아로?”…젠슨 황 후임 후보 떠오른 ‘옛 식구’ CEO",
+              "original": "“다시 엔비디아로?”…젠슨 황 후임 후보 떠오른 ‘옛 식구’ CEO",
+              "source": "매일경제",
+              "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1CWTZxcmgzd0FkVDdueC13YzVZR1hjUm52WXREX0NqUHhnbUYwZjBMcy1qaUNSeXI5QlVNdUpJTlA3b0FhVzVWbGdaTmd5Y1JaR1E?oc=5",
+              "published": "2026-11-14T06:51:44+09:00"
             }
           ]
         },
         {
           "stock": "소파이테크놀로지",
           "ticker": "SOFI",
-          "title": "소파이테크놀로지 - 스테이블코인 출시에도 하락",
-          "body": "소파이테크놀로지는 은행 발행 스테이블코인 소파이USD를 폴리곤 블록체인 결제 스택에 도입했다는 소식에도 -3.93% 내린 <b>15.63달러</b> 마감. 3분기 대출 실행액이 사상 최고치를 기록했다는 호재가 있었지만 성장세 지속 여부에 대한 의문이 제기되는 모습이다.",
-          "pct": -3.93,
-          "price": 15.630000114440918,
-          "prev_close": 16.270000457763672,
+          "title": "소파이테크놀로지 - 폴리곤에 스테이블코인 도입",
+          "body": "소파이테크놀로지는 폴리곤 네트워크에 스테이블코인 서비스를 도입한다고 밝혔음에도 -1.34% 내린 <b>15.42달러</b> 마감.",
+          "pct": -1.34,
+          "price": 15.420000076293945,
+          "prev_close": 15.630000114440918,
           "currency": "USD",
-          "as_of": "2026-11-12",
+          "as_of": "2026-11-13",
           "slots": [
             {
               "time": "11:30PM",
@@ -279,8 +279,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 15.630000114440918,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "스테이블코인 소식",
-              "text": "폴리곤과의 스테이블코인 도입 소식과 장기 성장 전망이 겹치며 등락을 거듭하는 흐름"
+              "title": "혼조세 속 약보합",
+              "text": "폴리곤 스테이블코인 도입 소식에도 핀테크 비교 기사가 겹치며 등락이 엇갈림"
             },
             {
               "time": "마감",
@@ -289,39 +289,38 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 15.630000114440918,
               "is_close": true,
               "date": "2026-11-13",
-              "title": "약세 속 낙폭 축소",
-              "text": "장중 하락세를 보였던 주가가 후반 들어 저점에서 벗어나며 낙폭을 상당폭 줄여나감"
+              "title": "막판 반등 성공",
+              "text": "장중 약세를 보이다 저가 매수세가 유입되며 플러스권으로 가까스로 돌아섬"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "소파이, 3분기 대출 실행액 사상 최고치... 성장세 이어갈까?",
-              "original": "SOFI's Q3 Loan Originations Hit Record High: Can Growth Continue?",
+              "title": "Sofi brings stablecoins to Polygon",
+              "original": "Sofi brings stablecoins to Polygon",
+              "source": "Yahoo Finance Video",
+              "url": "https://finance.yahoo.com/video/sofi-brings-stablecoins-polygon-190000510.html",
+              "published": "2026-11-14T04:00:00+09:00"
+            },
+            {
+              "title": "SoFi vs. Upstart: Which Fintech Stock is the Better Buy Right Now?",
+              "original": "SoFi vs. Upstart: Which Fintech Stock is the Better Buy Right Now?",
               "source": "Zacks",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/sofis-q3-loan-originations-hit-165900490.html",
-              "published": "2026-11-13T01:59:00+09:00"
+              "url": "https://finance.yahoo.com/markets/stocks/articles/sofi-vs-upstart-fintech-stock-174100547.html",
+              "published": "2026-11-14T02:41:00+09:00"
             },
             {
-              "title": "소파이, 은행 발행 스테이블코인 폴리곤 결제 스택에 도입",
-              "original": "SoFi Brings Its Bank-Issued Stablecoin to Polygon’s Payments Stack",
-              "source": "decrypt",
-              "url": "https://decrypt.co/383096/sofi-brings-bank-issued-stablecoin-polygon-payments-stack",
-              "published": "2026-11-12T23:01:02+09:00"
-            },
-            {
-              "title": "소파이의 은행 발행 스테이블코인 소파이USD, 세 번째 블록체인 폴리곤에서 출시",
-              "original": "SoFi’s Bank-Issued Stablecoin SoFiUSD Goes Live on Polygon, Its Third Blockchain",
-              "source": "Unchained",
-              "url": "https://unchainedcrypto.com/sofis-bank-issued-stablecoin-sofiusd-goes-live-on-polygon-its-third-blockchain/",
-              "published": "2026-11-12T23:00:00+09:00"
+              "title": "Where Will SoFi Stock Be in 2030? Its Goal Is 100 Million Products.",
+              "original": "Where Will SoFi Stock Be in 2030? Its Goal Is 100 Million Products.",
+              "source": "Motley Fool",
+              "url": "https://www.fool.com/investing/2026/11/13/where-will-sofi-stock-be-2030-goal-100m-products/",
+              "published": "2026-11-13T22:25:00+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-11-13-us.md",
-      "refreshed_at": "2026-11-13 07:00:58 KST",
-      "slots_refreshed_at": "2026-11-14 06:55:27 KST"
+      "markdown": "briefings/2026-11-14-us.md",
+      "refreshed_at": "2026-11-14 07:01:03 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
