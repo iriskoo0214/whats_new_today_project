@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-13 13:10:47 KST",
+  "generated_at": "2026-11-13 15:26:44 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -368,7 +368,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-11-13",
               "title": "장 초반 급등 출발",
-              "text": "개장 직후 강한 매수세가 유입되며 하루 중 가장 높은 상승폭을 기록함"
+              "text": "개장 직후 큰 폭으로 뛰어오르며 투자심리가 한껏 달아오른 채 거래를 시작함"
             },
             {
               "time": "10:30AM",
@@ -377,18 +377,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 1254000.0,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "상승폭 점차 축소",
-              "text": "오전 중반 들어 초반 급등세가 누그러지며 상승폭이 서서히 줄어드는 흐름을 보임"
+              "title": "상승폭 빠르게 축소",
+              "text": "오전 들어 상승 탄력이 꺾이며 초반 급등분을 상당 부분 반납하는 흐름을 보임"
             },
             {
-              "time": "12:50PM",
-              "price": 1236000.0,
-              "pct": -1.44,
+              "time": "1:00PM",
+              "price": 1226000.0,
+              "pct": -2.23,
               "prev_close": 1254000.0,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "상승분 반납하고 하락 전환",
-              "text": "엔비디아 젠슨 황 퇴진 소식이 전해진 직후 상승분을 모두 반납하고 약세로 돌아섬"
+              "title": "낙폭 전환, 하루 중 최저",
+              "text": "점심 무렵 상승분을 모두 내주고 하락 전환하며 이날 가장 낮은 수준까지 밀린 상태 이어가는 중"
             }
           ],
           "slot_total": 4,
@@ -435,7 +435,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-11-13",
               "title": "장 초반 강세 출발",
-              "text": "개장과 동시에 매수세가 몰리며 하루 중 가장 큰 상승폭으로 거래를 시작함"
+              "text": "개장과 동시에 큰 폭으로 오르며 상승세로 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -444,18 +444,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 208000.0,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "오전 내내 상승세 유지",
-              "text": "초반 급등 이후 소폭 조정을 거치면서도 비교적 견조한 오름세를 이어감"
+              "title": "상승폭 점차 둔화",
+              "text": "오전 중반 들어 초반 기세가 한풀 꺾이며 오름폭이 눈에 띄게 줄어듦"
             },
             {
-              "time": "12:50PM",
-              "price": 207250.0,
-              "pct": -0.36,
+              "time": "1:00PM",
+              "price": 206750.0,
+              "pct": -0.6,
               "prev_close": 208000.0,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "상승폭 대부분 반납",
-              "text": "AI 안경 공개 소식에도 매수세가 이어지지 못하며 오전 상승분을 거의 반납함"
+              "title": "오후 들어 약세 전환",
+              "text": "점심께 상승분을 대부분 반납하고 약보합권으로 내려앉아 하루 중 가장 낮은 수준 유지 중"
             }
           ],
           "slot_total": 4,
@@ -501,8 +501,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 654000.0,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "장 초반 소폭 상승",
-              "text": "개장 직후 완만한 오름세로 출발하며 하루를 시작함"
+              "title": "소폭 상승 출발",
+              "text": "개장 초반 완만한 오름세로 거래를 시작하며 비교적 안정적인 흐름을 보임"
             },
             {
               "time": "10:30AM",
@@ -511,18 +511,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 654000.0,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "상승 반납 후 약세 전환",
-              "text": "RSU 확대 소식에도 매수세가 이어지지 못하고 하락 쪽으로 방향을 바꿈"
+              "title": "상승분 반납, 약세 전환",
+              "text": "오전 중반 들어 초반 오름세가 꺾이며 약보합권으로 내려앉는 모습을 보임"
             },
             {
-              "time": "12:50PM",
-              "price": 646000.0,
-              "pct": -1.22,
+              "time": "1:00PM",
+              "price": 647000.0,
+              "pct": -1.07,
               "prev_close": 654000.0,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "낙폭 점차 확대",
-              "text": "3분기 실적 발표 이후에도 반등 모멘텀을 찾지 못하며 낙폭이 하루 중 가장 커짐"
+              "title": "낙폭 다소 확대",
+              "text": "점심 무렵까지 약세 흐름이 이어지며 하루 중 가장 낮은 수준까지 밀린 채 유지 중"
             }
           ],
           "slot_total": 4,
@@ -568,8 +568,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 137200.0,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "장 초반 강세 출발",
-              "text": "개장과 함께 뚜렷한 상승세로 출발하며 하루를 시작함"
+              "title": "장 초반 완만한 상승",
+              "text": "개장 직후 꾸준한 오름세를 보이며 비교적 안정적으로 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -578,18 +578,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 137200.0,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "오전 중 상승폭 확대",
-              "text": "초반 강세가 이어지며 오전 중반 하루 중 가장 높은 상승폭을 기록함"
+              "title": "오전 상승폭 확대",
+              "text": "오전 중반 들어 상승 탄력이 더해지며 장중 고점 부근까지 올라서는 흐름을 보임"
             },
             {
-              "time": "12:50PM",
-              "price": 137200.0,
-              "pct": 0.0,
+              "time": "1:00PM",
+              "price": 136800.0,
+              "pct": -0.29,
               "prev_close": 137200.0,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "상승분 모두 반납",
-              "text": "지분법이익 급감과 목표가 하향 소식이 전해진 뒤 오전 상승분을 모두 되돌림"
+              "title": "상승분 반납, 약세 전환",
+              "text": "점심 무렵 오전 오름폭을 모두 반납하고 약보합권으로 내려앉은 상태 이어가는 중"
             }
           ],
           "slot_total": 4,
@@ -636,7 +636,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-11-13",
               "title": "장 초반 상승 출발",
-              "text": "개장 직후 완만한 오름세로 거래를 시작하며 하루를 열어감"
+              "text": "개장과 함께 오름세로 출발하며 투자심리가 비교적 우호적으로 형성됨"
             },
             {
               "time": "10:30AM",
@@ -645,18 +645,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 266500.0,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "상승폭 크게 확대",
-              "text": "오전 중반 들어 상승폭이 눈에 띄게 커지며 하루 중 가장 강한 흐름을 보임"
+              "title": "오전 상승폭 확대",
+              "text": "오전 중반 들어 오름폭이 크게 커지며 하루 중 가장 높은 수준까지 올라섬"
             },
             {
-              "time": "12:50PM",
-              "price": 272500.0,
-              "pct": 2.25,
+              "time": "1:00PM",
+              "price": 271000.0,
+              "pct": 1.69,
               "prev_close": 266500.0,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "상승폭 일부 축소",
-              "text": "쏘카 등과의 자율주행 협력 소식이 이어졌으나 오전 고점 대비 상승폭이 다소 줄어듦"
+              "title": "상승폭 다시 축소",
+              "text": "점심께 오전 고점 대비 오름폭이 줄어들었으나 여전히 상승세는 유지하고 있는 중"
             }
           ],
           "slot_total": 4,
@@ -687,7 +687,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-11-12-kr.md",
       "refreshed_at": "2026-11-12 18:00:57 KST",
-      "slots_refreshed_at": "2026-11-13 13:10:47 KST"
+      "slots_refreshed_at": "2026-11-13 15:26:44 KST"
     }
   }
 };
