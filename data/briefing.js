@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-16 09:20:39 KST",
+  "generated_at": "2026-11-16 10:40:42 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -362,14 +362,24 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-13",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 1210000.0,
-              "pct": -0.49,
+              "time": "9:10AM",
+              "price": 1211500.0,
+              "pct": -0.37,
               "prev_close": 1216000.0,
               "is_close": false,
               "date": "2026-11-16",
-              "title": "장 초반 약세 출발",
-              "text": "미국 반도체주 급락 여파로 삼성전자와 함께 동반 약세로 출발하며 장 초반 하락세를 이어가는 중"
+              "title": "장 초반 소폭 약세",
+              "text": "개장 직후에는 보합권에서 완만한 내림세로 출발하며 큰 동요는 없었음"
+            },
+            {
+              "time": "10:20AM",
+              "price": 1163000.0,
+              "pct": -4.36,
+              "prev_close": 1216000.0,
+              "is_close": false,
+              "date": "2026-11-16",
+              "title": "낙폭 급격히 확대",
+              "text": "장중 116만원선까지 밀리며 약세폭이 크게 커졌고 반독점 소송 관련 법원 소식도 전해짐"
             }
           ],
           "slot_total": 4,
@@ -409,14 +419,24 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-13",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 206250.0,
-              "pct": 0.12,
+              "time": "9:10AM",
+              "price": 207500.0,
+              "pct": 0.73,
               "prev_close": 206000.0,
               "is_close": false,
               "date": "2026-11-16",
-              "title": "소폭 강세 출발",
-              "text": "SK하이닉스가 미국발 약세에 밀리는 사이 외국인 수급 쏠림 속에 소폭 상승 흐름을 유지 중"
+              "title": "강세로 산뜻한 출발",
+              "text": "장 초반에는 상승세로 출발하며 분위기가 나쁘지 않았음"
+            },
+            {
+              "time": "10:20AM",
+              "price": 201250.0,
+              "pct": -2.31,
+              "prev_close": 206000.0,
+              "is_close": false,
+              "date": "2026-11-16",
+              "title": "20만원선 붕괴",
+              "text": "외국인 매도세에 코스피가 하락 전환하면서 심리적 지지선이 무너지며 낙폭이 커짐"
             }
           ],
           "slot_total": 4,
@@ -456,14 +476,24 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-13",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 658000.0,
-              "pct": 2.65,
+              "time": "9:10AM",
+              "price": 666000.0,
+              "pct": 3.9,
               "prev_close": 641000.0,
               "is_close": false,
               "date": "2026-11-16",
-              "title": "장 초반 강한 상승",
-              "text": "목표가 하향 소식에도 기업가치 재평가 기대감이 부각되며 장 초반부터 눈에 띄는 강세를 이어가는 중"
+              "title": "급등 출발 이어가",
+              "text": ""
+            },
+            {
+              "time": "10:20AM",
+              "price": 656000.0,
+              "pct": 2.34,
+              "prev_close": 641000.0,
+              "is_close": false,
+              "date": "2026-11-16",
+              "title": "상승폭 다소 둔화",
+              "text": "장 초반 큰 폭으로 뛴 뒤 상승세는 유지했지만 오름폭은 다소 줄어드는 흐름 보임"
             }
           ],
           "slot_total": 4,
@@ -503,14 +533,24 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-13",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 136800.0,
-              "pct": 0.88,
+              "time": "9:10AM",
+              "price": 137400.0,
+              "pct": 1.33,
               "prev_close": 135600.0,
               "is_close": false,
               "date": "2026-11-16",
-              "title": "장 초반 상승 출발",
-              "text": "구독 마케팅 확대 소식이 전해진 가운데 장 초반부터 완만한 상승 흐름을 유지하고 있는 중"
+              "title": "상승 출발 뒤 조정",
+              "text": "장 초반에는 오름세로 출발하며 긍정적인 분위기였음"
+            },
+            {
+              "time": "10:20AM",
+              "price": 133900.0,
+              "pct": -1.25,
+              "prev_close": 135600.0,
+              "is_close": false,
+              "date": "2026-11-16",
+              "title": "상승분 반납하며 하락",
+              "text": "오전 중반 들어 상승폭을 모두 반납하고 약세로 돌아섰으며 하루 중 가장 낮은 수준을 기록"
             }
           ],
           "slot_total": 4,
@@ -550,14 +590,24 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-13",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 270500.0,
-              "pct": 0.37,
+              "time": "9:10AM",
+              "price": 272750.0,
+              "pct": 1.21,
               "prev_close": 269500.0,
               "is_close": false,
               "date": "2026-11-16",
-              "title": "완만한 강세 출발",
-              "text": "신규 전기 SUV 사전예약 소식과 안전 캠페인 보도가 이어지는 가운데 장 초반 소폭 오름세를 유지 중"
+              "title": "상승세로 출발",
+              "text": "장 초반에는 완만한 오름세를 보이며 시작했음"
+            },
+            {
+              "time": "10:20AM",
+              "price": 268000.0,
+              "pct": -0.56,
+              "prev_close": 269500.0,
+              "is_close": false,
+              "date": "2026-11-16",
+              "title": "오전 중 상승분 반납",
+              "text": "오전 중반 들어 상승분을 대부분 내주며 약보합권으로 전환되는 흐름을 보임"
             }
           ],
           "slot_total": 4,
@@ -588,7 +638,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-11-13-kr.md",
       "refreshed_at": "2026-11-13 18:00:53 KST",
-      "slots_refreshed_at": "2026-11-16 09:20:39 KST"
+      "slots_refreshed_at": "2026-11-16 10:40:42 KST"
     }
   }
 };
