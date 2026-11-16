@@ -1,10 +1,10 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-16 18:00:59 KST",
-  "refreshed": [
-    "kr"
+  "generated_at": "2026-11-16 23:10:49 KST",
+  "refreshed": [],
+  "slots_refreshed": [
+    "us"
   ],
-  "slots_refreshed": [],
   "default": "kr",
   "markets": {
     "us": {
@@ -51,8 +51,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 244.6699981689453,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "장중 완만한 상승세",
-              "text": "신규 기능 출시와 파트너십 관련 소식이 이어지는 가운데 완만한 오름세를 유지하는 모습"
+              "title": "장후 소폭 상승",
+              "text": "엔화채 발행 소식이 전해진 가운데 장 마감 후 시간외에서 완만한 오름세를 이어감"
             },
             {
               "time": "마감",
@@ -62,7 +62,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-11-13",
               "title": "상승폭 소폭 확대",
-              "text": "오후 들어 상승폭을 조금씩 키우며 하루 중 고점권에서 움직임을 이어가는 흐름"
+              "text": "양자컴퓨팅 연구 활용 소식까지 더해지며 시간외 상승분을 지키고 오히려 소폭 키워 마감"
             }
           ],
           "slot_total": 2,
@@ -108,8 +108,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 523.0,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "장중 약세 흐름",
-              "text": "콘솔 신기능 소식이 전해졌지만 매수세가 따라붙지 못하며 소폭 약세 흐름을 이어감"
+              "title": "약보합 출발",
+              "text": "아웃룩 장애 소식에도 주가 반응은 크지 않았고 시간외에서는 소폭 내린 채 거래됨"
             },
             {
               "time": "마감",
@@ -118,8 +118,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 523.0,
               "is_close": true,
               "date": "2026-11-13",
-              "title": "약세 딛고 반등 마감",
-              "text": "장중 내렸던 흐름을 뒤집고 강세로 돌아서며 하루 중 가장 높은 수준에서 마무리"
+              "title": "상승 전환 마감",
+              "text": "AI 국가대표 프로그램 추진 소식 등이 겹치며 장중 약세를 딛고 결국 소폭 오름세로 마감"
             }
           ],
           "slot_total": 2,
@@ -165,8 +165,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 30.860000610351562,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "낙폭 다소 축소",
-              "text": "양자컴퓨터주 전반의 약세 분위기 속에 낙폭을 일부 줄이며 저점에서 벗어나는 모습"
+              "title": "낙폭 확대 흐름",
+              "text": "CFO 교체 소식 이후 물량 완판 호재가 나왔지만 매수세로 이어지지 못하고 하락폭이 커짐"
             },
             {
               "time": "마감",
@@ -175,8 +175,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 30.860000610351562,
               "is_close": true,
               "date": "2026-11-13",
-              "title": "낙폭 다시 확대 마감",
-              "text": "장 후반 들어 매도세가 다시 강해지며 하루 중 가장 큰 낙폭을 기록하고 마무리"
+              "title": "하루 중 최저가권",
+              "text": "장 초반 대비 낙폭이 꾸준히 커지며 이날 가장 낮은 수준에서 거래를 마무리함"
             }
           ],
           "slot_total": 2,
@@ -222,8 +222,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 166.19000244140625,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "내부 논란 속 반등",
-              "text": "젠슨 황 관련 내부 발언 논란과 실적 발표 앞둔 경계감 속에서도 완만한 반등세 나타남"
+              "title": "시간외 큰 반등",
+              "text": "목표주가 하향 소식이 잇따랐음에도 마감 후 시간외에서는 큰 폭으로 반등하는 모습을 보임"
             },
             {
               "time": "마감",
@@ -232,8 +232,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 166.19000244140625,
               "is_close": true,
               "date": "2026-11-13",
-              "title": "반등분 반납하며 하락",
-              "text": "장 초반 반등세를 지키지 못하고 오후 들어 밀리며 하루 중 가장 낮은 수준에서 마무리"
+              "title": "장중 약세 마감",
+              "text": "목표주가 줄하향 소식 속에 장중 내내 눌리며 결국 하락세로 하루를 마감함"
             }
           ],
           "slot_total": 2,
@@ -279,8 +279,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 15.630000114440918,
               "is_close": false,
               "date": "2026-11-13",
-              "title": "실적 기대 속 보합권",
-              "text": "이익 성장 전망과 자본 조달 불필요 발언이 전해지며 보합권에서 등락을 거듭하는 흐름"
+              "title": "시간외 강보합",
+              "text": "사상 최대 분기 실적 발표 이후 장중 상승분을 다 지키지 못했지만 시간외에서는 소폭 올라섬"
             },
             {
               "time": "마감",
@@ -289,8 +289,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 15.630000114440918,
               "is_close": true,
               "date": "2026-11-13",
-              "title": "상승분 반납하고 약세",
-              "text": "장중 올랐던 흐름이 꺾이며 오후 들어 하락 전환, 하루 중 낮은 구간에서 마무리"
+              "title": "장중 하락 마감",
+              "text": "실적 호조로 장중 급등했던 흐름이 꺾이며 결국 소폭 하락한 채로 거래를 마감함"
             }
           ],
           "slot_total": 2,
@@ -321,7 +321,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-11-14-us.md",
       "refreshed_at": "2026-11-14 07:01:03 KST",
-      "slots_refreshed_at": "2026-11-16 06:40:47 KST"
+      "slots_refreshed_at": "2026-11-16 23:10:49 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
