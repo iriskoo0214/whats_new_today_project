@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-17 09:20:51 KST",
+  "generated_at": "2026-11-17 10:40:45 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -354,14 +354,24 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-16",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 1106000.0,
-              "pct": -1.25,
+              "time": "9:10AM",
+              "price": 1114000.0,
+              "pct": -0.54,
               "prev_close": 1120000.0,
               "is_close": false,
               "date": "2026-11-17",
               "title": "장 초반 약세 출발",
-              "text": "코스피 5000선 붕괴 속 장 초반부터 하락 출발하며 낙폭을 키우는 모습"
+              "text": "개장 직후 하락세로 시작하며 전일 대비 소폭 밀린 채 거래 시작됨"
+            },
+            {
+              "time": "10:20AM",
+              "price": 1127000.0,
+              "pct": 0.62,
+              "prev_close": 1120000.0,
+              "is_close": false,
+              "date": "2026-11-17",
+              "title": "상승 전환 성공",
+              "text": "순현금 급증과 주주환원 기대 소식 속 낙폭을 메우고 상승세로 돌아섬"
             }
           ],
           "slot_total": 4,
@@ -401,14 +411,24 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-16",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 191700.0,
-              "pct": -2.59,
+              "time": "9:10AM",
+              "price": 192700.0,
+              "pct": -2.08,
               "prev_close": 196800.0,
               "is_close": false,
               "date": "2026-11-17",
-              "title": "장 초반 낙폭 확대",
-              "text": "코스피 전반 약세 속 개장 직후부터 하락폭이 크게 벌어지며 장을 시작"
+              "title": "장 초반 약세 지속",
+              "text": "개장과 함께 매물이 나오며 하루 중 낙폭이 가장 크게 벌어진 채 출발함"
+            },
+            {
+              "time": "10:20AM",
+              "price": 194500.0,
+              "pct": -1.17,
+              "prev_close": 196800.0,
+              "is_close": false,
+              "date": "2026-11-17",
+              "title": "낙폭 다소 축소",
+              "text": "갤럭시 AI 교육 확대 소식이 이어졌으나 하락폭을 일부 줄이는 데 그침"
             }
           ],
           "slot_total": 4,
@@ -448,14 +468,24 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-16",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 624000.0,
-              "pct": -3.85,
+              "time": "9:10AM",
+              "price": 642000.0,
+              "pct": -1.08,
               "prev_close": 649000.0,
               "is_close": false,
               "date": "2026-11-17",
-              "title": "장 초반 급락 출발",
-              "text": "특별한 재료 없이 개장과 동시에 낙폭이 크게 벌어지며 약세로 하루 시작"
+              "title": "장 초반 약세 출발",
+              "text": "개장 직후 하락세로 시작하며 학력차별 논란 보도가 부담으로 작용함"
+            },
+            {
+              "time": "10:20AM",
+              "price": 634000.0,
+              "pct": -2.31,
+              "prev_close": 649000.0,
+              "is_close": false,
+              "date": "2026-11-17",
+              "title": "낙폭 확대 중",
+              "text": "오전 중반 들어 하락세가 더 깊어지며 하루 중 가장 큰 낙폭을 기록함"
             }
           ],
           "slot_total": 4,
@@ -495,14 +525,24 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-16",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 129000.0,
-              "pct": -2.05,
+              "time": "9:10AM",
+              "price": 129900.0,
+              "pct": -1.37,
               "prev_close": 131700.0,
               "is_close": false,
               "date": "2026-11-17",
-              "title": "장 초반 약세 지속",
-              "text": "개장 직후부터 하락세가 이어지며 주가 하락을 다룬 기사가 함께 나옴"
+              "title": "장 초반 약세 출발",
+              "text": "개장 직후 하락세로 시작하며 전일 대비 밀린 채 거래가 시작됨"
+            },
+            {
+              "time": "10:20AM",
+              "price": 131700.0,
+              "pct": 0.0,
+              "prev_close": 131700.0,
+              "is_close": false,
+              "date": "2026-11-17",
+              "title": "보합권 회복",
+              "text": "올레드 TV 유럽 1위 소식 속 낙폭을 모두 만회하며 보합 수준까지 올라섬"
             }
           ],
           "slot_total": 4,
@@ -542,14 +582,24 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-16",
           "slots": [
             {
-              "time": "9:00AM",
-              "price": 259500.0,
-              "pct": -2.26,
+              "time": "9:10AM",
+              "price": 261000.0,
+              "pct": -1.69,
               "prev_close": 265500.0,
               "is_close": false,
               "date": "2026-11-17",
               "title": "장 초반 약세 출발",
-              "text": "공장 가동률 하락 소식이 전해진 가운데 개장 직후부터 낙폭을 키우는 모습"
+              "text": "개장 직후 하락세로 출발하며 전일 대비 낮은 가격대에서 거래됨"
+            },
+            {
+              "time": "10:20AM",
+              "price": 261500.0,
+              "pct": -1.51,
+              "prev_close": 265500.0,
+              "is_close": false,
+              "date": "2026-11-17",
+              "title": "낙폭 소폭 축소",
+              "text": "계양전기 부품 공급 소식이 전해진 가운데 하락폭을 소폭 줄이며 유지 중"
             }
           ],
           "slot_total": 4,
@@ -580,7 +630,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-11-16-kr.md",
       "refreshed_at": "2026-11-16 18:00:59 KST",
-      "slots_refreshed_at": "2026-11-17 09:20:51 KST"
+      "slots_refreshed_at": "2026-11-17 10:40:45 KST"
     }
   }
 };
