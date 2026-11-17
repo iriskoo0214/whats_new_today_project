@@ -1,10 +1,10 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-17 18:00:57 KST",
-  "refreshed": [
-    "kr"
+  "generated_at": "2026-11-17 22:08:22 KST",
+  "refreshed": [],
+  "slots_refreshed": [
+    "us"
   ],
-  "slots_refreshed": [],
   "default": "kr",
   "markets": {
     "us": {
@@ -51,8 +51,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 247.1300048828125,
               "is_close": false,
               "date": "2026-11-16",
-              "title": "소폭 약세 유지",
-              "text": "엔비디아·페르미 연구소와 양자컴퓨팅 협력 소식이 전해졌지만 주가는 약보합권에서 크게 반응하지 않음"
+              "title": "장후 약보합 흐름",
+              "text": "양자컴퓨팅 협력 소식이 잇따랐지만 주가에는 큰 영향을 주지 못하는 모습"
             },
             {
               "time": "마감",
@@ -61,8 +61,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 247.1300048828125,
               "is_close": true,
               "date": "2026-11-16",
-              "title": "낙폭 확대 마감",
-              "text": "장 초반 소폭 약세에서 벗어나지 못하고 오후 들어 낙폭이 더 커지며 하루 중 저점 부근에서 마무리"
+              "title": "낙폭 확대되며 마감",
+              "text": "장중 보합권에서 움직이다 막판 들어 낙폭이 눈에 띄게 커지며 하루를 마무리"
             }
           ],
           "slot_total": 2,
@@ -108,8 +108,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 523.8800048828125,
               "is_close": false,
               "date": "2026-11-16",
-              "title": "장애 이슈 속 약세",
-              "text": "클라우드 장애가 주요 은행 고객까지 번졌다는 소식과 경쟁 심화 우려가 겹치며 주가가 하락 압력을 받음"
+              "title": "장후 소폭 반등",
+              "text": "365 서비스 장애 원인 발표에도 야간 거래에서는 완만한 상승세를 보임"
             },
             {
               "time": "마감",
@@ -118,8 +118,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 523.8800048828125,
               "is_close": true,
               "date": "2026-11-16",
-              "title": "낙폭 키우며 마감",
-              "text": "장중 반등 시도에도 불구하고 오후 들어 하락폭이 더 벌어지며 전 거래일 대비 약세로 마무리"
+              "title": "상승분 반납 마감",
+              "text": "장애 원인이 7월부터 있던 소프트웨어 버그로 지목된 가운데 낙폭을 키우며 마감"
             }
           ],
           "slot_total": 2,
@@ -165,8 +165,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 28.8799991607666,
               "is_close": false,
               "date": "2026-11-16",
-              "title": "동반 급락 압력",
-              "text": "디웨이브 실적 부진 여파로 양자컴퓨팅 관련주 전반에 매도세가 번지며 주가가 큰 폭으로 밀림"
+              "title": "낙폭 지속",
+              "text": "오전 급락 이유를 다룬 기사가 나온 뒤에도 하락세가 이어지며 반등 기미 못 보임"
             },
             {
               "time": "마감",
@@ -175,8 +175,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 28.8799991607666,
               "is_close": true,
               "date": "2026-11-16",
-              "title": "저점 부근 마감",
-              "text": "2026년 매출 가이던스 공개 후에도 매수세가 살아나지 못하며 하루 중 가장 큰 낙폭을 기록한 채 마감"
+              "title": "낙폭 더 키우며 마감",
+              "text": "장중 내내 약세를 지속하다 마감 무렵 들어 하루 중 가장 큰 낙폭으로 확대"
             }
           ],
           "slot_total": 2,
@@ -215,8 +215,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 162.85000610351562,
               "is_close": false,
               "date": "2026-11-16",
-              "title": "실적 앞두고 급락",
-              "text": "실적 발표를 앞두고 반도체지수 전반이 급락하는 가운데 투자자들의 경계 매물이 쏟아지며 낙폭이 커짐"
+              "title": "장후 낙폭 축소",
+              "text": "비중 확대 소식과 젠슨 황 관련 보도가 겹친 가운데 야간 거래에서 낙폭이 다소 줄어듦"
             },
             {
               "time": "마감",
@@ -225,8 +225,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 162.85000610351562,
               "is_close": true,
               "date": "2026-11-16",
-              "title": "낙폭 더 키운 마감",
-              "text": "장중 내내 약세를 이어가다 오후 들어 하락폭이 더 벌어지며 나스닥 급락장 속 가장 부진한 흐름으로 마무리"
+              "title": "큰 폭 하락 마감",
+              "text": "장중 내내 약세가 이어지며 야간 거래 대비 낙폭이 더욱 커진 채로 하루를 마감"
             }
           ],
           "slot_total": 2,
@@ -272,8 +272,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 15.420000076293945,
               "is_close": false,
               "date": "2026-11-16",
-              "title": "로드맵 공개에도 약세",
-              "text": "2030년까지 10억 달러 사업 다섯 개를 키우겠다는 로드맵이 공개됐지만 주가는 약세를 벗어나지 못함"
+              "title": "매도 압력 지속",
+              "text": "지속적인 매도세를 우려하는 기사가 나온 이후에도 약세 흐름이 이어지는 모습"
             },
             {
               "time": "마감",
@@ -282,8 +282,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 15.420000076293945,
               "is_close": true,
               "date": "2026-11-16",
-              "title": "낙폭 확대 마감",
-              "text": "장 초반 성장 전략 기대에도 매수세가 이어지지 못하며 오후 들어 하락폭이 커진 채 거래를 마침"
+              "title": "낙폭 키우며 마감",
+              "text": "로드맵 공개 소식에도 하락 압력을 이기지 못하고 낙폭을 더 키우며 하루를 마감"
             }
           ],
           "slot_total": 2,
@@ -313,7 +313,8 @@ window.NOTEFOLIO_BRIEFING = {
         }
       ],
       "markdown": "briefings/2026-11-17-us.md",
-      "refreshed_at": "2026-11-17 07:00:59 KST"
+      "refreshed_at": "2026-11-17 07:00:59 KST",
+      "slots_refreshed_at": "2026-11-17 22:08:22 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
