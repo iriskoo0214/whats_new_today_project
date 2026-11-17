@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-17 12:42:51 KST",
+  "generated_at": "2026-11-17 13:10:45 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -361,7 +361,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-11-17",
               "title": "장 초반 소폭 약세",
-              "text": "개장 직후 약보합으로 출발하며 하락폭이 크지 않은 채 흐름이 이어짐"
+              "text": "개장 직후 전일 대비 소폭 밀리며 출발, 아직 특별한 매수세는 보이지 않는 분위기"
             },
             {
               "time": "10:30AM",
@@ -370,8 +370,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 1120000.0,
               "is_close": false,
               "date": "2026-11-17",
-              "title": "낙폭 다소 축소",
-              "text": "주주환원 기대감과 순현금 확대 소식이 전해졌으나 약세 흐름은 소폭 완화되는 데 그침"
+              "title": "낙폭 축소 흐름",
+              "text": "오전 중반 들어 하락폭을 일부 만회하며 낙폭이 눈에 띄게 줄어드는 모습을 보임"
+            },
+            {
+              "time": "12:50PM",
+              "price": 1125000.0,
+              "pct": 0.45,
+              "prev_close": 1120000.0,
+              "is_close": false,
+              "date": "2026-11-17",
+              "title": "상승 전환 성공",
+              "text": "현금성 자산 329조 돌파와 주주환원 기대감 보도 이후 매수세 유입되며 상승 전환에 성공"
             }
           ],
           "slot_total": 4,
@@ -418,7 +428,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-11-17",
               "title": "장 초반 약세 출발",
-              "text": "개장 초반부터 하락세로 시작하며 코스피 전반의 약세 분위기 속에 밀림"
+              "text": "개장과 동시에 하락폭이 제법 크게 나타나며 투자심리가 위축된 채 거래 시작"
             },
             {
               "time": "10:30AM",
@@ -427,8 +437,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 196800.0,
               "is_close": false,
               "date": "2026-11-17",
-              "title": "낙폭 확대 흐름",
-              "text": "외국인 매도세에 코스피가 후퇴하는 가운데 하락폭이 오전 들어 더 커지는 모습"
+              "title": "낙폭 확대 지속",
+              "text": "오전 중반까지 하락폭이 오히려 커지며 장 초반 약세 흐름이 그대로 이어지는 중"
+            },
+            {
+              "time": "12:50PM",
+              "price": 191900.0,
+              "pct": -2.49,
+              "prev_close": 196800.0,
+              "is_close": false,
+              "date": "2026-11-17",
+              "title": "저가권 하락 유지",
+              "text": "2나노와 테일러 공장 기대감 보도에도 매수세가 붙지 못하며 하루 중 가장 낮은 수준을 유지 중"
             }
           ],
           "slot_total": 4,
@@ -474,8 +494,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 649000.0,
               "is_close": false,
               "date": "2026-11-17",
-              "title": "낙폭 뚜렷이 확대",
-              "text": "장 초반 약세로 출발한 뒤 시간이 지날수록 하락폭이 눈에 띄게 커지는 흐름"
+              "title": "장 초반 하락 출발",
+              "text": "개장 직후 완만한 약세로 시작했으며 주가 하락 중이라는 소식이 전해지며 분위기 가라앉음"
             },
             {
               "time": "10:30AM",
@@ -484,8 +504,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 649000.0,
               "is_close": false,
               "date": "2026-11-17",
-              "title": "하루 중 저점 근접",
-              "text": "주가 하락세가 이어진다는 소식이 전해진 이후에도 낙폭이 줄지 않고 오전 저점권에 머묾"
+              "title": "낙폭 뚜렷하게 확대",
+              "text": "오전 중반 들어 낙폭이 크게 벌어지며 장 초반보다 하락 폭이 뚜렷하게 커진 모습"
+            },
+            {
+              "time": "12:50PM",
+              "price": 626000.0,
+              "pct": -3.54,
+              "prev_close": 649000.0,
+              "is_close": false,
+              "date": "2026-11-17",
+              "title": "저점권 횡보 지속",
+              "text": "미국 방산·조선 출자 소식에도 반등하지 못하고 오전 낙폭을 그대로 유지하며 횡보 중"
             }
           ],
           "slot_total": 4,
@@ -532,7 +562,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-11-17",
               "title": "장 초반 약세 출발",
-              "text": "개장 직후 하락세로 시작하며 약세 흐름 속에 거래를 이어감"
+              "text": "개장 직후 전일 대비 하락한 채 거래를 시작하며 약세 흐름으로 하루를 열었음"
             },
             {
               "time": "10:30AM",
@@ -541,8 +571,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 131700.0,
               "is_close": false,
               "date": "2026-11-17",
-              "title": "낙폭 일부 축소",
-              "text": "관세 환급 중단에도 흑자 유지 기대 소식이 전해진 뒤 하락폭이 다소 줄어드는 모습"
+              "title": "오전 중 낙폭 축소",
+              "text": "오전 중반 들어 낙폭을 일부 만회하며 장 초반보다는 다소 안정된 흐름을 보임"
+            },
+            {
+              "time": "12:50PM",
+              "price": 130100.0,
+              "pct": -1.21,
+              "prev_close": 131700.0,
+              "is_close": false,
+              "date": "2026-11-17",
+              "title": "오후 들어 재차 눌림",
+              "text": "오전에 줄였던 낙폭을 다시 반납하며 장 초반 수준의 약세로 되돌아간 모습을 보임"
             }
           ],
           "slot_total": 4,
@@ -589,7 +629,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-11-17",
               "title": "장 초반 약세 출발",
-              "text": "개장과 함께 하락세로 시작하며 약보합권에서 거래를 이어감"
+              "text": "개장 직후부터 하락세로 출발하며 전 거래일 대비 눈에 띄는 약세를 나타냄"
             },
             {
               "time": "10:30AM",
@@ -598,8 +638,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 265500.0,
               "is_close": false,
               "date": "2026-11-17",
-              "title": "낙폭 다소 확대",
-              "text": "공장 가동률 하락 소식이 전해진 가운데 오전 들어 하락폭이 소폭 더 커지는 흐름"
+              "title": "오전 중 낙폭 확대",
+              "text": "오전 중반 들어 하락폭이 더 커지며 장 초반보다 약세 흐름이 심화되는 모습"
+            },
+            {
+              "time": "12:50PM",
+              "price": 260500.0,
+              "pct": -1.88,
+              "prev_close": 265500.0,
+              "is_close": false,
+              "date": "2026-11-17",
+              "title": "낙폭 소폭 줄어듦",
+              "text": "오후 들어 낙폭을 일부 만회했으나 여전히 하루 중 저점권에서 등락을 이어가는 중"
             }
           ],
           "slot_total": 4,
@@ -630,7 +680,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-11-16-kr.md",
       "refreshed_at": "2026-11-16 18:00:59 KST",
-      "slots_refreshed_at": "2026-11-17 12:42:51 KST"
+      "slots_refreshed_at": "2026-11-17 13:10:45 KST"
     }
   }
 };
