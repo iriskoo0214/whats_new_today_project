@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-18 10:40:39 KST",
+  "generated_at": "2026-11-18 12:38:50 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -361,17 +361,17 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-11-18",
               "title": "장 초반 급등 출발",
-              "text": "엔비디아 호실적과 내년 HBM 수요 기대감에 매수세가 몰리며 강하게 상승 출발"
+              "text": "장 초반 큰 폭으로 뛰어오르며 출발해 코스피 상승을 이끄는 모습을 보임"
             },
             {
-              "time": "10:20AM",
-              "price": 1145000.0,
-              "pct": 4.28,
+              "time": "10:30AM",
+              "price": 1144000.0,
+              "pct": 4.19,
               "prev_close": 1098000.0,
               "is_close": false,
               "date": "2026-11-18",
               "title": "상승폭 다소 둔화",
-              "text": "오전 중 상승폭을 일부 반납했으나 엔비디아발 훈풍 속 여전히 견조한 오름세 유지 중"
+              "text": "오전 중반 들어 오름폭이 줄어들었고 반도체주 전반의 상승 탄력도 함께 꺾이는 흐름"
             }
           ],
           "slot_total": 4,
@@ -418,17 +418,17 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-11-18",
               "title": "장 초반 강세 출발",
-              "text": "장 시작과 함께 강한 매수세가 유입되며 큰 폭으로 오름세를 보이며 출발"
+              "text": "장 초반 큰 폭으로 상승 출발했으나 오전 들어 상승분을 상당 부분 반납하는 흐름"
             },
             {
-              "time": "10:20AM",
-              "price": 194600.0,
-              "pct": 2.26,
+              "time": "10:30AM",
+              "price": 194000.0,
+              "pct": 1.94,
               "prev_close": 190300.0,
               "is_close": false,
               "date": "2026-11-18",
-              "title": "오름폭 큰 폭 축소",
-              "text": "오전 초반 급등분을 상당 부분 반납하며 상승폭이 눈에 띄게 줄어드는 흐름 이어가는 중"
+              "title": "오전 상승폭 축소",
+              "text": "엔비디아 실적 호조 기대가 전해졌음에도 오전 중반 들어 오름세가 크게 줄어듦"
             }
           ],
           "slot_total": 4,
@@ -474,18 +474,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 623000.0,
               "is_close": false,
               "date": "2026-11-18",
-              "title": "강보합 출발 후 약세",
-              "text": "장 초반 소폭 강보합으로 출발했으나 미국 천무 해상 발사 성공 소식에도 힘을 받지 못함"
+              "title": "보합권 등락",
+              "text": "장 초반 소폭 오름세로 출발해 큰 변동 없이 보합권에서 움직이는 모습을 보임"
             },
             {
-              "time": "10:20AM",
-              "price": 620000.0,
-              "pct": -0.48,
+              "time": "10:30AM",
+              "price": 628000.0,
+              "pct": 0.8,
               "prev_close": 623000.0,
               "is_close": false,
               "date": "2026-11-18",
-              "title": "오전 중 하락 전환",
-              "text": "목표가 상향 리포트가 나왔음에도 상승분을 지키지 못하고 오전 중 약세로 돌아섬"
+              "title": "오전 중 상승폭 확대",
+              "text": "방산 투자 확대와 증권사 목표가 상향 소식이 전해지며 오전 중 오름폭이 점차 커짐"
             }
           ],
           "slot_total": 4,
@@ -532,17 +532,17 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-11-18",
               "title": "장 초반 상승 출발",
-              "text": "디자인상 다수 수상과 로봇 사업 확장 소식이 전해지며 상승세로 장을 시작한 모습"
+              "text": "장 초반 큰 폭으로 올라 출발했으나 오전 들어 상승세가 다소 꺾이는 흐름을 보임"
             },
             {
-              "time": "10:20AM",
-              "price": 132100.0,
-              "pct": 2.17,
+              "time": "10:30AM",
+              "price": 131800.0,
+              "pct": 1.93,
               "prev_close": 129300.0,
               "is_close": false,
               "date": "2026-11-18",
-              "title": "상승폭 소폭 축소",
-              "text": "오전 들어 오름폭이 다소 줄었으나 여러 호재성 뉴스 속에 상승 흐름은 그대로 이어가는 중"
+              "title": "오전 상승폭 둔화",
+              "text": "디자인상 수상 소식에도 매수세가 이어지지 못하며 오름폭이 점차 줄어드는 모습"
             }
           ],
           "slot_total": 4,
@@ -588,18 +588,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 259000.0,
               "is_close": false,
               "date": "2026-11-18",
-              "title": "소폭 상승 출발",
-              "text": "장 초반에는 완만한 오름세로 출발하며 분위기가 나쁘지 않게 시작된 모습"
+              "title": "상승 후 하락 전환",
+              "text": "장 초반 소폭 오름세로 출발했으나 오전 들어 하락 전환하며 전일 수준을 밑돎"
             },
             {
-              "time": "10:20AM",
+              "time": "10:30AM",
               "price": 257500.0,
               "pct": -0.58,
               "prev_close": 259000.0,
               "is_close": false,
               "date": "2026-11-18",
-              "title": "오전 중 하락 전환",
-              "text": "웨이모 공급 소식 등 호재에도 불구하고 오전 들어 상승분을 반납하며 약세로 돌아섬"
+              "title": "오전 낙폭 확대",
+              "text": "어촌 상생 협약 등 소식이 전해졌지만 주가에는 별다른 영향을 주지 못하는 모습"
             }
           ],
           "slot_total": 4,
@@ -630,7 +630,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-11-17-kr.md",
       "refreshed_at": "2026-11-17 18:00:57 KST",
-      "slots_refreshed_at": "2026-11-18 10:40:39 KST"
+      "slots_refreshed_at": "2026-11-18 12:38:50 KST"
     }
   }
 };
