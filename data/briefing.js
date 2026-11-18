@@ -1,10 +1,10 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-18 18:00:55 KST",
-  "refreshed": [
-    "kr"
+  "generated_at": "2026-11-18 23:10:38 KST",
+  "refreshed": [],
+  "slots_refreshed": [
+    "us"
   ],
-  "slots_refreshed": [],
   "default": "kr",
   "markets": {
     "us": {
@@ -51,8 +51,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 242.50999450683594,
               "is_close": false,
               "date": "2026-11-17",
-              "title": "약세 흐름 지속",
-              "text": "장중 AI 사업 관련 소식들이 전해졌으나 주가 반등으로 이어지지 못하고 하락세가 이어짐"
+              "title": "장중 소폭 약세",
+              "text": "엔비디아와의 양자 오류 해독 협력 소식과 퀀텀 플랫폼 기대감에도 주가는 약세로 출발해 하락폭을 키워가는 모습"
             },
             {
               "time": "마감",
@@ -62,7 +62,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-11-17",
               "title": "낙폭 확대 마감",
-              "text": "올해 들어 두 자릿수 하락했다는 평가 속 장 후반 들어 하락폭이 오히려 커지며 저점권에서 마감"
+              "text": "저평가 논쟁이 이어지는 가운데 오후 들어 하락세가 더욱 가팔라지며 장중 저점 부근에서 하루를 마무리"
             }
           ],
           "slot_total": 2,
@@ -103,13 +103,13 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "11:30PM",
-              "price": 513.989990234375,
+              "price": 514.010009765625,
               "pct": -0.77,
               "prev_close": 517.989990234375,
               "is_close": false,
               "date": "2026-11-17",
-              "title": "신제품 발표에도 약세",
-              "text": "자체 AI 모델 공개와 에이전트 기술 발표 등 호재성 뉴스가 이어졌지만 주가는 약세를 지키지 못함"
+              "title": "지지선 이탈 우려",
+              "text": "글로벌 장애 이슈로 주요 지지선이 흔들렸다는 분석이 나온 가운데 장 초반부터 약세 흐름이 지속되는 모습"
             },
             {
               "time": "마감",
@@ -118,8 +118,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 517.989990234375,
               "is_close": true,
               "date": "2026-11-17",
-              "title": "낙폭 키우며 마감",
-              "text": "장 초반보다 하락폭이 더 커지며 하루 중 가장 낮은 수준 부근에서 거래를 마무리함"
+              "title": "낙폭 더 커지며 마감",
+              "text": "AI 투자 기대에 투자의견은 유지됐지만 매수세가 붙지 못하며 오후 들어 하락폭이 더욱 확대된 채 마감"
             }
           ],
           "slot_total": 2,
@@ -165,8 +165,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 26.450000762939453,
               "is_close": false,
               "date": "2026-11-17",
-              "title": "실적 후 차익실현",
-              "text": "분기 매출 호조에도 엔비디아 실적 발표를 앞두고 양자 관련주 전반이 동반 약세를 보임"
+              "title": "장중 약세 지속",
+              "text": "양자 보안 협력과 인력 확대 소식에도 매수세가 살아나지 못하며 장 초반부터 하락세가 이어지는 흐름"
             },
             {
               "time": "마감",
@@ -175,8 +175,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 26.450000762939453,
               "is_close": true,
               "date": "2026-11-17",
-              "title": "낙폭 크게 확대",
-              "text": "실적 발표 후 랠리가 시들해졌다는 평가가 나온 가운데 하락폭이 더욱 커지며 저점에서 마감"
+              "title": "낙폭 키우며 마감",
+              "text": "스카이워터 인수 효과에 대한 기대가 있었지만 반영되지 못한 채 장중 내내 밀리며 큰 폭 하락으로 마감"
             }
           ],
           "slot_total": 2,
@@ -222,8 +222,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 156.13999938964844,
               "is_close": false,
               "date": "2026-11-17",
-              "title": "실적 호조에도 혼조",
-              "text": "3분기 매출이 큰 폭으로 늘었다는 소식이 전해졌지만 주가는 뚜렷한 상승으로 이어지지 못함"
+              "title": "실적 기대 속 보합권",
+              "text": "젠슨황 부재 속에서도 시장 예상치를 웃돈 실적 발표가 전해지며 장 초반 관심이 집중되는 분위기"
             },
             {
               "time": "마감",
@@ -233,7 +233,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": true,
               "date": "2026-11-17",
               "title": "소폭 하락 마감",
-              "text": "실적이 시장 예상을 상회했다는 평가가 나왔음에도 약보합권에서 하루 거래를 마무리함"
+              "text": "예상치 상회 실적에 선물시장은 상승했지만 정작 본장에서는 차익 매물에 소폭 밀리며 마감"
             }
           ],
           "slot_total": 2,
@@ -279,8 +279,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 14.850000381469727,
               "is_close": false,
               "date": "2026-11-17",
-              "title": "관심 속 약세",
-              "text": "투자자들의 관심이 커지고 있다는 소식이 전해졌지만 주가는 하락세를 벗어나지 못함"
+              "title": "자본비율 우려 부각",
+              "text": "추가 자본이 필요 없다는 발표에도 자본비율 하락 우려가 제기되며 장 초반부터 매도세가 앞서는 흐름"
             },
             {
               "time": "마감",
@@ -289,8 +289,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 14.850000381469727,
               "is_close": true,
               "date": "2026-11-17",
-              "title": "낙폭 확대 마감",
-              "text": "장중 내내 하락세를 유지하다 장 후반 들어 낙폭이 더 커지며 저점권에서 거래를 마침"
+              "title": "낙폭 확대로 마감",
+              "text": "장기 성장 목표 제시에도 투자심리가 살아나지 못하며 오후 들어 하락폭이 더 커진 채 거래 마감"
             }
           ],
           "slot_total": 2,
@@ -313,7 +313,8 @@ window.NOTEFOLIO_BRIEFING = {
         }
       ],
       "markdown": "briefings/2026-11-18-us.md",
-      "refreshed_at": "2026-11-18 07:01:01 KST"
+      "refreshed_at": "2026-11-18 07:01:01 KST",
+      "slots_refreshed_at": "2026-11-18 23:10:38 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
