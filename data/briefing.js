@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-19 10:40:41 KST",
+  "generated_at": "2026-11-19 12:13:44 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -354,14 +354,14 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-18",
           "slots": [
             {
-              "time": "10:20AM",
-              "price": 1135000.0,
-              "pct": -0.79,
+              "time": "10:30AM",
+              "price": 1128000.0,
+              "pct": -1.4,
               "prev_close": 1144000.0,
               "is_close": false,
               "date": "2026-11-19",
-              "title": "반도체 투톱 중 홀로 선방",
-              "text": "삼성전자는 수능일 특징주 기사에서 주춤한 모습으로 소개된 반면, 이 종목은 낙폭이 상대적으로 작아 꿋꿋한 흐름을 보이는 중"
+              "title": "장 중반 약세 지속",
+              "text": "오전 내내 하락세를 벗어나지 못한 가운데 엔비디아 실적과 맞물린 공급망 경쟁 이슈가 부각되는 중"
             }
           ],
           "slot_total": 4,
@@ -401,14 +401,14 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-18",
           "slots": [
             {
-              "time": "10:20AM",
-              "price": 192100.0,
-              "pct": -1.34,
+              "time": "10:30AM",
+              "price": 191000.0,
+              "pct": -1.9,
               "prev_close": 194700.0,
               "is_close": false,
               "date": "2026-11-19",
-              "title": "장 초반 약세 흐름",
-              "text": "서버 메모리 신제품 소식과 TV 신제품 선정 소식이 잇따랐지만 주가에는 별다른 힘이 되지 못하며 하닉 대비 부진한 흐름 지속"
+              "title": "오전 내내 약세권",
+              "text": "장 초반 낙폭을 줄이지 못한 채 폴더블 실적 부진 소식까지 겹치며 투자심리가 위축된 모습"
             }
           ],
           "slot_total": 4,
@@ -448,14 +448,14 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-18",
           "slots": [
             {
-              "time": "10:20AM",
-              "price": 614000.0,
-              "pct": -2.85,
+              "time": "10:30AM",
+              "price": 609000.0,
+              "pct": -3.64,
               "prev_close": 632000.0,
               "is_close": false,
               "date": "2026-11-19",
-              "title": "낙폭 확대되는 중",
-              "text": "장 초반부터 하락세로 출발한 뒤 유럽 방산 현지화 과제 지적 기사 이후로도 반등 기미 없이 낙폭이 점차 커지는 모습"
+              "title": "낙폭 확대 지속",
+              "text": "장 초반 하락세가 꺾이지 않고 이어지며 유럽 현지화 장벽 우려 속 낙폭이 하루 중 가장 큰 수준으로 벌어짐"
             }
           ],
           "slot_total": 4,
@@ -495,14 +495,14 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-18",
           "slots": [
             {
-              "time": "10:20AM",
-              "price": 133100.0,
-              "pct": -2.85,
+              "time": "10:30AM",
+              "price": 132200.0,
+              "pct": -3.5,
               "prev_close": 137000.0,
               "is_close": false,
               "date": "2026-11-19",
-              "title": "장 초반부터 약세",
-              "text": "모니터·차량용 조명 등 신제품 소식이 이어졌음에도 주가는 반응하지 못하고 장 초반부터 낙폭을 키우며 하락세 지속 중"
+              "title": "약세 흐름 이어가는 중",
+              "text": "사장단 인사와 북미 생산 소식에도 매수세가 붙지 않으며 오전 내내 하락폭이 커진 상태 유지"
             }
           ],
           "slot_total": 4,
@@ -542,14 +542,14 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-18",
           "slots": [
             {
-              "time": "10:20AM",
-              "price": 262500.0,
-              "pct": -1.69,
+              "time": "10:30AM",
+              "price": 260000.0,
+              "pct": -2.62,
               "prev_close": 267000.0,
               "is_close": false,
               "date": "2026-11-19",
-              "title": "반도체 강세에 동반 상승 무색",
-              "text": "한때 하닉 강세에 힘입어 동반 상승했다는 기사가 나왔으나 이후 약세로 돌아서며 장중 1%대 하락폭을 키우는 흐름"
+              "title": "오전 약세 지속",
+              "text": "장 초반 하락세가 이어지는 가운데 내부거래 규모 1위 소식과 자율주행 인재 영입 이슈가 함께 전해짐"
             }
           ],
           "slot_total": 4,
@@ -580,7 +580,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-11-18-kr.md",
       "refreshed_at": "2026-11-18 18:00:55 KST",
-      "slots_refreshed_at": "2026-11-19 10:40:41 KST"
+      "slots_refreshed_at": "2026-11-19 12:13:44 KST"
     }
   }
 };
