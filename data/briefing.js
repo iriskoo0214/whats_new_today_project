@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-19 12:13:44 KST",
+  "generated_at": "2026-11-19 13:10:48 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -360,8 +360,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 1144000.0,
               "is_close": false,
               "date": "2026-11-19",
-              "title": "장 중반 약세 지속",
-              "text": "오전 내내 하락세를 벗어나지 못한 가운데 엔비디아 실적과 맞물린 공급망 경쟁 이슈가 부각되는 중"
+              "title": "장 초반 약세",
+              "text": "오전 한때 낙폭을 키우며 약세로 출발해 1,128,000원대까지 밀림"
+            },
+            {
+              "time": "12:50PM",
+              "price": 1151000.0,
+              "pct": 0.61,
+              "prev_close": 1144000.0,
+              "is_close": false,
+              "date": "2026-11-19",
+              "title": "오후 들어 반등 성공",
+              "text": "솔리다임 실적 호조와 투자 소식이 전해지며 낙폭을 지우고 상승 전환에 성공함"
             }
           ],
           "slot_total": 4,
@@ -407,8 +417,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 194700.0,
               "is_close": false,
               "date": "2026-11-19",
-              "title": "오전 내내 약세권",
-              "text": "장 초반 낙폭을 줄이지 못한 채 폴더블 실적 부진 소식까지 겹치며 투자심리가 위축된 모습"
+              "title": "장 초반 낙폭 확대",
+              "text": "오전 중 약세 흐름이 이어지며 191,000원대까지 밀리는 모습을 보임"
+            },
+            {
+              "time": "12:50PM",
+              "price": 194000.0,
+              "pct": -0.36,
+              "prev_close": 194700.0,
+              "is_close": false,
+              "date": "2026-11-19",
+              "title": "낙폭 축소 흐름",
+              "text": "AI 거품 우려 진화 발언과 함께 저가 매수세가 유입되며 낙폭을 상당폭 줄여감"
             }
           ],
           "slot_total": 4,
@@ -454,8 +474,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 632000.0,
               "is_close": false,
               "date": "2026-11-19",
-              "title": "낙폭 확대 지속",
-              "text": "장 초반 하락세가 꺾이지 않고 이어지며 유럽 현지화 장벽 우려 속 낙폭이 하루 중 가장 큰 수준으로 벌어짐"
+              "title": "장 초반 급락",
+              "text": "오전 중 낙폭이 크게 벌어지며 609,000원대까지 밀리는 약세를 보임"
+            },
+            {
+              "time": "12:50PM",
+              "price": 620500.0,
+              "pct": -1.82,
+              "prev_close": 632000.0,
+              "is_close": false,
+              "date": "2026-11-19",
+              "title": "낙폭 다소 회복",
+              "text": "유럽 현지화 장벽 우려 속에서도 저가 매수가 유입되며 낙폭을 다소 줄여가는 흐름"
             }
           ],
           "slot_total": 4,
@@ -501,8 +531,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 137000.0,
               "is_close": false,
               "date": "2026-11-19",
-              "title": "약세 흐름 이어가는 중",
-              "text": "사장단 인사와 북미 생산 소식에도 매수세가 붙지 않으며 오전 내내 하락폭이 커진 상태 유지"
+              "title": "장 초반 약세 지속",
+              "text": "오전 내내 약세가 이어지며 132,200원대까지 하락폭이 크게 벌어짐"
+            },
+            {
+              "time": "12:50PM",
+              "price": 134100.0,
+              "pct": -2.12,
+              "prev_close": 137000.0,
+              "is_close": false,
+              "date": "2026-11-19",
+              "title": "낙폭 소폭 축소",
+              "text": "로봇 협력, 해외 생산 확대 소식이 이어지는 가운데 하락폭을 소폭 줄여가는 중"
             }
           ],
           "slot_total": 4,
@@ -548,8 +588,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 267000.0,
               "is_close": false,
               "date": "2026-11-19",
-              "title": "오전 약세 지속",
-              "text": "장 초반 하락세가 이어지는 가운데 내부거래 규모 1위 소식과 자율주행 인재 영입 이슈가 함께 전해짐"
+              "title": "장 초반 약세 출발",
+              "text": "오전 중 낙폭이 커지며 260,000원대까지 밀리는 약세 흐름을 보임"
+            },
+            {
+              "time": "12:50PM",
+              "price": 264500.0,
+              "pct": -0.94,
+              "prev_close": 267000.0,
+              "is_close": false,
+              "date": "2026-11-19",
+              "title": "오후 낙폭 축소",
+              "text": "로보택시 상용화, 베트남 생산 전환 소식이 전해지며 낙폭을 상당폭 줄여가는 중"
             }
           ],
           "slot_total": 4,
@@ -580,7 +630,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-11-18-kr.md",
       "refreshed_at": "2026-11-18 18:00:55 KST",
-      "slots_refreshed_at": "2026-11-19 12:13:44 KST"
+      "slots_refreshed_at": "2026-11-19 13:10:48 KST"
     }
   }
 };
