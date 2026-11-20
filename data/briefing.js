@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-20 12:00:40 KST",
+  "generated_at": "2026-11-20 13:10:36 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -360,8 +360,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 1183000.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "장 초반 낙폭 확대",
-              "text": "개장 초 하락 출발한 뒤 시간이 지나며 낙폭이 오히려 더 커지는 흐름이 이어짐"
+              "title": "장 초반 큰 폭 하락",
+              "text": "개장 직후부터 매도세가 몰리며 낙폭이 크게 벌어진 채 거래를 시작함"
             },
             {
               "time": "10:30AM",
@@ -370,8 +370,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 1183000.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "메모리 가격 우려 부각",
-              "text": "메모리 가격 하락 경고성 기사가 나오며 하락폭이 오전 들어 더 깊어지는 모습"
+              "title": "낙폭 하루 중 최대",
+              "text": "낸드플래시 가격 하락과 계약가 하락 전망 소식까지 겹치며 하락폭이 가장 커짐"
+            },
+            {
+              "time": "12:50PM",
+              "price": 1115000.0,
+              "pct": -5.75,
+              "prev_close": 1183000.0,
+              "is_close": false,
+              "date": "2026-11-20",
+              "title": "낙폭 소폭 만회",
+              "text": "코스피 급락에 매도 사이드카까지 발동된 가운데서도 저점 대비 일부 낙폭을 줄임"
             }
           ],
           "slot_total": 4,
@@ -417,8 +427,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 196900.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "장 초반 약세 심화",
-              "text": "장 초반부터 하락 출발한 뒤 시간이 흐르며 낙폭이 점차 확대되는 흐름"
+              "title": "장 초반 약세 출발",
+              "text": "개장과 함께 매도 우위가 이어지며 전일 대비 하락폭을 키운 채 오전장을 시작함"
             },
             {
               "time": "10:30AM",
@@ -427,8 +437,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 196900.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "사장단 인사 속 하락",
-              "text": "반도체 인재 발탁 인사 소식이 전해졌지만 주가는 오전 내내 낙폭을 키움"
+              "title": "낙폭 확대 지속",
+              "text": "오전 내내 하락세가 이어지며 장중 저점을 낮추는 흐름이 계속됨"
+            },
+            {
+              "time": "12:50PM",
+              "price": 185100.0,
+              "pct": -5.99,
+              "prev_close": 196900.0,
+              "is_close": false,
+              "date": "2026-11-20",
+              "title": "반도체 임원 인사 속 약세",
+              "text": "반도체 사장단 승진 등 인사 소식에도 매수세가 붙지 못하며 하루 중 가장 큰 낙폭을 기록"
             }
           ],
           "slot_total": 4,
@@ -474,8 +494,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 631000.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "장중 약세 지속",
-              "text": "장 초반 하락세로 출발한 뒤 큰 반등 없이 비슷한 낙폭이 이어지는 흐름"
+              "title": "장 초반 약세 출발",
+              "text": "개장 직후 소폭 하락세로 출발하며 전일 대비 낙폭을 유지한 채 오전을 보냄"
             },
             {
               "time": "10:30AM",
@@ -484,8 +504,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 631000.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "인도 수주 기대에도 약세",
-              "text": "인도 자주포 3차 사업 기대감이 나왔지만 주가는 낙폭을 소폭 더 키운 채 유지 중"
+              "title": "낙폭 소폭 확대",
+              "text": "인도 K9 자주포 3차 사업 논의 소식에도 낙폭이 오전 중 오히려 조금 커짐"
+            },
+            {
+              "time": "12:50PM",
+              "price": 621000.0,
+              "pct": -1.58,
+              "prev_close": 631000.0,
+              "is_close": false,
+              "date": "2026-11-20",
+              "title": "낙폭 크게 만회",
+              "text": "방산 계열사 관련 호재성 기사가 이어지며 오전 저점 대비 낙폭을 눈에 띄게 줄임"
             }
           ],
           "slot_total": 4,
@@ -531,8 +561,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 135900.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "장 초반 낙폭 확대",
-              "text": "장 초반 소폭 하락으로 출발한 뒤 오전 들어 낙폭이 점차 커지는 흐름"
+              "title": "장 초반 소폭 약세",
+              "text": "개장 직후 완만한 하락세로 출발하며 낙폭이 크지 않은 수준에서 움직임"
             },
             {
               "time": "10:30AM",
@@ -541,8 +571,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 135900.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "양자통신 성과에도 하락",
-              "text": "KT와 양자직접통신 기술 성공 소식이 전해졌지만 하락폭은 오히려 확대됨"
+              "title": "낙폭 점차 확대",
+              "text": "사장단 인사와 데이터센터 사업 소식에도 하락폭이 오전 들어 점차 커짐"
+            },
+            {
+              "time": "12:50PM",
+              "price": 131300.0,
+              "pct": -3.38,
+              "prev_close": 135900.0,
+              "is_close": false,
+              "date": "2026-11-20",
+              "title": "낙폭 하루 중 최대",
+              "text": "양자통신 기술 구현 소식까지 나왔으나 매수세가 살아나지 못하며 낙폭이 더 커짐"
             }
           ],
           "slot_total": 4,
@@ -588,8 +628,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 267500.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "장 초반 하락 출발",
-              "text": "개장 초 비교적 큰 폭으로 하락한 뒤 낙폭이 좀처럼 줄지 않는 흐름"
+              "title": "장 초반 약세 출발",
+              "text": "개장과 함께 하락세로 시작하며 전일 대비 낙폭을 보인 채 오전장을 맞음"
             },
             {
               "time": "10:30AM",
@@ -598,8 +638,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 267500.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "신차 공개 속 낙폭 유지",
-              "text": "아반떼와 제네시스 신차 공개 소식에도 낙폭을 소폭 줄인 채 약세를 이어가는 중"
+              "title": "낙폭 소폭 축소",
+              "text": "오전 중 저점을 다지며 개장 초 대비 낙폭을 소폭 줄이는 모습을 보임"
+            },
+            {
+              "time": "12:50PM",
+              "price": 256500.0,
+              "pct": -4.11,
+              "prev_close": 267500.0,
+              "is_close": false,
+              "date": "2026-11-20",
+              "title": "낙폭 다시 확대",
+              "text": "지스타 참가와 신차 공개 소식이 이어졌음에도 낙폭이 하루 중 가장 크게 벌어짐"
             }
           ],
           "slot_total": 4,
@@ -630,7 +680,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-11-19-kr.md",
       "refreshed_at": "2026-11-19 18:01:02 KST",
-      "slots_refreshed_at": "2026-11-20 12:00:40 KST"
+      "slots_refreshed_at": "2026-11-20 13:10:36 KST"
     }
   }
 };
