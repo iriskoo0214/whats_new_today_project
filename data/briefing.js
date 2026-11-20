@@ -1,15 +1,15 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-21 04:59:43 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-11-21 07:00:58 KST",
+  "refreshed": [
     "us"
   ],
-  "default": "kr",
+  "slots_refreshed": [],
+  "default": "us",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
-      "label": "미국 증시 요약 2026. 11. 20. 7:00AM",
+      "label": "미국 증시 요약 2026. 11. 21. 7:00AM",
       "chips": [
         "전체",
         "IBM",
@@ -22,27 +22,27 @@ window.NOTEFOLIO_BRIEFING = {
         "오후 6시, 국내 시장을 움직인 이유를 확인하세요."
       ],
       "next": "kr",
-      "headline": "해외 5종목 중 0종목 상승, 5종목 하락 — 마이크로소프트가 -1.97%로 낙폭이 가장 작았고 소파이테크놀로지가 -4.11%로 가장 부진했습니다.",
-      "market_headline": "앤트로픽 상장 첫날 17%↑에도 AI주 투매에 다우 5만선 붕괴",
+      "headline": "해외 5종목 중 1종목 상승, 4종목 하락 — IBM이 +0.25%로 가장 많이 올랐고 엔비디아가 -14.01%로 가장 부진했습니다.",
+      "market_headline": "AI 거품론에 엔비디아 14% 급락…나스닥 5% 폭락",
       "market_card": {
-        "title": "3대 지수 동반 급락 마감...다우 5만선 붕괴, 나스닥 2.25%↓",
+        "title": "뉴욕증시 급락 마감...나스닥 5.28%↓ S&P·다우 조정장 진입",
         "bullets": [
-          "앤트로픽 상장 첫날 17%급등 AI주 투매",
-          "달러 강세에 금값 3600달러대로 하락",
-          "앤트로픽 기업가치 2조달러 돌파 IPO"
+          "엔비디아 14% 급락 52주 신저가 기록",
+          "국채선물 강세 10년물 57틱↑ 급등",
+          "앤스로픽 상장 상승분 반납하며 투매"
         ]
       },
       "cards": [
         {
           "stock": "IBM",
           "ticker": "IBM",
-          "title": "IBM - 레드햇과 라이트웰 출시",
-          "body": "IBM은 레드햇과 함께 ‘라이트웰 네트워크’를 MS 마켓플레이스에 출시해 오픈소스 보안을 강화했지만 -2.03% 내린 <b>223.88달러</b> 마감. BMO가 IBM 양자컴퓨터로 머신러닝 분야 ‘양자 유용성’을 입증했다는 소식도 전해졌다.",
-          "pct": -2.03,
-          "price": 223.8800048828125,
-          "prev_close": 228.52999877929688,
+          "title": "IBM - 실적 발표 후 11% 급락 여파",
+          "body": "IBM은 지난 실적 발표 이후 11.2% 하락한 배경이 부각된 가운데 +0.25% 오른 <b>224.44달러</b> 마감. 2026년 들어 약 23% 하락했다는 분석 속에서도 일부 기관은 지분을 확대하며 반등 가능성을 주시하는 모습이다.",
+          "pct": 0.25,
+          "price": 224.44000244140625,
+          "prev_close": 223.8800048828125,
           "currency": "USD",
-          "as_of": "2026-11-19",
+          "as_of": "2026-11-20",
           "slots": [
             {
               "time": "11:30PM",
@@ -51,45 +51,55 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 223.8800048828125,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "소폭 반등세",
-              "text": "실적 발표 이후 하락세를 보였으나 지분 확대 소식이 전해진 뒤 장중 완만한 반등 흐름을 이어가는 중"
+              "title": "장중 소폭 반등",
+              "text": "실적 발표 이후 하락세가 이어진 가운데 장중에는 소폭 오름세로 흐름이 바뀌었음"
+            },
+            {
+              "time": "마감",
+              "price": 224.44000244140625,
+              "pct": 0.25,
+              "prev_close": 223.8800048828125,
+              "is_close": true,
+              "date": "2026-11-20",
+              "title": "오름폭 줄이며 마감",
+              "text": "장중 반등세를 지키지 못하고 상승폭이 줄어들며 거래를 마쳐 전일 대비 소폭 상승에 그침"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "BMO, IBM 양자컴퓨터로 머신러닝 분야 ‘양자 유용성’ 입증",
-              "original": "BMO, IBM 양자컴퓨터로 머신러닝 분야 ‘양자 유용성’ 입증",
-              "source": "Investing.com 한국어",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE12NWYwWVRnRGExejlkMkRGUzhCUVpkbEFpSUJGdERRNDlEcDl4ZWctR3piQ3c1WVh4ZlhaVlNKdFhRbVRwdHNQTHRLYmlpOHZ6cmtvdl92cEdsR2ExeWlQZXhFbndXZWFFS1VxeDNGanI?oc=5",
-              "published": "2026-11-19T20:05:00+09:00"
+              "title": "Private Wealth Asset Management LLC, IBM 지분 확대: IBM 반등세 이어갈까?",
+              "original": "Private Wealth Asset Management LLC, IBM 지분 확대: IBM 반등세 이어갈까?",
+              "source": "Traders Union",
+              "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOY18zbEM5dnNDc2h6TFE1eEt5YjJmcHFLYW5EVkFiMHh2LTZGbGtRM3BBMUx3Z1ItQTdsdEwxblA0NWhXNDRDQTRkZ3owVDBSY2RlaDRxLXYwX2RvLThjU3J5QndjT2VFM2NpaHdCWjlJSG9qQVpwMWh6Tkw5NDFKWS1hRHB3TkI5QTZiMC1n?oc=5",
+              "published": "2026-11-21T01:12:43+09:00"
             },
             {
-              "title": "레드햇·IBM, ‘라이트웰 네트워크’ MS 마켓플레이스 출시 ··· 오픈소스 보안 강화",
-              "original": "레드햇·IBM, ‘라이트웰 네트워크’ MS 마켓플레이스 출시 ··· 오픈소스 보안 강화",
-              "source": "데이터넷",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE45X1ZsanAzUDgwNkRKTDhUVlBiY2J1TlB3eFpWbDQ0amg3Qm9XcWpmQWpZNHhYbWJMZGo5M3NBRmhmcVctY2xqeVNQSHNrbUh5aVE5ZXkyWkpGNVY5ZkRuUVpCRFJMZzhmdUJISQ?oc=5",
-              "published": "2026-11-19T15:09:30+09:00"
+              "title": "IBM(IBM), 지난 실적 발표 이후 11.2% 하락한 이유는?",
+              "original": "Why Is IBM (IBM) Down 11.2% Since Last Earnings Report?",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/why-ibm-ibm-down-11-153006748.html",
+              "published": "2026-11-21T00:30:06+09:00"
             },
             {
-              "title": "레드햇·IBM, MS 마켓플레이스에 ‘라이트웰’ 출시",
-              "original": "레드햇·IBM, MS 마켓플레이스에 ‘라이트웰’ 출시",
-              "source": "이데일리",
-              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOb2k4WHBmX0gyQUhuUnVKYXR0NmFmbW95Y3JFOGk0SFp1S3hRZk1jazdDZzcySEFnTlE5VE9EYktvdFluMTlwdGdDaDBLUHc5cDUzbTh4ajduNHIxRlRsSzl0TWNBeUhxNVhCMHZic1NtdEtXSXpwY2x5d3JQeXhROQ?oc=5",
-              "published": "2026-11-19T10:08:13+09:00"
+              "title": "IBM 주가, 2026년 들어 약 23% 하락...2030년엔 어디에 있을까",
+              "original": "IBM Stock Is Down About 23% in 2026. Here's Where I Think It Will Be in 2030.",
+              "source": "Motley Fool",
+              "url": "https://www.fool.com/investing/2026/11/19/ibm-stock-is-down-about-23-in-2026-here-s-where-i-think-it-will-be-in-2030/",
+              "published": "2026-11-20T11:24:01+09:00"
             }
           ]
         },
         {
           "stock": "마이크로소프트",
           "ticker": "MSFT",
-          "title": "마이크로소프트 - 재료 없이 동반 약세",
-          "body": "마이크로소프트는 엔비디아와 베라 루빈·네모트론을 통한 AI 협력 확대를 발표했지만 -1.97% 내린 <b>498.30달러</b> 마감. 한편 MS 365 서비스는 정상 표시에도 일부 장애 메일 지연 가능성이 제기됐다.",
-          "pct": -1.97,
-          "price": 498.29998779296875,
-          "prev_close": 508.2900085449219,
+          "title": "마이크로소프트 - 아웃룩·팀즈 장애에 하락",
+          "body": "마이크로소프트는 아웃룩과 팀즈의 대규모 장애로 신고 건수가 12만 건을 넘어선 가운데 -2.77% 내린 <b>484.52달러</b> 마감. 앤트로픽이 애저에 최소 472억달러를 약정했다는 소식도 나왔지만 알파벳보다 몸값이 높아진 데 대한 고평가 논란이 투자심리에 영향을 준 것으로 보인다.",
+          "pct": -2.77,
+          "price": 484.5199890136719,
+          "prev_close": 498.29998779296875,
           "currency": "USD",
-          "as_of": "2026-11-19",
+          "as_of": "2026-11-20",
           "slots": [
             {
               "time": "11:30PM",
@@ -98,45 +108,55 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 498.29998779296875,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "약세 흐름 지속",
-              "text": "고밸류에이션 부담과 AI 투자 우려가 겹치며 장중 내내 하락세를 벗어나지 못하고 약세를 유지 중"
+              "title": "장중 낙폭 확대",
+              "text": "아웃룩·팀즈 장애 신고가 급증하고 고평가 논란까지 겹치며 장중 내내 약세 흐름이 이어짐"
+            },
+            {
+              "time": "마감",
+              "price": 484.5199890136719,
+              "pct": -2.77,
+              "prev_close": 498.29998779296875,
+              "is_close": true,
+              "date": "2026-11-20",
+              "title": "낙폭 키우며 마감",
+              "text": "장중보다 하락폭이 더 커지며 마감해 하루 종일 이어진 약세 흐름을 끝내 극복하지 못함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "NVIDIA, Vera Rubin 및 Nemotron으로 Microsoft와의 AI 협력 확대",
-              "original": "NVIDIA, Vera Rubin 및 Nemotron으로 Microsoft와의 AI 협력 확대",
-              "source": "Unite.AI",
-              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOanU2YTVPNU1RVjJSU2JYa1U1eHd3UUVDVmdMdEt6aEEzYWtRbkpIQkdPS2g3LWhZUDdmcy1kOXp5NmRNcmFUNDRkRUVDQlc0cmExZTBfU3JVc2NuRGIxV1FTOGxXUGlRR1p4ZzFhb3AwcUlQR3piVGJrRU5OUUFkQ0JNSXBoUUtZbVJUa1BWMGhfUGhiSVFuclowNA?oc=5",
-              "published": "2026-11-20T05:40:05+09:00"
+              "title": "\"꽤 기이하다\": 알파벳보다 몸값이 높아진 마이크로소프트, 이치에 맞지 않아",
+              "original": "“Pretty Bizarre”: Microsoft Is Worth More Than Alphabet. Which Makes No Sense",
+              "source": "TIKR",
+              "url": "https://www.tikr.com/blog/pretty-bizarre-microsoft-is-worth-more-than-alphabet-which-makes-no-sense?ref=yahoofinance&tlnk=yf-261120-cgch722v",
+              "published": "2026-11-21T05:38:43+09:00"
             },
             {
-              "title": "Microsoft (EQX Tokenized Stock) 시세: EQMSFT/USD 달러 가격 차트 & 뉴스",
-              "original": "Microsoft (EQX Tokenized Stock) 시세: EQMSFT/USD 달러 가격 차트 & 뉴스",
-              "source": "CoinGecko",
-              "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTnhNTG1IdGYzTDZzX1d6eFdxVl82Sk9ES0E1MFZ3WHhsdUo2YkxuNkIwdzBEaGVFcy03Tzc3LW9weHlibDdnSWZ0OVotRW5HS2JvVWlNU29QZGdiSUZQME5vM0w4bm1YdTRpN05pSW5lVU1LSHBVaG84eVF1aDQzTUFEUQ?oc=5",
-              "published": "2026-11-20T04:45:29+09:00"
+              "title": "마이크로소프트 아웃룩·팀즈 대규모 장애, 신고 12만 건 넘어",
+              "original": "마이크로소프트 아웃룩·팀즈 대규모 장애, 신고 12만 건 넘어",
+              "source": "라디오코리아",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9fUFZhTkpzSDh0M3lwQ2p4NG9wSEhsaW5rM0E0ZVpjc3ZQRThSVFNqaVFtNEMtcGtTM0RqejI2dWk2QTBJeDROR01YZ1p6bVpKN2lrNnlDUlRESlZ1OEoxVHlRU1A?oc=5",
+              "published": "2026-11-21T03:46:18+09:00"
             },
             {
-              "title": "마이크로소프트($MSFT) 365 정상 표시에도 장애 메일 지연 가능성",
-              "original": "마이크로소프트($MSFT) 365 정상 표시에도 장애 메일 지연 가능성",
-              "source": "토큰포스트",
-              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1jX255QUVMYTJ3Z0tNRmJ2M25ESS1sVTBFXzBBYndDNnYzQW1YajVlSVdEUEtLSGQ4R0hSUHJuRG10b19UVF9xVFZaRl91LUFVeGRn?oc=5",
-              "published": "2026-11-20T03:52:53+09:00"
+              "title": "마이크로소프트 1.97% 하락…앤트로픽, 애저에 최소 472억달러 약정",
+              "original": "마이크로소프트 1.97% 하락…앤트로픽, 애저에 최소 472억달러 약정",
+              "source": "이코노미블록",
+              "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5HWjJmVk1aTjhucVVsT05aeUpjbW9DTFRVRFFneExnRkVEd0ZjTUZTNzFVRGlfcTVPN1VZVUlsTlVJQVpqemo4dFpKWkE?oc=5",
+              "published": "2026-11-21T02:59:00+09:00"
             }
           ]
         },
         {
           "stock": "아이온큐",
           "ticker": "IONQ",
-          "title": "아이온큐 - 23달러 지지선 공방",
-          "body": "아이온큐는 DARPA 양자 벤치마킹 이니셔티브 3단계 참여 소식 속에 23.19달러 지지선 공방이 주목받는 가운데 -3.28% 내린 <b>22.71달러</b> 마감. 주가가 고점 대비 반토막 났다는 평가가 나오며 매도 여부를 둘러싼 투자자들의 고민도 커지는 모습이다.",
-          "pct": -3.28,
-          "price": 22.709999084472656,
-          "prev_close": 23.479999542236328,
+          "title": "아이온큐 - 한 달 새 33% 하락세 지속",
+          "body": "아이온큐는 한 달 새 33% 하락했다는 평가 속에 -8.76% 내린 <b>20.72달러</b> 마감. 한국 SDT에 양자컴퓨터 '슈퍼리온 256'을 공급하며 구미에 제조 거점을 구축했다는 소식에도 고평가 우려가 주가를 눌렀다는 분석이다.",
+          "pct": -8.76,
+          "price": 20.719999313354492,
+          "prev_close": 22.709999084472656,
           "currency": "USD",
-          "as_of": "2026-11-19",
+          "as_of": "2026-11-20",
           "slots": [
             {
               "time": "11:30PM",
@@ -145,45 +165,55 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 22.709999084472656,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "낙폭 확대",
-              "text": "한국 공급 계약 소식에도 매수세가 붙지 않으며 한 달간 이어진 하락 흐름을 벗어나지 못하는 모습"
+              "title": "장중 낙폭 축소",
+              "text": "한 달새 큰 폭 하락 이후 고평가 논란 속에서도 장중에는 낙폭을 다소 줄이는 모습을 보임"
+            },
+            {
+              "time": "마감",
+              "price": 20.719999313354492,
+              "pct": -8.76,
+              "prev_close": 22.709999084472656,
+              "is_close": true,
+              "date": "2026-11-20",
+              "title": "낙폭 다시 확대",
+              "text": "장중 회복세를 이어가지 못하고 하락폭이 다시 커지며 이날 저점 부근에서 거래를 마감함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "아이온큐 주가 반토막 난 지금, 팔아야 할까?",
-              "original": "Should You Sell Your IonQ Stock Now That It Has Halved?",
-              "source": "Trefis",
-              "url": "https://www.trefis.com/stock/ionq/articles/626746/should-you-sell-your-ionq-stock-now-that-it-has-halved/2026-11-19",
-              "published": "2026-11-20T02:47:52+09:00"
+              "title": "아이온큐(IONQ), 3년간 83% 상승세 이어가지만 고평가 상태로 보여",
+              "original": "IonQ (IONQ) Stock Looks Overvalued As Its 83% 3 Year Gain Continues",
+              "source": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-ionq-stock-looks-overvalued-211212154.html",
+              "published": "2026-11-21T06:12:12+09:00"
             },
             {
-              "title": "아이온큐 주가, 오늘 급등한 이유",
-              "original": "Why IonQ Stock Popped Today",
-              "source": "Motley Fool",
-              "url": "https://www.fool.com/investing/2026/11/19/why-ionq-stock-popped-today/",
-              "published": "2026-11-20T01:53:39+09:00"
+              "title": "아이온큐, 한 달 새 33% 하락...IONQ 주가 30달러 회복하려면",
+              "original": "IonQ Is Down 33% in a Month. What Will It Take to Get IONQ Stock Back to $30?",
+              "source": "24/7 Wall St.",
+              "url": "https://247wallst.com/investing/2026/11/20/ionq-is-down-33-in-a-month-what-will-it-take-to-get-ionq-stock-back-to-30/",
+              "published": "2026-11-21T02:56:41+09:00"
             },
             {
-              "title": "IonQ, DARPA 양자 벤치마킹 이니셔티브 3단계 참여: IONQ, $23.19 지지선을 지킬까?",
-              "original": "IonQ, DARPA 양자 벤치마킹 이니셔티브 3단계 참여: IONQ, $23.19 지지선을 지킬까?",
-              "source": "Traders Union",
-              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTWpOOGdsS0d4WDlvbmZrMkVOb250eXFqeWdTZjVTdjdvTl9lZXlkQ3VkN29TeHZqWllfTmphaUFNLVo0dFJITmNpWDRPLUVSSVMzWENMSEdfOFVCZVFQanFqXzNaTlM3eUh3Q0s5OUxLVWVUWlMzcXdxM2x2MHo1YlluSGtxbDAwNjNIZVJFQkdVV3hZ?oc=5",
-              "published": "2026-11-20T00:11:38+09:00"
+              "title": "[서학!스타] 아이온큐, 한국 SDT에 ‘슈퍼리온 256’ 공급…구미에 양자 제조 거점 구축",
+              "original": "[서학!스타] 아이온큐, 한국 SDT에 ‘슈퍼리온 256’ 공급…구미에 양자 제조 거점 구축",
+              "source": "CBC뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9lc2RIY3Z1VGJrbHo3QVFyQ1hhN0pKRm5iRFA1VGJjbTcyc1cxSjNjZkcxNjduLTFPeW9UZHBLQkppMTRnM3pOOGJ1bDFISzNsUlhTRnpoS18taDdEaHNtc0t1TQ?oc=5",
+              "published": "2026-11-20T16:54:41+09:00"
             }
           ]
         },
         {
           "stock": "엔비디아",
           "ticker": "NVDA",
-          "title": "엔비디아 - 中 기술유출 의혹 부담",
-          "body": "엔비디아는 AMD와 함께 중국 제재기업에 대한 기술유출 의혹이 제기되며 -3.30% 내린 <b>145.98달러</b> 마감. 전날 후폭풍이 하루 늦게 국내 네오클라우드 관련주 급락으로 번졌다는 분석도 나오며 투자심리가 위축된 모습이다.",
-          "pct": -3.3,
-          "price": 145.97999572753906,
-          "prev_close": 150.9600067138672,
+          "title": "엔비디아 - SEC 회계 조사설에 폭락",
+          "body": "엔비디아는 SEC 회계 조사설이 불거지며 시가총액 2조 7000억 달러가 증발하는 폭락세로 -14.01% 내린 <b>125.53달러</b> 마감. 트럼프 대통령이 젠슨 황 후임론을 거론하며 혼란에 직접 개입한 것으로 전해지며 투자심리가 크게 위축된 모습이다.",
+          "pct": -14.01,
+          "price": 125.52999877929688,
+          "prev_close": 145.97999572753906,
           "currency": "USD",
-          "as_of": "2026-11-19",
+          "as_of": "2026-11-20",
           "slots": [
             {
               "time": "11:30PM",
@@ -192,45 +222,55 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 145.97999572753906,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "낙폭 키우며 약세",
-              "text": "회계 조사 소식과 트럼프의 경영진 복귀 촉구까지 겹치며 시총 순위마저 밀릴 정도로 하락폭이 커짐"
+              "title": "급락 속 낙폭 축소",
+              "text": "SEC 회계 조사설과 트럼프 발언 등 악재가 겹친 가운데 장중에는 낙폭이 다소 줄어드는 흐름"
+            },
+            {
+              "time": "마감",
+              "price": 125.52999877929688,
+              "pct": -14.01,
+              "prev_close": 145.97999572753906,
+              "is_close": true,
+              "date": "2026-11-20",
+              "title": "낙폭 다시 급격히 확대",
+              "text": "장중 회복 흐름을 지키지 못하고 하락폭이 크게 벌어지며 이날 최저 수준에서 거래를 마감함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "젠슨 황의 엔비디아 컴백: 계산이 맞지 않는 이유",
-              "original": "Jensen Huang's Nvidia comeback: Why the math doesn't add up",
+              "title": "트럼프, 엔비디아 혼란에 깊숙이 개입하며 젠슨 황 후임 비판",
+              "original": "Trump critiques Jensen Huang's replacement as he wades deeper into Nvidia turmoil",
+              "source": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/article/trump-critiques-jensen-huangs-replacement-as-he-wades-deeper-into-nvidia-turmoil-210729338.html",
+              "published": "2026-11-21T06:07:29+09:00"
+            },
+            {
+              "title": "마켓 행: AI 리셋? 앤트로픽의 전망, 아모데이의 미래, 그리고 엔비디아를 끌어내릴 주인공은?",
+              "original": "Market Hang: AI Reset? Anthropic's Outlook, Amodei's Future, and Who Could Dethrone NVIDIA?",
               "source": "Yahoo Finance Video",
-              "url": "https://finance.yahoo.com/video/jensen-huangs-nvidia-comeback-why-the-math-doesnt-add-up-213021034.html",
-              "published": "2026-11-20T06:30:21+09:00"
+              "url": "https://finance.yahoo.com/video/market-hang-ai-reset-anthropics-outlook-amodeis-future-and-who-could-dethrone-nvidia-210048852.html",
+              "published": "2026-11-21T06:00:48+09:00"
             },
             {
-              "title": "하루 늦게 덮친 엔비디아 후폭풍…韓 네오클라우드 '급락' [종목+]",
-              "original": "하루 늦게 덮친 엔비디아 후폭풍…韓 네오클라우드 '급락' [종목+]",
-              "source": "한국경제",
-              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VN09VMkoxUFBUb2RyTDlnNWpORlhnR0VqeUZQemNqTnZ1enlSS0FkbDV3TUxmWU41Rm8wbHdhc2J3MDI5YUFPbGN5UUlIc2YzYUVFLS11em1ZZw?oc=5",
-              "published": "2026-11-20T06:30:01+09:00"
-            },
-            {
-              "title": "엔비디아 이어 AMD도 '중국리스크'…제재기업에 기술유출 의혹",
-              "original": "엔비디아 이어 AMD도 '중국리스크'…제재기업에 기술유출 의혹",
-              "source": "연합뉴스",
-              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wamltTHNqU1Vuam10VjZlWjlmSEI1cThjd1JWRG83MG1qT3hlU1FPRzhmRHpaSkoxeXBzSnFVT2x2NWNvMmtnTXhSMVFYWmprbHN0SGF0RGVfM1XSAWBBVV95cUxQRFowS0wwT2cxNEVwLXN4aWtnaDJBeGpxRmoyeFlOMnIzQXhRRUwwNzd6eVlMQkFGSGpYSEFnR0xPSGJCcjhVOWxnT2dqVzl0blpBaFI3dWN1a3I3WVpVUWM?oc=5",
-              "published": "2026-11-20T06:26:15+09:00"
+              "title": "엔비디아 주가, SEC 회계 조사설에 2조 7000억 달러 폭락세 확대",
+              "original": "Nvidia stock extends $2.7 trillion rout as SEC probe reportedly investigates its accounting",
+              "source": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html",
+              "published": "2026-11-21T04:42:54+09:00"
             }
           ]
         },
         {
           "stock": "소파이테크놀로지",
           "ticker": "SOFI",
-          "title": "소파이테크놀로지 - 52주 최저치 근접",
-          "body": "소파이테크놀로지는 주가가 13.84달러까지 떨어지며 52주 최저치를 기록한 가운데 -4.11% 내린 <b>13.53달러</b> 마감. 10억 달러 규모 사업 계획이 어떤 신호를 주는지에 대한 시장의 해석도 분분한 모습이다.",
-          "pct": -4.11,
-          "price": 13.529999732971191,
-          "prev_close": 14.109999656677246,
+          "title": "소파이테크놀로지 - 52주 신저가로 급락",
+          "body": "소파이테크놀로지는 52주 신저가를 기록하며 -7.76% 내린 <b>12.48달러</b> 마감. 개인 투자자들 사이에서는 앤트로픽이 시장 유동성을 흡수하는 '스펀지' 역할을 하고 있다는 비판이 나오는 가운데 투자심리가 급격히 얼어붙은 모습이다.",
+          "pct": -7.76,
+          "price": 12.479999542236328,
+          "prev_close": 13.529999732971191,
           "currency": "USD",
-          "as_of": "2026-11-19",
+          "as_of": "2026-11-20",
           "slots": [
             {
               "time": "11:30PM",
@@ -240,31 +280,47 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-11-20",
               "title": "52주 신저가 경신",
-              "text": "장중 52주 최저치를 다시 찍으며 하락세가 좀처럼 꺾이지 않고 약세 흐름을 이어가는 중"
+              "text": "유동성 우려와 경쟁주 비교 기사가 겹친 가운데 장중 52주 신저가를 기록하며 약세 지속"
+            },
+            {
+              "time": "마감",
+              "price": 12.479999542236328,
+              "pct": -7.76,
+              "prev_close": 13.529999732971191,
+              "is_close": true,
+              "date": "2026-11-20",
+              "title": "낙폭 더 키우며 마감",
+              "text": "장중 신저가 경신 이후에도 매수세가 붙지 않으며 하락폭이 더 커진 채 거래를 마감함"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "SoFi Technologies Inc. 주가, $13.84로 52주 최저치",
-              "original": "SoFi Technologies Inc. 주가, $13.84로 52주 최저치",
+              "title": "SoFi Technologies Inc. 주가, 오늘 52주 신저가 기록한 이유는?",
+              "original": "SoFi Technologies Inc. 주가, 오늘 52주 신저가 기록한 이유는?",
               "source": "Investing.com 한국어",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9GcFRsQWVlTjdiZWduNTFwMjJ5MXh2cFFuUTBYRXV0aVUxQ3JZcmpmT3N3QXdZSWhjcnotbGF6ejJTSm5Yd212TEpVWXFJT3U5TUJDMGJzZk1KcHpvMU1IdllhREVvOGxJcjFnc1AyU3o?oc=5",
-              "published": "2026-11-20T01:54:00+09:00"
+              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5icUtWZ0JqanJHYkFXbFBOajJCLVViU3ItN2pBMThQWXdtTkJSOU5ncHVkOGJVVzVCUG1VYUQtQlB3ejVhU3owOUZMTzJmUk10VHpWaDdIRDd0eUp6amg4dTBKWldwamtZRDhQejdOelBTcjNsSno4?oc=5",
+              "published": "2026-11-21T04:37:00+09:00"
             },
             {
-              "title": "소파이 테크놀로지스(SOFI), $1 Billion 규모 사업 계획으로 무엇을 신호하나",
-              "original": "What Is SoFi Technologies (SOFI) Signaling With Its $1 Billion Business Plan?",
-              "source": "Simply Wall St.",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/sofi-technologies-sofi-signaling-1-232209390.html",
-              "published": "2026-11-19T08:22:09+09:00"
+              "title": "로빈후드 마켓츠 vs 소파이 테크놀로지스: 2027년 더 나은 금융주 선택은?",
+              "original": "Robinhood Markets vs. SoFi Technologies: Which Financial Stock Is a Better Buy for 2027?",
+              "source": "Motley Fool",
+              "url": "https://www.fool.com/coverage/better-buy/2026/11/20/robinhood-markets-vs-sofi-technologies-which-financial-stock-is-a-better-buy-for-2027/",
+              "published": "2026-11-20T20:08:01+09:00"
+            },
+            {
+              "title": "소파이 주가, 52주 최저치로 급락...개미들 \"앤트로픽이 유동성 '스펀지' 노릇\" 비난",
+              "original": "SOFI Stock Slumps To 52-Week Lows: Retail Blames Anthropic For Being A Liquidity ‘Sponge’",
+              "source": "Stocktwits",
+              "url": "https://stocktwits.com/news-articles/markets/equity/sofi-stock-slumps-to-52-week-lows-retail-blames-anthropic-for-being-a-liquidity-sponge/cNb1CX7R90y",
+              "published": "2026-11-20T10:53:14+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-11-20-us.md",
-      "refreshed_at": "2026-11-20 07:00:57 KST",
-      "slots_refreshed_at": "2026-11-21 04:59:43 KST"
+      "markdown": "briefings/2026-11-21-us.md",
+      "refreshed_at": "2026-11-21 07:00:58 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
