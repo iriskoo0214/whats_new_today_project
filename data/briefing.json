@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-20 15:40:40 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-11-20 18:00:54 KST",
+  "refreshed": [
     "kr"
   ],
-  "default": "us",
+  "slots_refreshed": [],
+  "default": "kr",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
@@ -316,7 +316,7 @@
     },
     "kr": {
       "icon": "assets/moon.svg",
-      "label": "한국 증시 요약 2026. 11. 19. 6:01PM",
+      "label": "한국 증시 요약 2026. 11. 20. 6:00PM",
       "chips": [
         "전체",
         "SK하이닉스",
@@ -330,27 +330,27 @@
         "다시 찾아올게요."
       ],
       "next": "us",
-      "headline": "국내 5종목 중 3종목 상승, 2종목 하락 — SK하이닉스가 +3.41%로 가장 많이 올랐고 LG전자가 -0.80%로 가장 부진했습니다.",
-      "market_headline": "코스피 장중 5000선 붕괴 딛고 1.4% 반등 마감",
+      "headline": "국내 5종목 중 0종목 상승, 5종목 하락 — LG전자가 -3.90%로 낙폭이 가장 작았고 삼성전자가 -7.01%로 가장 부진했습니다.",
+      "market_headline": "AI·반도체 급락에 코스피 5% 폭락, 5000선 붕괴",
       "market_card": {
-        "title": "코스피 1.39% 상승 마감...장중 5000선 붕괴 딛고 5137선 회복",
+        "title": "코스피 5.21% 급락 마감...4869선으로 밀리며 10개월 만에 최저치 기록",
         "bullets": [
-          "외국인 매도에도 지수 1.4% 상승",
-          "반도체주 반등에 코스닥 3%대 급등",
-          "앤트로픽 상장 앞두고 원달러 환율 하락"
+          "외국인·기관 2조원 넘게 동반 순매도",
+          "삼성전자 7%·하이닉스 6% 동반 폭락",
+          "원·달러 환율 1336원대로 사흘 만에 상승"
         ]
       },
       "cards": [
         {
           "stock": "SK하이닉스",
           "ticker": "000660",
-          "title": "SK하이닉스 - HBM 몸값 재조명, 반등 마감",
-          "body": "SK하이닉스는 앤트로픽 상장과 HBM 생태계 확대 기대 속에 +3.41% 오른 <b>1,183,000원</b> 마감. 장중 삼성전자와 함께 2% 넘게 밀렸다가 앤트로픽 공모가 83달러 확정 소식에 낙폭을 되돌리며 반등한 모습이다.",
-          "pct": 3.41,
-          "price": 1183000.0,
-          "prev_close": 1144000.0,
+          "title": "SK하이닉스 - 개미는 저가매수 베팅",
+          "body": "SK하이닉스는 반도체주 전반의 조정 속에 -5.92% 내린 <b>1,113,000원</b> 마감. 7% 가까이 빠지자 개인 투자자들이 1조5000억원을 쓸어담았다는 분석도 나오며 저가 매수 심리가 엇갈린 모습이다.",
+          "pct": -5.92,
+          "price": 1113000.0,
+          "prev_close": 1183000.0,
           "currency": "KRW",
-          "as_of": "2026-11-19",
+          "as_of": "2026-11-20",
           "slots": [
             {
               "time": "9:10AM",
@@ -359,8 +359,8 @@
               "prev_close": 1183000.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "장 초반 급락 출발",
-              "text": "장 시작부터 낙폭이 크게 벌어지며 전반적인 반도체 약세 분위기 속에 하락 출발함"
+              "title": "장 초반 큰 폭 하락",
+              "text": "개장 직후부터 매도세가 몰리며 낙폭이 5%를 넘어서는 약세로 출발함"
             },
             {
               "time": "10:30AM",
@@ -369,8 +369,8 @@
               "prev_close": 1183000.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "낙폭 추가 확대",
-              "text": "오전 중반 들어 하락폭이 더 커지며 이날 저점에 근접하는 약세 흐름이 이어짐"
+              "title": "오전 중 낙폭 확대",
+              "text": "장 초반 약세가 오전 들어 더 깊어지며 하루 중 가장 큰 낙폭을 기록함"
             },
             {
               "time": "1:00PM",
@@ -379,55 +379,55 @@
               "prev_close": 1183000.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "낙폭 다소 축소",
-              "text": "점심 무렵 저점 대비 낙폭을 일부 만회했으나 여전히 5%대 하락권에 머무름"
+              "title": "오후 들어 낙폭 축소",
+              "text": "오전 급락세에서 벗어나 오후 들어 낙폭을 일부 만회하며 반등 흐름을 보임"
             },
             {
               "time": "마감",
-              "price": 1111000.0,
-              "pct": -6.09,
+              "price": 1113000.0,
+              "pct": -5.92,
               "prev_close": 1183000.0,
               "is_close": true,
               "date": "2026-11-20",
-              "title": "6%대 하락 마감",
-              "text": "코스피 전반이 큰 폭으로 밀린 가운데 7만원 가까이 빠지며 하루를 마감함"
+              "title": "반등분 일부 반납",
+              "text": "오후 한때 낙폭을 줄였으나 장 막판 다시 밀리며 약세로 하루를 마감함"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "[분석] 앤트로픽 상장에 삼성·SK하이닉스 HBM 몸값 뛴다 By FinancialPost",
-              "original": "[분석] 앤트로픽 상장에 삼성·SK하이닉스 HBM 몸값 뛴다 By FinancialPost",
-              "source": "Investing.com 한국어",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9CMW1aRHNxMVhjd1Y1b280R21UZ3NfVi15SnBNd25nZGRjZGFrcjNmS1dZaVhPWVZ1SEtYdGVnTXlsNTdad1BVdk9iQ0NVaXZGck9GUTZtbUJhQ0VGUFFpSEcxYS1SZGt5aUYtZG1ZSmc?oc=5",
-              "published": "2026-11-19T17:55:00+09:00"
+              "title": "\"7% 빠지자 1조5000억 쓸어담았다\"…삼전닉스에 베팅한 개미들",
+              "original": "\"7% 빠지자 1조5000억 쓸어담았다\"…삼전닉스에 베팅한 개미들",
+              "source": "한국경제",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlU01DWWRTRHdtcllRNzNPX3poRjNnZmJxOXk2dGF3QXhvTFdXN0tiWVpPOTc2cEFLTFFwNEJBUVNRQkY2RXQyRkZWRklkNW5iYktCTEJMYllRQQ?oc=5",
+              "published": "2026-11-20T17:52:28+09:00"
             },
             {
-              "title": "장중 2% 넘게 밀린 삼전닉스, 반등 마감…앤트로픽 공모가 83달러 확정",
-              "original": "장중 2% 넘게 밀린 삼전닉스, 반등 마감…앤트로픽 공모가 83달러 확정",
-              "source": "강원도민일보",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4wZG1aVm5YWGp1SndBSjFOLW12UmRlU1hzeWd6ckNQb3Y1YUNlYWEwWnROaEpSZmx5WV94RmNaU3hSN2N5Q1c0THMyQ1d0YldwTHBfTXRxY2oyNzdJbVRVdmxMN2FGUWhv?oc=5",
-              "published": "2026-11-19T17:40:30+09:00"
-            },
-            {
-              "title": "SK하이닉스, ‘수출 1조달러’ 이끈 HBM 생태계 키운다",
-              "original": "SK하이닉스, ‘수출 1조달러’ 이끈 HBM 생태계 키운다",
+              "title": "SK하이닉스, 키옥시아 투자 수익은 배당으로…남은 투자분은 주식으로",
+              "original": "SK하이닉스, 키옥시아 투자 수익은 배당으로…남은 투자분은 주식으로",
               "source": "매일일보",
-              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1tNFM1bVBsQWp0dHhkZ0dCYk5YdUczVm1acG4xYlZaZ21TOU5DSTM5TUxXRVc4dnVzMk5NS0JqaDExemFjdXRSTnU2VDlyN1hueFl0Njl5aEw2OGw5dTNEQlFVLU4?oc=5",
-              "published": "2026-11-19T17:40:27+09:00"
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE11NWgwQ2xrVlRJMktkZDdtVVRfVGdic3lqNlY2clBVcE1LZkZKc1oxc3lMbGdJWHNyV21nanJlbW1CODIycnlTQW04QW9XU0dpRFBqalVVT25iVkxYRG5Jc1Z3TjU?oc=5",
+              "published": "2026-11-20T17:51:27+09:00"
+            },
+            {
+              "title": "SK하이닉스 청년창업파크, 성과공유회 'SPARK Festa' 개최",
+              "original": "SK하이닉스 청년창업파크, 성과공유회 'SPARK Festa' 개최",
+              "source": "노컷뉴스",
+              "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4wNlJKbGxfM3k5ZzUtMTI3X2FGNHB4NExKUjNqZlBFYmRHUEtIZ2lSeVAtWmMydWVtb3o1bEVaNThoUkNjSWpZVlVOSEM5VUxzZnc?oc=5",
+              "published": "2026-11-20T17:47:34+09:00"
             }
           ]
         },
         {
           "stock": "삼성전자",
           "ticker": "005930",
-          "title": "삼성전자 - AI 안경 흥행 속 소폭 상승",
-          "body": "삼성전자는 삼성·구글 AI 안경 예판 16종이 전량 품절되며 흥행한 가운데 +1.13% 오른 <b>196,900원</b> 마감.",
-          "pct": 1.13,
-          "price": 196900.0,
-          "prev_close": 194700.0,
+          "title": "삼성전자 - 반도체주 급락, 사장단 인사",
+          "body": "삼성전자는 반도체주 전반의 조정 흐름 속에 -7.01% 내린 <b>183,100원</b> 마감. 같은 날 2027년 정기 사장단 인사를 통해 성과주의와 미래사업 강화 기조를 내세웠지만 주가 하락을 막지는 못한 모습이다.",
+          "pct": -7.01,
+          "price": 183100.0,
+          "prev_close": 196900.0,
           "currency": "KRW",
-          "as_of": "2026-11-19",
+          "as_of": "2026-11-20",
           "slots": [
             {
               "time": "9:10AM",
@@ -437,7 +437,7 @@
               "is_close": false,
               "date": "2026-11-20",
               "title": "장 초반 약세 출발",
-              "text": "장 시작부터 4%대 하락으로 출발하며 반도체 업종 전반의 부진한 분위기를 반영함"
+              "text": "개장과 동시에 매물이 쏟아지며 4%대 하락으로 거래를 시작함"
             },
             {
               "time": "10:30AM",
@@ -446,8 +446,8 @@
               "prev_close": 196900.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "낙폭 확대 지속",
-              "text": "오전 중반 들어 하락폭이 5%대로 커지며 전날 대비 약세가 뚜렷해짐"
+              "title": "낙폭 지속 확대",
+              "text": "장 초반 약세가 오전 중반까지 이어지며 하락폭이 5%대로 더 커짐"
             },
             {
               "time": "1:00PM",
@@ -456,55 +456,55 @@
               "prev_close": 196900.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "오후 들어 낙폭 심화",
-              "text": "사장 승진 인사 소식에도 매수세가 붙지 않으며 낙폭이 6%대로 더 벌어짐"
+              "title": "오후까지 낙폭 심화",
+              "text": "반등 없이 매도세가 이어지며 오후 들어서도 하락폭이 계속 확대됨"
             },
             {
               "time": "마감",
-              "price": 183400.0,
-              "pct": -6.86,
+              "price": 183100.0,
+              "pct": -7.01,
               "prev_close": 196900.0,
               "is_close": true,
               "date": "2026-11-20",
-              "title": "6%대 하락 마감",
-              "text": "수출통제발 우려 속 오전 순매도에서 오후 순매수로 전환됐으나 낙폭은 가장 크게 확대돼 마감함"
+              "title": "하루 중 최저치 마감",
+              "text": "장 후반까지 하락세가 꺾이지 않으며 이날 가장 큰 낙폭으로 마감함"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "삼성·구글 AI 안경, 예판 16종 전량 품절…내달 10일 출시",
-              "original": "삼성·구글 AI 안경, 예판 16종 전량 품절…내달 10일 출시",
+              "title": "유럽 스마트폰 시장, 삼성·애플 합산 점유율 66%로 확대",
+              "original": "유럽 스마트폰 시장, 삼성·애플 합산 점유율 66%로 확대",
               "source": "매일일보",
-              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1WdEdTME91T3MwRVluZzNnUmFmazNaaGFrSThoRFU1YnBoVHl0VVI5X1ZIYl9TYk1RbUUyVHlhdlVZTXVnTHJxNFgzNGlmdXNEeDh4bFZJRzYwVC1zOUc3UUNad2Q?oc=5",
-              "published": "2026-11-19T17:46:32+09:00"
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0MmxMQW1TM1hUb2gyMHI3WjljUmlpR01jb2pfZ0gwbW9xdFlISWt3T0pzek44QjJqZlY1NDZZNEhNalhRMWtza29BTi1rbHN4U1M0UGRuNm0xSU94WGVlUUw5YVQ?oc=5",
+              "published": "2026-11-20T17:51:23+09:00"
             },
             {
-              "title": "아산시먹거리재단, 삼성전자 온양캠퍼스 건설 현장 급식에 지역농산물 공급",
-              "original": "아산시먹거리재단, 삼성전자 온양캠퍼스 건설 현장 급식에 지역농산물 공급",
-              "source": "메가충청뉴스",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1OSGZULVBRbDE4dDNSSmpxdWVkSkNpc2gwc09VSFVLeUVfdXZKcDVDTUVLYk91T0ptMUtBeGFVTk8xc29BZS1nVE5DanNsb09iU2NxVE9oS2hFR0g0UW5ueDFGSDlHNnRyLU9uMQ?oc=5",
-              "published": "2026-11-19T17:19:57+09:00"
+              "title": "삼성전자, 2027년 정기 사장단 인사 단행… ‘성과주의’ 및 ‘미래사업 강화’ 방점",
+              "original": "삼성전자, 2027년 정기 사장단 인사 단행… ‘성과주의’ 및 ‘미래사업 강화’ 방점",
+              "source": "인사이드비나",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBKVGxibGxhalVyZVhqR1E2bGd0by1KUzZYTG4wTDF2RVVJeGJXbENHSEJSOTFfaTlmU1hkUHhpUzlDa1Jpc2dDSEU2QXhNX19IeDlSLWgxSlhpcXg2cHMzNVVvRWVyV0VMSTUzeQ?oc=5",
+              "published": "2026-11-20T17:40:49+09:00"
             },
             {
-              "title": "삼성전기, 차세대 모바일 AP용 기판 개발…'엑시노스'용 공급 재개",
-              "original": "삼성전기, 차세대 모바일 AP용 기판 개발…'엑시노스'용 공급 재개",
-              "source": "지디넷코리아",
-              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RQ283SVdGQWJXRHhkX0thZWpjNXRHbGZYSnRlYlFrcDVObEQ0NGZCS2RKVFQzcFRvb1JHNk40TEpHUGpYQnQ5eVJaU1lMdzB3NVpzTUJB?oc=5",
-              "published": "2026-11-19T17:15:41+09:00"
+              "title": "반도체 호황에 기술통 세운 삼성, TV 흑자에 전략통 부른 LG",
+              "original": "반도체 호황에 기술통 세운 삼성, TV 흑자에 전략통 부른 LG",
+              "source": "미주중앙일보",
+              "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5jNzd2RVpQX1FNcFEtSjRYLWszcjZyb2J4SmNPUW5KNmV3eEVCV0ZNeXdWTUV0QTk1TnJtYVZfZktNSEYwZTZjcmZCdE5VV1hEUTBnWnE3WlJVUGVLa0RFTUZR?oc=5",
+              "published": "2026-11-20T17:37:00+09:00"
             }
           ]
         },
         {
           "stock": "한화에어로스페이스",
           "ticker": "012450",
-          "title": "한화에어로스페이스 - 美 수주 성과에도 보합권",
-          "body": "한화에어로스페이스는 미국 함정 수주라는 성과에도 태국 호위함 입찰이 원점으로 돌아갈 수 있다는 분석이 나오며 -0.16% 내린 <b>631,000원</b> 마감.",
-          "pct": -0.16,
-          "price": 631000.0,
-          "prev_close": 632000.0,
+          "title": "한화에어로스페이스 - 방산주 조정에 하락",
+          "body": "한화에어로스페이스는 방산주 전반의 조정 흐름 속에 -4.12% 내린 <b>605,000원</b> 마감. 기업 제재와 무기 개발 딜레마 등 K방산이 맞닥뜨린 암초가 부각되는 가운데서도 기관 매수세의 러브콜은 이어진 모습이다.",
+          "pct": -4.12,
+          "price": 605000.0,
+          "prev_close": 631000.0,
           "currency": "KRW",
-          "as_of": "2026-11-19",
+          "as_of": "2026-11-20",
           "slots": [
             {
               "time": "9:10AM",
@@ -513,8 +513,8 @@
               "prev_close": 631000.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "장 초반 소폭 약세",
-              "text": "장 시작부터 3%에 못 미치는 하락으로 출발하며 방산주 전반의 조정 분위기를 반영함"
+              "title": "장 초반 약보합 출발",
+              "text": "개장 직후 완만한 하락으로 시작하며 방산주 전반의 조정 흐름에 동참함"
             },
             {
               "time": "10:30AM",
@@ -524,7 +524,7 @@
               "is_close": false,
               "date": "2026-11-20",
               "title": "낙폭 소폭 확대",
-              "text": "오전 중반 하락폭이 3%대로 조금 더 벌어지며 약세 흐름이 유지됨"
+              "text": "오전 들어서도 하락세가 이어지며 전일 대비 낙폭이 조금 더 커짐"
             },
             {
               "time": "1:00PM",
@@ -533,55 +533,55 @@
               "prev_close": 631000.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "낙폭 축소 전환",
-              "text": "오후 들어 낙폭을 상당 부분 만회하며 이날 가장 선방한 구간에 진입함"
+              "title": "오후 들어 낙폭 축소",
+              "text": "기관 매수세가 유입되며 오후 들어 낙폭을 상당 부분 만회하는 모습을 보임"
             },
             {
               "time": "마감",
-              "price": 608000.0,
-              "pct": -3.65,
+              "price": 605000.0,
+              "pct": -4.12,
               "prev_close": 631000.0,
               "is_close": true,
               "date": "2026-11-20",
-              "title": "다시 낙폭 확대 마감",
-              "text": "방산주 전반의 조정 속에 오후 들어 되밀리며 하루 중 가장 큰 낙폭으로 마감함"
+              "title": "반등 반납 후 마감",
+              "text": "오후 한때 낙폭을 크게 줄였지만 장 막판 다시 밀리며 약세로 마감함"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "`김태연-이도윤 참여` 한화 이글스 등 한화그룹 충청지역봉사단, 19일 김장나눔 대축제 실시",
-              "original": "`김태연-이도윤 참여` 한화 이글스 등 한화그룹 충청지역봉사단, 19일 김장나눔 대축제 실시",
-              "source": "마이데일리",
-              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE01YlJoM1J4cm1YY1hsMXpKUnFTd21tN1hWcHJGaERrTDZ6dm1USFEyNWhjeXRtYzU1MlRuYU9UaVQ4MnBLY1ltZ09qNEhGbjJXRVNEcXBPVWNuUG1ROTdqVzdRSTFqUQ?oc=5",
-              "published": "2026-11-19T17:41:00+09:00"
+              "title": "[오주석의 이심戰심] 승승장구 K방산이 맞닥뜨린 암초…기업 제재·무기 개발 딜레마",
+              "original": "[오주석의 이심戰심] 승승장구 K방산이 맞닥뜨린 암초…기업 제재·무기 개발 딜레마",
+              "source": "아주경제",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nUGlRM1Z1eXVLeXJrZy1tSHg1VG9HZDJtcmItNW4zT1ZQd1FGdU9Fazk4WEU4TzJhWTI5UUFzS1FlcWg0dkNnUXZ3dlZmZUR4WGF4dmp1dndHd9IBWEFVX3lxTFB1YmJSYmc5dENyT2hicmNjczBNdWtJWlZETzFQVjdQNXRtSXU2Yjd1RkExM2pyWVU4RkxXWThNWXZuaDE0eG5adE9rT0NLdXFNaV9YYk42UGQ?oc=5",
+              "published": "2026-11-20T16:59:55+09:00"
             },
             {
-              "title": "[EZ 분석] 한화, 美 함정 첫 수주했지만…태국 호위함 입찰은 원점?",
-              "original": "[EZ 분석] 한화, 美 함정 첫 수주했지만…태국 호위함 입찰은 원점?",
-              "source": "이지경제",
-              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVTWw1YldFNlhzQmF2bHNSZDRYN3hhc2M3MFhtNXM3RURtN0J3UlFtU1ZwLWVwWXo4UlFlYWFKZjRITDFybHNrd3pEV0oyME90Y1NCSmdMVFNvaWNUdmctcEpObENUWEFKOE41Wmxn?oc=5",
-              "published": "2026-11-19T17:28:11+09:00"
+              "title": "[거래소 기관] 한미약품 한화에어로스페이스 신세계 KB금융 하이브 '러브콜'",
+              "original": "[거래소 기관] 한미약품 한화에어로스페이스 신세계 KB금융 하이브 '러브콜'",
+              "source": "핀포인트뉴스",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBTVDVqSWRiam9pTnFqNkFIUndOeDRQbjNlNWR4V19RRGJhT3hhRzJZOC1Uemh4dW0ydVA4ejI3X0tvb3ZnTE82dlV5MFdiSFNQSnoyRGZkVlFjMERSVmR3MUphN05MQTBnWm5OZS1HOEJ1X0HSAXdBVV95cUxQR3Z6dXh6Q2ZfSmtRYUktSFBDVWhGcW1LMEhYZ2lIaEZYZVdYYTl2R1lkQjRlcmxXanl5a2g2ajhzT2JMTlVBd3FxSnJyRmJJamszZEVtVUpIV2poeTNGemVSNXZMQWlQUFIwU05hZzRVWXR0Y3h2VQ?oc=5",
+              "published": "2026-11-20T16:11:08+09:00"
             },
             {
-              "title": "경남 방산 대·중소기업 한자리에… 기술교류·협력망 확대",
-              "original": "경남 방산 대·중소기업 한자리에… 기술교류·협력망 확대",
-              "source": "팍스경제TV",
-              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5pV1JPSEM4QlM4bXFnNHI5a1hsU0xsQndkb2RRMEFmV01EdW9obEh0Y2UxMnJsN1Jta0ZlZ09vZEs3cGVBM1dTSV9vTEszQW8yZ0dscVY0SU94WC11dFB6ODFUWHlpUFk?oc=5",
-              "published": "2026-11-19T17:05:06+09:00"
+              "title": "한화에어로스페이스, 방산주 조정에 3.96% 하락",
+              "original": "한화에어로스페이스, 방산주 조정에 3.96% 하락",
+              "source": "잡포스트",
+              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9USUxVR0UzRUliWnV6OEZVQXFPLU1OS1VHdFY2MHB2dXJtNk9kV0Y0VWhfSWNzN3RYMmlYM3d5WUxpUHZUZGZxSE9JdWgxaVhGTnkyZFNxLWt2bzBDY0t4S2Jla0pfUF9pUkpjWjRB0gFyQVVfeXFMT2VITkc0UTlXU3NNYlNsTjNBWkdYaDJIYXd0RHdRNEhiakQ4eTQxX2REZkpyZERYVE9ISllDLWhzd1VqYmpCbEdPRlJaaWI2Xy0tYzRDZUNlM0NFVU5FSnR2Q0ZhZVQ4YzJ6aVJmaTZXTmx3?oc=5",
+              "published": "2026-11-20T15:16:47+09:00"
             }
           ]
         },
         {
           "stock": "LG전자",
           "ticker": "066570",
-          "title": "LG전자 - 임원인사·조직개편에도 하락",
-          "body": "LG전자는 2027년 임원인사와 조직개편을 단행하고 백승태·이상우 사장을 승진시키며 미래사업 성장 가속화에 방점을 찍었지만 -0.80% 내린 <b>135,900원</b> 마감.",
-          "pct": -0.8,
-          "price": 135900.0,
-          "prev_close": 137000.0,
+          "title": "LG전자 - TV 흑자에도 동반 하락",
+          "body": "LG전자는 반도체 업종발 조정 분위기 속에 -3.90% 내린 <b>130,600원</b> 마감. TV 사업 흑자로 전략통 수장을 세웠다는 평가와 KT와 함께 차세대 양자통신 기술 개발에 성공했다는 소식도 전해졌다.",
+          "pct": -3.9,
+          "price": 130600.0,
+          "prev_close": 135900.0,
           "currency": "KRW",
-          "as_of": "2026-11-19",
+          "as_of": "2026-11-20",
           "slots": [
             {
               "time": "9:10AM",
@@ -590,8 +590,8 @@
               "prev_close": 135900.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "장 초반 소폭 하락",
-              "text": "장 시작부터 1%대 하락으로 비교적 완만하게 출발하는 모습을 보임"
+              "title": "장 초반 소폭 약세",
+              "text": "개장 직후 완만한 하락으로 출발하며 1%대 약세권에서 움직임을 시작함"
             },
             {
               "time": "10:30AM",
@@ -601,7 +601,7 @@
               "is_close": false,
               "date": "2026-11-20",
               "title": "낙폭 점차 확대",
-              "text": "오전 중반 들어 하락폭이 2%대로 커지며 약세 흐름이 서서히 짙어짐"
+              "text": "오전 중반을 지나며 하락폭이 점점 커져 2%대 중반까지 밀림"
             },
             {
               "time": "1:00PM",
@@ -610,55 +610,55 @@
               "prev_close": 135900.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "낙폭 추가 확대",
-              "text": "점심 무렵에도 낙폭이 줄지 않고 3%대로 확대되며 이날 저점권에 근접함"
+              "title": "약세 흐름 지속",
+              "text": "오후 들어서도 반등하지 못하고 하락폭이 추가로 확대되는 흐름이 이어짐"
             },
             {
               "time": "마감",
-              "price": 130500.0,
-              "pct": -3.97,
+              "price": 130600.0,
+              "pct": -3.9,
               "prev_close": 135900.0,
               "is_close": true,
               "date": "2026-11-20",
-              "title": "4%대 하락 마감",
-              "text": "양자통신 기술 검증 소식에도 반등은 없이 낙폭을 키운 채 하루를 마감함"
+              "title": "하루 중 최대 낙폭",
+              "text": "장 후반까지 매도 우위가 이어지며 이날 가장 큰 낙폭으로 거래를 마침"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "[인사] ﻿LG전자, 2027년 임원인사 및 조직개편 단행…미래사업 성장 가속화에 방점",
-              "original": "[인사] ﻿LG전자, 2027년 임원인사 및 조직개편 단행…미래사업 성장 가속화에 방점",
-              "source": "비즈니스리포트",
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBHVmduZ2VQdThzT2ZmWkJmRTlaTUQ1ZXY3blNDMlZzZkJxcXpTWHFNWEp3OElBb0tGLWJRX1Q2SjIxUm43ZUJ2NDlTejdubFMwRUR1aUJZc1FJa2FTUGlkTmlxQnEyMWxtSWhJTkc2RQ?oc=5",
-              "published": "2026-11-19T17:54:33+09:00"
+              "title": "[공식발표] '이정현·허훈·변준형 부상 OUT' 男농구 대표팀, 엔트리 대거 변동→'양준석·강성욱·서명진·이두원 IN'",
+              "original": "[공식발표] '이정현·허훈·변준형 부상 OUT' 男농구 대표팀, 엔트리 대거 변동→'양준석·강성욱·서명진·이두원 IN'",
+              "source": "스타뉴스",
+              "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5DOHpsRmpDLW5HeXQyWWc0NVdpbG54bUJldzJQbTV5b0xZdlV1Z0QtYWc1X2pjM1IxOUtNTEZzbG45V3ZObXZSZWpuX3cyZWJscnJPVTVLTm1sb3QzUXJhbzBpT3hSVXNZQnFSenFZa3BWLVRDX2c?oc=5",
+              "published": "2026-11-20T17:44:07+09:00"
             },
             {
-              "title": "LG, CEO 대부분 유임 속 임원 승진 35% 늘려…미래 기술 인재 발탁",
-              "original": "LG, CEO 대부분 유임 속 임원 승진 35% 늘려…미래 기술 인재 발탁",
-              "source": "조선일보",
-              "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPd1FpYWFON0N0dUtDRGdyVU1IMFFUVlRrUTljc3pqc0F2NUV1dFpBeFFoX3E4cXowbUhiaXZwRFRPRjJjV2JNZlh4UTgtcE1BYXk0SV94aG5RSzktY0MwaHdydEc3OWdVMDloMlRlOHYyOXd1cDBJdXBFMjRxWXFnOU04TG95TjdReTJscUxkMA?oc=5",
-              "published": "2026-11-19T17:51:00+09:00"
+              "title": "반도체 호황에 기술통 세운 삼성, TV 흑자에 전략통 부른 LG",
+              "original": "반도체 호황에 기술통 세운 삼성, TV 흑자에 전략통 부른 LG",
+              "source": "미주중앙일보",
+              "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5jNzd2RVpQX1FNcFEtSjRYLWszcjZyb2J4SmNPUW5KNmV3eEVCV0ZNeXdWTUV0QTk1TnJtYVZfZktNSEYwZTZjcmZCdE5VV1hEUTBnWnE3WlJVUGVLa0RFTUZR?oc=5",
+              "published": "2026-11-20T17:37:00+09:00"
             },
             {
-              "title": "LG전자, 백승태·이상우 사장 승진…미래사업 성장 가속화 조직개편",
-              "original": "LG전자, 백승태·이상우 사장 승진…미래사업 성장 가속화 조직개편",
-              "source": "뉴스톱",
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5abjZKQnBWeHpPWnFFbkxPRTRSUVdFQ0ttZGxWQUNFV2h5S2tBSkF6SzByWm5SNjVGTVJOUjZ2OUR2dEpBNDdkLUpfMzNBOTdNdU1oZE9pUXhWUGdUOElUdmF6R1hJQmVJOEtmc21yMA?oc=5",
-              "published": "2026-11-19T17:49:20+09:00"
+              "title": "KT-LG전자, 차세대 양자통신 기술 개발 성공…\"양자 상태로 데이터 직송\"",
+              "original": "KT-LG전자, 차세대 양자통신 기술 개발 성공…\"양자 상태로 데이터 직송\"",
+              "source": "뉴스워치",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBHelFsaC0zTWpFRFIzYm04dkJpXzJoVl85N3h4dUNveGJubVEzWGdpR2NUN0wyVWhIUVF5c0RKVko3aTBZNE16NHdmWUgzdzhZSVlXTkc1UGVTT2V1dFNSa09fVzVGYjl0?oc=5",
+              "published": "2026-11-20T17:03:53+09:00"
             }
           ]
         },
         {
           "stock": "현대차",
           "ticker": "005380",
-          "title": "현대차 - 데이터 전략 강조, 강보합",
-          "body": "현대차는 자율주행 경쟁력의 핵심으로 데이터를 꼽으며 '데이터 플라이휠' 전략 고도화를 밝힌 가운데 +0.19% 오른 <b>267,500원</b> 마감.",
-          "pct": 0.19,
-          "price": 267500.0,
-          "prev_close": 267000.0,
+          "title": "현대차 - 시총 10위권서 3계단 하락",
+          "body": "현대차는 뚜렷한 악재 없이 -4.67% 내린 <b>255,000원</b> 마감. 코스피 시가총액 순위에서 셀트리온이 재진입하며 3계단 밀려난 가운데 LA오토쇼에서는 G80 하이브리드를 공개했다.",
+          "pct": -4.67,
+          "price": 255000.0,
+          "prev_close": 267500.0,
           "currency": "KRW",
-          "as_of": "2026-11-19",
+          "as_of": "2026-11-20",
           "slots": [
             {
               "time": "9:10AM",
@@ -668,7 +668,7 @@
               "is_close": false,
               "date": "2026-11-20",
               "title": "장 초반 약세 출발",
-              "text": "장 시작부터 3%에 가까운 하락으로 출발하며 조정 장세에 동참하는 모습을 보임"
+              "text": "개장 직후 3%에 가까운 하락으로 시작하며 약세 흐름을 보임"
             },
             {
               "time": "10:30AM",
@@ -678,7 +678,7 @@
               "is_close": false,
               "date": "2026-11-20",
               "title": "낙폭 소폭 축소",
-              "text": "오전 중반 들어 낙폭을 일부 줄이며 전 구간보다 다소 완만한 흐름을 보임"
+              "text": "오전 중반 들어 하락폭이 다소 줄어들며 낙폭 방어하는 모습이 나타남"
             },
             {
               "time": "1:00PM",
@@ -687,8 +687,8 @@
               "prev_close": 267500.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "낙폭 다시 확대",
-              "text": "점심 무렵 신형 아반떼 등 신차 소식에도 매물이 늘며 낙폭이 다시 커짐"
+              "title": "오후 들어 낙폭 확대",
+              "text": "오전의 낙폭 축소 흐름이 꺾이며 오후 들어 하락폭이 다시 커짐"
             },
             {
               "time": "마감",
@@ -697,39 +697,38 @@
               "prev_close": 267500.0,
               "is_close": true,
               "date": "2026-11-20",
-              "title": "4%대 하락 마감",
-              "text": "북미 시장 공략 소식이 나왔지만 반등하지 못하고 낙폭을 키운 채 마감함"
+              "title": "시총 순위도 하락 마감",
+              "text": "장 후반까지 약세가 이어지며 코스피 시총 순위가 3계단 밀린 채 마감함"
             }
           ],
           "slot_total": 4,
           "news": [
             {
-              "title": "현대차 \"자율주행 경쟁력, 데이터가 가른다…격차 갈수록 커져\"",
-              "original": "현대차 \"자율주행 경쟁력, 데이터가 가른다…격차 갈수록 커져\"",
-              "source": "뉴스1",
-              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TNlJrREdOSVBzSXo1UHBrcGw1TFo1Nl8yV3RCWmJ5UjVHWGl6MHJyVENiWXNNMkp2dTBiU3FHWTlnMnI2M2lOWDVCS2NaNGhDaWRvbDE0UkZVUFZSTVRkaA?oc=5",
-              "published": "2026-11-19T17:42:15+09:00"
+              "title": "코스피 시총 10위 재편…셀트리온 재진입, 현대차 3계단 하락",
+              "original": "코스피 시총 10위 재편…셀트리온 재진입, 현대차 3계단 하락",
+              "source": "서울경제",
+              "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1uQ2tBa0hCQ1FtMzFlUzYwbXdiREg0ZFJVSEJHdWJBS2ltTm9WbkZVMHJTQ0ZMNGJCc1Bldk8yUHI4LUxWVEZRWURRelRTVjNoTkHSAVNBVV95cUxOZW5zd3Z4RHFFdWRKYUhrc3U3T01pYkl2VXhuX2I2NU5YTHhkNE0xYUlJZlphTVVVSHFzcDY5NW81b3FLclY2SkpTZUlrMHM1UmxONA?oc=5",
+              "published": "2026-11-20T17:52:50+09:00"
             },
             {
-              "title": "\"1%로 승부\"···현대차, '데이터 플라이휠' 전략 고도화",
-              "original": "\"1%로 승부\"···현대차, '데이터 플라이휠' 전략 고도화",
-              "source": "뉴스웨이",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PN1MxUFktOGg0azM0M1ZaZmNRM0YyRTQ4UHJacXlydkl2U1lOTXE3aVJoMWxWYWZjRF9ITS1rdXlRUmdaY092WGcwS2U4WmpiaXFqcVY5Znp1UThpNkFhMGdJTVhhZ1U3ckE?oc=5",
-              "published": "2026-11-19T17:36:34+09:00"
+              "title": "㈜코오롱 대표에 현대차 출신 한용빈",
+              "original": "㈜코오롱 대표에 현대차 출신 한용빈",
+              "source": "한국경제",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBJaWVOTmNWc18xU1FDVHpOTzBnNDg5ZVlSMlFNdVYyZ2VjVFB0QVdyZ1dfWFphSEhGczFVQ2xfdE9kTUJFXzZVdWVzSjdqOWg1cjFzYmZmT3lRdw?oc=5",
+              "published": "2026-11-20T17:32:22+09:00"
             },
             {
-              "title": "현대차그룹 로봇 사업, 자동차 넘어 반도체로… 아틀라스 현장 검증",
-              "original": "현대차그룹 로봇 사업, 자동차 넘어 반도체로… 아틀라스 현장 검증",
-              "source": "비즈트리뷴",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBMWk00ZW9lWWdvbTFzbnF5Vndrb1R2aWZVYTlsazlBUHZFVERabVJ1SWh3N1c3bEZ0dmw2ZUpQams2emZQRjNPamRVMWV0RFl2anczejV3RVVtRzNiU0pqZVlwQTUtM1Q3bEs1Y3pTV0U?oc=5",
-              "published": "2026-11-19T17:34:37+09:00"
+              "title": "[포토] 현대차, LA오토쇼서 G80 하이브리드 공개",
+              "original": "[포토] 현대차, LA오토쇼서 G80 하이브리드 공개",
+              "source": "한국경제",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5UcVQ0R0pKMDhBRHM4WXBxTTFZWVdqOWd4TEZsSTJtQ2dQdnFkYWg0Y0hrc0gzakdwUkhwYnFfcjRrbjYyTEFjMzAzYmx1ckdmYXBHVVo3TUtWUQ?oc=5",
+              "published": "2026-11-20T17:29:57+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-11-19-kr.md",
-      "refreshed_at": "2026-11-19 18:01:02 KST",
-      "slots_refreshed_at": "2026-11-20 15:40:40 KST"
+      "markdown": "briefings/2026-11-20-kr.md",
+      "refreshed_at": "2026-11-20 18:00:54 KST"
     }
   }
 }
