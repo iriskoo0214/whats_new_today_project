@@ -1,9 +1,9 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-21 10:23:38 KST",
+  "generated_at": "2026-11-22 02:22:29 KST",
   "refreshed": [],
   "slots_refreshed": [
-    "kr"
+    "us"
   ],
   "default": "us",
   "markets": {
@@ -51,8 +51,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 223.8800048828125,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "장중 소폭 반등",
-              "text": "실적 발표 이후 하락세가 이어진 가운데 장중에는 소폭 오름세로 흐름이 바뀌었음"
+              "title": "소폭 상승 흐름",
+              "text": "라이트웰 액세스 출시 소식 속 저평가 논란이 이어지며 완만한 상승세를 보임"
             },
             {
               "time": "마감",
@@ -61,8 +61,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 223.8800048828125,
               "is_close": true,
               "date": "2026-11-20",
-              "title": "오름폭 줄이며 마감",
-              "text": "장중 반등세를 지키지 못하고 상승폭이 줄어들며 거래를 마쳐 전일 대비 소폭 상승에 그침"
+              "title": "상승폭 다소 축소",
+              "text": "데이터 유출 소식이 전해졌으나 큰 충격 없이 상승세를 유지하며 하루를 이어감"
             }
           ],
           "slot_total": 2,
@@ -108,8 +108,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 498.29998779296875,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "장중 낙폭 확대",
-              "text": "아웃룩·팀즈 장애 신고가 급증하고 고평가 논란까지 겹치며 장중 내내 약세 흐름이 이어짐"
+              "title": "약세 흐름 지속",
+              "text": "설비투자 수익률 우려와 보안 재편 기사 속에서 하락세가 장 후반까지 이어지는 모습"
             },
             {
               "time": "마감",
@@ -118,8 +118,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 498.29998779296875,
               "is_close": true,
               "date": "2026-11-20",
-              "title": "낙폭 키우며 마감",
-              "text": "장중보다 하락폭이 더 커지며 마감해 하루 종일 이어진 약세 흐름을 끝내 극복하지 못함"
+              "title": "낙폭 확대 마감",
+              "text": "장 막판 매도세가 강해지며 하루 중 가장 큰 낙폭을 기록한 채 하루를 마무리함"
             }
           ],
           "slot_total": 2,
@@ -165,8 +165,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 22.709999084472656,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "장중 낙폭 축소",
-              "text": "한 달새 큰 폭 하락 이후 고평가 논란 속에서도 장중에는 낙폭을 다소 줄이는 모습을 보임"
+              "title": "하락세 이어짐",
+              "text": "고평가 논란과 경쟁주 비교 기사가 겹치며 약세 흐름이 장 후반까지 계속됨"
             },
             {
               "time": "마감",
@@ -175,8 +175,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 22.709999084472656,
               "is_close": true,
               "date": "2026-11-20",
-              "title": "낙폭 다시 확대",
-              "text": "장중 회복세를 이어가지 못하고 하락폭이 다시 커지며 이날 저점 부근에서 거래를 마감함"
+              "title": "낙폭 크게 벌어짐",
+              "text": "장중 내내 이어진 매도 압력 속에 하루 중 가장 큰 낙폭으로 거래를 마감함"
             }
           ],
           "slot_total": 2,
@@ -217,13 +217,13 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "11:30PM",
-              "price": 142.38499450683594,
-              "pct": -2.46,
+              "price": 143.57000732421875,
+              "pct": -1.65,
               "prev_close": 145.97999572753906,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "급락 속 낙폭 축소",
-              "text": "SEC 회계 조사설과 트럼프 발언 등 악재가 겹친 가운데 장중에는 낙폭이 다소 줄어드는 흐름"
+              "title": "급락세 지속",
+              "text": "캘리포니아주 소환장 발부와 매파적 FOMC 의사록 여파로 낙폭이 크게 확대됨"
             },
             {
               "time": "마감",
@@ -232,8 +232,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 145.97999572753906,
               "is_close": true,
               "date": "2026-11-20",
-              "title": "낙폭 다시 급격히 확대",
-              "text": "장중 회복 흐름을 지키지 못하고 하락폭이 크게 벌어지며 이날 최저 수준에서 거래를 마감함"
+              "title": "두자릿수 급락 마감",
+              "text": "나스닥 전반의 폭락 속 반락세가 이어지며 하루 중 가장 큰 낙폭으로 마무리됨"
             }
           ],
           "slot_total": 2,
@@ -279,8 +279,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 13.529999732971191,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "52주 신저가 경신",
-              "text": "유동성 우려와 경쟁주 비교 기사가 겹친 가운데 장중 52주 신저가를 기록하며 약세 지속"
+              "title": "약세 흐름 지속",
+              "text": "52주 신저가 기록 이후 매도세 과도 논란이 이어지며 하락폭이 점차 커짐"
             },
             {
               "time": "마감",
@@ -289,8 +289,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 13.529999732971191,
               "is_close": true,
               "date": "2026-11-20",
-              "title": "낙폭 더 키우며 마감",
-              "text": "장중 신저가 경신 이후에도 매수세가 붙지 않으며 하락폭이 더 커진 채 거래를 마감함"
+              "title": "낙폭 더욱 확대",
+              "text": "스테이블코인 확장 관련 적정가 논란 속에서도 하락세가 꺾이지 않고 이어짐"
             }
           ],
           "slot_total": 2,
@@ -320,7 +320,8 @@ window.NOTEFOLIO_BRIEFING = {
         }
       ],
       "markdown": "briefings/2026-11-21-us.md",
-      "refreshed_at": "2026-11-21 07:00:58 KST"
+      "refreshed_at": "2026-11-21 07:00:58 KST",
+      "slots_refreshed_at": "2026-11-22 02:22:29 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
