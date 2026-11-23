@@ -1,9 +1,9 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-23 03:27:10 KST",
+  "generated_at": "2026-11-23 09:12:25 KST",
   "refreshed": [],
   "slots_refreshed": [
-    "us"
+    "kr"
   ],
   "default": "us",
   "markets": {
@@ -368,8 +368,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 1183000.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "장 초반 큰 폭 하락",
-              "text": "개장 직후부터 낙폭이 크게 벌어지며 약세로 출발한 모습이 뚜렷하게 나타남"
+              "title": "프리마켓發 급락 출발",
+              "text": "AI 수익성 회의론에 따른 프리마켓 급락 여파로 장 초반부터 큰 폭으로 밀리며 출발함"
             },
             {
               "time": "10:30AM",
@@ -378,8 +378,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 1183000.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "낙폭 하루 중 최대",
-              "text": "오전 중반 들어 하락폭이 더 커지며 이날 가장 깊은 저점 부근까지 밀려 내려감"
+              "title": "낙폭 더 커짐",
+              "text": "손정의발 인수설과 저가매수 소식에도 매수세가 힘을 못 쓰며 오전 중 낙폭이 더 벌어짐"
             },
             {
               "time": "1:00PM",
@@ -388,8 +388,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 1183000.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "손정의 인수설에 낙폭 축소",
-              "text": "손정의 회장의 인수 검토설이 전해진 뒤 저점 대비 낙폭을 일부 만회하는 흐름"
+              "title": "오후 들어 낙폭 축소",
+              "text": "오전 저점 대비 반등하며 낙폭을 상당폭 줄였으나 전일 대비로는 여전히 큰 폭 하락 상태"
             },
             {
               "time": "마감",
@@ -398,8 +398,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 1183000.0,
               "is_close": true,
               "date": "2026-11-20",
-              "title": "반등 반납하며 마감",
-              "text": "오후 들어 반등세를 지키지 못하고 다시 밀리며 낙폭을 키운 채 하루를 마무리"
+              "title": "하락 흐름 이어가는 중",
+              "text": "오후 들어 반등했던 흐름이 다시 꺾이며 저점 부근으로 되밀려 하락폭을 재차 키움"
             }
           ],
           "slot_total": 4,
@@ -445,8 +445,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 196900.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "장 초반 약세 출발",
-              "text": "개장 초부터 매도세가 이어지며 전 거래일 대비 낙폭을 키우는 모습으로 시작됨"
+              "title": "급락 출발",
+              "text": "코스피 전반이 약세로 출발한 가운데 AI 반도체 수익성 우려가 겹치며 동반 급락으로 장을 시작함"
             },
             {
               "time": "10:30AM",
@@ -455,8 +455,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 196900.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "낙폭 점차 확대",
-              "text": "오전 중반 들어서도 하락폭이 꾸준히 커지며 저항 없이 밀리는 흐름이 이어짐"
+              "title": "낙폭 확대 지속",
+              "text": "장 초반 하락세가 진정되지 못하고 오전 내내 꾸준히 매도세가 유입되며 낙폭이 더 커짐"
             },
             {
               "time": "1:00PM",
@@ -465,8 +465,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 196900.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "외국인 이탈 속 낙폭 심화",
-              "text": "외국인 매도 소식이 전해진 가운데 낙폭이 더욱 깊어지며 하락세가 멈추지 않음"
+              "title": "하루 최저가권 근접",
+              "text": "오후 들어서도 반등 없이 하락세가 이어지며 낙폭이 오전보다 한층 더 깊어지는 모습"
             },
             {
               "time": "마감",
@@ -475,8 +475,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 196900.0,
               "is_close": true,
               "date": "2026-11-20",
-              "title": "하루 중 최대 낙폭 마감",
-              "text": "오후 들어서도 반등 기미 없이 밀리며 이날 가장 큰 낙폭을 기록한 채 마감"
+              "title": "낙폭 최대로 마감",
+              "text": "장 막판까지 매수세가 붙지 못하며 하루 중 가장 큰 낙폭을 기록한 채 하루를 마감함"
             }
           ],
           "slot_total": 4,
@@ -522,8 +522,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 631000.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "장 초반 소폭 약세",
-              "text": "개장 직후 완만한 하락으로 출발하며 방산 관련 소식 속에 보합권 움직임 보임"
+              "title": "약세 출발",
+              "text": "특별한 악재 없이 장 초반부터 소폭 약세로 출발하며 하락세로 하루를 시작함"
             },
             {
               "time": "10:30AM",
@@ -533,7 +533,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-11-20",
               "title": "낙폭 소폭 확대",
-              "text": "오전 중반 들어 하락폭이 다소 커지며 약세 흐름이 이어지는 모습 나타남"
+              "text": "오전 하락세가 이어지며 낙폭이 조금 더 벌어졌으나 큰 변화 없이 비슷한 수준을 유지함"
             },
             {
               "time": "1:00PM",
@@ -543,7 +543,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-11-20",
               "title": "오후 들어 낙폭 축소",
-              "text": "점심 무렵 들어 낙폭을 상당폭 줄이며 저점 대비 반등하는 흐름 보여줌"
+              "text": "천무 해상 발사 성공 소식이 전해지며 매수세가 유입돼 낙폭을 상당폭 만회하는 모습"
             },
             {
               "time": "마감",
@@ -552,8 +552,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 631000.0,
               "is_close": true,
               "date": "2026-11-20",
-              "title": "반등 반납 후 낙폭 확대 마감",
-              "text": "오후 늦게 반등분을 다시 내주며 하루 중 가장 큰 낙폭으로 거래 마무리"
+              "title": "반등분 반납 마감",
+              "text": "오후 한때 회복했던 상승분을 지키지 못하고 다시 밀리며 하루 중 가장 큰 낙폭으로 마감함"
             }
           ],
           "slot_total": 4,
@@ -599,8 +599,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 135900.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "장 초반 완만한 하락",
-              "text": "개장 직후 소폭 하락으로 출발하며 협력사 관련 소식이 이어지던 가운데 움직임"
+              "title": "소폭 약세 출발",
+              "text": "AI 혁신 및 특허소송 관련 소식이 나온 가운데 장 초반부터 완만한 약세로 출발함"
             },
             {
               "time": "10:30AM",
@@ -610,7 +610,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-11-20",
               "title": "낙폭 점차 확대",
-              "text": "오전 중반 들어 하락폭이 더 커지며 약세 흐름이 꾸준히 이어지는 모습 보임"
+              "text": "오전 중 하락세가 꾸준히 이어지며 낙폭이 장 초반보다 뚜렷하게 커지는 흐름을 보임"
             },
             {
               "time": "1:00PM",
@@ -620,7 +620,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-11-20",
               "title": "낙폭 추가 확대",
-              "text": "점심 무렵까지도 반등 없이 밀리며 낙폭이 하루 중 계속 커지는 추세 지속됨"
+              "text": "오후 들어서도 반등 신호 없이 매도 우위가 지속되며 낙폭이 하루 중 가장 큰 수준으로 벌어짐"
             },
             {
               "time": "마감",
@@ -629,8 +629,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 135900.0,
               "is_close": true,
               "date": "2026-11-20",
-              "title": "하루 중 최대 낙폭 마감",
-              "text": "오후까지 하락세가 멈추지 않으며 이날 가장 깊은 낙폭으로 장을 마무리"
+              "title": "약세 흐름 유지 중",
+              "text": "장 막판까지 하락세를 벗어나지 못하며 오후 흐름과 비슷한 낙폭을 그대로 이어가는 중"
             }
           ],
           "slot_total": 4,
@@ -676,8 +676,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 267500.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "장 초반 약세 출발",
-              "text": "개장 직후 하락세로 시작하며 완만한 낙폭을 보이는 가운데 하루가 시작됨"
+              "title": "약세 출발",
+              "text": "모터스포츠 관련 호재성 소식에도 불구하고 전반적 증시 약세 속 하락 출발함"
             },
             {
               "time": "10:30AM",
@@ -686,8 +686,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 267500.0,
               "is_close": false,
               "date": "2026-11-20",
-              "title": "오전 중 낙폭 소폭 축소",
-              "text": "오전 중반 들어 낙폭이 다소 줄어들며 전 저점 대비 소폭 회복하는 흐름 보임"
+              "title": "낙폭 소폭 축소",
+              "text": "오전 중 저점 대비 소폭 반등하며 장 초반보다는 낙폭이 조금 줄어드는 모습을 보임"
             },
             {
               "time": "1:00PM",
@@ -697,7 +697,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-11-20",
               "title": "낙폭 다시 확대",
-              "text": "신차 공개 소식에도 매수세가 붙지 않으며 낙폭이 다시 벌어지는 모습 나타남"
+              "text": "오전의 반등세가 오후 들어 꺾이며 낙폭이 다시 커져 장중 저점 부근으로 되돌아감"
             },
             {
               "time": "마감",
@@ -706,8 +706,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 267500.0,
               "is_close": true,
               "date": "2026-11-20",
-              "title": "하루 중 최대 낙폭 마감",
-              "text": "오후 들어서도 하락세가 이어지며 이날 가장 큰 낙폭을 기록한 채 거래 마무리"
+              "title": "하루 최대 낙폭 마감",
+              "text": "오후 하락세가 장 막판까지 이어지며 하루 중 가장 큰 낙폭을 기록한 채 마감함"
             }
           ],
           "slot_total": 4,
@@ -738,7 +738,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-11-20-kr.md",
       "refreshed_at": "2026-11-20 18:00:54 KST",
-      "slots_refreshed_at": "2026-11-22 11:59:56 KST"
+      "slots_refreshed_at": "2026-11-23 09:12:25 KST"
     }
   }
 };
