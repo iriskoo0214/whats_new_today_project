@@ -1,10 +1,10 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-24 07:01:10 KST",
-  "refreshed": [
-    "us"
+  "generated_at": "2026-11-24 09:20:45 KST",
+  "refreshed": [],
+  "slots_refreshed": [
+    "kr"
   ],
-  "slots_refreshed": [],
   "default": "us",
   "markets": {
     "us": {
@@ -340,13 +340,13 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "9:15AM",
-              "price": 1082500.0,
-              "pct": -2.74,
+              "price": 1081000.0,
+              "pct": -2.88,
               "prev_close": 1113000.0,
               "is_close": false,
               "date": "2026-11-23",
               "title": "장 초반 약세 출발",
-              "text": "개장과 함께 매도세가 유입되며 하락 출발, 전 거래일 강세 흐름이 꺾이는 모습"
+              "text": "젠슨 황 복귀 기대감 속 상승 전망 기사가 나왔으나 개장 직후엔 약세로 출발함"
             },
             {
               "time": "10:30AM",
@@ -355,8 +355,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 1113000.0,
               "is_close": false,
               "date": "2026-11-23",
-              "title": "낙폭 다소 확대",
-              "text": "오전 하락폭이 더 커지며 장중 약세가 이어지는 가운데 뚜렷한 반등 시도는 나타나지 않음"
+              "title": "낙폭 확대",
+              "text": "장 초반 약세가 오전 중반까지 이어지며 하락폭이 더 커지는 흐름을 보임"
             },
             {
               "time": "1:00PM",
@@ -366,7 +366,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-11-23",
               "title": "오후 들어 낙폭 최대",
-              "text": "점심 이후 매도 압력이 거세지며 하루 중 가장 큰 낙폭을 기록, 저점권에서 등락"
+              "text": "오전 내내 이어진 약세가 오후 들어서도 지속되며 하루 중 가장 큰 낙폭을 기록함"
             },
             {
               "time": "마감",
@@ -375,8 +375,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 1113000.0,
               "is_close": true,
               "date": "2026-11-23",
-              "title": "낙폭 절반 가까이 만회",
-              "text": "장 후반 들어 저가 매수세가 유입되며 낙폭을 크게 줄이고 하루를 마무리하는 흐름"
+              "title": "낙폭 축소하며 마감",
+              "text": "장중 내내 약세를 보이다 마감 직전 반등하며 하락폭을 상당 부분 줄이는 데 성공함"
             }
           ],
           "slot_total": 4,
@@ -416,44 +416,14 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-23",
           "slots": [
             {
-              "time": "9:15AM",
-              "price": 176600.0,
-              "pct": -3.55,
-              "prev_close": 183100.0,
+              "time": "9:00AM",
+              "price": 193600.0,
+              "pct": 9.07,
+              "prev_close": 177500.0,
               "is_close": false,
-              "date": "2026-11-23",
-              "title": "장 초반 약세 출발",
-              "text": "개장 직후 매도세에 밀려 하락 출발하며 전일 대비 약세 흐름을 이어가는 모습"
-            },
-            {
-              "time": "10:30AM",
-              "price": 176500.0,
-              "pct": -3.6,
-              "prev_close": 183100.0,
-              "is_close": false,
-              "date": "2026-11-23",
-              "title": "낙폭 소폭 확대",
-              "text": "오전 내내 하락폭이 서서히 커지며 뚜렷한 반등 없이 약세권에 머무르는 흐름"
-            },
-            {
-              "time": "1:00PM",
-              "price": 176300.0,
-              "pct": -3.71,
-              "prev_close": 183100.0,
-              "is_close": false,
-              "date": "2026-11-23",
-              "title": "오후 들어 낙폭 최대",
-              "text": "점심 이후 하락폭이 하루 중 가장 크게 벌어지며 저점권에서 횡보하는 모습"
-            },
-            {
-              "time": "마감",
-              "price": 177500.0,
-              "pct": -3.06,
-              "prev_close": 183100.0,
-              "is_close": true,
-              "date": "2026-11-23",
-              "title": "낙폭 일부 회복",
-              "text": "장 막판 매수세가 유입되며 낙폭을 다소 줄이고 저점보다 높은 수준에서 흐름을 이어감"
+              "date": "2026-11-24",
+              "title": "장 초반 급등 출발",
+              "text": "HBM 주역 대거 승진 등 임원인사 소식이 전해진 가운데 개장과 동시에 큰 폭으로 뛰어오름"
             }
           ],
           "slot_total": 4,
@@ -493,44 +463,14 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-23",
           "slots": [
             {
-              "time": "9:15AM",
-              "price": 585000.0,
-              "pct": -3.31,
-              "prev_close": 605000.0,
+              "time": "9:00AM",
+              "price": 611000.0,
+              "pct": 6.26,
+              "prev_close": 575000.0,
               "is_close": false,
-              "date": "2026-11-23",
-              "title": "장 초반 약세 출발",
-              "text": "개장과 함께 매도세가 유입되며 하락 출발, 약세 흐름으로 하루를 시작함"
-            },
-            {
-              "time": "10:30AM",
-              "price": 583000.0,
-              "pct": -3.64,
-              "prev_close": 605000.0,
-              "is_close": false,
-              "date": "2026-11-23",
-              "title": "낙폭 점차 확대",
-              "text": "오전 중 하락폭이 서서히 커지며 반등 시도 없이 약세가 이어지는 흐름"
-            },
-            {
-              "time": "1:00PM",
-              "price": 575500.0,
-              "pct": -4.88,
-              "prev_close": 605000.0,
-              "is_close": false,
-              "date": "2026-11-23",
-              "title": "낙폭 하루 중 최대",
-              "text": "점심 이후 매도세가 강해지며 낙폭이 크게 벌어져 저점권에서 거래됨"
-            },
-            {
-              "time": "마감",
-              "price": 575000.0,
-              "pct": -4.96,
-              "prev_close": 605000.0,
-              "is_close": true,
-              "date": "2026-11-23",
-              "title": "약세 흐름 지속",
-              "text": "장 후반까지 낙폭을 회복하지 못하며 하루 중 가장 낮은 수준에서 흐름을 마무리하는 중"
+              "date": "2026-11-24",
+              "title": "장 초반 강세 출발",
+              "text": "K-방산 협력기업 대상 대규모 금융 지원 소식 속에 개장 직후부터 강한 오름세로 출발함"
             }
           ],
           "slot_total": 4,
@@ -570,44 +510,14 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-23",
           "slots": [
             {
-              "time": "9:15AM",
-              "price": 124600.0,
-              "pct": -4.59,
-              "prev_close": 130600.0,
+              "time": "9:00AM",
+              "price": 132400.0,
+              "pct": 7.12,
+              "prev_close": 123600.0,
               "is_close": false,
-              "date": "2026-11-23",
-              "title": "장 초반 약세 출발",
-              "text": "개장 직후부터 매도세가 강하게 유입되며 큰 폭의 하락으로 출발하는 모습"
-            },
-            {
-              "time": "10:30AM",
-              "price": 123500.0,
-              "pct": -5.44,
-              "prev_close": 130600.0,
-              "is_close": false,
-              "date": "2026-11-23",
-              "title": "낙폭 급격히 확대",
-              "text": "오전 중 하락폭이 크게 벌어지며 장중 내내 약세가 이어지는 흐름을 보임"
-            },
-            {
-              "time": "1:00PM",
-              "price": 123500.0,
-              "pct": -5.44,
-              "prev_close": 130600.0,
-              "is_close": false,
-              "date": "2026-11-23",
-              "title": "저점권 횡보 지속",
-              "text": "점심 무렵까지 낙폭이 줄지 않고 하루 중 가장 낮은 수준 부근에서 머무름"
-            },
-            {
-              "time": "마감",
-              "price": 123600.0,
-              "pct": -5.36,
-              "prev_close": 130600.0,
-              "is_close": true,
-              "date": "2026-11-23",
-              "title": "낙폭 거의 그대로 유지",
-              "text": "장 후반에도 반등다운 반등 없이 오전의 큰 낙폭을 그대로 이어가는 중"
+              "date": "2026-11-24",
+              "title": "장 초반 강세 출발",
+              "text": "AI 데이터센터 냉각 시장 진출 소식과 조직 재편 기사가 겹치며 장 초반 강하게 상승함"
             }
           ],
           "slot_total": 4,
@@ -647,44 +557,14 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-23",
           "slots": [
             {
-              "time": "9:15AM",
-              "price": 245000.0,
-              "pct": -3.92,
-              "prev_close": 255000.0,
+              "time": "9:00AM",
+              "price": 253500.0,
+              "pct": 2.42,
+              "prev_close": 247500.0,
               "is_close": false,
-              "date": "2026-11-23",
-              "title": "장 초반 약세 출발",
-              "text": "개장과 함께 매도세에 밀려 하락 출발하며 약세 흐름으로 하루를 시작함"
-            },
-            {
-              "time": "10:30AM",
-              "price": 247500.0,
-              "pct": -2.94,
-              "prev_close": 255000.0,
-              "is_close": false,
-              "date": "2026-11-23",
-              "title": "낙폭 크게 줄여",
-              "text": "오전 중 저가 매수세가 유입되며 낙폭을 상당폭 축소, 분위기가 반전되는 모습"
-            },
-            {
-              "time": "1:00PM",
-              "price": 244750.0,
-              "pct": -4.02,
-              "prev_close": 255000.0,
-              "is_close": false,
-              "date": "2026-11-23",
-              "title": "다시 낙폭 확대",
-              "text": "점심 이후 매도세가 재차 유입되며 오전에 줄였던 낙폭이 다시 커지는 흐름"
-            },
-            {
-              "time": "마감",
-              "price": 247500.0,
-              "pct": -2.94,
-              "prev_close": 255000.0,
-              "is_close": true,
-              "date": "2026-11-23",
-              "title": "낙폭 재차 축소 마감",
-              "text": "장 후반 들어 매수세가 다시 유입되며 낙폭을 줄이고 오전 수준을 회복하며 마감"
+              "date": "2026-11-24",
+              "title": "장 초반 상승 출발",
+              "text": "안전관리 최우수연구실 선정 등 소식이 전해진 가운데 개장 직후 완만한 오름세로 출발함"
             }
           ],
           "slot_total": 4,
@@ -714,7 +594,8 @@ window.NOTEFOLIO_BRIEFING = {
         }
       ],
       "markdown": "briefings/2026-11-23-kr.md",
-      "refreshed_at": "2026-11-23 18:01:13 KST"
+      "refreshed_at": "2026-11-23 18:01:13 KST",
+      "slots_refreshed_at": "2026-11-24 09:20:45 KST"
     }
   }
 };
