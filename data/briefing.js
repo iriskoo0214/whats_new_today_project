@@ -1,15 +1,15 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-25 02:31:11 KST",
-  "refreshed": [],
-  "slots_refreshed": [
+  "generated_at": "2026-11-25 07:01:02 KST",
+  "refreshed": [
     "us"
   ],
-  "default": "kr",
+  "slots_refreshed": [],
+  "default": "us",
   "markets": {
     "us": {
       "icon": "assets/sun-horizon.svg",
-      "label": "미국 증시 요약 2026. 11. 24. 7:01AM",
+      "label": "미국 증시 요약 2026. 11. 25. 7:01AM",
       "chips": [
         "전체",
         "IBM",
@@ -22,27 +22,27 @@ window.NOTEFOLIO_BRIEFING = {
         "오후 6시, 국내 시장을 움직인 이유를 확인하세요."
       ],
       "next": "kr",
-      "headline": "해외 5종목 중 5종목 상승 — 엔비디아가 +31.48%로 가장 많이 올랐고 마이크로소프트가 +1.65%로 상승폭이 가장 작았습니다.",
-      "market_headline": "젠슨 황 복귀 소식에 엔비디아 31.5% 폭등·나스닥 6.51% 급등",
+      "headline": "해외 5종목 중 2종목 상승, 3종목 하락 — IBM이 +1.12%로 가장 많이 올랐고 엔비디아가 -5.86%로 가장 부진했습니다.",
+      "market_headline": "엔비디아 급락 하루 만에 AI 랠리 꺾이며 나스닥 1.5% 하락",
       "market_card": {
-        "title": "3대 지수 동반 상승 마감...나스닥 6%대 급등",
+        "title": "뉴욕증시 혼조 마감...나스닥 1.5%↓, 다우는 반도체 매도세 속 하락",
         "bullets": [
-          "엔비디아 31.5%·퀄컴 10%대 급등 랠리",
-          "WTI 3.9% 하락 80달러 밑돌아",
-          "연준 12월 금리인상론 96%로 굳어져"
+          "엔비디아 5.9% 급락에 반도체주 동반 약세",
+          "AI 랠리 소멸에 달러 하락, 국채금리 혼조세",
+          "젠슨 황 랠리 하루 만에 꺾여 기술주 투매 확산"
         ]
       },
       "cards": [
         {
           "stock": "IBM",
           "ticker": "IBM",
-          "title": "IBM - 재료 없이 반등 마감",
-          "body": "IBM은 특별한 재료 없이 +3.81% 오른 <b>233.00달러</b>로 마감했다.",
-          "pct": 3.81,
-          "price": 233.0,
-          "prev_close": 224.44000244140625,
+          "title": "IBM - 엔비디아·페르미와 양자 공동연구",
+          "body": "IBM은 엔비디아·페르미와 양자 오류 정정 및 슈퍼컴퓨팅 통합 공동 연구 소식 속에 +1.12% 오른 <b>235.62달러</b> 마감. 일각에서는 주주들이 하락 전 간과한 요인이나 공매도 세력의 시각을 짚는 분석도 나오고 있다.",
+          "pct": 1.12,
+          "price": 235.6199951171875,
+          "prev_close": 233.0,
           "currency": "USD",
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "slots": [
             {
               "time": "11:30PM",
@@ -51,23 +51,55 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 233.0,
               "is_close": false,
               "date": "2026-11-24",
-              "title": "소폭 약세 흐름",
-              "text": "엔비디아·페르미와 양자 컴퓨팅 공동 연구 소식에도 주가는 약보합권에서 하루를 보내는 중"
+              "title": "장중 약세 흐름",
+              "text": "공매도 세력의 시각이 거론되는 가운데 장중에는 전일 대비 소폭 하락세를 보임"
+            },
+            {
+              "time": "마감",
+              "price": 235.6199951171875,
+              "pct": 1.12,
+              "prev_close": 233.0,
+              "is_close": true,
+              "date": "2026-11-24",
+              "title": "막판 반등 성공",
+              "text": "엔비디아·페르미와의 양자컴퓨팅 공동연구 소식이 전해진 뒤 낙폭을 지우고 상승 전환하며 마감"
             }
           ],
           "slot_total": 2,
-          "news": []
+          "news": [
+            {
+              "title": "IBM 주주들이 하락 전에 간과했던 것",
+              "original": "What IBM Holders Got Wrong Before The Slide",
+              "source": "Simply Wall St.",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/ibm-holders-got-wrong-slide-211053547.html",
+              "published": "2026-11-25T06:10:53+09:00"
+            },
+            {
+              "title": "공매도 세력이라면 IBM 주식에 대해 뭐라고 말할까?",
+              "original": "What Would A Short Seller Say About IBM Stock?",
+              "source": "Trefis",
+              "url": "https://www.trefis.com/stock/ibm/articles/628477/what-would-a-short-seller-say-about-ibm-stock/2026-11-24",
+              "published": "2026-11-25T03:18:22+09:00"
+            },
+            {
+              "title": "엔비디아·IBM·페르미, 양자 오류 정정부터 슈퍼컴퓨팅 통합까지 공동 연구",
+              "original": "엔비디아·IBM·페르미, 양자 오류 정정부터 슈퍼컴퓨팅 통합까지 공동 연구",
+              "source": "elec4",
+              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9xUHowNEFuMVhFcmpXdy1iQzdoczQ0SGt5S1I3bWVtYnE0VWxORTNfWWMtVWdLVjhUeVQxd0hUbDlLWV9FQURKNllOemxOMVJKZlBiQXNTVEFBbXNjeXV3eldmTExaMXFMWjZfNmtR?oc=5",
+              "published": "2026-11-25T02:14:08+09:00"
+            }
+          ]
         },
         {
           "stock": "마이크로소프트",
           "ticker": "MSFT",
-          "title": "마이크로소프트 - 500달러 향해 반등",
-          "body": "마이크로소프트는 바이트댄스의 애저 계약설로 다소 난처한 입장에 놓인 가운데도 +1.65% 오른 <b>492.50달러</b>에 마감했다. 억만장자 안드레아스 할보르센이 보유 지분을 전량 매도하고 TSMC로 갈아탔다는 소식에도 주가는 500달러를 향해 반등했지만 추가 조정 위험은 여전하다는 분석이 나온다.",
-          "pct": 1.65,
-          "price": 492.5,
-          "prev_close": 484.5199890136719,
+          "title": "마이크로소프트 - 코드레드 선포, 윈도11 개선 집중",
+          "body": "마이크로소프트는 장애 발생 시 1시간 내 전 세계 복구를 완료하겠다는 '코드레드' 방침을 선포한 가운데 +0.74% 오른 <b>496.13달러</b> 마감. 윈도12 출시보다 윈도11 개선을 우선해 AI로 PC 경험을 근본적으로 바꾸겠다는 전략도 함께 제시됐다.",
+          "pct": 0.74,
+          "price": 496.1300048828125,
+          "prev_close": 492.5,
           "currency": "USD",
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "slots": [
             {
               "time": "11:30PM",
@@ -76,45 +108,55 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 492.5,
               "is_close": false,
               "date": "2026-11-24",
-              "title": "약보합 유지 중",
-              "text": "서비스 장애 이슈와 AI 지출 우려가 겹치며 엔비디아에 시총 1위 자리를 내준 가운데 약세 지속"
+              "title": "장중 소폭 조정",
+              "text": "AI 투자처로 안전하다는 평가가 나온 가운데서도 장중에는 약보합권에서 거래됨"
+            },
+            {
+              "time": "마감",
+              "price": 496.1300048828125,
+              "pct": 0.74,
+              "prev_close": 492.5,
+              "is_close": true,
+              "date": "2026-11-24",
+              "title": "반등하며 마감",
+              "text": "코드레드 선포와 윈도11 개선 계획 소식이 이어지며 장 후반 낙폭을 되돌리고 상승 마감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "중국, 미국 AI 연구소에 '단 12시간' 뒤처져... 바이트댄스의 애저 계약설에 마이크로소프트 난처한 입장",
-              "original": "China Is “Only 12 Hours” Behind US AI Labs. ByteDance’s Reported Azure Deal Puts Microsoft in the Middle",
-              "source": "TIKR",
-              "url": "https://www.tikr.com/blog/china-is-only-12-hours-behind-us-ai-labs-bytedances-reported-azure-deal-puts-microsoft-in-the-middle?ref=yahoofinance&tlnk=yf-261123-434gxg43",
-              "published": "2026-11-24T06:39:03+09:00"
+              "title": "마이크로소프트, 코드레드 선포...\"장애 나면 1시간 내 전세계 복구 완료\"",
+              "original": "마이크로소프트, 코드레드 선포...\"장애 나면 1시간 내 전세계 복구 완료\"",
+              "source": "디지털투데이",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5NZFFYVFh0RmhiMU5OSFJlcWpDSVBzS1c2MXZWMFQ5N3dfazJEZXhmX01NNFoxanBpSUFTWVBMRXM0SFN5WW5aLWw2OEVMV09YbnR0N3NmZGNvUkRpNUJIR0lYWTQ0b2h0MGx1V2R2by1uNjg?oc=5",
+              "published": "2026-11-25T06:51:32+09:00"
             },
             {
-              "title": "억만장자 안드레아스 할보르센, 마이크로소프트 전량 매도하고 TSMC를 18억 달러 규모 최대 보유 종목으로",
-              "original": "Billionaire Andreas Halvorsen Exited Microsoft and Made TSMC His Top Holding at $1.8 Billion",
-              "source": "24/7 Wall St.",
-              "url": "https://247wallst.com/investing/2026/11/23/billionaire-andreas-halvorsen-exited-microsoft-and-made-tsmc-his-top-holding-at-1-8-billion/",
-              "published": "2026-11-24T05:57:26+09:00"
+              "title": "마이크로소프트, 윈도12 출시 보단 윈도11 개선이 먼저...\"AI가 PC 근본적으로 바꿀 것\"",
+              "original": "마이크로소프트, 윈도12 출시 보단 윈도11 개선이 먼저...\"AI가 PC 근본적으로 바꿀 것\"",
+              "source": "디지털투데이",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBBUUxuWGN4QWZzQ1R3eVhjQlhZUkp4S3ZOa3J0WFFhOGtsRWprYVZ6UGNzZlNwdFVydjNqWGlkb1JhZ2g4U05WeVVMcHFoNGtoSE1GRUY0NTRTSjlndml5Rm9JV1lvSkxjTU1iM3V3VVpCMFE?oc=5",
+              "published": "2026-11-25T06:43:08+09:00"
             },
             {
-              "title": "마이크로소프트 주가 500달러 향해 반등…추가 조정 위험은 여전",
-              "original": "마이크로소프트 주가 500달러 향해 반등…추가 조정 위험은 여전",
-              "source": "Traders Union",
-              "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRlI4VEZJaWFNMjZzdGxLcWxGTXVYN2NqVk4zX2xmWUF4MmM1dVRwXy00UGFWaDlnMFh3VEt1RlBIdnBzOFM4X0I5bWZjZlZ4eE5uWWk3ZFFDN1lJWWVDOUprcWEwenotd29VT0U1ajJiUUZXNXdIQjBGUFFJM1R3NkVNM3FETHI5N0Zv?oc=5",
-              "published": "2026-11-24T02:14:52+09:00"
+              "title": "마이크로소프트(MSFT)는 AI에 투자하는 가장 안전한 방법 중 하나",
+              "original": "Microsoft (MSFT) Is One of the Safest Ways to Own AI",
+              "source": "TipRanks",
+              "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-one-safest-ways-210600451.html",
+              "published": "2026-11-25T06:06:00+09:00"
             }
           ]
         },
         {
           "stock": "아이온큐",
           "ticker": "IONQ",
-          "title": "아이온큐 - 퀀텀주 랠리에 동반 급등",
-          "body": "아이온큐는 리게티가 젠슨 황의 엔비디아 복귀 소식에 17% 급등하며 퀀텀주 전반을 견인한 영향으로 +12.64% 오른 <b>23.34달러</b>에 마감했다. 일각에서는 퀀텀이 '우리 시대 가장 과대평가된 기술 중 하나'라며 한 달 새 25% 하락했다는 경고도 나와 투자심리가 엇갈리는 모습이다.",
-          "pct": 12.64,
-          "price": 23.34000015258789,
-          "prev_close": 20.719999313354492,
+          "title": "아이온큐 - 양자주 동반 하락, 전날 급등분 반납",
+          "body": "아이온큐는 디웨이브·리게티 등 양자컴퓨팅주가 전날 급등분을 반납하며 동반 하락한 흐름 속에 -4.03% 내린 <b>22.40달러</b> 마감. 평균 목표가 54달러와 스카이워터 인수, 엔비디아 협업 기대가 거론되는 가운데서도 단기 조정이 나타난 모습이다.",
+          "pct": -4.03,
+          "price": 22.399999618530273,
+          "prev_close": 23.34000015258789,
           "currency": "USD",
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "slots": [
             {
               "time": "11:30PM",
@@ -123,45 +165,55 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 23.34000015258789,
               "is_close": false,
               "date": "2026-11-24",
-              "title": "약세 전환 지속",
-              "text": "목표가 상향과 전력망 수혜 기대 소식에도 매수세가 붙지 못하며 하락폭을 키우는 흐름"
+              "title": "동반 하락 지속",
+              "text": "디웨이브·리게티 등 양자컴퓨팅주 전반이 급등분을 반납하는 흐름 속에 장중 약세가 이어짐"
+            },
+            {
+              "time": "마감",
+              "price": 22.399999618530273,
+              "pct": -4.03,
+              "prev_close": 23.34000015258789,
+              "is_close": true,
+              "date": "2026-11-24",
+              "title": "낙폭 더 커지며 마감",
+              "text": "목표가 상향 소식에도 업종 전반의 조정 분위기를 벗어나지 못하며 하락폭이 장중보다 확대돼 마감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "투자자 경고: 퀀텀은 '우리 시대 가장 과대평가된 기술 중 하나'... 아이온큐 한 달 새 25% 하락",
-              "original": "Investor Warns: Quantum “One of the Most Overhyped Technologies of Our Time.” IonQ Is Down 25% in a Month",
-              "source": "TIKR",
-              "url": "https://www.tikr.com/blog/investor-warns-quantum-one-of-the-most-overhyped-technologies-of-our-time-ionq-is-down-25-in-a-month?ref=yahoofinance&tlnk=yf-261123-vp9vfhjr",
-              "published": "2026-11-24T04:22:58+09:00"
-            },
-            {
-              "title": "아이온큐 주가, 오늘 상승하는 이유",
-              "original": "Why IonQ Stock Is Gaining Today",
-              "source": "Motley Fool",
-              "url": "https://www.fool.com/investing/2026/11/23/why-ionq-stock-is-gaining-today/",
-              "published": "2026-11-24T03:25:02+09:00"
-            },
-            {
-              "title": "리게티, 젠슨 황의 엔비디아 복귀 소식에 17% 급등하며 퀀텀주 견인... 디웨이브 15%, 아이온큐 14% 동반 상승",
-              "original": "Rigetti Surges 17% as Jensen Huang’s Return to NVIDIA Lifts Quantum Stocks; D-Wave Rallies 15%, IonQ Jumps 14%",
+              "title": "디웨이브, 양자컴퓨팅주 월요일 급등분 반납하며 9% 하락...리게티 7%, 아이온큐 5% 하락",
+              "original": "D-Wave Declines 9% as Quantum Stocks Reverse Monday’s Surge; Rigetti Drops 7%, IonQ Falls 5%",
               "source": "24/7 Wall St.",
-              "url": "https://247wallst.com/investing/2026/11/23/rigetti-surges-17-as-jensen-huangs-return-to-nvidia-lifts-quantum-stocks-d-wave-rallies-15-ionq-jumps-14/",
-              "published": "2026-11-24T02:04:04+09:00"
+              "url": "https://247wallst.com/investing/2026/11/24/d-wave-declines-9-as-quantum-stocks-reverse-mondays-surge-rigetti-drops-7-ionq-falls-5/",
+              "published": "2026-11-25T02:52:13+09:00"
+            },
+            {
+              "title": "작스 애널리스트 블로그, 아이온큐·리게티·퀀텀 컴퓨팅 주목",
+              "original": "The Zacks Analyst Blog Highlights IonQ, Rigetti and Quantum Computing",
+              "source": "Zacks",
+              "url": "https://finance.yahoo.com/technology/ai/articles/zacks-analyst-blog-highlights-ionq-142100581.html",
+              "published": "2026-11-24T23:21:00+09:00"
+            },
+            {
+              "title": "아이온큐(IONQ) 주가 전망 2026: 평균 목표가 54달러, 스카이워터 인수와 엔비디아 협업",
+              "original": "아이온큐(IONQ) 주가 전망 2026: 평균 목표가 54달러, 스카이워터 인수와 엔비디아 협업",
+              "source": "Mitrade",
+              "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOM08zbU5qZ0ZVZ0JuTWZzYXFQVUQyLWZtYzFHMmVoT1FRRlg1VGRsVllYLXJpb0o5aDZsOC1wWGpjQmNaVk1JdE55Z1hrLUMyU0cxX012Q2JVdmtqa0JnTzZOQjhadUJ4ZGM2MXRBTkd5eS1zanRzU3dyVUFTYWxCbHNKSQ?oc=5",
+              "published": "2026-11-24T21:40:08+09:00"
             }
           ]
         },
         {
           "stock": "엔비디아",
           "ticker": "NVDA",
-          "title": "엔비디아 - 나스닥 급등 이끈 주역",
-          "body": "엔비디아는 나스닥이 6%대 급등한 가운데 홀로 +31.48% 오른 <b>165.05달러</b>로 마감하며 지수 상승을 이끌었다. 젠슨 황을 'AI의 대부'로 평가하는 목소리와 함께 엔비디아의 안정성이 이제 미국 경제의 구조적 문제라는 한 AI CEO의 발언도 나오며 시장의 관심이 집중된 모습이다.",
-          "pct": 31.48,
-          "price": 165.0500030517578,
-          "prev_close": 125.52999877929688,
+          "title": "엔비디아 - 31% 폭등 뒤 하루 만에 조정",
+          "body": "엔비디아는 트럼프 발언 이후 젠슨 황 복귀와 31% 폭등 랠리를 뒤로하고 -5.86% 내린 <b>155.38달러</b> 마감. 급등 후 남은 의문들이 제기되는 가운데 뉴욕증시가 혼조세로 마감하며 추격 매수 대신 다른 종목을 주목하는 시각도 나왔다.",
+          "pct": -5.86,
+          "price": 155.3800048828125,
+          "prev_close": 165.0500030517578,
           "currency": "USD",
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "slots": [
             {
               "time": "11:30PM",
@@ -170,45 +222,55 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 165.0500030517578,
               "is_close": false,
               "date": "2026-11-24",
-              "title": "낙폭 확대 지속",
-              "text": "AI 약세 우려와 정치적 논란이 겹치며 전날 랠리 반납분이 하루 내내 더 커지는 모습"
+              "title": "급등 뒤 조정",
+              "text": "전일 급등 이후 차익 매물이 나오며 장중 하락세가 뚜렷하게 나타남"
+            },
+            {
+              "time": "마감",
+              "price": 155.3800048828125,
+              "pct": -5.86,
+              "prev_close": 165.0500030517578,
+              "is_close": true,
+              "date": "2026-11-24",
+              "title": "낙폭 확대 마감",
+              "text": "추격 매수보다 다른 종목을 택하라는 의견이 돌며 하락폭이 장중보다 더 커진 채 마감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "엔비디아의 안정성은 이제 미국의 구조적 문제, 이 AI CEO의 발언",
-              "original": "Nvidia's stability is a systemic issue for the US now, this AI CEO says",
-              "source": "Yahoo Finance Video",
-              "url": "https://finance.yahoo.com/video/nvidias-stability-is-a-systemic-issue-for-the-us-now-this-ai-ceo-says-220035003.html",
-              "published": "2026-11-24T07:00:35+09:00"
+              "title": "엔비디아 랠리 추격 매수 대신 이 3개 종목을 사라",
+              "original": "Don’t chase this Nvidia rally — buy these 3 stocks instead",
+              "source": "TheStreet",
+              "url": "https://www.thestreet.com/video/dont-chase-the-nvidia-rally-buy-these-3-stocks-instead",
+              "published": "2026-11-25T06:54:22+09:00"
             },
             {
-              "title": "엔비디아 젠슨 황 - 없어서는 안 될 AI의 대부",
-              "original": "Nvidia's Jensen Huang - the indispensable godfather of AI",
-              "source": "AFP",
-              "url": "https://finance.yahoo.com/technology/ai/articles/nvidias-jensen-huang-indispensable-godfather-145451203.html",
-              "published": "2026-11-24T06:56:58+09:00"
+              "title": "[월드 프리즘] 트럼프 한마디에 젠슨 황 복귀…엔비디아 ‘31% 폭등’ 뒤 남은 6가지 의문",
+              "original": "[월드 프리즘] 트럼프 한마디에 젠슨 황 복귀…엔비디아 ‘31% 폭등’ 뒤 남은 6가지 의문",
+              "source": "뉴시안",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBiN0dCc3RsUkp0dWQzRlRTMWljdVlfa3ZRbGdRQzd6bS1SOExLN3BWN3c3UlVFcGVUVVFOLTEtNTF2R29kR0I3RkNtUWdIajJwZGdwRkx6ZGVvLUxfVmVFTFhBdV92Wl9hUVhZTA?oc=5",
+              "published": "2026-11-25T06:52:19+09:00"
             },
             {
-              "title": "[글로벌증시] 뉴욕증시, 나스닥 6%대 급등…엔비디아 31%↑",
-              "original": "[글로벌증시] 뉴욕증시, 나스닥 6%대 급등…엔비디아 31%↑",
+              "title": "[글로벌증시] 엔비디아 하루 만에 하락세…뉴욕증시 혼조마감",
+              "original": "[글로벌증시] 엔비디아 하루 만에 하락세…뉴욕증시 혼조마감",
               "source": "연합뉴스TV",
-              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBwTVhzOTlOWTlwaVZRV3pVeHVrc3g2VERkVjltN21LRmljZF9RSlkwOHRCS0pBU0VtWmZXV3lDM0NNSWwzcnJHZnJPcklTTExrMjBSYURIY2ZmWENwbzFzYVkxR2lqOWc?oc=5",
-              "published": "2026-11-24T06:52:00+09:00"
+              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ES1BkODJfcm9iZ2dVTUtXR0Vqck0zOEdJOWhTdUl4b2ZtMDVjVHpZVlFaSmU1RjFHZ1ZwTVZWenM0NUF0a2w4cTk5LTBFakcxMG1lSmVIQTFDbFlwaUUyQ2xqM2hEZlk?oc=5",
+              "published": "2026-11-25T06:52:00+09:00"
             }
           ]
         },
         {
           "stock": "소파이테크놀로지",
           "ticker": "SOFI",
-          "title": "소파이테크놀로지 - 회원 증가에 반등",
-          "body": "소파이테크놀로지는 회원 수 증가로 매출 성장 가속화 기대가 커지며 +4.89% 오른 <b>13.09달러</b>에 마감했다. 최근 30일간 12% 하락했던 주가에 대해 한 월가 애널리스트가 140% 수익률을 전망하는 등 낙관적 시각도 뒤따르는 모습이다.",
-          "pct": 4.89,
-          "price": 13.09000015258789,
-          "prev_close": 12.479999542236328,
+          "title": "소파이테크놀로지 - 임원 자사주 매도 소식",
+          "body": "소파이테크놀로지는 켈리 키오 수석부사장이 자사주 13만4911달러를 매도했다는 소식 속에 -1.76% 내린 <b>12.86달러</b> 마감. 모네스 크레스피 앤 하트의 투자의견 배경도 함께 거론되며 투자심리에 영향을 준 모습이다.",
+          "pct": -1.76,
+          "price": 12.859999656677246,
+          "prev_close": 13.09000015258789,
           "currency": "USD",
-          "as_of": "2026-11-23",
+          "as_of": "2026-11-24",
           "slots": [
             {
               "time": "11:30PM",
@@ -217,39 +279,41 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 13.09000015258789,
               "is_close": false,
               "date": "2026-11-24",
-              "title": "약세 흐름 지속",
-              "text": "특별한 재료 없이 장중 내내 약보합권에 머물며 뚜렷한 반등 시도 없이 하락세 유지"
+              "title": "장중 약세 유지",
+              "text": "투자의견을 둘러싼 논의가 이어지는 가운데 장중 내내 전일 대비 약세 흐름을 보임"
+            },
+            {
+              "time": "마감",
+              "price": 12.859999656677246,
+              "pct": -1.76,
+              "prev_close": 13.09000015258789,
+              "is_close": true,
+              "date": "2026-11-24",
+              "title": "낙폭 소폭 확대",
+              "text": "수석부사장의 자사주 매도 소식이 전해진 뒤 하락폭이 장중보다 더 커지며 마감"
             }
           ],
           "slot_total": 2,
           "news": [
             {
-              "title": "SoFi Technologies 주가 전망: 엇갈린 모멘텀, 저항선 아래에서의 횡보 가능성 시사",
-              "original": "SoFi Technologies 주가 전망: 엇갈린 모멘텀, 저항선 아래에서의 횡보 가능성 시사",
-              "source": "Traders Union",
-              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVW9CQWZLVzhVOWVhLW9CTUtPMzFxU3JCYmxXTVdTS2o4cUt3T0RaZFhHZGIxdXRWN2ljVmVRQXhiYUVkWGdKZG9tbWxJZHNEdlo2RHZZNnFGVUwwRzlwTXBRaVhsSmNmSUZNNlF1SkdsTjNRdHd6YzVLZUpCdWM1cWd6WlhBLUxQNzhIVXE1VTUycFhNS2F2anVBWQ?oc=5",
-              "published": "2026-11-24T03:21:53+09:00"
+              "title": "모네스 크레스피 앤 하트의 소파이(SOFI) 투자의견 배경",
+              "original": "The Argument Behind Monness Crespi & Hardt’s Call on SoFi (SOFI)",
+              "source": "Insider Monkey",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/argument-behind-monness-crespi-hardt-191300732.html",
+              "published": "2026-11-25T04:13:00+09:00"
             },
             {
-              "title": "소파이 테크놀로지스, 회원 수 증가... 매출 성장 가속화할까",
-              "original": "SoFi Technologies' Member Base Rises: Can Revenues Accelerate?",
-              "source": "Zacks",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/sofi-technologies-member-rises-revenues-172100425.html",
-              "published": "2026-11-24T02:21:00+09:00"
-            },
-            {
-              "title": "소파이, 30일간 12% 하락... 이 월가 애널리스트는 140% 수익률 전망, 다른 이들도 뒤따라",
-              "original": "SoFi Drops 12% Over 30 Days: 140% Returns Coming According to This Wall Street Analysts, Others Not Far Behind",
-              "source": "24/7 Wall St.",
-              "url": "https://247wallst.com/investing/2026/11/23/sofi-drops-12-over-30-days-140-returns-coming-according-to-this-wall-street-analysts-others-not-far-behind/",
-              "published": "2026-11-24T00:45:51+09:00"
+              "title": "SoFi Technologies Inc. 켈리 키오 수석부사장, 자사주 13만4911달러 매도",
+              "original": "SoFi Technologies Inc. 켈리 키오 수석부사장, 자사주 13만4911달러 매도",
+              "source": "Investing.com 한국어",
+              "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1fUnEyX19tLXBxV3BHZVNOQjZfVGplUWNtLURvQnhIYjhZRkExMXVtN25VUElCMm1CaWZCWjZtNVNjTG5Tano4RlRSOEwzTF8tdHVVTWJwdjZfaGhnVlo3Yzc0cXJ6alZSRWk5LWsyQ3IzMDlPRFVVTFZzbw?oc=5",
+              "published": "2026-11-24T10:32:00+09:00"
             }
           ]
         }
       ],
-      "markdown": "briefings/2026-11-24-us.md",
-      "refreshed_at": "2026-11-24 07:01:10 KST",
-      "slots_refreshed_at": "2026-11-25 02:31:11 KST"
+      "markdown": "briefings/2026-11-25-us.md",
+      "refreshed_at": "2026-11-25 07:01:02 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
