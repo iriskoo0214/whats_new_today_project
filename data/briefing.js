@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-24 13:10:52 KST",
+  "generated_at": "2026-11-24 14:55:49 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -346,7 +346,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-11-24",
               "title": "장 초반 급등 출발",
-              "text": "개장 직후부터 큰 폭으로 뛰며 강한 상승세로 하루를 시작함"
+              "text": "개장과 동시에 강한 매수세가 유입되며 큰 폭의 상승세로 거래를 시작함"
             },
             {
               "time": "10:30AM",
@@ -355,18 +355,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 1085000.0,
               "is_close": false,
               "date": "2026-11-24",
-              "title": "상승폭 더 확대",
-              "text": "오전 중 상승폭을 키우며 이날 고점권에 바짝 다가서는 흐름을 보임"
+              "title": "오전 중 상승폭 확대",
+              "text": "장 초반 상승세가 오전 중반까지 꾸준히 이어지며 이날 고점권까지 올라섬"
             },
             {
-              "time": "12:50PM",
-              "price": 1176000.0,
-              "pct": 8.39,
+              "time": "1:00PM",
+              "price": 1184000.0,
+              "pct": 9.12,
               "prev_close": 1085000.0,
               "is_close": false,
               "date": "2026-11-24",
               "title": "상승폭 다소 축소",
-              "text": "오전 고점 대비 상승폭이 줄었으나 소부장 상생 투자 소식 속 강세는 유지 중"
+              "text": "오전 고점 대비 상승폭이 줄어들며 숨고르기에 들어갔으나 두 자릿수 상승률은 유지 중"
             }
           ],
           "slot_total": 4,
@@ -413,7 +413,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-11-24",
               "title": "장 초반 강세 출발",
-              "text": "개장 직후부터 큰 폭의 오름세를 보이며 상승 흐름으로 하루를 시작함"
+              "text": "개장 직후부터 매수세가 몰리며 큰 폭의 상승세로 거래를 시작함"
             },
             {
               "time": "10:30AM",
@@ -422,18 +422,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 177500.0,
               "is_close": false,
               "date": "2026-11-24",
-              "title": "오름세 꾸준히 이어가",
-              "text": "오전 내내 상승폭을 조금씩 키우며 꾸준한 강세 흐름을 이어감"
+              "title": "상승폭 꾸준히 확대",
+              "text": "오전 내내 상승 흐름이 이어지며 장 초반보다 상승폭이 더 커짐"
             },
             {
-              "time": "12:50PM",
-              "price": 192000.0,
-              "pct": 8.17,
+              "time": "1:00PM",
+              "price": 192700.0,
+              "pct": 8.56,
               "prev_close": 177500.0,
               "is_close": false,
               "date": "2026-11-24",
-              "title": "상승폭 재차 확대",
-              "text": "반도체지수 급등과 매수 유지 의견 속 상승폭을 다시 키우며 이날 최고치권 유지 중"
+              "title": "오후까지 상승 지속",
+              "text": "반도체 임원 승진 소식 속 오후 들어서도 상승세가 꺾이지 않고 이날 중 가장 높은 수준을 이어가는 중"
             }
           ],
           "slot_total": 4,
@@ -479,8 +479,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 575000.0,
               "is_close": false,
               "date": "2026-11-24",
-              "title": "장 초반 상승 출발",
-              "text": "개장 직후부터 큰 폭의 오름세로 거래를 시작하며 강세 흐름을 보임"
+              "title": "장 초반 강세 출발",
+              "text": "개장과 함께 매수세가 유입되며 큰 폭의 상승세로 거래를 시작함"
             },
             {
               "time": "10:30AM",
@@ -489,18 +489,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 575000.0,
               "is_close": false,
               "date": "2026-11-24",
-              "title": "상승폭 확대 지속",
-              "text": "오전 중 상승 탄력이 이어지며 상승폭을 꾸준히 키워가는 모습을 보임"
+              "title": "우주항공 수혜 기대",
+              "text": "우주항공·방산 거점 육성에 대규모 예산이 투입된다는 소식에 상승폭이 한층 확대됨"
             },
             {
-              "time": "12:50PM",
-              "price": 631000.0,
-              "pct": 9.74,
+              "time": "1:00PM",
+              "price": 632000.0,
+              "pct": 9.91,
               "prev_close": 575000.0,
               "is_close": false,
               "date": "2026-11-24",
-              "title": "오름세 최고조 유지",
-              "text": "상생금융 지원 소식과 신사업 소식 속 상승폭을 더 키우며 이날 최고점권 유지 중"
+              "title": "장중 고가 경신 이어가",
+              "text": "오후 들어서도 상승 흐름이 이어지며 장중 신고가를 갈아치우는 등 강세를 계속 유지 중"
             }
           ],
           "slot_total": 4,
@@ -546,8 +546,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 123600.0,
               "is_close": false,
               "date": "2026-11-24",
-              "title": "장 초반 상승 출발",
-              "text": "개장 직후부터 오름세로 거래를 시작하며 강세 흐름으로 하루를 엶"
+              "title": "장 초반 강세 출발",
+              "text": "개장 직후부터 매수세가 몰리며 큰 폭의 상승세로 거래를 시작함"
             },
             {
               "time": "10:30AM",
@@ -556,18 +556,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 123600.0,
               "is_close": false,
               "date": "2026-11-24",
-              "title": "상승폭 급격히 확대",
-              "text": "오전 들어 상승폭이 크게 불어나며 두 자릿수 급등세로 전환됨"
+              "title": "상승폭 두 자릿수로 급등",
+              "text": "오전 중반 들어 상승폭이 크게 확대되며 두 자릿수 상승률까지 올라섬"
             },
             {
-              "time": "12:50PM",
-              "price": 144600.0,
-              "pct": 16.99,
+              "time": "1:00PM",
+              "price": 145300.0,
+              "pct": 17.56,
               "prev_close": 123600.0,
               "is_close": false,
               "date": "2026-11-24",
-              "title": "급등세 유지 중",
-              "text": "인사 전략과 온디바이스 AI 기대감 속 상승폭을 더 키우며 고점권 흐름 이어가는 중"
+              "title": "오후까지 강세 유지",
+              "text": "류재철 사장 수상 소식 등이 전해진 가운데 오후에도 상승 흐름이 꺾이지 않고 이날 중 가장 높은 수준을 이어가는 중"
             }
           ],
           "slot_total": 4,
@@ -613,8 +613,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 247500.0,
               "is_close": false,
               "date": "2026-11-24",
-              "title": "장 초반 소폭 상승",
-              "text": "개장 직후 완만한 오름세로 거래를 시작하며 하루를 열었음"
+              "title": "장 초반 완만한 상승",
+              "text": "개장 직후에는 비교적 완만한 상승세로 거래를 시작함"
             },
             {
               "time": "10:30AM",
@@ -623,18 +623,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 247500.0,
               "is_close": false,
               "date": "2026-11-24",
-              "title": "상승폭 큰 폭 확대",
-              "text": "오전 들어 상승 탄력이 강해지며 상승폭이 뚜렷하게 커지는 흐름을 보임"
+              "title": "오전 들어 상승폭 확대",
+              "text": "장 초반보다 상승폭이 크게 커지며 오전 중 상승 흐름이 뚜렷해짐"
             },
             {
-              "time": "12:50PM",
-              "price": 273000.0,
-              "pct": 10.3,
+              "time": "1:00PM",
+              "price": 275500.0,
+              "pct": 11.31,
               "prev_close": 247500.0,
               "is_close": false,
               "date": "2026-11-24",
-              "title": "오름세 꾸준히 확대",
-              "text": "안전관리 우수 연구실 선정 소식 속에서도 상승폭을 꾸준히 키우며 고점권 유지 중"
+              "title": "오후까지 상승세 지속",
+              "text": "전기상용차 ST1의 산불 대응 투입 소식이 전해진 가운데 오후 들어서도 상승폭이 더 커지며 강세를 이어가는 중"
             }
           ],
           "slot_total": 4,
@@ -665,7 +665,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-11-23-kr.md",
       "refreshed_at": "2026-11-23 18:01:13 KST",
-      "slots_refreshed_at": "2026-11-24 13:10:52 KST"
+      "slots_refreshed_at": "2026-11-24 14:55:49 KST"
     }
   }
 };
