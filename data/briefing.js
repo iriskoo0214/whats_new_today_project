@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-25 10:40:44 KST",
+  "generated_at": "2026-11-25 11:17:23 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -360,18 +360,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 1158000.0,
               "is_close": false,
               "date": "2026-11-25",
-              "title": "장 초반 급락 출발",
-              "text": "개장 직후부터 AI 반도체 관련 매도세가 몰리며 큰 폭으로 밀려 내림"
+              "title": "장 초반 낙폭 확대",
+              "text": "개장 직후부터 매도세가 유입되며 큰 폭으로 밀려나는 모습을 보임"
             },
             {
-              "time": "10:20AM",
-              "price": 1068000.0,
-              "pct": -7.77,
+              "time": "10:30AM",
+              "price": 1070000.0,
+              "pct": -7.6,
               "prev_close": 1158000.0,
               "is_close": false,
               "date": "2026-11-25",
-              "title": "낙폭 7%대로 확대",
-              "text": "소프트뱅크 급락 소식과 함께 삼성·SK하이닉스 동반 매도가 이어지며 하루 중 가장 큰 낙폭을 기록"
+              "title": "오전 내내 하락세 지속",
+              "text": "지분 유지 소식과 인재 유입 관련 기사에도 낙폭이 줄지 않고 오히려 더 커짐"
             }
           ],
           "slot_total": 4,
@@ -417,18 +417,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 189400.0,
               "is_close": false,
               "date": "2026-11-25",
-              "title": "장 초반 큰 폭 약세",
-              "text": "개장과 함께 반도체주 전반에 매도세가 유입되며 하락 출발"
+              "title": "장 초반 큰 폭 하락",
+              "text": "개장 직후부터 매도 우위가 뚜렷하며 낙폭이 점차 벌어지는 흐름을 보임"
             },
             {
-              "time": "10:20AM",
-              "price": 174600.0,
-              "pct": -7.81,
+              "time": "10:30AM",
+              "price": 174700.0,
+              "pct": -7.76,
               "prev_close": 189400.0,
               "is_close": false,
               "date": "2026-11-25",
-              "title": "낙폭 더 커진 모습",
-              "text": "메모리 과잉과 관세 우려로 투자심리가 급격히 식으며 낙폭이 전 시점보다 확대됨"
+              "title": "오전 내내 약세 지속",
+              "text": "HBM4E 성능 개선 소식이 나왔음에도 매수세가 붙지 못하며 하루 중 가장 낮은 수준까지 밀림"
             }
           ],
           "slot_total": 4,
@@ -474,18 +474,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 628000.0,
               "is_close": false,
               "date": "2026-11-25",
-              "title": "보합권서 상승 전환",
-              "text": "장 초반 소폭 약세로 출발했으나 이후 매수세가 유입되며 상승 반전"
+              "title": "장 초반 보합권 등락",
+              "text": "개장 직후에는 큰 변동 없이 보합권에서 소폭 약세로 출발하는 흐름을 보임"
             },
             {
-              "time": "10:20AM",
-              "price": 642000.0,
-              "pct": 2.23,
+              "time": "10:30AM",
+              "price": 647000.0,
+              "pct": 3.03,
               "prev_close": 628000.0,
               "is_close": false,
               "date": "2026-11-25",
-              "title": "방산 수출 소식에 강세",
-              "text": "자주도하장비 수룡의 해외 수출권 확보 소식이 전해지며 상승폭을 키움"
+              "title": "수출권 소식에 상승 전환",
+              "text": "수룡 수출권 확보 소식이 잇따라 전해지며 매수세가 유입되고 오전 중 강세로 돌아섬"
             }
           ],
           "slot_total": 4,
@@ -531,18 +531,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 143200.0,
               "is_close": false,
               "date": "2026-11-25",
-              "title": "장 초반 약세 지속",
-              "text": "개장 직후부터 하락세로 출발해 낙폭이 쉽게 줄지 않는 흐름"
+              "title": "장 초반 약세 출발",
+              "text": "개장 직후 매도세가 유입되며 큰 폭으로 밀려난 채 거래를 시작함"
             },
             {
-              "time": "10:20AM",
-              "price": 136100.0,
-              "pct": -4.96,
+              "time": "10:30AM",
+              "price": 138100.0,
+              "pct": -3.56,
               "prev_close": 143200.0,
               "is_close": false,
               "date": "2026-11-25",
-              "title": "낙폭 소폭 줄어듦",
-              "text": "전 시점 대비 하락폭이 미세하게 축소되며 비슷한 약세 흐름을 이어가는 중"
+              "title": "오전 들어 낙폭 축소",
+              "text": "6G 기술 검증 및 디자인상 수상 소식이 전해지며 장 초반 대비 낙폭을 다소 줄임"
             }
           ],
           "slot_total": 4,
@@ -589,17 +589,17 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-11-25",
               "title": "장 초반 소폭 약세",
-              "text": "개장 직후 소폭 하락하며 거래를 시작해 약세 흐름을 보임"
+              "text": "개장 직후 큰 변동 없이 소폭 하락세를 유지하며 거래를 시작함"
             },
             {
-              "time": "10:20AM",
-              "price": 270500.0,
-              "pct": -1.64,
+              "time": "10:30AM",
+              "price": 272000.0,
+              "pct": -1.09,
               "prev_close": 275000.0,
               "is_close": false,
               "date": "2026-11-25",
-              "title": "낙폭 다소 확대",
-              "text": "사회공헌 및 로봇 솔루션 관련 소식에도 매수세가 크게 붙지 않으며 하락폭이 커짐"
+              "title": "오전 내내 약보합 유지",
+              "text": "조기 인사 임박 소식 등에도 뚜렷한 반등 없이 소폭 약세 흐름이 이어지는 중"
             }
           ],
           "slot_total": 4,
@@ -630,7 +630,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-11-24-kr.md",
       "refreshed_at": "2026-11-24 18:01:00 KST",
-      "slots_refreshed_at": "2026-11-25 10:40:44 KST"
+      "slots_refreshed_at": "2026-11-25 11:17:23 KST"
     }
   }
 };
