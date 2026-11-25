@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-25 11:17:23 KST",
+  "generated_at": "2026-11-25 13:10:35 KST",
   "refreshed": [],
   "slots_refreshed": [
     "kr"
@@ -360,8 +360,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 1158000.0,
               "is_close": false,
               "date": "2026-11-25",
-              "title": "장 초반 낙폭 확대",
-              "text": "개장 직후부터 매도세가 유입되며 큰 폭으로 밀려나는 모습을 보임"
+              "title": "장 초반 급락 출발",
+              "text": "개장 직후부터 매물이 쏟아지며 낙폭이 크게 벌어진 채 거래를 이어감"
             },
             {
               "time": "10:30AM",
@@ -370,8 +370,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 1158000.0,
               "is_close": false,
               "date": "2026-11-25",
-              "title": "오전 내내 하락세 지속",
-              "text": "지분 유지 소식과 인재 유입 관련 기사에도 낙폭이 줄지 않고 오히려 더 커짐"
+              "title": "낙폭 확대 지속",
+              "text": "오전 내내 하락세가 이어지며 장 초반보다 하락폭이 더 커진 상태로 진행"
+            },
+            {
+              "time": "12:50PM",
+              "price": 1052000.0,
+              "pct": -9.15,
+              "prev_close": 1158000.0,
+              "is_close": false,
+              "date": "2026-11-25",
+              "title": "하루 중 최저 수준",
+              "text": "이익잉여금 비중이 크다는 소식에도 매수세 유입 없이 낙폭이 오전보다 더 깊어짐"
             }
           ],
           "slot_total": 4,
@@ -418,7 +428,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-11-25",
               "title": "장 초반 큰 폭 하락",
-              "text": "개장 직후부터 매도 우위가 뚜렷하며 낙폭이 점차 벌어지는 흐름을 보임"
+              "text": "개장과 동시에 급락하며 하루 중 낙폭이 가파르게 벌어진 채 거래 시작"
             },
             {
               "time": "10:30AM",
@@ -427,8 +437,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 189400.0,
               "is_close": false,
               "date": "2026-11-25",
-              "title": "오전 내내 약세 지속",
-              "text": "HBM4E 성능 개선 소식이 나왔음에도 매수세가 붙지 못하며 하루 중 가장 낮은 수준까지 밀림"
+              "title": "낙폭 더 커짐",
+              "text": "오전 내내 하락세가 이어지며 장 초반보다 하락폭이 한층 확대된 모습"
+            },
+            {
+              "time": "12:50PM",
+              "price": 172000.0,
+              "pct": -9.19,
+              "prev_close": 189400.0,
+              "is_close": false,
+              "date": "2026-11-25",
+              "title": "저점 경신 흐름",
+              "text": "반도체 하청 노동자 사망 소식까지 전해진 가운데 낙폭이 하루 중 가장 크게 벌어짐"
             }
           ],
           "slot_total": 4,
@@ -474,8 +494,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 628000.0,
               "is_close": false,
               "date": "2026-11-25",
-              "title": "장 초반 보합권 등락",
-              "text": "개장 직후에는 큰 변동 없이 보합권에서 소폭 약세로 출발하는 흐름을 보임"
+              "title": "보합권 출발",
+              "text": "장 초반에는 전일 대비 큰 변동 없이 보합권 수준에서 거래를 시작함"
             },
             {
               "time": "10:30AM",
@@ -484,8 +504,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 628000.0,
               "is_close": false,
               "date": "2026-11-25",
-              "title": "수출권 소식에 상승 전환",
-              "text": "수룡 수출권 확보 소식이 잇따라 전해지며 매수세가 유입되고 오전 중 강세로 돌아섬"
+              "title": "상승 전환 후 강세",
+              "text": "오전 중 상승세로 돌아서며 장 초반보다 뚜렷하게 오름폭을 키운 흐름"
+            },
+            {
+              "time": "12:50PM",
+              "price": 630000.0,
+              "pct": 0.32,
+              "prev_close": 628000.0,
+              "is_close": false,
+              "date": "2026-11-25",
+              "title": "오름폭 대부분 반납",
+              "text": "로봇 투자 철회와 가동 중단 여파 소식이 전해지며 오전 상승분을 상당폭 되돌림"
             }
           ],
           "slot_total": 4,
@@ -532,7 +562,7 @@ window.NOTEFOLIO_BRIEFING = {
               "is_close": false,
               "date": "2026-11-25",
               "title": "장 초반 약세 출발",
-              "text": "개장 직후 매도세가 유입되며 큰 폭으로 밀려난 채 거래를 시작함"
+              "text": "개장 직후 하락하며 장 초반 낙폭이 비교적 크게 형성된 채 거래 시작"
             },
             {
               "time": "10:30AM",
@@ -541,8 +571,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 143200.0,
               "is_close": false,
               "date": "2026-11-25",
-              "title": "오전 들어 낙폭 축소",
-              "text": "6G 기술 검증 및 디자인상 수상 소식이 전해지며 장 초반 대비 낙폭을 다소 줄임"
+              "title": "낙폭 다소 축소",
+              "text": "오전 중반 들어 장 초반보다 하락폭을 일부 줄이며 낙폭이 완화된 모습"
+            },
+            {
+              "time": "12:50PM",
+              "price": 136800.0,
+              "pct": -4.47,
+              "prev_close": 143200.0,
+              "is_close": false,
+              "date": "2026-11-25",
+              "title": "다시 하락폭 커짐",
+              "text": "미래사업 투자 확대 소식에도 매수세가 이어지지 못하며 오전 중반보다 낙폭이 다시 벌어짐"
             }
           ],
           "slot_total": 4,
@@ -588,8 +628,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 275000.0,
               "is_close": false,
               "date": "2026-11-25",
-              "title": "장 초반 소폭 약세",
-              "text": "개장 직후 큰 변동 없이 소폭 하락세를 유지하며 거래를 시작함"
+              "title": "소폭 약세 출발",
+              "text": "장 초반에는 전일 대비 낙폭이 크지 않은 수준에서 거래를 시작함"
             },
             {
               "time": "10:30AM",
@@ -598,8 +638,18 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 275000.0,
               "is_close": false,
               "date": "2026-11-25",
-              "title": "오전 내내 약보합 유지",
-              "text": "조기 인사 임박 소식 등에도 뚜렷한 반등 없이 소폭 약세 흐름이 이어지는 중"
+              "title": "낙폭 소폭 확대",
+              "text": "오전 중반 들어 장 초반보다 하락폭이 조금 더 커지며 약세가 이어짐"
+            },
+            {
+              "time": "12:50PM",
+              "price": 269500.0,
+              "pct": -2.0,
+              "prev_close": 275000.0,
+              "is_close": false,
+              "date": "2026-11-25",
+              "title": "하루 중 낙폭 최대",
+              "text": "유럽 시장에서 경쟁사에 추월당했다는 소식이 전해진 가운데 낙폭이 오전보다 더 벌어짐"
             }
           ],
           "slot_total": 4,
@@ -630,7 +680,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-11-24-kr.md",
       "refreshed_at": "2026-11-24 18:01:00 KST",
-      "slots_refreshed_at": "2026-11-25 11:17:23 KST"
+      "slots_refreshed_at": "2026-11-25 13:10:35 KST"
     }
   }
 };
