@@ -1,10 +1,10 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-25 18:00:52 KST",
-  "refreshed": [
-    "kr"
+  "generated_at": "2026-11-25 23:10:47 KST",
+  "refreshed": [],
+  "slots_refreshed": [
+    "us"
   ],
-  "slots_refreshed": [],
   "default": "kr",
   "markets": {
     "us": {
@@ -51,8 +51,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 233.0,
               "is_close": false,
               "date": "2026-11-24",
-              "title": "장중 약세 흐름",
-              "text": "공매도 세력의 시각이 거론되는 가운데 장중에는 전일 대비 소폭 하락세를 보임"
+              "title": "장 후반 약보합",
+              "text": "애저 통합 확대 소식과 밸류에이션 논란 속에 오후 들어 약세 흐름이 이어지는 중"
             },
             {
               "time": "마감",
@@ -61,8 +61,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 233.0,
               "is_close": true,
               "date": "2026-11-24",
-              "title": "막판 반등 성공",
-              "text": "엔비디아·페르미와의 양자컴퓨팅 공동연구 소식이 전해진 뒤 낙폭을 지우고 상승 전환하며 마감"
+              "title": "상승 전환 마감",
+              "text": "장중 약세를 뒤로하고 막판 매수세가 유입되며 플러스권으로 올라선 채 하루를 마무리"
             }
           ],
           "slot_total": 2,
@@ -108,8 +108,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 492.5,
               "is_close": false,
               "date": "2026-11-24",
-              "title": "장중 소폭 조정",
-              "text": "AI 투자처로 안전하다는 평가가 나온 가운데서도 장중에는 약보합권에서 거래됨"
+              "title": "장 후반 약세 전환",
+              "text": "서비스 중단 적색 경보와 AI 투자 부담 논란이 겹치며 오후 들어 하락세로 돌아선 흐름"
             },
             {
               "time": "마감",
@@ -118,8 +118,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 492.5,
               "is_close": true,
               "date": "2026-11-24",
-              "title": "반등하며 마감",
-              "text": "코드레드 선포와 윈도11 개선 계획 소식이 이어지며 장 후반 낙폭을 되돌리고 상승 마감"
+              "title": "반등 마감",
+              "text": "장중 약세를 딛고 매수세가 재유입되며 상승 전환에 성공한 채 하루를 마무리"
             }
           ],
           "slot_total": 2,
@@ -165,8 +165,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 23.34000015258789,
               "is_close": false,
               "date": "2026-11-24",
-              "title": "동반 하락 지속",
-              "text": "디웨이브·리게티 등 양자컴퓨팅주 전반이 급등분을 반납하는 흐름 속에 장중 약세가 이어짐"
+              "title": "낙폭 확대",
+              "text": "양자산업 협력 소식과 스팩 합병 투자 발표에도 매수세가 붙지 않으며 약세가 이어지는 중"
             },
             {
               "time": "마감",
@@ -175,8 +175,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 23.34000015258789,
               "is_close": true,
               "date": "2026-11-24",
-              "title": "낙폭 더 커지며 마감",
-              "text": "목표가 상향 소식에도 업종 전반의 조정 분위기를 벗어나지 못하며 하락폭이 장중보다 확대돼 마감"
+              "title": "낙폭 더 키우며 마감",
+              "text": "목표가 상향 소식까지 나왔지만 반등하지 못하고 하루 중 가장 큰 낙폭으로 거래를 마무리"
             }
           ],
           "slot_total": 2,
@@ -217,13 +217,13 @@ window.NOTEFOLIO_BRIEFING = {
           "slots": [
             {
               "time": "11:30PM",
-              "price": 159.75999450683594,
-              "pct": -3.21,
+              "price": 159.05999755859375,
+              "pct": -3.63,
               "prev_close": 165.0500030517578,
               "is_close": false,
               "date": "2026-11-24",
-              "title": "급등 뒤 조정",
-              "text": "전일 급등 이후 차익 매물이 나오며 장중 하락세가 뚜렷하게 나타남"
+              "title": "AI주 전반 급락",
+              "text": "인플레 지표 충격에 AI 거래 이탈 흐름이 겹치며 낙폭이 빠르게 커지는 모습이 이어지는 중"
             },
             {
               "time": "마감",
@@ -232,8 +232,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 165.0500030517578,
               "is_close": true,
               "date": "2026-11-24",
-              "title": "낙폭 확대 마감",
-              "text": "추격 매수보다 다른 종목을 택하라는 의견이 돌며 하락폭이 장중보다 더 커진 채 마감"
+              "title": "낙폭 더 키우며 마감",
+              "text": "AMD, 마이크론 등 반도체주 동반 급락 속에 하루 중 가장 큰 낙폭을 기록하며 거래를 마무리"
             }
           ],
           "slot_total": 2,
@@ -279,8 +279,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 13.09000015258789,
               "is_close": false,
               "date": "2026-11-24",
-              "title": "장중 약세 유지",
-              "text": "투자의견을 둘러싼 논의가 이어지는 가운데 장중 내내 전일 대비 약세 흐름을 보임"
+              "title": "약세 흐름 지속",
+              "text": "목표주가 강세론이 나왔음에도 매수세로 이어지지 못하며 하락세가 이어지는 중"
             },
             {
               "time": "마감",
@@ -289,8 +289,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 13.09000015258789,
               "is_close": true,
               "date": "2026-11-24",
-              "title": "낙폭 소폭 확대",
-              "text": "수석부사장의 자사주 매도 소식이 전해진 뒤 하락폭이 장중보다 더 커지며 마감"
+              "title": "낙폭 다소 키우며 마감",
+              "text": "대출 사업 밖 성과에 대한 기대에도 반등하지 못하고 약세폭을 소폭 키운 채 거래를 마무리"
             }
           ],
           "slot_total": 2,
@@ -313,7 +313,8 @@ window.NOTEFOLIO_BRIEFING = {
         }
       ],
       "markdown": "briefings/2026-11-25-us.md",
-      "refreshed_at": "2026-11-25 07:01:02 KST"
+      "refreshed_at": "2026-11-25 07:01:02 KST",
+      "slots_refreshed_at": "2026-11-25 23:10:47 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
