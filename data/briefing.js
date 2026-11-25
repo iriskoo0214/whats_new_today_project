@@ -1,10 +1,10 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-25 07:01:02 KST",
-  "refreshed": [
-    "us"
+  "generated_at": "2026-11-25 09:20:47 KST",
+  "refreshed": [],
+  "slots_refreshed": [
+    "kr"
   ],
-  "slots_refreshed": [],
   "default": "us",
   "markets": {
     "us": {
@@ -354,44 +354,14 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-24",
           "slots": [
             {
-              "time": "9:10AM",
-              "price": 1182000.0,
-              "pct": 8.94,
-              "prev_close": 1085000.0,
+              "time": "9:00AM",
+              "price": 1085000.0,
+              "pct": -6.3,
+              "prev_close": 1158000.0,
               "is_close": false,
-              "date": "2026-11-24",
-              "title": "장 초반 급등 출발",
-              "text": "개장 직후부터 큰 폭으로 뛰어오르며 코스피 강세 흐름에 올라탄 모습으로 하루를 시작함"
-            },
-            {
-              "time": "10:30AM",
-              "price": 1198000.0,
-              "pct": 10.41,
-              "prev_close": 1085000.0,
-              "is_close": false,
-              "date": "2026-11-24",
-              "title": "상승폭 더 키워",
-              "text": "오전 내내 상승세가 이어지며 장중 고점을 새로 갈아치우는 강한 흐름을 보여줌"
-            },
-            {
-              "time": "1:00PM",
-              "price": 1184000.0,
-              "pct": 9.12,
-              "prev_close": 1085000.0,
-              "is_close": false,
-              "date": "2026-11-24",
-              "title": "오름폭 다소 줄어",
-              "text": "오전 고점 대비 상승폭이 소폭 줄었지만 여전히 두 자릿수에 가까운 강세를 유지 중"
-            },
-            {
-              "time": "마감",
-              "price": 1158000.0,
-              "pct": 6.73,
-              "prev_close": 1085000.0,
-              "is_close": true,
-              "date": "2026-11-24",
-              "title": "상승폭 축소 마감",
-              "text": "오후 들어 상승분을 일부 반납하며 장중 고점보다 낮은 수준에서 하루를 마감함"
+              "date": "2026-11-25",
+              "title": "장 초반 급락 출발",
+              "text": "美 기술주 급락 여파로 프리마켓부터 하락 압력을 받으며 장 초반 낙폭이 크게 벌어짐"
             }
           ],
           "slot_total": 4,
@@ -431,44 +401,14 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-24",
           "slots": [
             {
-              "time": "9:10AM",
-              "price": 190300.0,
-              "pct": 7.21,
-              "prev_close": 177500.0,
+              "time": "9:00AM",
+              "price": 178600.0,
+              "pct": -5.7,
+              "prev_close": 189400.0,
               "is_close": false,
-              "date": "2026-11-24",
-              "title": "장 초반 강세 출발",
-              "text": "개장 직후부터 상승세를 타며 코스피 전반의 급등 분위기에 동참하는 모습을 보임"
-            },
-            {
-              "time": "10:30AM",
-              "price": 191700.0,
-              "pct": 8.0,
-              "prev_close": 177500.0,
-              "is_close": false,
-              "date": "2026-11-24",
-              "title": "상승폭 확대 지속",
-              "text": "오전 상승세가 그대로 이어지며 장중 고점을 다시 경신하는 흐름을 이어감"
-            },
-            {
-              "time": "1:00PM",
-              "price": 192700.0,
-              "pct": 8.56,
-              "prev_close": 177500.0,
-              "is_close": false,
-              "date": "2026-11-24",
-              "title": "장중 최고점 경신",
-              "text": "오후 들어서도 오름세가 꺾이지 않으며 하루 중 가장 높은 수준까지 올라섬"
-            },
-            {
-              "time": "마감",
-              "price": 189400.0,
-              "pct": 6.7,
-              "prev_close": 177500.0,
-              "is_close": true,
-              "date": "2026-11-24",
-              "title": "오름폭 줄이며 마감",
-              "text": "장중 최고점을 찍은 뒤 오후 들어 상승분을 일부 반납하며 하루를 마무리함"
+              "date": "2026-11-25",
+              "title": "동반 급락 출발",
+              "text": "美 반도체주 급락 소식이 전해지며 SK하이닉스와 함께 장 초반부터 큰 폭 하락세로 출발"
             }
           ],
           "slot_total": 4,
@@ -508,44 +448,14 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-24",
           "slots": [
             {
-              "time": "9:10AM",
-              "price": 617000.0,
-              "pct": 7.3,
-              "prev_close": 575000.0,
+              "time": "9:00AM",
+              "price": 622000.0,
+              "pct": -0.96,
+              "prev_close": 628000.0,
               "is_close": false,
-              "date": "2026-11-24",
-              "title": "장 초반 강세 출발",
-              "text": "개장과 함께 큰 폭으로 오르며 방산 관련 기대감 속에 상승 흐름을 시작함"
-            },
-            {
-              "time": "10:30AM",
-              "price": 627000.0,
-              "pct": 9.04,
-              "prev_close": 575000.0,
-              "is_close": false,
-              "date": "2026-11-24",
-              "title": "오름세 꾸준히 확대",
-              "text": "오전 상승 흐름이 이어지며 두 자릿수에 가까운 오름폭으로 상승폭을 키워감"
-            },
-            {
-              "time": "1:00PM",
-              "price": 632000.0,
-              "pct": 9.91,
-              "prev_close": 575000.0,
-              "is_close": false,
-              "date": "2026-11-24",
-              "title": "장중 최고점 근접",
-              "text": "오후 들어서도 상승세가 이어지며 하루 중 가장 높은 수준까지 올라선 모습"
-            },
-            {
-              "time": "마감",
-              "price": 628000.0,
-              "pct": 9.22,
-              "prev_close": 575000.0,
-              "is_close": true,
-              "date": "2026-11-24",
-              "title": "상승폭 소폭 축소",
-              "text": "로봇 투자 협상 결렬 소식이 전해진 뒤 오름폭이 다소 줄어든 채 하루를 마감함"
+              "date": "2026-11-25",
+              "title": "소폭 약세 출발",
+              "text": "수룡 수출 자격 획득 소식에도 매수세로 이어지지 못하며 장 초반 약보합권에서 거래"
             }
           ],
           "slot_total": 4,
@@ -585,44 +495,14 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-24",
           "slots": [
             {
-              "time": "9:10AM",
-              "price": 133100.0,
-              "pct": 7.69,
-              "prev_close": 123600.0,
+              "time": "9:00AM",
+              "price": 136700.0,
+              "pct": -4.54,
+              "prev_close": 143200.0,
               "is_close": false,
-              "date": "2026-11-24",
-              "title": "장 초반 강세 출발",
-              "text": "개장 직후부터 상승세를 타며 코스피 급등 분위기 속에 오름세로 출발함"
-            },
-            {
-              "time": "10:30AM",
-              "price": 143800.0,
-              "pct": 16.34,
-              "prev_close": 123600.0,
-              "is_close": false,
-              "date": "2026-11-24",
-              "title": "상승폭 크게 확대",
-              "text": "오전 들어 오름폭이 크게 불어나며 두 자릿수 상승률로 올라서는 급등세를 보임"
-            },
-            {
-              "time": "1:00PM",
-              "price": 145300.0,
-              "pct": 17.56,
-              "prev_close": 123600.0,
-              "is_close": false,
-              "date": "2026-11-24",
-              "title": "장중 최고점 경신",
-              "text": "젠슨 황 복귀 소식이 전해진 가운데 오후 들어 하루 중 가장 높은 수준까지 올라섬"
-            },
-            {
-              "time": "마감",
-              "price": 143200.0,
-              "pct": 15.86,
-              "prev_close": 123600.0,
-              "is_close": true,
-              "date": "2026-11-24",
-              "title": "오름폭 줄이며 유지",
-              "text": "장중 고점을 찍은 뒤 상승분을 소폭 반납했지만 여전히 큰 폭의 오름세를 이어가는 중"
+              "date": "2026-11-25",
+              "title": "약세 속 기술 호재",
+              "text": "KT와 6G 핵심기술 검증 소식이 전해졌지만 반도체주 급락 여파에 밀리며 약세로 출발"
             }
           ],
           "slot_total": 4,
@@ -662,44 +542,14 @@ window.NOTEFOLIO_BRIEFING = {
           "as_of": "2026-11-24",
           "slots": [
             {
-              "time": "9:10AM",
-              "price": 255500.0,
-              "pct": 3.23,
-              "prev_close": 247500.0,
+              "time": "9:00AM",
+              "price": 269000.0,
+              "pct": -2.18,
+              "prev_close": 275000.0,
               "is_close": false,
-              "date": "2026-11-24",
-              "title": "장 초반 소폭 상승",
-              "text": "개장 직후에는 완만한 오름세로 출발하며 다른 대형주 대비 상승폭이 크지 않았음"
-            },
-            {
-              "time": "10:30AM",
-              "price": 268500.0,
-              "pct": 8.48,
-              "prev_close": 247500.0,
-              "is_close": false,
-              "date": "2026-11-24",
-              "title": "상승폭 큰 폭 확대",
-              "text": "오전 중반 들어 오름세가 가팔라지며 상승폭이 눈에 띄게 불어나는 흐름을 보임"
-            },
-            {
-              "time": "1:00PM",
-              "price": 275500.0,
-              "pct": 11.31,
-              "prev_close": 247500.0,
-              "is_close": false,
-              "date": "2026-11-24",
-              "title": "장중 최고점 경신",
-              "text": "코스피 급등 흐름 속에 다른 자동차 관련주들과 함께 하루 중 가장 높은 수준까지 올라섬"
-            },
-            {
-              "time": "마감",
-              "price": 275000.0,
-              "pct": 11.11,
-              "prev_close": 247500.0,
-              "is_close": true,
-              "date": "2026-11-24",
-              "title": "강세 흐름 유지 중",
-              "text": "장중 고점에서 소폭 내려왔지만 두 자릿수 상승률을 유지하며 강세를 이어가는 중"
+              "date": "2026-11-25",
+              "title": "장 초반 약세 지속",
+              "text": "완속충전기 통합 등 호재성 소식에도 불구하고 장 초반부터 하락세를 벗어나지 못함"
             }
           ],
           "slot_total": 4,
@@ -729,7 +579,8 @@ window.NOTEFOLIO_BRIEFING = {
         }
       ],
       "markdown": "briefings/2026-11-24-kr.md",
-      "refreshed_at": "2026-11-24 18:01:00 KST"
+      "refreshed_at": "2026-11-24 18:01:00 KST",
+      "slots_refreshed_at": "2026-11-25 09:20:47 KST"
     }
   }
 };
