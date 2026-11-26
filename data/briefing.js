@@ -1,6 +1,6 @@
 /* 자동 생성 — pipeline/run_daily.py가 덮어쓴다. 직접 고치지 마세요. */
 window.NOTEFOLIO_BRIEFING = {
-  "generated_at": "2026-11-26 23:10:47 KST",
+  "generated_at": "2026-11-26 23:59:48 KST",
   "refreshed": [],
   "slots_refreshed": [
     "us"
@@ -51,8 +51,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 235.6199951171875,
               "is_close": false,
               "date": "2026-11-25",
-              "title": "장 후반 상승폭 확대",
-              "text": "양자컴퓨팅과 금융 보안 관련 소식이 잇따라 전해지며 오후 들어 매수세가 유입된 모습"
+              "title": "상승 마감",
+              "text": "양자컴퓨팅과 금융 보안 관련 소식이 잇따르며 오름세로 하루를 마감함"
             },
             {
               "time": "마감",
@@ -61,8 +61,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 235.6199951171875,
               "is_close": true,
               "date": "2026-11-25",
-              "title": "강세 흐름 유지 중",
-              "text": "경기도 양자산업 협력 소식까지 더해지며 하루 중 가장 높은 수준에서 상승세를 이어가는 흐름"
+              "title": "야간 약세 전환",
+              "text": "정규장 상승분을 지키지 못하고 다음날 새벽 시간대에 들어 하락 전환하며 밀림"
             }
           ],
           "slot_total": 2,
@@ -108,8 +108,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 496.1300048828125,
               "is_close": false,
               "date": "2026-11-25",
-              "title": "약세 흐름 지속",
-              "text": "잉여현금흐름 감소 소식이 전해진 이후 매수세가 살아나지 못하며 하락세가 이어지는 모습"
+              "title": "하락 마감",
+              "text": "잉여현금흐름 감소 소식 등이 부담으로 작용하며 약세로 하루를 마무리함"
             },
             {
               "time": "마감",
@@ -118,8 +118,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 496.1300048828125,
               "is_close": true,
               "date": "2026-11-25",
-              "title": "낙폭 다소 줄어",
-              "text": "장 후반 들어 저점에서 다소 반등하며 하루 중 가장 컸던 낙폭을 소폭 만회하는 흐름"
+              "title": "낙폭 확대",
+              "text": "현금흐름 둔화 우려가 부각된 이후 매도세가 이어지며 하락폭이 더 커짐"
             }
           ],
           "slot_total": 2,
@@ -165,8 +165,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 22.399999618530273,
               "is_close": false,
               "date": "2026-11-25",
-              "title": "실적 호재에 강세",
-              "text": "사상 최대 실적 달성 소식과 양자산업 협력 기대감이 겹치며 상승세로 하루를 이어가는 흐름"
+              "title": "실적 기대에 반등",
+              "text": "사상 최고 실적 기록 소식에 강세론이 힘을 받으며 상승 마감함"
             },
             {
               "time": "마감",
@@ -175,8 +175,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 22.399999618530273,
               "is_close": true,
               "date": "2026-11-25",
-              "title": "상승폭 축소 전환",
-              "text": "월가 일부 전문가의 조심스러운 시각이 더해지며 장 후반 들어 상승 흐름이 한풀 꺾인 모습"
+              "title": "상승분 반납",
+              "text": "호실적 기대로 올랐던 흐름이 꺾이며 야간 거래에서 큰 폭으로 되밀림"
             }
           ],
           "slot_total": 2,
@@ -222,8 +222,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 155.3800048828125,
               "is_close": false,
               "date": "2026-11-25",
-              "title": "낙폭 확대 지속",
-              "text": "새 반도체 규제 소식이 전해진 이후 매도세가 강해지며 하락폭이 점차 벌어지는 흐름"
+              "title": "약세 마감",
+              "text": "젠슨 황 복귀 소식에도 불구하고 매수세가 붙지 않아 하락으로 마감함"
             },
             {
               "time": "마감",
@@ -232,8 +232,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 155.3800048828125,
               "is_close": true,
               "date": "2026-11-25",
-              "title": "저점 부근 약세",
-              "text": "밸류에이션 재조정 우려와 리더십 전환 이슈까지 겹치며 하루 중 가장 낮은 수준에서 머무는 모습"
+              "title": "낙폭 더 커짐",
+              "text": "신용등급 우려가 부각된 이후 하락폭이 정규장보다 한층 더 확대됨"
             }
           ],
           "slot_total": 2,
@@ -279,8 +279,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 12.859999656677246,
               "is_close": false,
               "date": "2026-11-25",
-              "title": "저가 매수에 반등",
-              "text": "52주 최저치 하락 이후 개인투자자들의 저가 매수세가 유입되며 낮 동안 상승 전환"
+              "title": "저가 매수 반등",
+              "text": "52주 최저치 추락 후 개인투자자 매수세 유입되며 상승 전환해 마감함"
             },
             {
               "time": "마감",
@@ -289,8 +289,8 @@ window.NOTEFOLIO_BRIEFING = {
               "prev_close": 12.859999656677246,
               "is_close": true,
               "date": "2026-11-25",
-              "title": "상승분 일부 반납",
-              "text": "오전에 확보한 상승폭을 지키지 못하고 장 후반 들어 다시 밀리는 흐름을 보이는 모습"
+              "title": "상승분 되돌림",
+              "text": "저가 매수로 반등했던 흐름이 꺾이며 야간 거래에서 하락폭이 크게 벌어짐"
             }
           ],
           "slot_total": 2,
@@ -307,7 +307,7 @@ window.NOTEFOLIO_BRIEFING = {
       ],
       "markdown": "briefings/2026-11-26-us.md",
       "refreshed_at": "2026-11-26 07:00:58 KST",
-      "slots_refreshed_at": "2026-11-26 23:10:47 KST"
+      "slots_refreshed_at": "2026-11-26 23:59:48 KST"
     },
     "kr": {
       "icon": "assets/moon.svg",
